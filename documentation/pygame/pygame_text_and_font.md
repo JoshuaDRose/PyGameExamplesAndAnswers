@@ -99,11 +99,13 @@ Related Stack Overflow questions:
 
   :scroll: **[minimal example - Outline](../../examples/minimal_examples/pygame_minimal_text_outline.py)**
 
-- [How to create a text input box with pygame?](https://stackoverflow.com/questions/46390231/how-to-create-a-text-input-box-with-pygame)  
+- [How to create a text input box with pygame?](https://stackoverflow.com/questions/46390231/how-to-create-a-text-input-box-with-pygame/64613666#64613666)  
   [How to make a string's content appears on screen as we type on keyboard?](https://stackoverflow.com/questions/60455692/how-to-make-a-strings-content-appears-on-screen-as-we-type-on-keyboard/60456556#60456556)  
   [How to allow the user to type only under certain conditions in pygame?](https://stackoverflow.com/questions/64254687/how-to-allow-the-user-to-type-only-under-certain-conditions-in-pygame)  
   ![How to create a text input box with pygame?](https://i.stack.imgur.com/2X5Se.gif)
   ![How to create a text input box with pygame?](https://i.stack.imgur.com/XDz5b.gif)
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TextInput](https://repl.it/@Rabbid76/PyGame-TextInput#main.py)</kbd>
   
 - [Rendering text with multiple lines in pygame](https://stackoverflow.com/questions/42014195/rendering-text-with-multiple-lines-in-pygame/64598520#64598520)  
   [Python/Pygame make text in Pygame wrap when in leaves the window](https://stackoverflow.com/questions/64273966/python-pygame-make-text-in-pygame-wrap-when-in-leaves-the-window)  

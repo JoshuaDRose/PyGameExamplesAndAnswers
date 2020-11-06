@@ -5,7 +5,7 @@
 # https://www.pygame.org/docs/ref/sprite.html
 #
 # How to create a text input box with pygame?
-# https://stackoverflow.com/questions/46390231/how-to-create-a-text-input-box-with-pygame
+# https://stackoverflow.com/questions/46390231/how-to-create-a-text-input-box-with-pygame/64613666#64613666
 #
 # How to allow the user to type only under certain conditions in pygame?
 # https://stackoverflow.com/questions/64254687/how-to-allow-the-user-to-type-only-under-certain-conditions-in-pygame  
@@ -15,6 +15,8 @@
 #
 # GitHub - Sprite, Group and Sprite mask - Text input
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_sprite_and_sprite_mask.md
+#
+# https://repl.it/@Rabbid76/PyGame-SpriteTextInput#main.py
 
 import pygame
 
