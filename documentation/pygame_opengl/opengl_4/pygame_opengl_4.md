@@ -10,7 +10,6 @@
 
 Related Stack Overflow questions:
 
-- [Pygame OpenGL 3D Cube Lag](https://stackoverflow.com/questions/50312760/pygame-opengl-3d-cube-lag)  
 - [Can't get glVertexAttribPointer to render colour from shaders](https://stackoverflow.com/questions/59898858/cant-get-glvertexattribpointer-to-render-colour-from-shaders/59899044#59899044)  
 
 If a named buffer object is bound, then the 5th parameter of [`glVertexAttribPointer`](http://pyopengl.sourceforge.net/documentation/manual-3.0/glVertexAttribPointer.html) is treated as a byte offset into the buffer object's data store. However, the type of the parameter is still a pointer (`c_void_p`).  
@@ -21,6 +20,15 @@ Hence the offset must be cast with [`c_void_p`](https://docs.python.org/3/librar
 loc_col = glGetAttribLocation(shader_program, "color")
 glVertexAttribPointer(loc_col, 3, GL_FLOAT, False, 6*4, ctypes.c_void_p(3*4))
 ```
+
+## Mesh
+
+Related Stack Overflow questions:
+
+- [Pygame OpenGL 3D Cube Lag](https://stackoverflow.com/questions/50312760/pygame-opengl-3d-cube-lag/50314047#50314047)  
+  ![PyGame OpenGL 3D Cube Lag](https://i.stack.imgur.com/Go9Ym.gif)
+
+  :scroll: **[OpenGL immediate mode - Draw a cube with outline](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_mesh_cube_outline.py)**
 
 ## Clipping and Stencil
 

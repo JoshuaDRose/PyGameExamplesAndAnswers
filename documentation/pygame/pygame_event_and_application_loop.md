@@ -26,6 +26,59 @@ The typical PyGame application loop has to:
 
 <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MinimalApplicationLoop](https://repl.it/@Rabbid76/PyGame-MinimalApplicationLoop#main.py)</kbd>
 
+### Recursiveness
+
+Related Stack Overflow questions:
+
+- [Reset and restart pygame program doesn't work](https://stackoverflow.com/questions/64715107/reset-and-restart-pygame-program-doesnt-work/64715310#64715310)
+
+You've overcomplicated the system. What you are actually doing is recursively instantiating a new `Gui` object and new application loop into an existing `Gui` object and application loop.
+If `GameState` is implemented correctly, it should be sufficient to create a new `GameState` object and continue the existing application loop instead of recursively creating a new `Gui` instance:
+
+```py
+import board as b
+
+class Gui():
+    def __init__(self):
+        pygame.init()
+
+        self.gamestate = b.GameState()
+
+    def run(self):
+
+        running = True
+        while running:
+
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    running = False
+                    pygame.quit()
+
+                if event.type == pygame.KEYDOWN:
+                    if event.key == pygame.K_r:
+                        self.gamestate = b.GameState()
+
+            # [...]
+
+if __name__ == '__main__':
+    Gui().run()
+```
+
+The instruction `self.board = s.start_position` doesn't create a new board object. `self.board` and `s.start_position` refer to the same object. If you change one of the objects, the other object seems to change in the same way since there is only one object.  
+Either you need to make a deep copy of the board object when you start the game or you need to reset the object when the game restarts.
+
+A solution might be to use the Python [`copy`](https://docs.python.org/3/library/copy.html) module. `deepcopy` can create a deep copy of an object: 
+
+```py
+import copy
+```
+
+```py
+self.board = copy.deepcopy(s.start_position)`
+```
+
+Note, not all object can be _deep_ copied. For instance a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) cannot be _deep_ copied. 
+
 ## Flickering
 
 Related Stack Overflow questions:

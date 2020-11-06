@@ -142,4 +142,22 @@ Shapes class like circle, ellipse, triangle, polygon etc. based on `pygame.Recta
 
 ## Platform game
 
-Intersect with lines instead of rectangles. Optionally lines can have an intersecting and a non intersecting side (normal vector). The intersection with blocks can be determined by the intersection with 1, 3 or 4 lines, where the intersection just works if the object comes from the "outside" the block and not from "inside" the bolck.  
+Intersect with lines instead of rectangles. Optionally lines can have an intersecting and a non intersecting side (normal vector). The intersection with blocks can be determined by the intersection with 1, 3 or 4 lines, where the intersection just works if the object comes from the "outside" the block and not from "inside" the block.
+
+## Collision
+
+### Triangle
+
+Barycentric cooridnates of triangle ([Drawing a triangle in OpenGL fragment shader](https://stackoverflow.com/questions/64705636/drawing-a-triangle-in-opengl-fragment-shader/64712122#64712122)):
+
+```lang-none
+--------------------------------------------------------
+| s |           | (p1.a - p0.a) , (p2.a - p0.a) , p0.a |   | p.a |
+| t | = inverse | (p1.b - p0.b) , (p2.b - p0.b) , p0.b | * | p.b |
+| 1 |           |       0       ,       0       ,   1  |   |  1  |
+------------------------------------------------------------------
+```
+
+```lang-none
+in triangle = (s+t) <= 1.0 && s >= 0 && t >= 0
+```

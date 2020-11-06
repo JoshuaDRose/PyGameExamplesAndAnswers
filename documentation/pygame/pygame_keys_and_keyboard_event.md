@@ -4,6 +4,8 @@
 
 # Keys and keyboard events
 
+- [How to put a variable into pygame key detector?](https://stackoverflow.com/questions/64717181/how-to-put-a-variable-into-pygame-key-detector)
+
 ## Keys
 
 ## Key representation

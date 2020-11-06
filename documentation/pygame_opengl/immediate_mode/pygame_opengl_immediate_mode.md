@@ -43,9 +43,10 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [PyGame OpenGL 3D Cube Lag](https://stackoverflow.com/questions/50312760/pygame-opengl-3d-cube-lag)
+- [PyGame OpenGL 3D Cube Lag](https://stackoverflow.com/questions/50312760/pygame-opengl-3d-cube-lag/50314047#50314047)  
+  ![PyGame OpenGL 3D Cube Lag](https://i.stack.imgur.com/Go9Ym.gif)
 
-  :scroll: **[OpenGL immediate mode - Draw a cube with fixed function attributes](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_fixed_attribute_cube.py)**
+  :scroll: **[OpenGL immediate mode - Draw a cube with outline using fixed function attributes](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_fixed_attribute_cube.py)**
 
 ## Draw lines and polygons
 
@@ -58,7 +59,7 @@ Related Stack Overflow questions:
 
 The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a simple data-format that represents 3D geometry.
 
-[PyOpenGL how do I import an obj file?](https://stackoverflow.com/questions/50312760/pygame-opengl-3d-cube-lag/50314047#50314047)  
+[PyOpenGL how do I import an obj file?](https://stackoverflow.com/questions/59923419/pyopengl-how-do-i-import-an-obj-file/59926122#59926122)  
 ![scene](https://i.stack.imgur.com/Jvb2x.png)
 
 [Is there a way to change the location and size of an imported .obj file in Pygame?](https://stackoverflow.com/questions/59609837/is-there-a-way-to-change-the-location-and-size-of-an-imported-obj-file-in-pygam/59610853#59610853)
