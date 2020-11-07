@@ -7,14 +7,19 @@
 "We learn more by looking for the answer to a question and not finding it than we do from learning the answer itself."  
 Lloyd Alexander, The Book of Three
 
-![drag](https://i.stack.imgur.com/BaFzb.gif)
-![shapes](https://i.stack.imgur.com/Zst87.png)
-![input](https://i.stack.imgur.com/XDz5b.gif)
+![drag](https://i.stack.imgur.com/BaFzb.gif = 100x100)
+
+![shapes](https://i.stack.imgur.com/Zst87.png) { height=100x }
+
+<img src="https://i.stack.imgur.com/XDz5b.gif" height="100">
+
+![input](https://i.stack.imgur.com/XDz5b.gif = 100x)
+
 ![text](https://i.stack.imgur.com/nFzbT.png)
 ![roatate and scale](https://i.stack.imgur.com/yLxBi.gif)
 ![color](https://i.stack.imgur.com/jTwph.gif)
 ![animate](https://i.stack.imgur.com/SzKwL.gif)
-![3d](../../screenshot/pygame_minimal_3D_depth_sort_1.gif)
+![3d](screenshot/pygame_minimal_3D_depth_sort_1.gif)
 ![cube](https://i.stack.imgur.com/Go9Ym.gif)
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  
