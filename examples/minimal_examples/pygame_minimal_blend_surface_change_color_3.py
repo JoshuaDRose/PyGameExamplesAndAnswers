@@ -7,7 +7,7 @@
 # GitHub - PyGameExamplesAndAnswers - Blending and transparency - Change color of an image - Change the color of a surface area (mask)
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_blending_and_transaprency.md
 #
-# https://repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3#main.py
+# https://repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3
 
 import pygame
 import os

@@ -7,14 +7,14 @@
 # GitHub - PyGameExamplesAndAnswers - Clipping - Circular clipping region
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_clipping.md
 #
-# https://repl.it/@Rabbid76/PyGame-ClipCircularRegion-2#main.py
+# https://repl.it/@Rabbid76/PyGame-ClipCircularRegion-2
 
 import pygame
 pygame.init()
 window = pygame.display.set_mode((500, 500))
 clock = pygame.time.Clock()
 
-radius = 50
+radius = 100
 cover_surf = pygame.Surface((radius*2, radius*2))
 cover_surf.fill(0)
 cover_surf.set_colorkey((255, 255, 255))
