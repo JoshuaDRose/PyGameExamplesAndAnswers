@@ -32,30 +32,51 @@ Related Stack Overflow questions:
 
 ### Change color of an image
 
+#### Change the color of the full image area
+
+Change the brightness, hue, or transparency of an entire image.
+
+Related Stack Overflow questions:
+
 - [How can I change the brightness of an image in pygame?](https://stackoverflow.com/questions/57962130/how-can-i-change-the-brightness-of-an-image-in-pygame/57962590#57962590)  
-- [Is it possible to change sprite colours in Pygame?](https://stackoverflow.com/questions/56209634/is-it-possible-to-change-sprite-colours-in-pygame/56210460?noredirect=1)
-- [How to tint a png image with an alpha channel?](https://stackoverflow.com/questions/54633756/how-to-tint-a-png-image-with-an-alpha-channel/54635608#54635608)  
-- [How to create a taken damage / red vignette effect in pygame](https://stackoverflow.com/questions/56333344/how-to-create-a-taken-damage-red-vignette-effect-in-pygame/56335168#56335168)  
-  ![How to create a taken damage / red vignette effect in pygame](https://i.stack.imgur.com/rQo5e.gif)
+
+#### Tint a grayscale image
+
+Related Stack Overflow questions:
+
+remove "duplicate"
+
+- **[Is it possible to change sprite colours in Pygame?](https://stackoverflow.com/questions/56209634/is-it-possible-to-change-sprite-colours-in-pygame/56210460?noredirect=1)**  
+  ![Is it possible to change sprite colours in Pygame?](https://i.stack.imgur.com/jTwph.gif)
+
+  :scroll: **[Minimal example - Tint a grayscale image 2](../../examples/minimal_examples/pygame_minimal_blend_surface_tint_grayscale_1.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-4](https://repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-4#main.py)</kbd>
 
 - [Changing colour of a surface without overwriting transparency](https://stackoverflow.com/questions/64190277/changing-colour-of-a-surface-without-overwriting-transparency/64193109#64193109/64193109#64193109)  
   ![Changing colour of a surface without overwriting transparency](https://i.stack.imgur.com/oldLt.gif)
 
-  :scroll: **[Minimal example - Change color of Surface 1](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_1.py)**
+  :scroll: **[Minimal example - Tint a grayscale image 1](../../examples/minimal_examples/pygame_minimal_blend_surface_tint_grayscale_1.py)**
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea](https://repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea#main.py)</kbd>
 
-- [Trying to make sections of sprite change colour, but whole sprite changes instead](https://stackoverflow.com/questions/58385570/trying-to-make-sections-of-sprite-change-colour-but-whole-sprite-changes-instea/58402923#58402923/58402923#58402923)  
+- [How to tint a png image with an alpha channel?](https://stackoverflow.com/questions/54633756/how-to-tint-a-png-image-with-an-alpha-channel/54635608#54635608)  
+
+#### Change the color of a surface area (mask)
+
+Related Stack Overflow questions:
+
+- **[Trying to make sections of sprite change colour, but whole sprite changes instead](https://stackoverflow.com/questions/58385570/trying-to-make-sections-of-sprite-change-colour-but-whole-sprite-changes-instea/58402923#58402923/58402923#58402923)**  
   ![Trying to make sections of sprite change colour, but whole sprite changes instead](https://i.stack.imgur.com/qotun.png)
 
-  :scroll: **[Minimal example - Change color of Surface 2](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_2.py)**
+  :scroll: **[Minimal example - Change color of Surface 1](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_1.py)**
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea](https://repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea#main.py)</kbd>
 
 - [Changing ememy's color to show that it is asking damage?](https://stackoverflow.com/questions/63734429/changing-ememys-color-to-show-that-it-is-aking-damage/63745242#63745242)  
   ![Changing ememy's color to show that it is asking damage?](https://i.stack.imgur.com/CjV0r.gif)
 
-  :scroll: **[Minimal example - Change color of Surface 3](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_3.py)**
+  :scroll: **[Minimal example - Change color of Surface 2](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_2.py)**
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-2](https://repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-2#main.py)</kbd>
 
@@ -100,7 +121,7 @@ def changColor(image, maskImage, newColor):
     return finalImage
 ```
 
-:scroll: **[Minimal example - Change color of Surface 4](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_4.py)**
+:scroll: **[Minimal example - Change color of Surface 3](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_3.py)**
 
 <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3](https://repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3#main.py)</kbd>
 

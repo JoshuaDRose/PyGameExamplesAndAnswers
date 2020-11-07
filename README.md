@@ -4,14 +4,31 @@
 
 # PyGame Examples and Answers
 
+"We learn more by looking for the answer to a question and not finding it than we do from learning the answer itself."  
+Lloyd Alexander, The Book of Three
+
+![drag](https://i.stack.imgur.com/BaFzb.gif)
+![shapes](https://i.stack.imgur.com/Zst87.png)
+![input](https://i.stack.imgur.com/XDz5b.gif)
+![text](https://i.stack.imgur.com/nFzbT.png)
+![roatate and scale](https://i.stack.imgur.com/yLxBi.gif)
+![color](https://i.stack.imgur.com/jTwph.gif)
+![animate](https://i.stack.imgur.com/SzKwL.gif)
+![3d](../../screenshot/pygame_minimal_3D_depth_sort_1.gif)
+![cube](https://i.stack.imgur.com/Go9Ym.gif)
+
+This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  
+It does not contain an application, just a collection of examples. Initially I just wanted to bring order to a bunch of PyGame examples on my local drive. The examples should not be sophisticated, they should be kept as simple as possible. Each example should just spot one single issue. However, this is not a complete PyGame tutorial, but rather a FAQ.  
+This page provides links to the relevant Stack Overflow questions and live examples on [repl.it](https://repl.it/). The examples are roughly divided into topics. My first language isn't English, but I did my best. I struggle with English grammar, which is the bill of my laziness at school.  
+The site is still under construction :construction:.
+
+## PyGame
+
 [PyGame](https://www.pygame.org/news)  
 [PyGame documentation](https://www.pygame.org/docs/)
 
 [PyGame](https://www.pygame.org/news) examples and explanations.
 
-## PyGame
-
-Excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.
 
 ### Application, control flow and events
 
