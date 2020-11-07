@@ -33,24 +33,31 @@ Related Stack Overflow questions:
 ### Change color of an image
 
 - [How can I change the brightness of an image in pygame?](https://stackoverflow.com/questions/57962130/how-can-i-change-the-brightness-of-an-image-in-pygame/57962590#57962590)  
-- [Changing ememy's color to show that it is asking damage?](https://stackoverflow.com/questions/63734429/changing-ememys-color-to-show-that-it-is-aking-damage/63745242#63745242)  
-  ![Changing ememy's color to show that it is asking damage?](https://i.stack.imgur.com/CjV0r.gif)
-- [Changing colour of a surface without overwriting transparency](https://stackoverflow.com/questions/64190277/changing-colour-of-a-surface-without-overwriting-transparency/64193109#64193109)  
-  ![Changing colour of a surface without overwriting transparency](https://i.stack.imgur.com/oldLt.gif)
 - [Is it possible to change sprite colours in Pygame?](https://stackoverflow.com/questions/56209634/is-it-possible-to-change-sprite-colours-in-pygame/56210460?noredirect=1)
 - [How to tint a png image with an alpha channel?](https://stackoverflow.com/questions/54633756/how-to-tint-a-png-image-with-an-alpha-channel/54635608#54635608)  
 - [How to create a taken damage / red vignette effect in pygame](https://stackoverflow.com/questions/56333344/how-to-create-a-taken-damage-red-vignette-effect-in-pygame/56335168#56335168)  
   ![How to create a taken damage / red vignette effect in pygame](https://i.stack.imgur.com/rQo5e.gif)
-- [Trying to make sections of sprite change colour, but whole sprite changes instead](https://stackoverflow.com/questions/58385570/trying-to-make-sections-of-sprite-change-colour-but-whole-sprite-changes-instea/58402923#58402923)  
+
+- [Changing colour of a surface without overwriting transparency](https://stackoverflow.com/questions/64190277/changing-colour-of-a-surface-without-overwriting-transparency/64193109#64193109/64193109#64193109)  
+  ![Changing colour of a surface without overwriting transparency](https://i.stack.imgur.com/oldLt.gif)
+
+  :scroll: **[Minimal example - Change color of Surface 1](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_1.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea](https://repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea#main.py)</kbd>
+
+- [Trying to make sections of sprite change colour, but whole sprite changes instead](https://stackoverflow.com/questions/58385570/trying-to-make-sections-of-sprite-change-colour-but-whole-sprite-changes-instea/58402923#58402923/58402923#58402923)  
   ![Trying to make sections of sprite change colour, but whole sprite changes instead](https://i.stack.imgur.com/qotun.png)
 
-:scroll: **[Minimal example - Change color of Surface 1](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_1.py)**
+  :scroll: **[Minimal example - Change color of Surface 2](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_2.py)**
 
-![Changing colour of a surface without overwriting transparency](https://i.stack.imgur.com/oldLt.gif)
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea](https://repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea#main.py)</kbd>
 
-:scroll: **[Minimal example - Change color of Surface 2](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_2.py)**
+- [Changing ememy's color to show that it is asking damage?](https://stackoverflow.com/questions/63734429/changing-ememys-color-to-show-that-it-is-aking-damage/63745242#63745242)  
+  ![Changing ememy's color to show that it is asking damage?](https://i.stack.imgur.com/CjV0r.gif)
 
-![Trying to make sections of sprite change colour, but whole sprite changes instead](https://i.stack.imgur.com/qotun.png)
+  :scroll: **[Minimal example - Change color of Surface 3](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_3.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-2](https://repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-2#main.py)</kbd>
 
 If you want to brighten an image, thenA I recommend to add a constant color to the surface. This can be achieved by [`.fill()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.fill), wby the use of the  special parameter `BLEND_RGB_ADD`. If the fill color is black (0, 0, 0) then the image won't change at all. If the fill color is white (255, 255, 255), then the entire image will become white. e.g.:  
 
@@ -70,11 +77,11 @@ image.fill((255, 255, 255, transparency), special_flags=pygame.BLEND_RGBA_MULT)
 
 If you want to change the color of a sprite, you actually need an image
 
-![1](https://i.stack.imgur.com/jexRs.png)
+![image](../../resource/icon/avatar64.png)
 
 and a mask image. The mask image has just 2 color, black and white. The white areas of the mask define the areas in the image whose color needs to be changed:
 
-![2](https://i.stack.imgur.com/nHjYF.png)
+![mask](../../resource/icon/avatar64mask.png)
 
 The following function uses a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object `image`,  `pygame.Surface` object `maskImage` and a color (`newColor`), to create a new Surface. In the new Surface the color of the regions which are defined by `maskImage`, is changed to `newColor`:
 
@@ -93,9 +100,11 @@ def changColor(image, maskImage, newColor):
     return finalImage
 ```
 
-:scroll: **[Minimal example - Change color of Surface 3](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_3.py)**
+:scroll: **[Minimal example - Change color of Surface 4](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_4.py)**
 
-![Changing ememy's color to show that it is asking damage?](https://i.stack.imgur.com/CjV0r.gif)
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3](https://repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3#main.py)</kbd>
+
+![Trying to make sections of sprite change colour, but whole sprite changes instead](https://i.stack.imgur.com/F45EC.png)
 
 ## Intersection area
 
@@ -162,4 +171,4 @@ neg.blit(image, (0, 0), special_flags=pygame.BLEND_SUB)
 <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CircleIntersection](https://repl.it/@Rabbid76/PyGame-CircleIntersection#main.py)</kbd>
 
  ![Fill the area of intersection of two Circles in PyGame](https://i.stack.imgur.com/2ef0w.png)
-![Fill the area of intersection of two Circles in PyGame](https://i.stack.imgur.com/zzHTY.png)
+ ![Fill the area of intersection of two Circles in PyGame](https://i.stack.imgur.com/zzHTY.png)

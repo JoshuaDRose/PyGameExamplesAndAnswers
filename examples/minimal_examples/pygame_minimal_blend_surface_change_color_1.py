@@ -2,10 +2,15 @@
 # https://www.pygame.org/docs/ref/surface.html
 #
 # Changing colour of a surface without overwriting transparency
-# https://stackoverflow.com/questions/64190277/changing-colour-of-a-surface-without-overwriting-transparency
+# https://stackoverflow.com/questions/64190277/changing-colour-of-a-surface-without-overwriting-transparency/64193109#64193109
 #
 # GitHub - PyGameExamplesAndAnswers - Blending and transparency - Change color of an image
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_blending_and_transaprency.md
+#
+# GitHub - Sprite, Group and Sprite mask - Sprite on mouse hover
+# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_sprite_and_sprite_mask.md
+#
+# https://repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea#main.py
 
 import pygame
 

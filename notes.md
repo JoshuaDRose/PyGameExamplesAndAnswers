@@ -1,4 +1,4 @@
-[![StackOverflow](https://stackexchange.com/users/flair/7322082.png)](https://stackoverflow.com/users/5577765/rabbid76?tab=profile) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![reply.it](../../resource/logo/Repl_it_logo_80.png) reply.it](https://repl.it/repls/folder/PyGame%20Examples)
+[![StackOverflow](https://stackexchange.com/users/flair/7322082.png)](https://stackoverflow.com/users/5577765/rabbid76?tab=profile) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![reply.it](resource/logo/Repl_it_logo_80.png) reply.it](https://repl.it/repls/folder/PyGame%20Examples)
 
 # Code snippets at repl.it
 
@@ -47,6 +47,7 @@ next:
 [How can I crop an image with Pygame?](https://stackoverflow.com/questions/6239769/how-can-i-crop-an-image-with-pygame)  
 [How to Change the Name of a Pygame window?](https://stackoverflow.com/questions/40566585/how-to-change-the-name-of-a-pygame-window)  
 [Any way to speed up Python and Pygame?](https://stackoverflow.com/questions/6395923/any-way-to-speed-up-python-and-pygame)  
+[pygame audio playback speed](https://stackoverflow.com/questions/2159365/pygame-audio-playback-speed)
 
 interesting
 

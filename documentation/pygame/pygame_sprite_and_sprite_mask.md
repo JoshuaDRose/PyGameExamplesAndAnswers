@@ -98,6 +98,17 @@ See the documentation of [`pygame.sprite.collide_mask()`](https://www.pygame.org
 >
 >**Tests for collision between two sprites**, by testing if their bitmasks overlap. If the sprites have a "mask" attribute, that is used as the mask, otherwise a mask is created from the sprite image. Intended to be passed as a collided callback function to the *collide functions. Sprites must have a "rect" and an optional "mask" attribute.
 
+## Sprite chang color of area
+
+Related Stack Overflow questions:
+
+- [Changing colour of a surface without overwriting transparency](https://stackoverflow.com/questions/64190277/changing-colour-of-a-surface-without-overwriting-transparency/64193109#64193109)  
+  ![Changing colour of a surface without overwriting transparency](https://i.stack.imgur.com/oldLt.gif)
+
+  :scroll: **[Minimal example - Chang the color of an area of a Sprite](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_1.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea](https://repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea#main.py)</kbd>
+
 ## Layers
 
 Related Stack Overflow questions:

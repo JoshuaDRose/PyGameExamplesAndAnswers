@@ -285,3 +285,9 @@ Related Stack Overflow questions:
 ![scene](https://stackoverflow.com/questions/63197182/pygame-mouse-get-pressed-not-responding/63197269#63197269)
 
 [Pygame Enemys Wont Move Down - Tower Defense Game](https://stackoverflow.com/questions/63734280/pygame-enemys-wont-move-down-tower-defense-game)
+
+[How to shade all the cells that will be useless when you click on them?](https://stackoverflow.com/questions/64625472/how-to-shade-all-the-cells-that-will-be-useless-when-you-click-on-them)  
+![scene](https://i.stack.imgur.com/qwMND.png)
+
+[How can I make my recursive function go back to continue recursing other cells](https://stackoverflow.com/questions/64721771/how-can-i-make-my-recursive-function-go-back-to-continue-recursing-other-cells/64722209#64722209)  
+![scene](https://i.stack.imgur.com/L32ZZ.png)

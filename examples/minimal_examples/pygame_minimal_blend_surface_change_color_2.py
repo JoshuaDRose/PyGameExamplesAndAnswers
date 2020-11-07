@@ -2,10 +2,13 @@
 # https://www.pygame.org/docs/ref/surface.html
 #
 # Trying to make sections of sprite change colour, but whole sprite changes instead
-# https://stackoverflow.com/questions/58385570/trying-to-make-sections-of-sprite-change-colour-but-whole-sprite-changes-instea
+# https://stackoverflow.com/questions/58385570/trying-to-make-sections-of-sprite-change-colour-but-whole-sprite-changes-instea/58402923#58402923
 #
 # GitHub - PyGameExamplesAndAnswers - Blending and transparency - Change color of an image
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_blending_and_transaprency.md
+#
+# https://repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea#main.py
+
 
 import pygame
 
