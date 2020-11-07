@@ -7,15 +7,7 @@
 "We learn more by looking for the answer to a question and not finding it than we do from learning the answer itself."  
 Lloyd Alexander, The Book of Three
 
-<img src="https://i.stack.imgur.com/BaFzb.gif" height="100" title="Drag Sprites">
-<img src="https://i.stack.imgur.com/Zst87.gif" height="100" title="Transparent Shapes">
-<img src="https://i.stack.imgur.com/XDz5b.gif" height="100" title="Text input">
-<img src="https://i.stack.imgur.com/nFzbT.gif" height="100" title="Transparent Text">
-<img src="https://i.stack.imgur.com/yLxBi.gif" height="100" title="Rotate and scale image">
-<img src="https://i.stack.imgur.com/jTwph.gif" height="100" title="Change color of Sprite">
-<img src="https://i.stack.imgur.com/SzKwL.gif" height="100" title="Aniamted Sprite">
-<img src="screenshot/pygame_minimal_3D_depth_sort_1.gif" height="100" title="3D Poylgones">
-<img src="https://i.stack.imgur.com/Go9Ym.gif" height="100" title="OpenGL Cube">
+<img src="https://i.stack.imgur.com/BaFzb.gif" height="100" title="Drag Sprites"><img src="https://i.stack.imgur.com/Zst87.gif" height="100" title="Transparent Shapes"><img src="https://i.stack.imgur.com/XDz5b.gif" height="100" title="Text input"><img src="https://i.stack.imgur.com/nFzbT.gif" height="100" title="Transparent Text"><img src="https://i.stack.imgur.com/yLxBi.gif" height="100" title="Rotate and scale image"><img src="https://i.stack.imgur.com/jTwph.gif" height="100" title="Change color of Sprite"><img src="https://i.stack.imgur.com/SzKwL.gif" height="100" title="Aniamted Sprite"><img src="screenshot/pygame_minimal_3D_depth_sort_1.gif" height="100" title="3D Poylgones"><img src="https://i.stack.imgur.com/Go9Ym.gif" height="100" title="OpenGL Cube">
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  
 It does not contain an application, just a collection of examples. Initially I just wanted to bring order to a bunch of PyGame examples on my local drive. The examples should not be sophisticated, they should be kept as simple as possible. Each example should just spot one single issue. However, this is not a complete PyGame tutorial, but rather a FAQ.  
