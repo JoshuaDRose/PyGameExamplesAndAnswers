@@ -7,13 +7,13 @@
 "We learn more by looking for the answer to a question and not finding it than we do from learning the answer itself."  
 Lloyd Alexander, The Book of Three
 
-![drag](https://i.stack.imgur.com/BaFzb.gif = 100x100)
+![drag](https://i.stack.imgur.com/BaFzb.gif =100x100)
 
-![shapes](https://i.stack.imgur.com/Zst87.png) { height=100x }
+![shapes](https://i.stack.imgur.com/Zst87.png){ height=100x }
 
 <img src="https://i.stack.imgur.com/XDz5b.gif" height="100">
 
-![input](https://i.stack.imgur.com/XDz5b.gif = 100x)
+![input](https://i.stack.imgur.com/XDz5b.gif =100x)
 
 ![text](https://i.stack.imgur.com/nFzbT.png)
 ![roatate and scale](https://i.stack.imgur.com/yLxBi.gif)
