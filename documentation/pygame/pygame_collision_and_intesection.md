@@ -326,15 +326,19 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Pygame how to let balls collide](https://stackoverflow.com/questions/63145493/pygame-how-to-let-balls-collide)  
+- [Pygame how to let balls collide](https://stackoverflow.com/questions/63145493/pygame-how-to-let-balls-collide/63187016#63187016)  
   ![Pygame how to let balls collide](https://i.stack.imgur.com/pNzMb.gif)
 
   :scroll: **[Minimal example - Make circles bounce off each other](../../examples/minimal_examples/pygame_minimal_intersect_circle_circle_1.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CirclesBounceOff](https://repl.it/@Rabbid76/PyGame-CirclesBounceOff#main.py)</kbd>
 
 - [pygame Get the balls to bounce off each other](https://stackoverflow.com/questions/63586822/pygame-get-the-balls-to-bounce-off-each-other)  
   ![pygame Get the balls to bounce off each other](https://i.stack.imgur.com/dlD4v.gif)
 
   :scroll: **[Minimal example - Make balls bounce off each other](../../examples/minimal_examples/pygame_minimal_intersect_circle_circle_2.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-BallsBounceOff](https://repl.it/@Rabbid76/PyGame-BallsBounceOff#main.py)</kbd>
 
 - [Collision detection / physics for simple game](https://stackoverflow.com/questions/59656983/collision-detection-physics-for-simple-game/59658289#59658289)  
   ![Collision detection / physics for simple game](https://i.stack.imgur.com/bqVOa.gif)

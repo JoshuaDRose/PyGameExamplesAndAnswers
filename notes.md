@@ -18,7 +18,9 @@
     - [Questions](#questions)
         - [Move and stay in window](#move-and-stay-in-window)
         - [How to create rectangle centered around a point](#how-to-create-rectangle-centered-around-a-point)
-    - [Fix examples](#fix-examples)
+    - [Examples](#examples)
+        - [Fix examples](#fix-examples)
+        - [New examples](#new-examples)
     - [New Pages](#new-pages)
         - [Color](#color)
     - [New projects](#new-projects)
@@ -131,9 +133,15 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
 
 `rect = pygame.Rect(x, y, 0, 0).inflate(x, h)`
 
-## Fix examples
+## Examples
+
+### Fix examples
 
 - pygame_minimal_intersect_circle_rectangle_4.py: fix intersection of edge with circle (increase rectangle 100x100)
+
+### New examples
+
+Multiple bouncing circles or balls
 
 ## New Pages
 

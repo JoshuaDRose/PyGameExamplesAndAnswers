@@ -138,6 +138,8 @@ Related Stack Overflow questions:
 - [how to drop a bomb in character position in a pygame game](https://stackoverflow.com/questions/62066092/how-to-drop-a-bomb-in-character-position-in-a-pygame-game/62067605#62067605)
 - [how to make rectangle “sprint”](https://stackoverflow.com/questions/64209885/how-to-make-rectangle-sprint/64209944#64209944)
 
+Use the keyboard events (`KEYDOWN`,` ​​KEYUP`) for actions like jumping or spawning a bullet.
+
 :scroll: **[minimal example - Move object with keys](../../examples/minimal_examples/pygame_minimal_move_object.py)**
 
 :scroll: **[minimal example - Move object with keys limit it to the window borders](../../examples/minimal_examples/pygame_minimal_move_object_limit_window.py)**
