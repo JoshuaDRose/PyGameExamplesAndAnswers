@@ -171,6 +171,12 @@ Related Stack Overflow questions:
 [How can I make this demo drawing game update drawing the circles faster with Pygame?](https://stackoverflow.com/questions/60284620/how-can-i-make-this-demo-drawing-game-update-drawing-the-circles-faster-with-pyg/60285364#60285364)  
 ![scene](https://i.stack.imgur.com/mojlK.gif)
 
+## Where is 27 coming from?
+
+[I am wondering why it says the distance has to be less than 27? Why less than 27? Where is 27 coming from?](https://stackoverflow.com/questions/62523256/i-am-wondering-why-it-says-the-distance-has-to-be-less-than-27-why-less-than-27/62527566#62527566)
+
+[Collision detection in pygame not working](https://stackoverflow.com/questions/64393985/collision-detection-in-pygame-not-working/64394459#64394459)
+
 ## Collection
 
 [Pygame Basic calculator](https://stackoverflow.com/questions/63200489/pygame-basic-calculator)  

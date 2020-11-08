@@ -46,7 +46,7 @@ Related Stack Overflow questions:
 
 remove "duplicate"
 
-- **[Is it possible to change sprite colours in Pygame?](https://stackoverflow.com/questions/56209634/is-it-possible-to-change-sprite-colours-in-pygame/56210460?noredirect=1)**  
+- **[Is it possible to change sprite colours in Pygame?](https://stackoverflow.com/questions/56209634/is-it-possible-to-change-sprite-colours-in-pygame/56210460#56210460)**  
   ![Is it possible to change sprite colours in Pygame?](https://i.stack.imgur.com/jTwph.gif)
 
   :scroll: **[Minimal example - Tint a grayscale image 2](../../examples/minimal_examples/pygame_minimal_blend_surface_tint_grayscale_1.py)**

@@ -333,7 +333,7 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CirclesBounceOff](https://repl.it/@Rabbid76/PyGame-CirclesBounceOff#main.py)</kbd>
 
-- [pygame Get the balls to bounce off each other](https://stackoverflow.com/questions/63586822/pygame-get-the-balls-to-bounce-off-each-other)  
+- [pygame Get the balls to bounce off each other](https://stackoverflow.com/questions/63586822/pygame-get-the-balls-to-bounce-off-each-other/63587147#63587147)  
   ![pygame Get the balls to bounce off each other](https://i.stack.imgur.com/dlD4v.gif)
 
   :scroll: **[Minimal example - Make balls bounce off each other](../../examples/minimal_examples/pygame_minimal_intersect_circle_circle_2.py)**

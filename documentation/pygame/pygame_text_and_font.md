@@ -243,7 +243,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Python - Pygame - rendering translucent text](https://stackoverflow.com/questions/20620109/how-to-render-transparent-text-with-alpha-channel-in-pygame/20622680#20622680)
+- [Python - Pygame - rendering translucent text](https://stackoverflow.com/questions/20620109/how-to-render-transparent-text-with-alpha-channel-in-pygame/64552616#64552616)
 
 When using the [`pygame.font`](https://www.pygame.org/docs/ref/font.html#pygame.font) module, the alpha channel of the text color is not taken into account when rendering a text, but see [`pygame.font.Font.render`](https://www.pygame.org/docs/ref/font.html#pygame.font.SysFont):
 

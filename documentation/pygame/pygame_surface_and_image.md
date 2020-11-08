@@ -408,7 +408,7 @@ Use the list of `pygame.Surface` objects to generate a [Spritesheet](https://www
 
 Related Stack Overflow questions:
 
-- [Pygame and Numpy Animations](https://stackoverflow.com/questions/54415196/pygame-and-numpy-animations)
+- [Pygame and Numpy Animations](https://stackoverflow.com/questions/54415196/pygame-and-numpy-animations/54948473#54948473)
 
 Load multiple frames (`data`) of 8-bit BGRA images of shape _(y, x, 4, k)_ to a list of [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) objects:
 

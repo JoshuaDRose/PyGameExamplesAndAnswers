@@ -4,6 +4,12 @@
 
 # Rectangle
 
+## Rectangle attributes
+
+Related Stack Overflow questions:
+
+- [AttributeError: 'pygame.Rect' object has no attribute 'up'](https://stackoverflow.com/questions/64738269/attributeerror-pygame-rect-object-has-no-attribute-up/64738582#64738582)
+
 ## Move rectangle
 
 Related Stack Overflow questions:

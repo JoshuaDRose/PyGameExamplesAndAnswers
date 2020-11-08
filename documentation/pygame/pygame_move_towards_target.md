@@ -86,7 +86,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Follow target](../../examples/minimal_examples/_pygame_minimal_move_follow_1.py)**
 
-- **[How to make smooth movement in pygame](https://stackoverflow.com/questions/64087982/how-to-make-smooth-movement-in-pygame/64088747?noredirect=1)**  
+- **[How to make smooth movement in pygame](https://stackoverflow.com/questions/64087982/how-to-make-smooth-movement-in-pygame/64088747#64088747)**  
   ![How to make smooth movement in pygame](https://i.stack.imgur.com/9HL3b.gif)
 
   :scroll: **[Minimal example - Follow target smoothly](../../examples/minimal_examples/pygame_minimal_move_follow_smoothly.py)**

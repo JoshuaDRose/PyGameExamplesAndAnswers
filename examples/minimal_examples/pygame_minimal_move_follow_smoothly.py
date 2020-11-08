@@ -5,7 +5,7 @@
 # https://stackoverflow.com/questions/60064644/sprite-follow-another-flexible-way-within-certain-distance-limits
 
 # How to make smooth movement in pygame
-# https://stackoverflow.com/questions/64087982/how-to-make-smooth-movement-in-pygame/64088747?noredirect=1 
+# https://stackoverflow.com/questions/64087982/how-to-make-smooth-movement-in-pygame/64088747#64088747 
 #
 # GitHub - Move towards target - Follow target or mouse
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_move_towards_target.md
