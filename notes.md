@@ -142,7 +142,9 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
 ### New examples
 
 - Multiple bouncing circles or balls
-- "pygame_minimal_shoot_bullet.py" rapid fire
+- moving tank with rotating gun fire bullets
+- chess board
+- sprite with floating point accuracy
 
 ## New Pages
 
@@ -159,7 +161,7 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
 
 [`pygame.Color`](https://www.pygame.org/docs/ref/color.html) object
 
-Combine Gray scale image color multiplier and bit mask. 
+Combine Gray scale image color multiplier and bit mask.
 
 ## New projects
 
