@@ -472,7 +472,7 @@ format = 'RGBA'
 
 :scroll: **[Minimal example - Load frames from NumPy array](../../examples/minimal_examples/pygame_minimal_surface_load_frames_numpy.py)**
 
-![Pygame and Numpy Animations](../../screenshot/pygame_minimal_surface_load_frames_numpy.gif)
+![Pygame and Numpy Animations](https://i.stack.imgur.com/PKT8H.gif)
 
 ## Pixel array
 

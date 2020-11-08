@@ -22,4 +22,4 @@ Related Stack Overflow questions:
 
 <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-3D](https://repl.it/@Rabbid76/PyGame-3D#main.py)</kbd>
 
-![3d](../../screenshot/pygame_minimal_3D_depth_sort_1.gif)
+![3d](https://i.stack.imgur.com/4rFgh.gif)

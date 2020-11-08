@@ -121,7 +121,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Dragging object along x-axis in pygame](https://stackoverflow.com/questions/61781533/dragging-object-along-x-axis-in-pygame/61781683#61781683)
+- [Dragging object along x-axis in pygame](https://stackoverflow.com/questions/61781533/dragging-object-along-x-axis-in-pygame/61781683#61781683)  
   ![Dragging object along x-axis in pygame](https://i.stack.imgur.com/l9IOr.gif)
 - [How to drag an object around the screen in pygame?](https://stackoverflow.com/questions/64241742/how-to-drag-an-object-around-the-screen-in-pygame/64249660#64249660)  
   ![How to drag an object around the screen in pygame?](https://i.stack.imgur.com/Qgh20.gif)
