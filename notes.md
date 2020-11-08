@@ -141,7 +141,8 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
 
 ### New examples
 
-Multiple bouncing circles or balls
+- Multiple bouncing circles or balls
+- "pygame_minimal_shoot_bullet.py" rapid fire
 
 ## New Pages
 

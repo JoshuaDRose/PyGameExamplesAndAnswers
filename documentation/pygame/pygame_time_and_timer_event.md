@@ -91,7 +91,11 @@ while run:
 Related Stack Overflow questions:
 
 - [How do I stop more than 1 bullet firing at once?](https://stackoverflow.com/questions/60122492/how-do-i-stop-more-than-1-bullet-firing-at-once/60125448#60125448)  
-  ![How do I stop more than 1 bullet firing at once?](https://i.stack.imgur.com/1DY2O.gif)
+  ![How do I stop more than 1 bullet firing at once?](https://i.stack.imgur.com/W6lzh.gif)
+
+  :scroll: **[minimal example - Shoot bullet](../../examples/minimal_examples/pygame_minimal_shoot_bullet.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBullet](https://repl.it/@Rabbid76/PyGame-ShootBullet#main.py)</kbd>
 
 If you want to implement some kind of rapid fire, then the things get more tricky. If you would use the state of `pygame.key.get_pressed()` then you would spawn one bullet in every frame. That is far too fast. You have to implement some timeout.  
 When a bullet is fired, the get the current time by [`pygame.time.get_ticks()`](https://www.pygame.org/docs/ref/time.html). Define a number of milliseconds for the delay between to bullets. Add the dela to the time and state the time in a variable (`next_bullet_threshold`). Skip bullets, as long the time is not exceeded:

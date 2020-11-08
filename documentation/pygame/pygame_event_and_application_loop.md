@@ -107,7 +107,10 @@ You have to handle the events in the application loop. See [`pygame.event.get()`
 Related Stack Overflow questions:
 
 - [Why doesn't PyGame draw in the window before the delay or sleep?](https://stackoverflow.com/questions/63218889/why-is-pygame-not-showing-text-on-window/63218970#63218970)
+
 - [How to wait some time in pygame?](https://stackoverflow.com/questions/18839039/how-to-wait-some-time-in-pygame)
+  :scroll: **[Minimal example - Display a message for a period of time](../../examples/minimal_examples/pygame_minimal_time_text_message_delay.py)**  
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MessageDelay](https://repl.it/@Rabbid76/PyGame-MessageDelay#main.py)</kbd>
 
 #### Input in application loop
 

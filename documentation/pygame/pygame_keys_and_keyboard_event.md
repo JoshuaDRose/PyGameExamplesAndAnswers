@@ -156,5 +156,10 @@ Related Stack Overflow questions:
 
 - [How can i shoot a bullet with space bar?](https://stackoverflow.com/questions/59687250/how-can-i-shoot-a-bullet-with-space-bar/59689297#59689297)  
   ![How can i shoot a bullet with space bar?](https://i.stack.imgur.com/2sp5D.gif)
+
 - [How do I stop more than 1 bullet firing at once?](https://stackoverflow.com/questions/60122492/how-do-i-stop-more-than-1-bullet-firing-at-once/60125448#60125448)  
-  ![How do I stop more than 1 bullet firing at once?](https://i.stack.imgur.com/1DY2O.gif)
+  ![How do I stop more than 1 bullet firing at once?](https://i.stack.imgur.com/W6lzh.gif)
+
+  :scroll: **[minimal example - Shoot bullet](../../examples/minimal_examples/pygame_minimal_shoot_bullet.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBullet](https://repl.it/@Rabbid76/PyGame-ShootBullet#main.py)</kbd>
