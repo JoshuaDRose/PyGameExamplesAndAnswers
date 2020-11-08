@@ -308,7 +308,7 @@ new_d.rect = d.rect.copy()
 Related Stack Overflow questions:
 
 - [How to create a text input box with pygame?](https://stackoverflow.com/questions/46390231/how-to-create-a-text-input-box-with-pygame/64613666#64613666)  
-  ![How to create a text input box with pygame?](https://i.stack.imgur.com/XDz5b.gif)
+  ![How to create a text input box with pygame?](https://i.stack.imgur.com/FNJeM.gif)
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteTextInput](https://repl.it/@Rabbid76/PyGame-SpriteTextInput#main.py)</kbd>
 

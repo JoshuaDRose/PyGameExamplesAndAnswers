@@ -55,9 +55,9 @@ class TextInputBox(pygame.sprite.Sprite):
                 self.render_text()
 
 pygame.init()
-window = pygame.display.set_mode((500, 200))
+window = pygame.display.set_mode((500, 160))
 clock = pygame.time.Clock()
-font = pygame.font.SysFont(None, 100)
+font = pygame.font.SysFont(None, 80)
 
 text_input_box = TextInputBox(50, 50, 400, font)
 group = pygame.sprite.Group(text_input_box)

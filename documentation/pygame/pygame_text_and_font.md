@@ -103,7 +103,7 @@ Related Stack Overflow questions:
   [How to make a string's content appears on screen as we type on keyboard?](https://stackoverflow.com/questions/60455692/how-to-make-a-strings-content-appears-on-screen-as-we-type-on-keyboard/60456556#60456556)  
   [How to allow the user to type only under certain conditions in pygame?](https://stackoverflow.com/questions/64254687/how-to-allow-the-user-to-type-only-under-certain-conditions-in-pygame)  
   ![How to create a text input box with pygame?](https://i.stack.imgur.com/2X5Se.gif)
-  ![How to create a text input box with pygame?](https://i.stack.imgur.com/XDz5b.gif)
+  ![How to create a text input box with pygame?](https://i.stack.imgur.com/FNJeM.gif)
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TextInput](https://repl.it/@Rabbid76/PyGame-TextInput#main.py)</kbd>
   
@@ -163,7 +163,7 @@ group.update(event_list)
 
 :scroll: **[minimal example - Text input box](../../examples/minimal_examples/pygame_minimal_sprite_text_input_box.py)**
 
-![How to create a text input box with pygame?](https://i.stack.imgur.com/XDz5b.gif)
+![How to create a text input box with pygame?](https://i.stack.imgur.com/FNJeM.gif)
 
 There is no automatic solution. You have to implement the text wrap by yourself and draw the text line by line respectively word by word.  
 Fortunately PyGame wiki provides a function that for this task. See PyGame wiki [Simple Text Wrapping for pygame](https://www.pygame.org/wiki/TextWrap).
