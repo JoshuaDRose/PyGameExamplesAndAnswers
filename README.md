@@ -17,6 +17,7 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/6339057/draw-a-transparent-rectangle-in-pygame/64630102#64630102"><img src="https://i.stack.imgur.com/Zst87.gif" height="100" title="Transparent Shapes"></a><!--
 --><a href="https://stackoverflow.com/questions/56285017/pygame-rotating-cubes-around-axis/56286203#56286203"><img src="https://i.stack.imgur.com/4rFgh.gif" height="100" title="3D Poylgones"></a><!--
 --><a href="https://stackoverflow.com/questions/56624147/gl-lines-not-showing-up-on-top-of-cube/56624975#56624975"><img src="https://i.stack.imgur.com/Go9Ym.gif" height="100" title="OpenGL Cube"></a><!--
+--><a href="https://stackoverflow.com/questions/56316263/problem-with-finding-the-closest-intersection/56316370#56316370"><img src="screenshot/pygame_minimal_intersect_line_line_2.png" height="100" title="Intersect and cut lines"></a><!--
 --><a href="https://stackoverflow.com/questions/20620109/how-to-render-transparent-text-with-alpha-channel-in-pygame/64552616#64552616"><img src="https://i.stack.imgur.com/nFzbT.gif" height="100" title="Transparent Text"></a><!--
 --><a href="https://stackoverflow.com/questions/4183208/how-do-i-rotate-an-image-around-its-center-using-pygame/54714144#54714144"><img src="https://i.stack.imgur.com/yLxBi.gif" height="100" title="Rotate and scale image"></a><!--
 --><a href="https://stackoverflow.com/questions/56209634/is-it-possible-to-change-sprite-colours-in-pygame/56210460#56210460"><img src="https://i.stack.imgur.com/jTwph.gif" height="100" title="Change color of Sprite"></a><!--

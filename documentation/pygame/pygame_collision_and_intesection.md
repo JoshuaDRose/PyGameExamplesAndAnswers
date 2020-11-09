@@ -222,12 +222,16 @@ Related Stack Overflow questions:
 - [Problem with calculating line intersections](https://stackoverflow.com/questions/56312503/problem-with-calculating-line-intersections/56312654#56312654)  
   ![Problem with calculating line intersections](https://i.stack.imgur.com/l2NS9.png)
 
-  :scroll: **[Minimal example - Intersect lines 1](../../examples/minimal_examples/pygame_minimal_interdect_line_line_1.py)**
+  :scroll: **[Minimal example - Intersect lines](../../examples/minimal_examples/pygame_minimal_intersect_line_line_1.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-IntersectLines](https://repl.it/@Rabbid76/PyGame-IntersectLines#main.py)</kbd>
 
 - [Problem with finding the closest intersection](https://stackoverflow.com/questions/56316263/problem-with-finding-the-closest-intersection/56316370#56316370)  
-  ![Problem with finding the closest intersection](https://i.stack.imgur.com/nLoJr.png)
+  ![Problem with finding the closest intersection](../../screenshot/pygame_minimal_intersect_line_line_2.png)
 
-  :scroll: **[Minimal example - Intersect lines 2](../../examples/minimal_examples/pygame_minimal_interdect_line_line_2.py)**
+  :scroll: **[Minimal example - Intersect and cut lines](../../examples/minimal_examples/pygame_minimal_intersect_line_line_2.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-IntersectAndCutLines](https://repl.it/@Rabbid76/PyGame-IntersectAndCutLines#main.py)</kbd>
 
 - [fiding every point of intersection of multiple lines using pygame in python for creation of game board](https://stackoverflow.com/questions/63521847/fiding-every-point-of-intersection-of-multiple-lines-using-pygame-in-python-for/63523520#63523520)  
   ![fiding every point of intersection of multiple lines using pygame in python for creation of game board](https://i.stack.imgur.com/6Do1b.png)
