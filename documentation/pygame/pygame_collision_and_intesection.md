@@ -357,6 +357,8 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Find the intersection of a circle and a rectangle](../../examples/minimal_examples/pygame_minimal_intersect_circle_ellipse.py)**
 
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-IntersectCircleEllipse](https://repl.it/@Rabbid76/PyGame-IntersectCircleEllipse#main.py)</kbd>
+
 ```py
 from math import pi, sin, cos, atan2, radians, copysign, sqrt
 ```
