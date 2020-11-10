@@ -32,9 +32,8 @@ class Blob(pygame.sprite.Sprite):
                     blob.kill()
 
         speed = round(self.radius / 2)
-        direction = random.randrange(4)
-        self.rect.x += 0 if direction > 1 else -speed if direction == 0 else speed
-        self.rect.y += 0 if direction < 2 else -speed if direction == 2 else speed
+        move = random.choice([(-speed, 0), (speed, 0), (0, -speed), (0, speed)])
+        self.rect.move_ip(move)
         self.rect.clamp_ip(surface.get_rect())
                 
 

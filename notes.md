@@ -147,6 +147,7 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
 - moving tank with rotating gun fire bullets
 - chess board
 - sprite with floating point accuracy
+- virtual joystick (mouse and touch
 
 ## New Pages
 
