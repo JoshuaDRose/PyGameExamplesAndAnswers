@@ -87,7 +87,9 @@ next:
 [How can I crop an image with Pygame?](https://stackoverflow.com/questions/6239769/how-can-i-crop-an-image-with-pygame)  
 [How to Change the Name of a Pygame window?](https://stackoverflow.com/questions/40566585/how-to-change-the-name-of-a-pygame-window)  
 [Any way to speed up Python and Pygame?](https://stackoverflow.com/questions/6395923/any-way-to-speed-up-python-and-pygame)  
-[pygame audio playback speed](https://stackoverflow.com/questions/2159365/pygame-audio-playback-speed)
+[pygame audio playback speed](https://stackoverflow.com/questions/2159365/pygame-audio-playback-speed)  
+[Fully transparent windows in Pygame?](https://stackoverflow.com/questions/550001/fully-transparent-windows-in-pygame)  
+[How to fade from one colour to another in pygame?](https://stackoverflow.com/questions/51973441/how-to-fade-from-one-colour-to-another-in-pygame)  
 
 interesting
 

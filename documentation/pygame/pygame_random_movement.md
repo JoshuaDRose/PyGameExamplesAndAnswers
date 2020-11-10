@@ -4,4 +4,6 @@
 
 # Random movement distribution
 
-:construction: **under construction**
+Related Stack Overflow questions:
+
+- [“Floating Blobs” experiment in pygame](https://stackoverflow.com/questions/56817337/floating-blobs-experiment-in-pygame)
