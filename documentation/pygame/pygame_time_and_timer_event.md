@@ -134,6 +134,12 @@ while run == True:
 Related Stack Overflow questions:
 
 - [How can I show explosion image when collision happens?](https://stackoverflow.com/questions/64305426/how-can-i-show-explosion-image-when-collision-happens)
+
+- [Adding a particle effect to my clicker game](https://stackoverflow.com/questions/64793618/adding-a-particle-effect-to-my-clicker-game/64794954#64794954)  
+  ![Adding a particle effect to my clicker game](https://i.stack.imgur.com/bWOOF.gif)
+
+  :scroll: **[Minimal example - Spawn text on click](../../examples/minimal_examples/pygame_minimal_timer_for_a_period_of_time_random_text.py)**
+
 - [how to handle time for different components in pygame](https://stackoverflow.com/questions/62151703/how-to-handle-time-for-different-components-in-pygame)
 - [How to make image stay on screen in pygame?](https://stackoverflow.com/questions/63718110/how-to-make-image-stay-on-screen-in-pygame/63726447#63726447)
 
