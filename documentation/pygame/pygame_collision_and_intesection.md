@@ -162,6 +162,8 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Find the intersection side between the circle and the rectangle](../../examples/minimal_examples/pygame_minimal_intersect_circle_rectangle_2.py)**
 
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-NearestPointOnRectangle](https://repl.it/@Rabbid76/PyGame-NearestPointOnRectangle#main.py)</kbd>
+
 - [Detect collision between textbox and circle in pygame](https://stackoverflow.com/questions/58305721/detect-collision-between-textbox-and-circle-in-pygame/58306368#58306368)
 
   :scroll: **[Minimal example - Find the intersection of a small rectangle with the outline of a large circle](../../examples/minimal_examples/pygame_minimal_intersect_circle_rectangle_3.py)**

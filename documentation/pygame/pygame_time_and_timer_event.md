@@ -288,7 +288,7 @@ Related Stack Overflow questions:
 
 - [Countdown timer in Pygame](https://stackoverflow.com/questions/30720665/countdown-timer-in-pygame/63551239#63551239)  
   ![Countdown timer in Pygame](https://i.stack.imgur.com/10Gj0.gif)
-- [Python 3.8 pygame timer?](https://stackoverflow.com/questions/59944795/python-3-8-pygame-timer/59944869#59944869)  
+- [How do I use a PyGame timer event? How to add a clock to a pygame screen using a timer?](https://stackoverflow.com/questions/59944795/python-3-8-pygame-timer/59944869#59944869)  
   ![Python 3.8 pygame timer?](https://i.stack.imgur.com/axkzq.gif)
 - [How to display dynamically in Pygame?](https://stackoverflow.com/questions/56453574/how-to-display-dynamically-in-pygame/56454295#56454295)  
   ![How to display dynamically in Pygame?](https://i.stack.imgur.com/C3RZ8.gif)

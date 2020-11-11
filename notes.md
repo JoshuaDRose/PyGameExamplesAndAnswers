@@ -90,6 +90,7 @@ next:
 [pygame audio playback speed](https://stackoverflow.com/questions/2159365/pygame-audio-playback-speed)  
 [Fully transparent windows in Pygame?](https://stackoverflow.com/questions/550001/fully-transparent-windows-in-pygame)  
 [How to fade from one colour to another in pygame?](https://stackoverflow.com/questions/51973441/how-to-fade-from-one-colour-to-another-in-pygame)  
+[Pygame - Return collision location](https://stackoverflow.com/questions/64760792/pygame-return-collision-location)  
 
 interesting
 
