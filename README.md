@@ -94,6 +94,8 @@ The site is still under construction :construction:.
 
 [Move towards target or mouse](documentation/pygame/pygame_move_towards_target.md)
 
+[Motion and movement](documentation/pygame/pygame_movement_and_motion.md)
+
 ### Interaction between objects
 
 [Vector](documentation/pygame/pygame_vector_and_reflection.md)
