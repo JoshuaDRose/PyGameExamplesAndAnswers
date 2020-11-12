@@ -1,5 +1,8 @@
 [![StackOverflow](https://stackexchange.com/users/flair/7322082.png)](https://stackoverflow.com/users/5577765/rabbid76?tab=profile) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![reply.it](../../resource/logo/Repl_it_logo_80.png) reply.it](https://repl.it/repls/folder/PyGame%20Examples)
 
+"So if you want to go fast, if you want to get done quickly, if you want your code to be easy to write, make it easy to read."  
+Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
+
 ---
 
 # Time, timer event and clock

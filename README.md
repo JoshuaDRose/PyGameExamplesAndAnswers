@@ -1,15 +1,13 @@
 [![StackOverflow](https://stackexchange.com/users/flair/7322082.png)](https://stackoverflow.com/users/5577765/rabbid76?tab=profile) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![reply.it](resource/logo/Repl_it_logo_80.png) reply.it](https://repl.it/repls/folder/PyGame%20Examples)
 
-<style>
-#preview-images { display: inline }
-</style>
+"We learn more by looking for the answer to a question and not finding it than we do from learning the answer itself."  
+Lloyd Alexander, The Book of Three
 
 ---
 
 # PyGame Examples and Answers
 
-"We learn more by looking for the answer to a question and not finding it than we do from learning the answer itself."  
-Lloyd Alexander, The Book of Three
+[PyGame](https://www.pygame.org/news) - [PyGame documentation](https://www.pygame.org/docs/)
 
 <div id="preview-images"><!--
 --><a href="https://stackoverflow.com/questions/64419223/creating-multiple-sprites-with-different-updates-from-the-same-sprite-class-i/64456959#64456959"><img src="https://i.stack.imgur.com/BaFzb.gif" height="100" title="Drag Sprites"></a><!--
@@ -41,13 +39,6 @@ This repository is an excerpt and explanations of answers to [PyGame](https://ww
 It does not contain an application, just a collection of examples. Initially I just wanted to bring order to a bunch of PyGame examples on my local drive. The examples should not be sophisticated, they should be kept as simple as possible. Each example should just spot one single issue. However, this is not a complete PyGame tutorial, but rather a FAQ.  
 This page provides links to the relevant Stack Overflow questions and live examples on [repl.it](https://repl.it/). The examples are roughly divided into topics. My first language isn't English, but I did my best. I struggle with English grammar, which is the bill of my laziness at school.  
 The site is still under construction :construction:.
-
-## PyGame
-
-[PyGame](https://www.pygame.org/news)  
-[PyGame documentation](https://www.pygame.org/docs/)
-
-[PyGame](https://www.pygame.org/news) examples and explanations.
 
 ### Application, control flow and events
 
@@ -87,11 +78,9 @@ The site is still under construction :construction:.
 
 ### Move, scale and rotate objects
 
-[Scale surface](documentation/pygame/pygame_surface_scale.md)
+[Scale and zoom surface](documentation/pygame/pygame_surface_scale_and_zoom.md)
 
 [Rotate surface](documentation/pygame/pygame_surface_rotate.md)
-
-[Zoom surface](documentation/pygame/pygame_surface_zoom.md)
 
 [Rotate towards target or mouse](documentation/pygame/pygame_rotate_towards_target.md)
 
