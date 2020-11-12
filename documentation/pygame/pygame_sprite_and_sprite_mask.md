@@ -183,6 +183,24 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivot](https://repl.it/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivot#main.py)</kbd>
 
+### Follow mouse
+
+Related Stack Overflow questions:
+
+- [How do I rotate a sprite towards the mouse and move it?](https://stackoverflow.com/questions/64805267/in-the-pygame-module-no-matter-what-i-change-the-coordinates-of-player-to-it-w/64806308#64806308)
+
+  :scroll: **[Minimal example - Rotate Sprite to mouse](../../examples/minimal_examples/pygame_minimal_sprite_rotate_to_mouse.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteRotateToMouse](https://repl.it/@Rabbid76/PyGame-SpriteRotateToMouse#main.py)</kbd>
+
+  ![How do I rotate a sprite towards the mouse and move it?](https://i.stack.imgur.com/DYZHI.gif)
+
+  :scroll: **[Minimal example - Sprite follows mouse](../../examples/minimal_examples/pygame_minimal_sprite_follow_mouse.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteFollowMouse](https://repl.it/@Rabbid76/PyGame-SpriteFollowMouse#main.py)</kbd>
+
+  ![How do I rotate a sprite towards the mouse and move it?](https://i.stack.imgur.com/7ONS1.gif)
+
 ## Click Sprite
 
 Related Stack Overflow questions:
