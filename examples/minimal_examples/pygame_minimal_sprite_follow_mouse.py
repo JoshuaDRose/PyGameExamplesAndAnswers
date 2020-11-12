@@ -54,14 +54,7 @@ while run:
             player.point_at(*event.pos)
 
     keys = pygame.key.get_pressed()
-    if keys[pygame.K_w]:
-        player.move(0, -1)
-    if keys[pygame.K_s]:
-        player.move(0, 1)
-    if keys[pygame.K_a]:
-        player.move(-1, 0)
-    if keys[pygame.K_d]:
-        player.move(1, 0)
+    player.move(keys[pygame.K_d]-keys[pygame.K_a], keys[pygame.K_s]-keys[pygame.K_w])
 
     window.fill((255, 255, 255))
     all_sprites.draw(window)
