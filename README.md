@@ -33,6 +33,9 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/62010434/how-do-i-chain-the-movement-of-a-snakes-body/62010435#62010435"><img src="https://i.stack.imgur.com/Q6zUm.gif" height="100" title="Chain"></a><!--
 --><a href="https://stackoverflow.com/questions/60122492/how-do-i-stop-more-than-1-bullet-firing-at-once/60125448#60125448"><img src="https://i.stack.imgur.com/W6lzh.gif" height="100" title="Shoot bullet"></a><!--
 --><a href="https://stackoverflow.com/questions/64793618/adding-a-particle-effect-to-my-clicker-game/64794954#64794954"><img src="https://i.stack.imgur.com/bWOOF.gif" height="100" title="Shoot bullet"></a><!--
+--><a href="https://stackoverflow.com/questions/58603835/how-to-rotate-an-imageplayer-to-the-mouse-direction/58604116#58604116"><img src="https://i.stack.imgur.com/eOdjl.gif" height="100" title="Shoot bullet"></a><!--
+--><a href="https://stackoverflow.com/questions/64805267/in-the-pygame-module-no-matter-what-i-change-the-coordinates-of-player-to-it-w/64806308#64806308"><img src="https://i.stack.imgur.com/7ONS1.gif" height="100" title="Shoot bullet"></a><!--
+--><a href="https://stackoverflow.com/questions/64087982/how-to-make-smooth-movement-in-pygame/64088747#64088747"><img src="https://i.stack.imgur.com/9HL3b.gif" height="100" title="Shoot bullet"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  

@@ -51,7 +51,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
         elif event.type == pygame.MOUSEMOTION:
-            player.point_at(*pygame.mouse.get_pos())
+            player.point_at(*event.pos)
 
     keys = pygame.key.get_pressed()
     if keys[pygame.K_w]:
