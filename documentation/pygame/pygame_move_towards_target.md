@@ -85,17 +85,21 @@ surf.blit(self.bullet, bullet_rect)
 
 Related Stack Overflow questions:
 
-- [Pygame: Image chasing the mouse cursor from certain length](https://stackoverflow.com/questions/55168892/pygame-image-chasing-the-mouse-cursor-from-certain-length)
+- [Pygame: Image chasing the mouse cursor from certain length](https://stackoverflow.com/questions/55168892/pygame-image-chasing-the-mouse-cursor-from-certain-length/55169273#55169273)
 
   :scroll: **[Minimal example - Follow target](../../examples/minimal_examples/_pygame_minimal_move_follow_1.py)**
 
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowMouse](https://repl.it/@Rabbid76/PyGame-FollowMouse#main.py)</kbd>
+
 - **[How to make smooth movement in pygame](https://stackoverflow.com/questions/64087982/how-to-make-smooth-movement-in-pygame/64088747#64088747)**  
+  [Sprite follow another flexible way within certain distance limits](https://stackoverflow.com/questions/60064644/sprite-follow-another-flexible-way-within-certain-distance-limits/60082313#60082313)
   ![How to make smooth movement in pygame](https://i.stack.imgur.com/9HL3b.gif)
 
   :scroll: **[Minimal example - Follow target smoothly](../../examples/minimal_examples/pygame_minimal_move_follow_smoothly.py)**
 
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowMouseSmoothly](https://repl.it/@Rabbid76/PyGame-FollowMouseSmoothly#main.py)</kbd>
+
 - **[how to make particles follow my mouse in pygame](https://stackoverflow.com/questions/63412401/how-to-make-particles-follow-my-mouse-in-pygame/63412536#63412536)**
-- [Sprite follow another flexible way within certain distance limits](https://stackoverflow.com/questions/60064644/sprite-follow-another-flexible-way-within-certain-distance-limits)
 - [How can i make a block follow another block in pygame](https://stackoverflow.com/questions/59799575/how-can-i-make-a-block-follow-another-block-in-pygame/59799746#59799746)
 
 For a more sophisticated solution, you've to compute the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) form the point to the target.   Use [`pygame.math.Vector2`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2) for the computation.
