@@ -267,7 +267,7 @@ Related Stack Overflow questions:
 ![scene](https://i.stack.imgur.com/UD6Wt.gif)
 
 [pygame.mouse.get_pressed() not responding](https://stackoverflow.com/questions/63197182/pygame-mouse-get-pressed-not-responding/63197269#63197269)  
-![scene](https://stackoverflow.com/questions/63197182/pygame-mouse-get-pressed-not-responding/63197269#63197269)
+![scene](https://i.stack.imgur.com/zL9WO.gif)
 
 [Pygame Enemys Wont Move Down - Tower Defense Game](https://stackoverflow.com/questions/63734280/pygame-enemys-wont-move-down-tower-defense-game)
 

@@ -159,8 +159,12 @@ if distance > minimum_distance:
 
 :scroll: **[Minimal example - Ball follow ball](../../examples/minimal_examples/pygame_minimal_move_follow_2.py)**
 
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowBall](https://repl.it/@Rabbid76/PyGame-FollowBall#main.py)</kbd>
+
 ![Minimal example - Ball follow ball](../../screenshot/pygame_minimal_move_follow_2.gif)
 
 :scroll: **[Minimal example - Object follow target](../../examples/minimal_examples/pygame_minimal_move_follow_3.py)**
+
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowInGrid](https://repl.it/@Rabbid76/PyGame-FollowInGrid#main.py)</kbd>
 
 ![Minimal example - Object follow target](../../screenshot/pygame_minimal_move_follow_3.gif)
