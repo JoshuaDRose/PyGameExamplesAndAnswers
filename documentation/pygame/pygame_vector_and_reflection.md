@@ -19,7 +19,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [How to know the angle between two points?](https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-points)
+- [How to know the angle between two points?](https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-points/64563327#64563327)
 
 In general, the angle of a vector _(x, y)_ can be calculated by `math.atan2(y, x)`. The vector can be defined by 2 points _(x1, y1)_ and _(x2, y2)_ on a line. Therefore the angle of the line is `math.atan2(y2-y1, x2-x1)`.
 Be aware that the y-axis needs to be reversed (`-y` respectively `y1-y2`) because the y-axis is generally pointing up but in the PyGame coordinate system the y-axis is pointing down. The unit of the angle in the Python `math` module is [Radian](https://en.wikipedia.org/wiki/Radian), but the unit of the angle in PyGame functions like [`pygame.transform.rotate()`](https://www.pygame.org/docs/ref/transform.html#pygame.transform.rotate) is [Degree](https://en.wikipedia.org/wiki/Degree). Hence the angle has to be converted from Radians to Degrees by `math.degrees`:

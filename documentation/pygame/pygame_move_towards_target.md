@@ -33,10 +33,12 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - shoot bullet towards mouse](../../examples/minimal_examples/pygame_minimal_move_to_target_fire_bullet_1.py)**
 
-[`pygame.transform.rotate`](https://www.pygame.org/docs/ref/transform.html#pygame.transform.rotate) does not transform the object self, it creates a new rotated surface and returns it.
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FireBulletInDirectionOfMouse](https://repl.it/@Rabbid76/PyGame-FireBulletInDirectionOfMouse#main.py)</kbd>
 
-If you want to fire a bullet in a certain direction, the direction is defined when the bullet spawns, but it does not change continuously.  
-Set the start position of the bullet and compute the direction vector to the mouse position:
+[`pygame.transform.rotate`](https://www.pygame.org/docs/ref/transform.html#pygame.transform.rotate) does not transform the object itself, but creates a new rotated surface and returns it.
+
+If you want to fire a bullet in a certain direction, the direction is defined the moment the bullet is fired, but it does not change continuously.  
+When the bullet is fired, set the starting position of the bullet and calculate the direction vector to the mouse position:
 
 ```py
 self.pos = (x, y)
@@ -44,8 +46,8 @@ mx, my = pygame.mouse.get_pos()
 self.dir = (mx - x, my - y)
 ```
 
-The direction vector should not depend on the distance to the mouse, it has to be a [Unit vector](https://en.wikipedia.org/wiki/Unit_vector).
-Normalize the vector be dividing by the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance)
+The direction vector should not depend on the distance to the mouse, but it has to be a [Unit vector](https://en.wikipedia.org/wiki/Unit_vector).
+Normalize the vector by dividing by the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance)
 
 ```py
 length = math.hypot(*self.dir)
@@ -55,7 +57,7 @@ else:
     self.dir = (self.dir[0]/length, self.dir[1]/length)
 ```
 
-Compute the angle of the vector and rotate the bullet:
+Compute the angle of the vector and rotate the bullet. In general, the angle of a vector can be computed by `atan2(y, x)`. The y-axis needs to be reversed (`atan2(-y, x)`) as the y-axis generally points up, but in the PyGame coordinate system the y-axis points down (see [How to know the angle between two points?](https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-points/64563327#64563327)):
 
 ```py
 angle = math.degrees(math.atan2(-self.dir[1], self.dir[0]))
@@ -65,14 +67,14 @@ self.bullet.fill((255, 255, 255))
 self.bullet = pygame.transform.rotate(self.bullet, angle)
 ```
 
-To update the position of the bullet, it is sufficient to scale the direction (by a velocity) and add it to its position:
+To update the position of the bullet, it is sufficient to scale the direction (by a velocity) and add it to the position of the bullet:
 
 ```py
 self.pos = (self.pos[0]+self.dir[0]*self.speed,
             self.pos[1]+self.dir[1]*self.speed)
 ```
 
-When you draw the bullet, the get the rectangle of the bullet surface and set the center by `self.pos`
+To draw the rotated bullet in the correct position, take the bounding rectangle of the rotated bullet and set the center point with `self.pos` (see [How do I rotate an image around its center using PyGame?](https://stackoverflow.com/questions/4183208/how-do-i-rotate-an-image-around-its-center-using-pygame/54714144#54714144)):
 
 ```py
 bullet_rect = self.bullet.get_rect(center = self.pos)

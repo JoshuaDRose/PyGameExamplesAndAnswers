@@ -49,6 +49,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - **[pygame.image.load('sprite/test_bg.jpg'): pygame.error: Couldn't open sprite/test_bg.jpg](https://stackoverflow.com/questions/58177145/pygame-image-loadsprite-test-bg-jpg-pygame-error-couldnt-open-sprite-test)**
+- **[Is there any other way to load image in pygame?](https://stackoverflow.com/questions/64835525/is-there-any-other-way-to-load-image-in-pygame)**
 - [Error - pygame.error: Couldn't open backround.png. Fix?](https://stackoverflow.com/questions/57836528/error-pygame-error-couldnt-open-backround-png-fix/57836574#57836574)
 - [I've got an error when trying to create sound using pygame](https://stackoverflow.com/questions/55784793/ive-got-an-error-when-trying-to-create-sound-using-pygame/55784882#55784882)
 
@@ -181,9 +182,6 @@ Related Stack Overflow questions:
 
 [Calculate angles that are in degrees (clockwise) to radians (counter clockwise)](https://stackoverflow.com/questions/58845411/calculate-angles-that-are-in-degrees-clockwise-to-radians-counter-clockwise/58845851#58845851)  
 ![scene](https://i.stack.imgur.com/JtzD1.jpg)
-
-[Creating an arc between two points pygame](https://stackoverflow.com/questions/58954526/creating-an-arc-between-two-points-pygame/58959662#58959662)  
-![scene](https://i.stack.imgur.com/494KZ.png)
 
 [Is there anyway to do this recursively in pygame?](https://stackoverflow.com/questions/59455641/is-there-anyway-to-do-this-recursively-in-pygame/59456232#59456232)  
 ![scene](https://i.stack.imgur.com/fyYSY.png)

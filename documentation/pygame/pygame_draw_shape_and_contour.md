@@ -84,7 +84,7 @@ def draw_polygon_alpha(surface, color, points):
 
 ![Draw a transparent rectangle in pygame](https://i.stack.imgur.com/Zst87.png)
 
-## Draw single pixle
+## Draw single Pixle
 
 Related Stack Overflow questions:
 
@@ -130,6 +130,7 @@ Related Stack Overflow questions:
 The 3rd argument of [`pygame.draw.rect`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect) has to be a tuple with 4 elements:
 
 <s>`pygame.draw.rect(win, (255, 0, 0),(x, y, width, height, vel))`</s>
+
 ```py
 pygame.draw.rect(win, (255, 0, 0),(x, y, width, height))
 ```  
@@ -214,3 +215,13 @@ Related Stack Overflow questions:
   ![How can you make the previous line disappear in python?](https://i.stack.imgur.com/qcAOV.gif)
 - [How to Make a Border in Pygame](https://stackoverflow.com/questions/63095839/how-to-make-a-border-in-pygame/63099536#63099536)  
   ![How to Make a Border in Pygame](https://i.stack.imgur.com/2ReKu.png)![How to Make a Border in Pygame](https://i.stack.imgur.com/s0Lji.png)
+
+## Draw arc
+
+Related Stack Overflow questions:
+
+- [Creating an arc between two points pygame](https://stackoverflow.com/questions/58954526/creating-an-arc-between-two-points-pygame/58959662#58959662)
+
+  :scroll: **[Minimal example - Draw an arc from point to point](../../examples/minimal_examples/pygame_minimal_draw_arc_between_points.py)**
+
+ ![Creating an arc between two points pygame](https://i.stack.imgur.com/494KZ.png)
