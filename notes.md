@@ -92,6 +92,7 @@ next:
 [How to fade from one colour to another in pygame?](https://stackoverflow.com/questions/51973441/how-to-fade-from-one-colour-to-another-in-pygame)  
 [Pygame - Return collision location](https://stackoverflow.com/questions/64760792/pygame-return-collision-location)  
 [Multi-Colored text in pygame](https://stackoverflow.com/questions/64825207/multi-colored-text-in-pygame)  
+[Python Write MIDI file](https://stackoverflow.com/questions/64838592/python-write-midi-file)  
 
 interesting
 
@@ -99,9 +100,10 @@ interesting
 
 #### Questions about size, and resizing
 
-[Allowing resizing window pyGame](https://stackoverflow.com/questions/11603222/allowing-resizing-window-pygame)
+[Allowing resizing window pyGame](https://stackoverflow.com/questions/11603222/allowing-resizing-window-pygame)  
 [How to get the resolution of a monitor in Pygame?](https://stackoverflow.com/questions/19954469/how-to-get-the-resolution-of-a-monitor-in-pygame)  
 [How can I keep a PyGame screen overlay on top?](https://stackoverflow.com/questions/64779210/how-can-i-keep-a-pygame-screen-overlay-on-top)  
+[pygame fullscreen on second monitor](https://stackoverflow.com/questions/64495381/pygame-fullscreen-on-second-monitor)  
 
 ### Not answered questions
 
