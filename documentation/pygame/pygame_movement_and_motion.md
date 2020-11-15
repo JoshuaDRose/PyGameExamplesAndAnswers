@@ -29,3 +29,7 @@ Related Stack Overflow questions:
   ![How to turn the sprite in pygame while moving with the keys](https://i.stack.imgur.com/ALQJc.gif)
 - [Image rotation while moving](https://stackoverflow.com/questions/57226587/image-rotation-while-moving/57227063#57227063)  
   ![Image rotation while moving](https://i.stack.imgur.com/XWNPt.gif)
+
+:scroll: **[Minimal example - Car movement](../../examples/minimal_examples/pygame_minimal_move_car.py)**
+
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CarMovement](https://repl.it/@Rabbid76/PyGame-CarMovement#main.py)</kbd>

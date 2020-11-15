@@ -29,6 +29,12 @@ The typical PyGame application loop has to:
 
 <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MinimalApplicationLoop](https://repl.it/@Rabbid76/PyGame-MinimalApplicationLoop#main.py)</kbd>
 
+### Wait and input in application loop
+
+Related Stack Overflow questions:
+
+- [Pygame Window not Responding after few seconds](https://stackoverflow.com/questions/64830453/pygame-window-not-responding-after-few-seconds/64832291#64832291)
+
 ### Recursiveness
 
 Related Stack Overflow questions:

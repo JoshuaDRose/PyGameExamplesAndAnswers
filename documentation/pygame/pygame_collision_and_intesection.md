@@ -16,7 +16,7 @@ Related Stack Overflow questions:
 - [How to make ball bounce off wall with Pygame?](https://stackoverflow.com/questions/59802794/how-to-make-ball-bounce-off-wall-with-pygame/59803018#59803018)  
   ![How to make ball bounce off wall with Pygame?](https://i.stack.imgur.com/DKzqg.gif)
 - [Window border in pygame](https://stackoverflow.com/questions/64205777/window-border-in-pygame/64206877#64206877)
-- [I made a border in this pong game, but the paddles can cross it. How do I stop that?](https://stackoverflow.com/questions/63607681/i-made-a-border-in-this-pong-game-but-the-paddles-can-cross-it-how-do-i-stop-t/63609229#63609229)
+- [I made a border in this pong game, but the paddles can cross it. How do I stop that?](https://stackoverflow.com/questions/63607681/i-made-a-border-in-this-pong-game-but-the-paddles-can-cross-it-how-do-i-stop-t/63609229#63609229)  
 
 :scroll: **[Minimal example - Restrict object to frame](../../examples/minimal_examples/pygame_minimal_intersect_frame_clamp.py)**
 
@@ -46,6 +46,12 @@ while run:
 
     # [...]
 ```
+
+### Collide with frame with floating point accuracy
+
+Related Stack Overflow questions:
+
+- [How to make my sprite bounce off the boundaries in pygame](https://stackoverflow.com/questions/64839823/how-to-make-my-sprite-bounce-off-the-boundaries-in-pygame/64842460?noredirect=1)
 
 ## Point and Rectangle - Click in rectangle
 

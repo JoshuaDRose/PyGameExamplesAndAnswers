@@ -78,6 +78,11 @@ Related Stack Overflow questions:
 
 - [Curvy snake collision with itself](https://stackoverflow.com/questions/63168090/curvy-snake-collision-with-itself/63180315#63180315)
 
+### Sprite collide with frame, window border and restrict to rectangle
+
+Related Stack Overflow questions:
+
+- [How to make my sprite bounce off the boundaries in pygame](https://stackoverflow.com/questions/64839823/how-to-make-my-sprite-bounce-off-the-boundaries-in-pygame/64842460?noredirect=1)
 ## Sprite mask
 
 Related Stack Overflow questions:
