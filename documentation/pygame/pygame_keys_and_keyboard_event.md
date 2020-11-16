@@ -107,7 +107,7 @@ Related Stack Overflow questions:
 ```py
 while True:
 
-    pressed_key= pygame.key.get_pressed()
+    keys = pygame.key.get_pressed()
     x += (keys[pygame.K_RIGHT] - keys[pygame.K_LEFT]) * speed
     y += (keys[pygame.K_DOWN] - keys[pygame.K_UP]) * speed
 ```

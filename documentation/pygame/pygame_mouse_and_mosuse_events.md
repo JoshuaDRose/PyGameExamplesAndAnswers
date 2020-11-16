@@ -138,3 +138,10 @@ Related Stack Overflow questions:
 :scroll: **[Minimal example - Drag Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_drag.py)**
 
 <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseDragSimple](https://repl.it/@Rabbid76/PyGame-MouseDragSimple#main.py)</kbd>
+
+### Mouse drag a nd rotate
+
+Related Stack Overflow questions:
+
+- [how rotate the images with keyboards?](https://stackoverflow.com/questions/64862405/how-rotate-the-images-with-keyboards/64862779#64862779)
+  ![how rotate the images with keyboards?](https://i.stack.imgur.com/aUlEe.gif)
