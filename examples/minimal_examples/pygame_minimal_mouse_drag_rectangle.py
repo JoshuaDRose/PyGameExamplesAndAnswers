@@ -2,13 +2,15 @@
 # https://www.pygame.org/docs/ref/event.html
 #
 # Dragging object along x-axis in pygame
-# https://stackoverflow.com/questions/61781533/dragging-object-along-x-axis-in-pygame/61781683#61781683)
+# https://stackoverflow.com/questions/61781533/dragging-object-along-x-axis-in-pygame/61781683#61781683
 #
 # How to drag an object around the screen in pygame?
 # https://stackoverflow.com/questions/64241742/how-to-drag-an-object-around-the-screen-in-pygame/64249660#64249660
 #
 # GitHub - Mouse - Mouse Drag
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_mouse_aygnd_mosuse_events.md
+#
+# https://repl.it/@Rabbid76/PyGame-MouseDragSimple
 
 import pygame
 

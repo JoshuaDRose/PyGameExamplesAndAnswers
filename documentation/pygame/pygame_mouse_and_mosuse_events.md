@@ -136,3 +136,5 @@ Related Stack Overflow questions:
 :scroll: **[Minimal example - Drag rectangle](../../examples/minimal_examples/pygame_minimal_mouse_drag_rectangle.py)**
 
 :scroll: **[Minimal example - Drag Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_drag.py)**
+
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseDragSimple](https://repl.it/@Rabbid76/PyGame-MouseDragSimple#main.py)</kbd>
