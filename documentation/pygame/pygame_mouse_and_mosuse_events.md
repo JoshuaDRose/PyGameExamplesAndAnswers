@@ -134,6 +134,10 @@ Related Stack Overflow questions:
   ![how to move multiple images in pygame?](https://i.stack.imgur.com/mOnHo.gif)
 - [how i can make this with four images?](https://stackoverflow.com/questions/64592440/how-i-can-make-this-with-four-images/64592600#64592600)  
   ![how i can make this with four images?](https://i.stack.imgur.com/Cmxd9.gif)
+- [how to adapt the second code to put in the first?](https://stackoverflow.com/questions/64880962/how-to-adapt-the-second-code-to-put-in-the-first/64881500#64881500)  
+  ![how to adapt the second code to put in the first?](https://i.stack.imgur.com/f3aOb.gif)  
+  ![how to adapt the second code to put in the first?](https://i.stack.imgur.com/ZBvDp.gif)  
+  ![how to adapt the second code to put in the first?](https://i.stack.imgur.com/M1k3p.gif)
 
 :scroll: **[Minimal example - Drag rectangle](../../examples/minimal_examples/pygame_minimal_mouse_drag_rectangle.py)**
 
@@ -141,7 +145,7 @@ Related Stack Overflow questions:
 
 <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseDragSimple](https://repl.it/@Rabbid76/PyGame-MouseDragSimple#main.py)</kbd>
 
-### Mouse drag a nd rotate
+### Mouse drag and rotate
 
 Related Stack Overflow questions:
 
