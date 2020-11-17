@@ -50,6 +50,8 @@ if any(buttons):
 
 :scroll: **[minimal example - Detect mouse button states](../../examples/minimal_examples/pygame_minimal_mouse_states_1.py)**
 
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseStates](https://repl.it/@Rabbid76/PyGame-MouseStates#main.py)</kbd>
+
 :scroll: **[minimal example - Detect Sprite on hover](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover.py)**
 
 ![Pygame - Mouse clicks not getting detected](https://i.stack.imgur.com/UJVKi.gif)
