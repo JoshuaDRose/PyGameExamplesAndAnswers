@@ -131,7 +131,7 @@ Related Stack Overflow questions:
 
 - **[Faster version of pygame.event.get()](https://stackoverflow.com/questions/58086113/faster-version-of-pygame-event-get/58087070#58087070)**
 
-[`pygame.event.get()`](https://www.pygame.org/docs/ref/event.html#pygame.event.get) get all the messages and remove them from the queue. If `pygame.event.get ()` is called in multiple event loops, only one loop receives the events, but never all loops receive all events. As a result, some events appear to be missed.
+[`pygame.event.get()`](https://www.pygame.org/docs/ref/event.html#pygame.event.get) get all the messages and remove them from the queue. If `pygame.event.get()` is called in multiple event loops, only one loop receives the events, but never all loops receive all events. As a result, some events appear to be missed.
 
 Get the events once and use them in multiple loops or pass the list or events to functions and methods where they are handled:
 

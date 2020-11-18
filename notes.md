@@ -145,9 +145,12 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
 ### Fix examples
 
 - pygame_minimal_intersect_circle_rectangle_4.py: fix intersection of edge with circle (increase rectangle 100x100)
-
+f
 ### New examples
 
+- Draw trail
+  [How do I leave a trail behind a sprite with pygame? (Tron Game)](https://stackoverflow.com/questions/64884308/how-do-i-leave-a-trail-behind-a-sprite-with-pygame-tron-game/64884426#64884426)
+  
 - Multiple bouncing circles or balls
 - moving tank with rotating gun fire bullets
 - chess board
