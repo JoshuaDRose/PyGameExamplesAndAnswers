@@ -20,6 +20,8 @@ The `MOUSEBUTTONDOWN` event occurs once when you click the mouse button and the 
 
 :scroll: **[minimal example - Detect mouse button click events](../../examples/minimal_examples/pygame_minimal_mouse_event_1.py)**
 
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseEvents](https://repl.it/@Rabbid76/PyGame-MouseEvents#main.py)</kbd>
+
 :scroll: **[minimal example - Detect click on Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click.py)**
 
 ![Pygame - Mouse clicks not getting detected](https://i.stack.imgur.com/mW6vv.gif)
