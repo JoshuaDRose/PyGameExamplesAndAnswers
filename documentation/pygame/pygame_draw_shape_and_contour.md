@@ -88,7 +88,7 @@ def draw_polygon_alpha(surface, color, points):
 
 Related Stack Overflow questions:
 
-- [Pygame: Draw single pixel](https://stackoverflow.com/questions/10354638/pygame-draw-single-pixel)
+- [Pygame: Draw single pixel](https://stackoverflow.com/questions/10354638/pygame-draw-single-pixel/64571453#64571453)
 
 The usual method of drawing a point on a _Surface_ or the display is to use  [`pygame.Surface.set_at']:
 
@@ -99,6 +99,8 @@ window_surface.set_at((x, y), my_color)
 However, this function is very slow and leads to a massive lack of performance if more than 1 point is to be drawn.
 
 :scroll: **[Minimal example - Draw pixels with `set_at`](../../examples/minimal_examples/pygame_minimal_draw_pixels_1.py)**
+
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-DrawPixel-1](https://repl.it/@Rabbid76/PyGame-DrawPixel-1#main.py)</kbd>
 
 ![Pygame: Draw single pixel](https://i.stack.imgur.com/OiqGY.png)
 
@@ -114,6 +116,8 @@ pixel_array.close()
 ```
 
 :scroll: **[Minimal example - Draw pixels with `pygame.PixelArray`](../../examples/minimal_examples/pygame_minimal_draw_pixels_2.py)**
+
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-DrawPixel-2](https://repl.it/@Rabbid76/PyGame-DrawPixel-2#main.py)</kbd>
 
 ![Pygame: Draw single pixel](https://i.stack.imgur.com/OiqGY.png)
 

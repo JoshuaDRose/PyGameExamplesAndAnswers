@@ -101,6 +101,7 @@ Related Stack Overflow questions:
 - [What all things happens inside pygame when I press a key? When to use pygame.event==KEYDOWN](https://stackoverflow.com/questions/63050139/what-all-things-happens-inside-pygame-when-i-press-a-key-when-to-use-pygame-eve/63056690#63056690)
 - [PyGame press two buttons at the same time](https://stackoverflow.com/questions/59181962/pygame-press-two-buttons-at-the-same-time/59182228#59182228)
 - [Pygame Keys Activating in Multiple Frames](https://stackoverflow.com/questions/64540381/pygame-keys-activating-in-multiple-frames/64540554#64540554)
+- [How to make the snake continue in that direction until another arrow key is pressed](https://stackoverflow.com/questions/64902377/how-to-make-the-snake-continue-in-that-direction-until-another-arrow-key-is-pres/64902458#64902458)
 
 [`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed) returns a list with the state of each key. If a key is held down, the state for the key is `True`, otherwise `False`. Use [`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed) to evaluate the current state of a button and get continuous movement:
 
