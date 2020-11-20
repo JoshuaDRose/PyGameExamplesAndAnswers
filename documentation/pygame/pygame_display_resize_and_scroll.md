@@ -163,12 +163,14 @@ See [pygame wiki - `SettingWindowPosition`](https://www.pygame.org/wiki/SettingW
 >screen = pygame.display.set_mode((100,100))
 >```
 
-## Scale window
+## Scale and zoom window
 
 Related Stack Overflow questions:
 
 - [Scale Everything On Pygame Display Surface](https://stackoverflow.com/questions/64341589/scale-everything-on-pygame-display-surface/64341784#64341784)
 - [How do I make my screen zoom in and out in pygame?](https://stackoverflow.com/questions/64079174/how-do-i-make-my-screen-zoom-in-and-out-in-pygame/64079239#64079239)
+- [Zooming in and out of a PyGame window with all objects still in place](https://stackoverflow.com/questions/64936805/zooming-in-and-out-of-a-pygame-window-with-all-objects-still-in-place/64937795#64937795)  
+  ![Zooming in and out of a PyGame window with all objects still in place](https://i.stack.imgur.com/qYHGr.gif)
 
 > I'm wondering if there's a way I can globally scale everything up in my game without either having to scale each sprite up individually [...]" 
 
