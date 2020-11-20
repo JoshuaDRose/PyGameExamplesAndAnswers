@@ -124,6 +124,8 @@ Related Stack Overflow questions:
 - [python, pygame - jumping too fast?](https://stackoverflow.com/questions/58474204/python-pygame-jumping-too-fast/58474280#58474280)
 - [How to make a circular object jump using pygame?](https://stackoverflow.com/questions/62822322/how-to-make-a-circular-object-jump-using-pygame/62822601#62822601)  
   ![How to make a circular object jump using pygame?](https://i.stack.imgur.com/6BPnL.gif)
+- [Pygame Bouncy Ball Sinks Through Floor](https://stackoverflow.com/questions/64864966/pygame-bouncy-ball-sinks-through-floor/64865054#64865054)  
+  ![Pygame Bouncy Ball Sinks Through Floor](https://i.stack.imgur.com/ulJge.gif)
 
 ## Grid
 
@@ -183,9 +185,6 @@ Related Stack Overflow questions:
 [How to draw with mouse and save as 1s and 0s](https://stackoverflow.com/questions/58847079/how-to-draw-with-mouse-and-save-as-1s-and-0s/58850614#58850614)  
 ![scene](https://i.stack.imgur.com/hMHD8.gif)
 
-[Calculate angles that are in degrees (clockwise) to radians (counter clockwise)](https://stackoverflow.com/questions/58845411/calculate-angles-that-are-in-degrees-clockwise-to-radians-counter-clockwise/58845851#58845851)  
-![scene](https://i.stack.imgur.com/JtzD1.jpg)
-
 [Is there anyway to do this recursively in pygame?](https://stackoverflow.com/questions/59455641/is-there-anyway-to-do-this-recursively-in-pygame/59456232#59456232)  
 ![scene](https://i.stack.imgur.com/fyYSY.png)
 
@@ -207,7 +206,7 @@ Related Stack Overflow questions:
 [I want to make a visualized bubble sort in pygame, the sort works but the visualization doesn't](https://stackoverflow.com/questions/58039583/i-want-to-make-a-visualized-bubble-sort-in-pygame-the-sort-works-but-the-visual/58039872#58039872)  
 ![scene](https://i.stack.imgur.com/h48Os.gif)
 
-[How can I create a window where my program draws a dot ( which is point.png here ) wherever I click on the screen?](https://stackoverflow.com/questions/59002061/how-can-i-create-a-window-where-my-program-draws-a-dot-which-is-point-png-here/59002137#59002137)
+[How can I create a window where my program draws a dot ( which is point.png here ) wherever I click on the screen?](https://stackoverflow.com/questions/59002061/how-can-i-create-a-window-where-my-program-draws-a-dot-which-is-point-png-here/59002137#59002137)  
 ![scene](https://i.stack.imgur.com/XthPF.gif)
 
 [Python3: Count images number and compared the similarity](https://stackoverflow.com/questions/59183941/python3-count-images-number-and-compared-the-similarity/59184495#59184495)  
@@ -277,3 +276,6 @@ Related Stack Overflow questions:
 
 [How can I make my recursive function go back to continue recursing other cells](https://stackoverflow.com/questions/64721771/how-can-i-make-my-recursive-function-go-back-to-continue-recursing-other-cells/64722209#64722209)  
 ![scene](https://i.stack.imgur.com/L32ZZ.png)
+
+[Pygame Tic Tak Toe Logic? How Would I Do It](https://stackoverflow.com/questions/64825967/pygame-tic-tak-toe-logic-how-would-i-do-it/64934964#64934964)  
+![Pygame Tic Tak Toe Logic? How Would I Do It](https://i.stack.imgur.com/p7mfM.gif)

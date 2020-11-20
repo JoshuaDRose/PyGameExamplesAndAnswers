@@ -90,7 +90,7 @@ The site is still under construction :construction:.
 
 ### Interaction between objects
 
-[Vector](documentation/pygame/pygame_vector_and_reflection.md)
+[Math and Vector](documentation/pygame/pygame_math_vector_and_reflection.md)
 
 [Collision and Intersection (Bounce, Pong, etc.)](documentation/pygame/pygame_collision_and_intesection.md)
 

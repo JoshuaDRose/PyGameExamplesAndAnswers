@@ -5,7 +5,7 @@ Robert C. Martin, Clean Architecture
 
 ---
 
-# Vector
+# Math and Vector
 
 ## Euclidean distance an length
 
@@ -15,11 +15,12 @@ Related Stack Overflow questions:
 - [Im currently making a game with pygame and I need an explanation on some vector code](https://stackoverflow.com/questions/61670940/im-currently-making-a-game-with-pygame-and-i-need-an-explanation-on-some-vector/61674234#61674234)
 - [PyGame, make the tank gun follow your cursor, also good collision implementation practices](https://stackoverflow.com/questions/62455073/pygame-make-the-tank-gun-follow-your-cursor-also-good-collision-implementation/62455339#62455339)
 
-## Angle between vectors
+## Angle between vectors and angle of arc
 
 Related Stack Overflow questions:
 
 - [How to know the angle between two points?](https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-points/64563327#64563327)
+- [Calculate angles that are in degrees (clockwise) to radians (counter clockwise)](https://stackoverflow.com/questions/58845411/calculate-angles-that-are-in-degrees-clockwise-to-radians-counter-clockwise/58845851#58845851)
 
 In general, the angle of a vector _(x, y)_ can be calculated by `math.atan2(y, x)`. The vector can be defined by 2 points _(x1, y1)_ and _(x2, y2)_ on a line. Therefore the angle of the line is `math.atan2(y2-y1, x2-x1)`.
 Be aware that the y-axis needs to be reversed (`-y` respectively `y1-y2`) because the y-axis is generally pointing up but in the PyGame coordinate system the y-axis is pointing down. The unit of the angle in the Python `math` module is [Radian](https://en.wikipedia.org/wiki/Radian), but the unit of the angle in PyGame functions like [`pygame.transform.rotate()`](https://www.pygame.org/docs/ref/transform.html#pygame.transform.rotate) is [Degree](https://en.wikipedia.org/wiki/Degree). Hence the angle has to be converted from Radians to Degrees by `math.degrees`:
@@ -44,7 +45,7 @@ def angle_of_line(x1, y1, x2, y2):
     return angle_of_vector(x2-x1, y2-y1)
 ```
 
-:scroll: **[Minimal example - Calculate angle of vector animation](../../examples/minimal_examples/pygame_minimal_vector_angle_of_vector.py)**
+:scroll: **[Minimal example - Calculate angle of vector animation](../../examples/minimal_examples/pygame_minimal_math_vector_angle_of_vector.py)**
 
 ![How to know the angle between two points?](https://i.stack.imgur.com/Sb5p3.gif)
 
@@ -55,7 +56,7 @@ def angle_between_vectors(x1, y1, x2, y2):
     return pygame.math.Vector2(x1, y1).angle_to((x2, y2))
 ```
 
-:scroll: **[Minimal example - Calculate angle between vector animation](../../examples/minimal_examples/pygame_minimal_vector_angle_between_vectors.py)**
+:scroll: **[Minimal example - Calculate angle between vector animation](../../examples/minimal_examples/pygame_minimal_math_vector_angle_between_vectors.py)**
 
 ![How to know the angle between two points?](https://i.stack.imgur.com/fW3WH.gif)
 
@@ -127,7 +128,7 @@ Related Stack Overflow questions:
 - [Use vector2 in pygame. Collide with the window frame and restrict the ball to the rectangular area](https://stackoverflow.com/questions/60213103/use-vector2-in-pygame/60214064#60214064)  
   ![Use vector2 in pygame](https://i.stack.imgur.com/jbmJ1.gif)
 
-  :scroll: **[Minimal example - Bball bounce off the frame](../../examples/minimal_examples/pygame_minimal_vector_reflect_frame.py)**
+  :scroll: **[Minimal example - Bball bounce off the frame](../../examples/minimal_examples/pygame_minimal_math_vector_reflect_frame.py)**
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-BallBounceOffFrame](https://repl.it/@Rabbid76/PyGame-BallBounceOffFrame#main.py)</kbd>
 
@@ -165,4 +166,4 @@ Related Stack Overflow questions:
 - [Python pygame - center axis rotation segment line](https://stackoverflow.com/questions/64446045/python-pygame-center-axis-rotation-segment-line/64446683#64446683)
   ![Python pygame - center axis rotation segment line](https://i.stack.imgur.com/C6EWg.gif)
 
-  :scroll: **[Minimal example - Rotate line](../../examples/minimal_examples/pygame_minimal_vector_rotate_line.py)**
+  :scroll: **[Minimal example - Rotate line](../../examples/minimal_examples/pygame_minimal_math_vector_rotate_line.py)**
