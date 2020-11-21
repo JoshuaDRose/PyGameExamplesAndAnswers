@@ -43,8 +43,10 @@ fern_paramters = {
 }  
 fern_x, fern_y, margin = 0, 0, 0.5  
 
-window = pygame.display.set_mode((500, 500))  
-window.fill((120, 70, 40))  
+window = pygame.display.set_mode((400, 400))  
+window.fill((60, 30, 10))  
+
+pygame.time.wait(5000)
 
 run = True
 while run: 

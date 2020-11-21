@@ -34,6 +34,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Having issues trying to use a dictionary to define parameters for Barnsley's Fern](https://stackoverflow.com/questions/56913062/having-issues-trying-to-use-a-dictionary-to-define-parameters-for-barnsleys-fer)
+- [Having issues trying to use a dictionary to define parameters for Barnsley's Fern](https://stackoverflow.com/questions/56913062/having-issues-trying-to-use-a-dictionary-to-define-parameters-for-barnsleys-fer)  
+  ![Having issues trying to use a dictionary to define parameters for Barnsley's Fern](../../screenshot/pygame_minimal_2D_barnsleys_fern.gif)
 
   :scroll: **[Minimal example - Barnsley's Fern](../../examples/minimal_examples/pygame_minimal_2D_water_ripple_effect_numpy.py)**
