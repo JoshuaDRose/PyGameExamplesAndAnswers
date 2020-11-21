@@ -7,7 +7,7 @@ Denis Diderot, Pensées philosophiques
 
 # Draw 2D
 
-## Effects
+## Water effects
 
 Related Stack Overflow questions:
 
@@ -17,6 +17,13 @@ Related Stack Overflow questions:
 
   ![Water ripple effect Python and Pygame, from coding train video](https://i.stack.imgur.com/L0Ct5.gif)
 
-  :scroll: **[Minimal example - Water ripple effect using NumPy](../../examples/minimal_examples/pygame_minimal_2D_water_ripple_effect_numpa.py)**
+  :scroll: **[Minimal example - Water ripple effect using NumPy](../../examples/minimal_examples/pygame_minimal_2D_water_ripple_effect_numpy.py)**
 
   ![Water ripple effect Python and Pygame, from coding train video](https://i.stack.imgur.com/FfCWu.gif)
+
+## Particles
+
+Related Stack Overflow questions:
+
+- [Pygame swap text with another text](https://stackoverflow.com/questions/60944070/pygame-swap-text-with-another-text/60953697#60953697)  
+  ![Pygame swap text with another text](https://i.stack.imgur.com/DcHQy.gif)
