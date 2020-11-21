@@ -276,3 +276,6 @@ Related Stack Overflow questions:
 
 [Pygame Tic Tak Toe Logic? How Would I Do It](https://stackoverflow.com/questions/64825967/pygame-tic-tak-toe-logic-how-would-i-do-it/64934964#64934964)  
 ![Pygame Tic Tak Toe Logic? How Would I Do It](https://i.stack.imgur.com/p7mfM.gif)
+
+[How do I add a rubber band for mouse dragging in PyGame?](https://stackoverflow.com/questions/64880962/how-do-i-add-a-rubber-band-for-mouse-dragging-in-pygame/64881500#64881500)
+![How do I add a rubber band for mouse dragging in PyGame?](https://i.stack.imgur.com/f3aOb.gif)

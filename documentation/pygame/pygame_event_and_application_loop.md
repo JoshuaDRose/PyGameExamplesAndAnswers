@@ -102,7 +102,7 @@ See [Time, timer event and clock](pygame_time_and_timer_event.md)
 
 ### Event loop and handle events
 
-- [PyGame unresponsive display](https://stackoverflow.com/questions/63540062/pygame-unresponsive-display/63540113?noredirect=1)  
+- [PyGame unresponsive display](https://stackoverflow.com/questions/63540062/pygame-unresponsive-display/63540113#63540113)  
 - [PyGame window not responding after a few seconds](https://stackoverflow.com/questions/20165492/pygame-window-not-responding-after-a-few-seconds/61409221#61409221)
 - [Why pygame.event.get() returns EventList?](https://stackoverflow.com/questions/61761718/why-pygame-event-get-returns-eventlist/61761995#61761995)
 - [How can I limit events to one event per frame(iteration) in pygame](https://stackoverflow.com/questions/64192761/how-can-i-limit-events-to-one-event-per-frameiteration-in-pygame/64192788#64192788)

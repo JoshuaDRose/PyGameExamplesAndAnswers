@@ -16,7 +16,7 @@ Related Stack Overflow questions:
 - [Pygame - Mouse clicks not getting detected](https://stackoverflow.com/questions/64284668/python-w-pygame-mouse-detection-isnt-working)
 - [mouse.get_pressed() inconsistent/returning (0, 0, 0)](https://stackoverflow.com/questions/63970977/mouse-get-pressed-inconsistent-returning-0-0-0/63971125#63971125)
 
-The `MOUSEBUTTONDOWN` event occurs once when you click the mouse button and the `MOUSEBUTTONUP` event occurs once when the mouse button is released. The [`pygame.event.Event()`](https://www.pygame.org/docs/ref/event.html#pygame.event.Event) object has two attributes that provide information about the mouse event. `pos` is a tuple that stores the position that was clicked. Each mouse button is associated a value. For instance the value of the attributes is 1, 2, 3, 4, 5 for the left mouse button, middle mouse button, right mouse button, mouse wheel up respectively mouse wheel down. When multiple keys are pressed, multiple mouse button events occur. Further explanations can be found in the documentation of the module [`pygame.event`](https://www.pygame.org/docs/ref/event.html).
+The `MOUSEBUTTONDOWN` event occurs once when you click the mouse button and the `MOUSEBUTTONUP` event occurs once when the mouse button is released. The [`pygame.event.Event()`](https://www.pygame.org/docs/ref/event.html#pygame.event.Event) object has two attributes that provide information about the mouse event. `pos` is a tuple that stores the position that was clicked. `button` stores the button that was clicked. Each mouse button is associated a value. For instance the value of the attributes is 1, 2, 3, 4, 5 for the left mouse button, middle mouse button, right mouse button, mouse wheel up respectively mouse wheel down. When multiple keys are pressed, multiple mouse button events occur. Further explanations can be found in the documentation of the module [`pygame.event`](https://www.pygame.org/docs/ref/event.html).
 
 :scroll: **[minimal example - Detect mouse button click events](../../examples/minimal_examples/pygame_minimal_mouse_event_1.py)**
 
@@ -26,7 +26,7 @@ The `MOUSEBUTTONDOWN` event occurs once when you click the mouse button and the 
 
 ![Pygame - Mouse clicks not getting detected](https://i.stack.imgur.com/mW6vv.gif)
 
-The coordinates which are returned by [`pygame.mouse.get_pressed()`](https://www.pygame.org/docs/ref/mouse.html#pygame.mouse.get_pressed) are evaluated when the events are handled. You need to handle the events by either [`pygame.event.pump()`](https://www.pygame.org/docs/ref/event.html#pygame.event.pump) or [`pygame.event.get()`](https://www.pygame.org/docs/ref/event.html#pygame.event.get).
+The coordinates which are returned by [`pygame.mouse.get_pos()`](https://www.pygame.org/docs/ref/mouse.html#pygame.mouse.get_pressed) are evaluated when the events are handled. You need to handle the events by either [`pygame.event.pump()`](https://www.pygame.org/docs/ref/event.html#pygame.event.pump) or [`pygame.event.get()`](https://www.pygame.org/docs/ref/event.html#pygame.event.get).
 
 See [`pygame.event.get()`](https://www.pygame.org/docs/ref/event.html#pygame.event.get):
 

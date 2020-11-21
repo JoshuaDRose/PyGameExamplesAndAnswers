@@ -27,3 +27,13 @@ Related Stack Overflow questions:
 
 - [Pygame swap text with another text](https://stackoverflow.com/questions/60944070/pygame-swap-text-with-another-text/60953697#60953697)  
   ![Pygame swap text with another text](https://i.stack.imgur.com/DcHQy.gif)
+
+  :scroll: **[Minimal example - Spraying particles](../../examples/minimal_examples/pygame_minimal_2D_particles.py)**
+
+## Mathematics
+
+Related Stack Overflow questions:
+
+- [Having issues trying to use a dictionary to define parameters for Barnsley's Fern](https://stackoverflow.com/questions/56913062/having-issues-trying-to-use-a-dictionary-to-define-parameters-for-barnsleys-fer)
+
+  :scroll: **[Minimal example - Barnsley's Fern](../../examples/minimal_examples/pygame_minimal_2D_water_ripple_effect_numpy.py)**
