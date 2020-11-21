@@ -33,7 +33,7 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/64793618/adding-a-particle-effect-to-my-clicker-game/64794954#64794954"><img src="https://i.stack.imgur.com/bWOOF.gif" height="100" title="Shoot bullet"></a><!--
 --><a href="https://stackoverflow.com/questions/58603835/how-to-rotate-an-imageplayer-to-the-mouse-direction/58604116#58604116"><img src="https://i.stack.imgur.com/eOdjl.gif" height="100" title="Shoot bullet"></a><!--
 --><a href="https://stackoverflow.com/questions/64805267/in-the-pygame-module-no-matter-what-i-change-the-coordinates-of-player-to-it-w/64806308#64806308"><img src="https://i.stack.imgur.com/7ONS1.gif" height="100" title="Shoot bullet"></a><!--
---><a href="documentation/pygame/pygame_2D.py"><img src="screenshot/pygame_minimal_2D_barnsleys_fern.gif" height="100" title="Barnsley's Fern"></a><!--
+--><a href="documentation/pygame/pygame_2D.md"><img src="screenshot/pygame_minimal_2D_barnsleys_fern.gif" height="100" title="Barnsley's Fern"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  
