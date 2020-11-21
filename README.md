@@ -108,6 +108,8 @@ The site is still under construction :construction:.
 
 [Snake](documentation/pygame/pygame_snake.md)
 
+[Draw 2D](documentation/pygame/pygame_2D.md)
+
 [Draw 3D](documentation/pygame/pygame_3D.md)
 
 [Miscellaneous](documentation/pygame/pygame_miscellaneous.md)

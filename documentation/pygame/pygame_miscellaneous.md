@@ -230,9 +230,6 @@ Related Stack Overflow questions:
 [Colour Changing Bouncing Ball](https://stackoverflow.com/questions/60312365/colour-changing-bouncing-ball/60315375#60315375)
 ![scene](https://i.stack.imgur.com/Bz0cu.gif)
 
-[Water ripple effect Python and Pygame, from coding train video](https://stackoverflow.com/questions/60336688/water-ripple-effect-python-and-pygame-from-coding-train-video/60337269#60337269)
-![scene](https://i.stack.imgur.com/L0Ct5.gif)
-
 [Is it possible to implement gradual movement of an object to given coordinates in Pygame?](https://stackoverflow.com/questions/60356812/is-it-possible-to-implement-gradual-movement-of-an-object-to-given-coordinates-i/60356995#60356995)  
 ![scne](https://i.stack.imgur.com/rScfu.gif)
 
