@@ -5,7 +5,7 @@
 # https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-points/64563327#64563327
 #
 # GitHub - PyGameExamplesAndAnswers - Vector - Angle between vectors
-# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_vector_and_reflection.md
+# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_math_vector_and_reflection.md
 
 import pygame
 import math

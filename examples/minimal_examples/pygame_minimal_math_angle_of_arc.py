@@ -5,7 +5,7 @@
 # https://stackoverflow.com/questions/58845411/calculate-angles-that-are-in-degrees-clockwise-to-radians-counter-clockwise/58845851#58845851
 #
 # GitHub - PyGameExamplesAndAnswers - Vector - Angle between vectors and angle of arc
-# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_vector_and_reflection.md
+# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_math_vector_and_reflection.md
 
 import pygame
 import math

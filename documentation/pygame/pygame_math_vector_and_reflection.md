@@ -167,3 +167,5 @@ Related Stack Overflow questions:
   ![Python pygame - center axis rotation segment line](https://i.stack.imgur.com/C6EWg.gif)
 
   :scroll: **[Minimal example - Rotate line](../../examples/minimal_examples/pygame_minimal_math_vector_rotate_line.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-VectorRotateLine](https://repl.it/@Rabbid76/PyGame-VectorRotateLine#main.py)</kbd>

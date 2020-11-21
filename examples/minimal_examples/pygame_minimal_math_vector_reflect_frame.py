@@ -5,7 +5,7 @@
 # https://stackoverflow.com/questions/60213103/use-vector2-in-pygame/60214064#60214064 
 #
 # GitHub - PyGameExamplesAndAnswers - Vector - Reflection
-# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_vector_and_reflection.md
+# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_math_vector_and_reflection.md
 #
 # https://repl.it/@Rabbid76/PyGame-BallBounceOffFrame#main.py
 
