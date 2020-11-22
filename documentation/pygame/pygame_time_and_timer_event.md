@@ -89,6 +89,8 @@ while run:
 
 :scroll: **[Minimal example - Until a certain time](../../examples/minimal_examples/pygame_minimal_timer_after_a_certain_time.py)**
 
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerAfterACertainTime](https://repl.it/@Rabbid76/PyGame-TimerAfterACertainTime#main.py)</kbd>
+
 ### Lock for a period of time
 
 Related Stack Overflow questions:
