@@ -25,10 +25,6 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Play sound 3](../../examples/minimal_examples/pygame_minimal_mixer_sound_2.py)**
 
-- [How can I play a sine/square wave using Pygame?](https://stackoverflow.com/questions/63980583/how-can-i-play-a-sine-square-wave-using-pygame/63980631#63980631)
-
-  :scroll: **[Minimal example - Play sound buffer](../../examples/minimal_examples/pygame_minimal_mixer_sound_buffer.py)**
-
 - [Pygame setting volume when target is a list](https://stackoverflow.com/questions/63099024/pygame-setting-volume-when-target-is-a-list/63099061#63099061)
 
 If you want to play a single _wav_ file, you have to initialize the module and create a [`pygame.mixer.Sound()`](https://www.pygame.org/docs/ref/mixer.html#pygame.mixer.Sound) object from the file. Invoke [`play()`](https://www.pygame.org/docs/ref/mixer.html#pygame.mixer.Sound.play) to start playing the file. Finally, you have to wait for the file to play.
@@ -63,6 +59,18 @@ while pygame.mixer.get_busy():
     pygame.event.poll()
 ```
 
+### Sound from buffer
+
+Related Stack Overflow questions:
+
+- [How can I play a sine/square wave using Pygame?](https://stackoverflow.com/questions/63980583/how-can-i-play-a-sine-square-wave-using-pygame/63980631#63980631)
+
+  :scroll: **[Minimal example - Play sound buffer](../../examples/minimal_examples/pygame_minimal_mixer_sound_buffer.py)**
+
+- [Trying to play a sound wave on python using pygame](https://stackoverflow.com/questions/64950167/trying-to-play-a-sound-wave-on-python-using-pygame/64951687#64951687)
+
+  :scroll: **[Minimal example - Play sound buffer 2](../../examples/minimal_examples/pygame_minimal_mixer_sound_buffer_2.py)**
+
 [Numpy arrays](https://numpy.org/doc/stable/reference/generated/numpy.array.html) can be loaded directly to a [`pygame.mixer.Sound`](https://www.pygame.org/docs/ref/mixer.html#pygame.mixer.Sound) object and [`play`](https://www.pygame.org/docs/ref/mixer.html#pygame.mixer.Sound.play) it:
 
 ```py
@@ -75,6 +83,50 @@ buffer = np.sin(2 * np.pi * np.arange(44100) * 440 / 44100).astype(np.float32)
 sound = pygame.mixer.Sound(buffer)
 
 sound.play(0)
+pygame.time.wait(int(sound.get_length() * 1000))
+```
+
+See [`pygame.sndarray.array()`](https://www.pygame.org/docs/ref/sndarray.html#pygame.sndarray.array):
+
+> Creates a new array for the sound data and copies the samples. The array will always be in the format returned from `pygame.mixer.get_init()`.
+
+In your case, for some reason, the mixer seems to have created a stereo sound format with 2 channels. You can verify that by 
+
+```py
+print(pygame.mixer.get_init())
+```
+
+Use [`numpy.reshape`](https://numpy.org/doc/stable/reference/generated/numpy.reshape.html) to convert the one-dimensional array to a two-dimensional 44100x1 array. Then use numpy.repeat to convert the 44100x1 array to a 44100x2 array, with the 1st channel copied to the 2nd channel:
+
+```py
+import pygame
+import numpy as np
+
+pygame.mixer.init(frequency=44100, size=-16, channels=1)
+
+size = 44100
+buffer = np.random.randint(-32768, 32767, size)
+buffer = np.repeat(buffer.reshape(size, 1), 2, axis = 1)
+
+sound = pygame.sndarray.make_sound(buffer)
+sound.play()
+pygame.time.wait(int(sound.get_length() * 1000))
+```
+
+Alternatively, you can create a random sound for each channel separately:
+
+```py
+import pygame
+import numpy as np
+
+pygame.mixer.init(frequency=44100, size=-16, channels=1)
+
+size = 44100
+buffer = np.random.randint(-32768, 32767, size*2)
+buffer = buffer.reshape(size, 2)
+
+sound = pygame.sndarray.make_sound(buffer)
+sound.play()
 pygame.time.wait(int(sound.get_length() * 1000))
 ```
 
