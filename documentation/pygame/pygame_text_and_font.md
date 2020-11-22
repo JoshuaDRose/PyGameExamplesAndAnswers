@@ -18,7 +18,15 @@ Related Stack Overflow questions:
 
 [Minimal `pygame.font` module example](../../examples/minimal_examples/pygame_minimal_text_font.py)
 
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Text](https://repl.it/@Rabbid76/PyGame-Text#main.py)</kbd>
+
 [Minimal `pygame.freetype` module example](../../examples/minimal_examples/pygame_minimal_text_freetype.py)
+
+![inimal `pygame.freetype` module example](https://i.stack.imgur.com/QnNaX.png)
+
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FreeTypeText](https://repl.it/@Rabbid76/PyGame-FreeTypeText#main.py)</kbd>
+
+![Minimal `pygame.freetype` module example](https://i.stack.imgur.com/umMZi.png)
 
 There are 2 possibilities. In either case PyGame has to be initialized by [`pygame.init`](https://www.pygame.org/docs/ref/pygame.html).
 
