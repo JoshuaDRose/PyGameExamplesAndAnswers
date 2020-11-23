@@ -1,5 +1,8 @@
 [![StackOverflow](https://stackexchange.com/users/flair/7322082.png)](https://stackoverflow.com/users/5577765/rabbid76?tab=profile) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![reply.it](../../resource/logo/Repl_it_logo_80.png) reply.it](https://repl.it/repls/folder/PyGame%20Examples)
 
+"You keep on learning and learning, and pretty soon you learn something no one has learned before" 
+Richard P. Feynman
+
 ---
 
 # Clipping

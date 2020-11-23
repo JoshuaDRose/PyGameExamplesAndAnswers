@@ -113,7 +113,7 @@ Related Stack Overflow questions:
 
 - [How to create a text input box with pygame?](https://stackoverflow.com/questions/46390231/how-to-create-a-text-input-box-with-pygame/64613666#64613666)  
   [How to make a string's content appears on screen as we type on keyboard?](https://stackoverflow.com/questions/60455692/how-to-make-a-strings-content-appears-on-screen-as-we-type-on-keyboard/60456556#60456556)  
-  [How to allow the user to type only under certain conditions in pygame?](https://stackoverflow.com/questions/64273966/python-pygame-make-text-in-pygame-wrap-when-in-leaves-the-window/64274045#64274045)  
+  [How to allow the user to type only under certain conditions in pygame?](https://stackoverflow.com/questions/64254687/how-to-allow-the-user-to-type-only-under-certain-conditions-in-pygame/64255822#64255822)  
   ![How to create a text input box with pygame?](https://i.stack.imgur.com/2X5Se.gif)
   ![How to create a text input box with pygame?](https://i.stack.imgur.com/FNJeM.gif)
 
