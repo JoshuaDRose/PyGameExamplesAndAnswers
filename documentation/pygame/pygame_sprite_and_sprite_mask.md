@@ -221,6 +221,11 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseClick](https://repl.it/@Rabbid76/PyGame-MouseClick#main.py)</kbd>
 
+- [How can I make images as buttons in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-image-to-the-rectangle-in-pygame/64990819#64990819)  
+  ![How can I make images as buttons in Pygame?](https://i.stack.imgur.com/DnQdC.gif)
+
+  :scroll: **[minimal example - Detect click on sprite 2](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click_2.py)**
+
 Use the `rect` attribute of the [`pygame.sprite.Sprite`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) object and the [`collidepoint`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.collidepoint) method to see if the _Sprite_ was clicked.
 Pass the list of events to the [`update`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.update) method of the [`pygame.sprite.Group`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group) so that you can process the events in the _Sprite_ class:
 
@@ -262,6 +267,11 @@ Related Stack Overflow questions:
   :scroll: **[minimal example - Detect Sprite on hover](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover.py)**
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseHover](https://repl.it/@Rabbid76/PyGame-MouseHover#main.py)</kbd>
+
+- [How can I make images as buttons in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-image-to-the-rectangle-in-pygame/64990819#64990819)  
+  ![How can I make images as buttons in Pygame?](https://i.stack.imgur.com/UEIde.gif)
+
+  :scroll: **[minimal example - Detect Sprite on hover 2_2](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover.py)**
 
 Detect  evaluate the mouse states in the `Update` method of the [`pygame.sprite.Sprite`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) object:
 
