@@ -151,5 +151,5 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [how rotate the images with keyboards?](https://stackoverflow.com/questions/64862405/how-rotate-the-images-with-keyboards/64862779#64862779)
+- [how rotate the images with keyboards?](https://stackoverflow.com/questions/64862405/how-rotate-the-images-with-keyboards/64862779#64862779)  
   ![how rotate the images with keyboards?](https://i.stack.imgur.com/aUlEe.gif)
