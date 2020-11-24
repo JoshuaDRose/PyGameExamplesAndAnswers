@@ -12,9 +12,10 @@
 #
 # GitHub - Sprite, Group and Sprite mask - Sprite mask
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_sprite_and_sprite_mask.md
+#
+# https://repl.it/@Rabbid76/PyGame-SurfaceMaskIntersect
 
 import os
-import math
 import pygame
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../resource'))
 

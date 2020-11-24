@@ -17,6 +17,8 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Find intersection of surfaces](../../examples/minimal_examples/pygame_minimal_mask_intersect_surface.py)**
 
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SurfaceMaskIntersect](https://repl.it/@Rabbid76/PyGame-SurfaceMaskIntersect#main.py)</kbd>
+
 - [Check collision between a image and a line](https://stackoverflow.com/questions/58662215/check-collision-between-a-image-and-a-line-pygame/58662648#58662648)  
   ![Check collision between a image and a line](../../screenshot/pygame_minimal_mask_intersect_surface_line_1.gif)
 

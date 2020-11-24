@@ -155,7 +155,8 @@ f
 - moving tank with rotating gun fire bullets
 - chess board
 - sprite with floating point accuracy
-- virtual joystick (mouse and touch
+- virtual joystick (mouse and touch)
+- button menu
 
 ## New Pages
 
