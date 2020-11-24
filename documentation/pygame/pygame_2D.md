@@ -49,6 +49,6 @@ Related Stack Overflow questions:
   :scroll: **[Minimal example - Bowyer-Watson Delaunay Triangulation 1](../../examples/minimal_examples/pygame_minimal_2D_bowyer_watson_delyunay_triangulation_1.py)**
 
 - [Bowyer-Watson triangulates incorrectly when trying to implement circumcircle calculation for vertices at infinity](https://stackoverflow.com/questions/58203812/bowyer-watson-triangulates-incorrectly-when-trying-to-implement-circumcircle-cal/58205019#58205019)  
-  ![scene](https://i.stack.imgur.com/4NMrx.png) 
+  ![scene](https://i.stack.imgur.com/4NMrx.png)
 
   :scroll: **[Minimal example - Bowyer-Watson Delaunay Triangulation 2](../../examples/minimal_examples/pygame_minimal_2D_bowyer_watson_delyunay_triangulation_2.py)**
