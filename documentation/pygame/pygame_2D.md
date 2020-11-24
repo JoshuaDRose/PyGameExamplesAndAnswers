@@ -30,7 +30,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Spraying particles](../../examples/minimal_examples/pygame_minimal_2D_particles.py)**
 
-## Mathematics
+## Fractal
 
 Related Stack Overflow questions:
 
@@ -38,3 +38,17 @@ Related Stack Overflow questions:
   ![Having issues trying to use a dictionary to define parameters for Barnsley's Fern](../../screenshot/pygame_minimal_2D_barnsleys_fern.gif)
 
   :scroll: **[Minimal example - Barnsley's Fern](../../examples/minimal_examples/pygame_minimal_2D_water_ripple_effect_numpy.py)**
+
+## Triangulation
+
+Related Stack Overflow questions:
+
+- [A Bowyer-Watson Delaunay Triangulation I implemented doesn't remove the triangles that contain points of the super-triangle](https://stackoverflow.com/questions/58116412/a-bowyer-watson-delaunay-triangulation-i-implemented-doesnt-remove-the-triangle/58122991#58122991)  
+  ![scene](https://i.stack.imgur.com/Cogod.png)
+
+  :scroll: **[Minimal example - Bowyer-Watson Delaunay Triangulation 1](../../examples/minimal_examples/pygame_minimal_2D_bowyer_watson_delyunay_triangulation_1.py)**
+
+- [Bowyer-Watson triangulates incorrectly when trying to implement circumcircle calculation for vertices at infinity](https://stackoverflow.com/questions/58203812/bowyer-watson-triangulates-incorrectly-when-trying-to-implement-circumcircle-cal/58205019#58205019)  
+  ![scene](https://i.stack.imgur.com/4NMrx.png) 
+
+  :scroll: **[Minimal example - Bowyer-Watson Delaunay Triangulation 2](../../examples/minimal_examples/pygame_minimal_2D_bowyer_watson_delyunay_triangulation_2.py)**

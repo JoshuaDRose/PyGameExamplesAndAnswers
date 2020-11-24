@@ -176,12 +176,6 @@ Related Stack Overflow questions:
 [How would I make a heatmap in pygame on a grid](https://stackoverflow.com/questions/55617119/how-would-i-make-a-heatmap-in-pygame-on-a-grid/55618024#55618024)  
 ![scene](https://i.stack.imgur.com/4c4gB.gif)
 
-[A Bowyer-Watson Delaunay Triangulation I implemented doesn't remove the triangles that contain points of the super-triangle](https://stackoverflow.com/questions/58116412/a-bowyer-watson-delaunay-triangulation-i-implemented-doesnt-remove-the-triangle/58122991#58122991)  
-![scene](https://i.stack.imgur.com/Cogod.png)
-
-[Bowyer-Watson triangulates incorrectly when trying to implement circumcircle calculation for vertices at infinity](https://stackoverflow.com/questions/58203812/bowyer-watson-triangulates-incorrectly-when-trying-to-implement-circumcircle-cal/58205019#58205019)  
-![scene](https://i.stack.imgur.com/4NMrx.png) 
-
 [How to draw with mouse and save as 1s and 0s](https://stackoverflow.com/questions/58847079/how-to-draw-with-mouse-and-save-as-1s-and-0s/58850614#58850614)  
 ![scene](https://i.stack.imgur.com/hMHD8.gif)
 
