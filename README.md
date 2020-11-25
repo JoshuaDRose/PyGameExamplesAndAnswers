@@ -36,6 +36,8 @@ Lloyd Alexander, The Book of Three
 --><a href="documentation/pygame/pygame_2D.md"><img src="screenshot/pygame_minimal_2D_barnsleys_fern.gif" height="100" title="Barnsley's Fern"></a><!--
 --><a href="documentation/pygame/pygame_2D.md"><img src="https://i.stack.imgur.com/Cogod.png" height="100" title="Bowyer-Watson Delaunay Triangulation"></a><!--
 --><a href="documentation/pygame/pygame_random_and_random_distribution.md"><img src="https://i.stack.imgur.com/sQSUS.png" height="100" title="Bridson's Poisson disk sampling"></a><!--
+--><a href="documentation/pygame/pygame_sprite_and_sprite_mask.md"><img src="https://i.stack.imgur.com/DnQdC.png" height="100" title="Buttons and icons"></a><!--
+--><a href="documentation/pygame/pygame_movement_and_motion.md"><img src="https://i.stack.imgur.com/7u7Gj.png" height="100" title="Car bounce"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  
