@@ -24,10 +24,14 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Find intersection of surfaces and line](../../examples/minimal_examples/pygame_minimal_mask_intersect_surface_line_1.py)**
 
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-PyGame-SurfaceLineMaskIntersect-1](https://repl.it/@Rabbid76/PyGame-SurfaceLineMaskIntersect-1#main.py)</kbd>
+
 - **[Overlap between mask and fired beams in PyGame [AI car model vision]](https://stackoverflow.com/questions/62008457/overlap-between-mask-and-fired-beams-in-pygame-ai-car-model-vision/62082726#62082726)**  
   ![Overlap between mask and fired beams in PyGame](https://i.stack.imgur.com/YyFbN.gif)  
 
   :scroll: **[Minimal example - Find intersection of surface and lines](../../examples/minimal_examples/pygame_minimal_mask_intersect_surface_line_2.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-PyGame-SurfaceLineMaskIntersect-2](https://repl.it/@Rabbid76/PyGame-SurfaceLineMaskIntersect-2#main.py)</kbd>
 
 - [How can I rotate my hit box with my rotating and moving car in PyGame?](https://stackoverflow.com/questions/62974678/how-can-i-rotate-my-hitbox-with-my-rotating-and-moving-car-in-pygame/62976825#62976825)
 
