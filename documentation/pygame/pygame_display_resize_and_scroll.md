@@ -226,9 +226,15 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Making the background move sideways in pygame](https://stackoverflow.com/questions/55050166/making-the-background-move-sideways-in-pygame/55068602#55068602)
+
+  :scroll: **[Minimal example - Scroll background vertical](../../examples/minimal_examples/pygame_minimal_display_scroll_background_1.py)**
+
 - [How to scroll the background surface in PyGame?](https://stackoverflow.com/questions/55319181/how-to-scroll-the-background-surface-in-pygame/55321731#55321731)  
   ![How to scroll the background surface in PyGame?](https://i.stack.imgur.com/QosjL.gif)
-- [How to move the background image with keys in pygame?](https://stackoverflow.com/questions/61039508/how-to-move-the-background-image-with-keys-in-pygame)
+
+  :scroll: **[Minimal example - Scroll background vertical](../../examples/minimal_examples/pygame_minimal_display_scroll_background_2.py)**
+
+- [How to move the background image with keys in pygame?](https://stackoverflow.com/questions/61039508/how-to-move-the-background-image-with-keys-in-pygame/61039821#61039821)
 - [Pygame : Two layered scrolling background, can you help me?](https://stackoverflow.com/questions/55454487/pygame-two-layered-scrolling-background-can-you-help-me/55460386#55460386)
 
 If you want to have a continuously repeating background, then you've to draw the background twice:
