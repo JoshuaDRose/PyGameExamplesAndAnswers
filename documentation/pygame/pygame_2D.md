@@ -30,6 +30,8 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Spraying particles](../../examples/minimal_examples/pygame_minimal_2D_particles.py)**
 
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-BarnsleysFern](https://repl.it/@Rabbid76/PyGame-BarnsleysFern#main.py)</kbd>
+
 ## Fractal
 
 Related Stack Overflow questions:
