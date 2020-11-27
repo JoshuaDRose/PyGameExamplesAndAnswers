@@ -318,6 +318,8 @@ Related Stack Overflow questions:
 
 :scroll: **[Minimal example - Timer callback](../../examples/minimal_examples/pygame_minimal_timer_callback.py)**
 
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerCallback](https://repl.it/@Rabbid76/PyGame-TimerCallback#main.py)</kbd>
+
 ## Clock and frames per second
 
 Related Stack Overflow questions:
