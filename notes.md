@@ -13,6 +13,7 @@
         - [Not answered questions](#not-answered-questions)
         - [Improve answer](#improve-answer)
         - [Investigate](#investigate)
+        - [My questions](#my-questions)
             - [Web](#web)
             - [URL](#url)
     - [Questions](#questions)
@@ -120,6 +121,9 @@ interesting
 [How to make keyboard Input into unicode/japanese characters?](https://stackoverflow.com/questions/64543224/how-to-make-keyboard-input-into-unicode-japanese-characters)
 [Update during resize in Pygame](https://stackoverflow.com/questions/64543449/update-during-resize-in-pygame)
 
+### My questions
+
+[What is the most comprehensible way to create a Rect object from a center point and a size in PyGame?](https://stackoverflow.com/questions/65042134/what-is-the-most-comprehensible-way-to-create-a-rect-object-from-a-center-point)
 #### Web
 
 [is it possible to run pygame or pyglet in a browser?](https://stackoverflow.com/questions/8452927/is-it-possible-to-run-pygame-or-pyglet-in-a-browser)

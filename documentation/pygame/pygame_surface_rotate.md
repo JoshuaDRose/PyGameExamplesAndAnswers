@@ -21,11 +21,10 @@ Short answer:
 Store the center of the source image rectangle and update the center of the rotated image rectangle after the rotation, by the stored center position and return a tuple of the rotated image and the rectangle:
 
 ```py
-def rot_center(image, angle):
-
-    center = image.get_rect().center
+def rot_center(image, angle, x, y):
+    
     rotated_image = pygame.transform.rotate(image, angle)
-    new_rect = rotated_image.get_rect(center = center)
+    new_rect = rotated_image.get_rect(center = image.get_rect(center = (x, y)).center)
 
     return rotated_image, new_rect
 ```
