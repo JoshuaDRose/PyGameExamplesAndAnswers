@@ -54,3 +54,12 @@ Related Stack Overflow questions:
   ![scene](https://i.stack.imgur.com/4NMrx.png)
 
   :scroll: **[Minimal example - Bowyer-Watson Delaunay Triangulation 2](../../examples/minimal_examples/pygame_minimal_2D_bowyer_watson_delyunay_triangulation_2.py)**
+
+## Recaman's sequence
+
+Related Stack Overflow questions:
+
+- [Trying to code the Recaman Sequence, but issue with the parameters I pass for drawing an arc](https://stackoverflow.com/questions/54384422/trying-to-code-the-recaman-sequence-but-issue-with-the-parameters-i-pass-for-dr/54386695#54386695)  
+  ![Trying to code the Recaman Sequence, but issue with the parameters I pass for drawing an arc](https://i.stack.imgur.com/R77eo.png)
+
+  :scroll: **[Minimal example - Recaman's sequence](../../examples/minimal_examples/pygame_minimal_2D_racaman_sequence.py)**
