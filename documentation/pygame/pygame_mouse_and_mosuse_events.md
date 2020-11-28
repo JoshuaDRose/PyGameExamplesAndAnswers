@@ -11,10 +11,15 @@ Richard P. Feynman
 
 Related Stack Overflow questions:
 
-- [Pygame mouse clicking detection](https://stackoverflow.com/questions/10990137/pygame-mouse-clicking-detection/64533684#64533684)
+- [Pygame mouse clicking detection](https://stackoverflow.com/questions/10990137/pygame-mouse-clicking-detection/64533684#64533684)  
+  ![Pygame mouse clicking detection](https://i.stack.imgur.com/mW6vv.gif)![Pygame mouse clicking detection](https://i.stack.imgur.com/UEIde.gif)  
+
+- [How can I add image to the rectangle in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-image-to-the-rectangle-in-pygame/64990819#64990819)
+  ![How can I add image to the rectangle in Pygame?](https://i.stack.imgur.com/24ns9.gif)![How can I add image to the rectangle in Pygame?](https://i.stack.imgur.com/24ns9.gif)
+
 - [How to distinguish left click , right click mouse clicks in pygame?](https://stackoverflow.com/questions/34287938/how-to-distinguish-left-click-right-click-mouse-clicks-in-pygame)
 - [Pygame - Mouse clicks not getting detected](https://stackoverflow.com/questions/64284668/python-w-pygame-mouse-detection-isnt-working)
-- [mouse.get_pressed() inconsistent/returning (0, 0, 0)](https://stackoverflow.com/questions/63970977/mouse-get-pressed-inconsistent-returning-0-0-0/63971125#63971125)
+- [mouse.get_pressed() inconsistent/returning (0, 0, 0)](https://stackoverflow.com/questions/63970977/mouse-get-pressed-inconsistent-returning-0-0-0/63971125#63971125)  
 
 The `MOUSEBUTTONDOWN` event occurs once when you click the mouse button and the `MOUSEBUTTONUP` event occurs once when the mouse button is released. The [`pygame.event.Event()`](https://www.pygame.org/docs/ref/event.html#pygame.event.Event) object has two attributes that provide information about the mouse event. `pos` is a tuple that stores the position that was clicked. `button` stores the button that was clicked. Each mouse button is associated a value. For instance the value of the attributes is 1, 2, 3, 4, 5 for the left mouse button, middle mouse button, right mouse button, mouse wheel up respectively mouse wheel down. When multiple keys are pressed, multiple mouse button events occur. Further explanations can be found in the documentation of the module [`pygame.event`](https://www.pygame.org/docs/ref/event.html).
 

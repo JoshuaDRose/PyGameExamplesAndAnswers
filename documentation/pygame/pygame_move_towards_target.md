@@ -24,6 +24,8 @@ Related Stack Overflow questions:
 - [Moving forward after angle change. Pygame](https://stackoverflow.com/questions/61106297/moving-forward-after-angle-change-pygame/61106823#61106823)  
   ![Moving forward after angle change. Pygame](https://i.stack.imgur.com/A7RFW.gif)
 
+- [Firing particles from a player at a constant speed with cos() and sin() in python pygame](https://stackoverflow.com/questions/64993388/firing-particles-from-a-player-at-a-constant-speed-with-cos-and-sin-in-pytho/64994334#64994334)
+
 ## Shoot bullets towards target or mouse
 
 Related Stack Overflow questions:
