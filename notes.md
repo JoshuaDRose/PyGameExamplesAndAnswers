@@ -96,6 +96,7 @@ next:
 [Python Write MIDI file](https://stackoverflow.com/questions/64838592/python-write-midi-file)  
 [I'm embedding a pygame window into Tkinter, how do I manipulate the pygame window?](https://stackoverflow.com/questions/55755305/im-embedding-a-pygame-window-into-tkinter-how-do-i-manipulate-the-pygame-windo)  
 [How to draw a video frame from PyRealSense2 on a PyGame canvas?](https://stackoverflow.com/questions/64988479/how-to-draw-a-video-frame-from-pyrealsense2-on-a-pygame-canvas/64989545#64989545)  
+[How do I detect collision in pygame?](https://stackoverflow.com/questions/29640685/how-do-i-detect-collision-in-pygame)  
 
 interesting
 

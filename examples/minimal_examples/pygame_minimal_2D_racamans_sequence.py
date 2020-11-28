@@ -13,7 +13,7 @@ import math
 pygame.init()
 window = pygame.display.set_mode((800, 600))
 
-index, limit = 0, 40
+index, limit = 0, 102
 sequence = [0]
 for i in range(limit):
     index += -i if index-i > 0 and index-i not in sequence else i
@@ -25,36 +25,26 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    zx = window.get_width() / limit
-    zy = window.get_height() / 2 / limit
-    
     window.fill((255, 255, 255))
 
-    curX, curY = 0, 500
+    zx = window.get_width() / 100
+    curX = 0
     for n in range(0, len(sequence)-1):
         
         d = 1 if n % 2 == 0 else -1
         s = 1 if sequence[n+1] > sequence[n] else -1
         
-        curX = curX + n * zx * s
-        xi = curX + (n * zx) * -s
-        yi = 500
-        xf = curX
-        yf = curY - (n * zy) * d
+        dx = n * zx
+        xi = curX
+        curX += n * zx * s
         
-        p1 = (xi, yi)
-        p2 = (xf, yf)
-
-        dx = xf - xi
-        dy = yf - yi
-
         diameter = abs(dx)
-        rect = pygame.Rect(0, 0, diameter, diameter)
-        rect.x = xi if dx > 0 else xi + dx
+        rect = pygame.Rect(min(xi, xi + s * dx), 0, diameter, diameter)
         rect.centery = window.get_height() // 2
-      
-        start_ang = 0 if dy < 0 else math.pi
-        end_ang   = start_ang + math.pi
-        pygame.draw.arc(window, (0, 0, 0), rect, start_ang, end_ang, 1)
-
+        clip_rect = pygame.Rect(rect.left, rect.top if d > 0 else rect.centery, rect.width, diameter // 2)
+        
+        window.set_clip(clip_rect)
+        pygame.draw.circle(window, (0, 0, 0), rect.center, diameter // 2, 1)
+        
+    window.set_clip(None)
     pygame.display.flip()

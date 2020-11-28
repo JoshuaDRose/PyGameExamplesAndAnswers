@@ -18,7 +18,7 @@ Related Stack Overflow questions:
 
 Short answer:
 
-Store the center of the source image rectangle and update the center of the rotated image rectangle after the rotation, by the stored center position and return a tuple of the rotated image and the rectangle:
+Get the rectangle of the original image and set the position. Get the rectangle of the rotated image and set the center position through the center of the original rectangle. Return a tuple of the rotated image and the rectangle:
 
 ```py
 def rot_center(image, angle, x, y):
