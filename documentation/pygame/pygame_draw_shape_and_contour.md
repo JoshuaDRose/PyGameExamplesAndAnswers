@@ -139,12 +139,28 @@ The 3rd argument of [`pygame.draw.rect`](https://www.pygame.org/docs/ref/draw.ht
 pygame.draw.rect(win, (255, 0, 0),(x, y, width, height))
 ```  
 
+![How can I draw a rectangular outline (not filled) with PyGame?](https://i.stack.imgur.com/w6jSR.png)
+
 Alternatively it can be a [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) object, too:
 
 ```py
 rect = pygame.Rect(x, y, width, height)
 pygame.draw.rect(win, (255, 0, 0), rect)
 ```
+
+Use [`pygame.draw.rect()`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect). The last parameter of `pygame.draw.rect` is the thickness of line the outline. If the parameter is 0 (or default), then the rectangle is filled, else a rectangle with the specified line thickness is drawn. e.g:
+
+```py
+pygame.draw.rect(surf, color, (x, y, w, h), outlineThickness)
+```  
+
+The corners of the rectangle are jagged. However, the corner radius can be set (`border_radius`) to get a better result:
+
+```py
+pygame.draw.rect(surf, color, (x, y, w, h), outlineThickness, border_radius=1)
+```  
+
+![How can I draw a rectangular outline (not filled) with PyGame?](https://i.stack.imgur.com/lXNmw.png)
 
 You can achieve what you want by setting the key word argument `border_radius` of the function [`pygame.draw.rect`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect).
 
