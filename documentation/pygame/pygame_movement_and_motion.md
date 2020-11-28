@@ -27,15 +27,20 @@ Related Stack Overflow questions:
 
 - [How to turn the sprite in pygame while moving with the keys](https://stackoverflow.com/questions/64792467/how-to-turn-the-sprite-in-pygame-while-moving-with-the-keys/64792568#64792568)  
   ![How to turn the sprite in pygame while moving with the keys](https://i.stack.imgur.com/ALQJc.gif)
+
+  :scroll: **[Minimal example - Car movement](../../examples/minimal_examples/pygame_minimal_move_car.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CarMovement](https://repl.it/@Rabbid76/PyGame-CarMovement#main.py)</kbd>
+
 - [Image rotation while moving](https://stackoverflow.com/questions/57226587/image-rotation-while-moving/57227063#57227063)  
   ![Image rotation while moving](https://i.stack.imgur.com/XWNPt.gif)
 
-- [the car moves and changes direction when it hits the window edge](https://stackoverflow.com/questions/65001510/the-car-moves-and-changes-direction-when-it-hits-the-window-edge/65010442#65010442)
-  ![the car moves and changes direction when it hits the window edge](https://i.stack.imgur.com/7u7Gj.gif)
+- [The car moves and changes direction when it hits the window edge](https://stackoverflow.com/questions/65001510/the-car-moves-and-changes-direction-when-it-hits-the-window-edge/65010442#65010442)
+  ![The car moves and changes direction when it hits the window edge](https://i.stack.imgur.com/7u7Gj.gif)
 
-:scroll: **[Minimal example - Car movement](../../examples/minimal_examples/pygame_minimal_move_car.py)**
+  :scroll: **[Minimal example - Car movement](../../examples/minimal_examples/pygame_minimal_move_car_reflect.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CarMovement](https://repl.it/@Rabbid76/PyGame-CarMovement#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CarMovement](https://repl.it/@Rabbid76/PyGame-CarMovementReflect#main.py)</kbd>
 
 ## Throw
 

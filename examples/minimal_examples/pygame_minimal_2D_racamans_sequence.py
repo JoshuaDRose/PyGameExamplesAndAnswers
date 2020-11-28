@@ -48,12 +48,13 @@ while run:
         dx = xf - xi
         dy = yf - yi
 
-        diameter   = abs(dx)
-        px         = xi if dx > 0 else xi + dx
-        py         = window.get_height() // 2 - diameter // 2
-
+        diameter = abs(dx)
+        rect = pygame.Rect(0, 0, diameter, diameter)
+        rect.x = xi if dx > 0 else xi + dx
+        rect.centery = window.get_height() // 2
+      
         start_ang = 0 if dy < 0 else math.pi
         end_ang   = start_ang + math.pi
-        pygame.draw.arc(window, (0, 0, 0), (px, py, diameter, diameter), start_ang, end_ang, 1)
+        pygame.draw.arc(window, (0, 0, 0), rect, start_ang, end_ang, 1)
 
     pygame.display.flip()

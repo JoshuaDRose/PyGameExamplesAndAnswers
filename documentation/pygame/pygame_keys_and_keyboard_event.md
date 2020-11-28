@@ -94,9 +94,12 @@ for event in pygame.event.get():
 Related Stack Overflow questions:
 
 - [How to get keyboard input in pygame?](https://stackoverflow.com/questions/16044229/how-to-get-keyboard-input-in-pygame/64494842#64494842)
-  [How can I make a sprite move when key is held down](https://stackoverflow.com/questions/9961563/how-can-i-make-a-sprite-move-when-key-is-held-down)
+  [How can I make a sprite move when key is held down](https://stackoverflow.com/questions/9961563/how-can-i-make-a-sprite-move-when-key-is-held-down)  
+  ![How can I make a sprite move when key is held down](https://i.stack.imgur.com/S24dj.gif)
 
   :scroll: **[minimal example - Move object with keys](../../examples/minimal_examples/pygame_minimal_move_object.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ContinuousMovement](https://repl.it/@Rabbid76/PyGame-ContinuousMovement#main.py)</kbd>
 
 - [What all things happens inside pygame when I press a key? When to use pygame.event==KEYDOWN](https://stackoverflow.com/questions/63050139/what-all-things-happens-inside-pygame-when-i-press-a-key-when-to-use-pygame-eve/63056690#63056690)
 - [PyGame press two buttons at the same time](https://stackoverflow.com/questions/59181962/pygame-press-two-buttons-at-the-same-time/59182228#59182228)
@@ -145,6 +148,10 @@ Related Stack Overflow questions:
 Use the keyboard events (`KEYDOWN`,` ​​KEYUP`) for actions like jumping or spawning a bullet.
 
 :scroll: **[minimal example - Move object with keys](../../examples/minimal_examples/pygame_minimal_move_object.py)**
+
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ContinuousMovement](https://repl.it/@Rabbid76/PyGame-ContinuousMovement#main.py)</kbd>
+
+![How can I make a sprite move when key is held down](https://i.stack.imgur.com/S24dj.gif)
 
 :scroll: **[minimal example - Move object with keys limit it to the window borders](../../examples/minimal_examples/pygame_minimal_move_object_limit_window.py)**
 
