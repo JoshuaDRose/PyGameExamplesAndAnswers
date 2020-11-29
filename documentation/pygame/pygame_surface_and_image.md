@@ -11,7 +11,7 @@ Richard P. Feynman
 
 Related Stack Overflow questions:
 
-- [Why is my collision test always returning 'true' and why is the position of the rectangle of the image always wrong (0, 0)?](https://stackoverflow.com/questions/57730329/pygame-collide-rect-function-always-returning-true/57730378#57730378)
+- **[Why is my collision test always returning 'true' and why is the position of the rectangle of the image always wrong (0, 0)?](https://stackoverflow.com/questions/57730329/pygame-collide-rect-function-always-returning-true/57730378#57730378)**
 - [Is there a way to place number on the center of the screen in pygame?](https://stackoverflow.com/questions/62728473/is-there-a-way-to-place-number-on-the-center-of-the-screen-in-pygame/62728692#62728692)#
 - [python library pygame: centering text](https://stackoverflow.com/questions/23982907/python-library-pygame-centering-text/64660744#64660744)  
 
