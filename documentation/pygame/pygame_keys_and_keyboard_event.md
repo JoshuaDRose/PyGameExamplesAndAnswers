@@ -7,12 +7,6 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 
 # Keys and keyboard events
 
-- [How to put a variable into pygame key detector?](https://stackoverflow.com/questions/64717181/how-to-put-a-variable-into-pygame-key-detector)
-
-## Keys
-
-## Key representation
-
 ## Key state
 
 **What does `pygame.key.get_pressed()` do?**
@@ -23,18 +17,7 @@ Related Stack Overflow questions:
 - [How to get if a key is pressed pygame](https://stackoverflow.com/questions/59830738/how-to-get-if-a-key-is-pressed-pygame/59831073#59831073)
 - [“Tuple object not callable” when inspecting the result of pygame.key.get_pressed()](https://stackoverflow.com/questions/62666910/tuple-object-not-callable-when-inspecting-the-result-of-pygame-key-get-pressed/62669811#62669811)
 
-Related Stack Overflow questions:
-
-- [pygame get key pressed as a string](https://stackoverflow.com/questions/59935639/pygame-get-key-pressed-as-a-string/59935886#59935886)  
-
-A unser friendly name of a key can be get by `pygame.key.name()`:
-
-```py
-for event in pygame.event.get():
-    if event.type == pygame.KEYDOWN:
-
-        print(pygame.key.name(event.key))
-```
+[`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed) returns a list with the state of each key. If a key is held down, the state for the key is `True`, otherwise `False`. Use [`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed) to evaluate the current state of a button and get continuous movement
 
 ## Keyboard event
 
@@ -47,6 +30,8 @@ Related Stack Overflow questions:
 - [Problem when using keyboard commands in pygame](https://stackoverflow.com/questions/58299480/problem-when-using-keyboard-commands-in-pygame/58307655#58307655)
 - [How to get a variable keyboard input in pygame?](https://stackoverflow.com/questions/63449626/how-to-get-a-variable-keyboard-input-in-pygame/63449886#63449886)
 - [Pygame keys convention](https://stackoverflow.com/questions/64651122/pygame-keys-convention/64651187#64651187)
+
+The keyboard events (see [pygame.event](https://www.pygame.org/docs/ref/event.html) module) occur only once when the state of a key changes. The `KEYDOWN` event occurs once every time a key is pressed. `KEYUP` occurs once every time a key is released. Use the keyboard events for a single action or a step-by-step movement.
 
 [`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html) returns a list with the state of all keyboard buttons. This is not intended to get the key of a keyboard event. The key that was pressed can be obtained from the `key` attribute of the [`pygame.event.Event`](https://www.pygame.org/docs/ref/event.html#pygame.event.Event) object:
 
@@ -144,6 +129,7 @@ Related Stack Overflow questions:
 - [how to control snake with only two keys i.e left and right](https://stackoverflow.com/questions/61862293/how-to-control-snake-with-only-two-keys-i-e-left-and-right/61863664#61863664)
 - [how to drop a bomb in character position in a pygame game](https://stackoverflow.com/questions/62066092/how-to-drop-a-bomb-in-character-position-in-a-pygame-game/62067605#62067605)
 - [how to make rectangle “sprint”](https://stackoverflow.com/questions/64209885/how-to-make-rectangle-sprint/64209944#64209944)
+- [How to put a variable into pygame key detector?](https://stackoverflow.com/questions/64717181/how-to-put-a-variable-into-pygame-key-detector)
 
 Use the keyboard events (`KEYDOWN`,` ​​KEYUP`) for actions like jumping or spawning a bullet.
 
@@ -180,3 +166,18 @@ Related Stack Overflow questions:
   :scroll: **[minimal example - Sustained fire](../../examples/minimal_examples/pygame_minimal_shoot_bullet_sustained_fire.py)**
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)</kbd>
+
+## Key representation
+
+Related Stack Overflow questions:
+
+- [pygame get key pressed as a string](https://stackoverflow.com/questions/59935639/pygame-get-key-pressed-as-a-string/59935886#59935886)  
+
+A user friendly name of a key can be get by `pygame.key.name()`:
+
+```py
+for event in pygame.event.get():
+    if event.type == pygame.KEYDOWN:
+
+        print(pygame.key.name(event.key))
+```

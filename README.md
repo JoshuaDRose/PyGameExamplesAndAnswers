@@ -39,6 +39,7 @@ Lloyd Alexander, The Book of Three
 --><a href="documentation/pygame/pygame_sprite_and_sprite_mask.md"><img src="https://i.stack.imgur.com/DnQdC.png" height="100" title="Buttons and icons"></a><!--
 --><a href="documentation/pygame/pygame_movement_and_motion.md"><img src="https://i.stack.imgur.com/7u7Gj.png" height="100" title="Car bounce"></a><!--
 --><a href="documentation/pygame/pygame_mouse_and_mosuse_events.md"><img src="https://i.stack.imgur.com/pPyUV.png" height="100" title="Radio button"></a><!--
+--><a href="documentation/pygame/pygame_pong.md"><img src="https://i.stack.imgur.com/AdKUV.png" height="100" title="Pong"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  
@@ -113,6 +114,8 @@ The site is still under construction :construction:.
 [Camera and Video](documentation/pygame/pygame_camera_and_video.md)
 
 [Snake](documentation/pygame/pygame_snake.md)
+
+[Pong](documentation/pygame/pygame_pong.md)
 
 [Memory](documentation/pygame/pygame_memory.md)
 

@@ -9,6 +9,188 @@ For the computation of a reflection vector see [Vector - Reflection](pygame_vect
 
 # Collision and Intersection
 
+## Overview
+
+Related Stack Overflow questions:
+
+- [How do I detect collision in pygame?](https://stackoverflow.com/questions/29640685/how-do-i-detect-collision-in-pygame) 
+
+In PyGame, basic collision detection can be done using [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) objects. The `Rect` object offers various methods for detecting collisions between objects. Note that even the collision of a rectangular object with a circular object such as a paddle and a ball in _Pong_ game can be roughly detected by a collision between two rectangular objects, the paddle and the bounding rectangle of the ball.
+
+Some examples:
+
+- [`pygame.Rect.collidepoint`](https://stackoverflow.com/questions/29640685/how-do-i-detect-collision-in-pygame/65064907#65064907):
+  
+  > Test if a point is inside a rectangle
+
+  :scroll: **[Minimal example - collidepoint](../../examples/minimal_examples/pygame_minimal_rectangle_collidepoint.py)**
+
+  ![collidepoint](https://i.stack.imgur.com/wCi2z.gif)
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-collidepoint](https://repl.it/@Rabbid76/PyGame-collidepoint#main.py)</kbd>
+
+  ```py
+  import pygame
+
+  pygame.init()
+  window = pygame.display.set_mode((250, 250))
+  rect = pygame.Rect(*window.get_rect().center, 0, 0).inflate(100, 100)
+
+  run = True
+  while run:
+      for event in pygame.event.get():
+          if event.type == pygame.QUIT:
+              run = False
+
+      point = pygame.mouse.get_pos()
+      collide = rect.collidepoint(point)
+      color = (255, 0, 0) if collide else (255, 255, 255)
+
+      window.fill(0)
+      pygame.draw.rect(window, color, rect)
+      pygame.display.flip()
+
+  pygame.quit()
+  exit()
+  ```
+
+- [`colliderect`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.colliderect)
+
+  > Test if two rectangles overlap
+
+  :scroll: **[Minimal example - collidepoint](../../examples/minimal_examples/pygame_minimal_rectangle_colliderect.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-colliderect](https://repl.it/@Rabbid76/PyGame-colliderect#main.py)</kbd>
+
+  ![colliderect](https://i.stack.imgur.com/r2y9r.gif)
+
+  ```py
+  import pygame
+
+  pygame.init()
+  window = pygame.display.set_mode((250, 250))
+  rect1 = pygame.Rect(*window.get_rect().center, 0, 0).inflate(75, 75)
+  rect2 = pygame.Rect(0, 0, 75, 75)
+
+  run = True
+  while run:
+      for event in pygame.event.get():
+          if event.type == pygame.QUIT:
+              run = False
+
+      rect2.center = pygame.mouse.get_pos()
+      collide = rect1.colliderect(rect2)
+      color = (255, 0, 0) if collide else (255, 255, 255)
+
+      window.fill(0)
+      pygame.draw.rect(window, color, rect1)
+      pygame.draw.rect(window, (0, 255, 0), rect2, 6, 1)
+      pygame.display.flip()
+
+  pygame.quit()
+  exit()
+  ```
+
+Furthermore [`pygame.Rect.collidelist`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.collidelist) and [`pygame.Rect.collidelistall`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.collidelistall) can be used for the collision test between a rectangle and a list of rectangles. [`pygame.Rect.collidedict`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.collidedict) and [`pygame.Rect.collidedictall`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.collidedictall) can be used for the collision collision test between a rectangle and a dictionary of rectangles.
+
+The collision of [`pygame.sprite.Sprite`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) and [`pygame.sprite.Group`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group) objects, can be detected by [`pygame.sprite.spritecollide()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.spritecollide), [`pygame.sprite.groupcollide()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.groupcollide) or [`pygame.sprite.spritecollideany()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.spritecollideany). When using these methods, the collision detection algorithm can be specified by the `collided` argument:
+
+> The collided argument is a callback function used to calculate if two sprites are colliding.
+
+Possible `collided` callables are [`collide_rect`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.collide_rect), [`collide_rect_ratio`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.collide_rect_ratio), [`collide_circle`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.collide_circle), [`collide_circle_ratio`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.collide_circle_ratio), [`collide_mask`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.collide_mask)
+
+Some examples:
+
+- [`pygame.sprite.spritecollide()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.spritecollide)
+
+  :scroll: **[Minimal example - collidepoint](../../examples/minimal_examples/pygame_minimal_rectangle_spritecollide.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-spritecollide](https://repl.it/@Rabbid76/PyGame-spritecollide#main.py)</kbd>
+
+  ![spritecollide](https://i.stack.imgur.com/3DdjL.gif)
+
+  ```py
+  import pygame
+
+  pygame.init()
+  window = pygame.display.set_mode((250, 250))
+
+  sprite1 = pygame.sprite.Sprite()
+  sprite1.image = pygame.Surface((75, 75))
+  sprite1.image.fill((255, 0, 0))
+  sprite1.rect = pygame.Rect(*window.get_rect().center, 0, 0).inflate(75, 75)
+  sprite2 = pygame.sprite.Sprite()
+  sprite2.image = pygame.Surface((75, 75))
+  sprite2.image.fill((0, 255, 0))
+  sprite2.rect = pygame.Rect(*window.get_rect().center, 0, 0).inflate(75, 75)
+
+  all_group = pygame.sprite.Group([sprite2, sprite1])
+  test_group = pygame.sprite.Group(sprite2)
+
+  run = True
+  while run:
+      for event in pygame.event.get():
+          if event.type == pygame.QUIT:
+              run = False
+
+      sprite1.rect.center = pygame.mouse.get_pos()
+      collide = pygame.sprite.spritecollide(sprite1, test_group, False)
+
+      window.fill(0)
+      all_group.draw(window)
+      for s in collide:
+          pygame.draw.rect(window, (255, 255, 255), s.rect, 5, 1)
+      pygame.display.flip()
+
+  pygame.quit()
+  exit()
+  ```
+
+- [`pygame.sprite.spritecollide()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.spritecollide) / [`collide_circle`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.collide_circle)
+
+  :scroll: **[Minimal example - collidepoint](../../examples/minimal_examples/pygame_minimal_intersect_spritecollide_collide_circle.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-spritecollidecollidecircle](https://repl.it/@Rabbid76/PyGame-spritecollidecollidecircle#main.py)</kbd>
+
+  ![pygame_minimal_intersect_spritecollide_collide_circle](https://i.stack.imgur.com/SS1Pb.gif)
+
+  ```py
+  import pygame
+
+  pygame.init()
+  window = pygame.display.set_mode((250, 250))
+
+  sprite1 = pygame.sprite.Sprite()
+  sprite1.image = pygame.Surface((80, 80), pygame.SRCALPHA)
+  pygame.draw.circle(sprite1.image, (255, 0, 0), (40, 40), 40)
+  sprite1.rect = pygame.Rect(*window.get_rect().center, 0, 0).inflate(40, 40)
+  sprite2 = pygame.sprite.Sprite()
+  sprite2.image = pygame.Surface((80, 89), pygame.SRCALPHA)
+  pygame.draw.circle(sprite2.image, (0, 255, 0), (40, 40), 40)
+  sprite2.rect = pygame.Rect(*window.get_rect().center, 0, 0).inflate(80, 80)
+
+  all_group = pygame.sprite.Group([sprite2, sprite1])
+  test_group = pygame.sprite.Group(sprite2)
+
+  run = True
+  while run:
+      for event in pygame.event.get():
+          if event.type == pygame.QUIT:
+              run = False
+
+      sprite1.rect.center = pygame.mouse.get_pos()
+      collide = pygame.sprite.spritecollide(sprite1, test_group, False, pygame.sprite.collide_circle)
+
+      window.fill(0)
+      all_group.draw(window)
+      for s in collide:
+          pygame.draw.circle(window, (255, 255, 255), s.rect.center, s.rect.width // 2, 5)
+      pygame.display.flip()
+
+  pygame.quit()
+  exit()
+  ```
+
 ## Collide with frame, window border and restrict to rectangle
 
 Related Stack Overflow questions:
@@ -211,6 +393,8 @@ There are 2 strategies to a void that.
 :scroll: **[Minimal example - Avoid glitchy collision between circle and rectangle](../../examples/minimal_examples/pygame_minimal_intersection_circle_rectangle_1.py)**
 
 ### Pong
+
+See also [Pong](pygame_pong.md).
 
 Related Stack Overflow questions:
 
