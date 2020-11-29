@@ -350,3 +350,14 @@ Related Stack Overflow questions:
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteTextInput](https://repl.it/@Rabbid76/PyGame-SpriteTextInput#main.py)</kbd>
 
   :scroll: **[minimal example - Text input box](../../examples/minimal_examples/pygame_minimal_sprite_text_input_box.py)**
+
+### Radio button
+
+Related Stack Overflow questions:
+
+- [How to change the button color in pygame](https://stackoverflow.com/questions/65059267/how-to-change-the-button-color-in-pygame/65059852#65059852)  
+  ![How to change the button color in pygame](https://i.stack.imgur.com/pPyUV.gif)
+
+:scroll: **[Minimal example - Radio button](../../examples/minimal_examples/pygame_minimal_sprite_mouse_radiobutton.py)**
+
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RadioButton](https://repl.it/@Rabbid76/PyGame-RadioButton#main.py)</kbd>
