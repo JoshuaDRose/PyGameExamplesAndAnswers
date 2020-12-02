@@ -333,7 +333,7 @@ Related Stack Overflow questions:
 Use [`pygame.time.Clock`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock.tick) to control the frames per second and thus the game speed.  
 
 The method [`tick()`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock.tick) of a [`pygame.time.Clock`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock) object, delays the game in that way, that every iteration of the loop consumes the same period of time.  
-That meas that the loop:
+That means that the loop:
 
 >```py
 >clock = pygame.time.Clock()
@@ -364,7 +364,7 @@ For instance define the distance in number of pixel, which the player should mov
 move_per_second = 500
 FPS = 60
 fun = True
-clock = pygame.time.Clock() 
+clock = pygame.time.Clock()
 while run:
     ms_frame = clock .tick(FPS)
     move_per_frame = move_per_second * ms_frame / 1000  

@@ -355,8 +355,8 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [How to change the button color in pygame](https://stackoverflow.com/questions/65059267/how-to-change-the-button-color-in-pygame/65059852#65059852)  
-  ![How to change the button color in pygame](https://i.stack.imgur.com/pPyUV.gif)
+- [How do I implement option buttons and change the button color in PyGame?](https://stackoverflow.com/questions/65059267/how-do-i-implement-option-buttons-and-change-the-button-color-in-pygame/65059852#65059852)  
+  ![How do I implement option buttons and change the button color in PyGame?](https://i.stack.imgur.com/pPyUV.gif)
 
 :scroll: **[Minimal example - Radio button](../../examples/minimal_examples/pygame_minimal_sprite_mouse_radiobutton.py)**
 

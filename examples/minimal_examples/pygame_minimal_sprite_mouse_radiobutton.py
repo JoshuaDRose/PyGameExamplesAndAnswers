@@ -4,8 +4,8 @@
 # pygame.sprite module
 # https://www.pygame.org/docs/ref/sprite.html
 #
-# How to change the button color in pygame [duplicate]
-# https://stackoverflow.com/questions/65059267/how-to-change-the-button-color-in-pygame/65059852#65059852
+# How do I implement option buttons and change the button color in PyGame?
+# https://stackoverflow.com/questions/65059267/how-do-i-implement-option-buttons-and-change-the-button-color-in-pygame/65059852#65059852
 #
 # GitHub - Mouse - Mouse and mouse event
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_mouse_and_mosuse_events.md
