@@ -84,7 +84,7 @@ def draw_polygon_alpha(surface, color, points):
 
 ![Draw a transparent rectangle in pygame](https://i.stack.imgur.com/Zst87.png)
 
-## Draw single Pixle
+## Draw single Pixel
 
 Related Stack Overflow questions:
 
