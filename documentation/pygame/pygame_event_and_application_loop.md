@@ -112,7 +112,7 @@ You have to handle the events in the application loop. See [`pygame.event.get()`
 
 > For each frame of your game, you will need to make some sort of call to the event queue. This ensures your program can internally interact with the rest of the operating system.
 
-#### Draw and delay, wait and sleep
+#### Delay, wait and sleep
 
 Related Stack Overflow questions:
 
@@ -121,6 +121,8 @@ Related Stack Overflow questions:
 - [How to wait some time in pygame?](https://stackoverflow.com/questions/18839039/how-to-wait-some-time-in-pygame)
   :scroll: **[Minimal example - Display a message for a period of time](../../examples/minimal_examples/pygame_minimal_time_text_message_delay.py)**  
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MessageDelay](https://repl.it/@Rabbid76/PyGame-MessageDelay#main.py)</kbd>
+
+- [How do you make Pygame stop for a few seconds?](https://stackoverflow.com/questions/65083381/how-do-you-make-pygame-stop-for-a-few-seconds/65093284#65093284)
 
 #### Input in application loop
 

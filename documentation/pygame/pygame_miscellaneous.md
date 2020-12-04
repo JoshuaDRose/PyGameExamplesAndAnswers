@@ -148,14 +148,6 @@ Related Stack Overflow questions:
 [Python: How to make drawn elements snap to grid in pygame](https://stackoverflow.com/questions/63926261/python-how-to-make-drawn-elements-snap-to-grid-in-pygame/63926759#63926759)  
 ![scene](https://i.stack.imgur.com/VCmuV.gif)
 
-## Maze
-
-[Hide and Seek/Maze game in pygame not working](https://stackoverflow.com/questions/63853997/hide-and-seek-maze-game-in-pygame-not-working/63854295#63854295)
-![scene](https://i.stack.imgur.com/2QYir.gif)
-
-[How can I make this demo drawing game update drawing the circles faster with Pygame?](https://stackoverflow.com/questions/60284620/how-can-i-make-this-demo-drawing-game-update-drawing-the-circles-faster-with-pyg/60285364#60285364)  
-![scene](https://i.stack.imgur.com/mojlK.gif)
-
 ## Where is 27 coming from?
 
 [I am wondering why it says the distance has to be less than 27? Why less than 27? Where is 27 coming from?](https://stackoverflow.com/questions/62523256/i-am-wondering-why-it-says-the-distance-has-to-be-less-than-27-why-less-than-27/62527566#62527566)
@@ -271,5 +263,5 @@ Related Stack Overflow questions:
 [How do I add a rubber band for mouse dragging in PyGame?](https://stackoverflow.com/questions/64880962/how-do-i-add-a-rubber-band-for-mouse-dragging-in-pygame/64881500#64881500)
 ![How do I add a rubber band for mouse dragging in PyGame?](https://i.stack.imgur.com/f3aOb.gif)
 
-[How to implement barriers to stop the player moving through walls](https://stackoverflow.com/questions/65124664/how-to-implement-barriers-to-stop-the-player-moving-through-walls/65130719#65130719)  
-![How to implement barriers to stop the player moving through walls](https://i.stack.imgur.com/WKJ5K.gif)
+[How can I make this demo drawing game update drawing the circles faster with Pygame?](https://stackoverflow.com/questions/60284620/how-can-i-make-this-demo-drawing-game-update-drawing-the-circles-faster-with-pyg/60285364#60285364)  
+![scene](https://i.stack.imgur.com/mojlK.gif)

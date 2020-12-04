@@ -170,12 +170,9 @@ f
 
 - random movement
 - grid
-- memory
-- maze
 - snake  
   related questions: [how to solve bug on snake wall teleportation](https://stackoverflow.com/questions/64624092/how-to-solve-bug-on-snake-wall-teleportation/64624385#64624385) and many more
 
-- pong
 
 ### Color
 

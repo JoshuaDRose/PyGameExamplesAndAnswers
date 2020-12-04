@@ -1,7 +1,7 @@
 # How would I make a heatmap in pygame on a grid
 # https://stackoverflow.com/questions/55617119/how-would-i-make-a-heatmap-in-pygame-on-a-grid/55618024#55618024
 # 
-# GitHub - PyGameExamplesAndAnswers - Event and application loop
+# GitHub - PyGameExamplesAndAnswers - Color
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_color.md
 
 import pygame
@@ -62,3 +62,4 @@ while run:
     pygame.display.flip()
 
 pygame.quit()
+exit()

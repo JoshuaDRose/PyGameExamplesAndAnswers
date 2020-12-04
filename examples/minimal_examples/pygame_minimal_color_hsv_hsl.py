@@ -1,7 +1,7 @@
 # HSV to RGB Color Conversion
 # https://stackoverflow.com/questions/24852345/hsv-to-rgb-color-conversion
 # 
-# GitHub - PyGameExamplesAndAnswers - Event and application loop
+# GitHub - PyGameExamplesAndAnswers - Color
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_color.md
 
 import pygame

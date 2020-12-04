@@ -7,3 +7,6 @@
 Related Stack Overflow questions:
 
 - [“Floating Blobs” experiment in pygame](https://stackoverflow.com/questions/56817337/floating-blobs-experiment-in-pygame)
+
+- [How do I make my monster move randomly in my game](https://stackoverflow.com/questions/59327552/how-do-i-make-my-monster-move-randomly-in-my-game/59329312#59329312)  
+  ![How do I make my monster move randomly in my game](https://i.stack.imgur.com/J7bIM.gif)

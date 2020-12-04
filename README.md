@@ -17,8 +17,10 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/56624147/gl-lines-not-showing-up-on-top-of-cube/56624975#56624975"><img src="https://i.stack.imgur.com/Go9Ym.gif" height="100" title="OpenGL Cube"></a><!--
 --><a href="https://stackoverflow.com/questions/56316263/problem-with-finding-the-closest-intersection/56316370#56316370"><img src="screenshot/pygame_minimal_intersect_line_line_2.png" height="100" title="Intersect and cut lines"></a><!--
 --><a href="https://stackoverflow.com/questions/20620109/how-to-render-transparent-text-with-alpha-channel-in-pygame/64552616#64552616"><img src="https://i.stack.imgur.com/nFzbT.gif" height="100" title="Transparent Text"></a><!--
+--><a href="documentation/pygame/pygame_2D.md"><img src="screenshot/pygame_minimal_2D_barnsleys_fern.gif" height="100" title="Barnsley's Fern"></a><!--
 --><a href="https://stackoverflow.com/questions/4183208/how-do-i-rotate-an-image-around-its-center-using-pygame/54714144#54714144"><img src="https://i.stack.imgur.com/yLxBi.gif" height="100" title="Rotate and scale image"></a><!--
 --><a href="https://stackoverflow.com/questions/56209634/is-it-possible-to-change-sprite-colours-in-pygame/56210460#56210460"><img src="https://i.stack.imgur.com/jTwph.gif" height="100" title="Change color of Sprite"></a><!--
+--><a href="documentation/pygame/pygame_2D.md"><img src="https://i.stack.imgur.com/Cogod.png" height="100" title="Bowyer-Watson Delaunay Triangulation"></a><!--
 --><a href="https://stackoverflow.com/questions/14044147/animated-sprite-from-few-images/64668964#64668964"><img src="https://i.stack.imgur.com/SzKwL.gif" height="100" title="Aniamted Sprite"></a><!--
 --><a href="https://stackoverflow.com/questions/63586822/pygame-get-the-balls-to-bounce-off-each-other/63587147#63587147"><img src="https://i.stack.imgur.com/dlD4v.gif" height="100" title="Bouncing off"></a><!--
 --><a href="https://stackoverflow.com/questions/30720665/countdown-timer-in-pygame/63551239#63551239"><img src="https://i.stack.imgur.com/10Gj0.gif" height="100" title="Countdown"></a><!--
@@ -33,14 +35,14 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/64793618/adding-a-particle-effect-to-my-clicker-game/64794954#64794954"><img src="https://i.stack.imgur.com/bWOOF.gif" height="100" title="Shoot bullet"></a><!--
 --><a href="https://stackoverflow.com/questions/58603835/how-to-rotate-an-imageplayer-to-the-mouse-direction/58604116#58604116"><img src="https://i.stack.imgur.com/eOdjl.gif" height="100" title="Shoot bullet"></a><!--
 --><a href="https://stackoverflow.com/questions/64805267/in-the-pygame-module-no-matter-what-i-change-the-coordinates-of-player-to-it-w/64806308#64806308"><img src="https://i.stack.imgur.com/7ONS1.gif" height="100" title="Shoot bullet"></a><!--
---><a href="documentation/pygame/pygame_2D.md"><img src="screenshot/pygame_minimal_2D_barnsleys_fern.gif" height="100" title="Barnsley's Fern"></a><!--
---><a href="documentation/pygame/pygame_2D.md"><img src="https://i.stack.imgur.com/Cogod.png" height="100" title="Bowyer-Watson Delaunay Triangulation"></a><!--
 --><a href="documentation/pygame/pygame_random_and_random_distribution.md"><img src="https://i.stack.imgur.com/sQSUS.png" height="100" title="Bridson's Poisson disk sampling"></a><!--
 --><a href="documentation/pygame/pygame_sprite_and_sprite_mask.md"><img src="https://i.stack.imgur.com/DnQdC.png" height="100" title="Buttons and icons"></a><!--
 --><a href="documentation/pygame/pygame_movement_and_motion.md"><img src="https://i.stack.imgur.com/7u7Gj.png" height="100" title="Car bounce"></a><!--
 --><a href="documentation/pygame/pygame_mouse_and_mosuse_events.md"><img src="https://i.stack.imgur.com/pPyUV.png" height="100" title="Radio button"></a><!--
 --><a href="documentation/pygame/pygame_pong.md"><img src="https://i.stack.imgur.com/AdKUV.png" height="100" title="Pong"></a><!--
 --><a href="documentation/pygame/pygame_collision_and_intesection.md"><img src="https://i.stack.imgur.com/SS1Pb.png" height="100" title="Sprite circle collision"></a><!--
+--><a href="documentation/pygame/pygame_color.md"><img src="https://i.stack.imgur.com/4c4gB.png" height="100" title="Heatmap"></a><!--
+--><a href="documentation/pygame/pygame_maze.md"><img src="https://i.stack.imgur.com/EUDwK.png" height="100" title="Maze"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  
@@ -119,6 +121,8 @@ The site is still under construction :construction:.
 [Pong](documentation/pygame/pygame_pong.md)
 
 [Memory](documentation/pygame/pygame_memory.md)
+
+[Maze](documentation/pygame/pygame_maze.md)
 
 [Draw 2D](documentation/pygame/pygame_2D.md)
 
