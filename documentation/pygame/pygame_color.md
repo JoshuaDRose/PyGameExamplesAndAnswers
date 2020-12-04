@@ -45,3 +45,10 @@ rgba = (color.r, color.g, color.b, color.a)
 :scroll: **[Minimal example - Set HSLA color](../../examples/minimal_examples/pygame_minimal_color_hsv_hsl.py)**
 
 ![HSV to RGB Color Conversion](https://i.stack.imgur.com/U314N.png)
+
+## Gradient
+
+- [How would I make a heatmap in pygame on a grid](https://stackoverflow.com/questions/55617119/how-would-i-make-a-heatmap-in-pygame-on-a-grid/55618024#55618024)  
+  ![How would I make a heatmap in pygame on a grid](https://i.stack.imgur.com/4c4gB.gif)
+
+  :scroll: **[Minimal example - Heatmap](../../examples/minimal_examples/pygame_minimal_color_gradient_1.py)**

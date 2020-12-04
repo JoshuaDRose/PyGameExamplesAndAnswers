@@ -173,9 +173,6 @@ Related Stack Overflow questions:
 [How to Get the X and Y Positions of All Curves in a Lissajous Curve Table?](https://stackoverflow.com/questions/55076531/how-to-get-the-x-and-y-positions-of-all-curves-in-a-lissajous-curve-table/55076619#55076619)  
 ![scene](https://i.stack.imgur.com/CoB4G.png)
 
-[How would I make a heatmap in pygame on a grid](https://stackoverflow.com/questions/55617119/how-would-i-make-a-heatmap-in-pygame-on-a-grid/55618024#55618024)  
-![scene](https://i.stack.imgur.com/4c4gB.gif)
-
 [How to draw with mouse and save as 1s and 0s](https://stackoverflow.com/questions/58847079/how-to-draw-with-mouse-and-save-as-1s-and-0s/58850614#58850614)  
 ![scene](https://i.stack.imgur.com/hMHD8.gif)
 

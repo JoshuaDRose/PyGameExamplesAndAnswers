@@ -1,6 +1,3 @@
-# Pygame window freezes when it opens
-# https://stackoverflow.com/questions/57642415/pygame-window-freezes-when-it-opens/57644255#57644255
-#  
 # HSV to RGB Color Conversion
 # https://stackoverflow.com/questions/24852345/hsv-to-rgb-color-conversion
 # 
