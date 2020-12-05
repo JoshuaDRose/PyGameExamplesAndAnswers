@@ -93,7 +93,7 @@ Note, not all object can be _deep_ copied. For instance a [`pygame.Surface`](htt
 
 Related Stack Overflow questions:
 
-- [Pygame Animation is glitching](https://stackoverflow.com/questions/62120723/pygame-animation-is-glitching/62120776?noredirect=1)
+- [Why is the PyGame animation is flickering](https://stackoverflow.com/questions/62120723/why-is-the-pygame-animation-is-flickering/62120776#62120776)
 
 ## Frames per second (Clock)
 

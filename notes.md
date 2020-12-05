@@ -9,6 +9,8 @@
 - [Investigate answered questions](#investigate-answered-questions)
     - [Answers](#answers)
         - [Add Answers](#add-answers)
+            - [Questions about music and sound](#questions-about-music-and-sound)
+        - [Questions about video](#questions-about-video)
             - [Questions about size, and resizing](#questions-about-size-and-resizing)
         - [Not answered questions](#not-answered-questions)
         - [Improve answer](#improve-answer)
@@ -88,20 +90,25 @@ next:
 [How can I crop an image with Pygame?](https://stackoverflow.com/questions/6239769/how-can-i-crop-an-image-with-pygame)  
 [How to Change the Name of a Pygame window?](https://stackoverflow.com/questions/40566585/how-to-change-the-name-of-a-pygame-window)  
 [Any way to speed up Python and Pygame?](https://stackoverflow.com/questions/6395923/any-way-to-speed-up-python-and-pygame)  
-[pygame audio playback speed](https://stackoverflow.com/questions/2159365/pygame-audio-playback-speed)  
 [Fully transparent windows in Pygame?](https://stackoverflow.com/questions/550001/fully-transparent-windows-in-pygame)  
 [How to fade from one colour to another in pygame?](https://stackoverflow.com/questions/51973441/how-to-fade-from-one-colour-to-another-in-pygame)  
 [Pygame - Return collision location](https://stackoverflow.com/questions/64760792/pygame-return-collision-location)  
 [Multi-Colored text in pygame](https://stackoverflow.com/questions/64825207/multi-colored-text-in-pygame)  
-[Python Write MIDI file](https://stackoverflow.com/questions/64838592/python-write-midi-file)  
 [I'm embedding a pygame window into Tkinter, how do I manipulate the pygame window?](https://stackoverflow.com/questions/55755305/im-embedding-a-pygame-window-into-tkinter-how-do-i-manipulate-the-pygame-windo)  
-[How to draw a video frame from PyRealSense2 on a PyGame canvas?](https://stackoverflow.com/questions/64988479/how-to-draw-a-video-frame-from-pyrealsense2-on-a-pygame-canvas/64989545#64989545)  
-[pygame simulaton saved as a mp4 file](https://stackoverflow.com/questions/65053527/pygame-simulaton-saved-as-a-mp4-file)  
-[Pygame: how to change background color](https://stackoverflow.com/questions/41189928/pygame-how-to-change-background-color)  
 
 interesting
 
 [Intersection between bezier curve and a line segment](https://stackoverflow.com/questions/1813719/intersection-between-bezier-curve-and-a-line-segment)  
+
+#### Questions about music and sound
+
+[pygame audio playback speed](https://stackoverflow.com/questions/2159365/pygame-audio-playback-speed)  
+[pygame simulaton saved as a mp4 file](https://stackoverflow.com/questions/65053527/pygame-simulaton-saved-as-a-mp4-file)  
+
+### Questions about video
+
+[Python Write MIDI file](https://stackoverflow.com/questions/64838592/python-write-midi-file)  
+[How to draw a video frame from PyRealSense2 on a PyGame canvas?](https://stackoverflow.com/questions/64988479/how-to-draw-a-video-frame-from-pyrealsense2-on-a-pygame-canvas/64989545#64989545)  
 
 #### Questions about size, and resizing
 
