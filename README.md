@@ -43,6 +43,7 @@ Lloyd Alexander, The Book of Three
 --><a href="documentation/pygame/pygame_collision_and_intesection.md"><img src="https://i.stack.imgur.com/SS1Pb.png" height="100" title="Sprite circle collision"></a><!--
 --><a href="documentation/pygame/pygame_color.md"><img src="https://i.stack.imgur.com/4c4gB.png" height="100" title="Heatmap"></a><!--
 --><a href="documentation/pygame/pygame_maze.md"><img src="https://i.stack.imgur.com/EUDwK.png" height="100" title="Maze"></a><!--
+--><a href="documentation/pygame/pygame_2D.md"><img src="https://i.stack.imgur.com/MPH0Y.png" height="100" title="Lissajous curve"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  
