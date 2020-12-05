@@ -176,9 +176,6 @@ Related Stack Overflow questions:
 [How to make a “while mouse down” loop in pygame](https://stackoverflow.com/questions/54666587/how-to-make-a-while-mouse-down-loop-in-pygame/54667247#54667247)  
 ![scene](https://i.stack.imgur.com/G4RML.gif)
 
-[How to Get the X and Y Positions of All Curves in a Lissajous Curve Table?](https://stackoverflow.com/questions/55076531/how-to-get-the-x-and-y-positions-of-all-curves-in-a-lissajous-curve-table/55076619#55076619)  
-![scene](https://i.stack.imgur.com/CoB4G.png)
-
 [How to draw with mouse and save as 1s and 0s](https://stackoverflow.com/questions/58847079/how-to-draw-with-mouse-and-save-as-1s-and-0s/58850614#58850614)  
 ![scene](https://i.stack.imgur.com/hMHD8.gif)
 
@@ -232,9 +229,6 @@ Related Stack Overflow questions:
 
 [Using a matrix as a sprite and testing if two sprites overlap](https://stackoverflow.com/questions/60387917/using-a-matrix-as-a-sprite-and-testing-if-two-sprites-overlap/60391694#60391694)  
 ![scene](https://i.stack.imgur.com/brlQk.gif)
-
-[Pygame swap text with another text](https://stackoverflow.com/questions/60944070/pygame-swap-text-with-another-text/60953697#60953697)  
-![scene](https://i.stack.imgur.com/DcHQy.gif)
 
 [Saving history of drawing in Pygame in order to implement Ctrl Z](https://stackoverflow.com/questions/61295811/saving-history-of-drawing-in-pygame-in-order-to-implement-ctrl-z/61296440#61296440)  
 ![scene](https://i.stack.imgur.com/snmsK.gif)

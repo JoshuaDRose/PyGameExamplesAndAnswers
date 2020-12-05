@@ -5,9 +5,7 @@
 # Motion and movement
 
 Related Stack Overflow questions:
-
-- [How to fix character constantly accelerating in both directions after deceleration Pygame?](https://stackoverflow.com/questions/59832445/how-to-fix-character-constantly-accelerating-in-both-directions-after-decelerati/59846286#59846286)  
-  ![scene](https://i.stack.imgur.com/8I8HV.gif)
+ 
 - [make multiple objects automatically move for how many objects have been specified in pygame](https://stackoverflow.com/questions/55723064/make-multiple-objects-automatically-move-for-how-many-objects-have-been-specifie/55723441#55723441)  
   ![scene](https://i.stack.imgur.com/JxNz3.gif)
 - [Is it possible to use simple rotation matrices to simulate circular orbits in pygame?](https://stackoverflow.com/questions/58667567/is-it-possible-to-use-simple-rotation-matrices-to-simulate-circular-orbits-in-py/58669192#58669192)  
@@ -50,3 +48,13 @@ Related Stack Overflow questions:
   ![Pygame- rotate sprite and follow path simultaneously](https://i.stack.imgur.com/7pbE7.gif)
 
   :scroll: **[Minimal example - Throw ball](../../examples/minimal_examples/pygame_minimal_move_throw_ball.py)**
+
+## Slide
+
+Related Stack Overflow questions:
+
+- [How to fix character constantly accelerating in both directions after deceleration Pygame?](https://stackoverflow.com/questions/59832445/how-to-fix-character-constantly-accelerating-in-both-directions-after-decelerati/59846286#59846286)  
+  ![How to fix character constantly accelerating in both directions after deceleration Pygame?](https://i.stack.imgur.com/8I8HV.gif)
+
+- [Collision detection / physics for simple game](https://stackoverflow.com/questions/59656983/collision-detection-physics-for-simple-game/59658289#59658289)  
+  ![Collision detection / physics for simple game](https://i.stack.imgur.com/bqVOa.gif)
