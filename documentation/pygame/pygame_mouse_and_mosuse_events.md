@@ -133,18 +133,18 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Dragging object along x-axis in pygame](https://stackoverflow.com/questions/61781533/dragging-object-along-x-axis-in-pygame/61781683#61781683)  
-  ![Dragging object along x-axis in pygame](https://i.stack.imgur.com/l9IOr.gif)
-- [How to drag an object around the screen in pygame?](https://stackoverflow.com/questions/64241742/how-to-drag-an-object-around-the-screen-in-pygame/64249660#64249660)  
-  ![How to drag an object around the screen in pygame?](https://i.stack.imgur.com/Qgh20.gif)
-- [how to move multiple images in pygame?](https://stackoverflow.com/questions/64504480/how-to-move-multiple-images-in-pygame/64504767#64504767)  
-  ![how to move multiple images in pygame?](https://i.stack.imgur.com/mOnHo.gif)
-- [how i can make this with four images?](https://stackoverflow.com/questions/64592440/how-i-can-make-this-with-four-images/64592600#64592600)  
-  ![how i can make this with four images?](https://i.stack.imgur.com/Cmxd9.gif)
+- [How can I drag more than 2 images in PyGame?](https://stackoverflow.com/questions/64592440/how-can-i-drag-more-than-2-images-in-pygame/64592600#64592600)  
+  ![How can I drag more than 2 images in PyGame?](https://i.stack.imgur.com/Cmxd9.gif)
+- [How to drag multiple images in PyGame?](https://stackoverflow.com/questions/64504480/how-to-drag-multiple-images-in-pygame/64504767#64504767)  
+  ![How to drag multiple images in PyGame?](https://i.stack.imgur.com/mOnHo.gif)
 - [how to adapt the second code to put in the first?](https://stackoverflow.com/questions/64880962/how-to-adapt-the-second-code-to-put-in-the-first/64881500#64881500)  
   ![how to adapt the second code to put in the first?](https://i.stack.imgur.com/f3aOb.gif)  
   ![how to adapt the second code to put in the first?](https://i.stack.imgur.com/ZBvDp.gif)  
   ![how to adapt the second code to put in the first?](https://i.stack.imgur.com/M1k3p.gif)
+- [Dragging object along x-axis in pygame](https://stackoverflow.com/questions/61781533/dragging-object-along-x-axis-in-pygame/61781683#61781683)  
+  ![Dragging object along x-axis in pygame](https://i.stack.imgur.com/l9IOr.gif)
+- [How to drag an object around the screen in pygame?](https://stackoverflow.com/questions/64241742/how-to-drag-an-object-around-the-screen-in-pygame/64249660#64249660)  
+  ![How to drag an object around the screen in pygame?](https://i.stack.imgur.com/Qgh20.gif)
 
 :scroll: **[Minimal example - Drag rectangle](../../examples/minimal_examples/pygame_minimal_mouse_drag_rectangle.py)**
 

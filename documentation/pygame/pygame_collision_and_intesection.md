@@ -279,6 +279,7 @@ Related Stack Overflow questions:
 
 - [Collision detection against player and blocks in the map](https://stackoverflow.com/questions/59957214/collision-detection-against-player-and-blocks-in-the-map/59957520#59957520)
 - [PyGame collision system working only every other time](https://stackoverflow.com/questions/64334715/pygame-collision-system-working-only-every-other-time/64334754#64334754)
+- [how to know pygame.Rect's side that collide to other Rect?](https://stackoverflow.com/questions/65102287/how-to-know-pygame-rects-side-that-collide-to-other-rect/65102766#65102766)
 
 I recommend to use a [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.collidepoint) object and either [`.collidepoint()`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.collidepoint) or [`colliderect()`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.colliderect) to find a collision between a rectangle and an object.
 

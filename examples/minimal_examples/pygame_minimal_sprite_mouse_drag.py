@@ -4,8 +4,8 @@
 # pygame.sprite module
 # https://www.pygame.org/docs/ref/sprite.html
 #
-# Creating multiple sprites with different update()'s from the same sprite class in Pygame
-# https://stackoverflow.com/questions/64419223/creating-multiple-sprites-with-different-updates-from-the-same-sprite-class-i/64456959#64456959
+# Drag multiple sprites with different “update ()” methods from the same Sprite class in Pygame
+# https://stackoverflow.com/questions/64419223/drag-multiple-sprites-with-different-update-methods-from-the-same-sprite-cl/64456959#64456959
 #
 # GitHub - Mouse - Mouse Drag
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_mouse_and_mosuse_events.md

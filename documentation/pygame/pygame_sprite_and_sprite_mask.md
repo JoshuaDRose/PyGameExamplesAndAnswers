@@ -307,8 +307,8 @@ while run:
 
 Related Stack Overflow questions:
 
-- [Creating multiple sprites with different update()'s from the same sprite class in Pygame](https://stackoverflow.com/questions/64419223/creating-multiple-sprites-with-different-updates-from-the-same-sprite-class-i/64456959#64456959)  
-  ![Creating multiple sprites with different update()'s from the same sprite class in Pygame](https://i.stack.imgur.com/BaFzb.gif)
+- [Drag multiple sprites with different “update ()” methods from the same Sprite class in Pygame](https://stackoverflow.com/questions/64419223/drag-multiple-sprites-with-different-update-methods-from-the-same-sprite-cl/64456959#64456959)  
+  ![Drag multiple sprites with different “update ()” methods from the same Sprite class in Pygame](https://i.stack.imgur.com/BaFzb.gif)
 
   :scroll: **[Minimal example - Drag Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_drag.py)**
 
