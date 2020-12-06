@@ -7,8 +7,8 @@
 # How to Get the X and Y Positions of All Curves in a Lissajous Curve Table?
 # https://stackoverflow.com/questions/55076531/how-to-get-the-x-and-y-positions-of-all-curves-in-a-lissajous-curve-table/55076619#55076619
 #
-# GitHub - PyGameExamplesAndAnswers - Draw 2D - Lissajous curve
-# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_2D.md
+# GitHub - PyGameExamplesAndAnswers - Math and Vector- Curve - Lissajous curve
+# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_math_vector_and_reflection.md
 #
 # https://repl.it/@Rabbid76/PyGame-LissajousCurve
 

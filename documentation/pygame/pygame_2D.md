@@ -63,14 +63,3 @@ Related Stack Overflow questions:
   ![Trying to code the Recaman Sequence, but issue with the parameters I pass for drawing an arc](https://i.stack.imgur.com/R77eo.png)
 
   :scroll: **[Minimal example - Recaman's sequence](../../examples/minimal_examples/pygame_minimal_2D_racamans_sequence.py)**
-
-## Lissajous curve
-
-Related Stack Overflow questions:
-
-- [How to Get the X and Y Positions of All Curves in a Lissajous Curve Table?](https://stackoverflow.com/questions/55076531/how-to-get-the-x-and-y-positions-of-all-curves-in-a-lissajous-curve-table/55076619#55076619)  
- ![How to Get the X and Y Positions of All Curves in a Lissajous Curve Table?](https://i.stack.imgur.com/MPH0Y.gif)
-
-  :scroll: **[Minimal example - Lissajous curve](../../examples/minimal_examples/pygame_minimal_2D_so_lissajous.py)**
-
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LissajousCurve](https://repl.it/@Rabbid76/PyGame-LissajousCurve#main.py)</kbd>

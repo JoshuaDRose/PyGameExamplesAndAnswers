@@ -245,9 +245,6 @@ Related Stack Overflow questions:
 ![scene](https://i.stack.imgur.com/sqIcy.gif)
 ![scene](https://i.stack.imgur.com/KMpLP.gif)
 
-[Pong game in python. Score and out-of-screen check](https://stackoverflow.com/questions/62221432/pong-game-in-python-score-and-out-of-screen-check/62221774#62221774)  
-![scene](https://i.stack.imgur.com/AdKUV.gif)
-
 [I want to make insertig sorting visualizer,the sorting works but not the visualizer](https://stackoverflow.com/questions/62327655/i-want-to-make-insertig-sorting-visualizer-the-sorting-works-but-not-the-visuali/62328400#62328400)  
 ![scene](https://i.stack.imgur.com/DFAkW.gif)
 

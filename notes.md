@@ -160,7 +160,7 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
 ### Fix examples
 
 - pygame_minimal_intersect_circle_rectangle_4.py: fix intersection of edge with circle (increase rectangle 100x100)
-f
+
 ### New examples
 
 - Draw trail
@@ -173,13 +173,18 @@ f
 - virtual joystick (mouse and touch)
 - button menu
 
+- Fade screen  
+  [How to fade IN text/screen using pygame alpha](https://stackoverflow.com/questions/65164118/how-to-fade-in-text-screen-using-pygame-alpha)  
+  [Pygame ; Problem with Alpha gestion on Surface](https://stackoverflow.com/questions/57011428/pygame-problem-with-alpha-gestion-on-surface/57125347#57125347)  
+  [How to make an object fades color in pygame](https://stackoverflow.com/questions/61043017/how-to-make-an-object-fades-color-in-pygame/61043146#61043146)  
+  
+- create example which projects sin and cosin (sin horizontally and cosin vertically)  
+  [Math and Vector - Curve - Trigonometry](documentation/pygame/pygame_math_vector_and_reflection.md)
 ## New Pages
 
-- random movement
 - grid
 - snake  
   related questions: [how to solve bug on snake wall teleportation](https://stackoverflow.com/questions/64624092/how-to-solve-bug-on-snake-wall-teleportation/64624385#64624385) and many more
-
 
 ### Color
 

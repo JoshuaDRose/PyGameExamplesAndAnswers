@@ -169,3 +169,25 @@ Related Stack Overflow questions:
   :scroll: **[Minimal example - Rotate line](../../examples/minimal_examples/pygame_minimal_math_vector_rotate_line.py)**
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-VectorRotateLine](https://repl.it/@Rabbid76/PyGame-VectorRotateLine#main.py)</kbd>
+
+## Curve
+
+### Trigonometry
+
+Related Stack Overflow questions:
+
+- [Gaps in a line while trying to draw them with a mouse problem](https://stackoverflow.com/questions/56379888/gaps-in-a-line-while-trying-to-draw-them-with-a-mouse-problem/56380523#56380523)  
+  ![Gaps in a line while trying to draw them with a mouse problem](https://i.stack.imgur.com/sCdN0.gif)
+
+  :scroll: **[Minimal example - Sine curve](../../examples/minimal_examples/pygame_minimal_math_curve_sine.py)**
+
+### Lissajous curve
+
+Related Stack Overflow questions:
+
+- [How to Get the X and Y Positions of All Curves in a Lissajous Curve Table?](https://stackoverflow.com/questions/55076531/how-to-get-the-x-and-y-positions-of-all-curves-in-a-lissajous-curve-table/55076619#55076619)  
+ ![How to Get the X and Y Positions of All Curves in a Lissajous Curve Table?](https://i.stack.imgur.com/MPH0Y.gif)
+
+  :scroll: **[Minimal example - Lissajous curve](../../examples/minimal_examples/pygame_minimal_2D_so_lissajous.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LissajousCurve](https://repl.it/@Rabbid76/PyGame-LissajousCurve#main.py)</kbd>
