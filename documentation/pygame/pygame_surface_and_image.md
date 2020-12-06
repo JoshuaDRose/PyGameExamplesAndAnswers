@@ -334,6 +334,9 @@ def load_svg(filename, scale=None, size=None, clip_from=None, fit_to=None, foram
 
 ### Load animated GIF
 
+- [Animated sprite from few images](https://stackoverflow.com/questions/14044147/animated-sprite-from-few-images/64668964#64668964)  
+  ![Animated sprite from few images](https://i.stack.imgur.com/SzKwL.gif)
+
 - [How can I load an animated GIF and get all of the individual frames in PyGame?](https://stackoverflow.com/questions/29571399/how-can-i-load-an-animated-gif-and-get-all-of-the-individual-frames-in-pygame)
 - [How do I make a sprite as a gif in pygame?](https://stackoverflow.com/questions/64179680/how-do-i-make-a-sprite-as-a-gif-in-pygame/64182074#64182074)
 

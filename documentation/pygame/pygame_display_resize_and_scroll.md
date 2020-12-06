@@ -173,6 +173,7 @@ Related Stack Overflow questions:
 - [How do I make my screen zoom in and out in pygame?](https://stackoverflow.com/questions/64079174/how-do-i-make-my-screen-zoom-in-and-out-in-pygame/64079239#64079239)
 - [Zooming in and out of a PyGame window with all objects still in place](https://stackoverflow.com/questions/64936805/zooming-in-and-out-of-a-pygame-window-with-all-objects-still-in-place/64937795#64937795)  
   ![Zooming in and out of a PyGame window with all objects still in place](https://i.stack.imgur.com/qYHGr.gif)
+- [Zooming in and out of a PyGame window with all objects still in place](https://stackoverflow.com/questions/64936805/zooming-in-and-out-of-a-pygame-window-with-all-objects-still-in-place/64937795#64937795)
 
 > I'm wondering if there's a way I can globally scale everything up in my game without either having to scale each sprite up individually [...]" 
 

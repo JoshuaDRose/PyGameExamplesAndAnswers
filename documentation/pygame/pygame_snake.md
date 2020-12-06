@@ -35,6 +35,8 @@ Related Stack Overflow questions:
 - [Snake bodies not appending to snake correctly](https://stackoverflow.com/questions/60925569/snake-bodies-not-appending-to-snake-correctly/60934394#60934394)  
   ![Snake bodies not appending to snake correctly](https://i.stack.imgur.com/vUDx7.gif)
 
+- [how to solve bug on snake wall teleportation](https://stackoverflow.com/questions/64624092/how-to-solve-bug-on-snake-wall-teleportation/64624385#64624385)
+
 In general you have to distinguish between 2 different types of _snake_. In the first case, the snake moves in a grid and every time when the snake moves, it strides ahead one field in the grid. In the other type, the snakes position is not in a raster and not snapped on the fields of the grid, the position is free and the snake slides smoothly through the fields.  
 In former each element of the body is snapped to the fields of the grid, as the head is. The other is more trick, because the position of a body element depends on the size of the element and the dynamic, previous positions of the snakes head.
 

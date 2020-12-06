@@ -102,4 +102,11 @@ Now `zoom_surf` has the same size as the window. `.blit` the surface to the wind
 
 ```py
 window.blit(zoom_surf, (0, 0))
-``` 
+```
+
+## Spin effect through scaling
+
+Related Stack Overflow questions:
+
+- [“Spin” coin image in python, pygame clicker game](https://stackoverflow.com/questions/65173270/spin-coin-image-in-python-pygame-clicker-game/65173486#65173486)  
+  ![“Spin” coin image in python, pygame clicker game](https://i.stack.imgur.com/4nsFE.gif)
