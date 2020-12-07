@@ -191,3 +191,12 @@ Related Stack Overflow questions:
   :scroll: **[Minimal example - Lissajous curve](../../examples/minimal_examples/pygame_minimal_2D_so_lissajous.py)**
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LissajousCurve](https://repl.it/@Rabbid76/PyGame-LissajousCurve#main.py)</kbd>
+
+## Sort
+
+Related Stack Overflow questions:
+
+- [I want to make a visualized bubble sort in pygame, the sort works but the visualization doesn't](https://stackoverflow.com/questions/58039583/i-want-to-make-a-visualized-bubble-sort-in-pygame-the-sort-works-but-the-visual/58039872#58039872)  
+  ![scene](https://i.stack.imgur.com/h48Os.gif)
+
+  :scroll: **[Minimal example - Sort](../../examples/minimal_examples/pygame_minimal_2D_so_lissajous.py)**
