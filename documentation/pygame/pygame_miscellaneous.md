@@ -116,20 +116,6 @@ Related Stack Overflow questions:
 - [How to delete one object from a Surface instance (pygame)?](https://stackoverflow.com/questions/62859831/how-to-delete-one-object-from-a-surface-instance-pygame/62860003)
 - [How do I delete rect object from screen once player collides with it?](https://stackoverflow.com/questions/62957899/how-do-i-delete-rect-object-from-screen-once-player-collides-with-it/62958077#62958077)
 
-## Gravity and jump
-
-Related Stack Overflow questions:
-
-- [How to simulate Jumping in Pygame for this particular code](https://stackoverflow.com/questions/54595777/how-to-simulate-jumping-in-pygame-for-this-particular-code/54596624#54596624)  
-  ![scene](https://i.stack.imgur.com/XEAF8.gif)
-- [Projectile motion and gravity in pygame only sometimes working](https://stackoverflow.com/questions/55822116/projectile-motion-and-gravity-in-pygame-only-sometimes-working/55836374#55836374)  
-  ![scene](https://i.stack.imgur.com/MxE2C.gif)
-- [python, pygame - jumping too fast?](https://stackoverflow.com/questions/58474204/python-pygame-jumping-too-fast/58474280#58474280)
-- [How to make a circular object jump using pygame?](https://stackoverflow.com/questions/62822322/how-to-make-a-circular-object-jump-using-pygame/62822601#62822601)  
-  ![How to make a circular object jump using pygame?](https://i.stack.imgur.com/6BPnL.gif)
-- [Pygame Bouncy Ball Sinks Through Floor](https://stackoverflow.com/questions/64864966/pygame-bouncy-ball-sinks-through-floor/64865054#64865054)  
-  ![Pygame Bouncy Ball Sinks Through Floor](https://i.stack.imgur.com/ulJge.gif)
-
 ## Grid
 
 [Image loading using pygame](https://stackoverflow.com/questions/60617748/image-loading-using-pygame/60622756#60622756)

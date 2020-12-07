@@ -9,7 +9,7 @@
 #
 # How to get if a key is pressed pygame
 # https://stackoverflow.com/questions/59830738/how-to-get-if-a-key-is-pressed-pygame/59831073#59831073
-
+#
 # GitHub - PyGameExamplesAndAnswers - Keys and keyboard events - Keys
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_keys_and_keyboard_event.md 
 #

@@ -58,3 +58,25 @@ Related Stack Overflow questions:
 
 - [Collision detection / physics for simple game](https://stackoverflow.com/questions/59656983/collision-detection-physics-for-simple-game/59658289#59658289)  
   ![Collision detection / physics for simple game](https://i.stack.imgur.com/bqVOa.gif)
+
+## Gravity and jump
+
+Related Stack Overflow questions:
+
+- [How to simulate Jumping in Pygame for this particular code](https://stackoverflow.com/questions/54595777/how-to-simulate-jumping-in-pygame-for-this-particular-code/54596624#54596624)  
+  ![How to simulate Jumping in Pygame for this particular code](https://i.stack.imgur.com/XEAF8.gif)
+
+- [python, pygame - jumping too fast?](https://stackoverflow.com/questions/58474204/python-pygame-jumping-too-fast/58474280#58474280)
+
+- [How to make a circular object jump using pygame?](https://stackoverflow.com/questions/62822322/how-to-make-a-circular-object-jump-using-pygame/62822601#62822601)  
+  ![How to make a circular object jump using pygame?](https://i.stack.imgur.com/6BPnL.gif)
+
+- [Pygame Bouncy Ball Sinks Through Floor](https://stackoverflow.com/questions/64864966/pygame-bouncy-ball-sinks-through-floor/64865054#64865054)  
+  ![Pygame Bouncy Ball Sinks Through Floor](https://i.stack.imgur.com/ulJge.gif)
+
+## Particles
+
+- [Projectile motion and gravity in pygame only sometimes working](https://stackoverflow.com/questions/55822116/projectile-motion-and-gravity-in-pygame-only-sometimes-working/55836374#55836374)
+  ![Projectile motion and gravity in pygame only sometimes working](https://i.stack.imgur.com/MxE2C.gif)
+
+  :scroll: **[Minimal example - Particle explosion](../../examples/minimal_examples/pygame_minimal_move_particle_explosion.py)**
