@@ -11,7 +11,7 @@
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_mouse_and_mosuse_events.md
 #
 # GitHub - Sprite, Group and Sprite mask - Click Sprite
-# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_sprite_and_sprite_mask.md
+# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_ui_elements.md
 #
 # https://repl.it/@Rabbid76/PyGame-RadioButton
 

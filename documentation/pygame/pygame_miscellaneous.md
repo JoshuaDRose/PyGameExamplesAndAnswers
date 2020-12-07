@@ -116,17 +116,6 @@ Related Stack Overflow questions:
 - [How to delete one object from a Surface instance (pygame)?](https://stackoverflow.com/questions/62859831/how-to-delete-one-object-from-a-surface-instance-pygame/62860003)
 - [How do I delete rect object from screen once player collides with it?](https://stackoverflow.com/questions/62957899/how-do-i-delete-rect-object-from-screen-once-player-collides-with-it/62958077#62958077)
 
-## Progress bar and health bar
-
-Related Stack Overflow questions:
-
-- [How can I display a smooth loading bar in pygame?](https://stackoverflow.com/questions/54502683/how-can-i-display-a-smooth-loading-bar-in-pygame/54502953#54502953)  
-  ![rprogress ba](https://i.stack.imgur.com/zRnGM.gif)
-- [How to show shields level by changing color of the progress bar](https://stackoverflow.com/questions/57033885/how-to-show-shields-level-by-changing-color-of-the-progress-bar/57033917#57033917)  
-  ![progress ba](https://i.stack.imgur.com/XHYP0.gif)
-- [How to put a health bar over the sprite in pygame](https://stackoverflow.com/questions/64867475/how-to-put-a-health-bar-over-the-sprite-in-pygame/64878954#64878954)
-  ![How to put a health bar over the sprite in pygame](https://i.stack.imgur.com/eapda.gif)
-
 ## Gravity and jump
 
 Related Stack Overflow questions:

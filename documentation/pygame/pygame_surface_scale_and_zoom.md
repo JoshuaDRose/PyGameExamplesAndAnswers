@@ -60,7 +60,6 @@ That is probably a rare case. In general you should try to scale the surfaces at
 
 Do not try to use the parameter compulsively and do not "construct" a use case for the `DestSurface` parameter. Do it the other way around. Write your application and make it run. Then investigate whether the `DestSurface` parameter can be an improvement for your specific use case.
 
-
 ## Zoom surface
 
 Related Stack Overflow questions:
@@ -110,3 +109,5 @@ Related Stack Overflow questions:
 
 - [“Spin” coin image in python, pygame clicker game](https://stackoverflow.com/questions/65173270/spin-coin-image-in-python-pygame-clicker-game/65173486#65173486)  
   ![“Spin” coin image in python, pygame clicker game](https://i.stack.imgur.com/4nsFE.gif)
+
+  :scroll: **[Minimal example - Spin](../../examples/surface_rotate/pygame_minimal_scale_spin.py)**

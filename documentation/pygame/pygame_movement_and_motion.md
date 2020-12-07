@@ -33,7 +33,7 @@ Related Stack Overflow questions:
 - [Image rotation while moving](https://stackoverflow.com/questions/57226587/image-rotation-while-moving/57227063#57227063)  
   ![Image rotation while moving](https://i.stack.imgur.com/XWNPt.gif)
 
-- [The car moves and changes direction when it hits the window edge](https://stackoverflow.com/questions/65001510/the-car-moves-and-changes-direction-when-it-hits-the-window-edge/65010442#65010442)
+- [The car moves and changes direction when it hits the window edge](https://stackoverflow.com/questions/65001510/the-car-moves-and-changes-direction-when-it-hits-the-window-edge/65010442#65010442)  
   ![The car moves and changes direction when it hits the window edge](https://i.stack.imgur.com/7u7Gj.gif)
 
   :scroll: **[Minimal example - Car movement](../../examples/minimal_examples/pygame_minimal_move_car_reflect.py)**

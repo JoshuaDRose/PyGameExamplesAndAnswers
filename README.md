@@ -113,6 +113,8 @@ The site is still under construction :construction:.
 
 ### Enhanced
 
+[UI elements](documentation/pygame/pygame_ui_elements.md)  
+
 [Surface array, pixel array, buffer proxy](documentation/pygame/pygame_surfacearray_pixelarray_and_bufferproxy.md)
 
 [Threading](documentation/pygame/pygame_threading.md)
