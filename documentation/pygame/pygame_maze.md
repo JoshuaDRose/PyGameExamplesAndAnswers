@@ -19,3 +19,6 @@
 
 - [How do I move elements of a matrix in python?](https://stackoverflow.com/questions/65174955/how-do-i-move-elements-of-a-matrix-in-python/65178270#65178270)  
   ![How do I move elements of a matrix in python?](https://i.stack.imgur.com/QgD5t.gif)
+
+- [How do I randomly move objects in a maze using pygame?](https://stackoverflow.com/questions/65189546/how-do-i-randomly-move-objects-in-a-maze-using-pygame/65190004#65190004)  
+  ![How do I randomly move objects in a maze using pygame?](https://i.stack.imgur.com/C7gft.gif)

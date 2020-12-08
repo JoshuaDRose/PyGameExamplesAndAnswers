@@ -37,8 +37,18 @@ while run:
         mouse_pos = pygame.mouse.get_pos()
         previous[mouse_pos] = 1000
 
-    #current = (numpy.convolve(previous, kernel) - current) * dampening
-    current = (scipy.ndimage.convolve(previous, kernel) - current) * dampening
+    # current = (numpy.convolve(previous, kernel) - current) * dampening
+
+    # either:
+    # current = (scipy.ndimage.convolve(previous, kernel) - current) * dampening
+    # or:
+    current[1:size[0]-1, 1:size[1]-1] = (
+        (previous[0:size[0]-2, 0:size[1]-2] + 
+         previous[2:size[0], 0:size[1]-2] + 
+         previous[0:size[0]-2, 2:size[1]] + 
+         previous[2:size[0], 2:size[1]]) / 2 - 
+        current[1:size[0]-1, 1:size[1]-1]) * dampening
+    
     array = numpy.transpose(255 - numpy.around(numpy.clip(current, 0, 255)))
     array = numpy.repeat(array.reshape(*size, 1).astype('uint8'), 3, axis = 2)
     image = pygame.image.frombuffer(array.flatten(), size, 'RGB')

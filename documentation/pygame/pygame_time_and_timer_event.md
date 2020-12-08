@@ -179,7 +179,7 @@ Related Stack Overflow questions:
 - [Spawning multiple instances of the same object concurrently in python](https://stackoverflow.com/questions/62112754/spawning-multiple-instances-of-the-same-object-concurrently-in-python/62112894#62112894)  
   ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/1X0kk.gif)
 
-If the time exceeds `next_zombie_time` the span a zombie and set the time for the next zombie to spawn:
+If the time exceeds `next_zombie_time` span a zombie and set the time for the next zombie to spawn:
 
 ```py
 current_time = pygame.time.get_ticks()

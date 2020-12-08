@@ -41,6 +41,14 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Barnsley's Fern](../../examples/minimal_examples/pygame_minimal_2D_water_ripple_effect_numpy.py)**
 
+## Lookup table
+
+Related Stack Overflow questions:
+
+- [use a color lookup table with pygame](https://stackoverflow.com/questions/63748651/use-a-color-lookup-table-with-pygame/64198152#64198152)
+
+  :scroll: **[Minimal example - Lookup table](../../examples/minimal_examples/pygame_minimal_2D_water_ripple_effect_numpy.py)**
+
 ## Triangulation
 
 Related Stack Overflow questions:
