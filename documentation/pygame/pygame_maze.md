@@ -22,3 +22,6 @@
 
 - [How do I randomly move objects in a maze using pygame?](https://stackoverflow.com/questions/65189546/how-do-i-randomly-move-objects-in-a-maze-using-pygame/65190004#65190004)  
   ![How do I randomly move objects in a maze using pygame?](https://i.stack.imgur.com/C7gft.gif)
+
+- [How I make my python code delete the pills from my pac man game?](https://stackoverflow.com/questions/65201227/how-i-make-my-python-code-delete-the-pills-from-my-pac-man-game/65204858#65204858)
+  ![How I make my python code delete the pills from my pac man game?](https://i.stack.imgur.com/aO99q.gif)
