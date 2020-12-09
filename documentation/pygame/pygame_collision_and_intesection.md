@@ -13,7 +13,7 @@ For the computation of a reflection vector see [Vector - Reflection](pygame_vect
 
 Related Stack Overflow questions:
 
-- [How do I detect collision in pygame?](https://stackoverflow.com/questions/29640685/how-do-i-detect-collision-in-pygame) 
+- [How do I detect collision in pygame?](https://stackoverflow.com/questions/29640685/how-do-i-detect-collision-in-pygame/65064907#65064907) 
 
 In PyGame, basic collision detection can be done using [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) objects. The `Rect` object offers various methods for detecting collisions between objects. Note that even the collision of a rectangular object with a circular object such as a paddle and a ball in _Pong_ game can be roughly detected by a collision between two rectangular objects, the paddle and the bounding rectangle of the ball.
 
