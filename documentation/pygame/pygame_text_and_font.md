@@ -307,3 +307,9 @@ ft_font.render_to(window, (x, y), 'test text', (255, 0, 0, 128))
 <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TransparentFreeTypeText](https://repl.it/@Rabbid76/PyGame-TransparentFreeTypeText#main.py)</kbd>
 
 ![Python - Pygame - rendering translucent text](https://i.stack.imgur.com/AqOrH.png)
+
+## Arabic/Persian text
+
+Related Stack Overflow questions:
+
+- [How to fix Arabic/Persian text and font in pygame?](https://stackoverflow.com/questions/65218972/how-to-fix-arabic-persian-text-and-font-in-pygame)
