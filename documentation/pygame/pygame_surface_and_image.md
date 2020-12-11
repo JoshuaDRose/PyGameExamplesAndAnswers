@@ -332,6 +332,18 @@ def load_svg(filename, scale=None, size=None, clip_from=None, fit_to=None, foram
 
 :scroll: **[Minimal example - Load Scalable Vector Graphics (SVG) to PyGame _Surface_](../../examples/minimal_examples/pygame_minimal_surface_load_svg_1.py)**
 
+### Load Sprite Sheet
+
+[Spritesheet](https://www.pygame.org/wiki/Spritesheet).
+
+Related Stack Overflow questions:
+
+- [Invalid destination position for blit error, not seeing how](https://stackoverflow.com/questions/55199591/invalid-destination-position-for-blit-error-not-seeing-how/55199736#55199736)
+- [Pygame window crashing and sprite sheet issue](https://stackoverflow.com/questions/55200501/pygame-window-crashing-and-sprite-sheet-issue/55200625#55200625)
+
+:scroll: **[Minimal example - Load Sprite Sheet](../../examples/minimal_examples/pygame_minimal_surface_load_sprite_sheet.py)**
+# https://stackoverflow.com/questions/55200501/pygame-window-crashing-and-sprite-sheet-issue
+
 ### Load animated GIF
 
 - [Animated sprite from few images](https://stackoverflow.com/questions/14044147/animated-sprite-from-few-images/64668964#64668964)  
@@ -407,8 +419,6 @@ def loadGIF(filename):
 :scroll: **[Minimal example - Load animated GIF PyGame _Surface_ list using PLI](../../examples/minimal_examples/pygame_minimal_surface_load_frames_gif_pil.py)**
 
 ![How can I load an animated GIF and get all of the individual frames in PyGame?](https://i.stack.imgur.com/geYjP.gif)
-
-Use the list of `pygame.Surface` objects to generate a [Spritesheet](https://www.pygame.org/wiki/Spritesheet).
 
 ### Load frames from NumPy array
 

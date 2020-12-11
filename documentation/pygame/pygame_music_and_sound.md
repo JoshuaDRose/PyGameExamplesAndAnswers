@@ -141,6 +141,9 @@ Related Stack Overflow questions:
   :scroll: **[Minimal example - Play random mp3 from directory](../../examples/minimal_examples/pygame_minimal_mixer_music_random.py)**
 
 - [using PyGame to load mp3](https://stackoverflow.com/questions/58569476/using-pygame-to-load-mp3/58569531#58569531)
+
+  :scroll: **[Minimal example - Music fade](../../examples/minimal_examples/pygame_minimal_mixer_music_fade.py)**
+
 - [Pygame background music not playing](https://stackoverflow.com/questions/56572662/pygame-background-music-not-playing/56573636#56573636)
 - [Why pygame.event.wait stops music play after 20 seconds or so](https://stackoverflow.com/questions/61389698/why-pygame-event-wait-stops-music-play-after-20-seconds-or-so/61390284#61390284)
 - [Loop over a list containing path to sound files](https://stackoverflow.com/questions/63488105/loop-over-a-list-containing-path-to-sound-files/63488275#63488275)
