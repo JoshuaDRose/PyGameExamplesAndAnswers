@@ -182,3 +182,7 @@ pygame.time.wait(12500)
 pygame.mixer.music.fadeout(10000)
 pygame.time.wait(10000)
 ```
+
+## Volume
+
+- [How do I change the volume of the sound or music in PyGame?](https://stackoverflow.com/questions/65247656/how-do-i-change-the-volume-of-the-sound-or-music-in-pygame/65248188#65248188)
