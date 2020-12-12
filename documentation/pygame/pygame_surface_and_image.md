@@ -60,6 +60,8 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://repl.it/@Rabbid76/PyGame-LoadTransparentImage#main.py)</kbd>
 
+- [How do you blit/draw a sprite in Pygame with lower opacity?](https://stackoverflow.com/questions/65259552/how-do-you-blit-draw-a-sprite-in-pygame-with-lower-opacity)
+
 ### Make a uniform colored background transparent
 
 Related Stack Overflow questions:

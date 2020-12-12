@@ -178,6 +178,7 @@ Related Stack Overflow questions:
   ![How to make instances spawn automatically around the player?](https://i.stack.imgur.com/RIskl.gif)
 - [Spawning multiple instances of the same object concurrently in python](https://stackoverflow.com/questions/62112754/spawning-multiple-instances-of-the-same-object-concurrently-in-python/62112894#62112894)  
   ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/1X0kk.gif)
+- [How to run multiple while loops at a time in Python](https://stackoverflow.com/questions/65263318/how-to-run-multiple-while-loops-at-a-time-in-python)  
 
 If the time exceeds `next_zombie_time` span a zombie and set the time for the next zombie to spawn:
 
@@ -301,7 +302,7 @@ Related Stack Overflow questions:
 - [Countdown timer in Pygame](https://stackoverflow.com/questions/30720665/countdown-timer-in-pygame/63551239#63551239)  
   ![Countdown timer in Pygame](https://i.stack.imgur.com/10Gj0.gif)
 - [How do I use a PyGame timer event? How to add a clock to a pygame screen using a timer?](https://stackoverflow.com/questions/59944795/python-3-8-pygame-timer/59944869#59944869)  
-  ![Python 3.8 pygame timer?](https://i.stack.imgur.com/axkzq.gif)
+  ![How do I use a PyGame timer event? How to add a clock to a pygame screen using a timer?](https://i.stack.imgur.com/axkzq.gif)
 - [How to display dynamically in Pygame?](https://stackoverflow.com/questions/56453574/how-to-display-dynamically-in-pygame/56454295#56454295)  
   ![How to display dynamically in Pygame?](https://i.stack.imgur.com/C3RZ8.gif)
 

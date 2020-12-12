@@ -11,6 +11,8 @@ Related Stack Overflow questions:
 
 - [Pygame Drawing a Rectangle](https://stackoverflow.com/questions/19780411/pygame-drawing-a-rectangle)
 - [Draw a transparent rectangle in pygame](https://stackoverflow.com/questions/6339057/draw-a-transparent-rectangle-in-pygame/64630102#64630102)  
+- [How to make transparent pygame.draw.circle](https://stackoverflow.com/questions/59293057/how-to-make-transparent-pygame-draw-circle/59294087#59294087)  
+  ![How to make transparent pygame.draw.circle](https://i.stack.imgur.com/nOoJj.png)
 
 With the module [pygame.draw](https://www.pygame.org/docs/ref/draw.html) shapes like rectangles, circles, polygons or liens can be drawn.
 
