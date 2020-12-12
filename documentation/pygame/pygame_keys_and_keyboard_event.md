@@ -19,6 +19,12 @@ Related Stack Overflow questions:
 
 [`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed) returns a list with the state of each key. If a key is held down, the state for the key is `True`, otherwise `False`. Use [`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed) to evaluate the current state of a button and get continuous movement
 
+## Key repeat
+
+Related Stack Overflow questions:
+
+- [Detect single key press using key.get_pressed()](https://stackoverflow.com/questions/65266365/detect-single-key-press-using-key-get-pressed/65267063#65267063)
+
 ## Keyboard event
 
 **What is `pygame.KEYDOWN`, `pygame.KEYUP`?**
