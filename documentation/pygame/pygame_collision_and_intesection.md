@@ -199,6 +199,7 @@ Related Stack Overflow questions:
   ![How to make ball bounce off wall with Pygame?](https://i.stack.imgur.com/DKzqg.gif)
 - [Window border in pygame](https://stackoverflow.com/questions/64205777/window-border-in-pygame/64206877#64206877)
 - [I made a border in this pong game, but the paddles can cross it. How do I stop that?](https://stackoverflow.com/questions/63607681/i-made-a-border-in-this-pong-game-but-the-paddles-can-cross-it-how-do-i-stop-t/63609229#63609229)  
+- [How do you get pygame to give warning when player touches side of screen?](https://stackoverflow.com/questions/65279570/how-do-you-get-pygame-to-give-warning-when-player-touches-side-of-screen/65279636#65279636)  
 
 :scroll: **[Minimal example - Restrict object to frame](../../examples/minimal_examples/pygame_minimal_intersect_frame_clamp.py)**
 

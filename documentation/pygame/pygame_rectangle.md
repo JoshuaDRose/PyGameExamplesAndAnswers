@@ -88,3 +88,9 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How to dynamically generate shapes in Pygame?](https://stackoverflow.com/questions/61956243/how-to-dynamically-generate-shapes-in-pygame/61956356#61956356)
+
+## Touching rectangles
+
+Related Stack Overflow questions:
+
+- [I do not know how to end game when specific block is touched in pygame](https://stackoverflow.com/questions/61412616/i-do-not-know-how-to-end-game-when-specific-block-is-touched-in-pygame/61412877#61412877)
