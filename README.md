@@ -130,6 +130,8 @@ The site is still under construction :construction:.
 
 [Maze](documentation/pygame/pygame_maze.md)
 
+[Paint](documentation/pygame/pygame_paint.md)
+
 [Draw 2D](documentation/pygame/pygame_2D.md)
 
 [Draw 3D](documentation/pygame/pygame_3D.md)
