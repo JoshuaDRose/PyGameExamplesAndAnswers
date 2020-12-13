@@ -132,7 +132,7 @@ Related Stack Overflow questions:
 [how can I edit a sudoku grid in pygame using mouse and keyboard detection?](https://stackoverflow.com/questions/62345206/how-can-i-edit-a-sudoku-grid-in-pygame-using-mouse-and-keyboard-detection/62345586#62345586)
 
 [Colour chainging problem and non dupicates](https://stackoverflow.com/questions/63538350/colour-chainging-problem-and-non-dupicates/63538548#63538548)  
-![scene](https://stackoverflow.com/questions/63538350/colour-chainging-problem-and-non-dupicates/63538548#63538548)
+![scene](https://i.stack.imgur.com/81Tvv.gif)
 
 [Get a sprites position so that the next sprite can be placed near it](https://stackoverflow.com/questions/63871620/get-a-sprites-position-so-that-the-next-sprite-can-be-placed-near-it/63873027#63873027)
 
@@ -150,9 +150,6 @@ Related Stack Overflow questions:
 [Pygame Basic calculator](https://stackoverflow.com/questions/63200489/pygame-basic-calculator)  
 ![scene](https://i.stack.imgur.com/tbIt8.gif)
 
-[How to make a “while mouse down” loop in pygame](https://stackoverflow.com/questions/54666587/how-to-make-a-while-mouse-down-loop-in-pygame/54667247#54667247)  
-![scene](https://i.stack.imgur.com/G4RML.gif)
-
 [How to draw with mouse and save as 1s and 0s](https://stackoverflow.com/questions/58847079/how-to-draw-with-mouse-and-save-as-1s-and-0s/58850614#58850614)  
 ![scene](https://i.stack.imgur.com/hMHD8.gif)
 
@@ -165,9 +162,6 @@ Related Stack Overflow questions:
 ![scene](https://i.stack.imgur.com/hseTx.gif)
 
 [Trying to delete two objects when placed next to eachother in pygame](https://stackoverflow.com/questions/56101697/trying-to-delete-two-objects-when-placed-next-to-eachother-in-pygame/56102178#56102178)
-
-[Gaps in a line while trying to draw them with a mouse problem](https://stackoverflow.com/questions/56379888/gaps-in-a-line-while-trying-to-draw-them-with-a-mouse-problem/56380523#56380523)
-![scene](https://i.stack.imgur.com/sCdN0.gif)
 
 [Need help creating buttons in pygame](https://stackoverflow.com/questions/57672389/need-help-creating-buttons-in-pygame/57678017#57678017)  
 ![scene](https://i.stack.imgur.com/BfXkE.gif)
@@ -204,23 +198,14 @@ Related Stack Overflow questions:
 [Using a matrix as a sprite and testing if two sprites overlap](https://stackoverflow.com/questions/60387917/using-a-matrix-as-a-sprite-and-testing-if-two-sprites-overlap/60391694#60391694)  
 ![scene](https://i.stack.imgur.com/brlQk.gif)
 
-[Saving history of drawing in Pygame in order to implement Ctrl Z](https://stackoverflow.com/questions/61295811/saving-history-of-drawing-in-pygame-in-order-to-implement-ctrl-z/61296440#61296440)  
-![scene](https://i.stack.imgur.com/snmsK.gif)
-
-[Removing drawings without overriding previous ones on pygame -Python](https://stackoverflow.com/questions/61309564/removing-drawings-without-overriding-previous-ones-on-pygame-python/61310016#61310016)  
-![scene](https://i.stack.imgur.com/xChjD.gif)
-
 [Is it possible to update a pygame drawing attribute when a event occurs?](https://stackoverflow.com/questions/61551790/is-it-possible-to-update-a-pygame-drawing-attribute-when-a-event-occurs/61555479#61555479)
-![scene](https://stackoverflow.com/questions/61551790/is-it-possible-to-update-a-pygame-drawing-attribute-when-a-event-occurs/61555479#61555479)
+![scene](https://i.stack.imgur.com/rchSC.gif)
 
 [How can I blit an image on the screen where i click after pressing a button](https://stackoverflow.com/questions/61556099/how-can-i-blit-an-image-on-the-screen-where-i-click-after-pressing-a-button/61556461#61556461)
 
 [How to find the button on the entered position by user and change it's color in pygame?](https://stackoverflow.com/questions/61767256/how-to-find-the-button-on-the-entered-position-by-user-and-change-its-color-in/61767309#61767309)  
 ![scene](https://i.stack.imgur.com/sqIcy.gif)
 ![scene](https://i.stack.imgur.com/KMpLP.gif)
-
-[I want to make insertig sorting visualizer,the sorting works but not the visualizer](https://stackoverflow.com/questions/62327655/i-want-to-make-insertig-sorting-visualizer-the-sorting-works-but-not-the-visuali/62328400#62328400)  
-![scene](https://i.stack.imgur.com/DFAkW.gif)
 
 [Why it doesn't spin in a circle? And how to fix it?](https://stackoverflow.com/questions/62883103/why-it-doesnt-spin-in-a-circle-and-how-to-fix-it/62883770#62883770)  
 ![scene](https://i.stack.imgur.com/UD6Wt.gif)
@@ -239,8 +224,6 @@ Related Stack Overflow questions:
 [Pygame Tic Tak Toe Logic? How Would I Do It](https://stackoverflow.com/questions/64825967/pygame-tic-tak-toe-logic-how-would-i-do-it/64934964#64934964)  
 ![Pygame Tic Tak Toe Logic? How Would I Do It](https://i.stack.imgur.com/p7mfM.gif)
 
-[How do I add a rubber band for mouse dragging in PyGame?](https://stackoverflow.com/questions/64880962/how-do-i-add-a-rubber-band-for-mouse-dragging-in-pygame/64881500#64881500)
+[How do I add a rubber band for mouse dragging in PyGame?](https://stackoverflow.com/questions/64880962/how-do-i-add-a-rubber-band-for-mouse-dragging-in-pygame/64881500#64881500)  
 ![How do I add a rubber band for mouse dragging in PyGame?](https://i.stack.imgur.com/f3aOb.gif)
 
-[How can I make this demo drawing game update drawing the circles faster with Pygame?](https://stackoverflow.com/questions/60284620/how-can-i-make-this-demo-drawing-game-update-drawing-the-circles-faster-with-pyg/60285364#60285364)  
-![scene](https://i.stack.imgur.com/mojlK.gif)

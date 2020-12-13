@@ -63,11 +63,12 @@ Related Stack Overflow questions:
 
 ![Displaying unicode symbols using pygame](https://i.stack.imgur.com/tZ2EM.png)
 
-## Align text
+## Align text and text size
 
 Related Stack Overflow questions:
 
 - [python library pygame: centering text](https://stackoverflow.com/questions/23982907/python-library-pygame-centering-text)  
+- [How to get text width in pygame?](https://stackoverflow.com/questions/65273980/how-to-get-text-width-in-pygame/65274103#65274103)  
 
 [`pygame.Surface.get_rect.get_rect()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.get_rect) returns a rectangle with the size of the _Surface_ object, that always starts at (0, 0) since a _Surface_ object has no position. The position of the rectangle can be specified by a keyword argument. For example, the center of the rectangle can be specified with the keyword argument `center`. These keyword argument are applied to the attributes of the [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) before it is returned (see [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) for a full list of the keyword arguments).
 

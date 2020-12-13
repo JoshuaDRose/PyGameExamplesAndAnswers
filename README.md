@@ -46,6 +46,7 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/55076531/how-to-get-the-x-and-y-positions-of-all-curves-in-a-lissajous-curve-table/55076619#55076619"><img src="https://i.stack.imgur.com/MPH0Y.png" height="100" title="Lissajous curve"></a><!--
 --><a href="https://stackoverflow.com/questions/56379888/gaps-in-a-line-while-trying-to-draw-them-with-a-mouse-problem/56380523#56380523"><img src="screenshot/pygame_minimal_math_curve_sine.gif" height="100" title="Sine"></a><!--
 --><a href="https://stackoverflow.com/questions/65173270/spin-coin-image-in-python-pygame-clicker-game/65173486#65173486"><img src="https://i.stack.imgur.com/4nsFE.gif" height="100" title="Spin"></a><!--
+--><a href="https://stackoverflow.com/questions/54666587/how-to-make-a-while-mouse-down-loop-in-pygame/54667247#54667247"><img src="https://i.stack.imgur.com/G4RML.gif" height="100" title="Spray"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  

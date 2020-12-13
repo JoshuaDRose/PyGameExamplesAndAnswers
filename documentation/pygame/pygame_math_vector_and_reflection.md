@@ -200,3 +200,6 @@ Related Stack Overflow questions:
   ![scene](https://i.stack.imgur.com/h48Os.gif)
 
   :scroll: **[Minimal example - Sort](../../examples/minimal_examples/pygame_minimal_2D_so_lissajous.py)**
+
+- [I want to make insertig sorting visualizer,the sorting works but not the visualizer](https://stackoverflow.com/questions/62327655/i-want-to-make-insertig-sorting-visualizer-the-sorting-works-but-not-the-visuali/62328400#62328400)  
+![I want to make insertig sorting visualizer,the sorting works but not the visualizer](https://i.stack.imgur.com/DFAkW.gif)

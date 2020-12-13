@@ -330,6 +330,7 @@ Related Stack Overflow questions:
 - [Framerate affect the speed of the game](https://stackoverflow.com/questions/61352366/framerate-affect-the-speed-of-the-game/61352472#61352472)
 - [Pygame wait for screen to update](https://stackoverflow.com/questions/60029598/pygame-wait-for-screen-to-update/60030315#60030315)
 - [I am having lag problems with this simple game I made in Pygame, Python 3. How can I fix this?](https://stackoverflow.com/questions/58263322/i-am-having-lag-problems-with-this-simple-game-i-made-in-pygame-python-3-how-c/58263682#58263682)
+- [Pygame running differently from different python interpreters](https://stackoverflow.com/questions/65274217/pygame-running-differently-from-different-python-interpreters/65274248#65274248)  
 
 Use [`pygame.time.Clock`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock.tick) to control the frames per second and thus the game speed.  
 
