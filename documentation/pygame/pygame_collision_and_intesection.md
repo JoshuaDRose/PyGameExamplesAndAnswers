@@ -543,6 +543,9 @@ Related Stack Overflow questions:
 
 - [Collision detection / physics for simple game](https://stackoverflow.com/questions/59656983/collision-detection-physics-for-simple-game/59658289#59658289)  
   ![Collision detection / physics for simple game](https://i.stack.imgur.com/bqVOa.gif)
+
+  :scroll: **[Minimal example - Slide and bounce](../../examples/minimal_examples/pygame_minimal_move_slide_and_bounce.py)**
+
 - [Pygame: How to make two objects stop moving once they collide](https://stackoverflow.com/questions/62054942/pygame-how-to-make-two-objects-stop-moving-once-they-collide/62068800#62068800)
 
 ## Circle and ellipse

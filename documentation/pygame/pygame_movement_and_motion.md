@@ -56,8 +56,12 @@ Related Stack Overflow questions:
 - [How to fix character constantly accelerating in both directions after deceleration Pygame?](https://stackoverflow.com/questions/59832445/how-to-fix-character-constantly-accelerating-in-both-directions-after-decelerati/59846286#59846286)  
   ![How to fix character constantly accelerating in both directions after deceleration Pygame?](https://i.stack.imgur.com/8I8HV.gif)
 
+  :scroll: **[Minimal example - Slide and bounce](../../examples/minimal_examples/pygame_minimal_move_slide_1.py)**
+
 - [Collision detection / physics for simple game](https://stackoverflow.com/questions/59656983/collision-detection-physics-for-simple-game/59658289#59658289)  
   ![Collision detection / physics for simple game](https://i.stack.imgur.com/bqVOa.gif)
+
+  :scroll: **[Minimal example - Slide and bounce](../../examples/minimal_examples/pygame_minimal_move_slide_and_bounce.py)**
 
 ## Gravity and jump
 
