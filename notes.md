@@ -95,7 +95,8 @@ next:
 [Pygame - Return collision location](https://stackoverflow.com/questions/64760792/pygame-return-collision-location)  
 [Multi-Colored text in pygame](https://stackoverflow.com/questions/64825207/multi-colored-text-in-pygame)  
 [I'm embedding a pygame window into Tkinter, how do I manipulate the pygame window?](https://stackoverflow.com/questions/55755305/im-embedding-a-pygame-window-into-tkinter-how-do-i-manipulate-the-pygame-windo)  
-[Python3 - how to change volume of a sound in pygame mixer](https://stackoverflow.com/questions/65176752/python3-how-to-change-volume-of-a-sound-in-pygame-mixer)
+[Python3 - how to change volume of a sound in pygame mixer](https://stackoverflow.com/questions/65176752/python3-how-to-change-volume-of-a-sound-in-pygame-mixer)  
+[Do something every x (milli)seconds in pygame](https://stackoverflow.com/questions/18948981/do-something-every-x-milliseconds-in-pygame)  
 
 interesting
 
