@@ -104,6 +104,7 @@ interesting
 [Intersection between bezier curve and a line segment](https://stackoverflow.com/questions/1813719/intersection-between-bezier-curve-and-a-line-segment)  
 [python ball physics simulation](https://stackoverflow.com/questions/14137475/python-ball-physics-simulation)  
 [Python Line-Circle collision](https://stackoverflow.com/questions/14276051/python-line-circle-collision)  
+[How to know if two ellipses are colliding - Pygame](https://stackoverflow.com/questions/65323156/how-to-know-if-two-ellipses-are-colliding-pygame)  
 
 #### Questions about music and sound
 
