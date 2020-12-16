@@ -97,10 +97,13 @@ next:
 [I'm embedding a pygame window into Tkinter, how do I manipulate the pygame window?](https://stackoverflow.com/questions/55755305/im-embedding-a-pygame-window-into-tkinter-how-do-i-manipulate-the-pygame-windo)  
 [Python3 - how to change volume of a sound in pygame mixer](https://stackoverflow.com/questions/65176752/python3-how-to-change-volume-of-a-sound-in-pygame-mixer)  
 [Do something every x (milli)seconds in pygame](https://stackoverflow.com/questions/18948981/do-something-every-x-milliseconds-in-pygame)  
+[Pygame: How to deform a surface perspectively without OpenGL](https://stackoverflow.com/questions/13671424/pygame-how-to-deform-a-surface-perspectively-without-opengl)  
 
 interesting
 
 [Intersection between bezier curve and a line segment](https://stackoverflow.com/questions/1813719/intersection-between-bezier-curve-and-a-line-segment)  
+[python ball physics simulation](https://stackoverflow.com/questions/14137475/python-ball-physics-simulation)  
+[Python Line-Circle collision](https://stackoverflow.com/questions/14276051/python-line-circle-collision)  
 
 #### Questions about music and sound
 

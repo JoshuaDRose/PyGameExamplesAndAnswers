@@ -183,9 +183,6 @@ Related Stack Overflow questions:
 [Pygame problem: how to execute conditional on collision?](https://stackoverflow.com/questions/59522285/pygame-problem-how-to-execute-conditional-on-collision/59522405#59522405)  
 ![scene](https://i.stack.imgur.com/iTIE0.gif)
 
-[python pygame mask collision](https://stackoverflow.com/questions/59595874/python-pygame-mask-collision/59598297#59598297)  
-![scene](https://i.stack.imgur.com/vSuGD.gif)
-
 [How do i correctly update the position and velocity of 100 class objects individually drawing with pygame?](https://stackoverflow.com/questions/59868994/how-do-i-correctly-update-the-position-and-velocity-of-100-class-objects-individ/59869091#59869091)  
 ![scene](https://i.stack.imgur.com/dgCq1.gif)
 

@@ -5,7 +5,7 @@
 # https://www.pygame.org/docs/ref/sprite.html
 #
 # Pygame mask collision
-# https://stackoverflow.com/questions/60077813/pygame-mask-collision
+# https://stackoverflow.com/questions/60077813/pygame-mask-collision/60078039#60078039
 #
 # GitHub - Sprite, Group and Sprite mask - Sprite mask
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_sprite_and_sprite_mask.md

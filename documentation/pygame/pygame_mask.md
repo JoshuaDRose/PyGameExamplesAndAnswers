@@ -20,7 +20,7 @@ Related Stack Overflow questions:
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SurfaceMaskIntersect](https://repl.it/@Rabbid76/PyGame-SurfaceMaskIntersect#main.py)</kbd>
 
 - [Check collision between a image and a line](https://stackoverflow.com/questions/58662215/check-collision-between-a-image-and-a-line-pygame/58662648#58662648)  
-  ![Check collision between a image and a line](../../screenshot/pygame_minimal_mask_intersect_surface_line_1.gif)
+  ![Check collision between a image and a line](https://i.stack.imgur.com/tMq2i.gif)
 
   :scroll: **[Minimal example - Find intersection of surfaces and line](../../examples/minimal_examples/pygame_minimal_mask_intersect_surface_line_1.py)**
 
@@ -36,6 +36,9 @@ Related Stack Overflow questions:
 - [How can I rotate my hit box with my rotating and moving car in PyGame?](https://stackoverflow.com/questions/62974678/how-can-i-rotate-my-hitbox-with-my-rotating-and-moving-car-in-pygame/62976825#62976825)
 
 - [How can I rotate my hitbox with my rotating and moving car in pygame?](https://stackoverflow.com/questions/62974678/how-can-i-rotate-my-hitbox-with-my-rotating-and-moving-car-in-pygame/62976825#62976825)
+
+- [python pygame mask collision](https://stackoverflow.com/questions/59595874/python-pygame-mask-collision/59598297#59598297)  
+  ![python pygame mask collision](https://i.stack.imgur.com/vSuGD.gif)
 
 ## Sprite mask
 
