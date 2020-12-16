@@ -95,7 +95,8 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteMask](https://repl.it/@Rabbid76/PyGame-SpriteMask#main.py)</kbd>
 
-- **[Make a line as a sprite with its own collision in Pygame](https://stackoverflow.com/questions/34456195/make-a-line-as-a-sprite-with-its-own-collision-in-pygame/65324946#65324946)**
+- **[Make a line as a sprite with its own collision in Pygame](https://stackoverflow.com/questions/34456195/make-a-line-as-a-sprite-with-its-own-collision-in-pygame/65324946#65324946)**  
+  ![Make a line as a sprite with its own collision in Pygame](https://i.stack.imgur.com/tMq2i.gif)
 
   :scroll: **[Minimal example - Find the intersection of sprites a nd line](../../examples/minimal_examples/pygame_minimal_sprite_mask_intersect_surface_line.py)**
 
