@@ -12,6 +12,7 @@
 # [Detect if two ellipses intersect](https://math.stackexchange.com/questions/1114879/detect-if-two-ellipses-intersect)
 # [Ellipse–circle and ellipse–ellipse collision detection](http://yehar.com/blog/?p=2926)
 # [How to detect if an ellipse intersects(collides with) a circle](https://stackoverflow.com/questions/2945337/how-to-detect-if-an-ellipse-intersectscollides-with-a-circle)
+# [The closest point from ellipse](https://math.stackexchange.com/questions/315283/the-closest-point-from-ellipse)
 
 import math
 import pygame
