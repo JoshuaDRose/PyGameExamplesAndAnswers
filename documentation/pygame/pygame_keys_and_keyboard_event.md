@@ -36,7 +36,10 @@ Related Stack Overflow questions:
 - [Getting Pygame keyboard input and check if it's a number](https://stackoverflow.com/questions/64124050/getting-pygame-keyboard-input-and-check-if-its-a-number/64124342#64124342)
 - [Problem when using keyboard commands in pygame](https://stackoverflow.com/questions/58299480/problem-when-using-keyboard-commands-in-pygame/58307655#58307655)
 - [How to get a variable keyboard input in pygame?](https://stackoverflow.com/questions/63449626/how-to-get-a-variable-keyboard-input-in-pygame/63449886#63449886)
-- [Pygame keys convention](https://stackoverflow.com/questions/64651122/pygame-keys-convention/64651187#64651187)
+- [Pygame keys convention](https://stackoverflow.com/questions/64651122/pygame-keys-convention/64651187#64651187)  
+- [python why wont this accept upper case or symbols](https://stackoverflow.com/questions/16422264/python-why-wont-this-accept-upper-case-or-symbols/65335937#65335937)
+
+The keyboard events `KEYDOWN` and `KEYUP` (see [pygame.event](https://www.pygame.org/docs/ref/event.html) module) create a [`pygame.event.Event`](https://www.pygame.org/docs/ref/event.html#pygame.event.Event) object with additional attributes. The key that was pressed can be obtained from the `key` attribute (e.g. `K_RETURN `, `K_a`) and the `mod` attribute contains a bitset with additional modifiers (e.g. `KMOD_LSHIFT`). The "Unicode" attribute provides the Unicode representation of the keyboard input.
 
 The keyboard events (see [pygame.event](https://www.pygame.org/docs/ref/event.html) module) occur only once when the state of a key changes. The `KEYDOWN` event occurs once every time a key is pressed. `KEYUP` occurs once every time a key is released. Use the keyboard events for a single action or a step-by-step movement.
 

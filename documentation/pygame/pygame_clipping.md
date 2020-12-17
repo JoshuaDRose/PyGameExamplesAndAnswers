@@ -9,6 +9,8 @@ Richard P. Feynman
 
 ## Set clipping region
 
+Related to [`set_clip()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.set_clip)
+
 Related Stack Overflow questions:
 
 - [Is there a way to restrict the title crawl to certain portion of screen?](https://stackoverflow.com/questions/60508313/is-there-a-way-to-restrict-the-title-crawl-to-certain-portion-of-screen)

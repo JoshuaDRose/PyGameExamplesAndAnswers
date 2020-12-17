@@ -18,6 +18,7 @@ Related Stack Overflow questions:
 - [Pygame window freezes when it opens](https://stackoverflow.com/questions/57642415/pygame-window-freezes-when-it-opens/57644255#57644255)
 - [Why is my pygame application loop not working properly?](https://stackoverflow.com/questions/60387348/how-to-make-a-camera-for-a-2d-topdown-game-in-pygame/60390374#60390374)
 - [Is it possible for a sprite to react to a specific color](https://stackoverflow.com/questions/61703850/is-it-possible-for-a-sprite-to-react-to-a-specific-color/61704072#61704072)
+- [How to run multiple while loops at a time in Python](https://stackoverflow.com/questions/65263318/how-to-run-multiple-while-loops-at-a-time-in-python/65263396#65263396)
 
 The typical PyGame application loop has to:
 
@@ -30,6 +31,13 @@ The typical PyGame application loop has to:
 :scroll: **[Minimal example - Game loop](../../examples/minimal_examples/pygame_minimal_application_loop.py)**
 
 <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MinimalApplicationLoop](https://repl.it/@Rabbid76/PyGame-MinimalApplicationLoop#main.py)</kbd>
+
+### Quit
+
+Related Stack Overflow questions:
+
+- [I keep getting this error “pygame.error: display Surface quit” and dont know what to do](https://stackoverflow.com/questions/62887724/i-keep-getting-this-error-pygame-error-display-surface-quit-and-dont-know-wha/62888228#62888228)  
+- [why is the exit window button work but the exit button in the game does not work?](https://stackoverflow.com/questions/55348418/why-is-the-exit-window-button-work-but-the-exit-button-in-the-game-does-not-work/55350638#55350638)  
 
 ### Wait and input in application loop
 
