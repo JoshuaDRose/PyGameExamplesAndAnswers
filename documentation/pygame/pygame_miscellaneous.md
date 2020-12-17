@@ -139,6 +139,9 @@ Related Stack Overflow questions:
 [Python: How to make drawn elements snap to grid in pygame](https://stackoverflow.com/questions/63926261/python-how-to-make-drawn-elements-snap-to-grid-in-pygame/63926759#63926759)  
 ![scene](https://i.stack.imgur.com/VCmuV.gif)
 
+[Pygame: tweening error in movement in tile based game](https://stackoverflow.com/questions/63478615/pygame-tweening-error-in-movement-in-tile-based-game/65338538#65338538)  
+![Pygame: tweening error in movement in tile based game](https://i.stack.imgur.com/Gapfj.gif)
+
 ## Where is 27 coming from?
 
 [I am wondering why it says the distance has to be less than 27? Why less than 27? Where is 27 coming from?](https://stackoverflow.com/questions/62523256/i-am-wondering-why-it-says-the-distance-has-to-be-less-than-27-why-less-than-27/62527566#62527566)
