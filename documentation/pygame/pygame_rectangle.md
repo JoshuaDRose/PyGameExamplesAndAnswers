@@ -38,7 +38,15 @@ Related Stack Overflow questions:
 - [Problem with Pygame movement acceleration, platformer game](https://stackoverflow.com/questions/59501126/problem-with-pygame-movement-acceleration-platformer-game/59501533#59501533)
 - [How to draw a moving circle in Pygame with a small angle at a low speed and blinking?](https://stackoverflow.com/questions/61528967/how-to-draw-a-moving-circle-in-pygame-with-a-small-angle-at-a-low-speed-and-blin/61529427#61529427)
 
+- [Ship moves up and left faster than down and right when rotating in pygame](https://stackoverflow.com/questions/62411259/ship-moves-up-and-left-faster-than-down-and-right-when-rotating-in-pygame/65347117#65347117)  
+  ![Ship moves up and left faster than down and right when rotating in pygame](https://i.stack.imgur.com/6IPS1.gif)
+
 Since [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) is supposed to represent an area on the screen, a `pygame.Rect` object can only store integral data.  
+
+> The coordinates for Rect objects are all integers. [...]
+
+The fraction part of the coordinates gets lost when the new position of the object is assigned to the _Rect_ object. If this is done every frame, the position error will accumulate over time.
+
 If you want to store object positions with floating point accuracy, you have to store the location of the object in separate variables respectively attributes and to synchronize the `pygame.Rect` object. [`round`](https://docs.python.org/3/library/functions.html#round) the coordinates and assign it to the location (e.g. `.topleft`) of the rectangle:
 
 ```py

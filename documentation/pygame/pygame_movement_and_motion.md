@@ -40,6 +40,12 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CarMovement](https://repl.it/@Rabbid76/PyGame-CarMovementReflect#main.py)</kbd>
 
+- [Ship moves up and left faster than down and right when rotating in pygame](https://stackoverflow.com/questions/62411259/ship-moves-up-and-left-faster-than-down-and-right-when-rotating-in-pygame/65347117#65347117)  
+  ![Ship moves up and left faster than down and right when rotating in pygame](https://i.stack.imgur.com/6IPS1.gif)
+
+- [Rotation of a sprite on a circle](https://stackoverflow.com/questions/26517579/rotation-of-a-sprite-on-a-circle/65332120#65332120)  
+  ![Rotation of a sprite on a circle](https://i.stack.imgur.com/mqlhm.gif)
+
 ## Throw
 
 Related Stack Overflow questions:

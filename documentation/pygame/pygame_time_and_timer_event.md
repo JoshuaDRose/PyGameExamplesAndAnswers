@@ -374,6 +374,16 @@ while run:
     # [...]
 ```
 
+### Frames per second
+
+Related Stack Overflow questions:
+
+- [Why do I get a constant 0 fps in pygame](https://stackoverflow.com/questions/65346173/why-do-i-get-a-constant-0-fps-in-pygame/65346222#65346222)
+
+See [`get_fps()`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock.get_fps):
+
+> Compute your game's framerate (in frames per second). It is computed by averaging the last ten calls to `Clock.tick()`.
+
 # Delay
 
 Related Stack Overflow questions:
