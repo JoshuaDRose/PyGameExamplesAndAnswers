@@ -32,6 +32,13 @@ The typical PyGame application loop has to:
 
 <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MinimalApplicationLoop](https://repl.it/@Rabbid76/PyGame-MinimalApplicationLoop#main.py)</kbd>
 
+### Quit
+
+Related Stack Overflow questions:
+
+- [I keep getting this error “pygame.error: display Surface quit” and dont know what to do](https://stackoverflow.com/questions/62887724/i-keep-getting-this-error-pygame-error-display-surface-quit-and-dont-know-wha/62888228#62888228)  
+- [why is the exit window button work but the exit button in the game does not work?](https://stackoverflow.com/questions/55348418/why-is-the-exit-window-button-work-but-the-exit-button-in-the-game-does-not-work/55350638#55350638)  
+
 ### Wait and input in application loop
 
 Related Stack Overflow questions:
