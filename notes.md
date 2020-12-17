@@ -9,6 +9,7 @@
 - [Investigate answered questions](#investigate-answered-questions)
     - [Answers](#answers)
         - [Add Answers](#add-answers)
+            - [Recursiveness](#recursiveness)
             - [Questions about music and sound](#questions-about-music-and-sound)
         - [Questions about video](#questions-about-video)
             - [Questions about size, and resizing](#questions-about-size-and-resizing)
@@ -105,6 +106,10 @@ interesting
 [python ball physics simulation](https://stackoverflow.com/questions/14137475/python-ball-physics-simulation)  
 [Python Line-Circle collision](https://stackoverflow.com/questions/14276051/python-line-circle-collision)  
 [How to know if two ellipses are colliding - Pygame](https://stackoverflow.com/questions/65323156/how-to-know-if-two-ellipses-are-colliding-pygame)  
+
+#### Recursiveness 
+
+[clearing the screen with a key press in pygame](https://stackoverflow.com/questions/43194741/clearing-the-screen-with-a-key-press-in-pygame)
 
 #### Questions about music and sound
 
