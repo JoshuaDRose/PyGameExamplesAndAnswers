@@ -99,6 +99,7 @@ next:
 [Python3 - how to change volume of a sound in pygame mixer](https://stackoverflow.com/questions/65176752/python3-how-to-change-volume-of-a-sound-in-pygame-mixer)  
 [Do something every x (milli)seconds in pygame](https://stackoverflow.com/questions/18948981/do-something-every-x-milliseconds-in-pygame)  
 [Pygame: How to deform a surface perspectively without OpenGL](https://stackoverflow.com/questions/13671424/pygame-how-to-deform-a-surface-perspectively-without-opengl)  
+[Speed up AI obstacle detection in python pygame](https://stackoverflow.com/questions/61202251/speed-up-ai-obstacle-detection-in-python-pygame)  
 
 interesting
 

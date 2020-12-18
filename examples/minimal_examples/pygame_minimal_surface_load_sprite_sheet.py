@@ -4,18 +4,17 @@
 # pygame.Surface object
 # https://www.pygame.org/docs/ref/surface.html
 #
-# Invalid destination position for blit error, not seeing how
-# https://stackoverflow.com/questions/55199591/invalid-destination-position-for-blit-error-not-seeing-how/55199736#55199736
-#
 # Pygame window crashing and sprite sheet issue
 # https://stackoverflow.com/questions/55200501/pygame-window-crashing-and-sprite-sheet-issue/55200625#55200625
+#
+# Invalid destination position for blit error, not seeing how
+# https://stackoverflow.com/questions/55199591/invalid-destination-position-for-blit-error-not-seeing-how/55199736#55199736
 #
 # GitHub - PyGameExamplesAndAnswers - Surface and image - Load Sprite Sheet
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_surface_and_image.md
 
 import os
 import pygame
-from PIL import Image
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../resource'))
 
 class SpriteSheet:
