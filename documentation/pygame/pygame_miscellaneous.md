@@ -142,6 +142,8 @@ Related Stack Overflow questions:
 [Pygame: tweening error in movement in tile based game](https://stackoverflow.com/questions/63478615/pygame-tweening-error-in-movement-in-tile-based-game/65338538#65338538)  
 ![Pygame: tweening error in movement in tile based game](https://i.stack.imgur.com/Gapfj.gif)
 
+[Plotting pieces on a checkerboard using pygame](https://stackoverflow.com/questions/65309004/plotting-pieces-on-a-checkerboard-using-pygame/65309258#65309258)  
+
 ## Where is 27 coming from?
 
 [I am wondering why it says the distance has to be less than 27? Why less than 27? Where is 27 coming from?](https://stackoverflow.com/questions/62523256/i-am-wondering-why-it-says-the-distance-has-to-be-less-than-27-why-less-than-27/62527566#62527566)
