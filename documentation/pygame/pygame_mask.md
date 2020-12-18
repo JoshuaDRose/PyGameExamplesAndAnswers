@@ -40,6 +40,15 @@ Related Stack Overflow questions:
 - [python pygame mask collision](https://stackoverflow.com/questions/59595874/python-pygame-mask-collision/59598297#59598297)  
   ![python pygame mask collision](https://i.stack.imgur.com/vSuGD.gif)
 
+## Mask bounding area rectangle
+
+Related Stack Overflow questions:
+
+- [How to get the correct dimensions for a pygame rectangle created from an image](https://stackoverflow.com/questions/65361582/how-to-get-the-correct-dimensions-for-a-pygame-rectangle-created-from-an-image/65361896#65361896)  
+  ![How to get the correct dimensions for a pygame rectangle created from an image](https://i.stack.imgur.com/h0WGn.png)
+
+  :scroll: **[Minimal example - Find bounding area rectangle](../../examples/minimal_examples/pygame_minimal_mask_bounding_area_rectangle.py)**
+
 ## Sprite mask
 
 See [Sprite, Group and Sprite mask - Sprite mask](pygame_sprite_and_sprite_mask.md)
