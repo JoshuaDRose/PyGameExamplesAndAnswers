@@ -7,6 +7,9 @@ Robert C. Martin, The Robert C. Martin Clean Code Collection (Collection)
 
 # Shape and contour
 
+[pygame.draw](https://www.pygame.org/docs/ref/draw.html)
+[pygame.gfxdraw](https://www.pygame.org/docs/ref/gfxdraw.html)
+
 Related Stack Overflow questions:
 
 - [Pygame Drawing a Rectangle](https://stackoverflow.com/questions/19780411/pygame-drawing-a-rectangle)
@@ -247,3 +250,13 @@ Related Stack Overflow questions:
   :scroll: **[Minimal example - Draw an arc from point to point](../../examples/minimal_examples/pygame_minimal_draw_arc_between_points.py)**
 
  ![Creating an arc between two points pygame](https://i.stack.imgur.com/494KZ.png)
+
+# Draw antialiased
+
+## Antialiased circle
+
+- [How to set width on pygame.gfx.aacircle()?](https://stackoverflow.com/questions/64816341/https://stackoverflow.com/questions/64816341/how-to-set-width-on-pygame-gfx-aacircle/65353318#65353318)  
+  ![How to set width on pygame.gfx.aacircle()?](https://i.stack.imgur.com/FBCXx.png)
+
+  :scroll: **[Minimal example - Antialiased circle](../../examples/minimal_examples/pygame_minimal_draw_antialiased_circle.py)**  
+  :scroll: **[Minimal example - Antialiased circle with OpenCV](../../examples/minimal_examples/pygame_minimal_draw_antialiased_circle_cv2.py)**

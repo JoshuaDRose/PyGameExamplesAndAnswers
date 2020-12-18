@@ -186,6 +186,16 @@ pygame.mixer.music.fadeout(10000)
 pygame.time.wait(10000)
 ```
 
+## Music file open dialog
+
+Related Stack Overflow questions:
+
+- [I want to play selected mp3 files in my folder but it doesn't work](https://stackoverflow.com/questions/64842008/i-want-to-play-selected-mp3-files-in-my-folder-but-it-doesnt-work/65352966#65352966)
+
+  :scroll: **[Minimal example - Open file and play music](../../examples/minimal_examples/pygame_minimal_mixer_music_filedialog.py)**
+
 ## Volume
+
+Related Stack Overflow questions:
 
 - [How do I change the volume of the sound or music in PyGame?](https://stackoverflow.com/questions/65247656/how-do-i-change-the-volume-of-the-sound-or-music-in-pygame/65248188#65248188)
