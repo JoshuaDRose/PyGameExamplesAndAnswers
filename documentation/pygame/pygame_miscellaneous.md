@@ -100,7 +100,7 @@ Reading a local variable `x` before it is declared causes the error:
 
 > UnboundLocalError: local variable `x` referenced before assignment
 
-You have to use the global statement if you want to be interpret the variable as global variable.
+You have to use the [`global` statement](https://docs.python.org/3/reference/simple_stmts.html?highlight=global#grammar-token-global-stmt)  if you want to be interpret the variable as global variable.
 
 ## Math
 

@@ -130,6 +130,7 @@ interesting
 [How to get the resolution of a monitor in Pygame?](https://stackoverflow.com/questions/19954469/how-to-get-the-resolution-of-a-monitor-in-pygame)  
 [How can I keep a PyGame screen overlay on top?](https://stackoverflow.com/questions/64779210/how-can-i-keep-a-pygame-screen-overlay-on-top)  
 [pygame fullscreen on second monitor](https://stackoverflow.com/questions/64495381/pygame-fullscreen-on-second-monitor)  
+[Get screen position using pygame - Linux](https://stackoverflow.com/questions/59181511/get-screen-position-using-pygame-linux)  
 
 ### Not answered questions
 
