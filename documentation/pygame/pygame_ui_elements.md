@@ -42,5 +42,5 @@ Related Stack Overflow questions:
 - [How to show shields level by changing color of the progress bar](https://stackoverflow.com/questions/57033885/how-to-show-shields-level-by-changing-color-of-the-progress-bar/57033917#57033917)  
   ![How to show shields level by changing color of the progress bar](https://i.stack.imgur.com/XHYP0.gif)
 
-- [How to put a health bar over the sprite in pygame](https://stackoverflow.com/questions/64867475/how-to-put-a-health-bar-over-the-sprite-in-pygame/64878954#64878954)
+- [How to put a health bar over the sprite in pygame](https://stackoverflow.com/questions/64867475/how-to-put-a-health-bar-over-the-sprite-in-pygame/64878954#64878954)  
   ![How to put a health bar over the sprite in pygame](https://i.stack.imgur.com/eapda.gif)

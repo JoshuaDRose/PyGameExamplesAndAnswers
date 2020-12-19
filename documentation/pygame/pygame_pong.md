@@ -18,3 +18,6 @@ Related Stack Overflow questions:
 
 - [Pong game in python. Score and out-of-screen check](https://stackoverflow.com/questions/62221432/pong-game-in-python-score-and-out-of-screen-check/62221774#62221774)  
   ![Pong game in python. Score and out-of-screen check](https://i.stack.imgur.com/AdKUV.gif)
+
+- [Changing FPS on pygame in order to achieve smoothness of sprite's movement](https://stackoverflow.com/questions/59037251/changing-fps-on-pygame-in-order-to-achieve-smoothness-of-sprites-movement/65371237?noredirect=1)  
+  ![Changing FPS on pygame in order to achieve smoothness of sprite's movement](https://i.stack.imgur.com/XTivx.gif)

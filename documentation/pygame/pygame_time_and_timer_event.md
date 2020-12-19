@@ -356,16 +356,18 @@ Related Stack Overflow questions:
 
 - [Framerate affect the speed of the game](https://stackoverflow.com/questions/61352366/framerate-affect-the-speed-of-the-game/61352472#61352472)
 - [Pygame snake velocity too high when the fps above 15](https://stackoverflow.com/questions/61034515/pygame-snake-velocity-too-high-when-the-fps-above-15/61034931#61034931)
+- [Changing FPS on pygame in order to achieve smoothness of sprite's movement](https://stackoverflow.com/questions/59037251/changing-fps-on-pygame-in-order-to-achieve-smoothness-of-sprites-movement/65371237?noredirect=1)  
 
-[`pygame.time.Clock.tick`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock.tick) returns the number of milliseconds passed since the previous call. If you call it in the application loop, then this is the number of milliseconds passed since the last frame.  
-Multiply the velocity of the player by the passed time per frame, to get a constant movement independent on the FPS.
+You have to calculate the movement per frame depending on the frame rate.
 
-For instance define the distance in number of pixel, which the player should move per second (`move_per_second`). Then compute the distance per frame in the application loop:
+[`pygame.time.Clock.tick`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock.tick) returns the number of milliseconds since the last call. When you call it in the application loop, this is the number of milliseconds that have passed since the last frame. Multiply the objects speed by the elapsed time per frame to get constant movement regardless of FPS.
+
+Define the distance in pixels that the player should move per second (`move_per_second`). Then compute the distance per frame in the application loop:
 
 ```py
 move_per_second = 500
 FPS = 60
-fun = True
+run = True
 clock = pygame.time.Clock()
 while run:
     ms_frame = clock .tick(FPS)
