@@ -102,8 +102,6 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBullet](https://repl.it/@Rabbid76/PyGame-ShootBullet#main.py)</kbd>
 
-  ![How do I stop more than 1 bullet firing at once?](../../screenshot/sustained_fire.gif)
-
   :scroll: **[minimal example - Sustained fire](../../examples/minimal_examples/pygame_minimal_shoot_bullet_sustained_fire.py)**
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)</kbd>
