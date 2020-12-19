@@ -13,12 +13,13 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 
 Related Stack Overflow questions:
 
+- [Confused by pygame key.get_pressed() method](https://stackoverflow.com/questions/59457872/confused-by-pygame-key-get-pressed-method/65367962#65367962)
 - [How to hold a 'key down' in Pygame?](https://stackoverflow.com/questions/63816977/how-to-hold-a-key-down-in-pygame/63817093#63817093)
 - [How to get if a key is pressed pygame](https://stackoverflow.com/questions/59830738/how-to-get-if-a-key-is-pressed-pygame/59831073#59831073)
 - [“Tuple object not callable” when inspecting the result of pygame.key.get_pressed()](https://stackoverflow.com/questions/62666910/tuple-object-not-callable-when-inspecting-the-result-of-pygame-key-get-pressed/62669811#62669811)
 - [Why use (bitwise) & when handling keyboard events involving multiple keys?](https://stackoverflow.com/questions/65219618/why-use-bitwise-when-handling-keyboard-events-involving-multiple-keys/65219714#65219714)
 
-[`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed) returns a list with the state of each key. If a key is held down, the state for the key is `True`, otherwise `False`. Use [`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed) to evaluate the current state of a button and get continuous movement
+[`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed) returns a sequence with the state of each key. If a key is held down, the state for the key is `True`, otherwise `False`. Use [`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed) to evaluate the current state of a button and get continuous movement
 
 ## Key repeat
 

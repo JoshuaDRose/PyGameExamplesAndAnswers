@@ -8,17 +8,22 @@ Related Stack Overflow questions:
  
 - [make multiple objects automatically move for how many objects have been specified in pygame](https://stackoverflow.com/questions/55723064/make-multiple-objects-automatically-move-for-how-many-objects-have-been-specifie/55723441#55723441)  
   ![scene](https://i.stack.imgur.com/JxNz3.gif)
+
 - [Is it possible to use simple rotation matrices to simulate circular orbits in pygame?](https://stackoverflow.com/questions/58667567/is-it-possible-to-use-simple-rotation-matrices-to-simulate-circular-orbits-in-py/58669192#58669192)  
   ![Is it possible to use simple rotation matrices to simulate circular orbits in pygame?](https://i.stack.imgur.com/UQh3R.gif)
+
 - [Implementing smooth motion in 2d space in Pygame](https://stackoverflow.com/questions/59104823/implementing-smooth-motion-in-2d-space-in-pygame/59107333#59107333)  
   ![Implementing smooth motion in 2d space in Pygame](https://i.stack.imgur.com/XNhzy.gif)
-- [Pygame game help: Easing/Acceleration](https://stackoverflow.com/questions/59629452/pygame-game-help-easing-acceleration/59629532#59629532)  
-  ![Pygame game help: Easing/Acceleration](https://i.stack.imgur.com/uWHyo.gif)
+
 - [Pygame smooth movement](https://stackoverflow.com/questions/60461011/pygame-smooth-movement/60462904#60462904)
+
 - [How do I make smooth movement + rotation in pygame?](https://stackoverflow.com/questions/62599851/how-do-i-make-smooth-movement-rotation-in-pygame/62600299#62600299)  
   ![How do I make smooth movement + rotation in pygame?](https://i.stack.imgur.com/adDP9.gif)
+
 - [How to make a realistic 2D player movement (jump, fluidity…)](https://stackoverflow.com/questions/63752585/how-to-make-a-realistic-2d-player-movement-jump-fluidity/63753496#63753496)
 
+- [How to change my ball direction by clicking keys in pygame?](https://stackoverflow.com/questions/65358328/how-to-change-my-ball-direction-by-clicking-keys-in-pygame/65358558#65358558)  
+  ![How to change my ball direction by clicking keys in pygame?](https://i.stack.imgur.com/njuTj.gif)
 ## Move and rotate
 
 Related Stack Overflow questions:
@@ -63,6 +68,9 @@ Related Stack Overflow questions:
   ![How to fix character constantly accelerating in both directions after deceleration Pygame?](https://i.stack.imgur.com/8I8HV.gif)
 
   :scroll: **[Minimal example - Slide and bounce](../../examples/minimal_examples/pygame_minimal_move_slide_1.py)**
+
+- [Pygame game help: Easing/Acceleration](https://stackoverflow.com/questions/59629452/pygame-game-help-easing-acceleration/59629532#59629532)  
+  ![Pygame game help: Easing/Acceleration](https://i.stack.imgur.com/uWHyo.gif)
 
 - [Collision detection / physics for simple game](https://stackoverflow.com/questions/59656983/collision-detection-physics-for-simple-game/59658289#59658289)  
   ![Collision detection / physics for simple game](https://i.stack.imgur.com/bqVOa.gif)

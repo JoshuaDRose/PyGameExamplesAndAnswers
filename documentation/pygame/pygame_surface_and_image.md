@@ -49,6 +49,12 @@ background = pygame.image.load('background.png').convert()
 
 Note, if the surface has a different format than the display, then `blit` has to convert the format on the fly in every frame.
 
+## Draw an image
+
+Related Stack Overflow questions:
+
+- [How to Display Sprites in Pygame?](https://stackoverflow.com/questions/59348409/how-to-display-sprites-in-pygame/65368394#65368394)
+
 ## Transparent surface and color key
 
 Related Stack Overflow questions:

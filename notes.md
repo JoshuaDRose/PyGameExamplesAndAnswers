@@ -103,12 +103,13 @@ next:
 
 interesting
 
+[Implementing collisions using the Separating axis theorem and Pygame](https://stackoverflow.com/questions/63495124/implementing-collisions-using-the-separating-axis-theorem-and-pygame)  
 [Intersection between bezier curve and a line segment](https://stackoverflow.com/questions/1813719/intersection-between-bezier-curve-and-a-line-segment)  
 [python ball physics simulation](https://stackoverflow.com/questions/14137475/python-ball-physics-simulation)  
 [Python Line-Circle collision](https://stackoverflow.com/questions/14276051/python-line-circle-collision)  
 [How to know if two ellipses are colliding - Pygame](https://stackoverflow.com/questions/65323156/how-to-know-if-two-ellipses-are-colliding-pygame)  
 
-#### Recursiveness 
+#### Recursiveness
 
 [clearing the screen with a key press in pygame](https://stackoverflow.com/questions/43194741/clearing-the-screen-with-a-key-press-in-pygame)
 
@@ -116,6 +117,7 @@ interesting
 
 [pygame audio playback speed](https://stackoverflow.com/questions/2159365/pygame-audio-playback-speed)  
 [pygame simulaton saved as a mp4 file](https://stackoverflow.com/questions/65053527/pygame-simulaton-saved-as-a-mp4-file)  
+[pygame: get the current time of the music](https://stackoverflow.com/questions/59415731/pygame-get-the-current-time-of-the-music)  
 
 ### Questions about video
 
