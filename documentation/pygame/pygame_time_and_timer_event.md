@@ -12,6 +12,7 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 Related Stack Overflow questions:
 
 - [How to wait some time in pygame?](https://stackoverflow.com/questions/18839039/how-to-wait-some-time-in-pygame/64701602#64701602)
+- [Why doesn't PyGame draw in the window before the delay or sleep?](https://stackoverflow.com/questions/63218889/why-is-pygame-not-showing-text-on-window/63218970#63218970)
 
 If you just wait for some time, you can use [`pygame.time.wait()`](https://www.pygame.org/docs/ref/time.html#pygame.time.wait) or [`pygame.time.delay`](https://www.pygame.org/docs/ref/time.html#pygame.time.delay). However, if you want to display a message and then wait some time, you need to update the display beforehand. The display is updated only if either [`pygame.display.update()`](https://www.pygame.org/docs/ref/display.html#pygame.display.update) or [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygame.display.flip)
 is called. Further you've to handles the events by [`pygame.event.pump()`](https://www.pygame.org/docs/ref/event.html#pygame.event.pump), before the update of the display becomes visible in the window:

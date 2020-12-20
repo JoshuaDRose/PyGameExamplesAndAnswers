@@ -132,10 +132,13 @@ interesting
 [How can I keep a PyGame screen overlay on top?](https://stackoverflow.com/questions/64779210/how-can-i-keep-a-pygame-screen-overlay-on-top)  
 [pygame fullscreen on second monitor](https://stackoverflow.com/questions/64495381/pygame-fullscreen-on-second-monitor)  
 [Get screen position using pygame - Linux](https://stackoverflow.com/questions/59181511/get-screen-position-using-pygame-linux)  
+[Change display orientation with pygame](https://stackoverflow.com/questions/64564646/change-display-orientation-with-pygame)  
+[change display mode without closing the game in pygame](https://stackoverflow.com/questions/64480006/change-display-mode-without-closing-the-game-in-pygame)
 
 ### Not answered questions
 
-[How to make parallax scrolling work properly with a camera that stops at edges pygame](https://stackoverflow.com/questions/63712333/how-to-make-parallax-scrolling-work-properly-with-a-camera-that-stops-at-edges-p)
+[How to make parallax scrolling work properly with a camera that stops at edges pygame](https://stackoverflow.com/questions/63712333/how-to-make-parallax-scrolling-work-properly-with-a-camera-that-stops-at-edges-p)  
+[Self-driving car not improving with Q-Learning](https://stackoverflow.com/questions/58377239/self-driving-car-not-improving-with-q-learning)
 
 ### Improve answer
 
