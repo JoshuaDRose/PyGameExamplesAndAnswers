@@ -44,6 +44,15 @@ Related Stack Overflow questions:
 
 - [Pygame already installed; however, python terminal says “No module named 'pygame' ” (Ubuntu 20.04.1)](https://stackoverflow.com/questions/64016215/pygame-already-installed-however-python-terminal-says-no-module-named-pygame/64016373#64016373)
 
+
+## Exe
+
+### "cx_freeze"
+
+Related Stack Overflow questions:
+
+- [How can I include a folder with cx_freeze?](https://stackoverflow.com/questions/15079268/how-can-i-include-a-folder-with-cx-freeze/15429850#15429850)
+
 ## File access
 
 Related Stack Overflow questions:

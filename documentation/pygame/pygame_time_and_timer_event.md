@@ -197,6 +197,7 @@ Related Stack Overflow questions:
 - [Stopwatch between mouse up/down](https://stackoverflow.com/questions/56062519/stopwatch-between-mouse-up-down/56063229#56063229)
 - [how to add a stopwatch to pygame?](https://stackoverflow.com/questions/61994805/how-to-add-a-stopwatch-to-pygame/61997846#61997846)  
   ![how to add a stopwatch to pygame?](https://i.stack.imgur.com/ahANd.gif)
+- [Trying to change image of moving character in every 0.25 seconds PyGame](https://stackoverflow.com/questions/64188831/trying-to-change-image-of-moving-character-in-every-0-25-seconds-pygame-1-9-6-py/65380355#65380355)
 
 Use [`pygame.time.get_ticks`](https://www.pygame.org/docs/ref/time.html#pygame.time.get_ticks) to get the current time in milliseconds and set the start time, before the main loop:
 

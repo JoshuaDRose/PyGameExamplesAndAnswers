@@ -14,6 +14,7 @@
         - [Questions about video](#questions-about-video)
             - [Questions about size, and resizing](#questions-about-size-and-resizing)
         - [Not answered questions](#not-answered-questions)
+            - [3D](#3d)
         - [Improve answer](#improve-answer)
         - [Investigate](#investigate)
         - [My questions](#my-questions)
@@ -139,6 +140,10 @@ interesting
 
 [How to make parallax scrolling work properly with a camera that stops at edges pygame](https://stackoverflow.com/questions/63712333/how-to-make-parallax-scrolling-work-properly-with-a-camera-that-stops-at-edges-p)  
 [Self-driving car not improving with Q-Learning](https://stackoverflow.com/questions/58377239/self-driving-car-not-improving-with-q-learning)
+
+#### 3D
+
+[Pygame: Fastest way to draw a scanline rasterized triangle pixel by pixel with depth buffering?](https://stackoverflow.com/questions/64259810/pygame-fastest-way-to-draw-a-scanline-rasterized-triangle-pixel-by-pixel-with-d)
 
 ### Improve answer
 
