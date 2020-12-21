@@ -11,8 +11,8 @@ Robert C. Martin, Clean Architecture
 
 Related Stack Overflow questions:
 
-- [Why aren't any bullets appearing on screen? - PyGmae](https://stackoverflow.com/questions/59126785/why-arent-any-bullets-appearing-on-screen-pygame/59126918#59126918)  
-  ![Why aren't any bullets appearing on screen? - PyGmae](https://i.stack.imgur.com/zGoZr.gif)
+- [How can you rotate the sprite and shoot the bullets towards the mouse position?](https://stackoverflow.com/questions/59126785/how-can-you-rotate-the-sprite-and-shoot-the-bullets-towards-the-mouse-position/59126918#59126918)  
+  ![How can you rotate the sprite and shoot the bullets towards the mouse position?](https://i.stack.imgur.com/zGoZr.gif)
 
   :scroll: **[Minimal example - Rotate player and shoot bullet towards faced direction 1](../../examples/minimal_examples/pygame_minimal_rotate_to_target_fire_bullet_1.py)**
 

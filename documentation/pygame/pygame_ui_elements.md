@@ -15,9 +15,12 @@ Related Stack Overflow questions:
 
 <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RadioButton](https://repl.it/@Rabbid76/PyGame-RadioButton#main.py)</kbd>
 
-## Menu
+## Menu and Option Box
 
 Related Stack Overflow questions:
+
+- [tips on Adding/creating a drop down selection box in pygame](https://stackoverflow.com/questions/19877900/tips-on-adding-creating-a-drop-down-selection-box-in-pygame/65397627#65397627)  
+  ![tips on Adding/creating a drop down selection box in pygame](https://i.stack.imgur.com/xORM5.gif)
 
 - [trying creating dropdown menu pygame, but got stuck](https://stackoverflow.com/questions/59236523/trying-creating-dropdown-menu-pygame-but-got-stuck/65369938#65369938)  
   ![trying creating dropdown menu pygame, but got stuck](https://i.stack.imgur.com/pAAMd.gif)
