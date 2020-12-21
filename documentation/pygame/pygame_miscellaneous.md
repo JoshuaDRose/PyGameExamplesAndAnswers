@@ -53,6 +53,13 @@ Related Stack Overflow questions:
 
 - [How can I include a folder with cx_freeze?](https://stackoverflow.com/questions/15079268/how-can-i-include-a-folder-with-cx-freeze/15429850#15429850)
 
+### Pyinstaller
+
+Related Stack Overflow questions:
+
+- [PyInstaller, spec file, ImportError: No module named 'blah'](https://stackoverflow.com/questions/7436132/pyinstaller-spec-file-importerror-no-module-named-blah)
+- [Pyinstaller Unable to access Data Folder](https://stackoverflow.com/questions/63175001/pyinstaller-unable-to-access-data-folder/63182146#63182146)
+
 ## File access
 
 Related Stack Overflow questions:

@@ -15,6 +15,7 @@
             - [Questions about size, and resizing](#questions-about-size-and-resizing)
         - [Not answered questions](#not-answered-questions)
             - [3D](#3d)
+            - [Threading](#threading)
         - [Improve answer](#improve-answer)
         - [Investigate](#investigate)
         - [My questions](#my-questions)
@@ -120,6 +121,7 @@ interesting
 [pygame audio playback speed](https://stackoverflow.com/questions/2159365/pygame-audio-playback-speed)  
 [pygame simulaton saved as a mp4 file](https://stackoverflow.com/questions/65053527/pygame-simulaton-saved-as-a-mp4-file)  
 [pygame: get the current time of the music](https://stackoverflow.com/questions/59415731/pygame-get-the-current-time-of-the-music)  
+[Pygame: music is slower than it should be](https://stackoverflow.com/questions/63968885/pygame-music-is-slower-than-it-should-be)  
 
 ### Questions about video
 
@@ -143,7 +145,12 @@ interesting
 
 #### 3D
 
-[Pygame: Fastest way to draw a scanline rasterized triangle pixel by pixel with depth buffering?](https://stackoverflow.com/questions/64259810/pygame-fastest-way-to-draw-a-scanline-rasterized-triangle-pixel-by-pixel-with-d)
+[Pygame: Fastest way to draw a scanline rasterized triangle pixel by pixel with depth buffering?](https://stackoverflow.com/questions/64259810/pygame-fastest-way-to-draw-a-scanline-rasterized-triangle-pixel-by-pixel-with-d)  
+[Making the rays travel faster](https://stackoverflow.com/questions/64093301/making-the-rays-travel-faster)  
+
+#### Threading
+
+[Is it safe to use pygame in a thread or a process?](https://stackoverflow.com/questions/63913788/is-it-safe-to-use-pygame-in-a-thread-or-a-process)  
 
 ### Improve answer
 

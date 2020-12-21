@@ -15,7 +15,15 @@ Related Stack Overflow questions:
 - [Created multiple instances of the same image using a loop, can I move each instance of the image independently?](https://stackoverflow.com/questions/56415073/created-multiple-instances-of-the-same-image-using-a-loop-can-i-move-each-insta/56415305#56415305)
 - [How can I deepcopy a pygame sprite group?](https://stackoverflow.com/questions/57500397/how-can-i-deepcopy-a-pygame-sprite-group)
 
-[`pygame.sprite.Group.draw()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.draw) and [`pygame.sprite.Group.update()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.update) are methods which are provided by `pygame.sprite.Group`. The former delegates the to the `update` mehtod of the contained [`pygame.sprite.Sprite`s](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) - you have to implement the method. The later uses the `image` and `rect` attributes of the contained `pygame.sprite.Sprite`s to draw the objects - you have to ensure that the `pygame.sprite.Sprite`s have the required attributes.
+[`pygame.sprite.Group.draw()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.draw) and [`pygame.sprite.Group.update()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.update) are methods which are provided by `pygame.sprite.Group`.
+
+The former delegates the to the `update` mehtod of the contained [`pygame.sprite.Sprite`s](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) - you have to implement the method. See [`pygame.sprite.Group.update()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.update):
+
+> Calls the `update()` method on all Sprites in the Group [...]
+
+The later uses the `image` and `rect` attributes of the contained `pygame.sprite.Sprite`s to draw the objects - you have to ensure that the `pygame.sprite.Sprite`s have the required attributes. See [`pygame.sprite.Group.draw()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.draw):
+
+> Draws the contained Sprites to the Surface argument. This uses the `Sprite.image` attribute for the source surface, and `Sprite.rect`. [...]
 
 If `chased` is a [`pygame.sprite.Group`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group) object, then you can get a list of [`pygame.sprite.Sprite`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) objects by the method [`sprites()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.sprites):
 

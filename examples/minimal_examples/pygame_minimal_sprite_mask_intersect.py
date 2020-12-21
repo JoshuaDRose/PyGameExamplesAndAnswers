@@ -16,7 +16,7 @@ import pygame
 
 class SpriteObject(pygame.sprite.Sprite):
     def __init__(self, x, y, w, h, color):
-        pygame.sprite.Sprite.__init__(self)
+        super().__init__()
         self.angle = 0
         self.original_image = pygame.Surface([w, h], pygame.SRCALPHA)
         self.original_image.fill(color)
