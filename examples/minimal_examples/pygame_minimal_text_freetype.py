@@ -7,6 +7,9 @@
 # I need to add text to my rectangles, how would I do this?
 # https://stackoverflow.com/questions/55511081/i-need-to-add-text-to-my-rectangles-how-would-i-do-this/55521100#55521100
 #
+# Pygame smooth fonts
+# https://stackoverflow.com/questions/20088670/pygame-smooth-fonts/65406337#65406337
+#
 # GitHub - PyGameExamplesAndAnswers - Text and font - Text
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_text_and_font.md
 #

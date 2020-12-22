@@ -15,6 +15,7 @@ Related Stack Overflow questions:
 - [How to scale the font size in pygame based on display resolution?](https://stackoverflow.com/questions/56855775/how-to-scale-the-font-size-in-pygame-based-on-display-resolution/56857032#56857032)
 - [I need to add text to my rectangles, how would I do this?](https://stackoverflow.com/questions/55511081/i-need-to-add-text-to-my-rectangles-how-would-i-do-this/55521100#55521100)
 - [How to display some text in pygame?](https://stackoverflow.com/questions/58695609/how-to-display-some-text-in-pygame/58695757#58695757)
+- [Pygame smooth fonts](https://stackoverflow.com/questions/20088670/pygame-smooth-fonts/65406337#65406337)
 
 [Minimal `pygame.font` module example](../../examples/minimal_examples/pygame_minimal_text_font.py)
 

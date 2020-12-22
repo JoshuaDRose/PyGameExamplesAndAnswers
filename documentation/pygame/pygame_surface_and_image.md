@@ -498,6 +498,12 @@ format = 'RGBA'
 
 ![Pygame and Numpy Animations](https://i.stack.imgur.com/PKT8H.gif)
 
+## Store Image
+
+Related Stack Overflow questions:
+
+- [How to output pygame.image.save to a variable instead of a file?](https://stackoverflow.com/questions/65405520/how-to-output-pygame-image-save-to-a-variable-instead-of-a-file/65405567#65405567)
+
 ## Pixel array
 
 Related Stack Overflow questions:

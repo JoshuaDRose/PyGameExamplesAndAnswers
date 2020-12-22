@@ -50,6 +50,7 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/62411259/ship-moves-up-and-left-faster-than-down-and-right-when-rotating-in-pygame/65347117#65347117"><img src="https://i.stack.imgur.com/6IPS1.gif" height="100" title="Fly circular"></a><!--
 --><a href="https://stackoverflow.com/questions/65358328/how-to-change-my-ball-direction-by-clicking-keys-in-pygame/65358558#65358558"><img src="https://i.stack.imgur.com/njuTj.gif" height="100" title="Dynamic movement"></a><!--
 --><a href="https://stackoverflow.com/questions/19877900/tips-on-adding-creating-a-drop-down-selection-box-in-pygame/65397627#65397627"><img src="https://i.stack.imgur.com/xORM5.gif" height="100" title="Dynamic movement"></a><!--
+--><a href="https://stackoverflow.com/questions/64179680/how-do-i-make-a-sprite-as-a-gif-in-pygame/64182074#64182074"><img src="https://i.stack.imgur.com/geYjP.gif" height="100" title="Dynamic movement"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  

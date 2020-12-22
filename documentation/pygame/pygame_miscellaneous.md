@@ -53,6 +53,13 @@ Related Stack Overflow questions:
 
 - [How can I include a folder with cx_freeze?](https://stackoverflow.com/questions/15079268/how-can-i-include-a-folder-with-cx-freeze/15429850#15429850)
 
+### py2app
+
+Related Stack Overflow questions:
+
+- [My py2app app will not open. What's the problem?](https://stackoverflow.com/questions/3470377/my-py2app-app-will-not-open-whats-the-problem)
+- [Py2app: Operation not permitted](https://stackoverflow.com/questions/33197412/py2app-operation-not-permitted)
+
 ### Pyinstaller
 
 Related Stack Overflow questions:
