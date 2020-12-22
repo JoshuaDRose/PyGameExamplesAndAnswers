@@ -230,6 +230,11 @@ pygame.draw.circle(screen, (0, 0, 0), (round(circleX), round(circleY)), size)
 
 Related Stack Overflow questions:
 
+- [How to slowly draw a line in Python](https://stackoverflow.com/questions/57618029/how-to-slowly-draw-a-line-in-python/57621742#57621742)
+  ![How to slowly draw a line in Python](https://i.stack.imgur.com/Uhn7W.gif)
+
+  :scroll: **[Minimal example - Draw a line slowly](../../examples/minimal_examples/pygame_minimal_draw_line_slowly_1.py)**
+
 - [Slowly drawing a line in pygame while other lines remain static](https://stackoverflow.com/questions/57630853/slowly-drawing-a-line-in-pygame-while-other-lines-remain-static/57631750#57631750)  
   ![Slowly drawing a line in pygame while other lines remain static](https://i.stack.imgur.com/RhasT.gif)
 - [Looping mousebutton down to draw lines](https://stackoverflow.com/questions/55477799/looping-mousebutton-down-to-draw-lines/55478174#55478174)  

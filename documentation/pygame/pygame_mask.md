@@ -40,6 +40,8 @@ Related Stack Overflow questions:
 - [python pygame mask collision](https://stackoverflow.com/questions/59595874/python-pygame-mask-collision/59598297#59598297)  
   ![python pygame mask collision](https://i.stack.imgur.com/vSuGD.gif)
 
+- [Get the pixels which are colliding with the Surface](https://stackoverflow.com/questions/20715211/get-the-pixels-which-are-colliding-with-the-surface/65408358#65408358)
+
 ## Mask bounding area rectangle
 
 Related Stack Overflow questions:

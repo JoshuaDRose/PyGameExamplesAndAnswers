@@ -48,8 +48,8 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/65173270/spin-coin-image-in-python-pygame-clicker-game/65173486#65173486"><img src="https://i.stack.imgur.com/4nsFE.gif" height="100" title="Spin"></a><!--
 --><a href="https://stackoverflow.com/questions/54666587/how-to-make-a-while-mouse-down-loop-in-pygame/54667247#54667247"><img src="https://i.stack.imgur.com/G4RML.gif" height="100" title="Spray"></a><!--
 --><a href="https://stackoverflow.com/questions/62411259/ship-moves-up-and-left-faster-than-down-and-right-when-rotating-in-pygame/65347117#65347117"><img src="https://i.stack.imgur.com/6IPS1.gif" height="100" title="Fly circular"></a><!--
---><a href="https://stackoverflow.com/questions/65358328/how-to-change-my-ball-direction-by-clicking-keys-in-pygame/65358558#65358558"><img src="https://i.stack.imgur.com/njuTj.gif" height="100" title="Dynamic movement"></a><!--
 --><a href="https://stackoverflow.com/questions/19877900/tips-on-adding-creating-a-drop-down-selection-box-in-pygame/65397627#65397627"><img src="https://i.stack.imgur.com/xORM5.gif" height="100" title="Dynamic movement"></a><!--
+--><a href="https://stackoverflow.com/questions/65358328/how-to-change-my-ball-direction-by-clicking-keys-in-pygame/65358558#65358558"><img src="https://i.stack.imgur.com/njuTj.gif" height="100" title="Dynamic movement"></a><!--
 --><a href="https://stackoverflow.com/questions/64179680/how-do-i-make-a-sprite-as-a-gif-in-pygame/64182074#64182074"><img src="https://i.stack.imgur.com/geYjP.gif" height="100" title="Dynamic movement"></a><!--
 --></div>
 
