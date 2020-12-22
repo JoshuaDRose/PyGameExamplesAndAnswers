@@ -7,7 +7,7 @@
 # Having issues trying to use a dictionary to define parameters for Barnsley's Fern
 # https://stackoverflow.com/questions/56913062/having-issues-trying-to-use-a-dictionary-to-define-parameters-for-barnsleys-fer
 #
-# GitHub - PyGameExamplesAndAnswers - Draw 2D - Mathematics
+# GitHub - PyGameExamplesAndAnswers - Draw 2D - Fractal
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_2D.md
 #
 # https://repl.it/@Rabbid76/PyGame-BarnsleysFern

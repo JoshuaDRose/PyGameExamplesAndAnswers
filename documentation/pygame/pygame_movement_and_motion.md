@@ -24,6 +24,7 @@ Related Stack Overflow questions:
 
 - [How to change my ball direction by clicking keys in pygame?](https://stackoverflow.com/questions/65358328/how-to-change-my-ball-direction-by-clicking-keys-in-pygame/65358558#65358558)  
   ![How to change my ball direction by clicking keys in pygame?](https://i.stack.imgur.com/njuTj.gif)
+
 ## Move and rotate
 
 Related Stack Overflow questions:

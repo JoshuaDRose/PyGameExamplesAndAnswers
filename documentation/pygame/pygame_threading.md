@@ -8,4 +8,11 @@ Related Stack Overflow questions:
 
 - [Is it possible to make the keyboard module work with pygame and threading](https://stackoverflow.com/questions/59606826/is-it-possible-to-make-the-keyboard-module-work-with-pygame-and-threading/59609014#59609014)
 - [Why is this pygame program not working so when I hover over the computer screen it turns blue?](https://stackoverflow.com/questions/55271655/why-is-this-pygame-program-not-working-so-when-i-hover-over-the-computer-screen/55287336#55287336)
+
+## Events
+
+Related Stack Overflow questions:
+
 - [pygame.event.get() not returning any events when inside a thread](https://stackoverflow.com/questions/56717184/pygame-event-get-not-returning-any-events-when-inside-a-thread/56717299#56717299)
+
+- [Is there a workaround to empty event queue in separate thread?](https://stackoverflow.com/questions/46879926/is-there-a-workaround-to-empty-event-queue-in-separate-thread/65415003#65415003)

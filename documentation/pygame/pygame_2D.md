@@ -39,7 +39,12 @@ Related Stack Overflow questions:
 - [Having issues trying to use a dictionary to define parameters for Barnsley's Fern](https://stackoverflow.com/questions/56913062/having-issues-trying-to-use-a-dictionary-to-define-parameters-for-barnsleys-fer)  
   ![Having issues trying to use a dictionary to define parameters for Barnsley's Fern](../../screenshot/pygame_minimal_2D_barnsleys_fern.gif)
 
-  :scroll: **[Minimal example - Barnsley's Fern](../../examples/minimal_examples/pygame_minimal_2D_water_ripple_effect_numpy.py)**
+  :scroll: **[Minimal example - Barnsley's Fern](../../examples/minimal_examples/pygame_minimal_2D_barnsleys_fern.py)**
+
+- [Is there anyway to do this recursively in pygame?](https://stackoverflow.com/questions/59455641/is-there-anyway-to-do-this-recursively-in-pygame/59456232#59456232)  
+- ![Is there anyway to do this recursively in pygame?](https://i.stack.imgur.com/fyYSY.png)
+
+  :scroll: **[Minimal example - Recursive circles](../../examples/minimal_examples/pygame_minimal_2D_recursive_circles.py)**
 
 ## Lookup table
 
@@ -47,7 +52,7 @@ Related Stack Overflow questions:
 
 - [use a color lookup table with pygame](https://stackoverflow.com/questions/63748651/use-a-color-lookup-table-with-pygame/64198152#64198152)
 
-  :scroll: **[Minimal example - Lookup table](../../examples/minimal_examples/pygame_minimal_2D_water_ripple_effect_numpy.py)**
+  :scroll: **[Minimal example - Lookup table](../../examples/minimal_examples/pygame_minimal_2D_lookup_table.py)**
 
 ## Triangulation
 
