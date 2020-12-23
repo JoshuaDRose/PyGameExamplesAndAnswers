@@ -127,6 +127,12 @@ The site is still under construction :construction:.
 
 [Camera and Video](documentation/pygame/pygame_camera_and_video.md)
 
+[Draw 2D](documentation/pygame/pygame_2D.md)
+
+[Draw 3D](documentation/pygame/pygame_3D.md)
+
+[Paint](documentation/pygame/pygame_paint.md)
+
 [Snake](documentation/pygame/pygame_snake.md)
 
 [Pong](documentation/pygame/pygame_pong.md)
@@ -135,11 +141,7 @@ The site is still under construction :construction:.
 
 [Maze](documentation/pygame/pygame_maze.md)
 
-[Paint](documentation/pygame/pygame_paint.md)
-
-[Draw 2D](documentation/pygame/pygame_2D.md)
-
-[Draw 3D](documentation/pygame/pygame_3D.md)
+[Tic Tac Toe](documentation/pygame/pygame_tictactoe.md)
 
 [Miscellaneous](documentation/pygame/pygame_miscellaneous.md)
 
