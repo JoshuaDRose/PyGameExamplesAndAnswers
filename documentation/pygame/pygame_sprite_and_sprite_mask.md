@@ -351,6 +351,15 @@ Related Stack Overflow questions:
 
 - [how to create a circular sprite in pygame](https://stackoverflow.com/questions/61429734/how-to-create-a-circular-sprite-in-pygame/61429811#61429811)
 
+## Health Bar
+
+Related Stack Overflow questions:
+
+- [How to put a health bar over the sprite in pygame](https://stackoverflow.com/questions/64867475/how-to-put-a-health-bar-over-the-sprite-in-pygame/64878954#64878954)  
+  ![How to put a health bar over the sprite in pygame](https://i.stack.imgur.com/eapda.gif)
+
+  :scroll: **[Minimal example - Drag Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_drag.py)**
+  
 ## Copy (duplicate) sprites
 
 Related Stack Overflow questions:
