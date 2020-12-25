@@ -116,7 +116,8 @@ While `pygame.mouse.get_pressed()` returns the current state of the buttons, the
 
 Related Stack Overflow questions:
 
-- [Image lagging while blitting on top of mouse rect](https://stackoverflow.com/questions/56961186/image-lagging-while-blitting-on-top-of-mouse-rect/56976454#56976454)
+- [Image lagging while blitting on top of mouse rect](https://stackoverflow.com/questions/56961186/image-lagging-while-blitting-on-top-of-mouse-rect/56976454#56976454)  
+- [Pygame.mouse.set_cursor((8,8),(0,0),(0,0,0,0,0,0,0,0),(0,0,0,0,0,0,0,0)) is causing errors](https://stackoverflow.com/questions/65383098/pygame-mouse-set-cursor8-8-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-is-caus/65383209#65383209)  
 
 :scroll: **[Minimal example - Image on mouse cursor](../../examples/minimal_examples/pygame_minimal_mouse_cursor_image.py)**
 

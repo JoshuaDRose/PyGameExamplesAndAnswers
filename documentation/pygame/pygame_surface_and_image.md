@@ -224,7 +224,8 @@ window_surface.blit(image_surface,
 Related Stack Overflow questions:
 
 - [Pygame is running slow](https://stackoverflow.com/questions/61134825/pygame-is-running-slow/61134941#61134941)
-- [Why my pygame game with a tiled map is lagging?](https://stackoverflow.com/questions/62136440/why-my-pygame-game-with-a-tiled-map-is-lagging/62137296#62137296)
+- [Why my pygame game with a tiled map is lagging?](https://stackoverflow.com/questions/62136440/why-my-pygame-game-with-a-tiled-map-is-lagging/62137296#62137296)  
+- [How could I optimise this simple python pygame code](https://stackoverflow.com/questions/65384623/how-could-i-optimise-this-simple-python-pygame-code/65384691#65384691)  
 
 ### Load Pillow image
 

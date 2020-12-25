@@ -167,6 +167,14 @@ Related Stack Overflow questions:
 
 [Plotting pieces on a checkerboard using pygame](https://stackoverflow.com/questions/65309004/plotting-pieces-on-a-checkerboard-using-pygame/65309258#65309258)  
 
+## State engine
+
+[Pygame how to handle states](https://stackoverflow.com/questions/64084406/pygame-how-to-handle-states/65389874#65389874)  
+
+## Compression
+
+[How to output pygame.image.save to a variable instead of a file?](https://stackoverflow.com/questions/65405520/how-to-output-pygame-image-save-to-a-variable-instead-of-a-file/65405567#65405567)  
+
 ## Where is 27 coming from?
 
 [I am wondering why it says the distance has to be less than 27? Why less than 27? Where is 27 coming from?](https://stackoverflow.com/questions/62523256/i-am-wondering-why-it-says-the-distance-has-to-be-less-than-27-why-less-than-27/62527566#62527566)

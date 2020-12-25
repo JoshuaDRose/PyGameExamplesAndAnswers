@@ -96,7 +96,7 @@ Related Stack Overflow questions:
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowMouse](https://repl.it/@Rabbid76/PyGame-FollowMouse#main.py)</kbd>
 
 - **[How to make smooth movement in pygame](https://stackoverflow.com/questions/64087982/how-to-make-smooth-movement-in-pygame/64088747#64088747)**  
-  [Sprite follow another flexible way within certain distance limits](https://stackoverflow.com/questions/60064644/sprite-follow-another-flexible-way-within-certain-distance-limits/60082313#60082313)
+  [Sprite follow another flexible way within certain distance limits](https://stackoverflow.com/questions/60064644/sprite-follow-another-flexible-way-within-certain-distance-limits/60082313#60082313)  
   ![How to make smooth movement in pygame](https://i.stack.imgur.com/9HL3b.gif)
 
   :scroll: **[Minimal example - Follow target smoothly](../../examples/minimal_examples/pygame_minimal_move_follow_smoothly.py)**
@@ -105,6 +105,9 @@ Related Stack Overflow questions:
 
 - **[how to make particles follow my mouse in pygame](https://stackoverflow.com/questions/63412401/how-to-make-particles-follow-my-mouse-in-pygame/63412536#63412536)**
 - [How can i make a block follow another block in pygame](https://stackoverflow.com/questions/59799575/how-can-i-make-a-block-follow-another-block-in-pygame/59799746#59799746)
+
+- [Track Mouse Movement while confined](https://stackoverflow.com/questions/64491342/track-mouse-movement-while-confined/65378782#65378782)  
+  ![Track Mouse Movement while confined](https://i.stack.imgur.com/uaesh.gif)
 
 For a more sophisticated solution, you've to compute the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) form the point to the target.   Use [`pygame.math.Vector2`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2) for the computation.
 
