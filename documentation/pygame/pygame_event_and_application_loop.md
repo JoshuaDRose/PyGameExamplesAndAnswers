@@ -141,7 +141,7 @@ Related Stack Overflow questions:
 
 ### Multiple event loops
 
-- **[Faster version of pygame.event.get()](https://stackoverflow.com/questions/58086113/faster-version-of-pygame-event-get/58087070#58087070)**
+- **[Faster version of 'pygame.event.get()'. Why are events being missed and why are the events delayed?](https://stackoverflow.com/questions/58086113/faster-version-of-pygame-event-get-why-are-events-being-missed-and-why-are/58087070#58087070)**
 
 [`pygame.event.get()`](https://www.pygame.org/docs/ref/event.html#pygame.event.get) get all the messages and remove them from the queue[`pygame.event.get()`](https://www.pygame.org/docs/ref/event.html#pygame.event.get) get all the messages and remove them from the queue. See the documentation:
 

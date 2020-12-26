@@ -173,7 +173,7 @@ Related Stack Overflow questions:
 - [How do I make my screen zoom in and out in pygame?](https://stackoverflow.com/questions/64079174/how-do-i-make-my-screen-zoom-in-and-out-in-pygame/64079239#64079239)
 - [Zooming in and out of a PyGame window with all objects still in place](https://stackoverflow.com/questions/64936805/zooming-in-and-out-of-a-pygame-window-with-all-objects-still-in-place/64937795#64937795)  
   ![Zooming in and out of a PyGame window with all objects still in place](https://i.stack.imgur.com/qYHGr.gif)
-- [Zooming in and out of a PyGame window with all objects still in place](https://stackoverflow.com/questions/64936805/zooming-in-and-out-of-a-pygame-window-with-all-objects-still-in-place/64937795#64937795)
+
 
 > I'm wondering if there's a way I can globally scale everything up in my game without either having to scale each sprite up individually [...]" 
 
@@ -211,7 +211,8 @@ while running:
 Related Stack Overflow questions:
 
 - [How do I change the Pygame coordinate system so that the center of the window is (0,0)?](https://stackoverflow.com/questions/61514113/how-do-i-change-the-pygame-coordinate-system-so-that-the-center-of-the-window-is/61516769#61516769)
-- [pushMatrix, popMatrix, translate, and rotate in pygame?](https://stackoverflow.com/questions/63078272/pushmatrix-popmatrix-translate-and-rotate-in-pygame/63078556#63078556)
+- [pushMatrix, popMatrix, translate, and rotate in pygame?](https://stackoverflow.com/questions/63078272/pushmatrix-popmatrix-translate-and-rotate-in-pygame/63078556#63078556)  
+- [Polygons on created surfaces](https://stackoverflow.com/questions/56639370/polygons-on-created-surfaces/65456150#65456150)  
 
 :scroll: **[Minimal example - Center the origin of the coordinate system](../../examples/minimal_examples/pygame_minimal_display_center_origin.py)**
 
@@ -223,6 +224,7 @@ Related Stack Overflow questions:
 
 - [pygame collision detection causes my computer to hang](https://stackoverflow.com/questions/60323509/pygame-collision-detection-causes-my-computer-to-hang/60327662#60327662)
 - [Icons are not displayed, displayed only after closing for half a second](https://stackoverflow.com/questions/65079658/icons-are-not-displayed-displayed-only-after-closing-for-half-a-second)  
+- [pygame define different position order make the different result](https://stackoverflow.com/questions/59810922/pygame-define-different-position-order-make-the-different-result/59810986#59810986)
 - [how to set a picture as an app icon in pygame in ubuntu](https://stackoverflow.com/questions/63717695/how-to-set-a-picture-as-an-app-icon-in-pygame-in-ubuntu/63717754#63717754)
 
 ## Scroll background

@@ -122,6 +122,7 @@ interesting
 [pygame simulaton saved as a mp4 file](https://stackoverflow.com/questions/65053527/pygame-simulaton-saved-as-a-mp4-file)  
 [pygame: get the current time of the music](https://stackoverflow.com/questions/59415731/pygame-get-the-current-time-of-the-music)  
 [Pygame: music is slower than it should be](https://stackoverflow.com/questions/63968885/pygame-music-is-slower-than-it-should-be)  
+[Opencv object tracking and audio responding](https://stackoverflow.com/questions/56643988/opencv-object-tracking-and-audio-responding)  
 
 ### Questions about video
 

@@ -334,7 +334,10 @@ Related Stack Overflow questions:
 
 Use [`pygame.time.Clock`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock.tick) to control the frames per second and thus the game speed.  
 
-The method [`tick()`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock.tick) of a [`pygame.time.Clock`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock) object, delays the game in that way, that every iteration of the loop consumes the same period of time.  
+The method [`tick()`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock.tick) of a [`pygame.time.Clock`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock) object, delays the game in that way, that every iteration of the loop consumes the same period of time. See [`pygame.time.Clock.tick()`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock.tick):
+
+> This method should be called once per frame.
+
 That means that the loop:
 
 >```py
