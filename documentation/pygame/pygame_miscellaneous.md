@@ -167,6 +167,8 @@ Related Stack Overflow questions:
 
 [Plotting pieces on a checkerboard using pygame](https://stackoverflow.com/questions/65309004/plotting-pieces-on-a-checkerboard-using-pygame/65309258#65309258)  
 
+[Is it possible to update a pygame drawing attribute when a event occurs?](https://stackoverflow.com/questions/61551790/is-it-possible-to-update-a-pygame-drawing-attribute-when-a-event-occurs/61555479#61555479)
+![Is it possible to update a pygame drawing attribute when a event occurs?](https://i.stack.imgur.com/rchSC.gif)
 ## State engine
 
 [Pygame how to handle states](https://stackoverflow.com/questions/64084406/pygame-how-to-handle-states/65389874#65389874)  
@@ -227,9 +229,6 @@ Related Stack Overflow questions:
 
 [Using a matrix as a sprite and testing if two sprites overlap](https://stackoverflow.com/questions/60387917/using-a-matrix-as-a-sprite-and-testing-if-two-sprites-overlap/60391694#60391694)  
 ![scene](https://i.stack.imgur.com/brlQk.gif)
-
-[Is it possible to update a pygame drawing attribute when a event occurs?](https://stackoverflow.com/questions/61551790/is-it-possible-to-update-a-pygame-drawing-attribute-when-a-event-occurs/61555479#61555479)
-![scene](https://i.stack.imgur.com/rchSC.gif)
 
 [How can I blit an image on the screen where i click after pressing a button](https://stackoverflow.com/questions/61556099/how-can-i-blit-an-image-on-the-screen-where-i-click-after-pressing-a-button/61556461#61556461)
 

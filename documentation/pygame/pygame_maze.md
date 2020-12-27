@@ -4,6 +4,8 @@
 
 # Maze
 
+Related Stack Overflow questions:
+
 - [Hide and Seek/Maze game in pygame not working](https://stackoverflow.com/questions/63853997/hide-and-seek-maze-game-in-pygame-not-working/63854295#63854295)  
   ![scene](https://i.stack.imgur.com/2QYir.gif)
 

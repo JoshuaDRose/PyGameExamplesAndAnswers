@@ -145,6 +145,8 @@ The site is still under construction :construction:.
 
 [Tic Tac Toe](documentation/pygame/pygame_tictactoe.md)
 
+[Game of life](documentation/pygame/pygame_game_of_life.md)
+
 [Miscellaneous](documentation/pygame/pygame_miscellaneous.md)
 
 ## Libraries
