@@ -52,6 +52,8 @@ Related Stack Overflow questions:
 - [Rotation of a sprite on a circle](https://stackoverflow.com/questions/26517579/rotation-of-a-sprite-on-a-circle/65332120#65332120)  
   ![Rotation of a sprite on a circle](https://i.stack.imgur.com/mqlhm.gif)
 
+  :scroll: **[Minimal example - Rotate on circle](../../examples/minimal_examples/pygame_minimal_move_rotate_on_circle.py)**
+
 - [Why it doesn't spin in a circle? And how to fix it?](https://stackoverflow.com/questions/62883103/why-it-doesnt-spin-in-a-circle-and-how-to-fix-it/62883770#62883770)  
   ![Why it doesn't spin in a circle? And how to fix it?](https://i.stack.imgur.com/UD6Wt.gif)
 

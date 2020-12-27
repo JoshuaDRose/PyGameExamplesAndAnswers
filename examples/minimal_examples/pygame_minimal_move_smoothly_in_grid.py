@@ -8,7 +8,6 @@
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_movement_and_motion.md 
 
 import pygame
-vec = pygame.math.Vector2
 
 TILESIZE = 32
 WIDTH = TILESIZE * 16
@@ -32,8 +31,8 @@ class Player(pygame.sprite.Sprite):
     def __init__(self, x, y):
         super().__init__()
         self.walk_buffer = 50
-        self.pos = vec(x, y) * TILESIZE
-        self.dirvec = vec(0, 0)
+        self.pos = pygame.math.Vector2(x, y) * TILESIZE
+        self.dirvec = pygame.math.Vector2(0, 0)
         self.last_pos = self.pos
         self.next_pos = self.pos
         
@@ -56,14 +55,14 @@ class Player(pygame.sprite.Sprite):
                 self.pos += self.dirvec * PLAYER_SPEED * dt
             else:
                 self.pos = self.next_pos
-                self.dirvec = vec(0, 0)
+                self.dirvec = pygame.math.Vector2(0, 0)
                 self.between_tiles = False
                     
         self.rect.topleft = self.pos
         if pygame.sprite.spritecollide(self, walls, False):
             self.pos = self.last_pos
             self.next_pos = self.last_pos
-            self.dirvec = vec(0, 0)
+            self.dirvec = pygame.math.Vector2(0, 0)
             self.between_tiles = False
         self.rect.topleft = self.pos
 
@@ -74,23 +73,23 @@ class Player(pygame.sprite.Sprite):
         if now - self.last_update > self.walk_buffer:
             self.last_update = now
             
-            new_dir_vec = vec(0, 0)
+            new_dir_vec = pygame.math.Vector2(0, 0)
             if self.dirvec.y == 0:
                 if keys[pygame.K_LEFT] or keys[pygame.K_a]:
-                    new_dir_vec = vec(-1, 0)
+                    new_dir_vec = pygame.math.Vector2(-1, 0)
                 elif keys[pygame.K_RIGHT] or keys[pygame.K_d]:
-                    new_dir_vec = vec(1, 0)
+                    new_dir_vec = pygame.math.Vector2(1, 0)
             if self.dirvec.x == 0:
                 if keys[pygame.K_UP] or keys[pygame.K_w]:
-                    new_dir_vec = vec(0, -1)
+                    new_dir_vec = pygame.math.Vector2(0, -1)
                 elif keys[pygame.K_DOWN] or keys[pygame.K_s]:
-                    new_dir_vec = vec(0, 1)
+                    new_dir_vec = pygame.math.Vector2(0, 1)
                 
-            if new_dir_vec != vec(0,0):
+            if new_dir_vec != pygame.math.Vector2(0,0):
                 self.dirvec = new_dir_vec
                 self.between_tiles = True
                 current_index = self.rect.centerx // TILESIZE, self.rect.centery // TILESIZE
-                self.last_pos = vec(current_index) * TILESIZE
+                self.last_pos = pygame.math.Vector2(current_index) * TILESIZE
                 self.next_pos = self.last_pos + self.dirvec * TILESIZE
                 
 class Obstacle(pygame.sprite.Sprite):
