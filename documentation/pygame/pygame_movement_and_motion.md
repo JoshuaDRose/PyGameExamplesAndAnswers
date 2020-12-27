@@ -25,6 +25,8 @@ Related Stack Overflow questions:
 - [How to change my ball direction by clicking keys in pygame?](https://stackoverflow.com/questions/65358328/how-to-change-my-ball-direction-by-clicking-keys-in-pygame/65358558#65358558)  
   ![How to change my ball direction by clicking keys in pygame?](https://i.stack.imgur.com/njuTj.gif)
 
+  :scroll: **[Minimal example - Change direction smoothly](../../examples/minimal_examples/pygame_minimal_move_change_direction_smoothly.py)**
+
 ## Move and rotate
 
 Related Stack Overflow questions:
@@ -46,9 +48,6 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CarMovement](https://repl.it/@Rabbid76/PyGame-CarMovementReflect#main.py)</kbd>
 
-- [Ship moves up and left faster than down and right when rotating in pygame](https://stackoverflow.com/questions/62411259/ship-moves-up-and-left-faster-than-down-and-right-when-rotating-in-pygame/65347117#65347117)  
-  ![Ship moves up and left faster than down and right when rotating in pygame](https://i.stack.imgur.com/6IPS1.gif)
-
 - [Rotation of a sprite on a circle](https://stackoverflow.com/questions/26517579/rotation-of-a-sprite-on-a-circle/65332120#65332120)  
   ![Rotation of a sprite on a circle](https://i.stack.imgur.com/mqlhm.gif)
 
@@ -58,6 +57,11 @@ Related Stack Overflow questions:
   ![Why it doesn't spin in a circle? And how to fix it?](https://i.stack.imgur.com/UD6Wt.gif)
 
   :scroll: **[Minimal example - Spin in a circle](../../examples/minimal_examples/pygame_minimal_move_spin_in_circle.py)**
+
+- [Ship moves up and left faster than down and right when rotating in pygame](https://stackoverflow.com/questions/62411259/ship-moves-up-and-left-faster-than-down-and-right-when-rotating-in-pygame/65347117#65347117)  
+  ![Ship moves up and left faster than down and right when rotating in pygame](https://i.stack.imgur.com/6IPS1.gif)
+
+  :scroll: **[Minimal example - Spin in a circle 2](../../examples/minimal_examples/pygame_minimal_move_spin_in_circle_2.py)**
 
 ### Move in grid
 

@@ -214,6 +214,7 @@ Related Stack Overflow questions:
 - [How do I change the Pygame coordinate system so that the center of the window is (0,0)?](https://stackoverflow.com/questions/61514113/how-do-i-change-the-pygame-coordinate-system-so-that-the-center-of-the-window-is/61516769#61516769)
 - [pushMatrix, popMatrix, translate, and rotate in pygame?](https://stackoverflow.com/questions/63078272/pushmatrix-popmatrix-translate-and-rotate-in-pygame/63078556#63078556)  
 - [Polygons on created surfaces](https://stackoverflow.com/questions/56639370/polygons-on-created-surfaces/65456150#65456150)  
+- [pygame define different position order make the different result](https://stackoverflow.com/questions/59810922/pygame-define-different-position-order-make-the-different-result/59810986#59810986)
 
 :scroll: **[Minimal example - Center the origin of the coordinate system](../../examples/minimal_examples/pygame_minimal_display_center_origin.py)**
 
@@ -224,8 +225,8 @@ Be aware that the y-axis needs to be reversed (`-y` respectively `y1-y2`) becaus
 Related Stack Overflow questions:
 
 - [pygame collision detection causes my computer to hang](https://stackoverflow.com/questions/60323509/pygame-collision-detection-causes-my-computer-to-hang/60327662#60327662)
-- [Icons are not displayed, displayed only after closing for half a second](https://stackoverflow.com/questions/65079658/icons-are-not-displayed-displayed-only-after-closing-for-half-a-second)  
-- [pygame define different position order make the different result](https://stackoverflow.com/questions/59810922/pygame-define-different-position-order-make-the-different-result/59810986#59810986)
+- [Icons are not displayed, displayed only after closing for half a second](https://stackoverflow.com/questions/65079658/icons-are-not-displayed-displayed-only-after-closing-for-half-a-second/65079700#65079700)  
+- [pygame.display.set_icon(pygame.image obj) doesn't work in python 3.9.1](https://stackoverflow.com/questions/65454856/pygame-display-set-iconpygame-image-obj-doesnt-work-in-python-3-9-1/65454866#65454866)
 - [how to set a picture as an app icon in pygame in ubuntu](https://stackoverflow.com/questions/63717695/how-to-set-a-picture-as-an-app-icon-in-pygame-in-ubuntu/63717754#63717754)
 
 ## Scroll background
