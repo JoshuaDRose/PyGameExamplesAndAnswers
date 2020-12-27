@@ -174,8 +174,9 @@ Related Stack Overflow questions:
 - [Zooming in and out of a PyGame window with all objects still in place](https://stackoverflow.com/questions/64936805/zooming-in-and-out-of-a-pygame-window-with-all-objects-still-in-place/64937795#64937795)  
   ![Zooming in and out of a PyGame window with all objects still in place](https://i.stack.imgur.com/qYHGr.gif)
 
+  :scroll: [Minimal example - Display zoom](../../examples/minimal_examples/pygame_minimal_display_zoom.py)
 
-> I'm wondering if there's a way I can globally scale everything up in my game without either having to scale each sprite up individually [...]" 
+> I'm wondering if there's a way I can globally scale everything up in my game without either having to scale each sprite up individually [...]"
 
 No there is no way. You have to scale each coordinate, each size and each surface individually. PyGame is made for images (Surfaces) and shapes in pixel units. Anyway up scaling an image will result in either a fuzzy, blurred or jagged (Minecraft) appearance.
 

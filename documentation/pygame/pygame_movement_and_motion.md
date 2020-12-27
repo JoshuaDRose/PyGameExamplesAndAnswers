@@ -57,6 +57,15 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Spin in a circle](../../examples/minimal_examples/pygame_minimal_move_spin_in_circle.py)**
 
+### Move in grid
+
+Related Stack Overflow questions:
+
+- [How do I move the player smoothly in a tile based game?](https://stackoverflow.com/questions/63478615/how-do-i-move-the-player-smoothly-in-a-tile-based-game/65338538#65338538)  
+  ![How do I move the player smoothly in a tile based game?](https://i.stack.imgur.com/Gapfj.gif)
+
+  :scroll: **[Minimal example - Move smoothly in grid](../../examples/minimal_examples/pygame_minimal_move_smoothly_in_grid.py)**
+
 ## Throw
 
 Related Stack Overflow questions:
@@ -100,7 +109,7 @@ Related Stack Overflow questions:
 
 ## Particles
 
-- [Projectile motion and gravity in pygame only sometimes working](https://stackoverflow.com/questions/55822116/projectile-motion-and-gravity-in-pygame-only-sometimes-working/55836374#55836374)
+- [Projectile motion and gravity in pygame only sometimes working](https://stackoverflow.com/questions/55822116/projectile-motion-and-gravity-in-pygame-only-sometimes-working/55836374#55836374)  
   ![Projectile motion and gravity in pygame only sometimes working](https://i.stack.imgur.com/MxE2C.gif)
 
   :scroll: **[Minimal example - Particle explosion](../../examples/minimal_examples/pygame_minimal_move_particle_explosion.py)**

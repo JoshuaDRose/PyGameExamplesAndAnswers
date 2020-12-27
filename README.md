@@ -53,6 +53,7 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/64179680/how-do-i-make-a-sprite-as-a-gif-in-pygame/64182074#64182074"><img src="https://i.stack.imgur.com/geYjP.gif" height="100" title="Dynamic movement"></a><!--
 --><a href="https://stackoverflow.com/questions/62883103/why-it-doesnt-spin-in-a-circle-and-how-to-fix-it/62883770#62883770"><img src="screenshot/pygame_minimal_move_spin_in_circle.gif" height="100" title="Dynamic movement"></a><!--
 --><a href="https://stackoverflow.com/questions/64825967/pygame-tic-tak-toe-logic-how-would-i-do-it/64934964#64934964"><img src="https://i.stack.imgur.com/p7mfM.gif" height="100" title="Dynamic movement"></a><!--
+--><a href="https://stackoverflow.com/questions/64936805/zooming-in-and-out-of-a-pygame-window-with-all-objects-still-in-place/64937795#64937795"><img src="https://i.stack.imgur.com/qYHGr.gif" height="100" title="Dynamic movement"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  
