@@ -9,7 +9,7 @@
 
 Related Stack Overflow questions:
 
-- [How do I rotate an image around its center using PyGame?](https://stackoverflow.com/questions/4183208/how-do-i-rotate-an-image-around-its-center-using-pygame/54714144#54714144)  
+- **[How do I rotate an image around its center using PyGame?](https://stackoverflow.com/questions/4183208/how-do-i-rotate-an-image-around-its-center-using-pygame/54714144#54714144)**  
   ![How do I rotate an image around its center using Pygame?](https://i.stack.imgur.com/diqBY.gif)
 - [How can you rotate an image around an off center pivot in PyGame](https://stackoverflow.com/questions/59909942/how-can-you-rotate-an-image-around-an-off-center-pivot-in-pygame/59909946#59909946/59909946#59909946)  
   ![How can you rotate an image around an off center pivot in PyGame](https://i.stack.imgur.com/BmG1u.gif)

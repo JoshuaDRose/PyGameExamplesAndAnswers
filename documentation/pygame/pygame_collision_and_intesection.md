@@ -271,6 +271,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - **[How to detect collisions between two rectangular objects or images in pygame](https://stackoverflow.com/questions/63561028/how-to-detect-collision-between-two-images-in-pygame/63561152#63561152)**
+**[Why is my collision test always returning 'true' and why is the position of the rectangle of the image always wrong (0, 0)?](https://stackoverflow.com/questions/57730329/pygame-collide-rect-function-always-returning-true/57730378#57730378)**
 - [Pygame: colliding rectangles with other rectangles in the same list](https://stackoverflow.com/questions/54793858/pygame-colliding-rectangles-with-other-rectangles-in-the-same-list/54794440#54794440)
 - [Does pygame.colliderect() work the same way in both of these situations?](https://stackoverflow.com/questions/60936579/does-pygame-colliderect-work-the-same-way-in-both-of-these-situations/60936704#60936704)
 - [Animation glitch in Pygame](https://stackoverflow.com/questions/56912016/animation-glitch-in-pygame/56914481#56914481)  

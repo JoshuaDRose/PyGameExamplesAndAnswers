@@ -111,6 +111,7 @@ interesting
 [Python Line-Circle collision](https://stackoverflow.com/questions/14276051/python-line-circle-collision)  
 [How to know if two ellipses are colliding - Pygame](https://stackoverflow.com/questions/65323156/how-to-know-if-two-ellipses-are-colliding-pygame)  
 [How create a simulation (pendulum, projectile motion) in pygame](https://stackoverflow.com/questions/59147116/how-create-a-simulation-pendulum-projectile-motion-in-pygame)  
+[How can you pre-calculate the balls trajectory and therefore its endpoint in the game Pong?](https://stackoverflow.com/questions/55976268/how-can-you-pre-calculate-the-balls-trajectory-and-therefore-its-endpoint-in-the)  
 
 #### Recursiveness
 
@@ -142,7 +143,8 @@ interesting
 ### Not answered questions
 
 [How to make parallax scrolling work properly with a camera that stops at edges pygame](https://stackoverflow.com/questions/63712333/how-to-make-parallax-scrolling-work-properly-with-a-camera-that-stops-at-edges-p)  
-[Self-driving car not improving with Q-Learning](https://stackoverflow.com/questions/58377239/self-driving-car-not-improving-with-q-learning)
+[Self-driving car not improving with Q-Learning](https://stackoverflow.com/questions/58377239/self-driving-car-not-improving-with-q-learning)  
+[arbitrary polygon with transparency in pygame](https://stackoverflow.com/questions/55892066/arbitrary-polygon-with-transparency-in-pygame)  
 
 #### 3D
 
@@ -212,6 +214,7 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
   
 - create example which projects sin and cosin (sin horizontally and cosin vertically)  
   [Math and Vector - Curve - Trigonometry](documentation/pygame/pygame_math_vector_and_reflection.md)
+
 ## New Pages
 
 - grid
