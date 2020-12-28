@@ -41,6 +41,9 @@ Related Stack Overflow questions:
 - [Image rotation while moving](https://stackoverflow.com/questions/57226587/image-rotation-while-moving/57227063#57227063)  
   ![Image rotation while moving](https://i.stack.imgur.com/XWNPt.gif)
 
+- [How do i get this spaceship to move towards the mouse cursor when I press the spacebar and point towards it at the same time](https://stackoverflow.com/questions/65442583/how-do-i-get-this-spaceship-to-move-towards-the-mouse-cursor-and-point-towards-i/65449778#65449778)  
+  ![How do i get this spaceship to move towards the mouse cursor when I press the spacebar and point towards it at the same time](https://i.stack.imgur.com/iN4Kw.gif)
+
 - [The car moves and changes direction when it hits the window edge](https://stackoverflow.com/questions/65001510/the-car-moves-and-changes-direction-when-it-hits-the-window-edge/65010442#65010442)  
   ![The car moves and changes direction when it hits the window edge](https://i.stack.imgur.com/7u7Gj.gif)
 

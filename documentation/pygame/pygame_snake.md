@@ -37,6 +37,9 @@ Related Stack Overflow questions:
 
 - [how to solve bug on snake wall teleportation](https://stackoverflow.com/questions/64624092/how-to-solve-bug-on-snake-wall-teleportation/64624385#64624385)
 
+- [Can anyone tell me how to increase the snake size in my code?](https://stackoverflow.com/questions/65465695/can-anyone-tell-me-how-to-increase-the-snake-size-in-my-code/65466064#65466064)  
+  ![Can anyone tell me how to increase the snake size in my code?](https://i.stack.imgur.com/bSk2B.gif)
+
 In general you have to distinguish between 2 different types of _snake_. In the first case, the snake moves in a grid and every time when the snake moves, it strides ahead one field in the grid. In the other type, the snakes position is not in a raster and not snapped on the fields of the grid, the position is free and the snake slides smoothly through the fields.  
 In former each element of the body is snapped to the fields of the grid, as the head is. The other is more trick, because the position of a body element depends on the size of the element and the dynamic, previous positions of the snakes head.
 
