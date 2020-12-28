@@ -200,7 +200,6 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
 - Draw trail
   [How do I leave a trail behind a sprite with pygame? (Tron Game)](https://stackoverflow.com/questions/64884308/how-do-i-leave-a-trail-behind-a-sprite-with-pygame-tron-game/64884426#64884426)
   
-- Multiple bouncing circles or balls
 - moving tank with rotating gun fire bullets
 - chess board
 - sprite with floating point accuracy
