@@ -45,6 +45,11 @@ Related Stack Overflow questions:
 - [Pygame already installed; however, python terminal says “No module named 'pygame' ” (Ubuntu 20.04.1)](https://stackoverflow.com/questions/64016215/pygame-already-installed-however-python-terminal-says-no-module-named-pygame/64016373#64016373)
 
 
+### PyCharm
+
+- [Cannot install pygame in Pycharm](https://stackoverflow.com/questions/59338356/cannot-install-pygame-in-pycharm?rq=1)  
+- [pycharm doesn't recognize pygame package](https://stackoverflow.com/questions/15464568/pycharm-doesnt-recognize-pygame-package)  
+
 ## Exe
 
 ### "cx_freeze"

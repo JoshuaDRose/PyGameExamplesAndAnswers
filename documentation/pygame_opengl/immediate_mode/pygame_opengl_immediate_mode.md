@@ -48,6 +48,8 @@ Related Stack Overflow questions:
 
   :scroll: **[OpenGL immediate mode - Draw a cube with outline using fixed function attributes](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_fixed_attribute_cube.py)**
 
+  :scroll: **[OpenGL immediate mode - Draw a cube with outline using fixed function attributes (VAO)](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_fixed_attribute_cube_vao.py)**
+
 ## Draw lines and polygons
 
 - [Draw variable number of lines - PyOpenGL](https://stackoverflow.com/questions/64079973/draw-variable-number-of-lines-pyopengl/64080275#64080275)  

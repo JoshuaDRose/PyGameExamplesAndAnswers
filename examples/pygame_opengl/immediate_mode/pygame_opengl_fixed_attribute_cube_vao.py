@@ -25,16 +25,35 @@ class Cube:
         for e in edges:
             edge_attributes += v[e[0]]
             edge_attributes += v[e[1]]
-        self.edge_array = (GLfloat * len(edge_attributes))(*edge_attributes)
 
-        face_vertices = []
-        face_colors = []
+        face_attributes = []
         for i, quad in enumerate(surfaces):
             for iv in quad:
-                face_vertices += v[iv]
-                face_colors += colors[i]
-        self.vertex_array = (GLfloat * len(face_vertices))(*face_vertices)
-        self.color_array = (GLfloat * len(face_colors))(*face_colors)
+                face_attributes += v[iv]
+                face_attributes += colors[i]
+
+        self.edge_vbo = glGenBuffers(1)
+        glBindBuffer(GL_ARRAY_BUFFER, self.edge_vbo)
+        glBufferData(GL_ARRAY_BUFFER, (GLfloat * len(edge_attributes))(*edge_attributes), GL_STATIC_DRAW)
+        self.edge_vao = glGenVertexArrays(1)
+        glBindVertexArray(self.edge_vao)
+        glVertexPointer(3, GL_FLOAT, 0, None) 
+        glEnableClientState(GL_VERTEX_ARRAY) 
+        glBindBuffer(GL_ARRAY_BUFFER, 0) 
+
+        self.face_vbos = glGenBuffers(1)
+        glBindBuffer(GL_ARRAY_BUFFER, self.face_vbos)
+        glBufferData(GL_ARRAY_BUFFER, (GLfloat * len(face_attributes))(*face_attributes), GL_STATIC_DRAW)
+        self.face_vao = glGenVertexArrays(1)
+        glBindVertexArray(self.face_vao)
+        glVertexPointer(3, GL_FLOAT, 6*ctypes.sizeof(GLfloat), None)
+        glEnableClientState(GL_VERTEX_ARRAY)  
+        glColorPointer(3, GL_FLOAT, 6*ctypes.sizeof(GLfloat), ctypes.cast(3*ctypes.sizeof(GLfloat), ctypes.c_void_p)) 
+        glEnableClientState(GL_COLOR_ARRAY) 
+        
+        glBindBuffer(GL_ARRAY_BUFFER, 0) 
+        glBindVertexArray(0)
+
 
     def draw(self):
         glEnable(GL_DEPTH_TEST)
@@ -42,21 +61,16 @@ class Cube:
         glLineWidth(5)
 
         glColor3fv(self.line_color)
-        glVertexPointer(3, GL_FLOAT, 0, self.edge_array) 
-        glEnableClientState(GL_VERTEX_ARRAY) 
+        glBindVertexArray(self.edge_vao)
         glDrawArrays(GL_LINES, 0, 12*2)
-        glDisableClientState(GL_VERTEX_ARRAY)
+        glBindVertexArray(0)
 
         glEnable(GL_POLYGON_OFFSET_FILL)
         glPolygonOffset( 1.0, 1.0 )
 
-        glVertexPointer(3, GL_FLOAT, 0, self.vertex_array)
-        glColorPointer(3, GL_FLOAT, 0, self.color_array) 
-        glEnableClientState(GL_VERTEX_ARRAY)  
-        glEnableClientState(GL_COLOR_ARRAY) 
+        glBindVertexArray(self.face_vao)
         glDrawArrays(GL_QUADS, 0, 6*4)
-        glDisableClientState(GL_VERTEX_ARRAY)  
-        glDisableClientState(GL_COLOR_ARRAY) 
+        glBindVertexArray(0)
         
         glDisable(GL_POLYGON_OFFSET_FILL)
 
