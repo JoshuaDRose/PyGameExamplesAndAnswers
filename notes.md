@@ -215,6 +215,9 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
 - create example which projects sin and cosin (sin horizontally and cosin vertically)  
   [Math and Vector - Curve - Trigonometry](documentation/pygame/pygame_math_vector_and_reflection.md)
 
+- slider  
+  [Creating sliders using pygame](https://stackoverflow.com/questions/65482148/creating-sliders-using-pygame)
+
 ## New Pages
 
 - grid

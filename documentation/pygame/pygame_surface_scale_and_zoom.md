@@ -16,6 +16,7 @@ Related Stack Overflow questions:
 - [How do i properly rescale an image on PyGame without it being badly cropped?](https://stackoverflow.com/questions/55319967/how-do-i-properly-rescale-an-image-on-pygame-without-it-being-badly-cropped/55321552#55321552)
 - [Set the width and height of a pygame surface](https://stackoverflow.com/questions/62467003/set-the-width-and-height-of-a-pygame-surface/62467567#62467567)
 - [Resize Image Content but Keep Image Dimensions](https://stackoverflow.com/questions/63648196/resize-image-content-but-keep-image-dimensions/63648597#63648597)
+- [How can you draw more detailed/smoother images in pygame?](https://stackoverflow.com/questions/65492782/how-can-you-draw-more-detailed-smoother-images-in-pygame/65492828#65492828)
 
 [`pygame.transform.scale()`](https://www.pygame.org/docs/ref/surface.html) does not scale the input Surface itself. It creates a new surface and does a scaled "blit" to the new surface. The new surface is returned by the return value:
 

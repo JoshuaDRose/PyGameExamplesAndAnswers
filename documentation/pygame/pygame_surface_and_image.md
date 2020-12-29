@@ -54,6 +54,7 @@ Note, if the surface has a different format than the display, then `blit` has to
 Related Stack Overflow questions:
 
 - [How to Display Sprites in Pygame?](https://stackoverflow.com/questions/59348409/how-to-display-sprites-in-pygame/65368394#65368394)
+- [A Python Programming Road Block Type Error: 'pygame.Surface' object is not callable How to Fix](https://stackoverflow.com/questions/50630244/a-python-programming-road-block-type-error-pygame-surface-object-is-not-calla/65493234#65493234)
 
 ## Transparent surface and color key
 
