@@ -40,7 +40,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [How to perform OpenGL rotation in more than 1 axis using shaders, pygame, and pyopengl](https://stackoverflow.com/questions/58075996/how-to-perform-opengl-rotation-in-more-than-1-axis-using-shaders-pygame-and-py)
+- [How to perform OpenGL rotation in more than 1 axis using shaders, pygame, and pyopengl](https://stackoverflow.com/questions/58075996/how-to-perform-opengl-rotation-in-more-than-1-axis-using-shaders-pygame-and-py/58076894#58076894)
 
 Pyrr's [`Matrix44`](https://pyrr.readthedocs.io/en/latest/api_matrix.html#module-pyrr.matrix44) behaves like and is implemented using [`numpy.array`](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array.html).
 
@@ -65,13 +65,17 @@ rot = rot_x @ rot_y
 
 Related Stack Overflow questions:
 
-- [In python, how do you implement vertex and fragment shaders (programmable pipeline) in a openGL first person shooter view?](https://stackoverflow.com/questions/59896103/in-python-how-do-you-implement-vertex-and-fragment-shaders-programmable-pipeli)
+- [In python, how do you implement vertex and fragment shaders (programmable pipeline) in a openGL first person shooter view?](https://stackoverflow.com/questions/59896103/vertex-fragment-shaders-for-a-opengl-firsrt-person-shooter-view/59898241#59898241)  
 
 ### Texture
 
 Related Stack Overflow questions:
 
-- [Texture arrays in OpenGL](https://stackoverflow.com/questions/64122446/texture-arrays-in-opengl/64124199?noredirect=1#comment113396063_64124199)
+- [Texture arrays in OpenGL](https://stackoverflow.com/questions/64122446/texture-arrays-in-opengl/64124199#64124199)  
+  ![Texture arrays in OpenGL](https://i.stack.imgur.com/zlH2Z.gif)
+
+  :scroll: **[OpenGL immediate mode - Cube and texture array](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_mesh_cube_texture_array.py)**
+
 - [Use Texture Arrays To Texture A Sphere In OpenGL](https://stackoverflow.com/questions/64209236/use-texture-arrays-to-texture-a-sphere-in-opengl?noredirect=1#comment113552166_64209236)
 
 It is like wrapping a checkered paper around the sphere. The 3D vertex coordinates form the sphere. The checkered paper is the 2D texture, with the 2D texture coordinates arranged in a grid. Each texture coordinate has to be associated to a point on the sphere (a vertex coordinate).
