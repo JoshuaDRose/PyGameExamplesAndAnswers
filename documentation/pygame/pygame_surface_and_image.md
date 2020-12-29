@@ -319,7 +319,7 @@ def cv2ImageToSurface(cv2Image):
 
 Related Stack Overflow questions:
 
-- [SVG rendering in a PyGame application](https://stackoverflow.com/questions/120584/svg-rendering-in-a-pygame-application)
+- [SVG rendering in a PyGame application](https://stackoverflow.com/questions/120584/svg-rendering-in-a-pygame-application/64598021#64598021)
 
 [pynanosvg](https://github.com/ethanhs/pynanosvg) can be used to load and rasterize [Vector Graphics (SVG)](https://de.wikipedia.org/wiki/Scalable_Vector_Graphics) files. Install [_Cython_](v) and _pynanosvg_:
 

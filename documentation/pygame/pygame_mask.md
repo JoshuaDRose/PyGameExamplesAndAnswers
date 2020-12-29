@@ -42,6 +42,11 @@ Related Stack Overflow questions:
 
 - [Get the pixels which are colliding with the Surface](https://stackoverflow.com/questions/20715211/get-the-pixels-which-are-colliding-with-the-surface/65408358#65408358)
 
+## Circular maks
+
+Related Stack Overflow questions:
+
+- [pygame: mask non-image type surfaces](https://stackoverflow.com/questions/65455888/pygame-mask-non-image-type-surfaces/65455939#65455939)
 ## Mask bounding area rectangle
 
 Related Stack Overflow questions:
