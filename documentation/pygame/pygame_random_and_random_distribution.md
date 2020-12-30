@@ -8,7 +8,7 @@
 
 Related Stack Overflow questions:
 
-- [Random non overlapping circles(with circle number controlled) in python and pygame](https://stackoverflow.com/questions/62079192/random-non-overlapping-circleswith-circle-number-controlled-in-python-and-pyga)
+- [Random non overlapping circles(with circle number controlled) in python and pygame](https://stackoverflow.com/questions/62079192/random-non-overlapping-circleswith-circle-number-controlled-in-python-and-pyga/62080074#62080074)
 
   :scroll: **[Minimal example - Random distribution of circles](../../examples/minimal_examples/pygame_minimal_random_distribution_of_circles.py)**
 
