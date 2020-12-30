@@ -115,9 +115,21 @@ surface = pygame.image.load(imgPath)
 
 ## Errors
 
+### SDL errors
+
+- [pip install pygame - SDL.h file not found](https://stackoverflow.com/questions/45992243/pip-install-pygame-sdl-h-file-not-found)
+
+### No module named 'pygame'
+
+Related Stack Overflow questions:
+
+- [ImportError: No module named 'pygame'](https://stackoverflow.com/questions/18317521/importerror-no-module-named-pygame)
+
 ### Local and global variables
 
 [Python Global Keyword](https://www.programiz.com/python-programming/global-keyword)
+
+Related Stack Overflow questions:
 
 - [Python pygame - bouncing ball (UnboundLocalError: local variable 'move_y' referenced before assignment)](https://stackoverflow.com/questions/65153237/python-pygame-bouncing-ball-unboundlocalerror-local-variable-move-y-refere/65154942#65154942)
 
@@ -145,8 +157,8 @@ Tag: delete object, remove object, erase object, delete image, remove image, era
 Related Stack Overflow questions:
 
 - [how to make image/images disappear in pygame?](https://stackoverflow.com/questions/61480115/how-to-make-image-images-disappear-in-pygame/61480380#61480380)
-- [How to delete one object from a Surface instance (pygame)?](https://stackoverflow.com/questions/62859831/how-to-delete-one-object-from-a-surface-instance-pygame/62860003)
 - [How do I delete rect object from screen once player collides with it?](https://stackoverflow.com/questions/62957899/how-do-i-delete-rect-object-from-screen-once-player-collides-with-it/62958077#62958077)
+- [How to delete one object from a Surface instance (pygame)?](https://stackoverflow.com/questions/62859831/how-to-delete-one-object-from-a-surface-instance-pygame/62860003)
 
 ## Grid
 

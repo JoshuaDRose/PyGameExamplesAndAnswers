@@ -176,6 +176,36 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)</kbd>
 
+The general approach to firing bullets is to store the positions of the bullets in a list (`bullet_list`). When a bullet is fired, at the starting position of the bullet (`[start_x, start_y]`) to the list. The starting position is the position of the object (player or enemy) that fires the bullet. Use a `for`-loop to iterate through all of the bullets in the list. Move each individual bullet in the loop. Remove a bullet from the list that leaves the screen (`bullet_list.remove(bullet_pos)`). For this reason, a copy of the list must be run through (see [How to remove items from a list while iterating?](https://stackoverflow.com/questions/1207406/how-to-remove-items-from-a-list-while-iterating)). Use another ` for`-loop to `blit` the remaining bullets on the screen:
+
+```py
+bullet_list = []
+
+while run == True:
+    # [...]
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            run = False
+
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_SPACE:
+                bullet_list.append([start_x, start_y])
+
+    for bullet_pos in bullet_list[:]:
+        bullet_pos[0] += move_bullet_x
+        bullet_pos[1] += move_bullet_y
+        if not screen.get_rect().colliderect(bullet_image.get_rect(center = bullet_pos))
+            bullet_list.remove(bullet_pos)
+
+    # [...]
+
+    for bullet_pos in bullet_list[:]
+        screen.blit(bullet_image, bullet_image.get_rect(center = bullet_pos))
+
+    # [...]
+```
+
 ## Key representation
 
 Related Stack Overflow questions:
