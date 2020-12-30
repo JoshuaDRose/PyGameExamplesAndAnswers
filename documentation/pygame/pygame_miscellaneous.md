@@ -44,11 +44,11 @@ Related Stack Overflow questions:
 
 - [Pygame already installed; however, python terminal says “No module named 'pygame' ” (Ubuntu 20.04.1)](https://stackoverflow.com/questions/64016215/pygame-already-installed-however-python-terminal-says-no-module-named-pygame/64016373#64016373)
 
-
 ### PyCharm
 
 - [Cannot install pygame in Pycharm](https://stackoverflow.com/questions/59338356/cannot-install-pygame-in-pycharm?rq=1)  
 - [pycharm doesn't recognize pygame package](https://stackoverflow.com/questions/15464568/pycharm-doesnt-recognize-pygame-package)  
+- [Make sure that you use the correct version of 'pip' installed for your Python interpreter located at 'dir:\projectPath\venv\Scripts\python.exe'](https://stackoverflow.com/questions/58538639/make-sure-that-you-use-the-correct-version-of-pip-installed-for-your-python-in)  
 
 ## Exe
 
@@ -71,6 +71,7 @@ Related Stack Overflow questions:
 
 - [PyInstaller, spec file, ImportError: No module named 'blah'](https://stackoverflow.com/questions/7436132/pyinstaller-spec-file-importerror-no-module-named-blah)
 - [Pyinstaller Unable to access Data Folder](https://stackoverflow.com/questions/63175001/pyinstaller-unable-to-access-data-folder/63182146#63182146)
+- [Python - pygame error when executing exe file](https://stackoverflow.com/questions/62936621/python-pygame-error-when-executing-exe-file/62944866#62944866)
 
 ## File access
 

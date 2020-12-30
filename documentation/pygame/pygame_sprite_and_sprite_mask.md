@@ -58,6 +58,7 @@ Get a list of _Sprites_ and access them by subscription:
 ```py
 sprite_list = sprite_group.sprites()
 sprite_1 = sprite_list[0]
+```
 
 ## Destroy (kill) Sprite objects
 
@@ -349,7 +350,8 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [how to create a circular sprite in pygame](https://stackoverflow.com/questions/61429734/how-to-create-a-circular-sprite-in-pygame/61429811#61429811)
+- [how to create a circular sprite in pygame](https://stackoverflow.com/questions/61429734/how-to-create-a-circular-sprite-in-pygame/61429811#61429811)  
+- [OOP Pygame Circle](https://stackoverflow.com/questions/65499220/oop-pygame-circle/65499257#65499257)  
 
 ## Health Bar
 
