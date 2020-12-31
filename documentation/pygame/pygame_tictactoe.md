@@ -12,3 +12,4 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Tic Tac Toe](../../examples/minimal_examples/pygame_minimal_tic_tac_toe_1.py
 
+- [Im making a simple TicTacToe in pyjama but I am running into some errors](https://stackoverflow.com/questions/65522324/im-making-a-simple-tictactoe-in-pyjama-but-i-am-running-into-some-errors/65522402#65522402)
