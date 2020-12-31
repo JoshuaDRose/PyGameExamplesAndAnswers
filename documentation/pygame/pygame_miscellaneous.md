@@ -73,6 +73,15 @@ Related Stack Overflow questions:
 - [Pyinstaller Unable to access Data Folder](https://stackoverflow.com/questions/63175001/pyinstaller-unable-to-access-data-folder/63182146#63182146)
 - [Python - pygame error when executing exe file](https://stackoverflow.com/questions/62936621/python-pygame-error-when-executing-exe-file/62944866#62944866)
 
+
+## IDE
+
+### VSCode Intellisense
+
+Related Stack Overflow questions:
+
+- [VSCode Intellisense not Working for pygame](https://stackoverflow.com/questions/62475015/vscode-intellisense-not-working-for-pygame)
+
 ## File access
 
 Related Stack Overflow questions:

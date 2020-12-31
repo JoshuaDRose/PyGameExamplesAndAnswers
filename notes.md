@@ -132,10 +132,10 @@ interesting
 
 #### Questions about size, and resizing
 
+[pygame dual monitors and fullscreen](https://stackoverflow.com/questions/7097163/pygame-dual-monitors-and-fullscreen)  
 [Allowing resizing window pyGame](https://stackoverflow.com/questions/11603222/allowing-resizing-window-pygame)  
 [How to get the resolution of a monitor in Pygame?](https://stackoverflow.com/questions/19954469/how-to-get-the-resolution-of-a-monitor-in-pygame)  
 [How can I keep a PyGame screen overlay on top?](https://stackoverflow.com/questions/64779210/how-can-i-keep-a-pygame-screen-overlay-on-top)  
-[pygame fullscreen on second monitor](https://stackoverflow.com/questions/64495381/pygame-fullscreen-on-second-monitor)  
 [Get screen position using pygame - Linux](https://stackoverflow.com/questions/59181511/get-screen-position-using-pygame-linux)  
 [Change display orientation with pygame](https://stackoverflow.com/questions/64564646/change-display-orientation-with-pygame)  
 [change display mode without closing the game in pygame](https://stackoverflow.com/questions/64480006/change-display-mode-without-closing-the-game-in-pygame)
@@ -221,6 +221,7 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
 ## New Pages
 
 - grid
+- chess
 - snake  
   related questions: [how to solve bug on snake wall teleportation](https://stackoverflow.com/questions/64624092/how-to-solve-bug-on-snake-wall-teleportation/64624385#64624385) and many more
 

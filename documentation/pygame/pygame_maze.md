@@ -17,6 +17,8 @@ Related Stack Overflow questions:
 - [How to implement barriers to stop the player moving through walls](https://stackoverflow.com/questions/65124664/how-to-implement-barriers-to-stop-the-player-moving-through-walls/65130719#65130719)  
   ![How to implement barriers to stop the player moving through walls](https://i.stack.imgur.com/WKJ5K.gif)
 
+  :scroll: **[Minimal example - Maze generator 2](../../examples/minimal_examples/pygame_minimal_maze_2.py)**
+
 - [Pygame Maze Game not creating levels correctly](https://stackoverflow.com/questions/59436266/pygame-maze-game-not-creating-levels-correctly/59436430#59436430)
 
 - [How do I move elements of a matrix in python?](https://stackoverflow.com/questions/65174955/how-do-i-move-elements-of-a-matrix-in-python/65178270#65178270)  
