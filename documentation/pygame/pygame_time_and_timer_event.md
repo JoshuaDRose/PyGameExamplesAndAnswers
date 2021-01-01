@@ -178,6 +178,7 @@ Related Stack Overflow questions:
 - [Spawning multiple instances of the same object concurrently in python](https://stackoverflow.com/questions/62112754/spawning-multiple-instances-of-the-same-object-concurrently-in-python/62112894#62112894)  
   ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/1X0kk.gif)
 - [How to run multiple while loops at a time in Python](https://stackoverflow.com/questions/65263318/how-to-run-multiple-while-loops-at-a-time-in-python)  
+- [Issues with pygame.time.get_ticks()](https://stackoverflow.com/questions/65529525/issues-with-pygame-time-get-ticks/65529554#65529554)  
 
 If the time exceeds `next_zombie_time` span a zombie and set the time for the next zombie to spawn:
 

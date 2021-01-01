@@ -260,8 +260,8 @@ Related Stack Overflow questions:
 
 ## Antialiased circle
 
-- [How to set width on pygame.gfx.aacircle()?](https://stackoverflow.com/questions/64816341/https://stackoverflow.com/questions/64816341/how-to-set-width-on-pygame-gfx-aacircle/65353318#65353318)  
-  ![How to set width on pygame.gfx.aacircle()?](https://i.stack.imgur.com/FBCXx.png)
+- [How do you draw an antialiased circular line of a certain thickness? How to set width on pygame.gfx.aacircle()?](https://stackoverflow.com/questions/64816341/how-do-you-draw-an-antialiased-circular-line-of-a-certain-thickness-how-to-set/65353318#65353318)  
+  ![How do you draw an antialiased circular line of a certain thickness? How to set width on pygame.gfx.aacircle()?](https://i.stack.imgur.com/FBCXx.png)
 
   :scroll: **[Minimal example - Antialiased circle](../../examples/minimal_examples/pygame_minimal_draw_antialiased_circle.py)**  
   :scroll: **[Minimal example - Antialiased circle with OpenCV](../../examples/minimal_examples/pygame_minimal_draw_antialiased_circle_cv2.py)**

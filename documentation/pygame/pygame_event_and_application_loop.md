@@ -19,6 +19,9 @@ Related Stack Overflow questions:
 - [Why is my pygame application loop not working properly?](https://stackoverflow.com/questions/60387348/how-to-make-a-camera-for-a-2d-topdown-game-in-pygame/60390374#60390374)
 - [Is it possible for a sprite to react to a specific color](https://stackoverflow.com/questions/61703850/is-it-possible-for-a-sprite-to-react-to-a-specific-color/61704072#61704072)
 - [How to run multiple while loops at a time in Python](https://stackoverflow.com/questions/65263318/how-to-run-multiple-while-loops-at-a-time-in-python/65263396#65263396)
+- [Why text display for 2 seconds in pygame](https://stackoverflow.com/questions/62459547/why-text-display-for-2-seconds-in-pygame/65528753#65528753)  
+
+If you want something to be drawn permanently, you need to draw it in the application loop
 
 The typical PyGame application loop has to:
 
@@ -27,6 +30,12 @@ The typical PyGame application loop has to:
 - clear the entire display or draw the background
 - draw the entire scene (`blit` all the objects)
 - update the display by either [`pygame.display.update()`](https://www.pygame.org/docs/ref/display.html#pygame.display.update) or [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygame.display.flip)
+
+You are actually drawing on a [`Surface`](https://www.pygame.org/docs/ref/display.html#pygame.display.update) object. If you draw on the _Surface_ associated to the PyGame display, this is not immediately visible in the display. The changes become visibel, when the display is updated with either [`pygame.display.update()`](https://www.pygame.org/docs/ref/display.html#pygame.display.update) or [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygame.display.flip).
+
+See [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygame.display.flip):
+
+> This will update the contents of the entire display.
 
 :scroll: **[Minimal example - Game loop](../../examples/minimal_examples/pygame_minimal_application_loop.py)**
 
@@ -38,6 +47,7 @@ Related Stack Overflow questions:
 
 - [I keep getting this error “pygame.error: display Surface quit” and dont know what to do](https://stackoverflow.com/questions/62887724/i-keep-getting-this-error-pygame-error-display-surface-quit-and-dont-know-wha/62888228#62888228)  
 - [why is the exit window button work but the exit button in the game does not work?](https://stackoverflow.com/questions/55348418/why-is-the-exit-window-button-work-but-the-exit-button-in-the-game-does-not-work/55350638#55350638)  
+- [pygame.error: display Surface quit - WHY IS THIS HAPPENING?](https://stackoverflow.com/questions/62457460/pygame-error-display-surface-quit-why-is-this-happening/65528817#65528817)
 
 ### Wait and input in application loop
 

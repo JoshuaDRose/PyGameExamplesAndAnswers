@@ -15,6 +15,7 @@
             - [Questions about size, and resizing](#questions-about-size-and-resizing)
         - [Not answered questions](#not-answered-questions)
             - [3D](#3d)
+        - [PyOpenGL](#pyopengl)
             - [Threading](#threading)
         - [Improve answer](#improve-answer)
         - [Investigate](#investigate)
@@ -150,6 +151,12 @@ interesting
 
 [Pygame: Fastest way to draw a scanline rasterized triangle pixel by pixel with depth buffering?](https://stackoverflow.com/questions/64259810/pygame-fastest-way-to-draw-a-scanline-rasterized-triangle-pixel-by-pixel-with-d)  
 [Making the rays travel faster](https://stackoverflow.com/questions/64093301/making-the-rays-travel-faster)  
+[Rotate object by dragging mouse pygame](https://stackoverflow.com/questions/62668127/rotate-object-by-dragging-mouse-pygame)  
+
+### PyOpenGL
+
+[OpenGL: How do I apply a texture to this cube?](https://stackoverflow.com/questions/39194862/opengl-how-do-i-apply-a-texture-to-this-cube)  
+[How to apply texture to a pyramid in PyOpenGL](https://stackoverflow.com/questions/62516417/how-to-apply-texture-to-a-pyramid-in-pyopengl)  
 
 #### Threading
 

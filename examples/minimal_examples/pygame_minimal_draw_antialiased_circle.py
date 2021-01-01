@@ -1,8 +1,8 @@
 # pygame.draw module
 # https://www.pygame.org/docs/ref/draw.html
 #  
-# How to set width on pygame.gfx.aacircle()?
-# https://stackoverflow.com/questions/64816341/how-to-set-width-on-pygame-gfx-aacircle/65353318#65353318
+# How do you draw an antialiased circular line of a certain thickness? How to set width on pygame.gfx.aacircle()?
+# https://stackoverflow.com/questions/64816341/how-do-you-draw-an-antialiased-circular-line-of-a-certain-thickness-how-to-set/65353318#65353318
 # 
 # GitHub - PyGameExamplesAndAnswers - Shape and contour - Draw arc
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_draw_shape_and_contour.md

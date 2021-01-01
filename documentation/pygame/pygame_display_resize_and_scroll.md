@@ -87,6 +87,7 @@ Related Stack Overflow questions:
 - [How do I make my pygame window minimze and maximize?](https://stackoverflow.com/questions/61867449/how-do-i-make-my-pygame-window-minimze-and-maximize/61867690#61867690)
 - [How to make my pygame game window resizeable?](https://stackoverflow.com/questions/62899967/how-to-make-my-pygame-game-window-resizeable/62900107#62900107)
 - [Get screen orientation with Python](https://stackoverflow.com/questions/64272110/get-screen-orientation-with-python/64273980#64273980)
+- [Update during resize in Pygame](https://stackoverflow.com/questions/64543449/update-during-resize-in-pygame)
 
 When the display option `RESIZABLE` (see [`pygame.display.set_mode()`](https://www.pygame.org/docs/ref/display.html#pygame.display.set_mode)) is set, then the `VIDEORESIZE` event (see [`pygame.event`](https://www.pygame.org/docs/ref/event.html)) occurs when the window is resized. The new size of the window can be get form the even attributes:
 
