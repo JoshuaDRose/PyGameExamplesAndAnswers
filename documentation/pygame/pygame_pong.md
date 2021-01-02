@@ -21,3 +21,5 @@ Related Stack Overflow questions:
 
 - [Changing FPS on pygame in order to achieve smoothness of sprite's movement](https://stackoverflow.com/questions/59037251/changing-fps-on-pygame-in-order-to-achieve-smoothness-of-sprites-movement/65371237?noredirect=1)  
   ![Changing FPS on pygame in order to achieve smoothness of sprite's movement](https://i.stack.imgur.com/XTivx.gif)
+
+- [How do I define collisions for x and y separately?](https://stackoverflow.com/questions/65531165/how-do-i-define-collisions-for-x-and-y-separately/65531270#65531270)

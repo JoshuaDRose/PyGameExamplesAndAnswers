@@ -349,10 +349,10 @@ def load_svg(filename, scale=None, size=None, clip_from=None, fit_to=None, foram
 Related Stack Overflow questions:
 
 - [Invalid destination position for blit error, not seeing how](https://stackoverflow.com/questions/55199591/invalid-destination-position-for-blit-error-not-seeing-how/55199736#55199736)
-- [Pygame window crashing and sprite sheet issue](https://stackoverflow.com/questions/55200501/pygame-window-crashing-and-sprite-sheet-issue/55200625#55200625)
+- [Pygame window crashing and sprite sheet issue](https://stackoverflow.com/questions/55200501/pygame-window-crashing-and-sprite-sheet-issue/55200625#55200625)  
+  ![Pygame window crashing and sprite sheet issue](https://i.stack.imgur.com/Ekuju.gif)
 
 :scroll: **[Minimal example - Load Sprite Sheet](../../examples/minimal_examples/pygame_minimal_surface_load_sprite_sheet.py)**
-# https://stackoverflow.com/questions/55200501/pygame-window-crashing-and-sprite-sheet-issue
 
 ### Load animated GIF
 

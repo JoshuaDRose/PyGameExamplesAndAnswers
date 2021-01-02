@@ -160,6 +160,8 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
+- [Pygame window crashing and sprite sheet issue](https://stackoverflow.com/questions/55200501/pygame-window-crashing-and-sprite-sheet-issue/55200625#55200625)  
+  ![Pygame window crashing and sprite sheet issue](https://i.stack.imgur.com/Ekuju.gif)
 - [Play animation upon collision with enemy](https://stackoverflow.com/questions/61964552/play-animation-upon-collision-with-enemy/61968944#61968944)
 - [trying to get sprite to disappear from screen after certain amount of time](https://stackoverflow.com/questions/62614228/trying-to-get-sprite-to-disappear-from-screen-after-certain-amount-of-time/62614388#62614388)
 - [Animated sprite from few images](https://stackoverflow.com/questions/14044147/animated-sprite-from-few-images/64668964#64668964)

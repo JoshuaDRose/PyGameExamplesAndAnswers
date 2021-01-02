@@ -34,7 +34,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Problems getting pygame to show anything but a blank screen on Macos Mojave](https://stackoverflow.com/questions/52718921/problems-getting-pygame-to-show-anything-but-a-blank-screen-on-macos-mojave)
+- [Problems getting pygame to show anything but a blank screen on Macos](https://stackoverflow.com/questions/52718921/problems-getting-pygame-to-show-anything-but-a-blank-screen-on-macos)
 - [pygame installation issue in mac os](https://stackoverflow.com/questions/22974339/pygame-installation-issue-in-mac-os)
 - [Pygame 1.9.6 not loading in Python 3.8.1](https://stackoverflow.com/questions/59691131/pygame-1-9-6-not-loading-in-python-3-8-1)
 - [Pygame not showing anything in the window](https://stackoverflow.com/questions/53182886/pygame-not-showing-anything-in-the-window)
@@ -65,7 +65,7 @@ Related Stack Overflow questions:
 - [My py2app app will not open. What's the problem?](https://stackoverflow.com/questions/3470377/my-py2app-app-will-not-open-whats-the-problem)
 - [Py2app: Operation not permitted](https://stackoverflow.com/questions/33197412/py2app-operation-not-permitted)
 
-### Pyinstaller
+### PyInstaller
 
 Related Stack Overflow questions:
 
@@ -122,6 +122,12 @@ imgPath = os.path.join(sourceFileDir, 'test_bg.jpg')
 surface = pygame.image.load(imgPath)
 ```
 
+## Host online
+
+Related Stack Overflow questions:
+
+- [Tool to host online Python/Pygame experiment](https://stackoverflow.com/questions/62267800/tool-to-host-online-python-pygame-experiment/65530696#65530696)
+
 ## Errors
 
 ### SDL errors
@@ -148,7 +154,7 @@ Reading a local variable `x` before it is declared causes the error:
 
 > UnboundLocalError: local variable `x` referenced before assignment
 
-You have to use the [`global` statement](https://docs.python.org/3/reference/simple_stmts.html?highlight=global#grammar-token-global-stmt)  if you want to be interpret the variable as global variable.
+You have to use the [`global` statement](https://docs.python.org/3/reference/simple_stmts.html?highlight=global#grammar-token-global-stmt) if you want to be interpret the variable as global variable.
 
 ### Subclass
 

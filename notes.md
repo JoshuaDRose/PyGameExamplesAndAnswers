@@ -146,6 +146,8 @@ interesting
 [How to make parallax scrolling work properly with a camera that stops at edges pygame](https://stackoverflow.com/questions/63712333/how-to-make-parallax-scrolling-work-properly-with-a-camera-that-stops-at-edges-p)  
 [Self-driving car not improving with Q-Learning](https://stackoverflow.com/questions/58377239/self-driving-car-not-improving-with-q-learning)  
 [arbitrary polygon with transparency in pygame](https://stackoverflow.com/questions/55892066/arbitrary-polygon-with-transparency-in-pygame)  
+[Framerate drops from 60 fps to 30 fps when blitting texture using BLEND_RGB_MULT flag?](https://stackoverflow.com/questions/61492211/framerate-drops-from-60-fps-to-30-fps-when-blitting-texture-using-blend-rgb-mult)  
+[A-star algorithm results in weird, slow and inefficient choices](https://stackoverflow.com/questions/60955754/a-star-algorithm-results-in-weird-slow-and-inefficient-choices)  
 
 #### 3D
 
@@ -168,8 +170,10 @@ interesting
 
 ### Investigate
 
-[How to make keyboard Input into unicode/japanese characters?](https://stackoverflow.com/questions/64543224/how-to-make-keyboard-input-into-unicode-japanese-characters)
-[Update during resize in Pygame](https://stackoverflow.com/questions/64543449/update-during-resize-in-pygame)
+[How to make keyboard Input into unicode/japanese characters?](https://stackoverflow.com/questions/64543224/how-to-make-keyboard-input-into-unicode-japanese-characters)  
+[Update during resize in Pygame](https://stackoverflow.com/questions/64543449/update-during-resize-in-pygame)  
+[Pygame and win32api - blited image has outline when setting background as transparent with win32api](https://stackoverflow.com/questions/62135125/pygame-and-win32api-blited-image-has-outline-when-setting-background-as-transp)  
+[Creating a transparent window/overlay with pyopengl](https://stackoverflow.com/questions/61003354/creating-a-transparent-window-overlay-with-pyopengl)  
 
 ### My questions
 
