@@ -4,8 +4,8 @@
 # pygame.sprite module
 # https://www.pygame.org/docs/ref/sprite.html
 #
-# How can I make images as buttons in Pygame?
-# https://stackoverflow.com/questions/64990710/how-can-i-add-image-to-the-rectangle-in-pygame/64990819#64990819
+# How can I add an image or icon to a button rectangle in Pygame?
+# https://stackoverflow.com/questions/64990710/how-can-i-add-an-image-or-icon-to-a-button-rectangle-in-pygame/64990819#64990819
 #
 # GitHub - Mouse - Mouse and mouse event
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_mouse_and_mosuse_events.md

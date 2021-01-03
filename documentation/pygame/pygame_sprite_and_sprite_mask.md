@@ -255,8 +255,8 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseClick](https://repl.it/@Rabbid76/PyGame-MouseClick#main.py)</kbd>
 
-- [How can I make images as buttons in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-image-to-the-rectangle-in-pygame/64990819#64990819)  
-  ![How can I make images as buttons in Pygame?](https://i.stack.imgur.com/DnQdC.gif)
+- [How can I add an image or icon to a button rectangle in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-an-image-or-icon-to-a-button-rectangle-in-pygame/64990819#64990819)  
+  ![How can I add an image or icon to a button rectangle in Pygame?](https://i.stack.imgur.com/DnQdC.gif)
 
   :scroll: **[minimal example - Detect click on sprite 2](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click_2.py)**
 
@@ -302,8 +302,8 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseHover](https://repl.it/@Rabbid76/PyGame-MouseHover#main.py)</kbd>
 
-- [How can I make images as buttons in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-image-to-the-rectangle-in-pygame/64990819#64990819)  
-  ![How can I make images as buttons in Pygame?](https://i.stack.imgur.com/UEIde.gif)
+- [How can I add an image or icon to a button rectangle in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-an-image-or-icon-to-a-button-rectangle-in-pygame/64990819#64990819)  
+  ![How can I add an image or icon to a button rectangle in Pygame?](https://i.stack.imgur.com/UEIde.gif)
 
   :scroll: **[minimal example - Detect Sprite on hover 2_2](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover.py)**
 

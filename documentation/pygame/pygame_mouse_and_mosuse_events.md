@@ -14,8 +14,8 @@ Related Stack Overflow questions:
 - [Pygame mouse clicking detection](https://stackoverflow.com/questions/10990137/pygame-mouse-clicking-detection/64533684#64533684)  
   ![Pygame mouse clicking detection](https://i.stack.imgur.com/mW6vv.gif)![Pygame mouse clicking detection](https://i.stack.imgur.com/UJVKi.gif)  
 
-- [How can I add image to the rectangle in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-image-to-the-rectangle-in-pygame/64990819#64990819)  
-  ![How can I add image to the rectangle in Pygame?](https://i.stack.imgur.com/24ns9.gif)![How can I add image to the rectangle in Pygame?](https://i.stack.imgur.com/UEIde.gif)
+- [How can I add an image or icon to a button rectangle in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-an-image-or-icon-to-a-button-rectangle-in-pygame/64990819#64990819)  
+  ![How can I add an image or icon to a button rectangle in Pygame?](https://i.stack.imgur.com/24ns9.gif)![How can I add an image or icon to a button rectangle in Pygame?](https://i.stack.imgur.com/UEIde.gif)
 
 - [How to distinguish left click , right click mouse clicks in pygame?](https://stackoverflow.com/questions/34287938/how-to-distinguish-left-click-right-click-mouse-clicks-in-pygame)  
 - [Pygame - Mouse clicks not getting detected](https://stackoverflow.com/questions/64284668/python-w-pygame-mouse-detection-isnt-working)

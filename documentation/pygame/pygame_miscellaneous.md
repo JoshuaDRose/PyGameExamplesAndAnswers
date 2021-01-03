@@ -181,34 +181,6 @@ Related Stack Overflow questions:
 - [How do I delete rect object from screen once player collides with it?](https://stackoverflow.com/questions/62957899/how-do-i-delete-rect-object-from-screen-once-player-collides-with-it/62958077#62958077)
 - [How to delete one object from a Surface instance (pygame)?](https://stackoverflow.com/questions/62859831/how-to-delete-one-object-from-a-surface-instance-pygame/62860003)
 
-## Grid
-
-[Image loading using pygame](https://stackoverflow.com/questions/60617748/image-loading-using-pygame/60622756#60622756)
-
-[Blitting images onto a tile that is part of a grid in pygame](https://stackoverflow.com/questions/59121989/blitting-images-onto-a-tile-that-is-part-of-a-grid-in-pygame/59124520#59124520)  
-![scene](https://i.stack.imgur.com/9WgWJ.png)
-
-[Pygame lags after drawing full window grid](https://stackoverflow.com/questions/61650325/pygame-lags-after-drawing-full-window-grid/61650969#61650969)
-
-[Python pygame converting drawing to an image](https://stackoverflow.com/questions/61678353/python-pygame-converting-drawing-to-an-image/61678449#61678449)
-
-[how can I edit a sudoku grid in pygame using mouse and keyboard detection?](https://stackoverflow.com/questions/62345206/how-can-i-edit-a-sudoku-grid-in-pygame-using-mouse-and-keyboard-detection/62345586#62345586)
-
-[Colour chainging problem and non dupicates](https://stackoverflow.com/questions/63538350/colour-chainging-problem-and-non-dupicates/63538548#63538548)  
-![scene](https://i.stack.imgur.com/81Tvv.gif)
-
-[Get a sprites position so that the next sprite can be placed near it](https://stackoverflow.com/questions/63871620/get-a-sprites-position-so-that-the-next-sprite-can-be-placed-near-it/63873027#63873027)
-
-[Python: How to make drawn elements snap to grid in pygame](https://stackoverflow.com/questions/63926261/python-how-to-make-drawn-elements-snap-to-grid-in-pygame/63926759#63926759)  
-![scene](https://i.stack.imgur.com/VCmuV.gif)
-
-[Pygame: tweening error in movement in tile based game](https://stackoverflow.com/questions/63478615/pygame-tweening-error-in-movement-in-tile-based-game/65338538#65338538)  
-![Pygame: tweening error in movement in tile based game](https://i.stack.imgur.com/Gapfj.gif)
-
-[Plotting pieces on a checkerboard using pygame](https://stackoverflow.com/questions/65309004/plotting-pieces-on-a-checkerboard-using-pygame/65309258#65309258)  
-
-[Is it possible to update a pygame drawing attribute when a event occurs?](https://stackoverflow.com/questions/61551790/is-it-possible-to-update-a-pygame-drawing-attribute-when-a-event-occurs/61555479#61555479)
-![Is it possible to update a pygame drawing attribute when a event occurs?](https://i.stack.imgur.com/rchSC.gif)
 ## State engine
 
 [Pygame how to handle states](https://stackoverflow.com/questions/64084406/pygame-how-to-handle-states/65389874#65389874)  
