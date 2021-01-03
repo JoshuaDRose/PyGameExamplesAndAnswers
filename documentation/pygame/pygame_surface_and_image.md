@@ -508,6 +508,12 @@ Related Stack Overflow questions:
 - [How to output pygame.image.save to a variable instead of a file?](https://stackoverflow.com/questions/65405520/how-to-output-pygame-image-save-to-a-variable-instead-of-a-file/65405567#65405567)  
 - [Is there any way to convert the screen of a pygame gui into an image somehow?](https://stackoverflow.com/questions/60880169/is-there-any-way-to-convert-the-screen-of-a-pygame-gui-into-an-image-somehow/65543336#65543336)  
 
+## Subsurface
+
+Related Stack Overflow questions:
+
+- [How can I make a pygame surface object from only part of a loaded image?](https://stackoverflow.com/questions/60784107/how-can-i-make-a-pygame-surface-object-from-only-part-of-a-loaded-image/65549191#65549191)
+
 ## Pixel array
 
 Related Stack Overflow questions:

@@ -5,7 +5,7 @@
 # Motion and movement
 
 Related Stack Overflow questions:
- 
+
 - [make multiple objects automatically move for how many objects have been specified in pygame](https://stackoverflow.com/questions/55723064/make-multiple-objects-automatically-move-for-how-many-objects-have-been-specifie/55723441#55723441)  
   ![scene](https://i.stack.imgur.com/JxNz3.gif)
 

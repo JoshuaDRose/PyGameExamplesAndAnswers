@@ -140,6 +140,12 @@ Related Stack Overflow questions:
 
 - [ImportError: No module named 'pygame'](https://stackoverflow.com/questions/18317521/importerror-no-module-named-pygame)
 
+### Video system not initialized
+
+Related Stack Overflow questions:
+
+- [pygame.error: video system not initialized](https://stackoverflow.com/questions/26767591/pygame-error-video-system-not-initialized)
+
 ### Local and global variables
 
 [Python Global Keyword](https://www.programiz.com/python-programming/global-keyword)
