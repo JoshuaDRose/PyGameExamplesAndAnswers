@@ -61,13 +61,16 @@ That is probably a rare case. In general you should try to scale the surfaces at
 
 Do not try to use the parameter compulsively and do not "construct" a use case for the `DestSurface` parameter. Do it the other way around. Write your application and make it run. Then investigate whether the `DestSurface` parameter can be an improvement for your specific use case.
 
-## Zoom surface
+## Transform scale and zoom surface
 
 Related Stack Overflow questions:
 
+- [How do I scale a PyGame image (Surface) with respect to its center?](https://stackoverflow.com/questions/59919826/how-do-i-scale-a-pygame-image-surface-with-respect-to-its-center/59919909#59919909)  
+  ![How do I scale a PyGame image (Surface) with respect to its center?](https://i.stack.imgur.com/soWSp.gif)
+
+  :scroll: **[Minimal example - Spin](../../examples/minimal_examples/pygame_minimal_scale_center.py)**
+
 - [pygame.transform.scale does not work on the “game” surface](https://stackoverflow.com/questions/56407891/pygame-transform-scale-does-not-work-on-the-game-surface/56408482#56408482)
-- [Manipulating rect image size in pygame](https://stackoverflow.com/questions/59919826/manipulating-rect-image-size-in-pygame/59919909#59919909)  
-  ![Manipulating rect image size in pygame](https://i.stack.imgur.com/soWSp.gif)
 
 Define a zoom factor and calculate the size of the of the zoom area. e.g. If the zoom factor is 2, the area that needs to be zoomed on the window is half the width and height of the window:
 
@@ -104,6 +107,10 @@ Now `zoom_surf` has the same size as the window. `.blit` the surface to the wind
 window.blit(zoom_surf, (0, 0))
 ```
 
+## Scale and zoom window
+
+See [Display, display position, resize, coordinate system and scroll - Scale and zoom window](pygame_display_resize_and_scroll.md)
+
 ## Spin effect through scaling
 
 Related Stack Overflow questions:
@@ -111,4 +118,4 @@ Related Stack Overflow questions:
 - [“Spin” coin image in python, pygame clicker game](https://stackoverflow.com/questions/65173270/spin-coin-image-in-python-pygame-clicker-game/65173486#65173486)  
   ![“Spin” coin image in python, pygame clicker game](https://i.stack.imgur.com/4nsFE.gif)
 
-  :scroll: **[Minimal example - Spin](../../examples/surface_rotate/pygame_minimal_scale_spin.py)**
+  :scroll: **[Minimal example - Spin](../../examples/minimal_examples/pygame_minimal_scale_spin.py)**
