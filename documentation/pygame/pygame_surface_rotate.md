@@ -166,6 +166,8 @@ In the following example program, the function `blitRotate(surf, image, pos, ori
 
 - `angle` is the angle of rotation in degrees
 
+This means, the 2nd argument (`pos`) of `blitRotate` is the position of the pivot point in the window and the 3rd argument (`originPos`) is the position of the pivot point on the rotating _Surface_:
+
 ![rotate 4](https://i.stack.imgur.com/qnDPP.gif)
 
 :scroll: **[Minimal example - Rotate around pivot](../../examples/surface_rotate/pygame_image_rotate_4_pivot.py)**
