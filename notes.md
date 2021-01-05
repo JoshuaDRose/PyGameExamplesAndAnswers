@@ -125,6 +125,7 @@ interesting
 [pygame: get the current time of the music](https://stackoverflow.com/questions/59415731/pygame-get-the-current-time-of-the-music)  
 [Pygame: music is slower than it should be](https://stackoverflow.com/questions/63968885/pygame-music-is-slower-than-it-should-be)  
 [Opencv object tracking and audio responding](https://stackoverflow.com/questions/56643988/opencv-object-tracking-and-audio-responding)  
+[How to increase and decrease speed of these two songs using pygame K_LEFT and K_RIGHT?](https://stackoverflow.com/questions/60688300/how-to-increase-and-decrease-speed-of-these-two-songs-using-pygame-k-left-and-k)  
 
 ### Questions about video
 
