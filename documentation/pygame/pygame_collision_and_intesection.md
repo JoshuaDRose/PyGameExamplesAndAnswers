@@ -270,8 +270,8 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [How can I test if a point is in an ellipse?](https://stackoverflow.com/questions/59971407/getting-the-size-of-an-ellipse-and-controlling-if-point-is-in-ellipse-python-p)  
-  ![](https://i.stack.imgur.com/DQuaE.gif)
+- [How can I test if a point is in an ellipse?](https://stackoverflow.com/questions/59971407/how-can-i-test-if-a-point-is-in-an-ellipse/65601453#65601453)  
+  ![How can I test if a point is in an ellipse?](https://i.stack.imgur.com/DQuaE.gif)
 
   :scroll: **[Minimal example - Is point in ellipse](../../examples/minimal_examples/pygame_minimal_intersect_ellipse_point.py)**
 

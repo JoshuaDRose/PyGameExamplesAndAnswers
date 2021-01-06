@@ -57,6 +57,7 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/64122446/texture-arrays-in-opengl/64124199#64124199"><img src="https://i.stack.imgur.com/zlH2Z.gif" height="100" title="Textured cube"></a><!--
 --><a href="https://stackoverflow.com/questions/59919826/how-do-i-scale-a-pygame-image-surface-with-respect-to-its-center/59919909#59919909"><img src="https://i.stack.imgur.com/soWSp.gif" height="100" title="Zoom image"></a><!--
 --><a href="https://stackoverflow.com/questions/63478615/pygame-tweening-error-in-movement-in-tile-based-game/65338538#65338538"><img src="https://i.stack.imgur.com/Gapfj.gif" height="100" title="Grid  movement"></a><!--
+--><a href="https://stackoverflow.com/questions/59971407/how-can-i-test-if-a-point-is-in-an-ellipse/65601453#65601453"><img src="https://i.stack.imgur.com/DQuaE.gif" height="100" title="Point in ellipse"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  

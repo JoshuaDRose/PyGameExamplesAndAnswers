@@ -2,7 +2,7 @@
 # https://www.pygame.org/docs/ref/math.html
 #
 # How can I test if a point is in an ellipse?
-# https://stackoverflow.com/questions/59971407/getting-the-size-of-an-ellipse-and-controlling-if-point-is-in-ellipse-python-p 
+# https://stackoverflow.com/questions/59971407/how-can-i-test-if-a-point-is-in-an-ellipse/65601453#65601453
 #
 # GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Point and Ellipse
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_collision_and_intesection.md

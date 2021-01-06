@@ -112,7 +112,7 @@ interesting
 [Python Line-Circle collision](https://stackoverflow.com/questions/14276051/python-line-circle-collision)  
 [How to know if two ellipses are colliding - Pygame](https://stackoverflow.com/questions/65323156/how-to-know-if-two-ellipses-are-colliding-pygame)  
 [How create a simulation (pendulum, projectile motion) in pygame](https://stackoverflow.com/questions/59147116/how-create-a-simulation-pendulum-projectile-motion-in-pygame)  
-[How can you pre-calculate the balls trajectory and therefore its endpoint in the game Pong?](https://stackoverflow.com/questions/55976268/how-can-you-pre-calculate-the-balls-trajectory-and-therefore-its-endpoint-in-the)   
+[How can you pre-calculate the balls trajectory and therefore its endpoint in the game Pong?](https://stackoverflow.com/questions/55976268/how-can-you-pre-calculate-the-balls-trajectory-and-therefore-its-endpoint-in-the)  
 
 #### Recursiveness
 
