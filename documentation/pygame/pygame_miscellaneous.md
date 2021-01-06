@@ -52,6 +52,10 @@ Related Stack Overflow questions:
 
 ## Exe
 
+Related Stack Overflow questions:
+
+- [How can I convert pygame to exe?](https://stackoverflow.com/questions/54210392/how-can-i-convert-pygame-to-exe)
+
 ### "cx_freeze"
 
 Related Stack Overflow questions:

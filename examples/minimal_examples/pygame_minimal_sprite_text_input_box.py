@@ -33,7 +33,7 @@ class TextInputBox(pygame.sprite.Sprite):
         self.render_text()
 
     def render_text(self):
-        t_surf = font.render(self.text, True, self.color, self.backcolor)
+        t_surf = self.font.render(self.text, True, self.color, self.backcolor)
         self.image = pygame.Surface((max(self.width, t_surf.get_width()+10), t_surf.get_height()+10), pygame.SRCALPHA)
         if self.backcolor:
             self.image.fill(self.backcolor)

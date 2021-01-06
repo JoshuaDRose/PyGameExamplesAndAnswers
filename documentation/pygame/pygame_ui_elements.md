@@ -35,6 +35,8 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TextInput](https://repl.it/@Rabbid76/PyGame-TextInput#main.py)</kbd>
 
+- [How can I set conditions for an inputting textbox module on pygame?](https://stackoverflow.com/questions/65586543/how-can-i-set-conditions-for-an-inputting-textbox-module-on-pygame/65597101#65597101)  
+
 ## Progress bar and health bar
 
 Related Stack Overflow questions:

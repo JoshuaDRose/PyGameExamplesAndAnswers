@@ -13,12 +13,12 @@ See also [Python PyGame Introduction](https://www.pygame.org/docs/tut/PygameIntr
 
 Related Stack Overflow questions:
 
-- [Why is my PyGame application not running at all?](https://stackoverflow.com/questions/65264616/why-is-my-pygame-application-not-running-at-all/65264742#65264742)  
-- [Why is nothing drawn in PyGame at all?](https://stackoverflow.com/questions/65113967/why-is-nothing-drawn-in-pygame-at-all/65114059#65114059)
+- **[Why is my PyGame application not running at all?](https://stackoverflow.com/questions/65264616/why-is-my-pygame-application-not-running-at-all/65264742#65264742)**  
+- **[Why is nothing drawn in PyGame at all?](https://stackoverflow.com/questions/65113967/why-is-nothing-drawn-in-pygame-at-all/65114059#65114059)**
+- **[How to run multiple while loops at a time in Python](https://stackoverflow.com/questions/65263318/how-to-run-multiple-while-loops-at-a-time-in-python/65263396#65263396)**
 - [Pygame window freezes when it opens](https://stackoverflow.com/questions/57642415/pygame-window-freezes-when-it-opens/57644255#57644255)
 - [Why is my pygame application loop not working properly?](https://stackoverflow.com/questions/60387348/how-to-make-a-camera-for-a-2d-topdown-game-in-pygame/60390374#60390374)
 - [Is it possible for a sprite to react to a specific color](https://stackoverflow.com/questions/61703850/is-it-possible-for-a-sprite-to-react-to-a-specific-color/61704072#61704072)
-- [How to run multiple while loops at a time in Python](https://stackoverflow.com/questions/65263318/how-to-run-multiple-while-loops-at-a-time-in-python/65263396#65263396)
 - [Why text display for 2 seconds in pygame](https://stackoverflow.com/questions/62459547/why-text-display-for-2-seconds-in-pygame/65528753#65528753)  
 
 If you want something to be drawn permanently, you need to draw it in the application loop

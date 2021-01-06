@@ -116,6 +116,8 @@ Related Stack Overflow questions:
 - [Pygame Bouncy Ball Sinks Through Floor](https://stackoverflow.com/questions/64864966/pygame-bouncy-ball-sinks-through-floor/64865054#64865054)  
   ![Pygame Bouncy Ball Sinks Through Floor](https://i.stack.imgur.com/ulJge.gif)
 
+- [How do you properly implement gravity to a free floating space object and some sort of friction when thrusting in opposite direction](https://stackoverflow.com/questions/65546677/how-do-you-properly-implement-gravity-to-a-free-floating-space-object-and-some-s/65548182#65548182)  
+
 ## Particles
 
 - [Projectile motion and gravity in pygame only sometimes working](https://stackoverflow.com/questions/55822116/projectile-motion-and-gravity-in-pygame-only-sometimes-working/55836374#55836374)  

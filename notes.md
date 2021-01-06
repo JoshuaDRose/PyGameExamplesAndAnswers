@@ -112,7 +112,7 @@ interesting
 [Python Line-Circle collision](https://stackoverflow.com/questions/14276051/python-line-circle-collision)  
 [How to know if two ellipses are colliding - Pygame](https://stackoverflow.com/questions/65323156/how-to-know-if-two-ellipses-are-colliding-pygame)  
 [How create a simulation (pendulum, projectile motion) in pygame](https://stackoverflow.com/questions/59147116/how-create-a-simulation-pendulum-projectile-motion-in-pygame)  
-[How can you pre-calculate the balls trajectory and therefore its endpoint in the game Pong?](https://stackoverflow.com/questions/55976268/how-can-you-pre-calculate-the-balls-trajectory-and-therefore-its-endpoint-in-the)  
+[How can you pre-calculate the balls trajectory and therefore its endpoint in the game Pong?](https://stackoverflow.com/questions/55976268/how-can-you-pre-calculate-the-balls-trajectory-and-therefore-its-endpoint-in-the)   
 
 #### Recursiveness
 
@@ -236,6 +236,8 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
 - chess
 - snake  
   related questions: [how to solve bug on snake wall teleportation](https://stackoverflow.com/questions/64624092/how-to-solve-bug-on-snake-wall-teleportation/64624385#64624385) and many more
+- platformer  
+  related questions: [How to make Wall Jump work in Python/Pygame](https://stackoverflow.com/questions/59861911/how-to-make-wall-jump-work-in-python-pygame)
 
 ### Color
 

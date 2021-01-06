@@ -207,7 +207,7 @@ Related Stack Overflow questions:
 
 PyGame has a feature that does exactly what you want it to do. Use [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) objects and [`pygame.Rect.clamp()`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.clamp) respectively [`pygame.Rect.clamp_ip()`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.clamp_ip):
 
-> Returns a new rectangle that is moved to be completely inside the argument Rect. 
+> Returns a new rectangle that is moved to be completely inside the argument Rect.
 
 With this function, an object can be kept completely in the window. Get the window rectangle with [`get_rect`](pygame.Surface.get_rect)and clamp the object in the window:
 
@@ -265,6 +265,44 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How do I determine if my mouse is over randomly spawning objects](https://stackoverflow.com/questions/62129176/how-do-i-determine-if-my-mouse-is-over-randomly-spawning-objects/62129302#62129302)
+
+## Point and Ellipse
+
+Related Stack Overflow questions:
+
+- [How can I test if a point is in an ellipse?](https://stackoverflow.com/questions/59971407/getting-the-size-of-an-ellipse-and-controlling-if-point-is-in-ellipse-python-p)  
+  ![](https://i.stack.imgur.com/DQuaE.gif)
+
+  :scroll: **[Minimal example - Is point in ellipse](../../examples/minimal_examples/pygame_minimal_intersect_ellipse_point.py)**
+
+The collision of an ellipse and a point can be reduced to the collision of a circle and a point by scaling the ellipse to appear as a circle and scaling the distance vector of the point to the center of the ellipse in the same way. Since the ellipses are axis-aligned in PyGame, this can easily be achieved by scaling one of the coordinates by the ratio of the [ellipse](https://en.wikipedia.org/wiki/Ellipse) axis length.
+
+Define the bounding rectangle ([`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html)) of the ellipse (`ellipse_rect`) and get the semi-axis (`a`, `b`):
+
+```py
+a = ellipse_rect.width // 2
+b = ellipse_rect.height // 2
+```
+
+Compute the ratio of the semi-axis
+
+```py
+scale_y = a / b
+```
+
+Define an point (`test_x`, `test_y`) and calculate the vector of the point to the center of the ellipse (`cpt_x`, `cpt_y`). Scale the y-coordinate of the vector with the ratio of semi-x-axis and semi-y-axis:
+
+```py
+cpt_x, cpt_y = ellipse_rect.center
+dx = test_x - cpt_x
+dy = (test_y - cpt_y) * scale_y
+```
+
+The point lies in the ellipse if the square of the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) (`dx*dx + dy*dy`) is smaller than the square of the semi-x axis (`a*a`):
+
+```py
+collide = dx*dx + dy*dy <= a*a  
+```
 
 ## Rectangle and rectangle
 
