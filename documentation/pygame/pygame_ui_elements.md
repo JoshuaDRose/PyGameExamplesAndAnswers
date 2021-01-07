@@ -4,6 +4,25 @@
 
 # UI elements
 
+## Button
+
+Related Stack Overflow questions:
+
+- [Pygame mouse clicking detection](https://stackoverflow.com/questions/10990137/pygame-mouse-clicking-detection/64533684#64533684)  
+  ![Pygame mouse clicking detection](https://i.stack.imgur.com/mW6vv.gif)
+
+  :scroll: **[minimal example - Detect click on sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseClick](https://repl.it/@Rabbid76/PyGame-MouseClick#main.py)</kbd>
+
+- [How can I add an image or icon to a button rectangle in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-an-image-or-icon-to-a-button-rectangle-in-pygame/64990819#64990819)  
+  ![How can I add an image or icon to a button rectangle in Pygame?](https://i.stack.imgur.com/DnQdC.gif)
+
+  :scroll: **[minimal example - Detect click on sprite 2](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click_2.py)**
+
+- [How to detect when a rectangular object, image or sprite is clicked](https://stackoverflow.com/questions/58917346/how-to-detect-when-a-sprite-is-clicked/58935218#58935218)
+- [How do I detect if the mouse is hovering over a button? PyGame button class is not displaying the text or changing colour on hover](https://stackoverflow.com/questions/63831057/pygame-button-class-is-not-displaying-the-text-or-changing-colour-on-hover/63831641#63831641)
+
 ## Radio button
 
 Related Stack Overflow questions:

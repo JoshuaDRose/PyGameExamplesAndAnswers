@@ -12,10 +12,10 @@ Related Stack Overflow questions:
 - [OpenGL render view without a visible window in python](https://stackoverflow.com/questions/51627603/opengl-render-view-without-a-visible-window-in-python/51672538#51672538)
 - [Is there a way to display a pygame window over OpenGL?](https://stackoverflow.com/questions/61547251/is-there-a-way-to-display-a-pygame-window-over-opengl/61547556#61547556)
 
-A current and valid [OpenGL Context](https://www.khronos.org/opengl/wiki/OpenGL_Context)  for any OpenGL statement. You need to set the `pygame.OPENGL` flag when creating the display _Surface_:
+A current and valid [OpenGL Context](https://www.khronos.org/opengl/wiki/OpenGL_Context) are required for any OpenGL statement. You need to set the `pygame.OPENGL` flag when creating the display _Surface_:
 
 ```py
-window = pg.display.set_mode((sw,sh), pygame.DOUBLEBUF | pygame.OPENGL)
+window = pg.display.set_mode((sw, sh), pygame.DOUBLEBUF | pygame.OPENGL)
 ```
 
 If you want to use the [Depth Test](https://www.khronos.org/opengl/wiki/Depth_Test)t, you need to ensure that the default frame buffer has a depth buffer. Set the depth buffer size attribute (`GL_DEPTH_SIZE`) with [`pygame.display.gl_set_attribute`](https://www.pygame.org/docs/ref/display.html#pygame.display.set_mode) (Try a size of 24, if that doesn't work then switch to 16):

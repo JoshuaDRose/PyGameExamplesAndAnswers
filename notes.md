@@ -87,7 +87,6 @@ next:
 [Pygame water ripple effect](https://stackoverflow.com/questions/7648072/pygame-water-ripple-effect)  
 [Pygame water physics not working as intended](https://stackoverflow.com/questions/62499733/pygame-water-physics-not-working-as-intended)  
 
-[Does pyGame do 3d?](https://stackoverflow.com/questions/4865636/does-pygame-do-3d)  
 [Difference between pygame.display.update and pygame.display.flip](https://stackoverflow.com/questions/29314987/difference-between-pygame-display-update-and-pygame-display-flip)  
 [Basic networking with Pygame](https://stackoverflow.com/questions/9961752/basic-networking-with-pygame)  
 [What fonts can I use with pygame.font.Font?](https://stackoverflow.com/questions/38001898/what-fonts-can-i-use-with-pygame-font-font)  
@@ -113,6 +112,7 @@ interesting
 [How to know if two ellipses are colliding - Pygame](https://stackoverflow.com/questions/65323156/how-to-know-if-two-ellipses-are-colliding-pygame)  
 [How create a simulation (pendulum, projectile motion) in pygame](https://stackoverflow.com/questions/59147116/how-create-a-simulation-pendulum-projectile-motion-in-pygame)  
 [How can you pre-calculate the balls trajectory and therefore its endpoint in the game Pong?](https://stackoverflow.com/questions/55976268/how-can-you-pre-calculate-the-balls-trajectory-and-therefore-its-endpoint-in-the)  
+[Pygame draw a surface within a circle](https://stackoverflow.com/questions/59620907/pygame-draw-a-surface-within-a-circle)  
 
 #### Recursiveness
 
@@ -238,6 +238,8 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
   related questions: [how to solve bug on snake wall teleportation](https://stackoverflow.com/questions/64624092/how-to-solve-bug-on-snake-wall-teleportation/64624385#64624385) and many more
 - platformer  
   related questions: [How to make Wall Jump work in Python/Pygame](https://stackoverflow.com/questions/59861911/how-to-make-wall-jump-work-in-python-pygame)
+- tetris
+ related questions: [Moving blocks down y axis in pygame tetris clone](https://stackoverflow.com/questions/58891638/moving-blocks-down-y-axis-in-pygame-tetris-clone)
 
 ### Color
 
