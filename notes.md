@@ -9,6 +9,7 @@
 - [Investigate answered questions](#investigate-answered-questions)
     - [Answers](#answers)
         - [Add Answers](#add-answers)
+            - [Postponed](#postponed)
             - [Draw](#draw)
             - [Collision and intersection](#collision-and-intersection)
             - [Recursiveness](#recursiveness)
@@ -89,10 +90,6 @@ next:
 [Pygame water ripple effect](https://stackoverflow.com/questions/7648072/pygame-water-ripple-effect)  
 [Pygame water physics not working as intended](https://stackoverflow.com/questions/62499733/pygame-water-physics-not-working-as-intended)  
 
-[Difference between pygame.display.update and pygame.display.flip](https://stackoverflow.com/questions/29314987/difference-between-pygame-display-update-and-pygame-display-flip)  
-[Basic networking with Pygame](https://stackoverflow.com/questions/9961752/basic-networking-with-pygame)  
-[What fonts can I use with pygame.font.Font?](https://stackoverflow.com/questions/38001898/what-fonts-can-i-use-with-pygame-font-font)  
-[How can I crop an image with Pygame?](https://stackoverflow.com/questions/6239769/how-can-i-crop-an-image-with-pygame)  
 [How to Change the Name of a Pygame window?](https://stackoverflow.com/questions/40566585/how-to-change-the-name-of-a-pygame-window)  
 [Any way to speed up Python and Pygame?](https://stackoverflow.com/questions/6395923/any-way-to-speed-up-python-and-pygame)  
 [Fully transparent windows in Pygame?](https://stackoverflow.com/questions/550001/fully-transparent-windows-in-pygame)  
@@ -104,6 +101,12 @@ next:
 [Do something every x (milli)seconds in pygame](https://stackoverflow.com/questions/18948981/do-something-every-x-milliseconds-in-pygame)  
 [Pygame: How to deform a surface perspectively without OpenGL](https://stackoverflow.com/questions/13671424/pygame-how-to-deform-a-surface-perspectively-without-opengl)  
 [Speed up AI obstacle detection in python pygame](https://stackoverflow.com/questions/61202251/speed-up-ai-obstacle-detection-in-python-pygame)  
+
+#### Postponed
+
+[Difference between pygame.display.update and pygame.display.flip](https://stackoverflow.com/questions/29314987/difference-between-pygame-display-update-and-pygame-display-flip)  
+[Basic networking with Pygame](https://stackoverflow.com/questions/9961752/basic-networking-with-pygame)  
+[What fonts can I use with pygame.font.Font?](https://stackoverflow.com/questions/38001898/what-fonts-can-i-use-with-pygame-font-font)  
 
 #### Draw
 

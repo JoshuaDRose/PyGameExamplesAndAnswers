@@ -145,6 +145,12 @@ Related Stack Overflow questions:
 
 - [ImportError: No module named 'pygame'](https://stackoverflow.com/questions/18317521/importerror-no-module-named-pygame)
 
+## 'pygame' has no attribute 'init'
+
+Related Stack Overflow questions:
+
+- [Pygame error: 'pygame' has no attribute 'init'](https://stackoverflow.com/questions/34343894/pygame-error-pygame-has-no-attribute-init)
+
 ### Video system not initialized
 
 Related Stack Overflow questions:
