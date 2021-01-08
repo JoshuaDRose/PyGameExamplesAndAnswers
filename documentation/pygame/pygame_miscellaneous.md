@@ -46,6 +46,7 @@ Related Stack Overflow questions:
 
 ### PyCharm
 
+- [Add pygame module in PyCharm IDE](https://stackoverflow.com/questions/28453854/add-pygame-module-in-pycharm-ide)  
 - [Cannot install pygame in Pycharm](https://stackoverflow.com/questions/59338356/cannot-install-pygame-in-pycharm?rq=1)  
 - [pycharm doesn't recognize pygame package](https://stackoverflow.com/questions/15464568/pycharm-doesnt-recognize-pygame-package)  
 - [Make sure that you use the correct version of 'pip' installed for your Python interpreter located at 'dir:\projectPath\venv\Scripts\python.exe'](https://stackoverflow.com/questions/58538639/make-sure-that-you-use-the-correct-version-of-pip-installed-for-your-python-in)  

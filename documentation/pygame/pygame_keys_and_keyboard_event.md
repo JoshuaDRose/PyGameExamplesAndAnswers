@@ -33,8 +33,8 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
+- **[Getting Pygame keyboard input and check if it's a number](https://stackoverflow.com/questions/64124050/getting-pygame-keyboard-input-and-check-if-its-a-number/64124342#64124342)**
 - [Python Pygame press two direction key and another key to shoot there's no bullet](https://stackoverflow.com/questions/59004524/python-pygame-press-two-direction-key-and-another-key-to-shoot-theres-no-bullet/59005776#59005776)
-- [Getting Pygame keyboard input and check if it's a number](https://stackoverflow.com/questions/64124050/getting-pygame-keyboard-input-and-check-if-its-a-number/64124342#64124342)
 - [Problem when using keyboard commands in pygame](https://stackoverflow.com/questions/58299480/problem-when-using-keyboard-commands-in-pygame/58307655#58307655)
 - [How to get a variable keyboard input in pygame?](https://stackoverflow.com/questions/63449626/how-to-get-a-variable-keyboard-input-in-pygame/63449886#63449886)
 - [Pygame keys convention](https://stackoverflow.com/questions/64651122/pygame-keys-convention/64651187#64651187)  

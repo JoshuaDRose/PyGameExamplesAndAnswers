@@ -9,6 +9,8 @@
 - [Investigate answered questions](#investigate-answered-questions)
     - [Answers](#answers)
         - [Add Answers](#add-answers)
+            - [Draw](#draw)
+            - [Collision and intersection](#collision-and-intersection)
             - [Recursiveness](#recursiveness)
             - [Questions about music and sound](#questions-about-music-and-sound)
         - [Questions about video](#questions-about-video)
@@ -103,7 +105,11 @@ next:
 [Pygame: How to deform a surface perspectively without OpenGL](https://stackoverflow.com/questions/13671424/pygame-how-to-deform-a-surface-perspectively-without-opengl)  
 [Speed up AI obstacle detection in python pygame](https://stackoverflow.com/questions/61202251/speed-up-ai-obstacle-detection-in-python-pygame)  
 
-interesting
+#### Draw
+
+[Draw a circle that contains color gradient in pygame](https://stackoverflow.com/questions/57062579/draw-a-circle-that-contains-color-gradient-in-pygame)
+
+#### Collision and intersection
 
 [Implementing collisions using the Separating axis theorem and Pygame](https://stackoverflow.com/questions/63495124/implementing-collisions-using-the-separating-axis-theorem-and-pygame)  
 [Intersection between bezier curve and a line segment](https://stackoverflow.com/questions/1813719/intersection-between-bezier-curve-and-a-line-segment)  

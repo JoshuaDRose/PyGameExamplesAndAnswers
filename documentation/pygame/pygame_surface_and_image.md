@@ -7,6 +7,10 @@ Richard P. Feynman
 
 # Surface and image
 
+Related Stack Overflow questions:
+
+- [What is a good way to draw images using pygame?](https://stackoverflow.com/questions/8873219/what-is-a-good-way-to-draw-images-using-pygame/64630591#64630591)
+
 ## Surface rectangle
 
 Related Stack Overflow questions:
@@ -73,11 +77,11 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [How can I make an Image with a transparent Backround in Pygame?](https://stackoverflow.com/questions/62623341/how-can-i-make-an-image-with-a-transparent-backround-in-pygame/62623422#62623422)
 - [How to convert the background color of image to match the color of Pygame window?](https://stackoverflow.com/questions/63976450/how-to-convert-the-background-color-of-image-to-match-the-color-of-pygame-window/63976738#63976738)  
   ![How to convert the background color of image to match the color of Pygame window?](https://i.stack.imgur.com/56y1w.png)
-- [pygame image background does not match main background](https://stackoverflow.com/questions/62689244/pygame-image-background-does-not-match-main-background/62689442#62689442)
 - [How do I make the screen ignore the background color of some image?](https://stackoverflow.com/questions/55648488/how-do-i-make-the-screen-ignore-the-background-color-of-some-image/55654549#55654549)
+- [How can I make an Image with a transparent Backround in Pygame?](https://stackoverflow.com/questions/62623341/how-can-i-make-an-image-with-a-transparent-backround-in-pygame/62623422#62623422)
+- [pygame image background does not match main background](https://stackoverflow.com/questions/62689244/pygame-image-background-does-not-match-main-background/62689442#62689442)
 - [Pygame image transparency confusion](https://stackoverflow.com/questions/64704789/pygame-image-transparency-confusion/64704923#64704923)
 
 Most likely, your image is not transparent at all. The transparency is stored in the alpha value. Compared to JPG and BMP, the PNG and GIF formats offer an alpha value per pixel. Converting an image to PNG or GIF format does not make an image transparent. You need to paint or download a transparent image. 
@@ -227,6 +231,7 @@ Related Stack Overflow questions:
 - [Pygame is running slow](https://stackoverflow.com/questions/61134825/pygame-is-running-slow/61134941#61134941)
 - [Why my pygame game with a tiled map is lagging?](https://stackoverflow.com/questions/62136440/why-my-pygame-game-with-a-tiled-map-is-lagging/62137296#62137296)  
 - [How could I optimise this simple python pygame code](https://stackoverflow.com/questions/65384623/how-could-i-optimise-this-simple-python-pygame-code/65384691#65384691)  
+- [Image position not updating / updates slower while moving mouse](https://stackoverflow.com/questions/57846536/image-position-not-updating-updates-slower-while-moving-mouse/65626207#65626207)  
 
 ### Load Pillow image
 
