@@ -173,7 +173,15 @@ Reading a local variable `x` before it is declared causes the error:
 
 You have to use the [`global` statement](https://docs.python.org/3/reference/simple_stmts.html?highlight=global#grammar-token-global-stmt) if you want to be interpret the variable as global variable.
 
+### Modul
+
+Related Stack Overflow questions:
+
+- [How to make an imported module blit onto a surface from the main script?](https://stackoverflow.com/questions/65620655/how-to-make-an-imported-module-blit-onto-a-surface-from-the-main-script/65620667#65620667)
+
 ### Subclass
+
+Related Stack Overflow questions:
 
 - [Changing the unknown attributes from a parent class for a child class](https://stackoverflow.com/questions/65461496/changing-the-unknown-attributes-from-a-parent-class-for-a-child-class/65464022#65464022)
 ## Math

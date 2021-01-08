@@ -9,6 +9,7 @@ Denis Diderot, Pensées philosophiques
 
 Related Stack Overflow questions:
 
+- [Does PyGame do 3d?](https://stackoverflow.com/questions/4865636/does-pygame-do-3d/65618694#65618694)  
 - [Pygame rotating cubes around axis](https://stackoverflow.com/questions/56285017/pygame-rotating-cubes-around-axis/56286203#56286203)  
   ![Pygame rotating cubes around axis](https://i.stack.imgur.com/uPxgF.gif)
 - [Depth issue with 3D graphics](https://stackoverflow.com/questions/59690079/depth-issue-with-3d-graphics/59692739#59692739)  
