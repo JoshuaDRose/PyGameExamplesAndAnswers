@@ -92,6 +92,12 @@ Related Stack Overflow questions:
 
 - [VSCode Intellisense not Working for pygame](https://stackoverflow.com/questions/62475015/vscode-intellisense-not-working-for-pygame)
 
+### Pylint
+
+Related Stack Overflow questions:
+
+- [Imports failing in VScode for pylint when importing pygame](https://stackoverflow.com/questions/53012461/imports-failing-in-vscode-for-pylint-when-importing-pygame)
+
 ## File access
 
 Related Stack Overflow questions:
