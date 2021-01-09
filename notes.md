@@ -244,7 +244,9 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
 - snake  
   related questions: [how to solve bug on snake wall teleportation](https://stackoverflow.com/questions/64624092/how-to-solve-bug-on-snake-wall-teleportation/64624385#64624385) and many more
 - platformer  
-  related questions: [How to make Wall Jump work in Python/Pygame](https://stackoverflow.com/questions/59861911/how-to-make-wall-jump-work-in-python-pygame)
+  related questions:  
+  - [How to make Wall Jump work in Python/Pygame](https://stackoverflow.com/questions/59861911/how-to-make-wall-jump-work-in-python-pygame)  
+  - [How to reference all objects of a class?](https://stackoverflow.com/questions/65592381/how-to-reference-all-objects-of-a-class/65592925#65592925)
 - tetris
  related questions: [Moving blocks down y axis in pygame tetris clone](https://stackoverflow.com/questions/58891638/moving-blocks-down-y-axis-in-pygame-tetris-clone)
 

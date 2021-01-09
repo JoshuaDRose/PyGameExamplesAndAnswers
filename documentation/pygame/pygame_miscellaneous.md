@@ -291,3 +291,4 @@ Related Stack Overflow questions:
 [How do I add a rubber band for mouse dragging in PyGame?](https://stackoverflow.com/questions/64880962/how-do-i-add-a-rubber-band-for-mouse-dragging-in-pygame/64881500#64881500)  
 ![How do I add a rubber band for mouse dragging in PyGame?](https://i.stack.imgur.com/f3aOb.gif)
 
+[My pygame program is flickering, not entirely sure why](https://stackoverflow.com/questions/65587430/my-pygame-program-is-flickering-not-entirely-sure-why/65587494#65587494)  

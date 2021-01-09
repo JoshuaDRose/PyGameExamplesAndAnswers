@@ -37,6 +37,8 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FireBulletInDirectionOfMouse](https://repl.it/@Rabbid76/PyGame-FireBulletInDirectionOfMouse#main.py)</kbd>
 
+- [How Can I Make An Arrow Image Move Rotated Direction?(https://stackoverflow.com/questions/65589860/how-can-i-make-an-arrow-image-move-rotated-direction/65592518#65592518)
+
 - [How to make my rectangle rotate with a rotating sprite](https://stackoverflow.com/questions/65622705/how-to-make-my-rectangle-rotate-with-a-rotating-sprite/65640631#65640631)  
   ![How to make my rectangle rotate with a rotating sprite](https://i.stack.imgur.com/ocqjL.gif)
 

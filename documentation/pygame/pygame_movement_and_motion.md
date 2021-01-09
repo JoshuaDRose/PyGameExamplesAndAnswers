@@ -118,6 +118,9 @@ Related Stack Overflow questions:
 
 - [How do you properly implement gravity to a free floating space object and some sort of friction when thrusting in opposite direction](https://stackoverflow.com/questions/65546677/how-do-you-properly-implement-gravity-to-a-free-floating-space-object-and-some-s/65548182#65548182)  
 
+- [Pygame sprite not moving while jumping](https://stackoverflow.com/questions/65583721/pygame-sprite-not-moving-while-jumping/65583922#65583922)  
+  ![Pygame sprite not moving while jumping](https://i.stack.imgur.com/8uR7T.gif)  
+
 ## Particles
 
 - [Projectile motion and gravity in pygame only sometimes working](https://stackoverflow.com/questions/55822116/projectile-motion-and-gravity-in-pygame-only-sometimes-working/55836374#55836374)  
