@@ -4,6 +4,12 @@
 
 # Miscellaneous
 
+## About PyGame
+
+Related Stack Overflow questions:
+
+- [Where can I find the source code for pygame.math.Vector2?](https://stackoverflow.com/questions/55388178/where-can-i-find-the-source-code-for-pygame-math-vector2/65646770#65646770)  
+
 ## Version issues
 
 Related Stack Overflow questions:
@@ -145,12 +151,18 @@ Related Stack Overflow questions:
 
 - [ImportError: No module named 'pygame'](https://stackoverflow.com/questions/18317521/importerror-no-module-named-pygame)
 
-## 'pygame' has no attribute 'init'
+### 'pygame' has no attribute 'init'
 
 Related Stack Overflow questions:
 
 - [Why does it say that module pygame has no init member?](https://stackoverflow.com/questions/50569453/why-does-it-say-that-module-pygame-has-no-init-member)  
 - [Pygame error: 'pygame' has no attribute 'init'](https://stackoverflow.com/questions/34343894/pygame-error-pygame-has-no-attribute-init)
+
+### No module called pygame.base
+
+Related Stack Overflow questions:
+
+- [Pygame “No module called pygame.base”](https://stackoverflow.com/questions/40224385/pygame-no-module-called-pygame-base)
 
 ### No available video device
 

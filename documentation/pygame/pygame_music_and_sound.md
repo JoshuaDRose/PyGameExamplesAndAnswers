@@ -199,3 +199,9 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How do I change the volume of the sound or music in PyGame?](https://stackoverflow.com/questions/65247656/how-do-i-change-the-volume-of-the-sound-or-music-in-pygame/65248188#65248188)
+
+## Unload music resources
+
+Related Stack Overflow questions:
+
+- [Unable to delete a .mp3 file in Python](https://stackoverflow.com/questions/55254064/unable-to-delete-a-mp3-file-in-python/65646888#65646888)
