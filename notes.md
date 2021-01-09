@@ -90,17 +90,11 @@ next:
 [Pygame water ripple effect](https://stackoverflow.com/questions/7648072/pygame-water-ripple-effect)  
 [Pygame water physics not working as intended](https://stackoverflow.com/questions/62499733/pygame-water-physics-not-working-as-intended)  
 
-[How to Change the Name of a Pygame window?](https://stackoverflow.com/questions/40566585/how-to-change-the-name-of-a-pygame-window)  
 [Any way to speed up Python and Pygame?](https://stackoverflow.com/questions/6395923/any-way-to-speed-up-python-and-pygame)  
-[Fully transparent windows in Pygame?](https://stackoverflow.com/questions/550001/fully-transparent-windows-in-pygame)  
 [How to fade from one colour to another in pygame?](https://stackoverflow.com/questions/51973441/how-to-fade-from-one-colour-to-another-in-pygame)  
 [Pygame - Return collision location](https://stackoverflow.com/questions/64760792/pygame-return-collision-location)  
-[Multi-Colored text in pygame](https://stackoverflow.com/questions/64825207/multi-colored-text-in-pygame)  
 [I'm embedding a pygame window into Tkinter, how do I manipulate the pygame window?](https://stackoverflow.com/questions/55755305/im-embedding-a-pygame-window-into-tkinter-how-do-i-manipulate-the-pygame-windo)  
-[Python3 - how to change volume of a sound in pygame mixer](https://stackoverflow.com/questions/65176752/python3-how-to-change-volume-of-a-sound-in-pygame-mixer)  
 [Do something every x (milli)seconds in pygame](https://stackoverflow.com/questions/18948981/do-something-every-x-milliseconds-in-pygame)  
-[Pygame: How to deform a surface perspectively without OpenGL](https://stackoverflow.com/questions/13671424/pygame-how-to-deform-a-surface-perspectively-without-opengl)  
-[Speed up AI obstacle detection in python pygame](https://stackoverflow.com/questions/61202251/speed-up-ai-obstacle-detection-in-python-pygame)  
 
 #### Postponed
 
@@ -110,7 +104,8 @@ next:
 
 #### Draw
 
-[Draw a circle that contains color gradient in pygame](https://stackoverflow.com/questions/57062579/draw-a-circle-that-contains-color-gradient-in-pygame)
+[Draw a circle that contains color gradient in pygame](https://stackoverflow.com/questions/57062579/draw-a-circle-that-contains-color-gradient-in-pygame)  
+[Multi-Colored text in pygame](https://stackoverflow.com/questions/64825207/multi-colored-text-in-pygame)  
 
 #### Collision and intersection
 
@@ -135,6 +130,7 @@ next:
 [Pygame: music is slower than it should be](https://stackoverflow.com/questions/63968885/pygame-music-is-slower-than-it-should-be)  
 [Opencv object tracking and audio responding](https://stackoverflow.com/questions/56643988/opencv-object-tracking-and-audio-responding)  
 [How to increase and decrease speed of these two songs using pygame K_LEFT and K_RIGHT?](https://stackoverflow.com/questions/60688300/how-to-increase-and-decrease-speed-of-these-two-songs-using-pygame-k-left-and-k)  
+[Python3 - how to change volume of a sound in pygame mixer](https://stackoverflow.com/questions/65176752/python3-how-to-change-volume-of-a-sound-in-pygame-mixer)  
 
 ### Questions about video
 
@@ -158,7 +154,8 @@ next:
 [arbitrary polygon with transparency in pygame](https://stackoverflow.com/questions/55892066/arbitrary-polygon-with-transparency-in-pygame)  
 [Framerate drops from 60 fps to 30 fps when blitting texture using BLEND_RGB_MULT flag?](https://stackoverflow.com/questions/61492211/framerate-drops-from-60-fps-to-30-fps-when-blitting-texture-using-blend-rgb-mult)  
 [A-star algorithm results in weird, slow and inefficient choices](https://stackoverflow.com/questions/60955754/a-star-algorithm-results-in-weird-slow-and-inefficient-choices)  
-
+[How can you pre-calculate the balls trajectory and therefore its endpoint in the game Pong?](https://stackoverflow.com/questions/55976268/how-can-you-pre-calculate-the-balls-trajectory-and-therefore-its-endpoint-in-the)  
+[Speed up AI obstacle detection in python pygame](https://stackoverflow.com/questions/61202251/speed-up-ai-obstacle-detection-in-python-pygame)  
 #### 3D
 
 [Pygame: Fastest way to draw a scanline rasterized triangle pixel by pixel with depth buffering?](https://stackoverflow.com/questions/64259810/pygame-fastest-way-to-draw-a-scanline-rasterized-triangle-pixel-by-pixel-with-d)  
@@ -183,8 +180,9 @@ next:
 [How to make keyboard Input into unicode/japanese characters?](https://stackoverflow.com/questions/64543224/how-to-make-keyboard-input-into-unicode-japanese-characters)  
 [Update during resize in Pygame](https://stackoverflow.com/questions/64543449/update-during-resize-in-pygame)  
 [Pygame and win32api - blited image has outline when setting background as transparent with win32api](https://stackoverflow.com/questions/62135125/pygame-and-win32api-blited-image-has-outline-when-setting-background-as-transp)  
+[Fully transparent windows in Pygame?](https://stackoverflow.com/questions/550001/fully-transparent-windows-in-pygame)  
 [Creating a transparent window/overlay with pyopengl](https://stackoverflow.com/questions/61003354/creating-a-transparent-window-overlay-with-pyopengl)  
-
+[Pygame: How to deform a surface perspectively without OpenGL](https://stackoverflow.com/questions/13671424/pygame-how-to-deform-a-surface-perspectively-without-opengl)  
 ### My questions
 
 [What is the most comprehensible way to create a Rect object from a center point and a size in PyGame?](https://stackoverflow.com/questions/65042134/what-is-the-most-comprehensible-way-to-create-a-rect-object-from-a-center-point)

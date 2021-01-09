@@ -37,6 +37,9 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FireBulletInDirectionOfMouse](https://repl.it/@Rabbid76/PyGame-FireBulletInDirectionOfMouse#main.py)</kbd>
 
+- [How to make my rectangle rotate with a rotating sprite](https://stackoverflow.com/questions/65622705/how-to-make-my-rectangle-rotate-with-a-rotating-sprite/65640631#65640631)  
+  ![How to make my rectangle rotate with a rotating sprite](https://i.stack.imgur.com/ocqjL.gif)
+
 [`pygame.transform.rotate`](https://www.pygame.org/docs/ref/transform.html#pygame.transform.rotate) does not transform the object itself, but creates a new rotated surface and returns it.
 
 If you want to fire a bullet in a certain direction, the direction is defined the moment the bullet is fired, but it does not change continuously.  

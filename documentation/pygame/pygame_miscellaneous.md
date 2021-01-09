@@ -149,7 +149,14 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
+- [Why does it say that module pygame has no init member?](https://stackoverflow.com/questions/50569453/why-does-it-say-that-module-pygame-has-no-init-member)  
 - [Pygame error: 'pygame' has no attribute 'init'](https://stackoverflow.com/questions/34343894/pygame-error-pygame-has-no-attribute-init)
+
+### No available video device
+
+Related Stack Overflow questions:
+
+- [pygame.error: No available video device](https://stackoverflow.com/questions/15933493/pygame-error-no-available-video-device)
 
 ### Video system not initialized
 
