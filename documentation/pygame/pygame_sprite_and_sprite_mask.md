@@ -85,7 +85,18 @@ Related Stack Overflow questions:
 
 ### Sprite collide with Sprite
 
+Related Stack Overflow questions:
+
 - [How do I register collisions with objects from the same class without an unwanted object from another class in my group?](https://stackoverflow.com/questions/63060249/how-do-i-register-collisions-with-objects-from-the-same-class-without-an-unwante/63062808#63062808)
+
+#### User defined collide function
+
+Related Stack Overflow questions:
+
+- [How to make entities take damage with color collision in pygame?](https://stackoverflow.com/questions/65645443/how-to-make-entities-take-damage-with-color-collision-in-pygame/65645826#65645826)  
+  ![[How to make entities take damage with color collision in pygame?](https://i.stack.imgur.com/ObuMK.gif)  
+
+  :scroll: **[Minimal example - User defined collision function](../../examples/minimal_examples/pygame_minimal_intersect_spritecollide_userdefined_callback.py)**
 
 ### Sprite collide with Group
 
