@@ -158,6 +158,7 @@ next:
 [A-star algorithm results in weird, slow and inefficient choices](https://stackoverflow.com/questions/60955754/a-star-algorithm-results-in-weird-slow-and-inefficient-choices)  
 [How can you pre-calculate the balls trajectory and therefore its endpoint in the game Pong?](https://stackoverflow.com/questions/55976268/how-can-you-pre-calculate-the-balls-trajectory-and-therefore-its-endpoint-in-the)  
 [Speed up AI obstacle detection in python pygame](https://stackoverflow.com/questions/61202251/speed-up-ai-obstacle-detection-in-python-pygame)  
+[Odd Behavior From Trigonometric Functions](https://stackoverflow.com/questions/54189014/odd-behavior-from-trigonometric-functions)  
 
 ### UI
 

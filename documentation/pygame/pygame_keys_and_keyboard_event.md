@@ -25,7 +25,8 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Detect single key press using key.get_pressed()](https://stackoverflow.com/questions/65266365/detect-single-key-press-using-key-get-pressed/65267063#65267063)
+- [Detect single key press using key.get_pressed()](https://stackoverflow.com/questions/65266365/detect-single-key-press-using-key-get-pressed/65267063#65267063)  
+- [Why is pygame.KEYUP event triggering when the key has not been released?](https://stackoverflow.com/questions/53525617/why-is-pygame-keyup-event-triggering-when-the-key-has-not-been-released/65658666#65658666)  
 
 ## Keyboard event
 
