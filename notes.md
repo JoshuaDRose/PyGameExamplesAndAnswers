@@ -131,6 +131,7 @@ next:
 [Opencv object tracking and audio responding](https://stackoverflow.com/questions/56643988/opencv-object-tracking-and-audio-responding)  
 [How to increase and decrease speed of these two songs using pygame K_LEFT and K_RIGHT?](https://stackoverflow.com/questions/60688300/how-to-increase-and-decrease-speed-of-these-two-songs-using-pygame-k-left-and-k)  
 [Python3 - how to change volume of a sound in pygame mixer](https://stackoverflow.com/questions/65176752/python3-how-to-change-volume-of-a-sound-in-pygame-mixer)  
+[Is there a way to create a simple user-interactive music synth in python](https://stackoverflow.com/questions/54641717/is-there-a-way-to-create-a-simple-user-interactive-music-synth-in-python)  
 
 ### Questions about video
 

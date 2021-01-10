@@ -1,9 +1,12 @@
 # pynanosvg 
 # 
-# pip install svglib
+# pip install CairoSVG
 #
-#    - https://pypi.org/project/svglib/
-#    - https://github.com/deeplook/svglib
+#    - https://pypi.org/project/CairoSVG/
+#    - CairoSVG
+#      https://cairosvg.org/
+#    - get cairosvg working in windows
+#      https://stackoverflow.com/questions/46265677/get-cairosvg-working-in-windows
 #
 # pygame.Surface object
 # https://www.pygame.org/docs/ref/surface.html
@@ -15,19 +18,15 @@
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_surface_and_image.md
 
 import os
+os.environ['path'] += r';C:\Program Files\GIMP 2\bin'
+import cairosvg
 import pygame
-from svglib.svglib import svg2rlg
 import io
-
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../resource'))
 
-def identity_color_converter(c):
-    return c
-
 def load_svg(filename):
-    drawing = svg2rlg(filename, color_converter=identity_color_converter)
-    str = drawing.asString("png")
-    byte_io = io.BytesIO(str)
+    new_bites = cairosvg.svg2png(url = filename)
+    byte_io = io.BytesIO(new_bites)
     return pygame.image.load(byte_io)
 
 pygame.init()
