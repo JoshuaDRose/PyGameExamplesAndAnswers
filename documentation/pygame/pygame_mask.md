@@ -13,7 +13,7 @@ Related Stack Overflow questions:
 
 - [PyGame collision with masks is not working](https://stackoverflow.com/questions/57455811/pygame-collision-with-masks-is-not-working/57499484#57499484)
 - [Collision between masks in PyGame](https://stackoverflow.com/questions/55817422/collision-between-masks-in-pygame/55818093#55818093)  
-  ![Check collision between a image and a line](../../screenshot/pygame_minimal_mask_intersect_surface.gif)
+  ![Check collision between a image and a line](https://i.stack.imgur.com/gEqXr.gif)
 
   :scroll: **[Minimal example - Find intersection of surfaces](../../examples/minimal_examples/pygame_minimal_mask_intersect_surface.py)**
 

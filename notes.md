@@ -17,9 +17,10 @@
         - [Questions about video](#questions-about-video)
             - [Questions about size, and resizing](#questions-about-size-and-resizing)
         - [Not answered questions](#not-answered-questions)
-            - [3D](#3d)
+        - [UI](#ui)
+        - [3D](#3d)
         - [PyOpenGL](#pyopengl)
-            - [Threading](#threading)
+        - [Threading](#threading)
         - [Improve answer](#improve-answer)
         - [Investigate](#investigate)
         - [My questions](#my-questions)
@@ -157,7 +158,12 @@ next:
 [A-star algorithm results in weird, slow and inefficient choices](https://stackoverflow.com/questions/60955754/a-star-algorithm-results-in-weird-slow-and-inefficient-choices)  
 [How can you pre-calculate the balls trajectory and therefore its endpoint in the game Pong?](https://stackoverflow.com/questions/55976268/how-can-you-pre-calculate-the-balls-trajectory-and-therefore-its-endpoint-in-the)  
 [Speed up AI obstacle detection in python pygame](https://stackoverflow.com/questions/61202251/speed-up-ai-obstacle-detection-in-python-pygame)  
-#### 3D
+
+### UI
+
+[combobox in pygame, python 2.7](https://stackoverflow.com/questions/54410085/combobox-in-pygame-python-2-7)
+
+### 3D
 
 [Pygame: Fastest way to draw a scanline rasterized triangle pixel by pixel with depth buffering?](https://stackoverflow.com/questions/64259810/pygame-fastest-way-to-draw-a-scanline-rasterized-triangle-pixel-by-pixel-with-d)  
 [Making the rays travel faster](https://stackoverflow.com/questions/64093301/making-the-rays-travel-faster)  
@@ -168,7 +174,7 @@ next:
 [OpenGL: How do I apply a texture to this cube?](https://stackoverflow.com/questions/39194862/opengl-how-do-i-apply-a-texture-to-this-cube)  
 [How to apply texture to a pyramid in PyOpenGL](https://stackoverflow.com/questions/62516417/how-to-apply-texture-to-a-pyramid-in-pyopengl)  
 
-#### Threading
+### Threading
 
 [Is it safe to use pygame in a thread or a process?](https://stackoverflow.com/questions/63913788/is-it-safe-to-use-pygame-in-a-thread-or-a-process)  
 

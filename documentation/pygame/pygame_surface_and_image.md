@@ -345,10 +345,12 @@ pip install CairoSVG
 Write a function that converts a SVF file to a PNG ([`ByteIO`](https://docs.python.org/3/library/io.html)) and creates a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object may look as follows:
 
 ```py
+import cairosvg
+import io
+
 def load_svg(filename):
-    drawing = svg2rlg(filename)
-    str = drawing.asString("png")
-    byte_io = io.BytesIO(str)
+    new_bites = cairosvg.svg2png(url = filename)
+    byte_io = io.BytesIO(new_bites)
     return pygame.image.load(byte_io)
 ```
 
