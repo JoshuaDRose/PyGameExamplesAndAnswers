@@ -17,6 +17,7 @@
         - [Questions about video](#questions-about-video)
             - [Questions about size, and resizing](#questions-about-size-and-resizing)
         - [Not answered questions](#not-answered-questions)
+        - [Text](#text)
         - [UI](#ui)
         - [3D](#3d)
         - [PyOpenGL](#pyopengl)
@@ -157,6 +158,10 @@ next:
 [Speed up AI obstacle detection in python pygame](https://stackoverflow.com/questions/61202251/speed-up-ai-obstacle-detection-in-python-pygame)  
 [Odd Behavior From Trigonometric Functions](https://stackoverflow.com/questions/54189014/odd-behavior-from-trigonometric-functions)  
 
+### Text
+
+[Pygame Text Space (Kerning)](https://stackoverflow.com/questions/53361242/pygame-text-space-kerning)
+
 ### UI
 
 [combobox in pygame, python 2.7](https://stackoverflow.com/questions/54410085/combobox-in-pygame-python-2-7)
@@ -175,6 +180,7 @@ next:
 ### Threading
 
 [Is it safe to use pygame in a thread or a process?](https://stackoverflow.com/questions/63913788/is-it-safe-to-use-pygame-in-a-thread-or-a-process)  
+[pygame multithread client socket GUI Blocking](https://stackoverflow.com/questions/52607405/pygame-multithread-client-socket-gui-blocking)  
 
 ### Investigate
 

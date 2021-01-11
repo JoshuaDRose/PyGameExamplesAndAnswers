@@ -108,7 +108,8 @@ Related Stack Overflow questions:
 - [How to simulate Jumping in Pygame for this particular code](https://stackoverflow.com/questions/54595777/how-to-simulate-jumping-in-pygame-for-this-particular-code/54596624#54596624)  
   ![How to simulate Jumping in Pygame for this particular code](https://i.stack.imgur.com/XEAF8.gif)
 
-- [python, pygame - jumping too fast?](https://stackoverflow.com/questions/58474204/python-pygame-jumping-too-fast/58474280#58474280)
+- [python, pygame - jumping too fast?](https://stackoverflow.com/questions/58474204/python-pygame-jumping-too-fast/58474280#58474280)  
+  ![python, pygame - jumping too fast?](https://i.stack.imgur.com/gWHCT.gif)
 
 - [How to make a circular object jump using pygame?](https://stackoverflow.com/questions/62822322/how-to-make-a-circular-object-jump-using-pygame/62822601#62822601)  
   ![How to make a circular object jump using pygame?](https://i.stack.imgur.com/6BPnL.gif)
