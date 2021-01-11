@@ -21,10 +21,7 @@
         - [3D](#3d)
         - [PyOpenGL](#pyopengl)
         - [Threading](#threading)
-        - [Improve answer](#improve-answer)
         - [Investigate](#investigate)
-        - [My questions](#my-questions)
-            - [Web](#web)
             - [URL](#url)
     - [Questions](#questions)
         - [Move and stay in window](#move-and-stay-in-window)
@@ -179,10 +176,6 @@ next:
 
 [Is it safe to use pygame in a thread or a process?](https://stackoverflow.com/questions/63913788/is-it-safe-to-use-pygame-in-a-thread-or-a-process)  
 
-### Improve answer
-
-[How to create a taken damage / red vignette effect in pygame](https://stackoverflow.com/questions/56333344/how-to-create-a-taken-damage-red-vignette-effect-in-pygame/56335168#56335168)  
-
 ### Investigate
 
 [How to make keyboard Input into unicode/japanese characters?](https://stackoverflow.com/questions/64543224/how-to-make-keyboard-input-into-unicode-japanese-characters)  
@@ -191,12 +184,6 @@ next:
 [Fully transparent windows in Pygame?](https://stackoverflow.com/questions/550001/fully-transparent-windows-in-pygame)  
 [Creating a transparent window/overlay with pyopengl](https://stackoverflow.com/questions/61003354/creating-a-transparent-window-overlay-with-pyopengl)  
 [Pygame: How to deform a surface perspectively without OpenGL](https://stackoverflow.com/questions/13671424/pygame-how-to-deform-a-surface-perspectively-without-opengl)  
-### My questions
-
-[What is the most comprehensible way to create a Rect object from a center point and a size in PyGame?](https://stackoverflow.com/questions/65042134/what-is-the-most-comprehensible-way-to-create-a-rect-object-from-a-center-point)
-#### Web
-
-[is it possible to run pygame or pyglet in a browser?](https://stackoverflow.com/questions/8452927/is-it-possible-to-run-pygame-or-pyglet-in-a-browser)
 
 #### URL
 
