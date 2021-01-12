@@ -145,7 +145,8 @@ while run == True:
 
 Related Stack Overflow questions:
 
-- [How can I show explosion image when collision happens?](https://stackoverflow.com/questions/64305426/how-can-i-show-explosion-image-when-collision-happens)
+- [How can I show explosion image when collision happens?](https://stackoverflow.com/questions/64305426/how-can-i-show-explosion-image-when-collision-happens/64305746#64305746)  
+  ![How can I show explosion image when collision happens?](https://i.stack.imgur.com/mdCj6.gif)
 
 - [Adding a particle effect to my clicker game](https://stackoverflow.com/questions/64793618/adding-a-particle-effect-to-my-clicker-game/64794954#64794954)  
   ![Adding a particle effect to my clicker game](https://i.stack.imgur.com/bWOOF.gif)

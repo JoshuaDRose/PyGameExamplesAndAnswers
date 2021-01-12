@@ -53,6 +53,7 @@
 ![replt-it-32](https://i.stack.imgur.com/5jD0C.png)
 
 [repl.it](https://repl.it/repls/folder/PyGame%20Examples)
+[trinket.io](https://trinket.io/)
 
 ## Template
 
@@ -105,6 +106,7 @@ next:
 
 [Draw a circle that contains color gradient in pygame](https://stackoverflow.com/questions/57062579/draw-a-circle-that-contains-color-gradient-in-pygame)  
 [Multi-Colored text in pygame](https://stackoverflow.com/questions/64825207/multi-colored-text-in-pygame)  
+[Make drawings in pygame](https://stackoverflow.com/questions/50584736/make-drawings-in-pygame)  
 
 #### Collision and intersection
 
@@ -157,10 +159,12 @@ next:
 [How can you pre-calculate the balls trajectory and therefore its endpoint in the game Pong?](https://stackoverflow.com/questions/55976268/how-can-you-pre-calculate-the-balls-trajectory-and-therefore-its-endpoint-in-the)  
 [Speed up AI obstacle detection in python pygame](https://stackoverflow.com/questions/61202251/speed-up-ai-obstacle-detection-in-python-pygame)  
 [Odd Behavior From Trigonometric Functions](https://stackoverflow.com/questions/54189014/odd-behavior-from-trigonometric-functions)  
+[Make an 'object' move along a curved path](https://stackoverflow.com/questions/50510090/make-an-object-move-along-a-curved-path)  
 
 ### Text
 
-[Pygame Text Space (Kerning)](https://stackoverflow.com/questions/53361242/pygame-text-space-kerning)
+[Pygame Text Space (Kerning)](https://stackoverflow.com/questions/53361242/pygame-text-space-kerning)  
+[Formatting text in pygame as a table](https://stackoverflow.com/questions/50371892/formatting-text-in-pygame-as-a-table)  
 
 ### UI
 
