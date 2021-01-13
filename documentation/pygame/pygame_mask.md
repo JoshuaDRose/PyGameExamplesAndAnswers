@@ -42,7 +42,7 @@ Related Stack Overflow questions:
 
 - [Get the pixels which are colliding with the Surface](https://stackoverflow.com/questions/20715211/get-the-pixels-which-are-colliding-with-the-surface/65408358#65408358)
 
-## Circular maks
+## Circular mask
 
 Related Stack Overflow questions:
 
