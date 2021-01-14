@@ -102,8 +102,8 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- **[pygame.image.load('sprite/test_bg.jpg'): pygame.error: Couldn't open sprite/test_bg.jpg](https://stackoverflow.com/questions/58177145/pygame-image-loadsprite-test-bg-jpg-pygame-error-couldnt-open-sprite-test)**
-- **[Is there any other way to load image in pygame?](https://stackoverflow.com/questions/64835525/is-there-any-other-way-to-load-image-in-pygame/64835607#64835607)**
+- **[Could not open resource file: pygame.error: Couldn't open sprite/test_bg.jpg](https://stackoverflow.com/questions/58177145/could-not-open-resource-file-pygame-error-couldnt-open-sprite-test-bg-jpg/58178276#58178276)**
+- **[Is there any other way to load a resource like an image, sound, or font into Pygame?](https://stackoverflow.com/questions/64835525/is-there-any-other-way-to-load-a-resource-like-an-image-sound-or-font-into-pyg/64835607?)**
 - [Error - pygame.error: Couldn't open backround.png. Fix?](https://stackoverflow.com/questions/57836528/error-pygame-error-couldnt-open-backround-png-fix/57836574#57836574)
 - [I've got an error when trying to create sound using pygame](https://stackoverflow.com/questions/55784793/ive-got-an-error-when-trying-to-create-sound-using-pygame/55784882#55784882)
 
