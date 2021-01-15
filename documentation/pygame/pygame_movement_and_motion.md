@@ -79,7 +79,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Pygame- rotate sprite and follow path simultaneously](https://stackoverflow.com/questions/56297756/pygame-rotate-sprite-and-follow-path-simultaneously/56298370#56298370)
+- [Pygame- rotate sprite and follow path simultaneously](https://stackoverflow.com/questions/56297756/pygame-rotate-sprite-and-follow-path-simultaneously/56298370#56298370)  
   ![Pygame- rotate sprite and follow path simultaneously](https://i.stack.imgur.com/7pbE7.gif)
 
   :scroll: **[Minimal example - Throw ball](../../examples/minimal_examples/pygame_minimal_move_throw_ball.py)**
