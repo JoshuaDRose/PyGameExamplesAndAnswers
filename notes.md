@@ -118,6 +118,8 @@ next:
 [How create a simulation (pendulum, projectile motion) in pygame](https://stackoverflow.com/questions/59147116/how-create-a-simulation-pendulum-projectile-motion-in-pygame)  
 [How can you pre-calculate the balls trajectory and therefore its endpoint in the game Pong?](https://stackoverflow.com/questions/55976268/how-can-you-pre-calculate-the-balls-trajectory-and-therefore-its-endpoint-in-the)  
 [Pygame draw a surface within a circle](https://stackoverflow.com/questions/59620907/pygame-draw-a-surface-within-a-circle)  
+[Pygame - Collisions on the sides of a platform](https://stackoverflow.com/questions/65523511/pygame-collisions-on-the-sides-of-a-platform)  
+[Add sprite to the group that it doesn't collide with any sprites in the group](https://stackoverflow.com/questions/65538456/add-sprite-to-the-group-that-it-doesnt-collide-with-any-sprites-in-the-group)  
 
 #### Recursiveness
 
@@ -160,6 +162,7 @@ next:
 [Speed up AI obstacle detection in python pygame](https://stackoverflow.com/questions/61202251/speed-up-ai-obstacle-detection-in-python-pygame)  
 [Odd Behavior From Trigonometric Functions](https://stackoverflow.com/questions/54189014/odd-behavior-from-trigonometric-functions)  
 [Make an 'object' move along a curved path](https://stackoverflow.com/questions/50510090/make-an-object-move-along-a-curved-path)  
+[Why is a generated SVG image less rich than the corresponding PNG image](https://stackoverflow.com/users/5577765/rabbid76?tab=following)  
 
 ### Text
 

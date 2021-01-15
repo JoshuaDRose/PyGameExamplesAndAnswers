@@ -38,6 +38,9 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CarMovement](https://repl.it/@Rabbid76/PyGame-CarMovement#main.py)</kbd>
 
+- [PYGAME - Move Character with Vector](https://stackoverflow.com/questions/65688244/pygame-move-character-with-vector/65688573#65688573)  
+  ![PYGAME - Move Character with Vector](https://i.stack.imgur.com/R83IT.gif)  
+
 - [Image rotation while moving](https://stackoverflow.com/questions/57226587/image-rotation-while-moving/57227063#57227063)  
   ![Image rotation while moving](https://i.stack.imgur.com/XWNPt.gif)
 
