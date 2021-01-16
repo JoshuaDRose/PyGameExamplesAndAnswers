@@ -145,9 +145,17 @@ Related Stack Overflow questions:
 
 - [Tool to host online Python/Pygame experiment](https://stackoverflow.com/questions/62267800/tool-to-host-online-python-pygame-experiment/65530696#65530696)
 
+
+## Debug
+
+Related Stack Overflow questions:
+
+- [Python debugging tips](https://stackoverflow.com/questions/1623039/python-debugging-tips)
 ## Errors
 
 ### SDL errors
+
+Related Stack Overflow questions:
 
 - [pip install pygame - SDL.h file not found](https://stackoverflow.com/questions/45992243/pip-install-pygame-sdl-h-file-not-found)
 
