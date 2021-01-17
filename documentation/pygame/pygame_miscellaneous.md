@@ -32,7 +32,7 @@ pip install pygame --pre
 
 Related Stack Overflow questions:
 
-- [Unable to install pygame on Python 3.8 via pip (Windows 10)](https://stackoverflow.com/questions/58489348/unable-to-install-pygame-on-python-3-8-via-pip-windows-10)
+- [Unable to install pygame on Python via pip (Windows 10)](https://stackoverflow.com/questions/58489348/unable-to-install-pygame-on-python-via-pip-windows-10)
 - [How to troubleshoot python import error - DLL access denied](https://stackoverflow.com/questions/49127425/how-to-troubleshoot-python-import-error-dll-access-denied)
 - [When I try to install pygame using python 3.9 I get an error windows](https://stackoverflow.com/questions/64261106/when-i-try-to-install-pygame-using-python-3-9-i-get-an-error-windows)
 
@@ -151,6 +151,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Python debugging tips](https://stackoverflow.com/questions/1623039/python-debugging-tips)
+
 ## Errors
 
 ### SDL errors

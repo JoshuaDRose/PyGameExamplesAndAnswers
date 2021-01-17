@@ -6,7 +6,7 @@
 
 Related Stack Overflow questions:
 
-* - **[How to rotate an image(player) to the mouse direction?](https://stackoverflow.com/questions/58603835/how-to-rotate-an-imageplayer-to-the-mouse-direction/58604116#58604116)**  
+- **[How to rotate an image(player) to the mouse direction?](https://stackoverflow.com/questions/58603835/how-to-rotate-an-imageplayer-to-the-mouse-direction/58604116#58604116)**  
   [How do I make my player rotate towards mouse position?](https://stackoverflow.com/questions/56627414/how-do-i-make-my-player-rotate-towards-mouse-position/56627834#56627834)  
   [Still Having Problems With Rotating Cannon's Properly Towards The Player PyGame](https://stackoverflow.com/questions/62520375/still-having-problems-with-rotating-cannons-properly-towards-the-player-pygame)  
   [How do I make image rotate with mouse python](https://stackoverflow.com/questions/65573379/how-do-i-make-image-rotate-with-mouse-python/65575874#65575874)  
