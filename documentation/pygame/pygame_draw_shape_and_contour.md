@@ -15,7 +15,15 @@ Related Stack Overflow questions:
 - [Pygame Drawing a Rectangle](https://stackoverflow.com/questions/19780411/pygame-drawing-a-rectangle)
 - [Draw a transparent rectangle in pygame](https://stackoverflow.com/questions/6339057/draw-a-transparent-rectangle-in-pygame/64630102#64630102)  
 - [How to make transparent pygame.draw.circle](https://stackoverflow.com/questions/59293057/how-to-make-transparent-pygame-draw-circle/59294087#59294087)  
-  ![How to make transparent pygame.draw.circle](https://i.stack.imgur.com/nOoJj.png)
+  ![How to make transparent pygame.draw.circle](https://i.stack.imgur.com/nOoJj.png)  
+
+- [drawing a diagonal ellipse with pygame](https://stackoverflow.com/questions/23281952/drawing-a-diagonal-ellipse-with-pygame/65774382#65774382)  
+  ![drawing a diagonal ellipse with pygame](https://i.stack.imgur.com/ruNV5.gif)  
+
+  :scroll: **[Minimal example - Draw shapes](../../examples/minimal_examples/pygame_minimal_draw_rotated_ellipse_1.py)**
+
+- [How to draw a rotated ellipse using Pygame?](https://stackoverflow.com/questions/65767785/how-to-draw-a-rotated-ellipse-using-pygame/65769408#65769408)  
+  ![How to draw a rotated ellipse using Pygame?](https://i.stack.imgur.com/1v4ln.png)
 
 With the module [pygame.draw](https://www.pygame.org/docs/ref/draw.html) shapes like rectangles, circles, polygons or liens can be drawn.
 
