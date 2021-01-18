@@ -145,7 +145,6 @@ Related Stack Overflow questions:
 
 - [Tool to host online Python/Pygame experiment](https://stackoverflow.com/questions/62267800/tool-to-host-online-python-pygame-experiment/65530696#65530696)
 
-
 ## Debug
 
 Related Stack Overflow questions:

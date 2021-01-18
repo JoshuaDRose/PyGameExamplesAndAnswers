@@ -197,6 +197,7 @@ next:
 [Fully transparent windows in Pygame?](https://stackoverflow.com/questions/550001/fully-transparent-windows-in-pygame)  
 [Creating a transparent window/overlay with pyopengl](https://stackoverflow.com/questions/61003354/creating-a-transparent-window-overlay-with-pyopengl)  
 [Pygame: How to deform a surface perspectively without OpenGL](https://stackoverflow.com/questions/13671424/pygame-how-to-deform-a-surface-perspectively-without-opengl)  
+[pygame, why it can't show gray scale picture](https://stackoverflow.com/questions/45895328/pygame-why-it-cant-show-gray-scale-picture)  
 
 #### URL
 
