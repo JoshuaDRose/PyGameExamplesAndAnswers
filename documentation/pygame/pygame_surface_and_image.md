@@ -22,7 +22,7 @@ Related Stack Overflow questions:
 [`pygame.Surface.get_rect.get_rect()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.get_rect) returns a rectangle with the size of the _Surface_ object, that always starts at (0, 0) since a _Surface_ object has no position. The position of the rectangle can be specified by a keyword argument. For example, the center of the rectangle can be specified with the keyword argument `center`. These keyword argument are applied to the attributes of the [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) before it is returned (see [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) for a full list of the keyword arguments).
 
 [`pygame.Surface.get_rect.get_rect()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.get_rect) returns a rectangle with the size of the _Surface_ object, but it returns a rectangle that always starts at (0, 0) since a _Surface_ object has no position.  
-The Surface is placed at a position when it is `blit` to the display.  
+The _Surface_ is placed at a position on the display with the `blit` function.  
 
 You've to set the location of the rectangle, either by a keyword argument, e.g:
 
