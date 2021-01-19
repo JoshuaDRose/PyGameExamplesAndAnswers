@@ -125,6 +125,9 @@ Related Stack Overflow questions:
 - [Pygame sprite not moving while jumping](https://stackoverflow.com/questions/65583721/pygame-sprite-not-moving-while-jumping/65583922#65583922)  
   ![Pygame sprite not moving while jumping](https://i.stack.imgur.com/8uR7T.gif)  
 
+- [How Can I Improve This Jump?](https://stackoverflow.com/questions/65729359/how-can-i-improve-this-jump/65737915#65737915)  
+  ![How Can I Improve This Jump?](https://i.stack.imgur.com/dutyN.gif)  
+
 ## Particles
 
 - [Projectile motion and gravity in pygame only sometimes working](https://stackoverflow.com/questions/55822116/projectile-motion-and-gravity-in-pygame-only-sometimes-working/55836374#55836374)  
