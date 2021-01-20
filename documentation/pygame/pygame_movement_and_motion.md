@@ -69,6 +69,16 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Spin in a circle 2](../../examples/minimal_examples/pygame_minimal_move_spin_in_circle_2.py)**
 
+## Move along path
+
+Related Stack Overflow questions:
+
+- [Is it possible to implement gradual movement of an object to given coordinates in Pygame?](https://stackoverflow.com/questions/60356812/is-it-possible-to-implement-gradual-movement-of-an-object-to-given-coordinates-i/60356995#60356995)  
+  ![Is it possible to implement gradual movement of an object to given coordinates in Pygame?](https://i.stack.imgur.com/rScfu.gif)  
+  
+- [How to make a circle move diagonally from corner to corner in pygame](https://stackoverflow.com/questions/65814020/how-to-make-a-circle-move-diagonally-from-corner-to-corner-in-pygame/65814431#65814431)  
+  ![How to make a circle move diagonally from corner to corner in pygame](https://i.stack.imgur.com/XgYd0.gif)
+
 ### Move in grid
 
 Related Stack Overflow questions:

@@ -289,9 +289,6 @@ Related Stack Overflow questions:
 [Colour Changing Bouncing Ball](https://stackoverflow.com/questions/60312365/colour-changing-bouncing-ball/60315375#60315375)
 ![scene](https://i.stack.imgur.com/Bz0cu.gif)
 
-[Is it possible to implement gradual movement of an object to given coordinates in Pygame?](https://stackoverflow.com/questions/60356812/is-it-possible-to-implement-gradual-movement-of-an-object-to-given-coordinates-i/60356995#60356995)  
-![scne](https://i.stack.imgur.com/rScfu.gif)
-
 [Using a matrix as a sprite and testing if two sprites overlap](https://stackoverflow.com/questions/60387917/using-a-matrix-as-a-sprite-and-testing-if-two-sprites-overlap/60391694#60391694)  
 ![scene](https://i.stack.imgur.com/brlQk.gif)
 
@@ -300,9 +297,6 @@ Related Stack Overflow questions:
 [How to find the button on the entered position by user and change it's color in pygame?](https://stackoverflow.com/questions/61767256/how-to-find-the-button-on-the-entered-position-by-user-and-change-its-color-in/61767309#61767309)  
 ![scene](https://i.stack.imgur.com/sqIcy.gif)
 ![scene](https://i.stack.imgur.com/KMpLP.gif)
-
-[Why it doesn't spin in a circle? And how to fix it?](https://stackoverflow.com/questions/62883103/why-it-doesnt-spin-in-a-circle-and-how-to-fix-it/62883770#62883770)  
-![scene](https://i.stack.imgur.com/UD6Wt.gif)
 
 [pygame.mouse.get_pressed() not responding](https://stackoverflow.com/questions/63197182/pygame-mouse-get-pressed-not-responding/63197269#63197269)  
 ![scene](https://i.stack.imgur.com/zL9WO.gif)
