@@ -237,6 +237,7 @@ Related Stack Overflow questions:
 
 - [How to Change the Name of a Pygame window?](https://stackoverflow.com/questions/40566585/how-to-change-the-name-of-a-pygame-window/65641908#65641908)  
 - [Icons are not displayed, displayed only after closing for half a second](https://stackoverflow.com/questions/65079658/icons-are-not-displayed-displayed-only-after-closing-for-half-a-second/65079700#65079700)  
+- [Why can't I change the python window icon?](https://stackoverflow.com/questions/65809541/why-cant-i-change-the-python-window-icon)  
 - [pygame.display.set_icon(pygame.image obj) doesn't work in python 3.9.1](https://stackoverflow.com/questions/65454856/pygame-display-set-iconpygame-image-obj-doesnt-work-in-python-3-9-1/65454866#65454866)
 - [how to set a picture as an app icon in pygame in ubuntu](https://stackoverflow.com/questions/63717695/how-to-set-a-picture-as-an-app-icon-in-pygame-in-ubuntu/63717754#63717754)
 - [pygame collision detection causes my computer to hang](https://stackoverflow.com/questions/60323509/pygame-collision-detection-causes-my-computer-to-hang/60327662#60327662)
