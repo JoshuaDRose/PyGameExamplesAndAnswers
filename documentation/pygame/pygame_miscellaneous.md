@@ -196,6 +196,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
+- [Local variable referenced before assignment?](https://stackoverflow.com/questions/18002794/local-variable-referenced-before-assignment)  
 - [Python pygame - bouncing ball (UnboundLocalError: local variable 'move_y' referenced before assignment)](https://stackoverflow.com/questions/65153237/python-pygame-bouncing-ball-unboundlocalerror-local-variable-move-y-refere/65154942#65154942)
 
 In Python, a variable declared outside of the function or in global scope is known as a global variable. This means that a global variable can be accessed inside or outside of the function.  
