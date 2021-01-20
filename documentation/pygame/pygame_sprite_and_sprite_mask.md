@@ -42,6 +42,7 @@ Related Stack Overflow questions:
 - [Can I create and handle a pygame sprite not in a group the same way as if it's in a group?](https://stackoverflow.com/questions/63487180/can-i-create-and-handle-a-pygame-sprite-not-in-a-group-the-same-way-as-if-its-i/63487306#63487306)
 - [How to have each sprite in a group A chasing the closest sprite in group B?](https://stackoverflow.com/questions/63927331/how-to-have-each-sprite-in-a-group-a-chasing-the-closest-sprite-in-group-b/63927397#63927397)
 - [Why am I getting a second image of sprite that won't rotate and shouldn't be there?](https://stackoverflow.com/questions/65623795/why-am-i-getting-a-second-image-of-sprite-that-wont-rotate-and-shouldnt-be-the/65624264#65624264)  
+- [How to remove image, then blit it again?](https://stackoverflow.com/questions/65757826/how-to-remove-image-then-blit-it-again/65758502#65758502)  
 
 A [`pygame.sprite.Group`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group) is iterable. Hence you can go through the elements in a `for`-loop:
 

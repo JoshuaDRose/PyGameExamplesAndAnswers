@@ -370,6 +370,7 @@ Related Stack Overflow questions:
 - [Framerate affect the speed of the game](https://stackoverflow.com/questions/61352366/framerate-affect-the-speed-of-the-game/61352472#61352472)
 - [Pygame snake velocity too high when the fps above 15](https://stackoverflow.com/questions/61034515/pygame-snake-velocity-too-high-when-the-fps-above-15/61034931#61034931)
 - [Changing FPS on pygame in order to achieve smoothness of sprite's movement](https://stackoverflow.com/questions/59037251/changing-fps-on-pygame-in-order-to-achieve-smoothness-of-sprites-movement/65371237?noredirect=1)  
+- [Anyone want to tell me why my pygame code lags while using pygame Vectors?](https://stackoverflow.com/questions/65758517/anyone-want-to-tell-me-why-my-pygame-code-lags-while-using-pygame-vectors/65758921#65758921)  
 
 You have to calculate the movement per frame depending on the frame rate.
 

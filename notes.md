@@ -120,6 +120,7 @@ next:
 [Pygame draw a surface within a circle](https://stackoverflow.com/questions/59620907/pygame-draw-a-surface-within-a-circle)  
 [Pygame - Collisions on the sides of a platform](https://stackoverflow.com/questions/65523511/pygame-collisions-on-the-sides-of-a-platform)  
 [Add sprite to the group that it doesn't collide with any sprites in the group](https://stackoverflow.com/questions/65538456/add-sprite-to-the-group-that-it-doesnt-collide-with-any-sprites-in-the-group)  
+[How to find the nearest point to the ray in numpy?](https://stackoverflow.com/questions/61500277/how-to-find-the-nearest-point-to-the-ray-in-numpy)  
 
 #### Recursiveness
 
