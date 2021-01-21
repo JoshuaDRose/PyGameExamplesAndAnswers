@@ -42,6 +42,12 @@ Related Stack Overflow questions:
 
 - [Get the pixels which are colliding with the Surface](https://stackoverflow.com/questions/20715211/get-the-pixels-which-are-colliding-with-the-surface/65408358#65408358)
 
+- [Pygame mask collision](https://stackoverflow.com/questions/60077813/pygame-mask-collision/60078039#60078039)  
+  [![Pygame mask collision](https://i.stack.imgur.com/fiLMi.gif)](https://stackoverflow.com/questions/60077813/pygame-mask-collision/60078039#60078039)  
+
+- [Make a line as a sprite with its own collision in Pygame](https://stackoverflow.com/questions/34456195/make-a-line-as-a-sprite-with-its-own-collision-in-pygame/65324946#65324946)  
+  ![Make a line as a sprite with its own collision in Pygame](https://i.stack.imgur.com/tMq2i.gif)
+
 ## Circular mask
 
 Related Stack Overflow questions:

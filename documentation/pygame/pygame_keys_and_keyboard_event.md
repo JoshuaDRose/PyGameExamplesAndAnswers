@@ -166,6 +166,10 @@ Related Stack Overflow questions:
 - [How can i shoot a bullet with space bar?](https://stackoverflow.com/questions/59687250/how-can-i-shoot-a-bullet-with-space-bar/59689297#59689297)  
   ![How can i shoot a bullet with space bar?](https://i.stack.imgur.com/2sp5D.gif)
 
+  :scroll: **[minimal example - Sustained fire](../../examples/minimal_examples/pygame_minimal_shoot_bullet_sustained_fire.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)</kbd>
+
 - [How do I stop more than 1 bullet firing at once?](https://stackoverflow.com/questions/60122492/how-do-i-stop-more-than-1-bullet-firing-at-once/60125448#60125448)  
   ![How do I stop more than 1 bullet firing at once?](https://i.stack.imgur.com/W6lzh.gif)
 
@@ -173,9 +177,9 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBullet](https://repl.it/@Rabbid76/PyGame-ShootBullet#main.py)</kbd>
 
-  :scroll: **[minimal example - Sustained fire](../../examples/minimal_examples/pygame_minimal_shoot_bullet_sustained_fire.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)</kbd>
+- [Pygame: problems with shooting in Space Invaders](https://stackoverflow.com/questions/65759929/pygame-problems-with-shooting-in-space-invaders/65759972#65759972)  
+  ![Pygame: problems with shooting in Space Invaders [duplicate]]()
 
 The general approach to firing bullets is to store the positions of the bullets in a list (`bullet_list`). When a bullet is fired, add the bullet's starting position (`[start_x, start_y]`) to the list. The starting position is the position of the object (player or enemy) that fires the bullet. Use a `for`-loop to iterate through all the bullets in the list. Move position of each individual bullet in the loop. Remove a bullet from the list that leaves the screen (`bullet_list.remove(bullet_pos)`). For this reason, a copy of the list (`bullet_list[:]`) must be run through (see [How to remove items from a list while iterating?](https://stackoverflow.com/questions/1207406/how-to-remove-items-from-a-list-while-iterating)). Use another ` for`-loop to `blit` the remaining bullets on the screen:
 
