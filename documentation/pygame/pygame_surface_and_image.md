@@ -64,8 +64,8 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
+- [Pygame - blitting from x and y cordinates of image](https://stackoverflow.com/questions/65828379/pygame-blitting-from-x-and-y-cordinates-of-image/65828456#65828456)  
 - [How can I crop an image with Pygame?](https://stackoverflow.com/questions/6239769/how-can-i-crop-an-image-with-pygame/65627793#65627793)
-- [How can I make a pygame surface object from only part of a loaded image?](https://stackoverflow.com/questions/60784107/how-can-i-make-a-pygame-surface-object-from-only-part-of-a-loaded-image/65549191#65549191)
 
 ## Transparent surface and color key
 
