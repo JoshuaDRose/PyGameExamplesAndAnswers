@@ -44,7 +44,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Clip circular 4](../../examples/minimal_examples/pygame_minimal_clip_circular_4.py)**
 
-- [Can I use an image on a moving object within Pygame as opposed to to a color?](https://stackoverflow.com/questions/65851274/can-i-use-an-image-on-a-moving-object-within-pygame-as-opposed-to-to-a-color/65851431#65851431)
+- [Can I use an image on a moving object within Pygame as opposed to to a color?](https://stackoverflow.com/questions/65851274/can-i-use-an-image-on-a-moving-object-within-pygame-as-opposed-to-to-a-color/65851431#65851431)  
   ![Can I use an image on a moving object within Pygame as opposed to to a color?](https://i.stack.imgur.com/kIAeK.gif)  
 
   :scroll: **[Minimal example - Clip circular 5](../../examples/minimal_examples/pygame_minimal_clip_circular_5.py)**
