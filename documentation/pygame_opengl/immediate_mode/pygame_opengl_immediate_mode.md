@@ -79,7 +79,10 @@ The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a si
 
 [Moving only one cube out of 2 in Python with PyOpenGL](https://stackoverflow.com/questions/60901079/moving-only-one-cube-out-of-2-in-python-with-pyopengl)  
 
-[PyOpenGl Pygame window freezes when run](https://stackoverflow.com/questions/54683378/pyopengl-pygame-window-freezes-when-run/54696233#54696233)
+[PyOpenGl Pygame window freezes when run](https://stackoverflow.com/questions/54683378/pyopengl-pygame-window-freezes-when-run/54696233#54696233)  
+![PyOpenGl Pygame window freezes when run](https://i.stack.imgur.com/jUWiH.gif)
+
+:scroll: **[OpenGL immediate mode - Draw a wireframe cube](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_wireframe.py)**
 
 [PyOpenGL: move two objects separately?](https://stackoverflow.com/questions/61679379/pyopengl-move-two-objects-separately/61682813#61682813)
 
@@ -113,7 +116,7 @@ The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a si
 [how to get vertical rotation in 3D space with OpenGL?](https://stackoverflow.com/questions/55638222/how-to-get-vertical-rotation-in-3d-space-with-opengl/55639392#55639392)  
 ![scene](https://i.stack.imgur.com/BgUZK.gif)
 
-[Stackoverflow question: how to modify the view of the camera with pygame and openGL](https://stackoverflow.com/questions/47169618/how-to-modify-the-view-of-the-camera-with-pygame-and-opengl)
+[how to modify the view of the camera with pygame and openGL](https://stackoverflow.com/questions/47169618/how-to-modify-the-view-of-the-camera-with-pygame-and-opengl)
 
 [Cannot draw to the same position using gluSphere()?](https://stackoverflow.com/questions/56832809/cannot-draw-to-the-same-position-using-glusphere)  
 
