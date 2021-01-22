@@ -55,6 +55,12 @@ Related Stack Overflow questions:
 
 - [Pygame Window not Responding after few seconds](https://stackoverflow.com/questions/64830453/pygame-window-not-responding-after-few-seconds/64832291#64832291)
 
+### Game state
+
+Related Stack Overflow questions:
+
+- [Python/Pygame adding a title screen with a button](https://stackoverflow.com/questions/65845689/python-pygame-adding-a-title-screen-with-a-button/65845819#65845819)  
+
 ### Recursiveness
 
 Related Stack Overflow questions:

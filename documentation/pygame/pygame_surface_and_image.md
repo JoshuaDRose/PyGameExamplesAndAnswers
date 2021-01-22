@@ -576,3 +576,19 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How do I save a section of a pygame screen and blit it to another location?](https://stackoverflow.com/questions/56420746/how-do-i-save-a-section-of-a-pygame-screen-and-blit-it-to-another-location/56421239#56421239)
+
+## Transformation
+
+### Flip
+
+Related Stack Overflow questions:
+
+- [How to Flip Image After Hitting Wall - Pygame](https://stackoverflow.com/questions/65834797/how-to-flip-image-after-hitting-wall-pygame/65834912#65834912)  
+
+### Scale
+
+See [Scale and zoom](pygame_surface_scale_and_zoom.md)
+
+### Rotate
+
+See [Rotate surface](pygame_surface_rotate.md)

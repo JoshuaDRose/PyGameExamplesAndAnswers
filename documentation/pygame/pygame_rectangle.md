@@ -82,7 +82,8 @@ In the following, `min` and `max` are used to clamp the center of the circle in 
 
 Related Stack Overflow questions:
 
-- [how to center image inside a rect pygame](https://stackoverflow.com/questions/63834628/how-to-center-image-inside-a-rect-pygame/63834731#63834731)
+- [how to center image inside a rect pygame](https://stackoverflow.com/questions/63834628/how-to-center-image-inside-a-rect-pygame/63834731#63834731)  
+- [How do I center objects so the rectangle is around my character?](https://stackoverflow.com/questions/65789733/how-do-i-center-objects-so-the-rectangle-is-around-my-character/65789980#65789980)  
 
 ## Nested rectangles
 
