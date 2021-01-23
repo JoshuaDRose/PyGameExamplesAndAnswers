@@ -65,7 +65,8 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Pygame - blitting from x and y cordinates of image](https://stackoverflow.com/questions/65828379/pygame-blitting-from-x-and-y-cordinates-of-image/65828456#65828456)  
-- [How can I crop an image with Pygame?](https://stackoverflow.com/questions/6239769/how-can-i-crop-an-image-with-pygame/65627793#65627793)
+- [How can I crop an image with Pygame?](https://stackoverflow.com/questions/6239769/how-can-i-crop-an-image-with-pygame/65627793#65627793)  
+- [How to save all pixels that were in the place of a rect in pygame?](https://stackoverflow.com/questions/65858276/how-to-save-all-pixels-that-were-in-the-place-of-a-rect-in-pygame/65858324#65858324)  
 
 ## Transparent surface and color key
 
@@ -91,7 +92,7 @@ Related Stack Overflow questions:
 - [pygame image background does not match main background](https://stackoverflow.com/questions/62689244/pygame-image-background-does-not-match-main-background/62689442#62689442)
 - [Pygame image transparency confusion](https://stackoverflow.com/questions/64704789/pygame-image-transparency-confusion/64704923#64704923)
 
-Most likely, your image is not transparent at all. The transparency is stored in the alpha value. Compared to JPG and BMP, the PNG and GIF formats offer an alpha value per pixel. Converting an image to PNG or GIF format does not make an image transparent. You need to paint or download a transparent image. 
+Most likely, your image is not transparent at all. The transparency is stored in the alpha value. Compared to JPG and BMP, the PNG and GIF formats offer an alpha value per pixel. Converting an image to PNG or GIF format does not make an image transparent. You need to paint or download a transparent image.
 
 The pygame documentation notes that:
 

@@ -264,7 +264,8 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [How do I determine if my mouse is over randomly spawning objects](https://stackoverflow.com/questions/62129176/how-do-i-determine-if-my-mouse-is-over-randomly-spawning-objects/62129302#62129302)
+- [How to check collision of mouse with sprites in pygame?](https://stackoverflow.com/questions/65863252/how-to-check-collision-of-mouse-with-sprites-in-pygame/65863406#65863406)  
+- [How do I determine if my mouse is over randomly spawning objects](https://stackoverflow.com/questions/62129176/how-do-i-determine-if-my-mouse-is-over-randomly-spawning-objects/62129302#62129302)  
 
 ## Point and Ellipse
 

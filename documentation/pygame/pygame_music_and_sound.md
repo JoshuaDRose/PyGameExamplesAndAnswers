@@ -186,6 +186,12 @@ pygame.mixer.music.fadeout(10000)
 pygame.time.wait(10000)
 ```
 
+## Repeat music
+
+Related Stack Overflow questions:
+
+- [How can I play song repeatedly using pygame.mixer.music.play()?](https://stackoverflow.com/questions/65858091/how-can-i-play-song-repeatedly-using-pygame-mixer-music-play/65858122#65858122)
+
 ## Music file open dialog
 
 Related Stack Overflow questions:
