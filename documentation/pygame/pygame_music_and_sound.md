@@ -136,7 +136,9 @@ Related Stack Overflow questions:
 
 - [How can I play an mp3 with pygame?](https://stackoverflow.com/questions/7746263/how-can-i-play-an-mp3-with-pygame/64521533#64521533)
 
-- [How to play random Mp3 files in Pygame](https://stackoverflow.com/questions/60250171/how-to-play-random-mp3-files-in-pygame/60250258#60250258)
+- [How to get out of the while loop in pygame when after playing the music](https://stackoverflow.com/questions/65869913/how-to-get-out-of-the-while-loop-in-pygame-when-after-playing-the-music/65869934#65869934)  
+  
+  - [How to play random Mp3 files in Pygame](https://stackoverflow.com/questions/60250171/how-to-play-random-mp3-files-in-pygame/60250258#60250258)
 
   :scroll: **[Minimal example - Play random mp3 from directory](../../examples/minimal_examples/pygame_minimal_mixer_music_random.py)**
 

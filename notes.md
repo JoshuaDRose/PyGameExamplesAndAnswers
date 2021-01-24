@@ -247,6 +247,8 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
 - slider  
   [Creating sliders using pygame](https://stackoverflow.com/questions/65482148/creating-sliders-using-pygame)
 
+- text: different color, italic, bold
+
 ## New Pages
 
 - grid
