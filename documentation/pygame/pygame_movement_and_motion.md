@@ -118,6 +118,8 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
+- [How to make a character jump in Pygame?](https://stackoverflow.com/questions/65873880/how-to-make-a-character-jump-in-pygame/65874132#65874132)  
+
 - [How to simulate Jumping in Pygame for this particular code](https://stackoverflow.com/questions/54595777/how-to-simulate-jumping-in-pygame-for-this-particular-code/54596624#54596624)  
   ![How to simulate Jumping in Pygame for this particular code](https://i.stack.imgur.com/XEAF8.gif)
 
