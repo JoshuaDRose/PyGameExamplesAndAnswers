@@ -177,9 +177,10 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBullet](https://repl.it/@Rabbid76/PyGame-ShootBullet#main.py)</kbd>
 
-
 - [Pygame: problems with shooting in Space Invaders](https://stackoverflow.com/questions/65759929/pygame-problems-with-shooting-in-space-invaders/65759972#65759972)  
   ![Pygame: problems with shooting in Space Invaders [duplicate]]()
+
+- [Pygame How to check for second press of a key](https://stackoverflow.com/questions/65832446/pygame-how-to-check-for-second-press-of-a-key/65832768#65832768)  
 
 The general approach to firing bullets is to store the positions of the bullets in a list (`bullet_list`). When a bullet is fired, add the bullet's starting position (`[start_x, start_y]`) to the list. The starting position is the position of the object (player or enemy) that fires the bullet. Use a `for`-loop to iterate through all the bullets in the list. Move position of each individual bullet in the loop. Remove a bullet from the list that leaves the screen (`bullet_list.remove(bullet_pos)`). For this reason, a copy of the list (`bullet_list[:]`) must be run through (see [How to remove items from a list while iterating?](https://stackoverflow.com/questions/1207406/how-to-remove-items-from-a-list-while-iterating)). Use another ` for`-loop to `blit` the remaining bullets on the screen:
 
