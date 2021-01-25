@@ -324,7 +324,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Trying to delay a specific function for spawning enemy after a certain amount of time](https://stackoverflow.com/questions/61409702/trying-to-delay-a-specific-function-for-spawning-enemy-after-a-certain-amount-of/61410788?noredirect=1)
+- [Trying to delay a specific function for spawning enemy after a certain amount of time](https://stackoverflow.com/questions/61409702/trying-to-delay-a-specific-function-for-spawning-enemy-after-a-certain-amount-of/61410788#61410788)
 - [How do I continuously trigger an action at certain time intervals? Enemy shoots constant beam instead of bullets in pygame](https://stackoverflow.com/questions/58224668/enemy-shoots-constant-beam-instead-of-bullets-in-pygame/58224870#58224870)
 - [How can one continuously generate and track several random objects with a time delay in pygame?](https://stackoverflow.com/questions/57837263/how-to-spawn-and-track-multiple-random-objects-with-time-delay-in-pygame/57837320#57837320)
 
