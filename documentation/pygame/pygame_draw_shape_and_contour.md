@@ -142,7 +142,8 @@ Related Stack Overflow questions:
 - [My pygame rects are giving a rect argument is invalid error](https://stackoverflow.com/questions/63954352/my-pygame-rects-are-giving-a-rect-argument-is-invalid-error/63955733#63955733)
 - [How can I draw a rectangular outline (not filled) with PyGame?](https://stackoverflow.com/questions/60854803/how-can-i-draw-a-hollow-rectangle-using-pygame/60855000#60855000)
 - [Setting a pygame surface to have rounded corners](https://stackoverflow.com/questions/63700231/setting-a-pygame-surface-to-have-rounded-corners/63701005#63701005)  
-  ![scene](https://i.stack.imgur.com/pDdn2.png)
+  ![scene](https://i.stack.imgur.com/pDdn2.png)  
+- [Why did drawing a PyGame rectangle with very thick borders draw a plus shape instead?](https://stackoverflow.com/questions/65890797/why-did-drawing-a-pygame-rectangle-with-very-thick-borders-draw-a-plus-shape-ins/65890887#65890887)  
 
 The 3rd argument of [`pygame.draw.rect`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect) has to be a tuple with 4 elements:
 

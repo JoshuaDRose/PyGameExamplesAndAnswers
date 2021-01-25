@@ -164,6 +164,7 @@ next:
 [Odd Behavior From Trigonometric Functions](https://stackoverflow.com/questions/54189014/odd-behavior-from-trigonometric-functions)  
 [Make an 'object' move along a curved path](https://stackoverflow.com/questions/50510090/make-an-object-move-along-a-curved-path)  
 [Why is a generated SVG image less rich than the corresponding PNG image](https://stackoverflow.com/users/5577765/rabbid76?tab=following)  
+[Blank gif created from .png files by images2gif.py](https://stackoverflow.com/questions/37487095/blank-gif-created-from-png-files-by-images2gif-py)  
 
 ### Text
 

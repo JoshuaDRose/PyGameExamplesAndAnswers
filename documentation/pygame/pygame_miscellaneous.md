@@ -314,4 +314,3 @@ Related Stack Overflow questions:
 
 [My pygame program is flickering, not entirely sure why](https://stackoverflow.com/questions/65587430/my-pygame-program-is-flickering-not-entirely-sure-why/65587494#65587494)  
 
-[How to Flip Image After Hitting Wall - Pygame](https://stackoverflow.com/questions/65834797/how-to-flip-image-after-hitting-wall-pygame/65834912#65834912)  

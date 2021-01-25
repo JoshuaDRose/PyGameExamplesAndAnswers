@@ -29,3 +29,5 @@ Related Stack Overflow questions:
 
 - [How I make my python code delete the pills from my pac man game?](https://stackoverflow.com/questions/65201227/how-i-make-my-python-code-delete-the-pills-from-my-pac-man-game/65204858#65204858)
   ![How I make my python code delete the pills from my pac man game?](https://i.stack.imgur.com/aO99q.gif)
+
+- [Collision for Pygame Game Map](https://stackoverflow.com/questions/65887274/collision-for-pygame-game-map/65888081#65888081)  
