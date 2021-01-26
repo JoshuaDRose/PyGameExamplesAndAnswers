@@ -208,6 +208,12 @@ Related Stack Overflow questions:
 
 - [How do I change the volume of the sound or music in PyGame?](https://stackoverflow.com/questions/65247656/how-do-i-change-the-volume-of-the-sound-or-music-in-pygame/65248188#65248188)
 
+## Pause
+
+Related Stack Overflow questions:
+
+- [Check whether a song has finished playing in pygame](https://stackoverflow.com/questions/65856144/check-whether-a-song-has-finished-playing-in-pygame/65857359#65857359)
+
 ## Unload music resources
 
 Related Stack Overflow questions:
