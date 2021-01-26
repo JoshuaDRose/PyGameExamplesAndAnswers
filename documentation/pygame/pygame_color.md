@@ -52,3 +52,6 @@ rgba = (color.r, color.g, color.b, color.a)
   ![How would I make a heatmap in pygame on a grid](https://i.stack.imgur.com/4c4gB.gif)
 
   :scroll: **[Minimal example - Heatmap](../../examples/minimal_examples/pygame_minimal_color_gradient_1.py)**
+
+- [PYTHON - Shifting color value based on percentage - GREEN to RED](https://stackoverflow.com/questions/65904437/python-shifting-color-value-based-on-percentage-green-to-red/65904561#65904561)  
+  ![PYTHON - Shifting color value based on percentage - GREEN to RED](https://i.stack.imgur.com/Psxup.png)  
