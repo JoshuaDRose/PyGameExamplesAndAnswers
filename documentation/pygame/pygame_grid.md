@@ -36,3 +36,6 @@ Related Stack Overflow quest
 - [How to get object(or it's index in NumPy array) from mouse coordinates using collide rect or something else? (Pygame 2D)](https://stackoverflow.com/questions/65552238/how-to-get-objector-its-index-in-numpy-array-from-mouse-coordinates-using-col/65552437#65552437)  
 
 - [why when the x and y size are not the same the grid is not showing properly](https://stackoverflow.com/questions/65656047/why-when-the-x-and-y-size-are-not-the-same-the-grid-is-not-showing-properly/65656132#65656132)  
+
+- [How to fill the background with a small image in pygame?](https://stackoverflow.com/questions/65859573/how-to-fill-the-background-with-a-small-image-in-pygame/65859607#65859607)  
+  ![How to fill the background with a small image in pygame?](https://i.stack.imgur.com/13xqC.png)  
