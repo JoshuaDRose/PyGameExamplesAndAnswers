@@ -224,6 +224,13 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Changing the unknown attributes from a parent class for a child class](https://stackoverflow.com/questions/65461496/changing-the-unknown-attributes-from-a-parent-class-for-a-child-class/65464022#65464022)
+
+## Class and instance variables
+
+Related Stack Overflow questions:
+
+- [glCreateShader stoped workig after irrelevant change](https://stackoverflow.com/questions/65859754/glcreateshader-stoped-workig-after-irrelevant-change/65860904#65860904)  
+
 ## Math
 
 - [How to draw a rectangle around two points](https://stackoverflow.com/questions/62008684/how-to-draw-a-rectangle-around-two-points/62008841#62008841)
