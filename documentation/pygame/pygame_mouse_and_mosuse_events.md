@@ -7,6 +7,8 @@ Richard P. Feynman
 
 # Mouse
 
+[MOUSEBUTTONUP vs mouse.get_pressed()](https://stackoverflow.com/questions/65914897/mousebuttonup-vs-mouse-get-pressed/65914980#65914980)
+
 ## Mouse and mouse event
 
 Related Stack Overflow questions:
@@ -47,13 +49,13 @@ if buttons[0]:
 
 If any button is pressed, this can be evaluated with the [`any`](https://docs.python.org/3/library/functions.html#any) function:
 
-Further explanations can be found in the documentation of the module [`pygame.mouse`](https://www.pygame.org/docs/ref/mouse.html).
-
 ```py
 buttons = pygame.mouse.get_pressed()
 if any(buttons):
     print("button pressed")
 ```
+
+Further explanations can be found in the documentation of the module [`pygame.mouse`](https://www.pygame.org/docs/ref/mouse.html).
 
 :scroll: **[minimal example - Detect mouse button states](../../examples/minimal_examples/pygame_minimal_mouse_states_1.py)**
 
