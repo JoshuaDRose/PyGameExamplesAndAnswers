@@ -36,13 +36,13 @@ enemy = min([e for e in chased.sprites()],
 
 Related Stack Overflow questions:
 
-- [How to reference and manipulate a single entity in a sprite group in pygame?](https://stackoverflow.com/questions/43855064/how-to-reference-and-manipulate-a-single-entity-in-a-sprite-group-in-pygame/65420633#65420633)  
 - [Why do group lists in pygame have to have “update” functions, and not any other?](https://stackoverflow.com/questions/64835155/why-do-group-lists-in-pygame-have-to-have-update-functions-and-not-any-other/64835175#64835175)
 - [Why is my PyGame Sprite, in a Group, not drawn - AttributeError: 'Group' object has no attribute 'blitme'](https://stackoverflow.com/questions/64076676/why-is-my-pygame-sprite-in-a-group-not-drawn-attributeerror-group-object/64076741#64076741)
 - [Can I create and handle a pygame sprite not in a group the same way as if it's in a group?](https://stackoverflow.com/questions/63487180/can-i-create-and-handle-a-pygame-sprite-not-in-a-group-the-same-way-as-if-its-i/63487306#63487306)
 - [How to have each sprite in a group A chasing the closest sprite in group B?](https://stackoverflow.com/questions/63927331/how-to-have-each-sprite-in-a-group-a-chasing-the-closest-sprite-in-group-b/63927397#63927397)
 - [Why am I getting a second image of sprite that won't rotate and shouldn't be there?](https://stackoverflow.com/questions/65623795/why-am-i-getting-a-second-image-of-sprite-that-wont-rotate-and-shouldnt-be-the/65624264#65624264)  
 - [How to remove image, then blit it again?](https://stackoverflow.com/questions/65757826/how-to-remove-image-then-blit-it-again/65758502#65758502)  
+- [How to reference and manipulate a single entity in a sprite group in pygame?](https://stackoverflow.com/questions/43855064/how-to-reference-and-manipulate-a-single-entity-in-a-sprite-group-in-pygame/65420633#65420633)  
 
 A [`pygame.sprite.Group`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group) is iterable. Hence you can go through the elements in a `for`-loop:
 

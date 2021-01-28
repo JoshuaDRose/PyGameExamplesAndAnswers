@@ -35,6 +35,7 @@ Related Stack Overflow questions:
 - [Unable to install pygame on Python via pip (Windows 10)](https://stackoverflow.com/questions/58489348/unable-to-install-pygame-on-python-via-pip-windows-10)
 - [How to troubleshoot python import error - DLL access denied](https://stackoverflow.com/questions/49127425/how-to-troubleshoot-python-import-error-dll-access-denied)
 - [When I try to install pygame using python 3.9 I get an error windows](https://stackoverflow.com/questions/64261106/when-i-try-to-install-pygame-using-python-3-9-i-get-an-error-windows)
+- [Installing Pygame on 64-bit Windows 7 and 64-bit Python 2.7](https://stackoverflow.com/questions/27737264/installing-pygame-on-64-bit-windows-7-and-64-bit-python-2-7)
 
 ### Mac
 

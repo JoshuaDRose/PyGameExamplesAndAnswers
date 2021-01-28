@@ -110,7 +110,7 @@ The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a si
 
 [How to rotate a certain object (Quad) in PyOpenGL?](https://stackoverflow.com/questions/56646279/how-to-rotate-a-certain-object-quad-in-pyopengl/56646504?noredirect=1#comment99864711_56646504)  
 [How to test if a 2d point in pygame screen is part of a 3d object in PyOpenGL?](https://stackoverflow.com/questions/56681932/how-to-test-if-a-2d-point-in-pygame-screen-is-part-of-a-3d-object-in-pyopengl/56700807?noredirect=1#comment99965769_56700807)  
-[How to do knock-backs in PyOpenGL with object facing?](https://stackoverflow.com/questions/56714854/how-to-do-knock-backs-in-pyopengl-with-object-facing)
+[How to do knock-backs in PyOpenGL with object facing?](https://stackoverflow.com/questions/56714854/how-to-do-knock-backs-in-pyopengl-with-object-facing)  
 ![scene](https://i.stack.imgur.com/k0K8i.gif)
 
 [how to get vertical rotation in 3D space with OpenGL?](https://stackoverflow.com/questions/55638222/how-to-get-vertical-rotation-in-3d-space-with-opengl/55639392#55639392)  
