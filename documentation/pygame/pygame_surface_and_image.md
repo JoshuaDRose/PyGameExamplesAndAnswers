@@ -335,6 +335,7 @@ Related Stack Overflow questions:
 - [SVG rendering in a PyGame application](https://stackoverflow.com/questions/120584/svg-rendering-in-a-pygame-application/64598021#64598021)  
   ![SVG rendering in a PyGame application](https://i.stack.imgur.com/LOMwY.png)  
 - [Display SVG (as string) on Python Pygame](https://stackoverflow.com/questions/65649933/display-svg-as-string-on-python-pygame/65651155#65651155)  
+- [How can you draw more detailed/smoother images in pygame?](https://stackoverflow.com/questions/65492782/how-can-you-draw-more-detailed-smoother-images-in-pygame/65492828#65492828)  
 
 A very simple solution is to use [CairoSVG](https://cairosvg.org/). With the function `cairosvg.svg2png`, an [Vector Graphics (SVG)](https://de.wikipedia.org/wiki/Scalable_Vector_Graphics) files can be directly converted to an [Portable Network Graphics (PNG)] file
 
@@ -579,6 +580,10 @@ Related Stack Overflow questions:
 - [How do I save a section of a pygame screen and blit it to another location?](https://stackoverflow.com/questions/56420746/how-do-i-save-a-section-of-a-pygame-screen-and-blit-it-to-another-location/56421239#56421239)
 
 ## Transformation
+
+Related Stack Overflow questions:
+
+- [Pygame rotozoom rescaling the image out of bounds](https://stackoverflow.com/questions/65899193/pygame-rotozoom-rescaling-the-image-out-of-bounds/65899347#65899347)
 
 ### Flip
 
