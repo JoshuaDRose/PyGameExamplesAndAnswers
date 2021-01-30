@@ -9,7 +9,8 @@ Richard P. Feynman
 
 Related Stack Overflow questions:
 
-- [What is a good way to draw images using pygame?](https://stackoverflow.com/questions/8873219/what-is-a-good-way-to-draw-images-using-pygame/64630591#64630591)
+- [What is a good way to draw images using pygame?](https://stackoverflow.com/questions/8873219/what-is-a-good-way-to-draw-images-using-pygame/64630591#64630591)  
+- [What is the difference between pygame.draw.rect and screen_surface.blit()?](https://stackoverflow.com/questions/65964467/what-is-the-difference-between-pygame-draw-rect-and-screen-surface-blit/65965806#65965806)  
 
 ## Surface rectangle
 
@@ -81,6 +82,8 @@ Related Stack Overflow questions:
 
 - [How do you blit/draw a sprite in Pygame with lower opacity?](https://stackoverflow.com/questions/65259552/how-do-you-blit-draw-a-sprite-in-pygame-with-lower-opacity)
 
+- [Pygame Surface.set_at is setting alpha to 255?](https://stackoverflow.com/questions/65906914/pygame-surface-set-at-is-setting-alpha-to-255/65906942#65906942)
+
 ### Make a uniform colored background transparent
 
 Related Stack Overflow questions:
@@ -99,7 +102,7 @@ The pygame documentation notes that:
 > The returned Surface will contain the same color format, colorkey and alpha transparency as the file it came from. You will often want to call [`convert()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert) with no arguments, to create a copy that will draw more quickly on the screen.  
 > For alpha transparency, like in .png images, use the [`convert_alpha()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert_alpha) method after loading so that the image has per pixel transparency.
 
-Hence if your image provides per pixel alpha,  it is recommended that you call `convert_alpha()`, but this is not required.
+Hence if your image provides per pixel alpha, it is recommended that you call `convert_alpha()`, but this is not required.
 
 If your image has not transparent pixel, but a uniform colored background, set a transparent color key with [`set_colorkey()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.set_colorkey)
 
@@ -571,7 +574,8 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Speed up double for loop PyGame draw](https://stackoverflow.com/questions/61856330/speed-up-double-for-loop-pygame-draw/61856399#61856399)
+- [Speed up double for loop PyGame draw](https://stackoverflow.com/questions/61856330/speed-up-double-for-loop-pygame-draw/61856399#61856399)  
+- [pixel image to tile map](https://stackoverflow.com/questions/29133065/pixel-image-to-tile-map/65966555#65966555)  
 
 ## Surface lock
 

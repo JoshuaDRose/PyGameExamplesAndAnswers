@@ -356,6 +356,8 @@ Related Stack Overflow questions:
 - [rect collision with list of rects](https://stackoverflow.com/questions/61007064/rect-collision-with-list-of-rects/61007391#61007391)
 - [Use collidelist in class](https://stackoverflow.com/questions/63705475/use-collidelist-in-class/63705792#63705792)
 
+- [pygame-How do I check if there is collision with any rect in an array?](https://stackoverflow.com/questions/65912032/pygame-how-do-i-check-if-there-is-collision-with-any-rect-in-an-array/65913470#65913470)
+
 Use [`pygame.Rect.collidelist`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.collidelist) to test whether a rectangle collides with one of a list of rectangles.
 
 [`collidelist`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.collidelist):

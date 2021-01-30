@@ -328,3 +328,5 @@ Related Stack Overflow questions:
 
 [My pygame program is flickering, not entirely sure why](https://stackoverflow.com/questions/65587430/my-pygame-program-is-flickering-not-entirely-sure-why/65587494#65587494)  
 
+[Pygame Lever Images Display On Key Click Problem](https://stackoverflow.com/questions/65908309/pygame-lever-images-display-on-key-click-problem/65908602#65908602)  
+![Pygame Lever Images Display On Key Click Problem](https://i.stack.imgur.com/6Uq9o.gif)

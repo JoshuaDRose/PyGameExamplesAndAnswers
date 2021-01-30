@@ -144,6 +144,7 @@ Related Stack Overflow questions:
 - [Setting a pygame surface to have rounded corners](https://stackoverflow.com/questions/63700231/setting-a-pygame-surface-to-have-rounded-corners/63701005#63701005)  
   ![scene](https://i.stack.imgur.com/pDdn2.png)  
 - [Why did drawing a PyGame rectangle with very thick borders draw a plus shape instead?](https://stackoverflow.com/questions/65890797/why-did-drawing-a-pygame-rectangle-with-very-thick-borders-draw-a-plus-shape-ins/65890887#65890887)  
+- [What is the difference between pygame.draw.rect and screen_surface.blit()?](https://stackoverflow.com/questions/65964467/what-is-the-difference-between-pygame-draw-rect-and-screen-surface-blit/65965806#65965806)  
 
 The 3rd argument of [`pygame.draw.rect`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect) has to be a tuple with 4 elements:
 
