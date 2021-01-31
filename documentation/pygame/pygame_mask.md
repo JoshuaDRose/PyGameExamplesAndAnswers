@@ -11,14 +11,18 @@ Robert C. Martin, Clean Architecture
 
 Related Stack Overflow questions:
 
-- [PyGame collision with masks is not working](https://stackoverflow.com/questions/57455811/pygame-collision-with-masks-is-not-working/57499484#57499484)
 - [Collision between masks in PyGame](https://stackoverflow.com/questions/55817422/collision-between-masks-in-pygame/55818093#55818093)  
+- [PyGame collision with masks is not working](https://stackoverflow.com/questions/57455811/pygame-collision-with-masks-is-not-working/57499484#57499484)
   ![Check collision between a image and a line](https://i.stack.imgur.com/gEqXr.gif)
 
   :scroll: **[Minimal example - Find intersection of surfaces](../../examples/minimal_examples/pygame_minimal_mask_intersect_surface.py)**
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SurfaceMaskIntersect](https://repl.it/@Rabbid76/PyGame-SurfaceMaskIntersect#main.py)</kbd>
 
+- [Pygame mask collision](https://stackoverflow.com/questions/60077813/pygame-mask-collision/60078039#60078039)  
+  [![Pygame mask collision](https://i.stack.imgur.com/fiLMi.gif)](https://stackoverflow.com/questions/60077813/pygame-mask-collision/60078039#60078039)  
+
+- [Make a line as a sprite with its own collision in Pygame](https://stackoverflow.com/questions/34456195/make-a-line-as-a-sprite-with-its-own-collision-in-pygame/65324946#65324946)  
 - [Check collision between a image and a line](https://stackoverflow.com/questions/58662215/check-collision-between-a-image-and-a-line-pygame/58662648#58662648)  
   ![Check collision between a image and a line](https://i.stack.imgur.com/tMq2i.gif)
 
@@ -41,12 +45,6 @@ Related Stack Overflow questions:
   ![python pygame mask collision](https://i.stack.imgur.com/vSuGD.gif)
 
 - [Get the pixels which are colliding with the Surface](https://stackoverflow.com/questions/20715211/get-the-pixels-which-are-colliding-with-the-surface/65408358#65408358)
-
-- [Pygame mask collision](https://stackoverflow.com/questions/60077813/pygame-mask-collision/60078039#60078039)  
-  [![Pygame mask collision](https://i.stack.imgur.com/fiLMi.gif)](https://stackoverflow.com/questions/60077813/pygame-mask-collision/60078039#60078039)  
-
-- [Make a line as a sprite with its own collision in Pygame](https://stackoverflow.com/questions/34456195/make-a-line-as-a-sprite-with-its-own-collision-in-pygame/65324946#65324946)  
-  ![Make a line as a sprite with its own collision in Pygame](https://i.stack.imgur.com/tMq2i.gif)
 
 ## Circular mask
 
