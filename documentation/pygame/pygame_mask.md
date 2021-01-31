@@ -46,6 +46,11 @@ Related Stack Overflow questions:
 
 - [Get the pixels which are colliding with the Surface](https://stackoverflow.com/questions/20715211/get-the-pixels-which-are-colliding-with-the-surface/65408358#65408358)
 
+- [How would I make color collision using pygame.mask?](https://stackoverflow.com/questions/65981815/how-would-i-make-color-collision-using-pygame-mask/65982315#65982315)  
+  ![How would I make color collision using pygame.mask?](https://i.stack.imgur.com/YT515.png)
+
+  :scroll: **[Minimal example - Mask form a single color](../../examples/minimal_examples/pygame_minimal_mask_from_color.py)**
+
 ## Circular mask
 
 Related Stack Overflow questions:
