@@ -56,6 +56,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [pygame: mask non-image type surfaces](https://stackoverflow.com/questions/65455888/pygame-mask-non-image-type-surfaces/65455939#65455939)
+
 ## Mask bounding area rectangle
 
 Related Stack Overflow questions:
