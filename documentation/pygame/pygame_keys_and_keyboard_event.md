@@ -7,6 +7,11 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 
 # Keys and keyboard events
 
+Related Stack Overflow questions:
+
+- [How to get keyboard input in pygame?](https://stackoverflow.com/questions/16044229/how-to-get-keyboard-input-in-pygame/64494842#64494842)  
+- [How can I make a sprite move when key is held down](https://stackoverflow.com/questions/9961563/how-can-i-make-a-sprite-move-when-key-is-held-down)  
+
 ## Key state
 
 **What does `pygame.key.get_pressed()` do?**
