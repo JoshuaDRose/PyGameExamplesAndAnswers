@@ -330,3 +330,5 @@ Related Stack Overflow questions:
 
 [Pygame Lever Images Display On Key Click Problem](https://stackoverflow.com/questions/65908309/pygame-lever-images-display-on-key-click-problem/65908602#65908602)  
 ![Pygame Lever Images Display On Key Click Problem](https://i.stack.imgur.com/6Uq9o.gif)
+
+[How to add pause mode to Python program](https://stackoverflow.com/questions/56040906/how-to-add-pause-mode-to-python-program/56046554#56046554)  

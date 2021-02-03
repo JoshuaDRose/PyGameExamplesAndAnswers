@@ -595,6 +595,7 @@ Related Stack Overflow questions:
   ![Random systematic movement in pygame](https://i.stack.imgur.com/Kyslz.gif)
 
   :scroll: **[Minimal example - Make particles bounce off each other](../../examples/minimal_examples/pygame_minimal_intersect_circular_particles.py)**
+
 ## Circle and ellipse
 
 Related Stack Overflow questions:

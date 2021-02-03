@@ -24,6 +24,8 @@ Related Stack Overflow questions:
 
 :scroll: **[Minimal example - 3D depth sort 1](../../examples/minimal_examples/pygame_minimal_3D_depth_sort_1.py)**
 
+:scroll: **[Minimal example - 3D depth sort 1](../../examples/minimal_examples/pygame_minimal_3D_depth_sort_2.py)**
+
 <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-3D](https://repl.it/@Rabbid76/PyGame-3D#main.py)</kbd>
 
 ![3d](https://i.stack.imgur.com/4rFgh.gif)
