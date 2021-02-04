@@ -1,6 +1,9 @@
 # pygame.math.Vector3 object
 # https://www.pygame.org/docs/ref/math.html
 #
+# Depth issue with 3D graphics
+# https://stackoverflow.com/questions/59690079/depth-issue-with-3d-graphics/59692739#59692739
+#
 # Close range 3d display messed up 
 # https://stackoverflow.com/questions/60330496/close-range-3d-display-messed-up/60335112#60335112
 #
@@ -55,11 +58,17 @@ class Camera:
 
 class Cube:
     vertices = (-1,-1,-1),(1,-1,-1),(1,1,-1),(-1,1,-1),(-1,-1,1),(1,-1,1),(1,1,1),(-1,1,1)
-    colors = (255,0,0),(255,128,0),(255,255,0),(255,255,255),(0,0,255),(0,255,0)
+    colors = (255,0,0),(255,0,255),(255,255,0),(0,255,255),(0,0,255),(0,255,0)
     faces = (0,1,2,3),(4,5,6,7),(0,1,5,4),(2,3,7,6),(0,3,7,4),(1,2,6,5)
     def __init__(self, pos = (0, 0, 0)):
         self.verts = [[pos[i]+v[i]/2 for i in range(3)] for v in self.vertices]
 
+class Tetrahedron:
+    vertices = [(0.866,0,0),(-1,-1,-0.866),(-1,1,-0.866),(-1,0,0.866)]
+    faces = (1,2,3),(0,1,2),(0,1,3),(0,2,3)
+    colors = (0,255,0),(255,255,0),(255,0,0),(0,0,255)
+    def __init__(self, pos=(0,0,0)):
+        self.verts = [[pos[i]+v[i]/2 for i in range(3)] for v in self.vertices]
 
 pygame.init()
 screen = pygame.display.set_mode((400, 400))
@@ -70,7 +79,9 @@ camera = Camera(screen.get_rect(), (0, 0, -5), (0, 0))
 pygame.mouse.set_visible(False)
 pygame.event.set_grab(True)
 
-cubes = [Cube((-2+i*2,0,0)) for i in range(3)]
+objects = []
+objects += [Cube((-2+i*2,0,0)) for i in range(3)]
+objects += [Tetrahedron((-1+i*2,0,0)) for i in range(2)]
 
 run = True
 while run:
@@ -87,29 +98,30 @@ while run:
         key[pygame.K_d] - key[pygame.K_a],
         key[pygame.K_w] - key[pygame.K_s],
         key[pygame.K_q] - key[pygame.K_e]))
+    if key[pygame.K_r]:
+        camera.pos = [0, 0, -5]
+        camera.rot = [0, 0]
 
     face_list = []
     face_color = []
     depth = []
-    for obj in cubes:
+    for obj in objects:
         vert_list = [camera.viewcoordinate(v) for v in obj.verts] 
         screen_coords = [camera.project(v) for v in vert_list]
         for face, color in zip(obj.faces, obj.colors):
-            #on_screen = all(vert_list[i][2]>0 for i in face) and all(camera.viewport_rect.collidepoint(screen_coords[i]) for i in face)
-            on_screen = any(vert_list[i][2]>0 and camera.viewport_rect.collidepoint(screen_coords[i]) for i in face)     
+            clipped = not any(vert_list[i][2]>0 and camera.viewport_rect.collidepoint(screen_coords[i]) for i in face)  
+            if clipped:
+                continue
 
             # clip geometry at near plane
-            if on_screen:
-                for i in face:
-                    coord = camera.clip_near(vert_list[i])
-                    if coord:
-                       screen_coords[i] = coord
+            for i in face:
+                coord = camera.clip_near(vert_list[i])
+                if coord:
+                    screen_coords[i] = coord
 
-            if on_screen:
-                face_list += [[screen_coords[i] for i in face]]
-                face_color += [color]
-                depth += [sum(sum(vert_list[j][i] for j in face)**2 for i in range(3))]
-                #depth += [sum(sum(vert_list[j][i]**2 for i in range(3)) for j in face) / len(face)]
+            face_list += [[screen_coords[i] for i in face]]
+            face_color += [color]
+            depth += [sum(sum(vert_list[j][i]**2 for i in range(3)) for j in face) / len(face)]
 
     screen.fill((255,255,255))    
     order = sorted(range(len(face_list)), key=lambda i: depth[i], reverse=True)

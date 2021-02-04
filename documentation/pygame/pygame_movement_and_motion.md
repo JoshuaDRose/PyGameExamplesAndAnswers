@@ -140,6 +140,9 @@ Related Stack Overflow questions:
 - [How Can I Improve This Jump?](https://stackoverflow.com/questions/65729359/how-can-i-improve-this-jump/65737915#65737915)  
   ![How Can I Improve This Jump?](https://i.stack.imgur.com/dutyN.gif)  
 
+- [How To Make Object Jump Forward In Pygame?](https://stackoverflow.com/questions/66051418/how-to-make-object-jump-forward-in-pygame/66051478#66051478)  
+  ![How To Make Object Jump Forward In Pygame?](https://i.stack.imgur.com/CVpPC.gif)
+
 ## Particles
 
 - [Projectile motion and gravity in pygame only sometimes working](https://stackoverflow.com/questions/55822116/projectile-motion-and-gravity-in-pygame-only-sometimes-working/55836374#55836374)  

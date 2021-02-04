@@ -21,11 +21,10 @@ Related Stack Overflow questions:
 
 - [Close range 3d display messed up](https://stackoverflow.com/questions/60330496/close-range-3d-display-messed-up/60335112#60335112)  
   ![Close range 3d display messed up](https://i.stack.imgur.com/cD7t9.gif)
-
-  :scroll: **[Minimal example - 3D depth sort 2](../../examples/minimal_examples/pygame_minimal_3D_depth_sort_2.py)**
-
 - [Depth issue with 3D graphics](https://stackoverflow.com/questions/59690079/depth-issue-with-3d-graphics/59692739#59692739)  
   ![Depth issue with 3D graphics](https://i.stack.imgur.com/bp3Dh.gif)
+
+  :scroll: **[Minimal example - 3D depth sort 2](../../examples/minimal_examples/pygame_minimal_3D_depth_sort_2.py)**
 
 - [How to rotate a square around x-axis in a 3D space](https://stackoverflow.com/questions/63651594/how-to-rotate-a-square-around-x-axis-in-a-3d-space/63654537#63654537)  
   ![How to rotate a square around x-axis in a 3D space](https://i.stack.imgur.com/IZZjm.gif)
