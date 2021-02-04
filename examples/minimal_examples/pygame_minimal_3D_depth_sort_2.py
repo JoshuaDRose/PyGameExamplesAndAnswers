@@ -1,6 +1,9 @@
 # pygame.math.Vector3 object
 # https://www.pygame.org/docs/ref/math.html
 #
+# Close range 3d display messed up 
+# https://stackoverflow.com/questions/60330496/close-range-3d-display-messed-up/60335112#60335112
+#
 # How do I render faces properly in 3d?
 # https://stackoverflow.com/questions/60308506/how-do-i-render-faces-properly-in-3d
 #
@@ -43,17 +46,22 @@ class Camera:
         f = 200 / z
         return self.viewport_rect.centerx + round(vertex[0]*f), self.viewport_rect.centery + round(vertex[1]*f)
 
+    def clip_near(self, vertex):
+        near = 0.5
+        if vertex[2] >= near:
+            return None
+        nearscale = 200 / near
+        return self.viewport_rect.centerx + round(vertex[0]*nearscale), self.viewport_rect.centery + round(vertex[1]*nearscale)
 
 class Cube:
-    verticies = (-1,-1,-1),(1,-1,-1),(1,1,-1),(-1,1,-1),(-1,-1,1),(1,-1,1),(1,1,1),(-1,1,1)
+    vertices = (-1,-1,-1),(1,-1,-1),(1,1,-1),(-1,1,-1),(-1,-1,1),(1,-1,1),(1,1,1),(-1,1,1)
+    colors = (255,0,0),(255,128,0),(255,255,0),(255,255,255),(0,0,255),(0,255,0)
     faces = (0,1,2,3),(4,5,6,7),(0,1,5,4),(2,3,7,6),(0,3,7,4),(1,2,6,5)
-    def __init__(self,pos=(0,0,0)):
-        x,y,z = pos
-        self.verts = [(x+X/2,y+Y/2,z+Z/2) for X,Y,Z in self.verticies]
+    def __init__(self, pos = (0, 0, 0)):
+        self.verts = [[pos[i]+v[i]/2 for i in range(3)] for v in self.vertices]
 
 
 pygame.init()
-cx, cy = 200, 200
 screen = pygame.display.set_mode((400, 400))
 clock = pygame.time.Clock()
 
@@ -80,26 +88,36 @@ while run:
         key[pygame.K_w] - key[pygame.K_s],
         key[pygame.K_q] - key[pygame.K_e]))
 
-    screen.fill((255,255,255))
+    face_list = []
+    face_color = []
+    depth = []
     for obj in cubes:
         vert_list = [camera.viewcoordinate(v) for v in obj.verts] 
         screen_coords = [camera.project(v) for v in vert_list]
-        face_list = []
-        face_color = []
-        depth = []
-        for face in obj.faces:
-            on_screen = any(i for i in face if vert_list[i][2]>0 and camera.viewport_rect.collidepoint(screen_coords[i]))     
+        for face, color in zip(obj.faces, obj.colors):
+            #on_screen = all(vert_list[i][2]>0 for i in face) and all(camera.viewport_rect.collidepoint(screen_coords[i]) for i in face)
+            on_screen = any(vert_list[i][2]>0 and camera.viewport_rect.collidepoint(screen_coords[i]) for i in face)     
+
+            # clip geometry at near plane
+            if on_screen:
+                for i in face:
+                    coord = camera.clip_near(vert_list[i])
+                    if coord:
+                       screen_coords[i] = coord
+
             if on_screen:
                 face_list += [[screen_coords[i] for i in face]]
-                face_color += (128,128,128)
+                face_color += [color]
                 depth += [sum(sum(vert_list[j][i] for j in face)**2 for i in range(3))]
-        
-        order = sorted(range(len(face_list)),key=lambda i: depth[i], reverse=0)
-        for i in order:
-            try:
-                pygame.draw.polygon(screen, face_color[i], face_list[i])
-            except: 
-                pass
+                #depth += [sum(sum(vert_list[j][i]**2 for i in range(3)) for j in face) / len(face)]
+
+    screen.fill((255,255,255))    
+    order = sorted(range(len(face_list)), key=lambda i: depth[i], reverse=True)
+    for i in order:
+        try:
+            pygame.draw.polygon(screen, face_color[i], face_list[i])
+        except: 
+            pass
     pygame.display.flip()
     
 pygame.quit()
