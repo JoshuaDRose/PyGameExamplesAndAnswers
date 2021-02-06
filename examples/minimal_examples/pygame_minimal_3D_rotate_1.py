@@ -1,57 +1,23 @@
 # pygame.math.Vector3 object
 # https://www.pygame.org/docs/ref/math.html
 #
-# How to rotate a square around x-axis in a 3D space
-# https://stackoverflow.com/questions/63651594/how-to-rotate-a-square-around-x-axis-in-a-3d-space/63654537#63654537
+# 3D Projection in pygame
+# https://stackoverflow.com/questions/63944055/3d-projection-in-pygame/63944641#63944641
 #
 # GitHub - PyGameExamplesAndAnswers - Draw 3D
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_3D.md
 
-import pygame, math
-pygame.init()
+import pygame
+import numpy as np
+import math
 
-class Mat3:
-    def new_rotate_x(theta):
-        s = math.sin(theta)
-        c = math.cos(theta)
-        return Mat3([[1, 0, 0], [0, c,  s], [0, -s, c]])
-    def __init__(self, m = None):
-        self.matrix = m if m else [[int(i==j) for i in range(3)] for j in range(3)]
-    def __getitem__(self, i):
-        return self.matrix[i]
-
-class Vec2:
-    def __init__(self, x, y):
-        self.x, self.y = x, y
-    def __getitem__(self, i):
-        return [self.x, self.y][i]
-
-class Vec3:
-    def __init__(self, x, y, z):
-        self.x, self.y, self.z = x, y, z
-    def __add__(a, b):
-        return Vec3(a.x+b.x, a.y+b.y, a.z+b.z)
-    def __getitem__(self, i):
-        return [self.x, self.y, self.z][i]
-    def dot(self, v):
-        return sum(a*b for a, b in zip(self, v))
-
-def multMat3Vec3(m, v):
-    return Vec3(*[v.dot(column) for column in m])
-
-def project(v, w, h):
-    z_i = 1 / (0.001 if v.z == 0 else v.z)
-    x_p = (v.x*z_i + 1) * w/2
-    y_p = (v.y*z_i + 1) * h/2
-    return Vec2(x_p, y_p)
-
-window = pygame.display.set_mode((400, 400))
+window = pygame.display.set_mode((400, 300))
 clock = pygame.time.Clock()
 
-s = 1
-modelPoints = [Vec3(-s, -s, -s), Vec3(s, -s, -s), Vec3(s, s, -s), Vec3(-s, s, -s)]
-transVec = Vec3(0, 0, -4)
-theta = 0
+points = [np.matrix([-0.5+i*0.5, -0.5+j*0.5, 1]) for i in range(3) for j in range(3)]
+angle = 0
+w, h = window.get_rect().size
+projection_matrix = np.matrix([[h/2, 0, w/2], [0, h/2, h/2]])
 
 run = True
 while run:
@@ -60,17 +26,17 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    rot_mat = Mat3.new_rotate_x(theta)
-    theta -= math.pi / 180
+    s, c = math.sin(angle), math.cos(angle)
+    angle += 0.01
+    rotation = np.matrix([[c, -s, 0], [s, c, 0], [0, 0, 1]])
 
-    points = [multMat3Vec3(rot_mat, pt) for pt in modelPoints]
-    points = [pt + transVec for pt in points]
-    points = [project(pt, window.get_width(), window.get_height()) for pt in points]
-    points = [(round(pt.x), round(pt.y)) for pt in points]
-    
-    window.fill((255, 255, 255))
-    pygame.draw.lines(window, (0, 0, 0), True, points)
-    pygame.display.flip()
-    
+    window.fill((0,0,0))
+    for point in points:
+        projected2d = projection_matrix * rotation * point.reshape((3, 1))
+        cpt = int(projected2d[0][0]), int(projected2d[1][0])
+        pygame.draw.circle(window, (255, 255, 255), cpt, 5)
+
+    pygame.display.update()
+
 pygame.quit()
 exit()

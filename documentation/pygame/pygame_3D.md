@@ -11,6 +11,16 @@ Related Stack Overflow questions:
 
 - [Does PyGame do 3d?](https://stackoverflow.com/questions/4865636/does-pygame-do-3d/65618694#65618694)  
 
+- [3D Projection in pygame](https://stackoverflow.com/questions/63944055/3d-projection-in-pygame/63944641#63944641)  
+  ![3D Projection in pygame](https://i.stack.imgur.com/rsRSo.gif)
+
+  :scroll: **[Minimal example - 3D rotate 1](../../examples/minimal_examples/pygame_minimal_3D_rotate_1.py)**
+
+- [How to rotate a square around x-axis in a 3D space](https://stackoverflow.com/questions/63651594/how-to-rotate-a-square-around-x-axis-in-a-3d-space/63654537#63654537)  
+  ![How to rotate a square around x-axis in a 3D space](https://i.stack.imgur.com/IZZjm.gif)
+
+  :scroll: **[Minimal example - 3D rotate 2](../../examples/minimal_examples/pygame_minimal_3D_rotate_2.py)**
+
 - [Pygame rotating cubes around axis](https://stackoverflow.com/questions/56285017/pygame-rotating-cubes-around-axis/56286203#56286203)  
   ![Pygame rotating cubes around axis](https://i.stack.imgur.com/uPxgF.gif)  
   ![3d](https://i.stack.imgur.com/4rFgh.gif)
@@ -25,11 +35,6 @@ Related Stack Overflow questions:
   ![Depth issue with 3D graphics](https://i.stack.imgur.com/bp3Dh.gif)
 
   :scroll: **[Minimal example - 3D depth sort 2](../../examples/minimal_examples/pygame_minimal_3D_depth_sort_2.py)**
-
-- [How to rotate a square around x-axis in a 3D space](https://stackoverflow.com/questions/63651594/how-to-rotate-a-square-around-x-axis-in-a-3d-space/63654537#63654537)  
-  ![How to rotate a square around x-axis in a 3D space](https://i.stack.imgur.com/IZZjm.gif)
-
-  :scroll: **[Minimal example - 3D rotate](../../examples/minimal_examples/pygame_minimal_3D_rotate_1.py)**
 
 - [Pygame's rect.clip function in 3D](https://stackoverflow.com/questions/56079522/pygames-rect-clip-function-in-3d/56080083#56080083)
 
