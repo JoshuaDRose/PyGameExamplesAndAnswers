@@ -29,6 +29,8 @@ Related Stack Overflow questions:
 - [How to rotate a square around x-axis in a 3D space](https://stackoverflow.com/questions/63651594/how-to-rotate-a-square-around-x-axis-in-a-3d-space/63654537#63654537)  
   ![How to rotate a square around x-axis in a 3D space](https://i.stack.imgur.com/IZZjm.gif)
 
+  :scroll: **[Minimal example - 3D rotate](../../examples/minimal_examples/pygame_minimal_3D_rotate_1.py)**
+
 - [Pygame's rect.clip function in 3D](https://stackoverflow.com/questions/56079522/pygames-rect-clip-function-in-3d/56080083#56080083)
 
 - [How to improve my simulation of 3d space in pygame?](https://stackoverflow.com/questions/58674461/how-to-improve-my-simulation-of-3d-space-in-pygame/58675007#58675007)  

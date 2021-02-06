@@ -7,9 +7,6 @@
 # Close range 3d display messed up 
 # https://stackoverflow.com/questions/60330496/close-range-3d-display-messed-up/60335112#60335112
 #
-# How do I render faces properly in 3d?
-# https://stackoverflow.com/questions/60308506/how-do-i-render-faces-properly-in-3d
-#
 # GitHub - PyGameExamplesAndAnswers - Draw 3D
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_3D.md
 
