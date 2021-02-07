@@ -39,3 +39,9 @@ Related Stack Overflow quest
 
 - [How to fill the background with a small image in pygame?](https://stackoverflow.com/questions/65859573/how-to-fill-the-background-with-a-small-image-in-pygame/65859607#65859607)  
   ![How to fill the background with a small image in pygame?](https://i.stack.imgur.com/13xqC.png)  
+
+## Chess board, checker texture
+
+Related Stack Overflow quest
+
+- [Nested for loop chess board coloring not working Python](https://stackoverflow.com/questions/66082526/nested-for-loop-chess-board-coloring-not-working-python/66082545#66082545)

@@ -18,7 +18,8 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Difference between rect.move() and rect.move_ip in pygame](https://stackoverflow.com/questions/61578694/difference-between-rect-move-and-rect-move-ip-in-pygame/61578756#61578756)
-- [PyGame rect.move movement not functioning properly](https://stackoverflow.com/questions/55362160/pygame-rect-move-movement-not-functioning-properly/55362918#55362918)
+- [PyGame rect.move movement not functioning properly](https://stackoverflow.com/questions/55362160/pygame-rect-move-movement-not-functioning-properly/55362918#55362918)  
+- [How do I make a sprite "stand' on another sprite in pygame?](https://stackoverflow.com/questions/66077484/how-do-i-make-a-sprite-stand-on-another-sprite-in-pygame/66077719#66077719)  
 
 The method [`pygame.Rect.move_ip`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.move_ip) doesn't return any value. It modifies the [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) object itself.
 
