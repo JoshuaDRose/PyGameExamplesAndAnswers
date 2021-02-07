@@ -30,6 +30,12 @@ So after
 
 the value of `textrect` is `None`.
 
+## Change size of rectangle
+
+Related Stack Overflow questions:
+
+- [How can I make a rectangle in pygame be able to check for other rectangles around it?](https://stackoverflow.com/questions/66039033/how-can-i-make-a-rectangle-in-pygame-be-able-to-check-for-other-rectangles-aroun/66039941#66039941)
+
 ## Floating point coordinates
 
 Related Stack Overflow questions:

@@ -13,7 +13,3 @@ Related Stack Overflow questions:
 - [Changing the volume when moving the slider](https://stackoverflow.com/questions/59775588/changing-the-volume-when-moving-the-slider/59775888#59775888)
 
   :scroll: **[Minimal example - Slider change volume](../../examples/pygame_pysimplegui/pysimplegui_minimal_slider_volume.py)**
-
-## PyMuk
-
-[Pymunk](http://www.pymunk.org/en/latest/)  
