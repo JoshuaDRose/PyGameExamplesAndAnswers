@@ -383,6 +383,12 @@ rect = surface.get_rect(topleft = (x, y))
 
 Note, a collision of a `Sprite` object and a [`Group`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group) or event 2 `Group`s can be found by [`pygame.sprite.spritecollide()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.spritecollide) respectively [`pygame.sprite.groupcollide()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.groupcollide).
 
+## Rectangle and diagonal slope:
+
+Related Stack Overflow questions:
+
+- [How can i collide with a 45 degree slope](https://stackoverflow.com/questions/66153261/how-can-i-collide-with-a-45-degree-slope/66158012#66158012)
+
 ## Rectangle and circle
 
 Related Stack Overflow questions:
