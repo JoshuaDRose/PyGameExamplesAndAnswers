@@ -118,6 +118,10 @@ Related Stack Overflow questions:
 
   :scroll: **[minimal example - Outline](../../examples/minimal_examples/pygame_minimal_text_outline.py)**
 
+- [How to save an image with the outline text using pygame?](https://stackoverflow.com/questions/66154735/how-to-save-an-image-with-the-outline-text-using-pygame/66157210#66157210)  
+  ![How to save an image with the outline text using pygame?](https://i.stack.imgur.com/LTDG4.png)  
+  ![How to save an image with the outline text using pygame?](https://i.stack.imgur.com/sSd7Y.png)  
+
 - [How to create a text input box with pygame?](https://stackoverflow.com/questions/46390231/how-to-create-a-text-input-box-with-pygame/64613666#64613666)  
   [How to make a string's content appears on screen as we type on keyboard?](https://stackoverflow.com/questions/60455692/how-to-make-a-strings-content-appears-on-screen-as-we-type-on-keyboard/60456556#60456556)  
   [How to allow the user to type only under certain conditions in pygame?](https://stackoverflow.com/questions/64254687/how-to-allow-the-user-to-type-only-under-certain-conditions-in-pygame/64255822#64255822)  
