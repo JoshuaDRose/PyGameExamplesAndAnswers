@@ -76,7 +76,15 @@ while run:
     glClearColor(0.5, 0.5, 0.5, 1)
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
     cube.draw()    
+
+    
+    size = window.get_size()
+    buffer = glReadPixels(0, 0, *size, GL_RGBA, GL_UNSIGNED_BYTE)
     pygame.display.flip()
+
+    screen_surf = pygame.image.fromstring(buffer, size, "RGBA")
+    pygame.image.save(screen_surf, "d:/temp/screenshot.jpg")
+    
 
 pygame.quit()
 exit()

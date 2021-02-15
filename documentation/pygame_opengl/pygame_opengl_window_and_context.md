@@ -59,3 +59,38 @@ It is only possible to hide a window after it has been created by calling [`pyga
 See also [Hiding pygame display](https://stackoverflow.com/questions/10466590/hiding-pygame-display).
 
 However, it is possible to create an initially hidden window with the [GLFW](http://www.glfw.org/) library by setting the  [window hint](http://www.glfw.org/docs/latest/window_guide.html#window_hints) `VISIBLE` to `False`.
+
+## Save rendering (Screenshot)
+
+Related Stack Overflow questions:
+
+- [How to save pygame scene as jpeg?](https://stackoverflow.com/questions/66209365/how-to-save-pygame-scene-as-jpeg/66209486#66209486)  
+
+You can save a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object, object as the _Surface_ associated with the screen with [`pygame.image.save()`](https://www.pygame.org/docs/ref/image.html#pygame.image.save):
+
+> This will save your Surface as either a BMP, TGA, PNG, or JPEG image.
+
+```py
+screen = pygame.display.set_mode((w, h))
+
+# [...]
+
+pygame.image.save(screen , "screenshot.jpg")
+```
+
+---
+
+However, this doesn't work for `pygame.OPENGL` Surfaces. You must read the framebuffer with [`glReadPixels`](http://pyopengl.sourceforge.net/documentation/manual-3.0/glReadPixels.html) before the display is updated (before `pygame.display.flip()` or `pygame.display.update()`). Use [`pygame.image.fromstring()`](https://www.pygame.org/docs/ref/image.html#pygame.image.fromstring) to create new _Surfaces_ from the buffer. Finally, save the _
+Surface_ to a file:
+
+```py
+screen = pygame.display.set_mode((w, h), pygame.DOUBLEBUF | pygame.OPENGL)
+
+# [...]
+
+size = screen.get_size()
+buffer = glReadPixels(0, 0, *size, GL_RGBA, GL_UNSIGNED_BYTE)
+pygame.display.flip()
+
+screen_surf = pygame.image.fromstring(buffer, size, "RGBA")
+pygame.image.save(screen_surf, "screenshot.jpg")
