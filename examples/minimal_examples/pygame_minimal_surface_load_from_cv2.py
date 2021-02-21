@@ -23,7 +23,7 @@ def cv2ImageToSurface(cv2Image):
         format = 'RGB'
     else:
         format = 'RGBA' if cv2Image.shape[2] == 4 else 'RGB'
-        cv2Image[:, :, [0, 2]] = cv2Image[:, :, [2, 0]]
+        cv2Image[:, :, [0, 2]] = cv2Image[:, :, [2, 0]]    
     surface = pygame.image.frombuffer(cv2Image.flatten(), size, format)
     return surface.convert_alpha() if format == 'RGBA' else surface.convert()
 

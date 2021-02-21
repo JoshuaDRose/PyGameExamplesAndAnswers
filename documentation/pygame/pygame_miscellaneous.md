@@ -105,6 +105,13 @@ Related Stack Overflow questions:
 
 - [Imports failing in VScode for pylint when importing pygame](https://stackoverflow.com/questions/53012461/imports-failing-in-vscode-for-pylint-when-importing-pygame)
 
+## Tkinter
+
+Related Stack Overflow questions:
+
+- [I'm embedding a pygame window into Tkinter, how do I manipulate the pygame window?](https://stackoverflow.com/questions/55755305/im-embedding-a-pygame-window-into-tkinter-how-do-i-manipulate-the-pygame-windo)  
+- [Draw a circle in Pygame using Tkinter](https://stackoverflow.com/questions/13545911/draw-a-circle-in-pygame-using-tkinter)  
+
 ## File access
 
 Related Stack Overflow questions:
