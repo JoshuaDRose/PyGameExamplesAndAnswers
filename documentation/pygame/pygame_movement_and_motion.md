@@ -143,6 +143,9 @@ Related Stack Overflow questions:
 - [How To Make Object Jump Forward In Pygame?](https://stackoverflow.com/questions/66051418/how-to-make-object-jump-forward-in-pygame/66051478#66051478)  
   ![How To Make Object Jump Forward In Pygame?](https://i.stack.imgur.com/CVpPC.gif)
 
+- [chrome dino game jumping twice per click in pygame](https://stackoverflow.com/questions/66253320/chrome-dino-game-jumping-twice-per-click-in-pygame/66254270#66254270)  
+  ![chrome dino game jumping twice per click in pygame](https://i.stack.imgur.com/039Eu.gif)
+
 ## Particles
 
 - [Projectile motion and gravity in pygame only sometimes working](https://stackoverflow.com/questions/55822116/projectile-motion-and-gravity-in-pygame-only-sometimes-working/55836374#55836374)  
