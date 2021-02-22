@@ -145,6 +145,7 @@ Related Stack Overflow questions:
   ![scene](https://i.stack.imgur.com/pDdn2.png)  
 - [Why did drawing a PyGame rectangle with very thick borders draw a plus shape instead?](https://stackoverflow.com/questions/65890797/why-did-drawing-a-pygame-rectangle-with-very-thick-borders-draw-a-plus-shape-ins/65890887#65890887)  
 - [What is the difference between pygame.draw.rect and screen_surface.blit()?](https://stackoverflow.com/questions/65964467/what-is-the-difference-between-pygame-draw-rect-and-screen-surface-blit/65965806#65965806)  
+- [Handling rectangle with negative width and height in pygame](https://stackoverflow.com/questions/66316513/handling-rectangle-with-negative-width-and-height-in-pygame/66316783#66316783)  
 
 The 3rd argument of [`pygame.draw.rect`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect) has to be a tuple with 4 elements:
 
