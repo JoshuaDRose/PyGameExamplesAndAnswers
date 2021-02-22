@@ -319,6 +319,14 @@ ft_font.render_to(window, (x, y), 'test text', (255, 0, 0, 128))
 
 ![Python - Pygame - rendering translucent text](https://i.stack.imgur.com/AqOrH.png)
 
+## Anti-Aliasing
+
+Related Stack Overflow questions:
+
+- [What is anti-aliasing in rendering an image in python?](https://stackoverflow.com/questions/66274137/what-is-anti-aliasing-in-rendering-an-image-in-python/66275189#66275189)  
+  ![What is anti-aliasing in rendering an image in python?](https://i.stack.imgur.com/VCWBI.png)
+  ![What is anti-aliasing in rendering an image in python?](https://i.stack.imgur.com/95Yj2.png)
+
 ## Devanagari/Arabic/Persian text
 
 Related Stack Overflow questions:
