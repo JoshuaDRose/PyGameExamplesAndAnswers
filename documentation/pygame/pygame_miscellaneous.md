@@ -93,11 +93,11 @@ Related Stack Overflow questions:
 
 ## IDE
 
-### VSCode Intellisense
+### Visual Studio Code Intellisense
 
 Related Stack Overflow questions:
 
-- [VSCode Intellisense not Working for pygame](https://stackoverflow.com/questions/62475015/vscode-intellisense-not-working-for-pygame)
+- [Pylint “unresolved import” error in Visual Studio Code](https://stackoverflow.com/questions/53939751/pylint-unresolved-import-error-in-visual-studio-code)
 
 ### Pylint
 
@@ -339,3 +339,7 @@ Related Stack Overflow questions:
 ![Pygame Lever Images Display On Key Click Problem](https://i.stack.imgur.com/6Uq9o.gif)
 
 [How to add pause mode to Python program](https://stackoverflow.com/questions/56040906/how-to-add-pause-mode-to-python-program/56046554#56046554)  
+
+[Pygame sprites overlapping issue](https://stackoverflow.com/questions/66291255/pygame-sprites-overlapping-issue/66291672#66291672)  
+![Pygame sprites overlapping issue](https://i.stack.imgur.com/Su2mJ.gif)
+![Pygame sprites overlapping issue](https://i.stack.imgur.com/MytEF.gif)

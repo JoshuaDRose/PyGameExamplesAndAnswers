@@ -45,7 +45,7 @@ Related Stack Overflow questions:
 - [Lag when win.blit() background pygame](https://stackoverflow.com/questions/59312019/lag-when-win-blit-background-pygame/59318946#59318946)
 - [Why does my game made with Pygame suddenly lag for a few seconds?](https://stackoverflow.com/questions/60222282/why-does-my-game-made-with-pygame-suddenly-lag-for-a-few-seconds/60222744#60222744)
 
-Call [`convert()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert) on the background image. That ensures that the image has the same pixel format as the display Surface and will help [`blit`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.blit) to operate with optimal performance:
+Ensure that the background _Surface_ has the same format as the display _Surface_. Use [`convert()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert) (or [`convert_alpha()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert_alpha)) to create a _Surface_ that has the same pixel format. This improves performance when the background is, when the background is `blit` on  the display, because the formats are compatible and `blit` does not need to perform an implicit transformation.
 
 ```py
 screen = pygame.display.set_mode((800, 600))
