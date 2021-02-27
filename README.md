@@ -174,3 +174,10 @@ The site is still under construction :construction:.
 ## PyGame Ray Tracing
 
 See [PyGame Ray Tracing](https://github.com/Rabbid76/PyGameRayTracing) repository.
+
+## Resources
+
+[PyGame](https://www.pygame.org/news) - [PyGame documentation](https://www.pygame.org/docs/)  
+[Github - pygame](https://github.com/pygame/)  
+[Github - pygame/pygame](https://github.com/pygame/pygame)  
+[GitHub - CTPUG/pygame_cffi](https://github.com/CTPUG/pygame_cffi)  
