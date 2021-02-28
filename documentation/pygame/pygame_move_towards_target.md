@@ -94,9 +94,19 @@ surf.blit(self.bullet, bullet_rect)
 
 Related Stack Overflow questions:
 
+- [Pygame make sprite walk in given rotation](https://stackoverflow.com/questions/66402816/pygame-make-sprite-walk-in-given-rotation/66403030#66403030)  
+  ![Pygame make sprite walk in given rotation](https://i.stack.imgur.com/SyPzP.gif)
+
+  :scroll: **[Minimal example - Move to mouse](../../examples/minimal_examples/pygame_minimal_move_follow_4.py)**
+
+- [pygame 2 dimensional movement of an enemy towards the player, how to calculate x and y velocity?](https://stackoverflow.com/questions/66404707/pygame-2-dimensional-movement-of-an-enemy-towards-the-player-how-to-calculate-x/66406985#66406985)  
+  ![pygame 2 dimensional movement of an enemy towards the player, how to calculate x and y velocity?](https://i.stack.imgur.com/PNKiu.gif)
+
+  :scroll: **[Minimal example - Follow moving target](../../examples/minimal_examples/pygame_minimal_move_follow_5.py)**
+
 - [Pygame: Image chasing the mouse cursor from certain length](https://stackoverflow.com/questions/55168892/pygame-image-chasing-the-mouse-cursor-from-certain-length/55169273#55169273)
 
-  :scroll: **[Minimal example - Follow target](../../examples/minimal_examples/_pygame_minimal_move_follow_1.py)**
+  :scroll: **[Minimal example - Follow target](../../examples/minimal_examples/pygame_minimal_move_follow_1.py)**
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowMouse](https://repl.it/@Rabbid76/PyGame-FollowMouse#main.py)</kbd>
 
