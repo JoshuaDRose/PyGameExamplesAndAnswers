@@ -68,3 +68,9 @@ Related Stack Overflow questions:
 
 - [How to put a health bar over the sprite in pygame](https://stackoverflow.com/questions/64867475/how-to-put-a-health-bar-over-the-sprite-in-pygame/64878954#64878954)  
   ![How to put a health bar over the sprite in pygame](https://i.stack.imgur.com/eapda.gif)
+
+# Scrollbar
+
+Related Stack Overflow questions:
+
+- [Making a scroll bar but its inconsistent](https://stackoverflow.com/questions/66369695/making-a-scroll-bar-but-its-inconsistent/66370052#66370052)
