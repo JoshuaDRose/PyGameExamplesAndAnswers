@@ -40,6 +40,7 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/65001510/the-car-moves-and-changes-direction-when-it-hits-the-window-edge/65010442#65010442"><img src="https://i.stack.imgur.com/7u7Gj.png" height="100" title="Car bounce"></a><!--
 --><a href="https://stackoverflow.com/questions/65059267/how-do-i-implement-option-buttons-and-change-the-button-color-in-pygame/65059852#65059852"><img src="https://i.stack.imgur.com/pPyUV.png" height="100" title="Radio button"></a><!--
 --><a href="https://stackoverflow.com/questions/62221432/pong-game-in-python-score-and-out-of-screen-check/62221774#62221774"><img src="https://i.stack.imgur.com/AdKUV.png" height="100" title="Pong"></a><!--
+--><a href="https://stackoverflow.com/questions/66485793/is-there-a-stamp-method-in-pygame-like-in-turtle/66504640#66504640"><img src="https://i.stack.imgur.com/5lSCG.gif" height="100" title="Turtle stamp"></a><!--
 --><a href="https://stackoverflow.com/questions/29640685/how-do-i-detect-collision-in-pygame/65064907#65064907"><img src="https://i.stack.imgur.com/SS1Pb.png" height="100" title="Sprite circle collision"></a><!--
 --><a href="https://stackoverflow.com/questions/55617119/how-would-i-make-a-heatmap-in-pygame-on-a-grid/55618024#55618024"><img src="https://i.stack.imgur.com/4c4gB.png" height="100" title="Heatmap"></a><!--
 --><a href="https://stackoverflow.com/questions/55833941/adding-collision-to-maze-walls/55837809#55837809"><img src="https://i.stack.imgur.com/EUDwK.png" height="100" title="Maze"></a><!--
@@ -156,6 +157,8 @@ The site is still under construction :construction:.
 [Tic Tac Toe](documentation/pygame/pygame_tictactoe.md)
 
 [Game of life](documentation/pygame/pygame_game_of_life.md)
+
+[Turtle](documentation/pygame/pygame_turtle.md)
 
 [Miscellaneous](documentation/pygame/pygame_miscellaneous.md)
 
