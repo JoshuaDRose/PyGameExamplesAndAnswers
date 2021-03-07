@@ -64,6 +64,7 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/63944055/3d-projection-in-pygame/63944641#63944641"><img src="https://i.stack.imgur.com/rsRSo.gif" height="100" title="Rotation matrix"></a><!--
 --><a href="https://stackoverflow.com/questions/64521750/get-the-updated-coordinates-of-a-pymunk-rotating-kinetic-body/64521960#64521960"><img src="https://i.stack.imgur.com/iV1Ij.gif" height="100" title="Kinematik with PyMuk"></a><!--
 --><a href="https://stackoverflow.com/questions/66467383/how-to-use-a-dictionary-of-images-with-sprite/66514748#66514748"><img src="https://i.stack.imgur.com/i0a0N.gif" height="100" title="Drag chess pieces"></a><!--
+--><a href="https://stackoverflow.com/questions/16183265/how-to-move-sprite-in-pygame/66515040#66515040"><img src="https://i.stack.imgur.com/3dmc6.gif" height="100" title="Move sprite"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  
