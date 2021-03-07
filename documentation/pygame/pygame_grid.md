@@ -45,3 +45,8 @@ Related Stack Overflow quest
 Related Stack Overflow quest
 
 - [Nested for loop chess board coloring not working Python](https://stackoverflow.com/questions/66082526/nested-for-loop-chess-board-coloring-not-working-python/66082545#66082545)
+
+- [How to use a dictionary of images with sprite?](https://stackoverflow.com/questions/66467383/how-to-use-a-dictionary-of-images-with-sprite/66514748#66514748)  
+  ![How to use a dictionary of images with sprite?](https://i.stack.imgur.com/i0a0N.gif)
+
+  :scroll: **[Minimal example - Drag chess pieces](../../examples/minimal_examples/pygame_minimal_chess_drag.py)**
