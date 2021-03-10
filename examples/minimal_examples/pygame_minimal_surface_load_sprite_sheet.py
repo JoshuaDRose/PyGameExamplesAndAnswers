@@ -4,8 +4,8 @@
 # pygame.Surface object
 # https://www.pygame.org/docs/ref/surface.html
 #
-# Pygame window crashing and sprite sheet issue
-# https://stackoverflow.com/questions/55200501/pygame-window-crashing-and-sprite-sheet-issue/55200625#55200625
+# How do I create animated sprites using Sprite Sheets in Pygame?
+# https://stackoverflow.com/questions/55200501/how-do-i-create-animated-sprites-using-sprite-sheets-in-pygame/55200625#55200625
 #
 # Invalid destination position for blit error, not seeing how
 # https://stackoverflow.com/questions/55199591/invalid-destination-position-for-blit-error-not-seeing-how/55199736#55199736

@@ -410,8 +410,8 @@ def load_svg(filename, scale=None, size=None, clip_from=None, fit_to=None, foram
 
 Related Stack Overflow questions:
 
-- **[Pygame window crashing and sprite sheet issue](https://stackoverflow.com/questions/55200501/pygame-window-crashing-and-sprite-sheet-issue/55200625#55200625)**  
-  ![Pygame window crashing and sprite sheet issue](https://i.stack.imgur.com/Ekuju.gif)
+- **[How do I create animated sprites using Sprite Sheets in Pygame?](https://stackoverflow.com/questions/55200501/how-do-i-create-animated-sprites-using-sprite-sheets-in-pygame/55200625#55200625)**  
+  ![How do I create animated sprites using Sprite Sheets in Pygame?](https://i.stack.imgur.com/Ekuju.gif)
 
 :scroll: **[Minimal example - Load Sprite Sheet](../../examples/minimal_examples/pygame_minimal_surface_load_sprite_sheet.py)**
 
