@@ -40,6 +40,7 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/65001510/the-car-moves-and-changes-direction-when-it-hits-the-window-edge/65010442#65010442"><img src="https://i.stack.imgur.com/7u7Gj.png" height="100" title="Car bounce"></a><!--
 --><a href="https://stackoverflow.com/questions/65059267/how-do-i-implement-option-buttons-and-change-the-button-color-in-pygame/65059852#65059852"><img src="https://i.stack.imgur.com/pPyUV.png" height="100" title="Radio button"></a><!--
 --><a href="https://stackoverflow.com/questions/62221432/pong-game-in-python-score-and-out-of-screen-check/62221774#62221774"><img src="https://i.stack.imgur.com/AdKUV.png" height="100" title="Pong"></a><!--
+--><a href="https://stackoverflow.com/questions/66485793/is-there-a-stamp-method-in-pygame-like-in-turtle/66504640#66504640"><img src="https://i.stack.imgur.com/5lSCG.gif" height="100" title="Turtle stamp"></a><!--
 --><a href="https://stackoverflow.com/questions/29640685/how-do-i-detect-collision-in-pygame/65064907#65064907"><img src="https://i.stack.imgur.com/SS1Pb.png" height="100" title="Sprite circle collision"></a><!--
 --><a href="https://stackoverflow.com/questions/55617119/how-would-i-make-a-heatmap-in-pygame-on-a-grid/55618024#55618024"><img src="https://i.stack.imgur.com/4c4gB.png" height="100" title="Heatmap"></a><!--
 --><a href="https://stackoverflow.com/questions/55833941/adding-collision-to-maze-walls/55837809#55837809"><img src="https://i.stack.imgur.com/EUDwK.png" height="100" title="Maze"></a><!--
@@ -62,6 +63,8 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/65981815/how-would-i-make-color-collision-using-pygame-mask/65982315#65982315"><img src="https://i.stack.imgur.com/YT515.png" height="100" title="Create a mask from a single color"></a><!--
 --><a href="https://stackoverflow.com/questions/63944055/3d-projection-in-pygame/63944641#63944641"><img src="https://i.stack.imgur.com/rsRSo.gif" height="100" title="Rotation matrix"></a><!--
 --><a href="https://stackoverflow.com/questions/64521750/get-the-updated-coordinates-of-a-pymunk-rotating-kinetic-body/64521960#64521960"><img src="https://i.stack.imgur.com/iV1Ij.gif" height="100" title="Kinematik with PyMuk"></a><!--
+--><a href="https://stackoverflow.com/questions/66467383/how-to-use-a-dictionary-of-images-with-sprite/66514748#66514748"><img src="https://i.stack.imgur.com/i0a0N.gif" height="100" title="Drag chess pieces"></a><!--
+--><a href="https://stackoverflow.com/questions/16183265/how-to-move-sprite-in-pygame/66515040#66515040"><img src="https://i.stack.imgur.com/3dmc6.gif" height="100" title="Move sprite"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  
@@ -156,6 +159,8 @@ The site is still under construction :construction:.
 [Tic Tac Toe](documentation/pygame/pygame_tictactoe.md)
 
 [Game of life](documentation/pygame/pygame_game_of_life.md)
+
+[Turtle](documentation/pygame/pygame_turtle.md)
 
 [Miscellaneous](documentation/pygame/pygame_miscellaneous.md)
 

@@ -6,6 +6,11 @@
 
 Related Stack Overflow questions:
 
+- [How to move Sprite in Pygame](https://stackoverflow.com/questions/16183265/how-to-move-sprite-in-pygame/66515040#66515040)  
+  ![How to move Sprite in Pygame](https://i.stack.imgur.com/3dmc6.gif)  
+
+  :scroll: **[Minimal example - Move sprite](../../examples/minimal_examples/pygame_minimal_move_object_2.py)**
+
 - [make multiple objects automatically move for how many objects have been specified in pygame](https://stackoverflow.com/questions/55723064/make-multiple-objects-automatically-move-for-how-many-objects-have-been-specifie/55723441#55723441)  
   ![scene](https://i.stack.imgur.com/JxNz3.gif)
 

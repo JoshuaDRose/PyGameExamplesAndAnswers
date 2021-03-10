@@ -242,6 +242,7 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
   [How to fade IN text/screen using pygame alpha](https://stackoverflow.com/questions/65164118/how-to-fade-in-text-screen-using-pygame-alpha)  
   [Pygame ; Problem with Alpha gestion on Surface](https://stackoverflow.com/questions/57011428/pygame-problem-with-alpha-gestion-on-surface/57125347#57125347)  
   [How to make an object fades color in pygame](https://stackoverflow.com/questions/61043017/how-to-make-an-object-fades-color-in-pygame/61043146#61043146)  
+  [Pygame set_alpha not working with attempted background fading](https://stackoverflow.com/questions/66391461/pygame-set-alpha-not-working-with-attempted-background-fading/66391705#66391705)  
   
 - create example which projects sin and cosin (sin horizontally and cosin vertically)  
   [Math and Vector - Curve - Trigonometry](documentation/pygame/pygame_math_vector_and_reflection.md)

@@ -125,6 +125,7 @@ Related Stack Overflow questions:
 
 - [The fullscreen mode in pygame is entirely black](https://stackoverflow.com/questions/59127002/the-fullscreen-mode-in-pygame-is-entirely-black/59127089#59127089)
 - [Switching to Pygame Fullscreen Mode working only one time](https://stackoverflow.com/questions/62412357/switching-to-pygame-fullscreen-mode-working-only-one-time/62413119#62413119)
+- [Pygame switching from fullscreen to normal does not work](https://stackoverflow.com/questions/66387983/pygame-switching-from-fullscreen-to-normal-does-not-work/66388005#66388005)  
 
 [`pygame.display.set_mode`](https://www.pygame.org/docs/ref/display.html#pygame.display.set_mode) creates a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object, which is associated to the window. When `pygame.display.set_mode()` is called a again, then the object which was associated to the surface before gets invalide.
 

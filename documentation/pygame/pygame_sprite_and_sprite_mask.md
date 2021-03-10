@@ -361,6 +361,11 @@ Related Stack Overflow questions:
 
   <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseDrag](https://repl.it/@Rabbid76/PyGame-MouseDrag#main.py)</kbd>
 
+- [How to use a dictionary of images with sprite?](https://stackoverflow.com/questions/66467383/how-to-use-a-dictionary-of-images-with-sprite/66514748#66514748)  
+  ![How to use a dictionary of images with sprite?](https://i.stack.imgur.com/i0a0N.gif)
+
+  :scroll: **[Minimal example - Drag chess pieces](../../examples/minimal_examples/pygame_minimal_chess_drag.py)**
+
 ## Circular sprite
 
 Related Stack Overflow questions:
