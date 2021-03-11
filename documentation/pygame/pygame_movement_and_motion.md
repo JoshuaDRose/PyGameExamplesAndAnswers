@@ -41,7 +41,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Car movement](../../examples/minimal_examples/pygame_minimal_move_car.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CarMovement](https://repl.it/@Rabbid76/PyGame-CarMovement#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CarMovement](https://replit.com/@Rabbid76/PyGame-CarMovement#main.py)</kbd>
 
 - [PYGAME - Move Character with Vector](https://stackoverflow.com/questions/65688244/pygame-move-character-with-vector/65688573#65688573)  
   ![PYGAME - Move Character with Vector](https://i.stack.imgur.com/R83IT.gif)  
@@ -57,7 +57,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Car movement](../../examples/minimal_examples/pygame_minimal_move_car_reflect.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CarMovement](https://repl.it/@Rabbid76/PyGame-CarMovementReflect#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CarMovement](https://replit.com/@Rabbid76/PyGame-CarMovementReflect#main.py)</kbd>
 
 - [Rotation of a sprite on a circle](https://stackoverflow.com/questions/26517579/rotation-of-a-sprite-on-a-circle/65332120#65332120)  
   ![Rotation of a sprite on a circle](https://i.stack.imgur.com/mqlhm.gif)

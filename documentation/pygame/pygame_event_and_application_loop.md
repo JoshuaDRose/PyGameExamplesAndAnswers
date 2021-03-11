@@ -40,7 +40,7 @@ See [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygam
 
 :scroll: **[Minimal example - Game loop](../../examples/minimal_examples/pygame_minimal_application_loop.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MinimalApplicationLoop](https://repl.it/@Rabbid76/PyGame-MinimalApplicationLoop#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MinimalApplicationLoop](https://replit.com/@Rabbid76/PyGame-MinimalApplicationLoop#main.py)</kbd>
 
 ### Quit
 
@@ -65,7 +65,7 @@ Related Stack Overflow questions:
 
 - [How to wait some time in pygame?](https://stackoverflow.com/questions/18839039/how-to-wait-some-time-in-pygame)
   :scroll: **[Minimal example - Display a message for a period of time](../../examples/minimal_examples/pygame_minimal_time_text_message_delay.py)**  
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MessageDelay](https://repl.it/@Rabbid76/PyGame-MessageDelay#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MessageDelay](https://replit.com/@Rabbid76/PyGame-MessageDelay#main.py)</kbd>
 
 - [How do you make Pygame stop for a few seconds?](https://stackoverflow.com/questions/65083381/how-do-you-make-pygame-stop-for-a-few-seconds/65093284#65093284)
 

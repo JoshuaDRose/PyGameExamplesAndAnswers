@@ -7,7 +7,7 @@
 # GitHub - PyGameExamplesAndAnswers - Vector - Reflection
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_math_vector_and_reflection.md
 #
-# https://repl.it/@Rabbid76/PyGame-VectorRotateLine
+# https://replit.com/@Rabbid76/PyGame-VectorRotateLine
 
 import pygame
 pygame.init()

@@ -101,7 +101,7 @@ Related Stack Overflow questions:
 
   :scroll: **[minimal example - Move object with keys](../../examples/minimal_examples/pygame_minimal_move_object.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ContinuousMovement](https://repl.it/@Rabbid76/PyGame-ContinuousMovement#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ContinuousMovement](https://replit.com/@Rabbid76/PyGame-ContinuousMovement#main.py)</kbd>
 
 - [What all things happens inside pygame when I press a key? When to use pygame.event==KEYDOWN](https://stackoverflow.com/questions/63050139/what-all-things-happens-inside-pygame-when-i-press-a-key-when-to-use-pygame-eve/63056690#63056690)
 - [PyGame press two buttons at the same time](https://stackoverflow.com/questions/59181962/pygame-press-two-buttons-at-the-same-time/59182228#59182228)
@@ -152,7 +152,7 @@ Use the keyboard events (`KEYDOWN`,` ​​KEYUP`) for actions like jumping or s
 
 :scroll: **[minimal example - Move object with keys](../../examples/minimal_examples/pygame_minimal_move_object.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ContinuousMovement](https://repl.it/@Rabbid76/PyGame-ContinuousMovement#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ContinuousMovement](https://replit.com/@Rabbid76/PyGame-ContinuousMovement#main.py)</kbd>
 
 ![How can I make a sprite move when key is held down](https://i.stack.imgur.com/S24dj.gif)
 
@@ -173,14 +173,14 @@ Related Stack Overflow questions:
 
   :scroll: **[minimal example - Sustained fire](../../examples/minimal_examples/pygame_minimal_shoot_bullet_sustained_fire.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://replit.com/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)</kbd>
 
 - [How do I stop more than 1 bullet firing at once?](https://stackoverflow.com/questions/60122492/how-do-i-stop-more-than-1-bullet-firing-at-once/60125448#60125448)  
   ![How do I stop more than 1 bullet firing at once?](https://i.stack.imgur.com/W6lzh.gif)
 
   :scroll: **[minimal example - Shoot bullet](../../examples/minimal_examples/pygame_minimal_shoot_bullet.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBullet](https://repl.it/@Rabbid76/PyGame-ShootBullet#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBullet](https://replit.com/@Rabbid76/PyGame-ShootBullet#main.py)</kbd>
 
 - [Pygame: problems with shooting in Space Invaders](https://stackoverflow.com/questions/65759929/pygame-problems-with-shooting-in-space-invaders/65759972#65759972)  
   ![Pygame: problems with shooting in Space Invaders](https://i.stack.imgur.com/bSRed.gif)

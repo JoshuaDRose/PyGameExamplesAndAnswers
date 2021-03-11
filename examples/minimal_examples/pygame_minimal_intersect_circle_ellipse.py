@@ -7,7 +7,7 @@
 # GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Circle and circle
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_collision_and_intesection.md
 #
-# https://repl.it/@Rabbid76/PyGame-IntersectCircleEllipse
+# https://replit.com/@Rabbid76/PyGame-IntersectCircleEllipse
 
 import math
 import pygame

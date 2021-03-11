@@ -16,7 +16,7 @@
 # GitHub - PyGameExamplesAndAnswers - Time, timer event and clock - Time - Lock for a period of time
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_time_and_timer_event.md
 #
-# https://repl.it/@Rabbid76/PyGame-ShootBullet
+# https://replit.com/@Rabbid76/PyGame-ShootBullet
 
 import pygame
 pygame.init()

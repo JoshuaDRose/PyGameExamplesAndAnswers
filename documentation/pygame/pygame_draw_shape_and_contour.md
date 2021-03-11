@@ -93,7 +93,7 @@ def draw_polygon_alpha(surface, color, points):
 
 :scroll: **[Minimal example - Draw transparent shapes](../../examples/minimal_examples/pygame_minimal_draw_transparent_shapes_1.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TransparentShapes](https://repl.it/@Rabbid76/PyGame-TransparentShapes#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TransparentShapes](https://replit.com/@Rabbid76/PyGame-TransparentShapes#main.py)</kbd>
 
 ![Draw a transparent rectangle in pygame](https://i.stack.imgur.com/Zst87.png)
 
@@ -113,7 +113,7 @@ However, this function is very slow and leads to a massive lack of performance i
 
 :scroll: **[Minimal example - Draw pixels with `set_at`](../../examples/minimal_examples/pygame_minimal_draw_pixels_1.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-DrawPixel-1](https://repl.it/@Rabbid76/PyGame-DrawPixel-1#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-DrawPixel-1](https://replit.com/@Rabbid76/PyGame-DrawPixel-1#main.py)</kbd>
 
 ![Pygame: Draw single pixel](https://i.stack.imgur.com/OiqGY.png)
 
@@ -130,7 +130,7 @@ pixel_array.close()
 
 :scroll: **[Minimal example - Draw pixels with `pygame.PixelArray`](../../examples/minimal_examples/pygame_minimal_draw_pixels_2.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-DrawPixel-2](https://repl.it/@Rabbid76/PyGame-DrawPixel-2#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-DrawPixel-2](https://replit.com/@Rabbid76/PyGame-DrawPixel-2#main.py)</kbd>
 
 ![Pygame: Draw single pixel](https://i.stack.imgur.com/OiqGY.png)
 
@@ -230,6 +230,7 @@ Related Stack Overflow questions:
 - [Pygame Wont Let Me Draw A Circle Error argument 3 must be sequence of length 2, not 4](https://stackoverflow.com/questions/62601880/pygame-wont-let-me-draw-a-circle-error-argument-3-must-be-sequence-of-length-2/62601934#62601934)
 - [Slowing down the moving circle in pygame](https://stackoverflow.com/questions/64209772/slowing-down-the-moving-circle-in-pygame/64209853#64209853)
 - [How to make a circular sprite appear - pygame](https://stackoverflow.com/questions/61445178/how-to-make-a-circular-sprite-appear-pygame/61445373#61445373)
+- [Getting quarter of a circle with pygame.draw.circle()](https://stackoverflow.com/questions/66566259/getting-quarter-of-a-circle-with-pygame-draw-circle/66566646#66566646)
 
 The _center_ argument of [`pygame.draw.circle()`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.circle) has to be a tuple with 2 integral components. You have to [`round`](https://docs.python.org/3/library/functions.html#round) the coordinate to integral values:
 
@@ -256,6 +257,9 @@ Related Stack Overflow questions:
   ![How can you make the previous line disappear in python?](https://i.stack.imgur.com/qcAOV.gif)
 - [How to Make a Border in Pygame](https://stackoverflow.com/questions/63095839/how-to-make-a-border-in-pygame/63099536#63099536)  
   ![How to Make a Border in Pygame](https://i.stack.imgur.com/2ReKu.png)![How to Make a Border in Pygame](https://i.stack.imgur.com/s0Lji.png)
+- [Line drawing in pygame](https://stackoverflow.com/questions/66491982/line-drawing-in-pygame/66492121#66492121)  
+  ![Line drawing in pygame](https://i.stack.imgur.com/1UvQk.png)
+  ![Line drawing in pygame](https://i.stack.imgur.com/m5pRI.gif)
 
 ## Draw arc
 

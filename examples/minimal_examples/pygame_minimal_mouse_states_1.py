@@ -10,7 +10,7 @@
 # GitHub - Mouse - Mouse and mouse event
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_mouse_and_mosuse_events.md
 #
-# https://repl.it/@Rabbid76/PyGame-MouseStates
+# https://replit.com/@Rabbid76/PyGame-MouseStates
 
 import pygame
 

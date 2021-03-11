@@ -7,7 +7,7 @@
 # GitHub - PyGameExamplesAndAnswers - Blending and transparency - Change color of an image - Tint a grayscale image
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_blending_and_transaprency.md
 #
-# https://repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-4
+# https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-4
 
 import pygame
 import os

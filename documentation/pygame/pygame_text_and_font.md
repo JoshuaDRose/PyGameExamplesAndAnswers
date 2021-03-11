@@ -19,13 +19,13 @@ Related Stack Overflow questions:
 
 [Minimal `pygame.font` module example](../../examples/minimal_examples/pygame_minimal_text_font.py)
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Text](https://repl.it/@Rabbid76/PyGame-Text#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Text](https://replit.com/@Rabbid76/PyGame-Text#main.py)</kbd>
 
 [Minimal `pygame.freetype` module example](../../examples/minimal_examples/pygame_minimal_text_freetype.py)
 
 ![inimal `pygame.freetype` module example](https://i.stack.imgur.com/QnNaX.png)
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FreeTypeText](https://repl.it/@Rabbid76/PyGame-FreeTypeText#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FreeTypeText](https://replit.com/@Rabbid76/PyGame-FreeTypeText#main.py)</kbd>
 
 ![Minimal `pygame.freetype` module example](https://i.stack.imgur.com/umMZi.png)
 
@@ -128,7 +128,7 @@ Related Stack Overflow questions:
   ![How to create a text input box with pygame?](https://i.stack.imgur.com/2X5Se.gif)
   ![How to create a text input box with pygame?](https://i.stack.imgur.com/FNJeM.gif)
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TextInput](https://repl.it/@Rabbid76/PyGame-TextInput#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TextInput](https://replit.com/@Rabbid76/PyGame-TextInput#main.py)</kbd>
   
 - [Rendering text with multiple lines in pygame](https://stackoverflow.com/questions/42014195/rendering-text-with-multiple-lines-in-pygame/64598520#64598520)  
   [Python/Pygame make text in Pygame wrap when in leaves the window](https://stackoverflow.com/questions/64273966/python-pygame-make-text-in-pygame-wrap-when-in-leaves-the-window)  
@@ -195,7 +195,7 @@ I've extended the function and added an additional argument, which provides _lef
 
 :scroll: **[Minimal example - Word wrap](../../examples/minimal_examples/pygame_minimal_text_box_wrap.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TextWrap](https://repl.it/@Rabbid76/PyGame-TextWrap#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TextWrap](https://replit.com/@Rabbid76/PyGame-TextWrap#main.py)</kbd>
 
 ![text](https://i.stack.imgur.com/Zx2mI.png)
 ![text](https://i.stack.imgur.com/FUqLc.png)
@@ -291,7 +291,7 @@ window.blit(text_surf, (x, y))
 
 :scroll: **[minimal example - Render transparent text with font module](../../examples/minimal_examples/pygame_minimal_text_font_trasparent.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TransparentText](https://repl.it/@Rabbid76/PyGame-TransparentText#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TransparentText](https://replit.com/@Rabbid76/PyGame-TransparentText#main.py)</kbd>
 
 ![Python - Pygame - rendering translucent text](https://i.stack.imgur.com/nFzbT.png)
 
@@ -315,7 +315,7 @@ ft_font.render_to(window, (x, y), 'test text', (255, 0, 0, 128))
 
 :scroll: **[minimal example - Render transparent text with freetype module](../../examples/minimal_examples/pygame_minimal_text_freetype_transparent.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TransparentFreeTypeText](https://repl.it/@Rabbid76/PyGame-TransparentFreeTypeText#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TransparentFreeTypeText](https://replit.com/@Rabbid76/PyGame-TransparentFreeTypeText#main.py)</kbd>
 
 ![Python - Pygame - rendering translucent text](https://i.stack.imgur.com/AqOrH.png)
 

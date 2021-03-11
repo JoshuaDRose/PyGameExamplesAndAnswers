@@ -13,7 +13,7 @@
 # GitHub - PyGameExamplesAndAnswers - Keys and keyboard events - Keys
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_keys_and_keyboard_event.md 
 #
-# https://repl.it/@Rabbid76/Pygame-ContinuousMovement
+# https://replit.com/@Rabbid76/Pygame-ContinuousMovement
 
 import pygame
 

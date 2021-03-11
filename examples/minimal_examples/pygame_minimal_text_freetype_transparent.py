@@ -7,7 +7,7 @@
 # GitHub - PyGameExamplesAndAnswers - Text and font - Transparent text
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_text_and_font.md
 #
-# https://repl.it/@Rabbid76/PyGame-TransparentFreeTypeText#main.py
+# https://replit.com/@Rabbid76/PyGame-TransparentFreeTypeText#main.py
 
 import pygame
 import pygame.freetype

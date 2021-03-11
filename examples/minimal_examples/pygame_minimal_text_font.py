@@ -13,7 +13,7 @@
 # GitHub - PyGameExamplesAndAnswers - Text and font - Text
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_text_and_font.md
 #
-# https://repl.it/@Rabbid76/PyGame-Text
+# https://replit.com/@Rabbid76/PyGame-Text
 
 import pygame
 

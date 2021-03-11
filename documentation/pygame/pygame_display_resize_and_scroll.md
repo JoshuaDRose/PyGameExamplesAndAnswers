@@ -217,7 +217,7 @@ while running:
 
 :scroll: [Minimal example - Scale up display window](../../examples/minimal_examples/pygame_minimal_dispaly_up_scale.py)
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-UpScaleDisplay](https://repl.it/@Rabbid76/PyGame-UpScaleDisplay#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-UpScaleDisplay](https://replit.com/@Rabbid76/PyGame-UpScaleDisplay#main.py)</kbd>
 
 ## Coordinate system and transformations
 

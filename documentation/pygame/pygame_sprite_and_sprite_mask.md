@@ -133,7 +133,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Find the intersection of rotating sprites](../../examples/minimal_examples/pygame_minimal_sprite_mask_intersect.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteMask](https://repl.it/@Rabbid76/PyGame-SpriteMask#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteMask](https://replit.com/@Rabbid76/PyGame-SpriteMask#main.py)</kbd>
 
 - **[Make a line as a sprite with its own collision in Pygame](https://stackoverflow.com/questions/34456195/make-a-line-as-a-sprite-with-its-own-collision-in-pygame/65324946#65324946)**  
   ![Make a line as a sprite with its own collision in Pygame](https://i.stack.imgur.com/tMq2i.gif)
@@ -161,7 +161,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Chang the color of an area of a Sprite](../../examples/minimal_examples/pygame_minimal_blend_surface_tint_grayscale_1.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea](https://repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSpriteArea#main.py)</kbd>
 
 ## Layers
 
@@ -224,7 +224,7 @@ class AnimatedSpriteObject(pygame.sprite.Sprite):
 
 :scroll: **[Minimal example - Animated sprites](../../examples/minimal_examples/pygame_minimal_sprite_animated_gif_pil.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteAnimation](https://repl.it/@Rabbid76/PyGame-SpriteAnimation#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteAnimation](https://replit.com/@Rabbid76/PyGame-SpriteAnimation#main.py)</kbd>
 
 ![Animated sprite from few images](https://i.stack.imgur.com/SzKwL.gif)
 
@@ -237,7 +237,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Rotate Sprite around off center pivot](../../examples/surface_rotate/pygame_sprite_rotate_pivot_boomerang.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivot](https://repl.it/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivot#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivot](https://replit.com/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivot#main.py)</kbd>
 
 ### Follow mouse
 
@@ -247,13 +247,13 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Rotate Sprite to mouse](../../examples/minimal_examples/pygame_minimal_sprite_rotate_to_mouse.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteRotateToMouse](https://repl.it/@Rabbid76/PyGame-SpriteRotateToMouse#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteRotateToMouse](https://replit.com/@Rabbid76/PyGame-SpriteRotateToMouse#main.py)</kbd>
 
   ![How do I rotate a sprite towards the mouse and move it?](https://i.stack.imgur.com/DYZHI.gif)
 
   :scroll: **[Minimal example - Sprite follows mouse](../../examples/minimal_examples/pygame_minimal_sprite_follow_mouse.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteFollowMouse](https://repl.it/@Rabbid76/PyGame-SpriteFollowMouse#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteFollowMouse](https://replit.com/@Rabbid76/PyGame-SpriteFollowMouse#main.py)</kbd>
 
   ![How do I rotate a sprite towards the mouse and move it?](https://i.stack.imgur.com/7ONS1.gif)
 
@@ -266,7 +266,7 @@ Related Stack Overflow questions:
 
   :scroll: **[minimal example - Detect click on sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseClick](https://repl.it/@Rabbid76/PyGame-MouseClick#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseClick](https://replit.com/@Rabbid76/PyGame-MouseClick#main.py)</kbd>
 
 - [How can I add an image or icon to a button rectangle in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-an-image-or-icon-to-a-button-rectangle-in-pygame/64990819#64990819)  
   ![How can I add an image or icon to a button rectangle in Pygame?](https://i.stack.imgur.com/DnQdC.gif)
@@ -313,7 +313,7 @@ Related Stack Overflow questions:
 
   :scroll: **[minimal example - Detect Sprite on hover](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseHover](https://repl.it/@Rabbid76/PyGame-MouseHover#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseHover](https://replit.com/@Rabbid76/PyGame-MouseHover#main.py)</kbd>
 
 - [How can I add an image or icon to a button rectangle in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-an-image-or-icon-to-a-button-rectangle-in-pygame/64990819#64990819)  
   ![How can I add an image or icon to a button rectangle in Pygame?](https://i.stack.imgur.com/UEIde.gif)
@@ -359,7 +359,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Drag Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_drag.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseDrag](https://repl.it/@Rabbid76/PyGame-MouseDrag#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseDrag](https://replit.com/@Rabbid76/PyGame-MouseDrag#main.py)</kbd>
 
 - [How to use a dictionary of images with sprite?](https://stackoverflow.com/questions/66467383/how-to-use-a-dictionary-of-images-with-sprite/66514748#66514748)  
   ![How to use a dictionary of images with sprite?](https://i.stack.imgur.com/i0a0N.gif)
@@ -409,7 +409,7 @@ Related Stack Overflow questions:
 - [How to create a text input box with pygame?](https://stackoverflow.com/questions/46390231/how-to-create-a-text-input-box-with-pygame/64613666#64613666)  
   ![How to create a text input box with pygame?](https://i.stack.imgur.com/FNJeM.gif)
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteTextInput](https://repl.it/@Rabbid76/PyGame-SpriteTextInput#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SpriteTextInput](https://replit.com/@Rabbid76/PyGame-SpriteTextInput#main.py)</kbd>
 
   :scroll: **[minimal example - Text input box](../../examples/minimal_examples/pygame_minimal_sprite_text_input_box.py)**
 
@@ -422,4 +422,4 @@ Related Stack Overflow questions:
 
 :scroll: **[Minimal example - Radio button](../../examples/minimal_examples/pygame_minimal_sprite_mouse_radiobutton.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RadioButton](https://repl.it/@Rabbid76/PyGame-RadioButton#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RadioButton](https://replit.com/@Rabbid76/PyGame-RadioButton#main.py)</kbd>

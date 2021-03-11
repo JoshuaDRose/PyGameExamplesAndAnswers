@@ -7,7 +7,7 @@
 # GitHub - PyGameExamplesAndAnswers - Motion and movement - Move and rotate
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_movement_and_motion.md 
 #
-# https://repl.it/@Rabbid76/PyGame-CarMovementReflect
+# https://replit.com/@Rabbid76/PyGame-CarMovementReflect
 
 import pygame
 import os

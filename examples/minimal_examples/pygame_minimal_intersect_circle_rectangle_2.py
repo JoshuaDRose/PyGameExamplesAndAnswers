@@ -7,7 +7,7 @@
 # GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Rectangle and circle
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_collision_and_intesection.md
 #
-# https://repl.it/@Rabbid76/PyGame-NearestPointOnRectangle
+# https://replit.com/@Rabbid76/PyGame-NearestPointOnRectangle
 
 import pygame
 import math

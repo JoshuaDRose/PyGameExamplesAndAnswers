@@ -10,7 +10,7 @@
 # GitHub - PyGameExamplesAndAnswers - Text and font
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_text_and_font.md
 #
-# https://repl.it/@Rabbid76/PyGame-TextInput#main.py
+# https://replit.com/@Rabbid76/PyGame-TextInput#main.py
 
 import pygame
 pygame.init()

@@ -13,7 +13,7 @@
 # GitHub - Sprite, Group and Sprite mask - Click Sprite
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_ui_elements.md
 #
-# https://repl.it/@Rabbid76/PyGame-RadioButton
+# https://replit.com/@Rabbid76/PyGame-RadioButton
 
 import pygame
 

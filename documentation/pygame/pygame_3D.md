@@ -27,7 +27,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - 3D depth sort 1](../../examples/minimal_examples/pygame_minimal_3D_depth_sort_1.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-3D](https://repl.it/@Rabbid76/PyGame-3D#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-3D](https://replit.com/@Rabbid76/PyGame-3D#main.py)</kbd>
 
 - [Close range 3d display messed up](https://stackoverflow.com/questions/60330496/close-range-3d-display-messed-up/60335112#60335112)  
   ![Close range 3d display messed up](https://i.stack.imgur.com/cD7t9.gif)

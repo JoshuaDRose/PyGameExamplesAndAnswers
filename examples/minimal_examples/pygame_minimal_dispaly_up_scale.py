@@ -10,7 +10,7 @@
 # GitHub - Display, display position, resize, coordinate system and scroll - PyGameExamplesAndAnswers - Coordinate system
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_display_resize_and_scroll.md
 #
-# https://repl.it/@Rabbid76/PyGame-UpScaleDisplay
+# https://replit.com/@Rabbid76/PyGame-UpScaleDisplay
 
 import pygame
 

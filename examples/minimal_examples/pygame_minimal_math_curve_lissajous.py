@@ -10,7 +10,7 @@
 # GitHub - PyGameExamplesAndAnswers - Math and Vector- Curve - Lissajous curve
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_math_vector_and_reflection.md
 #
-# https://repl.it/@Rabbid76/PyGame-LissajousCurve
+# https://replit.com/@Rabbid76/PyGame-LissajousCurve
 
 import math
 import pygame

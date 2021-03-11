@@ -28,7 +28,7 @@ Some examples:
 
   ![collidepoint](https://i.stack.imgur.com/wCi2z.gif)
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-collidepoint](https://repl.it/@Rabbid76/PyGame-collidepoint#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-collidepoint](https://replit.com/@Rabbid76/PyGame-collidepoint#main.py)</kbd>
 
   ```py
   import pygame
@@ -61,7 +61,7 @@ Some examples:
 
   :scroll: **[Minimal example - collidepoint](../../examples/minimal_examples/pygame_minimal_rectangle_colliderect.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-colliderect](https://repl.it/@Rabbid76/PyGame-colliderect#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-colliderect](https://replit.com/@Rabbid76/PyGame-colliderect#main.py)</kbd>
 
   ![colliderect](https://i.stack.imgur.com/r2y9r.gif)
 
@@ -106,7 +106,7 @@ Some examples:
 
   :scroll: **[Minimal example - collidepoint](../../examples/minimal_examples/pygame_minimal_rectangle_spritecollide.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-spritecollide](https://repl.it/@Rabbid76/PyGame-spritecollide#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-spritecollide](https://replit.com/@Rabbid76/PyGame-spritecollide#main.py)</kbd>
 
   ![spritecollide](https://i.stack.imgur.com/3DdjL.gif)
 
@@ -151,7 +151,7 @@ Some examples:
 
   :scroll: **[Minimal example - collidepoint](../../examples/minimal_examples/pygame_minimal_intersect_spritecollide_collide_circle.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-spritecollidecollidecircle](https://repl.it/@Rabbid76/PyGame-spritecollidecollidecircle#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-spritecollidecollidecircle](https://replit.com/@Rabbid76/PyGame-spritecollidecollidecircle#main.py)</kbd>
 
   ![pygame_minimal_intersect_spritecollide_collide_circle](https://i.stack.imgur.com/SS1Pb.gif)
 
@@ -404,7 +404,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Find the intersection side between the circle and the rectangle](../../examples/minimal_examples/pygame_minimal_intersect_circle_rectangle_2.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-NearestPointOnRectangle](https://repl.it/@Rabbid76/PyGame-NearestPointOnRectangle#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-NearestPointOnRectangle](https://replit.com/@Rabbid76/PyGame-NearestPointOnRectangle#main.py)</kbd>
 
 - [Detect collision between textbox and circle in pygame](https://stackoverflow.com/questions/58305721/detect-collision-between-textbox-and-circle-in-pygame/58306368#58306368)
 
@@ -470,14 +470,14 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Intersect lines](../../examples/minimal_examples/pygame_minimal_intersect_line_line_1.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-IntersectLines](https://repl.it/@Rabbid76/PyGame-IntersectLines#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-IntersectLines](https://replit.com/@Rabbid76/PyGame-IntersectLines#main.py)</kbd>
 
 - [Problem with finding the closest intersection](https://stackoverflow.com/questions/56316263/problem-with-finding-the-closest-intersection/56316370#56316370)  
   ![Problem with finding the closest intersection](../../screenshot/pygame_minimal_intersect_line_line_2.png)
 
   :scroll: **[Minimal example - Intersect and cut lines](../../examples/minimal_examples/pygame_minimal_intersect_line_line_2.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-IntersectAndCutLines](https://repl.it/@Rabbid76/PyGame-IntersectAndCutLines#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-IntersectAndCutLines](https://replit.com/@Rabbid76/PyGame-IntersectAndCutLines#main.py)</kbd>
 
 - [fiding every point of intersection of multiple lines using pygame in python for creation of game board](https://stackoverflow.com/questions/63521847/fiding-every-point-of-intersection-of-multiple-lines-using-pygame-in-python-for/63523520#63523520)  
   ![fiding every point of intersection of multiple lines using pygame in python for creation of game board](https://i.stack.imgur.com/6Do1b.png)
@@ -581,14 +581,14 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Make circles bounce off each other](../../examples/minimal_examples/pygame_minimal_intersect_circle_circle_1.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CirclesBounceOff](https://repl.it/@Rabbid76/PyGame-CirclesBounceOff#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CirclesBounceOff](https://replit.com/@Rabbid76/PyGame-CirclesBounceOff#main.py)</kbd>
 
 - [pygame Get the balls to bounce off each other](https://stackoverflow.com/questions/63586822/pygame-get-the-balls-to-bounce-off-each-other/63587147#63587147)  
   ![pygame Get the balls to bounce off each other](https://i.stack.imgur.com/dlD4v.gif)
 
   :scroll: **[Minimal example - Make balls bounce off each other](../../examples/minimal_examples/pygame_minimal_intersect_circle_circle_2.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-BallsBounceOff](https://repl.it/@Rabbid76/PyGame-BallsBounceOff#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-BallsBounceOff](https://replit.com/@Rabbid76/PyGame-BallsBounceOff#main.py)</kbd>
 
 - [Collision detection / physics for simple game](https://stackoverflow.com/questions/59656983/collision-detection-physics-for-simple-game/59658289#59658289)  
   ![Collision detection / physics for simple game](https://i.stack.imgur.com/bqVOa.gif)
@@ -611,7 +611,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Find the intersection of a circle and a rectangle](../../examples/minimal_examples/pygame_minimal_intersect_circle_ellipse.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-IntersectCircleEllipse](https://repl.it/@Rabbid76/PyGame-IntersectCircleEllipse#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-IntersectCircleEllipse](https://replit.com/@Rabbid76/PyGame-IntersectCircleEllipse#main.py)</kbd>
 
 ```py
 from math import pi, sin, cos, atan2, radians, copysign, sqrt

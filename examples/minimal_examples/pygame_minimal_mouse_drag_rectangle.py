@@ -10,7 +10,7 @@
 # GitHub - Mouse - Mouse Drag
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_mouse_aygnd_mosuse_events.md
 #
-# https://repl.it/@Rabbid76/PyGame-MouseDragSimple
+# https://replit.com/@Rabbid76/PyGame-MouseDragSimple
 
 import pygame
 

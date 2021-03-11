@@ -7,7 +7,7 @@
 # GitHub - PyGameExamplesAndAnswers - Mask
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_mask.md
 #
-# https://repl.it/@Rabbid76/PyGame-SurfaceLineMaskIntersect-2
+# https://replit.com/@Rabbid76/PyGame-SurfaceLineMaskIntersect-2
 
 import math
 import pygame

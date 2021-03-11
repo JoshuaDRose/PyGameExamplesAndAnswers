@@ -7,7 +7,7 @@
 # GitHub - PyGameExamplesAndAnswers - Shape and contour - Draw rectangle
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_draw_shape_and_contour.md
 #
-# https://repl.it/@Rabbid76/PyGame-DrawPixel-1
+# https://replit.com/@Rabbid76/PyGame-DrawPixel-1
 
 import pygame
 

@@ -54,14 +54,14 @@ remove "duplicate"
 
   :scroll: **[Minimal example - Tint a grayscale image 2](../../examples/minimal_examples/pygame_minimal_blend_surface_tint_grayscale_1.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-4](https://repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-4#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-4](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-4#main.py)</kbd>
 
 - [Changing colour of a surface without overwriting transparency](https://stackoverflow.com/questions/64190277/changing-colour-of-a-surface-without-overwriting-transparency/64193109#64193109/64193109#64193109)  
   ![Changing colour of a surface without overwriting transparency](https://i.stack.imgur.com/oldLt.gif)
 
   :scroll: **[Minimal example - Tint a grayscale image 1](../../examples/minimal_examples/pygame_minimal_blend_surface_tint_grayscale_1.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea](https://repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSpriteArea#main.py)</kbd>
 
 - [How to tint a png image with an alpha channel?](https://stackoverflow.com/questions/54633756/how-to-tint-a-png-image-with-an-alpha-channel/54635608#54635608)  
 
@@ -74,14 +74,14 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Change color of Surface 1](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_1.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea](https://repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea#main.py)</kbd>
 
 - [Changing ememy's color to show that it is asking damage?](https://stackoverflow.com/questions/63734429/changing-ememys-color-to-show-that-it-is-aking-damage/63745242#63745242)  
   ![Changing ememy's color to show that it is asking damage?](https://i.stack.imgur.com/CjV0r.gif)
 
   :scroll: **[Minimal example - Change color of Surface 2](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_2.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-2](https://repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-2#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-2](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-2#main.py)</kbd>
 
 If you want to brighten an image, thenA I recommend to add a constant color to the surface. This can be achieved by [`.fill()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.fill), wby the use of the  special parameter `BLEND_RGB_ADD`. If the fill color is black (0, 0, 0) then the image won't change at all. If the fill color is white (255, 255, 255), then the entire image will become white. e.g.:  
 
@@ -126,7 +126,7 @@ def changColor(image, maskImage, newColor):
 
 :scroll: **[Minimal example - Change color of Surface 3](../../examples/minimal_examples/pygame_minimal_blend_surface_change_color_3.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3](https://repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSurfaceArea-3#main.py)</kbd>
 
 ![Trying to make sections of sprite change colour, but whole sprite changes instead](https://i.stack.imgur.com/F45EC.png)
 
@@ -192,7 +192,7 @@ neg.blit(image, (0, 0), special_flags=pygame.BLEND_SUB)
 
 :scroll: **[Minimal example - Fill the area of intersection](../../examples/minimal_examples/pygame_minimal_blend_intersection_area.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CircleIntersection](https://repl.it/@Rabbid76/PyGame-CircleIntersection#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CircleIntersection](https://replit.com/@Rabbid76/PyGame-CircleIntersection#main.py)</kbd>
 
  ![Fill the area of intersection of two Circles in PyGame](https://i.stack.imgur.com/2ef0w.png)
  ![Fill the area of intersection of two Circles in PyGame](https://i.stack.imgur.com/zzHTY.png)

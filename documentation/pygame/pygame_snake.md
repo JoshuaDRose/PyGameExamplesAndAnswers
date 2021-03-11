@@ -69,7 +69,7 @@ body = [(3, 2), (3, 3), (3, 4), (4, 4), (5, 4)]
 
 :scroll: **[Minimal example](../../examples/minimal_examples/pygame_minimal_snake_move_grid.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SnakeMoveInGrid](https://repl.it/@Rabbid76/PyGame-SnakeMoveInGrid#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SnakeMoveInGrid](https://replit.com/@Rabbid76/PyGame-SnakeMoveInGrid#main.py)</kbd>
 
 ![2](https://i.stack.imgur.com/ZpKnj.gif)
 
@@ -110,7 +110,7 @@ def create_body(track, no_pearls, distance):
 
 :scroll: **[Minimal example](../../examples/minimal_examples/pygame_minimal_snake_move_free.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SnakeMoveFree](https://repl.it/@Rabbid76/PyGame-SnakeMoveFree#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SnakeMoveFree](https://replit.com/@Rabbid76/PyGame-SnakeMoveFree#main.py)</kbd>
 
 ![4](https://i.stack.imgur.com/Q6zUm.gif)
 

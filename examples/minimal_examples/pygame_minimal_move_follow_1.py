@@ -7,7 +7,7 @@
 # GitHub - Move towards target - Follow target or mouse
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_move_towards_target.md
 #
-# https://repl.it/@Rabbid76/PyGame-FollowMouse
+# https://replit.com/@Rabbid76/PyGame-FollowMouse
 
 import pygame
 

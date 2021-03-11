@@ -52,7 +52,7 @@
 ![replt-it-40](https://i.stack.imgur.com/rp0yV.png)
 ![replt-it-32](https://i.stack.imgur.com/5jD0C.png)
 
-[repl.it](https://repl.it/repls/folder/PyGame%20Examples)
+[repl.it](https://repl.com/repls/folder/PyGame%20Examples)
 [trinket.io](https://trinket.io/)
 
 ## Template
@@ -66,11 +66,11 @@
 ```
 
 ```lang-none
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MinimalApplicationLoop](https://repl.it/@Rabbid76/PyGame-MinimalApplicationLoop#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MinimalApplicationLoop](https://replit.com/@Rabbid76/PyGame-MinimalApplicationLoop#main.py)</kbd>
 ```
 
 ```lang-none
-<kbd>[![][1] repl.it/@Rabbid76/PyGame-MinimalApplicationLoop](https://repl.it/@Rabbid76/PyGame-MinimalApplicationLoop#main.py)</kbd>
+<kbd>[![][1] repl.it/@Rabbid76/PyGame-MinimalApplicationLoop](https://replit.com/@Rabbid76/PyGame-MinimalApplicationLoop#main.py)</kbd>
 
   [1]: https://i.stack.imgur.com/5jD0C.png
 ```

@@ -4,7 +4,7 @@
 # GitHub - PyGameExamplesAndAnswers - Time, timer event and clock - Time - Counter based on timer event
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_time_and_timer_event.md
 #
-# https://repl.it/@Rabbid76/PyGame-TimerCallback
+# https://replit.com/@Rabbid76/PyGame-TimerCallback
 
 import pygame
 

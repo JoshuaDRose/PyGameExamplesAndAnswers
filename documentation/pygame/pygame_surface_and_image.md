@@ -79,7 +79,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Load transparent image](../../examples/minimal_examples/pygame_minimal_surface_load_2.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://repl.it/@Rabbid76/PyGame-LoadTransparentImage#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://replit.com/@Rabbid76/PyGame-LoadTransparentImage#main.py)</kbd>
 
 - [How do you blit/draw a sprite in Pygame with lower opacity?](https://stackoverflow.com/questions/65259552/how-do-you-blit-draw-a-sprite-in-pygame-with-lower-opacity)
 
@@ -232,7 +232,7 @@ window_surface.blit(image_surface,
 
 :scroll: **[Minimal example - Load transparent image](../../examples/minimal_examples/pygame_minimal_surface_load_2.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://repl.it/@Rabbid76/PyGame-LoadTransparentImage#main.py)</kbd>
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://replit.com/@Rabbid76/PyGame-LoadTransparentImage#main.py)</kbd>
 
 ![How do I blit a PNG with some transparency onto a surface in Pygame?](https://i.stack.imgur.com/a62px.png)
 
@@ -603,3 +603,9 @@ See [Scale and zoom](pygame_surface_scale_and_zoom.md)
 ### Rotate
 
 See [Rotate surface](pygame_surface_rotate.md)
+
+### Scroll
+
+Related Stack Overflow questions:
+
+- [Adjust image of rect](https://stackoverflow.com/questions/66443304/adjust-image-of-rect/66443370#66443370)

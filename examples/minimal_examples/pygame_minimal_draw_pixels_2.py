@@ -10,7 +10,7 @@
 # GitHub - PyGameExamplesAndAnswers - Surface array, pixel array, buffer proxy - Pixel array
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_surfacearray_pixelarray_and_bufferproxy.md
 #
-# https://repl.it/@Rabbid76/PyGame-DrawPixel-2
+# https://replit.com/@Rabbid76/PyGame-DrawPixel-2
 
 import pygame
 

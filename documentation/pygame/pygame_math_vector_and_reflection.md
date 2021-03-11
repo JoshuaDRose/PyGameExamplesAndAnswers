@@ -130,7 +130,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Bball bounce off the frame](../../examples/minimal_examples/pygame_minimal_math_vector_reflect_frame.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-BallBounceOffFrame](https://repl.it/@Rabbid76/PyGame-BallBounceOffFrame#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-BallBounceOffFrame](https://replit.com/@Rabbid76/PyGame-BallBounceOffFrame#main.py)</kbd>
 
 Calculate the [reflection](https://en.wikipedia.org/wiki/Reflection_(mathematics)) vector to the incident vector on the circular surface.  
 In the following formula `N` is the normal vector of the circle, `I` is the incident vector (the current direction vector of the bouncing ball) and `R` is the reflection vector (outgoing direction vector of the bouncing ball):
@@ -168,7 +168,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Rotate line](../../examples/minimal_examples/pygame_minimal_math_vector_rotate_line.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-VectorRotateLine](https://repl.it/@Rabbid76/PyGame-VectorRotateLine#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-VectorRotateLine](https://replit.com/@Rabbid76/PyGame-VectorRotateLine#main.py)</kbd>
 
 ## Curve
 
@@ -190,7 +190,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Lissajous curve](../../examples/minimal_examples/pygame_minimal_2D_so_lissajous.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LissajousCurve](https://repl.it/@Rabbid76/PyGame-LissajousCurve#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LissajousCurve](https://replit.com/@Rabbid76/PyGame-LissajousCurve#main.py)</kbd>
 
 ## Sort
 

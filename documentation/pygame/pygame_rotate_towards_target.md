@@ -17,7 +17,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Rotate surface towards mouse](../../examples/minimal_examples/pygame_minimal_rotate_to_target_1.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateWithMouse](https://repl.it/@Rabbid76/PyGame-RotateWithMouse#main.py)</kbd>
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateWithMouse](https://replit.com/@Rabbid76/PyGame-RotateWithMouse#main.py)</kbd>
   
   - [PyGame move drawn rect(not image) in the same way as the player, including rotation](https://stackoverflow.com/questions/59549149/pygame-move-drawn-rectnot-image-in-the-same-way-as-the-player-including-rotat/59552025#59552025)  
   ![PyGame move drawn rect(not image) in the same way as the player, including rotation](https://i.stack.imgur.com/ItYvA.gif)
