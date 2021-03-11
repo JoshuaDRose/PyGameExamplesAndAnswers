@@ -91,6 +91,9 @@ The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a si
 [Move around cube using WASD in Pygame?](https://stackoverflow.com/questions/64881896/move-around-cube-using-wasd-in-pygame/64882112#64882112)  
 ![Move around cube using WASD in Pygame?](https://i.stack.imgur.com/MSI1c.gif)
 
+[How to rotate a cube using mouse in pyopengl](https://stackoverflow.com/questions/59823131/how-to-rotate-a-cube-using-mouse-in-pyopengl/59823600#59823600)  
+![How to rotate a cube using mouse in pyopengl](https://i.stack.imgur.com/zwhCC.gif)
+
 ## Projection
 
 ### Orthographic projection
