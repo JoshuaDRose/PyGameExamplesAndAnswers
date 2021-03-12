@@ -110,7 +110,8 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [I'm embedding a pygame window into Tkinter, how do I manipulate the pygame window?](https://stackoverflow.com/questions/55755305/im-embedding-a-pygame-window-into-tkinter-how-do-i-manipulate-the-pygame-windo)  
-- [Draw a circle in Pygame using Tkinter](https://stackoverflow.com/questions/13545911/draw-a-circle-in-pygame-using-tkinter)  
+- [Draw a circle in Pygame using Tkinter](https://stackoverflow.com/questions/13545911/draw-a-circle-in-pygame-using-tkinter)
+- [Tkinter understanding mainloop](https://stackoverflow.com/questions/29158220/tkinter-understanding-mainloop)
 
 ## File access
 
@@ -347,3 +348,8 @@ Related Stack Overflow questions:
 [Pygame sprites overlapping issue](https://stackoverflow.com/questions/66291255/pygame-sprites-overlapping-issue/66291672#66291672)  
 ![Pygame sprites overlapping issue](https://i.stack.imgur.com/Su2mJ.gif)
 ![Pygame sprites overlapping issue](https://i.stack.imgur.com/MytEF.gif)
+
+[Adding rects in list for displaying in 7-segment digits in pygame](https://stackoverflow.com/questions/66533451/adding-rects-in-list-for-displaying-in-7-segment-digits-in-pygame/66533802#66533802)  
+![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/8JVdm.png)  
+![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/hrDQr.png)  
+![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/hILk7.gif)  
