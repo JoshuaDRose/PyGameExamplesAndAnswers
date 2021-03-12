@@ -84,6 +84,8 @@ Related Stack Overflow questions:
 - [Collisions still aren't getting detected in pygame](https://stackoverflow.com/questions/63465025/collisions-still-arent-getting-detected-in-pygame/63465289#63465289)  
   ![Collisions still aren't getting detected in pygame](https://i.stack.imgur.com/OkZC7.gif)
 
+:scroll: **[Minimal example - Minimal sprite collide](../../examples/minimal_examples/pygame_minimal_sprite_collide.py)**
+
 ### Sprite collide with Sprite
 
 Related Stack Overflow questions:
