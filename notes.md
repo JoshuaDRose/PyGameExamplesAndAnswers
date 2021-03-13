@@ -52,7 +52,7 @@
 ![replt-it-40](https://i.stack.imgur.com/rp0yV.png)
 ![replt-it-32](https://i.stack.imgur.com/5jD0C.png)
 
-[repl.it](https://repl.com/repls/folder/PyGame%20Examples)
+[replit.com](https://replit.com/repls/folder/PyGame%20Examples)
 [trinket.io](https://trinket.io/)
 
 ## Template

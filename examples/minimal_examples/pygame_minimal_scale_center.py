@@ -4,6 +4,9 @@
 # How do I scale a PyGame image (Surface) with respect to its center?
 # https://stackoverflow.com/questions/59919826/how-do-i-scale-a-pygame-image-surface-with-respect-to-its-center/59919909#59919909
 #
+# How to change an image size in Pygame?
+# https://stackoverflow.com/questions/43046376/how-to-change-an-image-size-in-pygame/66611330#66611330 
+#
 # GitHub - PyGameExamplesAndAnswers - Scale and zoom - Transform scale and zoom surface
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_surface_scale_and_zoom.md
 

@@ -12,6 +12,7 @@ Richard P. Feynman
 Related Stack Overflow questions:
 
 - [How can i reshape an array from (280, 280, 3) to (28, 28, 3)](https://stackoverflow.com/questions/62391656/how-can-i-reshape-an-array-from-280-280-3-to-28-28-3/62392403#62392403)
+- [How to change an image size in Pygame?](https://stackoverflow.com/questions/43046376/how-to-change-an-image-size-in-pygame/66611330#66611330)  
 - [What does the parameter DestSurface in Pygame.transform.scale mean and how do I use it?](https://stackoverflow.com/questions/60045882/what-does-the-parameter-destsurface-in-pygame-transform-scale-mean-and-how-do-i/60045993#60045993)
 - [How do i properly rescale an image on PyGame without it being badly cropped?](https://stackoverflow.com/questions/55319967/how-do-i-properly-rescale-an-image-on-pygame-without-it-being-badly-cropped/55321552#55321552)
 - [Set the width and height of a pygame surface](https://stackoverflow.com/questions/62467003/set-the-width-and-height-of-a-pygame-surface/62467567#62467567)
@@ -66,6 +67,7 @@ Do not try to use the parameter compulsively and do not "construct" a use case f
 Related Stack Overflow questions:
 
 - [How do I scale a PyGame image (Surface) with respect to its center?](https://stackoverflow.com/questions/59919826/how-do-i-scale-a-pygame-image-surface-with-respect-to-its-center/59919909#59919909)  
+  [How to change an image size in Pygame?](https://stackoverflow.com/questions/43046376/how-to-change-an-image-size-in-pygame/66611330#66611330)  
   ![How do I scale a PyGame image (Surface) with respect to its center?](https://i.stack.imgur.com/soWSp.gif)
 
   :scroll: **[Minimal example - Spin](../../examples/minimal_examples/pygame_minimal_scale_center.py)**
