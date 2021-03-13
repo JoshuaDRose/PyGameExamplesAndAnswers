@@ -353,3 +353,7 @@ Related Stack Overflow questions:
 ![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/8JVdm.png)  
 ![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/hrDQr.png)  
 ![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/hILk7.gif)  
+
+[Draw a staggered isometric map with python](https://stackoverflow.com/questions/66568267/draw-a-staggered-isometric-map-with-python/66569330#66569330)  
+![Draw a staggered isometric map with python](https://i.stack.imgur.com/zvT6d.png)
+![Draw a staggered isometric map with python](https://i.stack.imgur.com/3phr2.png)

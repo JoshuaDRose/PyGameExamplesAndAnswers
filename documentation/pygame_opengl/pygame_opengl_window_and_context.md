@@ -94,3 +94,16 @@ pygame.display.flip()
 
 screen_surf = pygame.image.fromstring(buffer, size, "RGBA")
 pygame.image.save(screen_surf, "screenshot.jpg")
+```
+
+## Mixed drawing
+
+Related Stack Overflow questions:
+
+- [How can I draw using pygame, while also drawing with pyopengl?](https://stackoverflow.com/questions/66552579/how-can-i-draw-using-pygame-while-also-drawing-with-pyopengl/66552664#66552664)
+
+You can't do that directly.
+
+However you can draw on a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object with the [`pygame.draw`](https://www.pygame.org/docs/ref/draw.html) module or [`pygame.Surface.blit`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.blit). Use [`pygame.PixelArray`](https://www.pygame.org/docs/ref/pixelarray.html) to access the pixels on the surface directly. Use the pixels to generate an OpenGL [Texture](https://www.khronos.org/opengl/wiki/Texture) object. This texture can be used in OpenGL. 
+
+In the other direction you can render into a OpenGL [Renderbuffer](https://www.khronos.org/opengl/wiki/Renderbuffer_Object) or  [Texture](https://www.khronos.org/opengl/wiki/Texture) object (see [Framebuffers](https://learnopengl.com/Advanced-OpenGL/Framebuffers)). Load the texture onto the GPU with [`glReadPixels`](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glReadPixels.xhtml) or [`glGetTexImage`](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetTexImage.xhtml) and create a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) with [`pygame.image.frombuffer`](https://www.pygame.org/docs/ref/image.html#pygame.image.frombuffer).
