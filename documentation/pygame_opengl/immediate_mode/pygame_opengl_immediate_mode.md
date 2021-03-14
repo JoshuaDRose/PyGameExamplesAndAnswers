@@ -80,6 +80,7 @@ The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a si
 [Moving only one cube out of 2 in Python with PyOpenGL](https://stackoverflow.com/questions/60901079/moving-only-one-cube-out-of-2-in-python-with-pyopengl)  
 
 [PyOpenGl Pygame window freezes when run](https://stackoverflow.com/questions/54683378/pyopengl-pygame-window-freezes-when-run/54696233#54696233)  
+[Drawing a cube with Pygame and OpenGL in Python environment](https://stackoverflow.com/questions/66623528/drawing-a-cube-with-pygame-and-opengl-in-python-environment/66623589#66623589)  
 ![PyOpenGl Pygame window freezes when run](https://i.stack.imgur.com/jUWiH.gif)
 
 :scroll: **[OpenGL immediate mode - Draw a wireframe cube](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_wireframe.py)**
