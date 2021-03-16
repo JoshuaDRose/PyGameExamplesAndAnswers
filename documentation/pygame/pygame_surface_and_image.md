@@ -46,7 +46,7 @@ Related Stack Overflow questions:
 - [Why does my game made with Pygame suddenly lag for a few seconds?](https://stackoverflow.com/questions/60222282/why-does-my-game-made-with-pygame-suddenly-lag-for-a-few-seconds/60222744#60222744)
 - [How Can I Improve My Terrain Generator Performance I Get 40 FPS](https://stackoverflow.com/questions/66509002/how-can-i-improve-my-terrain-generator-performance-i-get-40-fps/66510253#66510253)
 
-Ensure that the background _Surface_ has the same format as the display _Surface_. Use [`convert()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert) (or [`convert_alpha()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert_alpha)) to create a _Surface_ that has the same pixel format. This improves performance when the background is, when the background is `blit` on  the display, because the formats are compatible and `blit` does not need to perform an implicit transformation.
+Ensure that the image _Surface_ has the same format as the display _Surface_. Use [`convert()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert) (or [`convert_alpha()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.convert_alpha)) to create a _Surface_ that has the same pixel format. This improves performance when the image is `blit` on  the display, because the formats are compatible and `blit` does not need to perform an implicit transformation.
 
 ```py
 screen = pygame.display.set_mode((800, 600))
