@@ -608,4 +608,9 @@ See [Rotate surface](pygame_surface_rotate.md)
 
 Related Stack Overflow questions:
 
-- [Adjust image of rect](https://stackoverflow.com/questions/66443304/adjust-image-of-rect/66443370#66443370)
+- [Adjust image of rect](https://stackoverflow.com/questions/66443304/adjust-image-of-rect/66443370#66443370)  
+  ![Adjust image of rect](https://i.stack.imgur.com/r0wY5.gif)
+
+  :scroll: **[Minimal example - Scroll](../../examples/minimal_examples/pygame_minimal_surface_scroll_1.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SCroll](https://replit.com/@Rabbid76/PyGame-Scroll#main.py)</kbd>
