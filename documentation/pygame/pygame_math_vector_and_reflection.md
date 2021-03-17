@@ -11,6 +11,7 @@ Robert C. Martin, Clean Architecture
 
 Related Stack Overflow questions:
 
+- [pygame: I want to calculate the distance between the player sprite and enemy1](https://stackoverflow.com/questions/66624936/pygame-i-want-to-calculate-the-distance-between-the-player-sprite-and-enemy1/66625025#66625025)  
 - [Trying to Make Slime Bombs and clear screen with spacebar](https://stackoverflow.com/questions/60515767/trying-to-make-slime-bombs-and-clear-screen-with-spacebar/60515933#60515933)
 - [Im currently making a game with pygame and I need an explanation on some vector code](https://stackoverflow.com/questions/61670940/im-currently-making-a-game-with-pygame-and-i-need-an-explanation-on-some-vector/61674234#61674234)
 - [PyGame, make the tank gun follow your cursor, also good collision implementation practices](https://stackoverflow.com/questions/62455073/pygame-make-the-tank-gun-follow-your-cursor-also-good-collision-implementation/62455339#62455339)
