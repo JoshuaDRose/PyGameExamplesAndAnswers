@@ -18,7 +18,15 @@ Related Stack Overflow questions:
 ![Saving history of drawing in Pygame in order to implement Ctrl Z](https://i.stack.imgur.com/snmsK.gif)
 
 - [Removing drawings without overriding previous ones on pygame -Python](https://stackoverflow.com/questions/61309564/removing-drawings-without-overriding-previous-ones-on-pygame-python/61310016#61310016)  
-![Removing drawings without overriding previous ones on pygame -Python](https://i.stack.imgur.com/xChjD.gif)
+  ![Removing drawings without overriding previous ones on pygame -Python](https://i.stack.imgur.com/xChjD.gif)
 
 - [How can I make this demo drawing game update drawing the circles faster with Pygame?](https://stackoverflow.com/questions/60284620/how-can-i-make-this-demo-drawing-game-update-drawing-the-circles-faster-with-pyg/60285364#60285364)  
-![How can I make this demo drawing game update drawing the circles faster with Pygame?](https://i.stack.imgur.com/mojlK.gif)
+  ![How can I make this demo drawing game update drawing the circles faster with Pygame?](https://i.stack.imgur.com/mojlK.gif)
+
+- [Line drawing in pygame](https://stackoverflow.com/questions/66491982/line-drawing-in-pygame/66492121#66492121)  
+  ![Line drawing in pygame](https://i.stack.imgur.com/1UvQk.png)
+  ![Line drawing in pygame](https://i.stack.imgur.com/m5pRI.gif)
+
+  :scroll: **[Minimal example - Thick free line](../../examples/minimal_examples/pygame_minimal_paint_free_line_1.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-PaintFreeThickLine](https://replit.com/@Rabbid76/PyGame-PaintFreeThickLine#main.py)</kbd>

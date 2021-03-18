@@ -65,6 +65,9 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/64521750/get-the-updated-coordinates-of-a-pymunk-rotating-kinetic-body/64521960#64521960"><img src="https://i.stack.imgur.com/iV1Ij.gif" height="100" title="Kinematik with PyMuk"></a><!--
 --><a href="https://stackoverflow.com/questions/66467383/how-to-use-a-dictionary-of-images-with-sprite/66514748#66514748"><img src="https://i.stack.imgur.com/i0a0N.gif" height="100" title="Drag chess pieces"></a><!--
 --><a href="https://stackoverflow.com/questions/16183265/how-to-move-sprite-in-pygame/66515040#66515040"><img src="https://i.stack.imgur.com/3dmc6.gif" height="100" title="Move sprite"></a><!--
+--><a href="https://stackoverflow.com/questions/66443304/adjust-image-of-rect/66443370#66443370"><img src="https://i.stack.imgur.com/r0wY5.gif" height="100" title="Rain"></a><!--
+--><a href="https://stackoverflow.com/questions/66491982/line-drawing-in-pygame/66492121#66492121"><img src="https://i.stack.imgur.com/m5pRI.gif" height="100" title="Paint thick line"></a><!--
+--><a href="https://stackoverflow.com/questions/66533451/adding-rects-in-list-for-displaying-in-7-segment-digits-in-pygame/66533802#66533802"><img src="https://i.stack.imgur.com/hILk7.gif" height="100" title="7 segment display"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  

@@ -282,17 +282,11 @@ Related Stack Overflow questions:
 [How to draw with mouse and save as 1s and 0s](https://stackoverflow.com/questions/58847079/how-to-draw-with-mouse-and-save-as-1s-and-0s/58850614#58850614)  
 ![scene](https://i.stack.imgur.com/hMHD8.gif)
 
-[Trying to code the Recaman Sequence, but issue with the parameters I pass for drawing an arc](https://stackoverflow.com/questions/54384422/trying-to-code-the-recaman-sequence-but-issue-with-the-parameters-i-pass-for-dr/54386695#54386695)  
-
 [Pygame low frame rate on simple game](https://stackoverflow.com/questions/55073598/pygame-low-frame-rate-on-simple-game/55076222#55076222)  
 ![scene](https://i.stack.imgur.com/hseTx.gif)
 
-[Trying to delete two objects when placed next to eachother in pygame](https://stackoverflow.com/questions/56101697/trying-to-delete-two-objects-when-placed-next-to-eachother-in-pygame/56102178#56102178)
-
-[Need help creating buttons in pygame](https://stackoverflow.com/questions/57672389/need-help-creating-buttons-in-pygame/57678017#57678017)  
-![scene](https://i.stack.imgur.com/BfXkE.gif)
-
-[Python : What is the better way to make multiple loops in pygame?](https://stackoverflow.com/questions/57908287/python-what-is-the-better-way-to-make-multiple-loops-in-pygame)  
+[Trying to delete two objects when placed next to eachother in pygame](https://stackoverflow.com/questions/56101697/trying-to-delete-two-objects-when-placed-next-to-eachother-in-pygame/56102178#56102178)  
+![Trying to delete two objects when placed next to eachother in pygame](https://i.stack.imgur.com/lSdIg.gif)
 
 [How can I create a window where my program draws a dot ( which is point.png here ) wherever I click on the screen?](https://stackoverflow.com/questions/59002061/how-can-i-create-a-window-where-my-program-draws-a-dot-which-is-point-png-here/59002137#59002137)  
 ![scene](https://i.stack.imgur.com/XthPF.gif)
@@ -312,22 +306,13 @@ Related Stack Overflow questions:
 [How do i correctly update the position and velocity of 100 class objects individually drawing with pygame?](https://stackoverflow.com/questions/59868994/how-do-i-correctly-update-the-position-and-velocity-of-100-class-objects-individ/59869091#59869091)  
 ![scene](https://i.stack.imgur.com/dgCq1.gif)
 
-[Colour Changing Bouncing Ball](https://stackoverflow.com/questions/60312365/colour-changing-bouncing-ball/60315375#60315375)
+[Colour Changing Bouncing Ball](https://stackoverflow.com/questions/60312365/colour-changing-bouncing-ball/60315375#60315375)  
 ![scene](https://i.stack.imgur.com/Bz0cu.gif)
-
-[Using a matrix as a sprite and testing if two sprites overlap](https://stackoverflow.com/questions/60387917/using-a-matrix-as-a-sprite-and-testing-if-two-sprites-overlap/60391694#60391694)  
-![scene](https://i.stack.imgur.com/brlQk.gif)
 
 [How can I blit an image on the screen where i click after pressing a button](https://stackoverflow.com/questions/61556099/how-can-i-blit-an-image-on-the-screen-where-i-click-after-pressing-a-button/61556461#61556461)
 
-[How to find the button on the entered position by user and change it's color in pygame?](https://stackoverflow.com/questions/61767256/how-to-find-the-button-on-the-entered-position-by-user-and-change-its-color-in/61767309#61767309)  
-![scene](https://i.stack.imgur.com/sqIcy.gif)
-![scene](https://i.stack.imgur.com/KMpLP.gif)
-
 [pygame.mouse.get_pressed() not responding](https://stackoverflow.com/questions/63197182/pygame-mouse-get-pressed-not-responding/63197269#63197269)  
 ![scene](https://i.stack.imgur.com/zL9WO.gif)
-
-[Pygame Enemys Wont Move Down - Tower Defense Game](https://stackoverflow.com/questions/63734280/pygame-enemys-wont-move-down-tower-defense-game)
 
 [How to shade all the cells that will be useless when you click on them?](https://stackoverflow.com/questions/64625472/how-to-shade-all-the-cells-that-will-be-useless-when-you-click-on-them)  
 ![scene](https://i.stack.imgur.com/qwMND.png)
@@ -338,12 +323,8 @@ Related Stack Overflow questions:
 [How do I add a rubber band for mouse dragging in PyGame?](https://stackoverflow.com/questions/64880962/how-do-i-add-a-rubber-band-for-mouse-dragging-in-pygame/64881500#64881500)  
 ![How do I add a rubber band for mouse dragging in PyGame?](https://i.stack.imgur.com/f3aOb.gif)
 
-[My pygame program is flickering, not entirely sure why](https://stackoverflow.com/questions/65587430/my-pygame-program-is-flickering-not-entirely-sure-why/65587494#65587494)  
-
 [Pygame Lever Images Display On Key Click Problem](https://stackoverflow.com/questions/65908309/pygame-lever-images-display-on-key-click-problem/65908602#65908602)  
 ![Pygame Lever Images Display On Key Click Problem](https://i.stack.imgur.com/6Uq9o.gif)
-
-[How to add pause mode to Python program](https://stackoverflow.com/questions/56040906/how-to-add-pause-mode-to-python-program/56046554#56046554)  
 
 [Pygame sprites overlapping issue](https://stackoverflow.com/questions/66291255/pygame-sprites-overlapping-issue/66291672#66291672)  
 ![Pygame sprites overlapping issue](https://i.stack.imgur.com/Su2mJ.gif)
@@ -353,6 +334,10 @@ Related Stack Overflow questions:
 ![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/8JVdm.png)  
 ![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/hrDQr.png)  
 ![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/hILk7.gif)  
+
+:scroll: **[Minimal example - / segment display](../../examples/minimal_examples/pygame_minimal_7_segment display_1.py)**
+
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-7SegementDisplay](https://replit.com/@Rabbid76/PyGame-7SegementDisplay#main.py)</kbd>
 
 [Draw a staggered isometric map with python](https://stackoverflow.com/questions/66568267/draw-a-staggered-isometric-map-with-python/66569330#66569330)  
 ![Draw a staggered isometric map with python](https://i.stack.imgur.com/zvT6d.png)

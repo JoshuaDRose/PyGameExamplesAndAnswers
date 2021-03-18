@@ -257,9 +257,6 @@ Related Stack Overflow questions:
   ![How can you make the previous line disappear in python?](https://i.stack.imgur.com/qcAOV.gif)
 - [How to Make a Border in Pygame](https://stackoverflow.com/questions/63095839/how-to-make-a-border-in-pygame/63099536#63099536)  
   ![How to Make a Border in Pygame](https://i.stack.imgur.com/2ReKu.png)![How to Make a Border in Pygame](https://i.stack.imgur.com/s0Lji.png)
-- [Line drawing in pygame](https://stackoverflow.com/questions/66491982/line-drawing-in-pygame/66492121#66492121)  
-  ![Line drawing in pygame](https://i.stack.imgur.com/1UvQk.png)
-  ![Line drawing in pygame](https://i.stack.imgur.com/m5pRI.gif)
 
 ## Draw arc
 
