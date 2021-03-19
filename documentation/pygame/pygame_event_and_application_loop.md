@@ -163,7 +163,7 @@ You have to handle the events in the application loop. See [`pygame.event.get()`
 
 If `pygame.event.get()` is called in multiple event loops, only one loop receives the events, but never all loops receive all events. As a result, some events appear to be missed.
 
-Get the events once per frame and use them in multiple loops or pass the list or events to functions and methods where they are handled:
+Get the events once per frame and use them in multiple loops or pass the list of events to functions and methods where they are handled:
 
 ```py
 def handle_events(events):
