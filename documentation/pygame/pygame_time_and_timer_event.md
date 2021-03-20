@@ -280,7 +280,7 @@ while run:
 
 Related Stack Overflow questions:
 
-In pygame exists a timer event. Use [`pygame.time.set_timer()`](https://www.pygame.org/docs/ref/time.html#pygame.time.set_timer) to repeatedly create a [`USEREVENT`](https://www.pygame.org/docs/ref/event.html) in the event queue.. The time has to be set in milliseconds. e.g.:
+In pygame exists a timer event. Use [`pygame.time.set_timer()`](https://www.pygame.org/docs/ref/time.html#pygame.time.set_timer) to repeatedly create a [`USEREVENT`](https://www.pygame.org/docs/ref/event.html) in the event queue. The time has to be set in milliseconds. e.g.:
 
 ```py
 timer_interval = 500 # 0.5 seconds
