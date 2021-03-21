@@ -11,6 +11,7 @@ Related Stack Overflow questions:
 
 - [What is a good way to draw images using pygame?](https://stackoverflow.com/questions/8873219/what-is-a-good-way-to-draw-images-using-pygame/64630591#64630591)  
 - [What is the difference between pygame.draw.rect and screen_surface.blit()?](https://stackoverflow.com/questions/65964467/what-is-the-difference-between-pygame-draw-rect-and-screen-surface-blit/65965806#65965806)  
+- [What is the difference between pygame sprite and surface?](https://stackoverflow.com/questions/66665946/what-is-the-difference-between-pygame-sprite-and-surface/66667420#66667420)  
 
 ## Surface rectangle
 

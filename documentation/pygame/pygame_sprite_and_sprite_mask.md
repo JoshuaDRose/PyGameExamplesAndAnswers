@@ -12,6 +12,7 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 
 Related Stack Overflow questions:
 
+- [What is the difference between pygame sprite and surface?](https://stackoverflow.com/questions/66665946/what-is-the-difference-between-pygame-sprite-and-surface/66667420#66667420)
 - [Created multiple instances of the same image using a loop, can I move each instance of the image independently?](https://stackoverflow.com/questions/56415073/created-multiple-instances-of-the-same-image-using-a-loop-can-i-move-each-insta/56415305#56415305)
 - [How can I deepcopy a pygame sprite group?](https://stackoverflow.com/questions/57500397/how-can-i-deepcopy-a-pygame-sprite-group)
 
