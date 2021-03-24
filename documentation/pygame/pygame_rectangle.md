@@ -12,6 +12,8 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 Related Stack Overflow questions:
 
 - [AttributeError: 'pygame.Rect' object has no attribute 'up'](https://stackoverflow.com/questions/64738269/attributeerror-pygame-rect-object-has-no-attribute-up/64738582#64738582)
+- [What's difference between .get_rect() and pygame.Rect()?](https://stackoverflow.com/questions/66731019/whats-difference-between-get-rect-and-pygame-rect/66731068#66731068)  
+- [What is Pygame.Rect() is used for in a program?](https://stackoverflow.com/questions/66730012/what-is-pygame-rect-is-used-for-in-a-program/66730067#66730067)  
 
 ## Move rectangle
 
