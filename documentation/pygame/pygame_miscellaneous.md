@@ -274,6 +274,10 @@ Related Stack Overflow questions:
 
 [Collision detection in pygame not working](https://stackoverflow.com/questions/64393985/collision-detection-in-pygame-not-working/64394459#64394459)
 
+## Tetris
+
+[Tetris generating coloured shapes from blocks, Pygame](https://stackoverflow.com/questions/66765536/tetris-generating-coloured-shapes-from-blocks-pygame/66767879#66767879)  
+![Tetris generating coloured shapes from blocks, Pygame](https://i.stack.imgur.com/F58Je.png)
 ## Collection
 
 [Pygame Basic calculator](https://stackoverflow.com/questions/63200489/pygame-basic-calculator)  
