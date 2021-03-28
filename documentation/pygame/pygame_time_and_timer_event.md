@@ -74,7 +74,7 @@ Related Stack Overflow questions:
 - [How to display an image after a time interval?](https://stackoverflow.com/questions/45609076/how-to-display-an-image-after-a-time-interval/63761611#63761611)
 - [CREATING A REACTION TIME TEST GAME IN PYGAME](https://stackoverflow.com/questions/66029125/creating-a-reaction-time-test-game-in-pygame/66033644#66033644)  
 
-You have to draw the image in the main application loop. Use [`pygame.time.get_ticks()`](https://www.pygame.org/docs/ref/time.html#pygame.time.get_ticks) to return the number of milliseconds since [`pygame.init()`](https://www.pygame.org/docs/ref/pygame.html#pygame.init) was called. When the `MOUSEBUTTONDOWN` event occurs, then calculate the point in time after that the image has to be displayed. Display the image after the current time is greater than the calculated point of time:
+You have to draw the image in the main application loop. Use [`pygame.time.get_ticks()`](https://www.pygame.org/docs/ref/time.html#pygame.time.get_ticks) to get the number of milliseconds since [`pygame.init()`](https://www.pygame.org/docs/ref/pygame.html#pygame.init) was called. When the `MOUSEBUTTONDOWN` event occurs, then calculate the point in time after that the image has to be displayed. Display the image after the current time is greater than the calculated point of time:
 
 ```py
 image_time = 0

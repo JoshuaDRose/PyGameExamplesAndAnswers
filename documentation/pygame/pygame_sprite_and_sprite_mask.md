@@ -67,7 +67,8 @@ sprite_1 = sprite_list[0]
 
 - [end the pygame when player mises the target more than three times](https://stackoverflow.com/questions/59985408/end-the-pygame-when-player-mises-the-target-more-than-three-times/59992840#59992840)
 - [Found a strange hitbox bug in pygame. If the player dies in my game, the hitbox stays which creates some problems](https://stackoverflow.com/questions/60356181/found-a-strange-hitbox-bug-in-pygame-if-the-player-dies-in-my-game-the-hitbox/60356271#60356271)
-- [How to determine why objects pass through each other in Colliderect](https://stackoverflow.com/questions/61453075/how-to-determine-why-objects-pass-through-each-other-in-colliderect/61453207#61453207)
+- [How to determine why objects pass through each other in Colliderect](https://stackoverflow.com/questions/61453075/how-to-determine-why-objects-pass-through-each-other-in-colliderect/61453207#61453207)  
+- [When I use pygame.sprite.spritecollide(), why does only the bullets disappear?](https://stackoverflow.com/questions/66752240/when-i-use-pygame-sprite-spritecollide-why-does-only-the-bullets-disappear/66752276#66752276)  
 
 You can get a list of [`pygame.sprite.Sprite`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) objects by the method [`sprites()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.sprites):
 

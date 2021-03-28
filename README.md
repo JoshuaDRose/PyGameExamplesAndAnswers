@@ -161,6 +161,10 @@ The site is still under construction :construction:.
 
 [Tic Tac Toe](documentation/pygame/pygame_tictactoe.md)
 
+[Tetris](documentation/pygame/pygame_tetris.md)
+
+[Jump 'n' Run and Platformer](documentation/pygame/pygame_platformer.md)
+
 [Game of life](documentation/pygame/pygame_game_of_life.md)
 
 [Turtle](documentation/pygame/pygame_turtle.md)

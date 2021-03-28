@@ -77,6 +77,7 @@ Related Stack Overflow questions:
 - [Python/Pygame adding a title screen with a button](https://stackoverflow.com/questions/65845689/python-pygame-adding-a-title-screen-with-a-button/65845819#65845819)  
 - [Python : What is the better way to make multiple loops in pygame?](https://stackoverflow.com/questions/57908287/python-what-is-the-better-way-to-make-multiple-loops-in-pygame)  
 - [How to add pause mode to Python program](https://stackoverflow.com/questions/56040906/how-to-add-pause-mode-to-python-program/56046554#56046554)  
+- [Making a pause screen](https://stackoverflow.com/questions/66765850/making-a-pause-screen/66766232#66766232)  
 
 ### Recursiveness
 

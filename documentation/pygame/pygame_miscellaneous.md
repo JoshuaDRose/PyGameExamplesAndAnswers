@@ -264,20 +264,12 @@ Related Stack Overflow questions:
 
 [How to output pygame.image.save to a variable instead of a file?](https://stackoverflow.com/questions/65405520/how-to-output-pygame-image-save-to-a-variable-instead-of-a-file/65405567#65405567)  
 
-## Platform
-
-[Issue with Collision Detection in Pygame for simple 2D Platformer](https://stackoverflow.com/questions/66127646/issue-with-collision-detection-in-pygame-for-simple-2d-platformer/66127881#66127881)
-
 ## Where is 27 coming from?
 
 [I am wondering why it says the distance has to be less than 27? Why less than 27? Where is 27 coming from?](https://stackoverflow.com/questions/62523256/i-am-wondering-why-it-says-the-distance-has-to-be-less-than-27-why-less-than-27/62527566#62527566)
 
 [Collision detection in pygame not working](https://stackoverflow.com/questions/64393985/collision-detection-in-pygame-not-working/64394459#64394459)
 
-## Tetris
-
-[Tetris generating coloured shapes from blocks, Pygame](https://stackoverflow.com/questions/66765536/tetris-generating-coloured-shapes-from-blocks-pygame/66767879#66767879)  
-![Tetris generating coloured shapes from blocks, Pygame](https://i.stack.imgur.com/F58Je.png)
 ## Collection
 
 [Pygame Basic calculator](https://stackoverflow.com/questions/63200489/pygame-basic-calculator)  
@@ -289,14 +281,8 @@ Related Stack Overflow questions:
 [Pygame low frame rate on simple game](https://stackoverflow.com/questions/55073598/pygame-low-frame-rate-on-simple-game/55076222#55076222)  
 ![scene](https://i.stack.imgur.com/hseTx.gif)
 
-[Trying to delete two objects when placed next to eachother in pygame](https://stackoverflow.com/questions/56101697/trying-to-delete-two-objects-when-placed-next-to-eachother-in-pygame/56102178#56102178)  
-![Trying to delete two objects when placed next to eachother in pygame](https://i.stack.imgur.com/lSdIg.gif)
-
 [How can I create a window where my program draws a dot ( which is point.png here ) wherever I click on the screen?](https://stackoverflow.com/questions/59002061/how-can-i-create-a-window-where-my-program-draws-a-dot-which-is-point-png-here/59002137#59002137)  
 ![scene](https://i.stack.imgur.com/XthPF.gif)
-
-[Python3: Count images number and compared the similarity](https://stackoverflow.com/questions/59183941/python3-count-images-number-and-compared-the-similarity/59184495#59184495)  
-![scene](https://i.stack.imgur.com/WEdJR.gif)
 
 [How to code a rectangles that start from right in circular motion in pygame](https://stackoverflow.com/questions/59180556/how-to-code-a-rectangles-that-start-from-right-in-circular-motion-in-pygame/59217711#59217711)  
 ![scene](https://i.stack.imgur.com/Jskrw.png)
@@ -339,7 +325,7 @@ Related Stack Overflow questions:
 ![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/hrDQr.png)  
 ![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/hILk7.gif)  
 
-:scroll: **[Minimal example - / segment display](../../examples/minimal_examples/pygame_minimal_7_segment display_1.py)**
+:scroll: **[Minimal example - segment display](../../examples/minimal_examples/pygame_minimal_7_segment display_1.py)**
 
 <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-7SegementDisplay](https://replit.com/@Rabbid76/PyGame-7SegementDisplay#main.py)</kbd>
 
