@@ -21,6 +21,7 @@ Related Stack Overflow questions:
 - [Is it possible for a sprite to react to a specific color](https://stackoverflow.com/questions/61703850/is-it-possible-for-a-sprite-to-react-to-a-specific-color/61704072#61704072)
 - [Why text display for 2 seconds in pygame](https://stackoverflow.com/questions/62459547/why-text-display-for-2-seconds-in-pygame/65528753#65528753)
 - [pygame: low fps causes difficulties to detect events](https://stackoverflow.com/questions/65854146/pygame-low-fps-causes-difficulties-to-detect-events/65857125#65857125)
+- [Pygame input which isn't keyboard/mouse](https://stackoverflow.com/questions/66910207/pygame-input-which-isnt-keyboard-mouse/66910257#66910257)
 
 If you want something to be drawn permanently, you need to draw it in the application loop
 
