@@ -9,21 +9,14 @@ Robert C. Martin, The Robert C. Martin Clean Code Collection (Collection)
 
 [pygame.draw](https://www.pygame.org/docs/ref/draw.html)
 [pygame.gfxdraw](https://www.pygame.org/docs/ref/gfxdraw.html)
+## Shapes
 
 Related Stack Overflow questions:
 
-- [Pygame Drawing a Rectangle](https://stackoverflow.com/questions/19780411/pygame-drawing-a-rectangle)
-- [Draw a transparent rectangle in pygame](https://stackoverflow.com/questions/6339057/draw-a-transparent-rectangle-in-pygame/64630102#64630102)  
-- [How to make transparent pygame.draw.circle](https://stackoverflow.com/questions/59293057/how-to-make-transparent-pygame-draw-circle/59294087#59294087)  
-  ![How to make transparent pygame.draw.circle](https://i.stack.imgur.com/nOoJj.png)  
+- [Pygame Drawing a Rectangle](https://stackoverflow.com/questions/19780411/pygame-drawing-a-rectangle)  
+  ![https://stackoverflow.com/questions/6339057/draw-a-transparent-rectangle-in-pygame](https://i.stack.imgur.com/JGP5N.png)
 
-- [drawing a diagonal ellipse with pygame](https://stackoverflow.com/questions/23281952/drawing-a-diagonal-ellipse-with-pygame/65774382#65774382)  
-  ![drawing a diagonal ellipse with pygame](https://i.stack.imgur.com/ruNV5.gif)  
-
-  :scroll: **[Minimal example - Draw shapes](../../examples/minimal_examples/pygame_minimal_draw_rotated_ellipse_1.py)**
-
-- [How to draw a rotated ellipse using Pygame?](https://stackoverflow.com/questions/65767785/how-to-draw-a-rotated-ellipse-using-pygame/65769408#65769408)  
-  ![How to draw a rotated ellipse using Pygame?](https://i.stack.imgur.com/1v4ln.png)
+  :scroll: **[Minimal example - Draw shapes](../../examples/minimal_examples/pygame_minimal_draw_shapes_1.py)**
 
 With the module [pygame.draw](https://www.pygame.org/docs/ref/draw.html) shapes like rectangles, circles, polygons or liens can be drawn.
 
@@ -50,9 +43,19 @@ pygame.draw.circle(window, color, (x, y), radius)
 pygame.draw.polygon(window, color, [(x1, y1), (x2, y2), (x3, y3)])
 ```
 
-:scroll: **[Minimal example - Draw shapes](../../examples/minimal_examples/pygame_minimal_draw_shapes_1.py)**
+## Transparent shapes
 
-![https://stackoverflow.com/questions/6339057/draw-a-transparent-rectangle-in-pygame](https://i.stack.imgur.com/JGP5N.png)
+Related Stack Overflow questions:
+
+- [Draw a transparent rectangle in pygame](https://stackoverflow.com/questions/6339057/draw-a-transparent-rectangle-in-pygame/64630102#64630102)  
+  ![Draw a transparent rectangle in pygame](https://i.stack.imgur.com/Zst87.png)
+
+  :scroll: **[Minimal example - Draw transparent shapes](../../examples/minimal_examples/pygame_minimal_draw_transparent_shapes_1.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TransparentShapes](https://replit.com/@Rabbid76/PyGame-TransparentShapes#main.py)</kbd>
+
+- [How to make transparent pygame.draw.circle](https://stackoverflow.com/questions/59293057/how-to-make-transparent-pygame-draw-circle/59294087#59294087)  
+  ![How to make transparent pygame.draw.circle](https://i.stack.imgur.com/nOoJj.png)  
 
 Unfortunately there is no good way to draw a transparent shape. See [pygame.draw](https://www.pygame.org/docs/ref/draw.html) module:
 
@@ -90,12 +93,6 @@ def draw_polygon_alpha(surface, color, points):
     pygame.draw.polygon(shape_surf, color, [(x - min_x, y - min_y) for x, y in points])
     surface.blit(shape_surf, target_rect)
 ```
-
-:scroll: **[Minimal example - Draw transparent shapes](../../examples/minimal_examples/pygame_minimal_draw_transparent_shapes_1.py)**
-
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TransparentShapes](https://replit.com/@Rabbid76/PyGame-TransparentShapes#main.py)</kbd>
-
-![Draw a transparent rectangle in pygame](https://i.stack.imgur.com/Zst87.png)
 
 ## Draw single Pixel
 
@@ -138,24 +135,20 @@ pixel_array.close()
 
 Related Stack Overflow questions:
 
-- [How to show a pictures rectangle after calling get_rect()](https://stackoverflow.com/questions/62263115/how-to-show-a-pictures-rectangle-after-calling-get-rect/62263801#62263801)
-- [My pygame rects are giving a rect argument is invalid error](https://stackoverflow.com/questions/63954352/my-pygame-rects-are-giving-a-rect-argument-is-invalid-error/63955733#63955733)
 - [How can I draw a rectangular outline (not filled) with PyGame?](https://stackoverflow.com/questions/60854803/how-can-i-draw-a-hollow-rectangle-using-pygame/60855000#60855000)
 - [Setting a pygame surface to have rounded corners](https://stackoverflow.com/questions/63700231/setting-a-pygame-surface-to-have-rounded-corners/63701005#63701005)  
   ![scene](https://i.stack.imgur.com/pDdn2.png)  
 - [Why did drawing a PyGame rectangle with very thick borders draw a plus shape instead?](https://stackoverflow.com/questions/65890797/why-did-drawing-a-pygame-rectangle-with-very-thick-borders-draw-a-plus-shape-ins/65890887#65890887)  
 - [What is the difference between pygame.draw.rect and screen_surface.blit()?](https://stackoverflow.com/questions/65964467/what-is-the-difference-between-pygame-draw-rect-and-screen-surface-blit/65965806#65965806)  
 - [Handling rectangle with negative width and height in pygame](https://stackoverflow.com/questions/66316513/handling-rectangle-with-negative-width-and-height-in-pygame/66316783#66316783)  
+- [How to show a pictures rectangle after calling get_rect()](https://stackoverflow.com/questions/62263115/how-to-show-a-pictures-rectangle-after-calling-get-rect/62263801#62263801)
+- [My pygame rects are giving a rect argument is invalid error](https://stackoverflow.com/questions/63954352/my-pygame-rects-are-giving-a-rect-argument-is-invalid-error/63955733#63955733)
 
-The 3rd argument of [`pygame.draw.rect`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect) has to be a tuple with 4 elements:
-
-<s>`pygame.draw.rect(win, (255, 0, 0),(x, y, width, height, vel))`</s>
+Use [`pygame.draw.rect()`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect) to draw a rectangle. The 3rd argument of [`pygame.draw.rect`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect) has to be a tuple with 4 elements:
 
 ```py
 pygame.draw.rect(win, (255, 0, 0),(x, y, width, height))
 ```  
-
-![How can I draw a rectangular outline (not filled) with PyGame?](https://i.stack.imgur.com/w6jSR.png)
 
 Alternatively it can be a [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) object, too:
 
@@ -164,7 +157,9 @@ rect = pygame.Rect(x, y, width, height)
 pygame.draw.rect(win, (255, 0, 0), rect)
 ```
 
-Use [`pygame.draw.rect()`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect). The last parameter of `pygame.draw.rect` is the thickness of line the outline. If the parameter is 0 (or default), then the rectangle is filled, else a rectangle with the specified line thickness is drawn. e.g:
+The last parameter of `pygame.draw.rect` is the thickness of line the outline. If the parameter is 0 (or default), then the rectangle is filled, else a rectangle with the specified line thickness is drawn. e.g:
+
+![How can I draw a rectangular outline (not filled) with PyGame?](https://i.stack.imgur.com/w6jSR.png)
 
 ```py
 pygame.draw.rect(surf, color, (x, y, w, h), outlineThickness)
@@ -223,6 +218,19 @@ class Rectangle(pg.sprite.Sprite):
 
 ![scene](https://i.stack.imgur.com/b2NqN.png)
 
+Use [`pygame.Rect.normalize()`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.normalize) to handle rectangles with negative width and height:
+
+> `normalize() -> None`  
+This will flip the width or height of a rectangle if it has a negative size. The rectangle will remain in the same place, with only the sides swapped.
+
+Create a `pygame.Rect` object and `normalize` it:
+
+```py
+rect = pygame.Rect(rpos[0], rpos[1], pos2[0]-rpos[0], pos2[1]-rpos[1])
+rect.normalize()
+pygame.draw.rect(window, (100, 200, 100), rect)
+```
+
 ## Draw circle
 
 Related Stack Overflow questions:
@@ -237,6 +245,18 @@ The _center_ argument of [`pygame.draw.circle()`](https://www.pygame.org/docs/re
 ```py
 pygame.draw.circle(screen, (0, 0, 0), (round(circleX), round(circleY)), size)
 ```
+
+## Draw ellipse
+
+Related Stack Overflow questions:
+
+- [drawing a diagonal ellipse with pygame](https://stackoverflow.com/questions/23281952/drawing-a-diagonal-ellipse-with-pygame/65774382#65774382)  
+  ![drawing a diagonal ellipse with pygame](https://i.stack.imgur.com/ruNV5.gif)  
+
+  :scroll: **[Minimal example - Draw shapes](../../examples/minimal_examples/pygame_minimal_draw_rotated_ellipse_1.py)**
+
+- [How to draw a rotated ellipse using Pygame?](https://stackoverflow.com/questions/65767785/how-to-draw-a-rotated-ellipse-using-pygame/65769408#65769408)  
+  ![How to draw a rotated ellipse using Pygame?](https://i.stack.imgur.com/1v4ln.png)
 
 ## Draw lines and polygons
 
