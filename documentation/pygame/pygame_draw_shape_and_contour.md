@@ -18,6 +18,8 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Draw shapes](../../examples/minimal_examples/pygame_minimal_draw_shapes_1.py)**
 
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Shapes](https://replit.com/@Rabbid76/PyGame-Shapes#main.py)</kbd>
+
 With the module [pygame.draw](https://www.pygame.org/docs/ref/draw.html) shapes like rectangles, circles, polygons or liens can be drawn.
 
 [`pygame.draw.rect`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect) draws filled rectangular shapes or outlines. The arguments are the target _Surface_ (i.s. the display), the _color_, the _rectangle_ and the optional outline _width_. The _rectangle_ argument is a tuple with the 4 components (_x_, _y_, _width_, _height_), where (_x_, _y_) is the upper left point of the rectangle. Alternatively, the argument can be a [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) object:
@@ -136,13 +138,16 @@ pixel_array.close()
 Related Stack Overflow questions:
 
 - [How can I draw a rectangular outline (not filled) with PyGame?](https://stackoverflow.com/questions/60854803/how-can-i-draw-a-hollow-rectangle-using-pygame/60855000#60855000)
+  ![How can I draw a rectangular outline (not filled) with PyGame?](https://i.stack.imgur.com/lXNmw.png)  
+- [How to Make a Border in Pygame](https://stackoverflow.com/questions/63095839/how-to-make-a-border-in-pygame/63099536#63099536)  
+  ![How to Make a Border in Pygame](https://i.stack.imgur.com/2ReKu.png)![How to Make a Border in Pygame](https://i.stack.imgur.com/s0Lji.png)
 - [Setting a pygame surface to have rounded corners](https://stackoverflow.com/questions/63700231/setting-a-pygame-surface-to-have-rounded-corners/63701005#63701005)  
   ![scene](https://i.stack.imgur.com/pDdn2.png)  
+- [Getting rotated rect of rotated image in Pygame](https://stackoverflow.com/questions/66984521/getting-rotated-rect-of-rotated-image-in-pygame/66984713#66984713)  
+  ![Getting rotated rect of rotated image in Pygame](https://i.stack.imgur.com/GsQwQ.png)
 - [Why did drawing a PyGame rectangle with very thick borders draw a plus shape instead?](https://stackoverflow.com/questions/65890797/why-did-drawing-a-pygame-rectangle-with-very-thick-borders-draw-a-plus-shape-ins/65890887#65890887)  
 - [What is the difference between pygame.draw.rect and screen_surface.blit()?](https://stackoverflow.com/questions/65964467/what-is-the-difference-between-pygame-draw-rect-and-screen-surface-blit/65965806#65965806)  
 - [Handling rectangle with negative width and height in pygame](https://stackoverflow.com/questions/66316513/handling-rectangle-with-negative-width-and-height-in-pygame/66316783#66316783)  
-- [How to show a pictures rectangle after calling get_rect()](https://stackoverflow.com/questions/62263115/how-to-show-a-pictures-rectangle-after-calling-get-rect/62263801#62263801)
-- [My pygame rects are giving a rect argument is invalid error](https://stackoverflow.com/questions/63954352/my-pygame-rects-are-giving-a-rect-argument-is-invalid-error/63955733#63955733)
 
 Use [`pygame.draw.rect()`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect) to draw a rectangle. The 3rd argument of [`pygame.draw.rect`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect) has to be a tuple with 4 elements:
 
@@ -231,6 +236,21 @@ rect.normalize()
 pygame.draw.rect(window, (100, 200, 100), rect)
 ```
 
+A `pygame.Rect` stores a position and a size. It is always axis aligned and cannot represent a rotated rectangle. Use [`pygame.math.Vector2.rotate()`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2.rotate) to compute the corner points of the rotated rectangle. Draw the rotated rectangle with [`pygame.draw.polygon()`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.polygon):
+
+```py
+def draw_rect_angle(surf, rect, pivot, angle, width=0):
+    pts = [rect.topleft, rect.topright, rect.bottomright, rect.bottomleft]
+    pts = [(pygame.math.Vector2(p) - pivot).rotate(-angle) + pivot for p in pts]
+    pygame.draw.polygon(surf, (255, 255, 0), pts, width)
+```
+
+:scroll: **[Minimal example - draw rotated rectangle](../../examples/minimal_examples/pygame_minimal_draw_rectangle_rotated.py)**
+
+<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-DrawPixel-1](https://replit.com/@Rabbid76/PyGame-RotatedRectangle#main.py)</kbd>
+
+![Getting rotated rect of rotated image in Pygame](https://i.stack.imgur.com/GsQwQ.png)
+
 ## Draw circle
 
 Related Stack Overflow questions:
@@ -245,6 +265,14 @@ The _center_ argument of [`pygame.draw.circle()`](https://www.pygame.org/docs/re
 ```py
 pygame.draw.circle(screen, (0, 0, 0), (round(circleX), round(circleY)), size)
 ```
+
+### Antialiased circle
+
+- [How do you draw an antialiased circular line of a certain thickness? How to set width on pygame.gfx.aacircle()?](https://stackoverflow.com/questions/64816341/how-do-you-draw-an-antialiased-circular-line-of-a-certain-thickness-how-to-set/65353318#65353318)  
+  ![How do you draw an antialiased circular line of a certain thickness? How to set width on pygame.gfx.aacircle()?](https://i.stack.imgur.com/FBCXx.png)
+
+  :scroll: **[Minimal example - Antialiased circle](../../examples/minimal_examples/pygame_minimal_draw_antialiased_circle.py)**  
+  :scroll: **[Minimal example - Antialiased circle with OpenCV](../../examples/minimal_examples/pygame_minimal_draw_antialiased_circle_cv2.py)**
 
 ## Draw ellipse
 
@@ -275,8 +303,6 @@ Related Stack Overflow questions:
   ![Is there a way to get the coordinates of a specific object/click in pygame?](https://i.stack.imgur.com/n1FCG.gif)
 - [How can you make the previous line disappear in python?](https://stackoverflow.com/questions/61682742/how-can-you-make-the-previous-line-disappear-in-python/61683877#61683877)  
   ![How can you make the previous line disappear in python?](https://i.stack.imgur.com/qcAOV.gif)
-- [How to Make a Border in Pygame](https://stackoverflow.com/questions/63095839/how-to-make-a-border-in-pygame/63099536#63099536)  
-  ![How to Make a Border in Pygame](https://i.stack.imgur.com/2ReKu.png)![How to Make a Border in Pygame](https://i.stack.imgur.com/s0Lji.png)
 
 ### Dashed line
 
@@ -294,13 +320,3 @@ Related Stack Overflow questions:
   :scroll: **[Minimal example - Draw an arc from point to point](../../examples/minimal_examples/pygame_minimal_draw_arc_between_points.py)**
 
  ![Creating an arc between two points pygame](https://i.stack.imgur.com/494KZ.png)
-
-# Draw antialiased
-
-## Antialiased circle
-
-- [How do you draw an antialiased circular line of a certain thickness? How to set width on pygame.gfx.aacircle()?](https://stackoverflow.com/questions/64816341/how-do-you-draw-an-antialiased-circular-line-of-a-certain-thickness-how-to-set/65353318#65353318)  
-  ![How do you draw an antialiased circular line of a certain thickness? How to set width on pygame.gfx.aacircle()?](https://i.stack.imgur.com/FBCXx.png)
-
-  :scroll: **[Minimal example - Antialiased circle](../../examples/minimal_examples/pygame_minimal_draw_antialiased_circle.py)**  
-  :scroll: **[Minimal example - Antialiased circle with OpenCV](../../examples/minimal_examples/pygame_minimal_draw_antialiased_circle_cv2.py)**
