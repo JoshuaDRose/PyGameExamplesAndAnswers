@@ -137,7 +137,7 @@ pixel_array.close()
 
 Related Stack Overflow questions:
 
-- [How can I draw a rectangular outline (not filled) with PyGame?](https://stackoverflow.com/questions/60854803/how-can-i-draw-a-hollow-rectangle-using-pygame/60855000#60855000)
+- [How can I draw a rectangular outline (not filled) with PyGame?](https://stackoverflow.com/questions/60854803/how-can-i-draw-a-hollow-rectangle-using-pygame/60855000#60855000)  
   ![How can I draw a rectangular outline (not filled) with PyGame?](https://i.stack.imgur.com/lXNmw.png)  
 - [How to Make a Border in Pygame](https://stackoverflow.com/questions/63095839/how-to-make-a-border-in-pygame/63099536#63099536)  
   ![How to Make a Border in Pygame](https://i.stack.imgur.com/2ReKu.png)![How to Make a Border in Pygame](https://i.stack.imgur.com/s0Lji.png)
@@ -308,7 +308,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [How to draw a dashed curved line with pygame?](https://stackoverflow.com/questions/66943011/how-to-draw-a-dashed-curved-line-with-pygame/66944050#66944050)
+- [How to draw a dashed curved line with pygame?](https://stackoverflow.com/questions/66943011/how-to-draw-a-dashed-curved-line-with-pygame/66944050#66944050)  
   ![How to draw a dashed curved line with pygame?](https://i.stack.imgur.com/uV3Sy.png)
 
 ## Draw arc
