@@ -138,7 +138,7 @@ pixel_array.close()
 Related Stack Overflow questions:
 
 - [How can I draw a rectangular outline (not filled) with PyGame?](https://stackoverflow.com/questions/60854803/how-can-i-draw-a-hollow-rectangle-using-pygame/60855000#60855000)  
-  ![How can I draw a rectangular outline (not filled) with PyGame?](https://i.stack.imgur.com/lXNmw.png)  
+  ![How can I draw a rectangular outline (not filled) with PyGame?](https://i.stack.imgur.com/w6jSR.png)![How can I draw a rectangular outline (not filled) with PyGame?](https://i.stack.imgur.com/lXNmw.png)  
 - [How to Make a Border in Pygame](https://stackoverflow.com/questions/63095839/how-to-make-a-border-in-pygame/63099536#63099536)  
   ![How to Make a Border in Pygame](https://i.stack.imgur.com/2ReKu.png)![How to Make a Border in Pygame](https://i.stack.imgur.com/s0Lji.png)
 - [Setting a pygame surface to have rounded corners](https://stackoverflow.com/questions/63700231/setting-a-pygame-surface-to-have-rounded-corners/63701005#63701005)  
@@ -260,10 +260,17 @@ Related Stack Overflow questions:
 - [How to make a circular sprite appear - pygame](https://stackoverflow.com/questions/61445178/how-to-make-a-circular-sprite-appear-pygame/61445373#61445373)
 - [Getting quarter of a circle with pygame.draw.circle()](https://stackoverflow.com/questions/66566259/getting-quarter-of-a-circle-with-pygame-draw-circle/66566646#66566646)
 
-The _center_ argument of [`pygame.draw.circle()`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.circle) has to be a tuple with 2 integral components. You have to [`round`](https://docs.python.org/3/library/functions.html#round) the coordinate to integral values:
+The _center_ argument of [`pygame.draw.circle()`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.circle) has to be a tuple with 2 integral components. If the coordinates are of a floating point type, they must [`round`](https://docs.python.org/3/library/functions.html#round)ed to integer values, otherwise a warning will be generated (_TypeError: integer argument expected, got float_):
 
 ```py
 pygame.draw.circle(screen, (0, 0, 0), (round(circleX), round(circleY)), size)
+```
+
+Use the `center` attribute of a rectangle to center a circle on the rectangle:
+
+```py
+self.rect = self.image.get_rect()
+pygame.draw.circle(self.image, color, self.rect.center, min(self.rect.center))
 ```
 
 ### Antialiased circle
