@@ -136,6 +136,8 @@ Related Stack Overflow questions:
 - [Pygame Vector2.reflect not working when i pass an argument](https://stackoverflow.com/questions/66744421/pygame-vector2-reflect-not-working-when-i-pass-an-argument/66745306#66745306)  
   ![Pygame Vector2.reflect not working when i pass an argument](https://i.stack.imgur.com/5Qz0D.png)
 
+- [Circular Ping Pong Game](https://stackoverflow.com/questions/66983357/circular-ping-pong-game/66984542#66984542)
+
 Calculate the [reflection](https://en.wikipedia.org/wiki/Reflection_(mathematics)) vector to the incident vector on the circular surface.  
 In the following formula `N` is the normal vector of the circle, `I` is the incident vector (the current direction vector of the bouncing ball) and `R` is the reflection vector (outgoing direction vector of the bouncing ball):
 
