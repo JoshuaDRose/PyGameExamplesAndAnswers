@@ -239,6 +239,43 @@ window_surface.blit(image_surface,
 
 ![How do I blit a PNG with some transparency onto a surface in Pygame?](https://i.stack.imgur.com/a62px.png)
 
+### Load multiple images
+
+Related Stack Overflow questions:
+
+- [How do you load all images at a time in pygame?](https://stackoverflow.com/questions/67141356/how-do-you-load-all-images-at-a-time-in-pygame/67141422#67141422)
+
+Get a list of all the files in the directory (see [os](https://docs.python.org/3/library/os.html)) and create a dictionary with the loaded files:
+
+```py
+path = 'Desktop/Files/Dungeon Minigame/'
+filenames = [f for f in os.listdir(path) if f.endswith('.png')]
+images = {}
+for name in filenames:
+    imagename = os.path.splitext(name)[0] 
+    images[imagename] = pygame.image.load(os.path.join(path, name)).convert_alpha()
+```
+
+You can access the images in the dictionary by its name:
+
+```py
+screen.blit(images['background'], (0, 0))
+```
+
+Alternatively you can add variables to global namespace, using `globals()`:
+
+```py
+path = 'Desktop/Files/Dungeon Minigame/'
+filenames = [f for f in os.listdir(path) if f.endswith('.png')]
+for name in filenames:
+    imagename = os.path.splitext(name)[0] 
+    globals()[imagename] =  pygame.image.load(os.path.join(path, name)).convert_alpha()
+```
+
+```py
+screen.blit(background, (0, 0))
+```
+
 ### Image load performance (lagging)
 
 Related Stack Overflow questions:
