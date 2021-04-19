@@ -56,6 +56,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
+- [Why can I not display image?](https://stackoverflow.com/questions/67111782/why-can-i-not-display-image/67113040#67113040)  
 - [Pygame Window not Responding after few seconds](https://stackoverflow.com/questions/64830453/pygame-window-not-responding-after-few-seconds/64832291#64832291)
 - [Why does pygame.display.update() not work if an input is directly followed after it?](https://stackoverflow.com/questions/58794093/why-does-pygame-display-update-not-work-if-an-input-is-directly-followed-after/58812876#58812876)
 
