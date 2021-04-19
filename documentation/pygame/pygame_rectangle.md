@@ -37,7 +37,8 @@ the value of `textrect` is `None`.
 
 Related Stack Overflow questions:
 
-- [How can I make a rectangle in pygame be able to check for other rectangles around it?](https://stackoverflow.com/questions/66039033/how-can-i-make-a-rectangle-in-pygame-be-able-to-check-for-other-rectangles-aroun/66039941#66039941)
+- [How can I make a rectangle in pygame be able to check for other rectangles around it?](https://stackoverflow.com/questions/66039033/how-can-i-make-a-rectangle-in-pygame-be-able-to-check-for-other-rectangles-aroun/66039941#66039941)  
+- [How does the pygame function pygame.rect.fit() work?](https://stackoverflow.com/questions/67008378/how-does-the-pygame-function-pygame-rect-fit-work/67008437#67008437)
 
 ## Floating point coordinates
 
