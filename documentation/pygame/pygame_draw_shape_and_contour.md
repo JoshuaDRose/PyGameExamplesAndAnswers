@@ -275,6 +275,8 @@ pygame.draw.circle(self.image, color, self.rect.center, min(self.rect.center))
 
 ### Antialiased circle
 
+Related Stack Overflow questions:
+
 - [How do you draw an antialiased circular line of a certain thickness? How to set width on pygame.gfx.aacircle()?](https://stackoverflow.com/questions/64816341/how-do-you-draw-an-antialiased-circular-line-of-a-certain-thickness-how-to-set/65353318#65353318)  
   ![How do you draw an antialiased circular line of a certain thickness? How to set width on pygame.gfx.aacircle()?](https://i.stack.imgur.com/FBCXx.png)
 
@@ -327,3 +329,11 @@ Related Stack Overflow questions:
   :scroll: **[Minimal example - Draw an arc from point to point](../../examples/minimal_examples/pygame_minimal_draw_arc_between_points.py)**
 
  ![Creating an arc between two points pygame](https://i.stack.imgur.com/494KZ.png)
+
+### Antialiased circle
+
+Related Stack Overflow questions:
+
+- [How to make a circular countdown timer in Pygame?](https://stackoverflow.com/questions/67168804/how-to-make-a-circular-countdown-timer-in-pygame/67168896#67168896)  
+  ![How to make a circular countdown timer in Pygame?](https://i.stack.imgur.com/D2QqH.gif)
+  ![How to make a circular countdown timer in Pygame?](https://i.stack.imgur.com/J6AIy.gif)
