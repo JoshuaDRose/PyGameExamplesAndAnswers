@@ -21,6 +21,10 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How to know the angle between two points?](https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-points/64563327#64563327)
+
+- [How Do I Find The Coordinates of the Edge of a Circle](https://stackoverflow.com/questions/67197763/how-do-i-find-the-coordinates-of-the-edge-of-a-circle/67198226#67198226)  
+  ![How Do I Find The Coordinates of the Edge of a Circle](https://i.stack.imgur.com/jaJRV.gif)
+
 - [Calculate angles that are in degrees (clockwise) to radians (counter clockwise)](https://stackoverflow.com/questions/58845411/calculate-angles-that-are-in-degrees-clockwise-to-radians-counter-clockwise/58845851#58845851)
 
 In general, the angle of a vector _(x, y)_ can be calculated by `math.atan2(y, x)`. The vector can be defined by 2 points _(x1, y1)_ and _(x2, y2)_ on a line. Therefore the angle of the line is `math.atan2(y2-y1, x2-x1)`.
