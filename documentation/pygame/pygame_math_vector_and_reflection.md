@@ -22,8 +22,8 @@ Related Stack Overflow questions:
 
 - [How to know the angle between two points?](https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-points/64563327#64563327)
 
-- [How Do I Find The Coordinates of the Edge of a Circle](https://stackoverflow.com/questions/67197763/how-do-i-find-the-coordinates-of-the-edge-of-a-circle/67198226#67198226)  
-  ![How Do I Find The Coordinates of the Edge of a Circle](https://i.stack.imgur.com/jaJRV.gif)
+- [How do I find the coordinates of a point on a circle in PyGame?](https://stackoverflow.com/questions/67197763/how-do-i-find-the-coordinates-of-a-point-on-a-circle-in-pygame/67198226#67198226)  
+  ![How do I find the coordinates of a point on a circle in PyGame?](https://i.stack.imgur.com/jaJRV.gif)
 
 - [Calculate angles that are in degrees (clockwise) to radians (counter clockwise)](https://stackoverflow.com/questions/58845411/calculate-angles-that-are-in-degrees-clockwise-to-radians-counter-clockwise/58845851#58845851)
 
