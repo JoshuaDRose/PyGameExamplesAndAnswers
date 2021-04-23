@@ -280,8 +280,31 @@ Related Stack Overflow questions:
 - [How do you draw an antialiased circular line of a certain thickness? How to set width on pygame.gfx.aacircle()?](https://stackoverflow.com/questions/64816341/how-do-you-draw-an-antialiased-circular-line-of-a-certain-thickness-how-to-set/65353318#65353318)  
   ![How do you draw an antialiased circular line of a certain thickness? How to set width on pygame.gfx.aacircle()?](https://i.stack.imgur.com/FBCXx.png)
 
-  :scroll: **[Minimal example - Antialiased circle](../../examples/minimal_examples/pygame_minimal_draw_antialiased_circle.py)**  
-  :scroll: **[Minimal example - Antialiased circle with OpenCV](../../examples/minimal_examples/pygame_minimal_draw_antialiased_circle_cv2.py)**
+You can try to stitch the circle with a pygame.draw.circle() for the body and pygame.gfxdraw.circle() on the edges. However, the quality is low and can depend on the system:
+
+:scroll: **[Minimal example - Antialiased circle](../../examples/minimal_examples/pygame_minimal_draw_antialiased_circle.py)**  
+
+```py
+def drawAACircle(surf, color, center, radius, width):
+    pygame.gfxdraw.aacircle(surf, *center, 100, color)  
+    pygame.gfxdraw.aacircle(surf, *center, 100-width, color)  
+    pygame.draw.circle(surf, color, center, radius, width) 
+```
+
+I recommend drawing a image with an antialiased circle and _blit_ the image. You can create the image using OpenCV ([opencv-python](https://pypi.org/project/opencv-python/)). See [OpenCV - Drawing Functions](https://docs.opencv.org/master/d6/d6e/group__imgproc__draw.html).
+
+:scroll: **[Minimal example - Antialiased circle with OpenCV](../../examples/minimal_examples/pygame_minimal_draw_antialiased_circle_cv2.py)**
+
+```py
+import cv2
+import numpy
+
+def drawAACircle(surf, color, center, radius, width):
+    circle_image = numpy.zeros((radius*2+4, radius*2+4, 4), dtype = numpy.uint8)
+    circle_image = cv2.circle(circle_image, (radius+2, radius+2), radius-width//2, (*color, 255), width, lineType=cv2.LINE_AA)  
+    circle_surface = pygame.image.frombuffer(circle_image.flatten(), (radius*2+4, radius*2+4), 'RGBA')
+    surf.blit(circle_surface, circle_surface.get_rect(center = center))
+```
 
 ## Draw ellipse
 
@@ -320,6 +343,45 @@ Related Stack Overflow questions:
 - [How to draw a dashed curved line with pygame?](https://stackoverflow.com/questions/66943011/how-to-draw-a-dashed-curved-line-with-pygame/66944050#66944050)  
   ![How to draw a dashed curved line with pygame?](https://i.stack.imgur.com/uV3Sy.png)
 
+  :scroll: **[Minimal example - Draw a dashed line](../../examples/minimal_examples/pygame_minimal_draw_line_dashed.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/DashedLine](https://replit.com/@Rabbid76/PyGame-DashedLine#main.py)</kbd>
+
+To draw a dashed line, write a function that operates similar as [`pygame.draw.line()`](http://www.pygame.org/docs/ref/draw.html#pygame.draw.lines) but draws a dashed straight line. The function has an additional argument `prev_line_len` which indicates where the line segment is within a consecutive curve. Compute the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) between the points and the [Unit vector](https://en.wikipedia.org/wiki/Unit_vector) that points from the beginning of the line segment to its end. Distribute the strokes along the line:
+
+```py
+def draw_dashed_line(surf, color, p1, p2, prev_line_len, dash_length=8):
+    dx, dy = p2[0]-p1[0], p2[1]-p1[1]
+    if dx == 0 and dy == 0:
+        return 
+    dist = math.hypot(dx, dy)
+    dx /= dist
+    dy /= dist
+
+    step = dash_length*2
+    start = (int(prev_line_len) // step) * step
+    end = (int(prev_line_len + dist) // step + 1) * step
+    for i in range(start, end, dash_length*2):
+        s = max(0, start - prev_line_len)
+        e = min(start - prev_line_len + dash_length, dist)
+        if s < e:
+            ps = p1[0] + dx * s, p1[1] + dy * s 
+            pe = p1[0] + dx * e, p1[1] + dy * e 
+            pygame.draw.line(surf, color, pe, ps
+```
+
+Write another function that behaves similarly to [`pygame.draw.lines()`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.lines), but uses the former function (`draw_dashed_line`) to draw the dashed curve. Calculate the length from the beginning of the curve to the beginning of each line segment and pass it to the function:  
+
+```py
+def draw_dashed_lines(surf, color, points, dash_length=8):
+    line_len = 0
+    for i in range(1, len(points)):
+        p1, p2 = points[i-1], points[i]
+        dist = math.hypot(p2[0]-p1[0], p2[1]-p1[1])
+        draw_dashed_line(surf, color, p1, p2, line_len, dash_length)
+        line_len += dist
+```
+
 ## Draw arc
 
 Related Stack Overflow questions:
@@ -330,10 +392,35 @@ Related Stack Overflow questions:
 
  ![Creating an arc between two points pygame](https://i.stack.imgur.com/494KZ.png)
 
-### Antialiased circle
+### Antialiased arc
 
 Related Stack Overflow questions:
 
 - [How to make a circular countdown timer in Pygame?](https://stackoverflow.com/questions/67168804/how-to-make-a-circular-countdown-timer-in-pygame/67168896#67168896)  
   ![How to make a circular countdown timer in Pygame?](https://i.stack.imgur.com/D2QqH.gif)
   ![How to make a circular countdown timer in Pygame?](https://i.stack.imgur.com/J6AIy.gif)
+
+  :scroll: **[Minimal example - Draw an arc](../../examples/minimal_examples/pygame_minimal_timer_count_down_2.py)**
+
+An arc can be drawn using [`pygame.draw.arc`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.arc):
+
+```py
+def drawArc(surf, color, center, radius, width, end_angle):
+    arc_rect = pygame.Rect(0, 0, radius*2, radius*2)
+    arc_rect.center = center
+    pygame.draw.arc(surf, color, arc_rect, 0, end_angle, width)
+```
+
+Sadly the quality of `pygame.draw.arc` with a _width_ > 1 is  poor. However this can be improved, using [cv2](https://pypi.org/project/opencv-python/) and [`cv2.ellipse`](https://docs.opencv.org/master/d6/d6e/group__imgproc__draw.html#ga57be400d8eff22fb946ae90c8e7441f9):
+
+```py
+import cv2
+import numpy
+
+def drawArcCv2(surf, color, center, radius, width, end_angle):
+    circle_image = numpy.zeros((radius*2+4, radius*2+4, 4), dtype = numpy.uint8)
+    circle_image = cv2.ellipse(circle_image, (radius+2, radius+2),
+        (radius-width//2, radius-width//2), 0, 0, end_angle, (*color, 255), width, lineType=cv2.LINE_AA) 
+    circle_surface = pygame.image.frombuffer(circle_image.flatten(), (radius*2+4, radius*2+4), 'RGBA')
+    surf.blit(circle_surface, circle_surface.get_rect(center = center))
+```
