@@ -194,6 +194,12 @@ Related Stack Overflow questions:
 
 - [How can I play song repeatedly using pygame.mixer.music.play()?](https://stackoverflow.com/questions/65858091/how-can-i-play-song-repeatedly-using-pygame-mixer-music-play/65858122#65858122)
 
+## Multiple music files parallel
+
+Related Stack Overflow questions:
+
+- [How can I play two songs at once using Pygame.mixer.music?](https://stackoverflow.com/questions/67232742/how-can-i-play-two-songs-at-once-using-pygame-mixer-music/67232995#67232995)
+
 ## Music file open dialog
 
 Related Stack Overflow questions:
