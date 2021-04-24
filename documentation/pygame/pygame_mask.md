@@ -62,9 +62,40 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How to get the correct dimensions for a pygame rectangle created from an image](https://stackoverflow.com/questions/65361582/how-to-get-the-correct-dimensions-for-a-pygame-rectangle-created-from-an-image/65361896#65361896)  
-  ![How to get the correct dimensions for a pygame rectangle created from an image](https://i.stack.imgur.com/h0WGn.png)
+  ![How to get the correct dimensions for a pygame rectangle created from an image](https://i.stack.imgur.com/iZH3y.png)
 
   :scroll: **[Minimal example - Find bounding area rectangle](../../examples/minimal_examples/pygame_minimal_mask_bounding_area_rectangle.py)**
+
+  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/ImageHitbox](https://replit.com/@Rabbid76/PyGame-ImageHitbox#main.py)</kbd>
+
+[`pygame.Surface.get_rect.get_rect()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.get_rect) returns a rectangle with the size of the _Surface_ object. This function does not consider the drawing area in the image. If you want to find the bounding rectangle of the painted area in the surface, you need to create a mask.  
+
+Use [`pygame.mask.from_surface`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.from_surface) to create a [`pygame.mask.Mask`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask) from a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html):
+
+```py
+surf_mask = pygame.mask.from_surface(surf)
+```
+
+Get a list containing a bounding rectangles (sequence of [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) objects) for each connected component with [`get_bounding_rects`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask.get_bounding_rects):
+
+```py
+rect_list = surf_mask.get_bounding_rects()
+```
+
+Create the union rectangle of the sequence of rectangles with [`unionall`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.unionall):
+
+```py
+surf_mask_rect = rect_list[0].unionall(rect_list)
+```
+
+```py
+def getMaskRect(surf, top = 0, left = 0):
+    surf_mask = pygame.mask.from_surface(surf)
+    rect_list = surf_mask.get_bounding_rects()
+    surf_mask_rect = rect_list[0].unionall(rect_list)
+    surf_mask_rect.move_ip(top, left)
+    return surf_mask_rect
+```
 
 ## Sprite mask
 
