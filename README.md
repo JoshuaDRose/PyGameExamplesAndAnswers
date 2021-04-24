@@ -71,6 +71,7 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/66984521/getting-rotated-rect-of-rotated-image-in-pygame/66984713#66984713"><img src="https://i.stack.imgur.com/GsQwQ.gif" height="100" title="rotated rectangle"></a><!--
 --><a href="https://stackoverflow.com/questions/65361582/how-to-get-the-correct-dimensions-for-a-pygame-rectangle-created-from-an-image/65361896#65361896"><img src="https://i.stack.imgur.com/iZH3y.gif" height="100" title="image hitbox"></a><!--
 --><a href="https://stackoverflow.com/questions/66765536/tetris-generating-coloured-shapes-from-blocks/66767879#66767879"><img src="https://i.stack.imgur.com/F58Je.gif" height="100" title="tetris shapes"></a><!--
+--><a href="https://stackoverflow.com/questions/66943011/how-to-draw-a-dashed-curved-line-with-pygame/66944050#66944050"><img src="https://i.stack.imgur.com/uV3Sy.gif" height="100" title="dashed curve"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  
