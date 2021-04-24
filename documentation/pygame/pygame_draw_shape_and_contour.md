@@ -335,6 +335,26 @@ Related Stack Overflow questions:
   ![Is there a way to get the coordinates of a specific object/click in pygame?](https://i.stack.imgur.com/n1FCG.gif)
 - [How can you make the previous line disappear in python?](https://stackoverflow.com/questions/61682742/how-can-you-make-the-previous-line-disappear-in-python/61683877#61683877)  
   ![How can you make the previous line disappear in python?](https://i.stack.imgur.com/qcAOV.gif)
+- [How to use different colors for each line in pygame.draw.lines](https://stackoverflow.com/questions/67085359/how-to-use-different-colors-for-each-line-in-pygame-draw-lines/67085554#67085554)  
+  ![How to use different colors for each line in pygame.draw.lines](https://i.stack.imgur.com/7zWbo.png)
+
+If you want to draw a polygon line with different colors for each segment, you need to draw each line segment separately. Write a function that uses a list of points and colors to draw the line:
+
+```py
+def draw_colorful_line(surf, colors, closed, points, width=1):
+    for i in range(len(points)-1):
+        pygame.draw.line(surf, colors[i], points[i], points[i+1], width)
+    if closed:
+        pygame.draw.line(surf, colors[-1], points[-1], points[0], width)
+```
+
+Use the function to draw the line:
+
+```py
+colors = ['green', 'blue', 'red']
+points = [(10, 100), (20, 200), (30, 100)]
+draw_colorful_line(screen, colors, True, points)
+```
 
 ### Dashed line
 

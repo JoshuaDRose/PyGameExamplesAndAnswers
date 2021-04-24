@@ -466,6 +466,9 @@ Related Stack Overflow questions:
 - [How can I load an animated GIF and get all of the individual frames in PyGame?](https://stackoverflow.com/questions/29571399/how-can-i-load-an-animated-gif-and-get-all-of-the-individual-frames-in-pygame)
 - [How do I make a sprite as a gif in pygame?](https://stackoverflow.com/questions/64179680/how-do-i-make-a-sprite-as-a-gif-in-pygame/64182074#64182074)
 
+- [PyGame OR Moviepy - Show a video with transparency](https://stackoverflow.com/questions/66829740/pygame-or-moviepy-show-a-video-with-transparency?noredirect=1#comment118133434_66829740)  
+  ![PyGame OR Moviepy - Show a video with transparency](https://i.stack.imgur.com/yUxaz.gif)
+
 [PyGame](https://www.pygame.org/news) respectively the [`pygame.image`](https://www.pygame.org/docs/ref/image.html) module can only handle non-animated [GIFs](https://en.wikipedia.org/wiki/GIF).  
 But on the PyGame homepage is introduced the [GIFImage](https://www.pygame.org/project-GIFImage-1039-.html) library:
 

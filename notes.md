@@ -77,10 +77,6 @@
 
 # Investigate answered questions
 
-up to answered Nov 1 by Rabbid76
-
-[PyGame votes](https://stackoverflow.com/questions/tagged/pygame?tab=Votes)
-
 ## Answers
 
 ### Add Answers
@@ -236,7 +232,7 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
 - sprite with floating point accuracy
 - virtual joystick (mouse and touch)
 - button menu
-- gam of life - numpy
+- game of life - numpy
 
 - Fade screen  
   [How to fade IN text/screen using pygame alpha](https://stackoverflow.com/questions/65164118/how-to-fade-in-text-screen-using-pygame-alpha)  
@@ -264,7 +260,8 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
   - [How to make Wall Jump work in Python/Pygame](https://stackoverflow.com/questions/59861911/how-to-make-wall-jump-work-in-python-pygame)  
   - [How to reference all objects of a class?](https://stackoverflow.com/questions/65592381/how-to-reference-all-objects-of-a-class/65592925#65592925)
 - tetris
- related questions: [Moving blocks down y axis in pygame tetris clone](https://stackoverflow.com/questions/58891638/moving-blocks-down-y-axis-in-pygame-tetris-clone)
+  related questions: [Moving blocks down y axis in pygame tetris clone](https://stackoverflow.com/questions/58891638/moving-blocks-down-y-axis-in-pygame-tetris-clone)
+- connect 4
 
 ### Color
 

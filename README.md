@@ -69,6 +69,8 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/66491982/line-drawing-in-pygame/66492121#66492121"><img src="https://i.stack.imgur.com/m5pRI.gif" height="100" title="Paint thick line"></a><!--
 --><a href="https://stackoverflow.com/questions/66533451/adding-rects-in-list-for-displaying-in-7-segment-digits-in-pygame/66533802#66533802"><img src="https://i.stack.imgur.com/hILk7.gif" height="100" title="7 segment display"></a><!--
 --><a href="https://stackoverflow.com/questions/66984521/getting-rotated-rect-of-rotated-image-in-pygame/66984713#66984713"><img src="https://i.stack.imgur.com/GsQwQ.gif" height="100" title="rotated rectangle"></a><!--
+--><a href="https://stackoverflow.com/questions/65361582/how-to-get-the-correct-dimensions-for-a-pygame-rectangle-created-from-an-image/65361896#65361896"><img src="https://i.stack.imgur.com/iZH3y.gif" height="100" title="image hitbox"></a><!--
+--><a href="https://stackoverflow.com/questions/66765536/tetris-generating-coloured-shapes-from-blocks/66767879#66767879"><img src="https://i.stack.imgur.com/F58Je.gif" height="100" title="tetris shapes"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  
