@@ -76,3 +76,10 @@ Related Stack Overflow quest
   ![How to use a dictionary of images with sprite?](https://i.stack.imgur.com/i0a0N.gif)
 
   :scroll: **[Minimal example - Drag chess pieces](../../examples/minimal_examples/pygame_minimal_chess_drag.py)**
+
+## Grid an NumPy
+
+Related Stack Overflow quest
+
+- [How to convert an image in pygame to a numpy array or to a number?](https://stackoverflow.com/questions/67238820/how-to-convert-an-image-in-pygame-to-a-numpy-array-or-to-a-number/67239880#67239880)  
+- [KeyError when trying to blit image on to screen from Numpy array in Pygame](https://stackoverflow.com/questions/67249974/keyerror-when-trying-to-blit-image-on-to-screen-from-numpy-array-in-pygame/67254177#67254177)
