@@ -11,6 +11,7 @@ Related Stack Overflow questions:
 - [glDrawArrays only updates when i exit](https://stackoverflow.com/questions/49957653/gldrawarrays-only-updates-when-i-exit/49957866#49957866)
 - [OpenGL render view without a visible window in python](https://stackoverflow.com/questions/51627603/opengl-render-view-without-a-visible-window-in-python/51672538#51672538)
 - [Is there a way to display a pygame window over OpenGL?](https://stackoverflow.com/questions/61547251/is-there-a-way-to-display-a-pygame-window-over-opengl/61547556#61547556)
+- [How to blit a png image as an image overlay in PyOpenGL?](https://stackoverflow.com/questions/56767373/how-to-blit-a-png-image-as-an-image-overlay-in-pyopengl/56768773#56768773)  
 
 A current and valid [OpenGL Context](https://www.khronos.org/opengl/wiki/OpenGL_Context) are required for any OpenGL statement. You need to set the `pygame.OPENGL` flag when creating the display _Surface_:
 
