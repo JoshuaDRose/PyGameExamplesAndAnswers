@@ -110,6 +110,8 @@ screen.blit(text, text_rect)
 
 Related Stack Overflow questions:
 
+- [Make a rect object scrollable](https://stackoverflow.com/questions/67288788/make-a-rect-object-scrollable/67289087?noredirect=1)  
+
 - [How to add a text speech in Pygame](https://stackoverflow.com/questions/60997970/how-to-add-a-text-speech-in-pygame/60998091#60998091)  
   ![How to add a text speech in Pygame](https://i.stack.imgur.com/9Ymts.gif)
 

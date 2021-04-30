@@ -370,6 +370,7 @@ Related Stack Overflow questions:
 - [Pygame snake velocity too high when the fps above 15](https://stackoverflow.com/questions/61034515/pygame-snake-velocity-too-high-when-the-fps-above-15/61034931#61034931)
 - [Changing FPS on pygame in order to achieve smoothness of sprite's movement](https://stackoverflow.com/questions/59037251/changing-fps-on-pygame-in-order-to-achieve-smoothness-of-sprites-movement/65371237?noredirect=1)  
 - [Anyone want to tell me why my pygame code lags while using pygame Vectors?](https://stackoverflow.com/questions/65758517/anyone-want-to-tell-me-why-my-pygame-code-lags-while-using-pygame-vectors/65758921#65758921)  
+- [Pygame: pygame.time.Clock, or time.sleep](https://stackoverflow.com/questions/67285976/pygame-pygame-time-clock-or-time-sleep/67286018#67286018)  
 
 You have to calculate the movement per frame depending on the frame rate.
 
