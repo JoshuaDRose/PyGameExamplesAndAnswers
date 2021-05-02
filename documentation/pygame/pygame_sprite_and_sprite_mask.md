@@ -114,6 +114,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
+- [Permanently delete sprite from memory Pygame](https://stackoverflow.com/questions/67313034/permanently-delete-sprite-from-memory-pygame/67313844#67313844)  
 - [pygame.sprite.groupcollide() does not work when trying to implement collision in pygame](https://stackoverflow.com/questions/63997798/pygame-sprite-groupcollide-does-not-work-when-trying-to-implement-collision-in/63998275#63998275)
 
 ### Circular sprite collision
