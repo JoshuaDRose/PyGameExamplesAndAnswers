@@ -259,9 +259,9 @@ Related Stack Overflow questions:
 - [Line is detected as diagonal of rectangle while using collidepoint function in pygame](https://stackoverflow.com/questions/67372361/line-is-detected-as-diagonal-of-rectangle-while-using-collidepoint-function-in-p/67372647#67372647)  
   [Line is detected as diagonal of rectangle while using collidepoint function in pygame](https://i.stack.imgur.com/ZC3Vr.gif)
 
-computes the distance of a point to a line:
+computes the shortest distance of a point to a line:
 
-*`dist = abs(dot(normalized(NV), P - LP)`*, where *`NV`* is the normal vector to the line, *`LP`* is a point on the line and *`P`* is the point whose distance needs to be calculated.
+*`dist = abs(dot(normalized(NV), P - LP))`*, where *`NV`* is the normal vector to the line, *`LP`* is a point on the line and *`P`* is the point whose distance needs to be calculated.
 
 ```py
 import math
@@ -287,6 +287,27 @@ def distance_point_line(pt, l1, l2):
     P = pygame.math.Vector2(pt)
     return abs(NV.normalize().dot(P -LP))
 ```
+
+The algorithm used the [Dot product](https://en.wikipedia.org/wiki/Dot_product) distance from the point to the line.. In general The Dot product of 2 vectors is equal the *cosine* of the angle between the 2 vectors multiplied by the magnitude (length) of both vectors.
+
+```lang-none
+dot(A, B) == | A | * | B | * cos(angle_A_B)
+```
+
+This follows, that the Dot product of 2 [Unit vectors](https://en.wikipedia.org/wiki/Unit_vector) is equal the *cosine* of the angle between the 2 vectors, because the length of a unit vector is 1.
+
+```lang-none
+uA = normalize( A )
+uB = normalize( B )
+cos(angle_A_B) == dot(uA, uB)
+```
+
+
+![](https://i.stack.imgur.com/LWX5d.png)
+
+Therefore the Dot product of the normalized normal vector to the line (_NV_) and a vector from a point on the line (_LP_)  to the point whose distance must be calculated (_P_) is the shortest distance of the point to the line.
+
+![](https://i.stack.imgur.com/jaXAR.png)
 
 ## Point in triangle
 
