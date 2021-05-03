@@ -252,6 +252,42 @@ Related Stack Overflow questions:
 
 - [How would I keep track of the users clicks on the chessboard?](https://stackoverflow.com/questions/63584252/how-would-i-keep-track-of-the-users-clicks-on-the-chessboard/63584453#63584453)
 
+## Point an line
+
+Related Stack Overflow questions:
+
+- [Line is detected as diagonal of rectangle while using collidepoint function in pygame](https://stackoverflow.com/questions/67372361/line-is-detected-as-diagonal-of-rectangle-while-using-collidepoint-function-in-p/67372647#67372647)  
+  [Line is detected as diagonal of rectangle while using collidepoint function in pygame](https://i.stack.imgur.com/ZC3Vr.gif)
+
+computes the distance of a point to a line:
+
+*`dist = abs(dot(normalized(NV), P - LP)`*, where *`NV`* is the normal vector to the line, *`LP`* is a point on the line and *`P`* is the point whose distance needs to be calculated.
+
+```py
+import math
+```
+
+```py
+def distance_point_line(pt, l1, l2):
+    nx, ny = l1[1] - l2[1], l2[0] - l1[0]
+    nlen = math.hypot(nx, ny)
+    nx /= nlen
+    ny /= nlen
+    vx, vy = pt[0] - l1[0],  pt[1] - l1[1]
+    dist = abs(nx*vx + ny*vy)
+    return dist
+```
+
+The same function with the use of [`pygame.math.Vector2`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2):
+
+```py
+def distance_point_line(pt, l1, l2):
+    NV = pygame.math.Vector2(l1[1] - l2[1], l2[0] - l1[0])
+    LP = pygame.math.Vector2(l1)
+    P = pygame.math.Vector2(pt)
+    return abs(NV.normalize().dot(P -LP))
+```
+
 ## Point in triangle
 
 Related Stack Overflow questions:
