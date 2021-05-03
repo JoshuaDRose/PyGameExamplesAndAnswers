@@ -39,6 +39,9 @@ Related Stack Overflow questions:
 
 :scroll: **[OpenGL immediate mode - Draw simple triangles with polygon depth offset](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_triangle_polygonoffset.py)**
 
+[How do I add an image as texture of my 3D cube in pyopengl](https://stackoverflow.com/questions/67367424/how-do-i-add-an-image-as-texture-of-my-3d-cube-in-pyopengl/67367851#67367851)  
+![How do I add an image as texture of my 3D cube in pyopengl](https://i.stack.imgur.com/kGBr8.gif)
+
 ### Fixed attribute
 
 Related Stack Overflow questions:
