@@ -22,12 +22,14 @@ Related Stack Overflow quest
 - [How to fill the background with a small image in pygame?](https://stackoverflow.com/questions/65859573/how-to-fill-the-background-with-a-small-image-in-pygame/65859607#65859607)  
   ![How to fill the background with a small image in pygame?](https://i.stack.imgur.com/13xqC.png)
   
-[Using a matrix as a sprite and testing if two sprites overlap](https://stackoverflow.com/questions/60387917/using-a-matrix-as-a-sprite-and-testing-if-two-sprites-overlap/60391694#60391694)  
-![scene](https://i.stack.imgur.com/brlQk.gif)
+- [Using a matrix as a sprite and testing if two sprites overlap](https://stackoverflow.com/questions/60387917/using-a-matrix-as-a-sprite-and-testing-if-two-sprites-overlap/60391694#60391694)  
+  ![scene](https://i.stack.imgur.com/brlQk.gif)
 
-[How to find the button on the entered position by user and change it's color in pygame?](https://stackoverflow.com/questions/61767256/how-to-find-the-button-on-the-entered-position-by-user-and-change-its-color-in/61767309#61767309)  
-![scene](https://i.stack.imgur.com/sqIcy.gif)
-![scene](https://i.stack.imgur.com/KMpLP.gif)
+- [How to find the button on the entered position by user and change it's color in pygame?](https://stackoverflow.com/questions/61767256/how-to-find-the-button-on-the-entered-position-by-user-and-change-its-color-in/61767309#61767309)  
+  ![scene](https://i.stack.imgur.com/sqIcy.gif)
+  ![scene](https://i.stack.imgur.com/KMpLP.gif)
+
+- [How can i draw rectangles in multiple rows and columns in pygame?](https://stackoverflow.com/questions/66506971/how-can-i-draw-rectangles-in-multiple-rows-and-columns-in-pygame/66506991#66506991)
 
 ## Performance and lag
 
