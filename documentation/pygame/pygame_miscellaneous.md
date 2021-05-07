@@ -113,6 +113,12 @@ Related Stack Overflow questions:
 - [Draw a circle in Pygame using Tkinter](https://stackoverflow.com/questions/13545911/draw-a-circle-in-pygame-using-tkinter)
 - [Tkinter understanding mainloop](https://stackoverflow.com/questions/29158220/tkinter-understanding-mainloop)
 
+
+## File management
+
+Related Stack Overflow questions:
+
+- [How to save images in a folder with for loop?](https://stackoverflow.com/questions/56311318/how-to-save-images-in-a-folder-with-for-loop/56311378#56311378)
 ## File access
 
 Related Stack Overflow questions:
