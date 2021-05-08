@@ -135,7 +135,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Bball bounce off the frame](../../examples/minimal_examples/pygame_minimal_math_vector_reflect_frame.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-BallBounceOffFrame](https://replit.com/@Rabbid76/PyGame-BallBounceOffFrame#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-BallBounceOffFrame](https://replit.com/@Rabbid76/PyGame-BallBounceOffFrame#main.py)**
 
 - [Pygame Vector2.reflect not working when i pass an argument](https://stackoverflow.com/questions/66744421/pygame-vector2-reflect-not-working-when-i-pass-an-argument/66745306#66745306)  
   ![Pygame Vector2.reflect not working when i pass an argument](https://i.stack.imgur.com/5Qz0D.png)
@@ -178,7 +178,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Rotate line](../../examples/minimal_examples/pygame_minimal_math_vector_rotate_line.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-VectorRotateLine](https://replit.com/@Rabbid76/PyGame-VectorRotateLine#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-VectorRotateLine](https://replit.com/@Rabbid76/PyGame-VectorRotateLine#main.py)**
 
 ## Curve
 
@@ -200,7 +200,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Lissajous curve](../../examples/minimal_examples/pygame_minimal_2D_so_lissajous.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LissajousCurve](https://replit.com/@Rabbid76/PyGame-LissajousCurve#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LissajousCurve](https://replit.com/@Rabbid76/PyGame-LissajousCurve#main.py)**
 
 ## Sort
 

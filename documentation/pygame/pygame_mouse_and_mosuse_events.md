@@ -27,7 +27,7 @@ The `MOUSEBUTTONDOWN` event occurs once when you click the mouse button and the 
 
 :scroll: **[minimal example - Detect mouse button click events](../../examples/minimal_examples/pygame_minimal_mouse_event_1.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseEvents](https://replit.com/@Rabbid76/PyGame-MouseEvents#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseEvents](https://replit.com/@Rabbid76/PyGame-MouseEvents#main.py)**
 
 :scroll: **[minimal example - Detect click on Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click.py)**
 
@@ -59,7 +59,7 @@ Further explanations can be found in the documentation of the module [`pygame.mo
 
 :scroll: **[minimal example - Detect mouse button states](../../examples/minimal_examples/pygame_minimal_mouse_states_1.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseStates](https://replit.com/@Rabbid76/PyGame-MouseStates#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseStates](https://replit.com/@Rabbid76/PyGame-MouseStates#main.py)**
 
 :scroll: **[minimal example - Detect Sprite on hover](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover.py)**
 
@@ -153,7 +153,7 @@ Related Stack Overflow questions:
 
 :scroll: **[Minimal example - Drag Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_drag.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseDragSimple](https://replit.com/@Rabbid76/PyGame-MouseDragSimple#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseDragSimple](https://replit.com/@Rabbid76/PyGame-MouseDragSimple#main.py)**
 
 ### Mouse drag and rotate
 

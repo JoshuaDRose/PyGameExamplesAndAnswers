@@ -174,7 +174,7 @@ This means, the 2nd argument (`pos`) of `blitRotate` is the position of the pivo
 
 :scroll: **[Minimal example - Rotate around pivot function](../../examples/surface_rotate/pygame_image_rotate_5_pivot_function.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateAroundPivot](https://replit.com/@Rabbid76/PyGame-RotateAroundPivot#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateAroundPivot](https://replit.com/@Rabbid76/PyGame-RotateAroundPivot#main.py)**
 
 ![roatate and scale](https://i.stack.imgur.com/yLxBi.gif)
 
@@ -182,7 +182,7 @@ This means, the 2nd argument (`pos`) of `blitRotate` is the position of the pivo
 
 :scroll: **[Minimal example - Rotate around pivot and scale function](../../examples/surface_rotate/pygame_image_rotate_5_scale_function.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateAroundPivotAndZoom](https://replit.com/@Rabbid76/PyGame-RotateAroundPivotAndZoom#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateAroundPivotAndZoom](https://replit.com/@Rabbid76/PyGame-RotateAroundPivotAndZoom#main.py)**
 
 First the position of the pivot on the `Surface` has to be defined:
 

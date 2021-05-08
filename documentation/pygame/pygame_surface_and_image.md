@@ -82,7 +82,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Load transparent image](../../examples/minimal_examples/pygame_minimal_surface_load_2.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://replit.com/@Rabbid76/PyGame-LoadTransparentImage#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://replit.com/@Rabbid76/PyGame-LoadTransparentImage#main.py)**
 
 - [How do you blit/draw a sprite in Pygame with lower opacity?](https://stackoverflow.com/questions/65259552/how-do-you-blit-draw-a-sprite-in-pygame-with-lower-opacity)
 
@@ -235,7 +235,7 @@ window_surface.blit(image_surface,
 
 :scroll: **[Minimal example - Load transparent image](../../examples/minimal_examples/pygame_minimal_surface_load_2.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://replit.com/@Rabbid76/PyGame-LoadTransparentImage#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-LoadTransparentImage](https://replit.com/@Rabbid76/PyGame-LoadTransparentImage#main.py)**
 
 ![How do I blit a PNG with some transparency onto a surface in Pygame?](https://i.stack.imgur.com/a62px.png)
 
@@ -656,4 +656,4 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Scroll](../../examples/minimal_examples/pygame_minimal_surface_scroll_1.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SCroll](https://replit.com/@Rabbid76/PyGame-Scroll#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-SCroll](https://replit.com/@Rabbid76/PyGame-Scroll#main.py)**

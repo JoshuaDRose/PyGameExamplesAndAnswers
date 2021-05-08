@@ -333,7 +333,7 @@ Related Stack Overflow questions:
 
 :scroll: **[Minimal example - segment display](../../examples/minimal_examples/pygame_minimal_7_segment display_1.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-7SegementDisplay](https://replit.com/@Rabbid76/PyGame-7SegementDisplay#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-7SegementDisplay](https://replit.com/@Rabbid76/PyGame-7SegementDisplay#main.py)**
 
 [Draw a staggered isometric map with python](https://stackoverflow.com/questions/66568267/draw-a-staggered-isometric-map-with-python/66569330#66569330)  
 ![Draw a staggered isometric map with python](https://i.stack.imgur.com/zvT6d.png)

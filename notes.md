@@ -66,11 +66,11 @@
 ```
 
 ```lang-none
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MinimalApplicationLoop](https://replit.com/@Rabbid76/PyGame-MinimalApplicationLoop#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MinimalApplicationLoop](https://replit.com/@Rabbid76/PyGame-MinimalApplicationLoop#main.py)**
 ```
 
 ```lang-none
-<kbd>[![][1] repl.it/@Rabbid76/PyGame-MinimalApplicationLoop](https://replit.com/@Rabbid76/PyGame-MinimalApplicationLoop#main.py)</kbd>
+**[![][1] repl.it/@Rabbid76/PyGame-MinimalApplicationLoop](https://replit.com/@Rabbid76/PyGame-MinimalApplicationLoop#main.py)**
 
   [1]: https://i.stack.imgur.com/5jD0C.png
 ```

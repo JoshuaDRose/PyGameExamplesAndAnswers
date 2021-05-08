@@ -18,7 +18,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Draw shapes](../../examples/minimal_examples/pygame_minimal_draw_shapes_1.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Shapes](https://replit.com/@Rabbid76/PyGame-Shapes#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Shapes](https://replit.com/@Rabbid76/PyGame-Shapes#main.py)**
 
 With the module [pygame.draw](https://www.pygame.org/docs/ref/draw.html) shapes like rectangles, circles, polygons or liens can be drawn.
 
@@ -54,7 +54,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Draw transparent shapes](../../examples/minimal_examples/pygame_minimal_draw_transparent_shapes_1.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TransparentShapes](https://replit.com/@Rabbid76/PyGame-TransparentShapes#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TransparentShapes](https://replit.com/@Rabbid76/PyGame-TransparentShapes#main.py)**
 
 - [How to make transparent pygame.draw.circle](https://stackoverflow.com/questions/59293057/how-to-make-transparent-pygame-draw-circle/59294087#59294087)  
   ![How to make transparent pygame.draw.circle](https://i.stack.imgur.com/nOoJj.png)  
@@ -112,7 +112,7 @@ However, this function is very slow and leads to a massive lack of performance i
 
 :scroll: **[Minimal example - Draw pixels with `set_at`](../../examples/minimal_examples/pygame_minimal_draw_pixels_1.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-DrawPixel-1](https://replit.com/@Rabbid76/PyGame-DrawPixel-1#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-DrawPixel-1](https://replit.com/@Rabbid76/PyGame-DrawPixel-1#main.py)**
 
 ![Pygame: Draw single pixel](https://i.stack.imgur.com/OiqGY.png)
 
@@ -129,7 +129,7 @@ pixel_array.close()
 
 :scroll: **[Minimal example - Draw pixels with `pygame.PixelArray`](../../examples/minimal_examples/pygame_minimal_draw_pixels_2.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-DrawPixel-2](https://replit.com/@Rabbid76/PyGame-DrawPixel-2#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-DrawPixel-2](https://replit.com/@Rabbid76/PyGame-DrawPixel-2#main.py)**
 
 ![Pygame: Draw single pixel](https://i.stack.imgur.com/OiqGY.png)
 
@@ -247,7 +247,7 @@ def draw_rect_angle(surf, rect, pivot, angle, width=0):
 
 :scroll: **[Minimal example - draw rotated rectangle](../../examples/minimal_examples/pygame_minimal_draw_rectangle_rotated.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-DrawPixel-1](https://replit.com/@Rabbid76/PyGame-RotatedRectangle#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-DrawPixel-1](https://replit.com/@Rabbid76/PyGame-RotatedRectangle#main.py)**
 
 ![Getting rotated rect of rotated image in Pygame](https://i.stack.imgur.com/GsQwQ.png)
 
@@ -365,7 +365,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Draw a dashed line](../../examples/minimal_examples/pygame_minimal_draw_line_dashed.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/DashedLine](https://replit.com/@Rabbid76/PyGame-DashedLine#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/DashedLine](https://replit.com/@Rabbid76/PyGame-DashedLine#main.py)**
 
 To draw a dashed line, write a function that operates similar as [`pygame.draw.line()`](http://www.pygame.org/docs/ref/draw.html#pygame.draw.lines) but draws a dashed straight line. The function has an additional argument `prev_line_len` which indicates where the line segment is within a consecutive curve. Compute the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) between the points and the [Unit vector](https://en.wikipedia.org/wiki/Unit_vector) that points from the beginning of the line segment to its end. Distribute the strokes along the line:
 

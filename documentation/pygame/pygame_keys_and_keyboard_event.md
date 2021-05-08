@@ -69,11 +69,11 @@ if event.type == pg.KEYDOWN:
 
 See also [`pygame.event`](https://www.pygame.org/docs/ref/event.html) module and [pygame.key](https://www.pygame.org/docs/ref/key.html).
 
-If you press <kbd>UP</kbd> + <kbd>LEFT</kbd> + <kbd>SPACE</kbd> then the <kbd>SPACE</kbd> key doesn't appear to be pressed immediately. You've to release the <kbd>UP</kbd> or <kbd>LEFT</kbd> key to get the `pygame.KEYDOWN` event for <kbd>SPACE</kbd>.  
+If you press **UP** + **LEFT** + **SPACE** then the **SPACE** key doesn't appear to be pressed immediately. You've to release the **UP** or **LEFT** key to get the `pygame.KEYDOWN` event for **SPACE**.  
 
 This is a known bug in pygame and doesn't seem to be solved yet: [Incorrect handling of pressed keys #235](https://github.com/pygame/pygame/issues/235).
 
-Sadly even [`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed) doesn't state the <kbd>SPACE</kbd> key in this case, so I can't even think a workaround.
+Sadly even [`pygame.key.get_pressed()`](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed) doesn't state the **SPACE** key in this case, so I can't even think a workaround.
 
 While `pygame.K_f` is a key enumerator constant (see [`pygame.key`](https://www.pygame.org/docs/ref/key.html)) the content of `event.type` is event enumerator constant (see [`pygame.event`](https://www.pygame.org/docs/ref/event.html)).  
 If you want to determine if a certain key is pressed, the you've to verify if the event type is `pygame.KEYDOWN` (or `pygame.KEYUP` for button release) and if the `.key` attribute of the event is equal the key enumerator. e.g.:
@@ -102,7 +102,7 @@ Related Stack Overflow questions:
 
   :scroll: **[minimal example - Move object with keys](../../examples/minimal_examples/pygame_minimal_move_object.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ContinuousMovement](https://replit.com/@Rabbid76/PyGame-ContinuousMovement#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ContinuousMovement](https://replit.com/@Rabbid76/PyGame-ContinuousMovement#main.py)**
 
 - [What all things happens inside pygame when I press a key? When to use pygame.event==KEYDOWN](https://stackoverflow.com/questions/63050139/what-all-things-happens-inside-pygame-when-i-press-a-key-when-to-use-pygame-eve/63056690#63056690)
 - [PyGame press two buttons at the same time](https://stackoverflow.com/questions/59181962/pygame-press-two-buttons-at-the-same-time/59182228#59182228)
@@ -153,7 +153,7 @@ Use the keyboard events (`KEYDOWN`,` ​​KEYUP`) for actions like jumping or s
 
 :scroll: **[minimal example - Move object with keys](../../examples/minimal_examples/pygame_minimal_move_object.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ContinuousMovement](https://replit.com/@Rabbid76/PyGame-ContinuousMovement#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ContinuousMovement](https://replit.com/@Rabbid76/PyGame-ContinuousMovement#main.py)**
 
 ![How can I make a sprite move when key is held down](https://i.stack.imgur.com/S24dj.gif)
 
@@ -174,14 +174,14 @@ Related Stack Overflow questions:
 
   :scroll: **[minimal example - Sustained fire](../../examples/minimal_examples/pygame_minimal_shoot_bullet_sustained_fire.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://replit.com/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://replit.com/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)**
 
 - [How do I stop more than 1 bullet firing at once?](https://stackoverflow.com/questions/60122492/how-do-i-stop-more-than-1-bullet-firing-at-once/60125448#60125448)  
   ![How do I stop more than 1 bullet firing at once?](https://i.stack.imgur.com/W6lzh.gif)
 
   :scroll: **[minimal example - Shoot bullet](../../examples/minimal_examples/pygame_minimal_shoot_bullet.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBullet](https://replit.com/@Rabbid76/PyGame-ShootBullet#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBullet](https://replit.com/@Rabbid76/PyGame-ShootBullet#main.py)**
 
 - [Pygame: problems with shooting in Space Invaders](https://stackoverflow.com/questions/65759929/pygame-problems-with-shooting-in-space-invaders/65759972#65759972)  
   ![Pygame: problems with shooting in Space Invaders](https://i.stack.imgur.com/bSRed.gif)

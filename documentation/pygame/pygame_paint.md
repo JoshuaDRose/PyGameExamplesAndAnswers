@@ -29,4 +29,4 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Thick free line](../../examples/minimal_examples/pygame_minimal_paint_free_line_1.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-PaintFreeThickLine](https://replit.com/@Rabbid76/PyGame-PaintFreeThickLine#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-PaintFreeThickLine](https://replit.com/@Rabbid76/PyGame-PaintFreeThickLine#main.py)**

@@ -35,7 +35,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - shoot bullet towards mouse](../../examples/minimal_examples/pygame_minimal_move_to_target_fire_bullet_1.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FireBulletInDirectionOfMouse](https://replit.com/@Rabbid76/PyGame-FireBulletInDirectionOfMouse#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FireBulletInDirectionOfMouse](https://replit.com/@Rabbid76/PyGame-FireBulletInDirectionOfMouse#main.py)**
 
 - [How Can I Make An Arrow Image Move Rotated Direction?(https://stackoverflow.com/questions/65589860/how-can-i-make-an-arrow-image-move-rotated-direction/65592518#65592518)
 
@@ -108,7 +108,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Follow target](../../examples/minimal_examples/pygame_minimal_move_follow_1.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowMouse](https://replit.com/@Rabbid76/PyGame-FollowMouse#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowMouse](https://replit.com/@Rabbid76/PyGame-FollowMouse#main.py)**
 
 - **[How to make smooth movement in pygame](https://stackoverflow.com/questions/64087982/how-to-make-smooth-movement-in-pygame/64088747#64088747)**  
   [Sprite follow another flexible way within certain distance limits](https://stackoverflow.com/questions/60064644/sprite-follow-another-flexible-way-within-certain-distance-limits/60082313#60082313)  
@@ -116,7 +116,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Follow target smoothly](../../examples/minimal_examples/pygame_minimal_move_follow_smoothly.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowMouseSmoothly](https://replit.com/@Rabbid76/PyGame-FollowMouseSmoothly#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowMouseSmoothly](https://replit.com/@Rabbid76/PyGame-FollowMouseSmoothly#main.py)**
 
 - **[how to make particles follow my mouse in pygame](https://stackoverflow.com/questions/63412401/how-to-make-particles-follow-my-mouse-in-pygame/63412536#63412536)**
 - [How can i make a block follow another block in pygame](https://stackoverflow.com/questions/59799575/how-can-i-make-a-block-follow-another-block-in-pygame/59799746#59799746)
@@ -181,12 +181,12 @@ if distance > minimum_distance:
 
 :scroll: **[Minimal example - Ball follow ball](../../examples/minimal_examples/pygame_minimal_move_follow_2.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowBall](https://replit.com/@Rabbid76/PyGame-FollowBall#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowBall](https://replit.com/@Rabbid76/PyGame-FollowBall#main.py)**
 
 ![Minimal example - Ball follow ball](../../screenshot/pygame_minimal_move_follow_2.gif)
 
 :scroll: **[Minimal example - Object follow target](../../examples/minimal_examples/pygame_minimal_move_follow_3.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowInGrid](https://replit.com/@Rabbid76/PyGame-FollowInGrid#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-FollowInGrid](https://replit.com/@Rabbid76/PyGame-FollowInGrid#main.py)**
 
 ![Minimal example - Object follow target](../../screenshot/pygame_minimal_move_follow_3.gif)

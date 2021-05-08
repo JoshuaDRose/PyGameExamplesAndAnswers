@@ -13,7 +13,7 @@ Related Stack Overflow questions:
 
   :scroll: **[minimal example - Detect click on sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_click.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseClick](https://replit.com/@Rabbid76/PyGame-MouseClick#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseClick](https://replit.com/@Rabbid76/PyGame-MouseClick#main.py)**
 
 - [How can I add an image or icon to a button rectangle in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-an-image-or-icon-to-a-button-rectangle-in-pygame/64990819#64990819)  
   ![How can I add an image or icon to a button rectangle in Pygame?](https://i.stack.imgur.com/DnQdC.gif)
@@ -35,7 +35,7 @@ Related Stack Overflow questions:
 
 :scroll: **[Minimal example - Radio button](../../examples/minimal_examples/pygame_minimal_sprite_mouse_radiobutton.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RadioButton](https://replit.com/@Rabbid76/PyGame-RadioButton#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RadioButton](https://replit.com/@Rabbid76/PyGame-RadioButton#main.py)**
 
 ## Menu and Option Box
 
@@ -55,7 +55,7 @@ Related Stack Overflow questions:
   ![How to create a text input box with pygame?](https://i.stack.imgur.com/2X5Se.gif)
   ![How to create a text input box with pygame?](https://i.stack.imgur.com/FNJeM.gif)
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TextInput](https://replit.com/@Rabbid76/PyGame-TextInput#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TextInput](https://replit.com/@Rabbid76/PyGame-TextInput#main.py)**
 
 - [How can I set conditions for an inputting textbox module on pygame?](https://stackoverflow.com/questions/65586543/how-can-i-set-conditions-for-an-inputting-textbox-module-on-pygame/65597101#65597101)  
 

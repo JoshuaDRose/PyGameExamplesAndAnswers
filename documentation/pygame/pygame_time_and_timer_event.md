@@ -61,7 +61,7 @@ while run:
 
 :scroll: **[Minimal example - Display a message for a period of time](../../examples/minimal_examples/pygame_minimal_time_text_message_delay.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MessageDelay](https://replit.com/@Rabbid76/PyGame-MessageDelay#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MessageDelay](https://replit.com/@Rabbid76/PyGame-MessageDelay#main.py)**
 
 ## Time
 
@@ -99,7 +99,7 @@ while run:
 
 :scroll: **[Minimal example - Until a certain time](../../examples/minimal_examples/pygame_minimal_timer_after_a_certain_time.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerAfterACertainTime](https://replit.com/@Rabbid76/PyGame-TimerAfterACertainTime#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerAfterACertainTime](https://replit.com/@Rabbid76/PyGame-TimerAfterACertainTime#main.py)**
 
 ### Lock for a period of time
 
@@ -110,11 +110,11 @@ Related Stack Overflow questions:
 
   :scroll: **[minimal example - Shoot bullet](../../examples/minimal_examples/pygame_minimal_shoot_bullet.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBullet](https://replit.com/@Rabbid76/PyGame-ShootBullet#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBullet](https://replit.com/@Rabbid76/PyGame-ShootBullet#main.py)**
 
   :scroll: **[minimal example - Sustained fire](../../examples/minimal_examples/pygame_minimal_shoot_bullet_sustained_fire.py)**
 
-  <kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://replit.com/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)</kbd>
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://replit.com/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)**
 
 If you want to implement some kind of rapid fire, then the things get more tricky. If you would use the state of `pygame.key.get_pressed()` then you would spawn one bullet in every frame. That is far too fast. You have to implement some timeout.  
 When a bullet is fired, the get the current time by [`pygame.time.get_ticks()`](https://www.pygame.org/docs/ref/time.html). Define a number of milliseconds for the delay between to bullets. Add the delta to the time and state the time in a variable (`next_bullet_threshold`). Skip bullets, as long the time is not exceeded:
@@ -329,7 +329,7 @@ Related Stack Overflow questions:
 
 :scroll: **[Minimal example - Timer callback](../../examples/minimal_examples/pygame_minimal_timer_callback.py)**
 
-<kbd>[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerCallback](https://replit.com/@Rabbid76/PyGame-TimerCallback#main.py)</kbd>
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerCallback](https://replit.com/@Rabbid76/PyGame-TimerCallback#main.py)**
 
 ## Clock and frames per second
 
