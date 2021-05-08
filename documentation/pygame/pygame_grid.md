@@ -79,6 +79,9 @@ Related Stack Overflow quest
 
   :scroll: **[Minimal example - Drag chess pieces](../../examples/minimal_examples/pygame_minimal_chess_drag.py)**
 
+- [python pygame mouse events not working and not raising errors](https://stackoverflow.com/questions/67437709/python-pygame-mouse-events-not-working-and-not-raising-errors/67449984#67449984)  
+  ![python pygame mouse events not working and not raising errors](https://i.stack.imgur.com/cYnIY.gif)
+
 ## Grid an NumPy
 
 Related Stack Overflow quest
