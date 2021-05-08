@@ -4,8 +4,8 @@
 # [Adding a particle effect to my clicker game
 # https://stackoverflow.com/questions/64793618/adding-a-particle-effect-to-my-clicker-game/64794954#64794954
 #
-# GitHub - PyGameExamplesAndAnswers - Collision and Intersection - For a period of time
-# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_rectangle.md
+# GitHub - PyGameExamplesAndAnswers - Time, timer event and clock - For a period of time
+# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_time_and_timer_event.md
 
 import pygame
 import random

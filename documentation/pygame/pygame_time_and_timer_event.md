@@ -183,21 +183,35 @@ while len(explosionList) > 0:
 
 Related Stack Overflow questions:
 
+- **[Spawning multiple instances of the same object concurrently in python](https://stackoverflow.com/questions/62112754/spawning-multiple-instances-of-the-same-object-concurrently-in-python/62112894#62112894)**  
+  ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/CRpAx.gif)
+
+  :scroll: **[Minimal example - Spawn objects](../../examples/minimal_examples/pygame_minimal_timer_spawn_objects.py)**
+
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerSpawnObjects](https://replit.com/@Rabbid76/PyGame-TimerSpawnObjects#main.py)**
+
 - [How to make instances spawn automatically around the player?](https://stackoverflow.com/questions/54717938/how-to-make-instances-spawn-automatically-around-the-player/54723594#54723594)  
   ![How to make instances spawn automatically around the player?](https://i.stack.imgur.com/RIskl.gif)
-- [Spawning multiple instances of the same object concurrently in python](https://stackoverflow.com/questions/62112754/spawning-multiple-instances-of-the-same-object-concurrently-in-python/62112894#62112894)  
   ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/1X0kk.gif)
 - [How to run multiple while loops at a time in Python](https://stackoverflow.com/questions/65263318/how-to-run-multiple-while-loops-at-a-time-in-python)  
 - [Issues with pygame.time.get_ticks()](https://stackoverflow.com/questions/65529525/issues-with-pygame-time-get-ticks/65529554#65529554)  
 
-If the time exceeds `next_zombie_time` span a zombie and set the time for the next zombie to spawn:
+It does not work that way. `time.sleep`, [`pygame.time.wait()`](https://www.pygame.org/docs/ref/time.html#pygame.time.wait) or [`pygame.time.delay`](https://www.pygame.org/docs/ref/time.html#pygame.time.delay) is not the right way to control time and gameplay within an application loop. The game does not respond while you wait. The application loop runs continuously. You have to measure the time in the loop and spawn the objects according to the elapsed time. Add the newly created objects to a list. Redraw all of the objects and the entire scene in each frame.
+
+Use [`pygame.time.get_ticks()`](https://www.pygame.org/docs/ref/time.html#pygame.time.get_ticks) to measure the time. Define a time interval after which a new object should appear. Create an object when the point in time is reached and calculate the point in time for the next object:
 
 ```py
-current_time = pygame.time.get_ticks()
-if current_time > next_zombie_time:
-    next_zombie_time = current_time + 1000 # 1 second interval to the next zombie
+object_list = []
+time_interval = 500 # 500 milliseconds == 0.1 seconds
+next_object_time = 0 
 
-    # [...] spawn the zombie
+while run:
+    # [...]
+    
+    current_time = pygame.time.get_ticks()
+    if current_time > next_object_time:
+        next_object_time += time_interval
+        object_list.append(Object())
 ```
 
 ### Display application (game) time
@@ -319,17 +333,48 @@ Related Stack Overflow questions:
 
 :scroll: **[Minimal example - Count down](../../examples/minimal_examples/pygame_minimal_timer_count_down.py)**
 
+:scroll: **[Minimal example - Timer callback](../../examples/minimal_examples/pygame_minimal_timer_callback.py)**
+
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerCallback](https://replit.com/@Rabbid76/PyGame-TimerCallback#main.py)**
+
 ### Action trigger based on timer event
 
 Related Stack Overflow questions:
+
+- **[Spawning multiple instances of the same object concurrently in python](https://stackoverflow.com/questions/62112754/spawning-multiple-instances-of-the-same-object-concurrently-in-python/62112894#62112894)**  
+  ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/CRpAx.gif)
+
+  :scroll: **[Minimal example - Spawn objects](../../examples/minimal_examples/pygame_minimal_timer_event_spawn_objects.py)**
+
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerEventSpawn](https://replit.com/@Rabbid76/PyGame-TimerEventSpawn#main.py)**
 
 - [Trying to delay a specific function for spawning enemy after a certain amount of time](https://stackoverflow.com/questions/61409702/trying-to-delay-a-specific-function-for-spawning-enemy-after-a-certain-amount-of/61410788#61410788)
 - [How do I continuously trigger an action at certain time intervals? Enemy shoots constant beam instead of bullets in pygame](https://stackoverflow.com/questions/58224668/enemy-shoots-constant-beam-instead-of-bullets-in-pygame/58224870#58224870)
 - [How can one continuously generate and track several random objects with a time delay in pygame?](https://stackoverflow.com/questions/57837263/how-to-spawn-and-track-multiple-random-objects-with-time-delay-in-pygame/57837320#57837320)
 
-:scroll: **[Minimal example - Timer callback](../../examples/minimal_examples/pygame_minimal_timer_callback.py)**
+It does not work that way. `time.sleep`, [`pygame.time.wait()`](https://www.pygame.org/docs/ref/time.html#pygame.time.wait) or [`pygame.time.delay`](https://www.pygame.org/docs/ref/time.html#pygame.time.delay) is not the right way to control time and gameplay within an application loop. The game does not respond while you wait. The application loop runs continuously. You have to measure the time in the loop and spawn the objects according to the elapsed time. Add the newly created objects to a list. Redraw all of the objects and the entire scene in each frame.
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerCallback](https://replit.com/@Rabbid76/PyGame-TimerCallback#main.py)**
+Use the [`pygame.event`](https://www.pygame.org/docs/ref/event.html) module. Use [`pygame.time.set_timer()`](https://www.pygame.org/docs/ref/time.html#pygame.time.set_timer) to repeatedly create a [`USEREVENT`](https://www.pygame.org/docs/ref/event.html) in the event queue. The time has to be set in milliseconds. e.g.:
+
+```py
+object_list = []
+time_interval = 500 # 500 milliseconds == 0.1 seconds
+timer_event = pygame.USEREVENT+1
+pygame.time.set_timer(timer_event, time_interval)
+```
+
+Note, in pygame customer events can be defined. Each event needs a unique id. The ids for the user events have to be between `pygame.USEREVENT` (24) and `pygame.NUMEVENTS` (32). In this case `pygame.USEREVENT+1` is the event id for the timer event.  
+
+Receive the event in the event loop:
+
+```py
+while run:
+    for event in pygame.event.get():
+        if event.type == timer_event:
+            object_list.append(Object())
+```
+
+The timer event can be stopped by passing 0 to the _time_ argument of `pygame.time.set_timer`.
 
 ## Clock and frames per second
 
@@ -369,8 +414,7 @@ Related Stack Overflow questions:
 - [Framerate affect the speed of the game](https://stackoverflow.com/questions/61352366/framerate-affect-the-speed-of-the-game/61352472#61352472)
 - [Pygame snake velocity too high when the fps above 15](https://stackoverflow.com/questions/61034515/pygame-snake-velocity-too-high-when-the-fps-above-15/61034931#61034931)
 - [Changing FPS on pygame in order to achieve smoothness of sprite's movement](https://stackoverflow.com/questions/59037251/changing-fps-on-pygame-in-order-to-achieve-smoothness-of-sprites-movement/65371237?noredirect=1)  
-- [Anyone want to tell me why my pygame code lags while using pygame Vectors?](https://stackoverflow.com/questions/65758517/anyone-want-to-tell-me-why-my-pygame-code-lags-while-using-pygame-vectors/65758921#65758921)  
-- [Pygame: pygame.time.Clock, or time.sleep](https://stackoverflow.com/questions/67285976/pygame-pygame-time-clock-or-time-sleep/67286018#67286018)  
+- [Anyone want to tell me why my pygame code lags while using pygame Vectors?](https://stackoverflow.com/questions/65758517/anyone-want-to-tell-me-why-my-pygame-code-lags-while-using-pygame-vectors/65758921#65758921)   
 
 You have to calculate the movement per frame depending on the frame rate.
 
@@ -400,8 +444,9 @@ See [`get_fps()`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock.ge
 
 > Compute your game's framerate (in frames per second). It is computed by averaging the last ten calls to `Clock.tick()`.
 
-# Delay
+# Delay, Sleep, Wait
 
 Related Stack Overflow questions:
 
+- [Pygame: pygame.time.Clock, or time.sleep](https://stackoverflow.com/questions/67285976/pygame-pygame-time-clock-or-time-sleep/67286018#67286018) 
 - [Is pygame.time.delay() better than time.sleep()?](https://stackoverflow.com/questions/61921644/is-pygame-time-delay-better-than-time-sleep/61922176#61922176)
