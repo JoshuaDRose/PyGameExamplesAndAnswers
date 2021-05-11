@@ -184,7 +184,7 @@ while len(explosionList) > 0:
 Related Stack Overflow questions:
 
 - **[Spawning multiple instances of the same object concurrently in python](https://stackoverflow.com/questions/62112754/spawning-multiple-instances-of-the-same-object-concurrently-in-python/62112894#62112894)**  
-  ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/CRpAx.gif)
+  ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/cVQze.gif)
 
   :scroll: **[Minimal example - Spawn objects](../../examples/minimal_examples/pygame_minimal_timer_spawn_objects.py)**
 
@@ -202,7 +202,7 @@ Use [`pygame.time.get_ticks()`](https://www.pygame.org/docs/ref/time.html#pygame
 
 ```py
 object_list = []
-time_interval = 500 # 500 milliseconds == 0.1 seconds
+time_interval = 500 # 500 milliseconds == 0.5 seconds
 next_object_time = 0 
 
 while run:
@@ -342,7 +342,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - **[Spawning multiple instances of the same object concurrently in python](https://stackoverflow.com/questions/62112754/spawning-multiple-instances-of-the-same-object-concurrently-in-python/62112894#62112894)**  
-  ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/CRpAx.gif)
+  ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/cVQze.gif)
 
   :scroll: **[Minimal example - Spawn objects](../../examples/minimal_examples/pygame_minimal_timer_event_spawn_objects.py)**
 
@@ -358,7 +358,7 @@ Use the [`pygame.event`](https://www.pygame.org/docs/ref/event.html) module. Use
 
 ```py
 object_list = []
-time_interval = 500 # 500 milliseconds == 0.1 seconds
+time_interval = 500 # 500 milliseconds == 0.5 seconds
 timer_event = pygame.USEREVENT+1
 pygame.time.set_timer(timer_event, time_interval)
 ```

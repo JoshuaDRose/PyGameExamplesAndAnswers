@@ -15,20 +15,20 @@ window = pygame.display.set_mode((300, 300))
 
 class Object:
     def __init__(self):
-        self.radius = random.randrange(20, 40)
+        self.radius = 50
         self.x = random.randrange(self.radius, window.get_width()-self.radius)
         self.y = random.randrange(self.radius, window.get_height()-self.radius)
         self.color = pygame.Color(0)
         self.color.hsla = (random.randrange(0, 360), 100, 50, 100)
 
 object_list = []
-time_interval = 500 # 500 milliseconds == 0.1 seconds
+time_interval = 200 # 200 milliseconds == 0.2 seconds
 next_object_time = 0 
 
 run = True
 clock = pygame.time.Clock()
 while run:
-    clock.tick(100)
+    clock.tick(60)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
@@ -38,10 +38,12 @@ while run:
         next_object_time += time_interval
         object_list.append(Object())
     
-    object_list = object_list[-100:]
     window.fill(0)
-    for object in object_list:
-        pygame.draw.circle(window, object.color, (object.x, object.y), object.radius)
+    for object in object_list[:]:
+        pygame.draw.circle(window, object.color, (object.x, object.y), round(object.radius))
+        object.radius -= 0.2
+        if object.radius < 1:
+            object_list.remove(object)
     pygame.display.flip()
 
 pygame.quit()

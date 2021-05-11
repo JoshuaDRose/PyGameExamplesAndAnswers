@@ -51,6 +51,9 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Mask form a single color](../../examples/minimal_examples/pygame_minimal_mask_from_color.py)**
 
+- [Pygame mask collision only putting damage on base on first collision](https://stackoverflow.com/questions/67429383/pygame-mask-collision-only-putting-damage-on-base-on-first-collision/67429569#67429569)
+  ![Pygame mask collision only putting damage on base on first collision](https://i.stack.imgur.com/eIynX.gif)
+
 ## Circular mask
 
 Related Stack Overflow questions:
