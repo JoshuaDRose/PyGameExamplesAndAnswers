@@ -34,6 +34,38 @@ The typical PyGame application loop has to:
 - update the display by either [`pygame.display.update()`](https://www.pygame.org/docs/ref/display.html#pygame.display.update) or [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygame.display.flip)
 - limit frames per second to limit CPU usage
 
+```py
+import pygame
+pygame.init()
+
+window = pygame.display.set_mode((500, 500))
+clock = pygame.time.Clock()
+
+# main application loop
+run = True
+while run:
+
+    # limit frames per second
+    clock.tick(60)
+
+    # event loop
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            run = False
+
+    # clear the display
+    window.fill(0)
+
+    # draw the scene   
+    pygame.draw.circle(window, (255, 0, 0), (250, 250), 100)
+
+    # update the display
+    pygame.display.flip()
+
+pygame.quit()
+exit()
+```
+
 You are actually drawing on a [`Surface`](https://www.pygame.org/docs/ref/display.html#pygame.display.update) object. If you draw on the _Surface_ associated to the PyGame display, this is not immediately visible in the display. The changes become visibel, when the display is updated with either [`pygame.display.update()`](https://www.pygame.org/docs/ref/display.html#pygame.display.update) or [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygame.display.flip).
 
 See [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygame.display.flip):

@@ -22,6 +22,8 @@ clock = pygame.time.Clock()
 # main application loop
 run = True
 while run:
+
+    # limit frames per second
     clock.tick(60)
 
     # event loop
