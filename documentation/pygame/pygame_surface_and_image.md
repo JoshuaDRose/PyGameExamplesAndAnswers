@@ -72,6 +72,7 @@ Related Stack Overflow questions:
 - [Pygame - blitting from x and y cordinates of image](https://stackoverflow.com/questions/65828379/pygame-blitting-from-x-and-y-cordinates-of-image/65828456#65828456)  
 - [How can I crop an image with Pygame?](https://stackoverflow.com/questions/6239769/how-can-i-crop-an-image-with-pygame/65627793#65627793)  
 - [How to save all pixels that were in the place of a rect in pygame?](https://stackoverflow.com/questions/65858276/how-to-save-all-pixels-that-were-in-the-place-of-a-rect-in-pygame/65858324#65858324)  
+- [How do I draw part of the sprite image using pygame spritegroups?](https://stackoverflow.com/questions/67454504/how-do-i-draw-part-of-the-sprite-image-using-pygame-spritegroups/67454693#67454693)  
 
 ## Transparent surface and color key
 
