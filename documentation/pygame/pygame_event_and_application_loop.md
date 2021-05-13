@@ -89,8 +89,62 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Why can I not display image?](https://stackoverflow.com/questions/67111782/why-can-i-not-display-image/67113040#67113040)  
+
+  :scroll: **[Minimal example - Input in application loop](../../examples/minimal_examples/pygame_minimal_threading_input.py)**
+
 - [Pygame Window not Responding after few seconds](https://stackoverflow.com/questions/64830453/pygame-window-not-responding-after-few-seconds/64832291#64832291)
 - [Why does pygame.display.update() not work if an input is directly followed after it?](https://stackoverflow.com/questions/58794093/why-does-pygame-display-update-not-work-if-an-input-is-directly-followed-after/58812876#58812876)
+
+You cannot use `input` in the application loop. `input` waits for an input. While the system is waiting for input, the application loop will halt and the game will not respond. Use the `KEYDOWN` event instead of `input`:
+
+```py
+run = True
+while run:
+    event_list = pygame.event.get()
+    for event in event_list:
+        if event.type == pygame.QUIT:
+            run = False
+
+        if event.type == pygame.KEYDOWN:
+            if pygame.key == pygame.K_1:
+                # [...]
+            if pygame.key == pygame.K_2:
+                # [...]
+```
+
+Another option is to get the input in a separate thread.
+
+```py
+import pygame
+import threading
+
+pygame.init()
+window = pygame.display.set_mode((400, 400))
+clock = pygame.time.Clock()
+
+color = "red"
+def get_input():
+    global color
+    color = input('enter color (e.g. blue): ')
+
+input_thread = threading.Thread(target=get_input)
+input_thread.start()
+
+run = True
+while run:
+    clock.tick(60)
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            run = False          
+
+    window_center = window.get_rect().center
+    window.fill(0)
+    pygame.draw.circle(window, color, window_center, 100)
+    pygame.display.flip()
+
+pygame.quit()
+exit()
+``` 
 
 ### Delay, wait and sleep
 
