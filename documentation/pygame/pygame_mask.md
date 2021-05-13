@@ -65,6 +65,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How to get the correct dimensions for a pygame rectangle created from an image](https://stackoverflow.com/questions/65361582/how-to-get-the-correct-dimensions-for-a-pygame-rectangle-created-from-an-image/65361896#65361896)  
+  [Questions regarding the pygame.mask function](https://stackoverflow.com/questions/67523501/questions-regarding-the-pygame-mask-function/67523631#67523631)  
   ![How to get the correct dimensions for a pygame rectangle created from an image](https://i.stack.imgur.com/iZH3y.png)
 
   :scroll: **[Minimal example - Find bounding area rectangle](../../examples/minimal_examples/pygame_minimal_mask_bounding_area_rectangle.py)**
@@ -73,13 +74,15 @@ Related Stack Overflow questions:
 
 [`pygame.Surface.get_rect.get_rect()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.get_rect) returns a rectangle with the size of the _Surface_ object. This function does not consider the drawing area in the image. If you want to find the bounding rectangle of the painted area in the surface, you need to create a mask.  
 
-Use [`pygame.mask.from_surface`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.from_surface) to create a [`pygame.mask.Mask`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask) from a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html):
+[`pygame.mask.from_surface`](https://www.pygame.org/docs/ref/mask.html) creates a [`pygame.mask.Mask`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask) object form a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html).  
+A _Surface_ is bitmap. A _Mask_ is an 2 dimensional array with [Boolean](https://en.wikipedia.org/wiki/Boolean_data_type) values. The _Mask_ created is the size of the _Surface. A field is `True` if the corresponding pixel in the surface is not transparent, and `False` if it is transparent:
 
 ```py
 surf_mask = pygame.mask.from_surface(surf)
 ```
 
-Get a list containing a bounding rectangles (sequence of [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) objects) for each connected component with [`get_bounding_rects`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask.get_bounding_rects):
+Get a list containing a bounding rectangles (sequence of [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) objects) for each connected component with [`get_bounding_rects`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask.get_bounding_rects).  
+[`pygame.mask.Mask.get_bounding_rects`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask.get_bounding_rects) creates a list of [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) objects. Each rectangle describes a bounding area of connected pixles. If the _Surface_ contains exactly 1 connected image, you will get exactly 1 rectangle surrounding the image:
 
 ```py
 rect_list = surf_mask.get_bounding_rects()
