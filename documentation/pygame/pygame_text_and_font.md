@@ -76,6 +76,13 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Freetype centered](../../examples/minimal_examples/pygame_minimal_text_freetype_centered.py)**
 
+- [Python Pygame Font x coordinate](https://stackoverflow.com/questions/67514758/python-pygame-font-x-coordinate/67514998#67514998)  
+  ![Python Pygame Font x coordinate](https://i.stack.imgur.com/1fbjS.gif)
+
+- [Pygame Python Font Size](https://stackoverflow.com/questions/67518357/pygame-python-font-size/67518454#67518454)  
+  [Pygame Python font](https://stackoverflow.com/questions/67529507/pygame-python-font/67530490#67530490)  
+  ![Pygame Python font](https://i.stack.imgur.com/h1Btd.png)
+
 [`pygame.Surface.get_rect.get_rect()`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.get_rect) returns a rectangle with the size of the _Surface_ object, that always starts at (0, 0) since a _Surface_ object has no position. The position of the rectangle can be specified by a keyword argument. For example, the center of the rectangle can be specified with the keyword argument `center`. These keyword argument are applied to the attributes of the [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) before it is returned (see [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) for a full list of the keyword arguments).
 
 Get the text rectangle and place the center of the text rectangle on the center of the window rectangle:
