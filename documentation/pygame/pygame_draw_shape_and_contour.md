@@ -13,8 +13,8 @@ Robert C. Martin, The Robert C. Martin Clean Code Collection (Collection)
 
 Related Stack Overflow questions:
 
-- [Pygame Drawing a Rectangle](https://stackoverflow.com/questions/19780411/pygame-drawing-a-rectangle)  
-  ![https://stackoverflow.com/questions/6339057/draw-a-transparent-rectangle-in-pygame](https://i.stack.imgur.com/JGP5N.png)
+- [Pygame Drawing a Rectangle](https://stackoverflow.com/questions/19780411/pygame-drawing-a-rectangle/64629716#64629716)  
+  ![Pygame Drawing a Rectangle](https://i.stack.imgur.com/JGP5N.png)
 
   :scroll: **[Minimal example - Draw shapes](../../examples/minimal_examples/pygame_minimal_draw_shapes_1.py)**
 
