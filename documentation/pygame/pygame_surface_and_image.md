@@ -74,6 +74,34 @@ Related Stack Overflow questions:
 - [How to save all pixels that were in the place of a rect in pygame?](https://stackoverflow.com/questions/65858276/how-to-save-all-pixels-that-were-in-the-place-of-a-rect-in-pygame/65858324#65858324)  
 - [How do I draw part of the sprite image using pygame spritegroups?](https://stackoverflow.com/questions/67454504/how-do-i-draw-part-of-the-sprite-image-using-pygame-spritegroups/67454693#67454693)  
 
+There are 2 possibilities.
+
+The [`blit`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.blit) method allows to specify a rectangular sub-area of the source _Surface:
+
+> [...] An optional area rectangle can be passed as well. This represents a smaller portion of the source Surface to draw. [...]
+
+In this way you can `blit` an area of the source surface directly onto a target:
+
+```py
+cropped_region = (x, y, width, height)
+traget.blit(source_surf, (posx, posy), cropped_region)
+```
+
+Alternatively, you can define a subsurface that is directly linked to the source surface with the [`subsurface`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.subsurface) method: 
+
+> Returns a new Surface that shares its pixels with its new parent. The new Surface is considered a child of the original. Modifications to either Surface pixels will effect each other.
+
+As soon as a subsurface has been created, it can be used as a normal surface at any time:
+
+```py
+cropped_region = (x, y, width, height)
+cropped_subsurf = source_surf.subsurface(cropped_region)
+``` 
+
+```py
+traget.blit(cropped_subsurf, (posx, posy))
+```
+
 ## Transparent surface and color key
 
 Related Stack Overflow questions:
