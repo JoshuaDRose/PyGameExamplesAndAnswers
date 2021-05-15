@@ -11,13 +11,14 @@ Related Stack Overflow questions:
 
 ## Scrolling - Center to player
 
-There a different approaches
+Related Stack Overflow questions:
 
 - [Add scrolling to a platformer in pygame](https://stackoverflow.com/questions/14354171/add-scrolling-to-a-platformer-in-pygame)  
 
-
 Unfortunately, Pygame doesn't have a built-in solution to this problem. Pygame use [`pygame.sprite.Sprite`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) objects organized in [`pygame.sprite.Group`s](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group). The attribute `.rect` of the _Sprites_ is used for drawing the objects as well as for the collision test between objects. There is no built-in feature that can convert object coordinates to screen coordinates before drawing.  
 As a suggestion for the pygame developers: It would be nice to have an optional argument for the camera _offset_ in the method [`pygame.sprite.Group.draw`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.draw).
+
+There a different approaches:
 
 - Instead of moving the player, you can move any object in the scene in the opposite direction. This is the worst of all approaches. I strongly recommend not doing this.
   Every time you add a new object you need to make sure that it moves as the player moves. Dealing with object animation or floating point accuracy can turn out to be a nightmare.
