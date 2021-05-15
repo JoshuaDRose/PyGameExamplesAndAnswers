@@ -16,7 +16,7 @@ Related Stack Overflow questions:
 - [Add scrolling to a platformer in pygame](https://stackoverflow.com/questions/14354171/add-scrolling-to-a-platformer-in-pygame)  
 
 Unfortunately, Pygame doesn't have a built-in solution to this problem. Pygame use [`pygame.sprite.Sprite`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) objects organized in [`pygame.sprite.Group`s](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group). The attribute `.rect` of the _Sprites_ is used for drawing the objects as well as for the collision test between objects. There is no built-in feature that can convert object coordinates to screen coordinates before drawing.  
-As a suggestion for the pygame developers: It would be nice to have an optional argument for the camera _offset_ in the method [`pygame.sprite.Group.draw`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.draw).
+As a suggestion for the developers of Pygame: It would be nice to have an optional argument for the camera _offset_ in the method [`pygame.sprite.Group.draw`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.draw).
 
 There a different approaches:
 
@@ -36,7 +36,7 @@ There a different approaches:
   screen.blit(virtual_screen, (0, 0), camera_area)
   ```
 
-  The other possibility is to define a subsurface that is linked directly to the source surface using the[`subsurface`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.subsurface) method
+  The other possibility is to define a subsurface that is linked directly to the source surface using the[`subsurface`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.subsurface) method:
 
   ```py
   camera_area = pygame.Rect(camera_x, camera_y, camera_width, camera_height)
@@ -49,7 +49,7 @@ There a different approaches:
 
   The disadvantage of this approach is that it can have a very large memory footprint. If the virtual screen is huge, the game will lag. This solution is only suitable if the size of the game area is not much larger than the screen. As a rule of thumb, if the play area is more than twice the size of the screen, you shouldn't go this way (I'm talking about twice the size of the area, not twice the length of its width and height).
 
-- For large play areas, the only approach that can be used is to add an offset to the objects before drawing
+- For large play areas, the only approach that can be used is to add an offset to the objects before drawing:
 
   ```py
   offset_x = -camera_x
@@ -58,4 +58,19 @@ There a different approaches:
       screen.blit(object.image, (object.rect.x + offset_x, object.rect.y + offset_y))
   ```
 
-  Unfortunately [`pygame.sprite.Group.draw`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group) can not be used directly in this case. This approach is detailed in a highly rated answer.
+  Unfortunately [`pygame.sprite.Group.draw`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group) can not be used directly in this case. This approach is detailed in a highly rated answer.  
+  Alternatively, you can move all of the sprites before drawing them:
+
+  ```py
+  all_sprites = pygame.sprite.Group()
+  ```
+
+  ```py
+  for sprite in all_sprites:
+      all_sprites.rect.move_ip(-camera_x, -camera_y)
+  all_sprites.draw(screen)    
+  for sprite in all_sprites:
+      all_sprites.rect.move_ip(camera_x, camera_y)
+  ```
+
+At the end a comment about dirty mechanisms and partial screen updates: As soon as the player moves, the entire screen is dirty and needs to be updated. It is therefore questionable whether you should invest resources in partial update mechanisms. These algorithms also take time to run. In highly dynamic scenes, the result of the algorithm is to update all.
