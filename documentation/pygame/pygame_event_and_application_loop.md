@@ -89,14 +89,14 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Why can I not display image?](https://stackoverflow.com/questions/67111782/why-can-i-not-display-image/67113040#67113040)  
+- [Why is my display not responding while waiting for input?](https://stackoverflow.com/questions/67111782/why-is-my-display-not-responding-while-waiting-for-input/67113040#67113040)  
 
   :scroll: **[Minimal example - Input in application loop](../../examples/minimal_examples/pygame_minimal_threading_input.py)**
 
 - [Pygame Window not Responding after few seconds](https://stackoverflow.com/questions/64830453/pygame-window-not-responding-after-few-seconds/64832291#64832291)
 - [Why does pygame.display.update() not work if an input is directly followed after it?](https://stackoverflow.com/questions/58794093/why-does-pygame-display-update-not-work-if-an-input-is-directly-followed-after/58812876#58812876)
 
-You cannot use `input` in the application loop. `input` waits for an input. While the system is waiting for input, the application loop will halt and the game will not respond. Use the `KEYDOWN` event instead of `input`:
+You cannot use [`input`](https://docs.python.org/3/library/functions.html#input) in the application loop. `input` waits for an input. While the system is waiting for input, the application loop will halt and the game will not respond. Use the `KEYDOWN` event instead of `input`:
 
 ```py
 run = True
