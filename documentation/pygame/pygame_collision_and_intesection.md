@@ -618,7 +618,9 @@ Related Stack Overflow questions:
 - [Detecting collisions between polygons and rectangles in Pygame](https://stackoverflow.com/questions/64095396/detecting-collisions-between-polygons-and-rectangles-in-pygame/64106246#64106246)  
   ![Detecting collisions between polygons and rectangles in Pygame](../../screenshot/pygame_minimal_intersect_rectangle_polygon.gif)
 
-  :scroll: **[Minimal example - Find the intersection of a rectangle and a polygon](../../examples/minimal_examples/pygame_minimal_intersect_circle_ellipse.py)**
+  :scroll: **[Minimal example - Find the intersection of a rectangle and a polygon](../../examples/minimal_examples/pygame_minimal_intersect_rectangle_polygon.py)**
+
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CollisionPolygonRectangle](https://replit.com/@Rabbid76/PyGame-CollisionPolygonRectangle#main.py)**
 
 ## Circle and polygon
 
