@@ -149,3 +149,12 @@ The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a si
 [How to find PyGame Window Coordinates of an OpenGL Vertice?](https://stackoverflow.com/questions/46801701/how-to-find-pygame-window-coordinates-of-an-opengl-vertice)  
 
 [How to test if a 2d point in pygame screen is part of a 3d object in PyOpenGL?](https://stackoverflow.com/questions/56681932/how-to-test-if-a-2d-point-in-pygame-screen-is-part-of-a-3d-object-in-pyopengl/56700807#56700807)
+
+# Text
+
+[pygame + opengl = display text](https://stackoverflow.com/questions/67608968/pygame-opengl-display-text)  
+![pygame + opengl = display text](https://i.stack.imgur.com/fEc07.gif)  
+
+:scroll: **[OpenGL immediate mode - Text](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_pixel_text.py)**
+
+Compare [`glWindowPos`](https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glWindowPos.xml) and [`glRasterPos`](https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glRasterPos.xml). While the coordinates of `glRasterPos` are transformed by the current modelview and projection matrices, `glWindowPos` directly updates the x and y coordinates of the current raster position.
