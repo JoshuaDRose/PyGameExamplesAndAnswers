@@ -16,6 +16,20 @@ Related Stack Overflow questions:
 - [Im currently making a game with pygame and I need an explanation on some vector code](https://stackoverflow.com/questions/61670940/im-currently-making-a-game-with-pygame-and-i-need-an-explanation-on-some-vector/61674234#61674234)
 - [PyGame, make the tank gun follow your cursor, also good collision implementation practices](https://stackoverflow.com/questions/62455073/pygame-make-the-tank-gun-follow-your-cursor-also-good-collision-implementation/62455339#62455339)
 
+## Normalize
+
+Related Stack Overflow questions:
+
+- [PyGame Random Movement utilizing Pygame.math.vector2d() Crashing](https://stackoverflow.com/questions/42462498/pygame-random-movement-utilizing-pygame-math-vector2d-crashing/67642874#67642874)
+
+The [`normalize()`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2) method computes a [Unit vector](https://en.wikipedia.org/wiki/Unit_vector). Therefore, the components of the vector are divided by the [Euclidean length](https://en.wikipedia.org/wiki/Euclidean_distance) of the vector. If the length of the vector is 0, this causes division by 0.  
+`normalize` does not change the vector itself, but returns a new vector with the same direction but length 1. In compare [`normalize_ip`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2.normalize_ip) normalizes the vector in place so that its length is 1.
+
+```py
+if v.x != 0 or v.y != 0:
+    new_vector.normalize_ip()
+```
+
 ## Angle between vectors and angle of arc
 
 Related Stack Overflow questions:

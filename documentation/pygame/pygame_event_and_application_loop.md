@@ -32,7 +32,7 @@ The typical PyGame application loop has to:
 - clear the entire display or draw the background
 - draw the entire scene (`blit` all the objects)
 - update the display by either [`pygame.display.update()`](https://www.pygame.org/docs/ref/display.html#pygame.display.update) or [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygame.display.flip)
-- limit frames per second to limit CPU usage
+- limit frames per second to limit CPU usage with [`pygame.time.Clock.tick`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock)
 
 ```py
 import pygame
