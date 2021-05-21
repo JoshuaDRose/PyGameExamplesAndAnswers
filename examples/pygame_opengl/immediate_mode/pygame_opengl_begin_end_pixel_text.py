@@ -2,7 +2,7 @@
 # http://pyopengl.sourceforge.net/
 #
 # pygame + opengl = display text
-# https://stackoverflow.com/questions/67608968/pygame-opengl-display-text
+# https://stackoverflow.com/questions/67608968/pygame-opengl-display-text/67639147#67639147
 #
 # GitHub - PyGameExamplesAndAnswers - PyGame and OpenGL immediate mode (Legacy OpenGL) - Primitive and Mesh 
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame_opengl/moderngl_library/pygame_opengl_immediate_mode.md

@@ -152,7 +152,7 @@ The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a si
 
 # Text
 
-[pygame + opengl = display text](https://stackoverflow.com/questions/67608968/pygame-opengl-display-text)  
+[pygame + opengl = display text](https://stackoverflow.com/questions/67608968/pygame-opengl-display-text/67639147#67639147)  
 ![pygame + opengl = display text](https://i.stack.imgur.com/fEc07.gif)  
 
 :scroll: **[OpenGL immediate mode - Text](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_pixel_text.py)**
