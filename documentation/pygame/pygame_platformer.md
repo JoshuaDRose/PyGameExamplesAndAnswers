@@ -74,3 +74,9 @@ There a different approaches:
   ```
 
 At the end a comment about dirty mechanisms and partial screen updates: As soon as the player moves, the entire screen is dirty and needs to be updated. It is therefore questionable whether you should invest resources in partial update mechanisms. These algorithms also take time to run. In highly dynamic scenes, the result of the algorithm is to update all.
+
+## Platform collision
+
+Related Stack Overflow questions:
+
+- [How can I stop my player from glitching through my platform?](https://stackoverflow.com/questions/67630796/how-can-i-stop-my-player-from-glitching-through-my-platform/67647476#67647476)
