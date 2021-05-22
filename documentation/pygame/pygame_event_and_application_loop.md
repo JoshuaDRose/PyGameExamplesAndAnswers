@@ -44,10 +44,6 @@ clock = pygame.time.Clock()
 # main application loop
 run = True
 while run:
-
-    # limit frames per second
-    clock.tick(60)
-
     # event loop
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -61,6 +57,9 @@ while run:
 
     # update the display
     pygame.display.flip()
+
+    # limit frames per second
+    clock.tick(60)
 
 pygame.quit()
 exit()
