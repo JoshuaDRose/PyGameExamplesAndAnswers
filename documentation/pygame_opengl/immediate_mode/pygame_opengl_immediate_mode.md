@@ -155,6 +155,7 @@ The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a si
 [pygame + opengl = display text](https://stackoverflow.com/questions/67608968/pygame-opengl-display-text/67639147#67639147)  
 ![pygame + opengl = display text](https://i.stack.imgur.com/fEc07.gif)  
 
-:scroll: **[OpenGL immediate mode - Text](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_pixel_text.py)**
+:scroll: **[OpenGL immediate mode - Text](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_pixel_text.py)** 
+:scroll: **[OpenGL immediate mode - Text with transparent background](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_pixel_text_transparent.py)**  
 
 Compare [`glWindowPos`](https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glWindowPos.xml) and [`glRasterPos`](https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glRasterPos.xml). While the coordinates of `glRasterPos` are transformed by the current modelview and projection matrices, `glWindowPos` directly updates the x and y coordinates of the current raster position.
