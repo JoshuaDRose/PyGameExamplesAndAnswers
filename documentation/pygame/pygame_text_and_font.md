@@ -274,6 +274,8 @@ Related Stack Overflow questions:
 - [Rendering text in pygame causes lag](https://stackoverflow.com/questions/60469344/rendering-text-in-pygame-causes-lag/60469401#60469401)
 - [How to render/blit text in pygame for good performance](https://stackoverflow.com/questions/64563528/how-to-render-blit-text-in-pygame-for-good-performance/64563594#64563594)
 
+Creating a font object is very time consuming because the font file has to be read and interpreted.
+
 ## Transparent text
 
 Related Stack Overflow questions:

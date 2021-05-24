@@ -156,6 +156,9 @@ Related Stack Overflow questions:
 - [chrome dino game jumping twice per click in pygame](https://stackoverflow.com/questions/66253320/chrome-dino-game-jumping-twice-per-click-in-pygame/66254270#66254270)  
   ![chrome dino game jumping twice per click in pygame](https://i.stack.imgur.com/039Eu.gif)
 
+- [Why can't I do a double jump/hop in Pygame?](https://stackoverflow.com/questions/67667103/why-cant-i-do-a-double-jump-hop-in-pygame/67667585#67667585)
+  ![Why can't I do a double jump/hop in Pygame?](https://i.stack.imgur.com/9ICi5.gif)  
+
 ## Particles
 
 - [Projectile motion and gravity in pygame only sometimes working](https://stackoverflow.com/questions/55822116/projectile-motion-and-gravity-in-pygame-only-sometimes-working/55836374#55836374)  
