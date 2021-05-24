@@ -9,6 +9,7 @@ Robert C. Martin, The Robert C. Martin Clean Code Collection (Collection)
 
 [pygame.draw](https://www.pygame.org/docs/ref/draw.html)
 [pygame.gfxdraw](https://www.pygame.org/docs/ref/gfxdraw.html)
+
 ## Shapes
 
 Related Stack Overflow questions:
