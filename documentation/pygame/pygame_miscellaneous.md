@@ -119,6 +119,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How to save images in a folder with for loop?](https://stackoverflow.com/questions/56311318/how-to-save-images-in-a-folder-with-for-loop/56311378#56311378)
+
 ## File access
 
 Related Stack Overflow questions:
