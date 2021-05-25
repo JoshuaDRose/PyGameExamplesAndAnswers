@@ -20,3 +20,6 @@ Related Stack Overflow questions:
 - [How do I make objects never overlap?](https://stackoverflow.com/questions/62488596/how-do-i-make-objects-never-overlap/62489048#62489048)
 
 - [Is there a better way to spawn enemy locations?](https://stackoverflow.com/questions/64838918/is-there-a-better-way-to-spawn-enemy-locations/64839020#64839020)
+
+- [using colliderect in an array of random coordinates](https://stackoverflow.com/questions/67651237/using-colliderect-in-an-array-of-random-coordinates/67651329#67651329)  
+  ![using colliderect in an array of random coordinates](https://i.stack.imgur.com/rrAly.gif)
