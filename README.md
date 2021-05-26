@@ -74,6 +74,7 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/66943011/how-to-draw-a-dashed-curved-line-with-pygame/66944050#66944050"><img src="https://i.stack.imgur.com/uV3Sy.gif" height="100" title="dashed curve"></a><!--
 --><a href="https://stackoverflow.com/questions/62112754/spawning-multiple-instances-of-the-same-object-concurrently-in-python/62112894#62112894"><img src="https://i.stack.imgur.com/cVQze.gif" height="100" title="timer - spawn objects"></a><!--
 --><a href="https://stackoverflow.com/questions/64095396/detecting-collisions-between-polygons-and-rectangles-in-pygame/64106246#64106246"><img src="https://i.stack.imgur.com/MXQ1q.gif" height="100" title="collision - rectangle and polygon"></a><!--
+--><a href="https://stackoverflow.com/questions/67711739/how-to-display-image-and-text-at-the-same-time-in-python-like-sanctuaryrpg/67712339#67712339"><img src="https://i.stack.imgur.com/VucC8.gif" height="100" title="ASCII text image"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  

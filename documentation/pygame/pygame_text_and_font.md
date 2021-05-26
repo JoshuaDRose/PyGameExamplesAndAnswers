@@ -345,3 +345,12 @@ Related Stack Overflow questions:
 
 - [How to fix Arabic/Persian text and font in pygame?](https://stackoverflow.com/questions/65218972/how-to-fix-arabic-persian-text-and-font-in-pygame)
 - [Devanagari text rendering improperly in PyGame](https://stackoverflow.com/questions/44254171/devanagari-text-rendering-improperly-in-pygame)
+
+## Ascii image
+
+Related Stack Overflow questions:
+
+- [How to display image and text at the same time in python (like SanctuaryRPG)?](https://stackoverflow.com/questions/67711739/how-to-display-image-and-text-at-the-same-time-in-python-like-sanctuaryrpg/67712339#67712339)
+  ![How to display image and text at the same time in python (like SanctuaryRPG)?](https://i.stack.imgur.com/VucC8.png)
+
+  :scroll: **[minimal example - Render ASCII text image](../../examples/minimal_examples/pygame_minimal_text_ascii_image.py)**
