@@ -355,4 +355,4 @@ Related Stack Overflow questions:
 
   :scroll: **[minimal example - Render ASCII text image](../../examples/minimal_examples/pygame_minimal_text_ascii_image.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-AsciiTextIamge](https://replit.com/@Rabbid76/PyGame-AsciiTextIamge#main.py)**
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-AsciiTextImage](https://replit.com/@Rabbid76/PyGame-AsciiTextIamge#main.py)**
