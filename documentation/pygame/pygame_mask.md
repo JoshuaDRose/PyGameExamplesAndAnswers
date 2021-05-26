@@ -54,6 +54,8 @@ Related Stack Overflow questions:
 - [Pygame mask collision only putting damage on base on first collision](https://stackoverflow.com/questions/67429383/pygame-mask-collision-only-putting-damage-on-base-on-first-collision/67429569#67429569)
   ![Pygame mask collision only putting damage on base on first collision](https://i.stack.imgur.com/eIynX.gif)
 
+- [Pygame mask collision. Using a transparent image as background not working](https://stackoverflow.com/questions/67560266/pygame-mask-collision-using-a-transparent-image-as-background-not-working/67560457#67560457)
+
 ## Circular mask
 
 Related Stack Overflow questions:
