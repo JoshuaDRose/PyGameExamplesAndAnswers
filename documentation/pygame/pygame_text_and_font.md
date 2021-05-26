@@ -354,3 +354,5 @@ Related Stack Overflow questions:
   ![How to display image and text at the same time in python (like SanctuaryRPG)?](https://i.stack.imgur.com/VucC8.png)
 
   :scroll: **[minimal example - Render ASCII text image](../../examples/minimal_examples/pygame_minimal_text_ascii_image.py)**
+
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-AsciiTextIamge](https://replit.com/@Rabbid76/PyGame-AsciiTextIamge#main.py)**
