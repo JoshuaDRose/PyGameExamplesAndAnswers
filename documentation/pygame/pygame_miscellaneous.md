@@ -175,6 +175,13 @@ Related Stack Overflow questions:
 
 ## Errors
 
+### Attribute error `_init_`
+
+Related Stack Overflow questions:
+
+- [What is causing this AttributeError?](https://stackoverflow.com/questions/9050542/what-is-causing-this-attributeerror)
+- [Pygame - Crashing when trying to shoot](https://stackoverflow.com/questions/50677749/pygame-crashing-when-trying-to-shoot)
+
 ### SDL errors
 
 Related Stack Overflow questions:
