@@ -79,4 +79,17 @@ At the end a comment about dirty mechanisms and partial screen updates: As soon 
 
 Related Stack Overflow questions:
 
-- [How can I stop my player from glitching through my platform?](https://stackoverflow.com/questions/67630796/how-can-i-stop-my-player-from-glitching-through-my-platform/67647476#67647476)
+- [How can I stop my player from glitching through my platform?](https://stackoverflow.com/questions/67630796/how-can-i-stop-my-player-from-glitching-through-my-platform/67647476#67647476)  
+- [How to overcome the problem of sprite trespassing floor due to acceleration in Pygame?](https://stackoverflow.com/questions/67761738/how-to-overcome-the-problem-of-sprite-trespassing-floor-due-to-acceleration-in-p/67762020#67762020)  
+
+> *"I thought about testing if the player's y coordinate is lower that 0, and then teleporting him to y = 0, but that feels like a really non elegant solution"* 
+
+This is the usual way. The collision stops the player from falling.
+
+> *"it also makes the player teleport for a frame."*
+
+ No it doesn't. You have to "teleport" the player plyer after the collision detection and before you draw it.
+
+You do the collision detection once in every frame. Once a collision is detected, you know that the player has hit an object at some point while moving  since the last frame. Instead of calculating the exact time when the player hits the object and stopping movement, you limit the player's position by the object.
+
+
