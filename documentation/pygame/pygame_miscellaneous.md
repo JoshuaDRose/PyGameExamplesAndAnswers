@@ -113,7 +113,6 @@ Related Stack Overflow questions:
 - [Draw a circle in Pygame using Tkinter](https://stackoverflow.com/questions/13545911/draw-a-circle-in-pygame-using-tkinter)
 - [Tkinter understanding mainloop](https://stackoverflow.com/questions/29158220/tkinter-understanding-mainloop)
 
-
 ## File management
 
 Related Stack Overflow questions:
@@ -172,6 +171,12 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Python debugging tips](https://stackoverflow.com/questions/1623039/python-debugging-tips)
+
+## Hardware issues
+
+Related Stack Overflow questions:
+
+- [Issue with multi keys being pressed at once for two player game](https://stackoverflow.com/questions/59914409/issue-with-multi-keys-being-pressed-at-once-for-two-player-game)
 
 ## Errors
 
