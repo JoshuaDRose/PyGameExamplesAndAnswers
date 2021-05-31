@@ -259,6 +259,9 @@ Related Stack Overflow questions:
 - [How to move the background image with keys in pygame?](https://stackoverflow.com/questions/61039508/how-to-move-the-background-image-with-keys-in-pygame/61039821#61039821)
 - [Pygame : Two layered scrolling background, can you help me?](https://stackoverflow.com/questions/55454487/pygame-two-layered-scrolling-background-can-you-help-me/55460386#55460386)
 
+- [How to move the player across a one background image?](https://stackoverflow.com/questions/67736156/how-to-move-the-player-across-a-one-background-image/67741682#67741682)  
+  ![How to move the player across a one background image?](https://i.stack.imgur.com/Mb09D.gif)
+
 If you want to have a continuously repeating background, then you've to draw the background twice:
 
 ```lang.none

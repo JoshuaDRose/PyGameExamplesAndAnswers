@@ -13,10 +13,45 @@ Related Stack Overflow questions:
 
 - [Why is alpha blending not working properly?](https://stackoverflow.com/questions/54342525/why-is-alpha-blending-not-working-properly-pygame/54348618#54348618)  
   ![Why is alpha blending not working properly?](https://i.stack.imgur.com/OiIzC.gif)
+
+  :scroll: **[Minimal example - Blend surfaces](../../examples/minimal_examples/pygame_minimal_blend_surface.py)**
+
 - [PyGame Negative Color / Surface](https://stackoverflow.com/questions/63665826/pygame-negative-color-surface/63665904#63665904)
+
 - [How can I remove the black of some of the tile textures](https://stackoverflow.com/questions/54428774/how-can-i-remove-the-black-of-some-of-the-tile-textures/54429784#54429784)  
 
-:scroll: **[Minimal example - Blend surfaces](../../examples/minimal_examples/pygame_minimal_blend_surface.py)**
+- [Pygame : How to get the Difference blending mode?](https://stackoverflow.com/questions/67737854/pygame-how-to-get-the-difference-blending-mode/67737939#67737939)  
+
+The blending mode can be changed by setting the optional _special_flags_ argument of [`pygame.Surface.blit`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.blit):
+
+> `blit(source, dest, area=None, special_flags=0) -> Rect`  
+> [...]  
+> New in pygame 1.8: Optional special_flags: `BLEND_ADD`, `BLEND_SUB`, `BLEND_MULT`, `BLEND_MIN`, `BLEND_MAX`.  
+> New in pygame 1.8.1: Optional special_flags: `BLEND_RGBA_ADD`, `BLEND_RGBA_SUB`, `BLEND_RGBA_MULT`, `BLEND_RGBA_MIN`, `BLEND_RGBA_MAX`, `BLEND_RGB_ADD`, `BLEND_RGB_SUB`, `BLEND_RGB_MULT`, `BLEND_RGB_MIN`, `BLEND_RGB_MAX`.  
+> New in pygame 1.9.2: Optional special_flags: `BLEND_PREMULTIPLIED`  
+> New in pygame 2.0.0: Optional special_flags: `BLEND_ALPHA_SDL2` [...]
+
+e.g.:
+
+```py
+screen.blit(image, (x, y), special_flags = pygame.BLEND_RGBA_SUB)
+```
+
+Unfortunately, Pygame doesn't have a blending mode that gives the absolute difference of 2 images. However it can be achieved with
+
+`MAX(SUB(image1, imgage2), SUB(image2, image1))`
+
+```py
+image1 = pygame.image.load('image2.png')
+image2 = pygame.image.load('image1.png')
+temp_image = image1.copy() 
+temp_image.blit(image2, (0, 0), special_flags = pygame.BLEND_RGBA_SUB)
+final_image = image2.copy() 
+final_image.blit(image1, (0, 0), special_flags = pygame.BLEND_RGBA_SUB)
+final_image.blit(temp_image, (0, 0), special_flags = pygame.BLEND_RGBA_MAX)
+```
+
+![blend mode difference](https://i.stack.imgur.com/KH59V.png)
 
 ### Transparency
 
