@@ -124,7 +124,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Slide and bounce](../../examples/minimal_examples/pygame_minimal_move_slide_and_bounce.py)**
 
-## Gravity and jump
+## jump
 
 Related Stack Overflow questions:
 
@@ -138,11 +138,6 @@ Related Stack Overflow questions:
 
 - [How to make a circular object jump using pygame?](https://stackoverflow.com/questions/62822322/how-to-make-a-circular-object-jump-using-pygame/62822601#62822601)  
   ![How to make a circular object jump using pygame?](https://i.stack.imgur.com/6BPnL.gif)
-
-- [Pygame Bouncy Ball Sinks Through Floor](https://stackoverflow.com/questions/64864966/pygame-bouncy-ball-sinks-through-floor/64865054#64865054)  
-  ![Pygame Bouncy Ball Sinks Through Floor](https://i.stack.imgur.com/ulJge.gif)
-
-- [How do you properly implement gravity to a free floating space object and some sort of friction when thrusting in opposite direction](https://stackoverflow.com/questions/65546677/how-do-you-properly-implement-gravity-to-a-free-floating-space-object-and-some-s/65548182#65548182)  
 
 - [Pygame sprite not moving while jumping](https://stackoverflow.com/questions/65583721/pygame-sprite-not-moving-while-jumping/65583922#65583922)  
   ![Pygame sprite not moving while jumping](https://i.stack.imgur.com/8uR7T.gif)  
@@ -158,6 +153,20 @@ Related Stack Overflow questions:
 
 - [Why can't I do a double jump/hop in Pygame?](https://stackoverflow.com/questions/67667103/why-cant-i-do-a-double-jump-hop-in-pygame/67667585#67667585)
   ![Why can't I do a double jump/hop in Pygame?](https://i.stack.imgur.com/9ICi5.gif)  
+
+## Gravity
+
+Related Stack Overflow questions:
+
+- [How do you properly implement gravity to a free floating space object and some sort of friction when thrusting in opposite direction](https://stackoverflow.com/questions/65546677/how-do-you-properly-implement-gravity-to-a-free-floating-space-object-and-some-s/65548182#65548182)
+
+- [Pygame Bouncy Ball Sinks Through Floor](https://stackoverflow.com/questions/64864966/pygame-bouncy-ball-sinks-through-floor/64865054#64865054)  
+  ![Pygame Bouncy Ball Sinks Through Floor](https://i.stack.imgur.com/ulJge.gif)  
+
+- [Pygame Curve Movement Problem How To Fix?](https://stackoverflow.com/questions/67766962/pygame-curve-movement-problem-how-to-fix/67777164#67777164)  
+  ![Pygame Curve Movement Problem How To Fix?](https://i.stack.imgur.com/sDD0g.gif)![Pygame Curve Movement Problem How To Fix?](https://i.stack.imgur.com/ZPXzi.gif)![Pygame Curve Movement Problem How To Fix?](https://i.stack.imgur.com/Ubji7.gif)  
+
+  :scroll: **[Minimal example - Gravitational force](../../examples/minimal_examples/pygame_minimal_move_gravitational_force.py)**
 
 ## Particles
 
