@@ -115,18 +115,18 @@ def chase(self):
 The [Dot product](https://en.wikipedia.org/wiki/Dot_product) of 2 vectors is equal the *cosine* of the angle between the 2 vectors multiplied by the magnitude (length) of both vectors.
 
 ```lang-none
-dot( A, B ) == | A | * | B | * cos( angle_A_B )
+dot(A, B) == | A | * | B | * cos(angle_A_B)
 ```
 
 This follows, that the *dot* product of 2 unit vectors is equal the *cosine* of the angle between the 2 vectors, because the length of a [unit vector](https://en.wikipedia.org/wiki/Unit_vector) is 1.
 
 ```lang-none
-uA = normalize( A )
-uB = normalize( B )
-cos( angle_A_B ) == dot( uA, uB )
+uA = normalize(A)
+uB = normalize(B)
+cos(angle_A_B) == dot(uA, uB)
 ```
 
-[![A dot B](https://i.stack.imgur.com/HUIrX.png)](https://i.stack.imgur.com/HUIrX.png)
+[![A dot B](https://i.stack.imgur.com/4ooWe.png)](https://i.stack.imgur.com/4ooWe.png)
 
 If 2 normalized vectors point in the same direction, then the dot product is 1, if the point in the opposite direction, the dot product is -1 and if the vectors are perpendicular then the dot product is 0.
 
