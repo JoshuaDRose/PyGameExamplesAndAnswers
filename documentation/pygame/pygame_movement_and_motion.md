@@ -154,6 +154,9 @@ Related Stack Overflow questions:
 - [Why can't I do a double jump/hop in Pygame?](https://stackoverflow.com/questions/67667103/why-cant-i-do-a-double-jump-hop-in-pygame/67667585#67667585)
   ![Why can't I do a double jump/hop in Pygame?](https://i.stack.imgur.com/9ICi5.gif)  
 
+- [I've created a basic platformer in pygame with no animations. I have used event handling for right and left movement but i cant add a jump mechanic](https://stackoverflow.com/questions/67760767/ive-created-a-basic-platformer-in-pygame-with-no-animations-i-have-used-event/67761435#67761435)  
+  ![I've created a basic platformer in pygame with no animations. I have used event handling for right and left movement but i cant add a jump mechanic](https://i.stack.imgur.com/ENVkS.gif)
+
 ## Gravity
 
 Related Stack Overflow questions:

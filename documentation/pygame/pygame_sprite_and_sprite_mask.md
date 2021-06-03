@@ -385,7 +385,9 @@ Related Stack Overflow questions:
 - [How to put a health bar over the sprite in pygame](https://stackoverflow.com/questions/64867475/how-to-put-a-health-bar-over-the-sprite-in-pygame/64878954#64878954)  
   ![How to put a health bar over the sprite in pygame](https://i.stack.imgur.com/eapda.gif)
 
-  :scroll: **[Minimal example - Drag Sprite](../../examples/minimal_examples/pygame_minimal_sprite_mouse_drag.py)**
+  :scroll: **[Minimal example - Drag Sprite](../../examples/minimal_examples/pygame_minimal_sprite_health_bar.py)**
+
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-HealthBar](https://replit.com/@Rabbid76/PyGame-HealthBar#main.py)**
   
 ## Copy (duplicate) sprites
 
