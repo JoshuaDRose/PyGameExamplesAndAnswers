@@ -10,6 +10,7 @@
     - [Answers](#answers)
         - [Add Answers](#add-answers)
             - [Joystick](#joystick)
+            - [Text](#text)
             - [Postponed](#postponed)
             - [Draw](#draw)
             - [Collision and intersection](#collision-and-intersection)
@@ -18,7 +19,7 @@
         - [Questions about video](#questions-about-video)
             - [Questions about size, and resizing](#questions-about-size-and-resizing)
         - [Not answered questions](#not-answered-questions)
-        - [Text](#text)
+        - [Text](#text-1)
         - [UI](#ui)
         - [3D](#3d)
         - [PyOpenGL](#pyopengl)
@@ -98,6 +99,10 @@ next:
 [Pygame Xbox One Controller](https://stackoverflow.com/questions/49887874/pygame-xbox-one-controller)  
 [Controller Support in PyGame](https://stackoverflow.com/questions/49987072/controller-support-in-pygame)  
 [Pygame: Analog trigger initial value is not the neutral trigger position](https://stackoverflow.com/questions/53267296/pygame-analog-trigger-initial-value-is-not-the-neutral-trigger-position)  
+
+#### Text
+
+[Text with a Drop-shadow](https://stackoverflow.com/users/5577765/rabbid76?tab=following)
 
 #### Postponed
 

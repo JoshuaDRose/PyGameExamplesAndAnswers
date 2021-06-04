@@ -13,4 +13,7 @@ Related Stack Overflow questions:
 - [Game of Life - Overwriting the current generation instead of updating to the next](https://stackoverflow.com/questions/56345720/game-of-life-overwriting-the-current-generation-instead-of-updating-to-the-nex/56364825#56364825)
 - [Conway's Game of life pygame implementation not working with a copy of the grid, not using numpy](https://stackoverflow.com/questions/62221456/conways-game-of-life-pygame-implementation-not-working-with-a-copy-of-the-grid/62221553#62221553)
 
-:scroll: **[Minimal example - Game of life](../../examples/minimal_examples/pygame_minimal_text_freetype_centered.py)**
+- [I'm trying to make conway game of life but something happening](https://stackoverflow.com/questions/67831700/im-trying-to-make-conway-game-of-life-but-something-happening/67832608#67832608)  
+  ![I'm trying to make conway game of life but something happening](https://i.stack.imgur.com/m4T5H.gif)
+
+:scroll: **[Minimal example - Game of life](../../examples/minimal_examples/pygame_minimal_game_of_life.py)**
