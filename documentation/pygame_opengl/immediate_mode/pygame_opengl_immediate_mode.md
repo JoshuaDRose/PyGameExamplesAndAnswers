@@ -98,6 +98,9 @@ The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a si
 [How to rotate a cube using mouse in pyopengl](https://stackoverflow.com/questions/59823131/how-to-rotate-a-cube-using-mouse-in-pyopengl/59823600#59823600)  
 ![How to rotate a cube using mouse in pyopengl](https://i.stack.imgur.com/zwhCC.gif)
 
+[Align individual objects in pyOpenGL to create a bigger aggregated object](https://stackoverflow.com/questions/58590491/align-individual-objects-in-pyopengl-to-create-a-bigger-aggregated-object/58594997#58594997)  
+![Align individual objects in pyOpenGL to create a bigger aggregated object](https://i.stack.imgur.com/vMqWn.gif)
+
 Examples:
 
 [individual object transformation](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_individual_transformation.py)
