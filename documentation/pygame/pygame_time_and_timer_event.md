@@ -156,7 +156,8 @@ Related Stack Overflow questions:
 
 - [how to handle time for different components in pygame](https://stackoverflow.com/questions/62151703/how-to-handle-time-for-different-components-in-pygame)
 - [How to make image stay on screen in pygame?](https://stackoverflow.com/questions/63718110/how-to-make-image-stay-on-screen-in-pygame/63726447#63726447)
-- [Time Delay and keeping track of the of # of click](https://stackoverflow.com/questions/65047229/time-delay-and-keeping-track-of-the-of-of-click/65047717#65047717)
+- [Time Delay and keeping track of the of # of click](https://stackoverflow.com/questions/65047229/time-delay-and-keeping-track-of-the-of-of-click/65047717#65047717)  
+- [How to know if the spacebar is pressed for more than 2 seconds in pygame](https://stackoverflow.com/questions/67800220/how-to-know-if-the-spacebar-is-pressed-for-more-than-2-seconds-in-pygame/67800253#67800253)  
 
 Calculate the point in time after that the explosion image has to be removed. Add the coordinates of the explosion and the end time point to the head of a list (`explosionList`). Draw the explosion(s) in the main application loop. Remove the expired explosions from the tail of the list.  
 With this algorithm it is possible to manage multiple explosions.
