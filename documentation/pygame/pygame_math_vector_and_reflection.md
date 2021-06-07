@@ -89,6 +89,7 @@ Related Stack Overflow questions:
 - [How to plot circles every 20 pixels between two randomly generated points in Pygame?](https://stackoverflow.com/questions/56245338/how-to-plot-circles-every-20-pixels-between-two-randomly-generated-points-in-pyg/56245525#56245525)
 - [How do I make an object spawned from the edge of the map follow a diagonal line towards the middle?](https://stackoverflow.com/questions/59726059/how-do-i-make-an-object-spawned-from-the-edge-of-the-map-follow-a-diagonal-line/59728884#59728884)
 - [How to get the angle between two vectors in pygame?](https://stackoverflow.com/questions/62871041/how-to-get-the-angle-between-two-vectors-in-pygame/62871200#62871200)
+- [How to compare 2 distances in Python, Pygame with lines to create a box?](https://stackoverflow.com/questions/67826935/how-to-compare-2-distances-in-python-pygame-with-lines-to-create-a-box/67827166#67827166)  
 
 I recommend to use [`pygame.math.Vector2`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2) and the function [`.distance_to()`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2.distance_to) to calculate the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) distance between 2 points.  
 
