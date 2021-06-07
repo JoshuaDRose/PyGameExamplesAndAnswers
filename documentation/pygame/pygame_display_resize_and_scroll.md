@@ -188,6 +188,8 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Display zoom](../../examples/minimal_examples/pygame_minimal_display_zoom.py)**
 
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-colliderect](https://replit.com/@Rabbid76/PyGame-colliderect#main.py)**
+
 > I'm wondering if there's a way I can globally scale everything up in my game without either having to scale each sprite up individually [...]"
 
 No there is no way. You have to scale each coordinate, each size and each surface individually. PyGame is made for images (Surfaces) and shapes in pixel units. Anyway up scaling an image will result in either a fuzzy, blurred or jagged (Minecraft) appearance.
@@ -217,7 +219,7 @@ while running:
 
 :scroll: [Minimal example - Scale up display window](../../examples/minimal_examples/pygame_minimal_dispaly_up_scale.py)
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-UpScaleDisplay](https://replit.com/@Rabbid76/PyGame-UpScaleDisplay#main.py)**
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ZoomInAndOut](https://replit.com/@Rabbid76/PyGame-ZoomInAndOut#main.py)**
 
 ## Coordinate system and transformations
 
