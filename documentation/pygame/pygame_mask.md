@@ -56,6 +56,8 @@ Related Stack Overflow questions:
 
 - [Pygame mask collision. Using a transparent image as background not working](https://stackoverflow.com/questions/67560266/pygame-mask-collision-using-a-transparent-image-as-background-not-working/67560457#67560457)
 
+- [Pygame masks Python](https://stackoverflow.com/questions/67846651/pygame-masks-python/67846703#67846703)  
+
 ## Selection and highlighting
 
 Related Stack Overflow questions:
