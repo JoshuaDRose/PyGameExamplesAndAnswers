@@ -56,6 +56,17 @@ Related Stack Overflow questions:
 
 - [Pygame mask collision. Using a transparent image as background not working](https://stackoverflow.com/questions/67560266/pygame-mask-collision-using-a-transparent-image-as-background-not-working/67560457#67560457)
 
+## Selection and highlighting
+
+Related Stack Overflow questions:
+
+- [How to add a white surface with the shape of my original image in pygame?](https://stackoverflow.com/questions/67884084/how-to-add-a-white-surface-with-the-shape-of-my-original-image-in-pygame/67889758#67889758)  
+  ![How to add a white surface with the shape of my original image in pygame?](https://i.stack.imgur.com/jnZNK.gif)
+
+  :scroll: **[Minimal example - Highlight object](../../examples/minimal_examples/pygame_minimal_mask_hightlighting.py)**
+
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-PyGame-HighlightObject-2](https://replit.com/@Rabbid76/PyGame-HighlightObject#main.py)**
+
 ## Circular mask
 
 Related Stack Overflow questions:
