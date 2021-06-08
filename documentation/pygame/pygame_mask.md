@@ -65,7 +65,7 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Highlight object](../../examples/minimal_examples/pygame_minimal_mask_hightlighting.py)**
 
-  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-PyGame-HighlightObject-2](https://replit.com/@Rabbid76/PyGame-HighlightObject#main.py)**
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-PyGame-HighlightObject](https://replit.com/@Rabbid76/PyGame-HighlightObject#main.py)**
 
 ## Circular mask
 
