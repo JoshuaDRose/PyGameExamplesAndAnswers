@@ -51,6 +51,10 @@ Related Stack Overflow questions:
 
 - [Pygame already installed; however, python terminal says “No module named 'pygame' ” (Ubuntu 20.04.1)](https://stackoverflow.com/questions/64016215/pygame-already-installed-however-python-terminal-says-no-module-named-pygame/64016373#64016373)
 
+### Android
+
+- [Pygame on Android](https://stackoverflow.com/questions/23934370/pygame-on-android)
+
 ### PyCharm
 
 - [Add pygame module in PyCharm IDE](https://stackoverflow.com/questions/28453854/add-pygame-module-in-pycharm-ide)  
