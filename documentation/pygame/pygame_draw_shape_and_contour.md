@@ -338,6 +338,8 @@ Related Stack Overflow questions:
   ![How can you make the previous line disappear in python?](https://i.stack.imgur.com/qcAOV.gif)
 - [How to use different colors for each line in pygame.draw.lines](https://stackoverflow.com/questions/67085359/how-to-use-different-colors-for-each-line-in-pygame-draw-lines/67085554#67085554)  
   ![How to use different colors for each line in pygame.draw.lines](https://i.stack.imgur.com/7zWbo.png)
+- [Generating and drawing sin wave using pygame](https://stackoverflow.com/questions/67874803/generating-and-drawing-sin-wave-using-pygame/67875045#67875045)  
+  ![Generating and drawing sin wave using pygame](https://i.stack.imgur.com/E5yaq.png)
 
 If you want to draw a polygon line with different colors for each segment, you need to draw each line segment separately. Write a function that uses a list of points and colors to draw the line:
 
