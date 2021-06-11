@@ -76,3 +76,10 @@ Related Stack Overflow questions:
   ![Trying to code the Recaman Sequence, but issue with the parameters I pass for drawing an arc](https://i.stack.imgur.com/R77eo.png)
 
   :scroll: **[Minimal example - Recaman's sequence](../../examples/minimal_examples/pygame_minimal_2D_racamans_sequence.py)**
+
+## Glow, bloom, neon
+
+Related Stack Overflow questions:
+
+- [Neon effect in pygame?](https://stackoverflow.com/questions/67933919/neon-effect-in-pygame/67934335#67934335)  
+  ![Neon effect in pygame?](https://i.stack.imgur.com/RN95m.png)
