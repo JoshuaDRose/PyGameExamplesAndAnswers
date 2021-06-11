@@ -21,6 +21,7 @@
         - [Not answered questions](#not-answered-questions)
         - [Text](#text-1)
         - [UI](#ui)
+        - [Glow, bloom, neon](#glow-bloom-neon)
         - [3D](#3d)
         - [PyOpenGL](#pyopengl)
         - [Threading](#threading)
@@ -185,6 +186,10 @@ next:
 ### UI
 
 [combobox in pygame, python 2.7](https://stackoverflow.com/questions/54410085/combobox-in-pygame-python-2-7)
+
+### Glow, bloom, neon
+
+[Bloom Effect in Pygame so that text glows](https://stackoverflow.com/questions/67561142/bloom-effect-in-pygame-so-that-text-glows)
 
 ### 3D
 
