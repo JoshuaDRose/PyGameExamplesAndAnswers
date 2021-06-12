@@ -204,7 +204,7 @@ Related Stack Overflow questions:
 - [I made a border in this pong game, but the paddles can cross it. How do I stop that?](https://stackoverflow.com/questions/63607681/i-made-a-border-in-this-pong-game-but-the-paddles-can-cross-it-how-do-i-stop-t/63609229#63609229)  
 - [How do you get pygame to give warning when player touches side of screen?](https://stackoverflow.com/questions/65279570/how-do-you-get-pygame-to-give-warning-when-player-touches-side-of-screen/65279636#65279636)  
 - [Colour Changing Bouncing Ball](https://stackoverflow.com/questions/60312365/colour-changing-bouncing-ball/60315375#60315375)  
-![Colour Changing Bouncing Ball](https://i.stack.imgur.com/Bz0cu.gif)
+![Colour Changing Bouncing Ball](https://i.stack.imgur.com/Bz0cu.gif)   
 
 :scroll: **[Minimal example - Restrict object to frame](../../examples/minimal_examples/pygame_minimal_intersect_frame_clamp.py)**
 
@@ -454,11 +454,14 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [How do I avoid an glitchy collision between circle and rectangle in PyGame?](https://stackoverflow.com/questions/58139771/pygame-pong-collision-glithcy/58145450#58145450)  
+- [How do I avoid an glitchy collision between circle and rectangle in PyGame?](https://stackoverflow.com/questions/58139771/how-do-i-avoid-an-glitchy-collision-between-circle-and-rectangle-in-pygame/58145450#58145450)  
   ![How do I avoid an glitchy collision between circle and rectangle in PyGame?](https://i.stack.imgur.com/ekmV6.gif)
   ![How do I avoid an glitchy collision between circle and rectangle in PyGame?](https://i.stack.imgur.com/30mEF.gif)
 
   :scroll: **[Minimal example - Avoid glitchy collision between circle and rectangle](../../examples/minimal_examples/pygame_minimal_intersect_circle_rectangle_1.py)**
+
+- [how do i make the ball bounce off of the all the rectangles sides](https://stackoverflow.com/questions/67890481/how-do-i-make-the-ball-bounce-off-of-the-all-the-rectangles-sides/67906560#67906560)  
+  ![how do i make the ball bounce off of the all the rectangles sides](https://i.stack.imgur.com/JcF91.gif) 
 
 - [Issue finding side of collision for Circle-Rectangle collision](https://stackoverflow.com/questions/61718259/issue-finding-side-of-collision-for-circle-rectangle-collision/61719115#61719115)  
   ![Issue finding side of collision for Circle-Rectangle collision](https://i.stack.imgur.com/J1lc1.gif)
