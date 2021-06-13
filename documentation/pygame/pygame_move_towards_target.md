@@ -64,7 +64,7 @@ else:
     self.dir = (self.dir[0]/length, self.dir[1]/length)
 ```
 
-Compute the angle of the vector and rotate the bullet. In general, the angle of a vector can be computed by `atan2(y, x)`. The y-axis needs to be reversed (`atan2(-y, x)`) as the y-axis generally points up, but in the PyGame coordinate system the y-axis points down (see [How to know the angle between two points?](https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-points/64563327#64563327)):
+Compute the angle of the vector and rotate the bullet. In general, the angle of a vector can be computed by `atan2(y, x)`. The y-axis needs to be reversed (`atan2(-y, x)`) as the y-axis generally points up, but in the PyGame coordinate system the y-axis points down (see [How to know the angle between two vectors?](https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-vectors/64563327#64563327)):
 
 ```py
 angle = math.degrees(math.atan2(-self.dir[1], self.dir[0]))

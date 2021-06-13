@@ -1,8 +1,8 @@
 # pygame.math module, pygame.math.Vector2 object
 # https://www.pygame.org/docs/ref/math.html
 #
-# How to know the angle between two points?
-# https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-points/64563327#64563327
+# How to know the angle between two vectors?
+# https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-vectors/64563327#64563327
 #
 # GitHub - PyGameExamplesAndAnswers - Vector - Angle between vectors
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_math_vector_and_reflection.md

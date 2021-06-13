@@ -27,11 +27,11 @@ If you want something to be drawn permanently, you need to draw it in the applic
 
 The typical PyGame application loop has to:
 
-- handle the events by either [`pygame.event.pump()`](https://www.pygame.org/docs/ref/event.html#pygame.event.pump) or [`pygame.event.get()`](https://www.pygame.org/docs/ref/event.html#pygame.event.get).
+- handle the events by calling either [`pygame.event.pump()`](https://www.pygame.org/docs/ref/event.html#pygame.event.pump) or [`pygame.event.get()`](https://www.pygame.org/docs/ref/event.html#pygame.event.get).
 - update the game states and positions of objects dependent on the input events and time (respectively frames)
 - clear the entire display or draw the background
 - draw the entire scene (`blit` all the objects)
-- update the display by either [`pygame.display.update()`](https://www.pygame.org/docs/ref/display.html#pygame.display.update) or [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygame.display.flip)
+- update the display by calling either [`pygame.display.update()`](https://www.pygame.org/docs/ref/display.html#pygame.display.update) or [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygame.display.flip)
 - limit the frames per second to limit CPU usage with [`pygame.time.Clock.tick`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock)
 
 ```py

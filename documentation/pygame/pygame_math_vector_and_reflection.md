@@ -34,7 +34,7 @@ if v.x != 0 or v.y != 0:
 
 Related Stack Overflow questions:
 
-- [How to know the angle between two points?](https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-points/64563327#64563327)
+- [How to know the angle between two vectors??](https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-vectors/64563327#64563327)
 
 - [How do I find the coordinates of a point on a circle in PyGame?](https://stackoverflow.com/questions/67197763/how-do-i-find-the-coordinates-of-a-point-on-a-circle-in-pygame/67198226#67198226)  
   ![How do I find the coordinates of a point on a circle in PyGame?](https://i.stack.imgur.com/jaJRV.gif)
@@ -66,7 +66,7 @@ def angle_of_line(x1, y1, x2, y2):
 
 :scroll: **[Minimal example - Calculate angle of vector animation](../../examples/minimal_examples/pygame_minimal_math_vector_angle_of_vector.py)**
 
-![How to know the angle between two points?](https://i.stack.imgur.com/Sb5p3.gif)
+![How to know the angle between two vectors?](https://i.stack.imgur.com/Sb5p3.gif)
 
 [`angle_to`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2.angle_to) can be used to calculate the angle between 2 vectors or lines:
 
@@ -77,7 +77,7 @@ def angle_between_vectors(x1, y1, x2, y2):
 
 :scroll: **[Minimal example - Calculate angle between vector animation](../../examples/minimal_examples/pygame_minimal_math_vector_angle_between_vectors.py)**
 
-![How to know the angle between two points?](https://i.stack.imgur.com/fW3WH.gif)
+![How to know the angle between two vectors?](https://i.stack.imgur.com/fW3WH.gif)
 
 ## Dot product
 
