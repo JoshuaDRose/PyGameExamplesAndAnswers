@@ -429,7 +429,7 @@ FPS = 60
 run = True
 clock = pygame.time.Clock()
 while run:
-    ms_frame = clock .tick(FPS)
+    ms_frame = clock .tick()
     move_per_frame = move_per_second * ms_frame / 1000  
 
     # [...]

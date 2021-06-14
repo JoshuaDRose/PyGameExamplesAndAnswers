@@ -264,6 +264,9 @@ Related Stack Overflow questions:
 - [How to move the player across a one background image?](https://stackoverflow.com/questions/67736156/how-to-move-the-player-across-a-one-background-image/67741682#67741682)  
   ![How to move the player across a one background image?](https://i.stack.imgur.com/Mb09D.gif)
 
+- [How to continuously move an image smoothly in Pygame?](https://stackoverflow.com/questions/67944873/how-to-continuously-move-an-image-smoothly-in-pygame/67946424#67946424)  
+  ![How to continuously move an image smoothly in Pygame?](https://i.stack.imgur.com/7Rexy.gif)
+
 If you want to have a continuously repeating background, then you've to draw the background twice:
 
 ```lang.none
