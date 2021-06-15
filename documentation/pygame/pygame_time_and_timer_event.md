@@ -439,7 +439,8 @@ while run:
 
 Related Stack Overflow questions:
 
-- [Why do I get a constant 0 fps in pygame](https://stackoverflow.com/questions/65346173/why-do-i-get-a-constant-0-fps-in-pygame/65346222#65346222)
+- [Why do I get a constant 0 fps in pygame](https://stackoverflow.com/questions/65346173/why-do-i-get-a-constant-0-fps-in-pygame/65346222#65346222)  
+- [Show FPS in Pygame](https://stackoverflow.com/questions/67946230/show-fps-in-pygame/67946908#67946908)  
 
 See [`get_fps()`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock.get_fps):
 

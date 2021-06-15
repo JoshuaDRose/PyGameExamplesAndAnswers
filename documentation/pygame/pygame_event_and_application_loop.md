@@ -82,7 +82,7 @@ Related Stack Overflow questions:
 - [What is the difference between .quit and .QUIT in pygame](https://stackoverflow.com/questions/67526054/what-is-the-difference-between-quit-and-quit-in-pygame/67526103#67526103)  
 - [I keep getting this error “pygame.error: display Surface quit” and dont know what to do](https://stackoverflow.com/questions/62887724/i-keep-getting-this-error-pygame-error-display-surface-quit-and-dont-know-wha/62888228#62888228)  
 - [why is the exit window button work but the exit button in the game does not work?](https://stackoverflow.com/questions/55348418/why-is-the-exit-window-button-work-but-the-exit-button-in-the-game-does-not-work/55350638#55350638)  
-- [pygame.error: display Surface quit - WHY IS THIS HAPPENING?](https://stackoverflow.com/questions/62457460/pygame-error-display-surface-quit-why-is-this-happening/65528817#65528817)
+- [pygame window closes immediatly after opening up](https://stackoverflow.com/questions/63684180/pygame-window-closes-immediatly-after-opening-up)
 
 ### Wait and input in application loop
 
