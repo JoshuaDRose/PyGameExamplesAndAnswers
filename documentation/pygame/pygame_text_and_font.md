@@ -114,6 +114,13 @@ screen.blit(text, text_rect)
 
 ![python library pygame: centering text](https://i.stack.imgur.com/tWcUe.png)
 
+## Blinking text
+
+Related Stack Overflow questions:
+
+- [How to make a text blink in PyGame?](https://stackoverflow.com/questions/68019153/how-to-make-a-text-blink-in-pygame/68019222#68019222)  
+  ![How to make a text blink in PyGame?](https://i.stack.imgur.com/HbfMp.gif)
+
 ## Text
 
 Related Stack Overflow questions:
