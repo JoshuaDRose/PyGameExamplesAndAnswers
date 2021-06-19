@@ -218,7 +218,8 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Check whether a song has finished playing in pygame](https://stackoverflow.com/questions/65856144/check-whether-a-song-has-finished-playing-in-pygame/65857359#65857359)
+- [Check whether a song has finished playing in pygame](https://stackoverflow.com/questions/65856144/check-whether-a-song-has-finished-playing-in-pygame/65857359#65857359)  
+- [How to continue a sound in Pygame?](https://stackoverflow.com/questions/67978279/how-to-continue-a-sound-in-pygame/67980060#67980060)  
 
 ## Unload music resources
 

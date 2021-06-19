@@ -386,6 +386,7 @@ Related Stack Overflow questions:
 - [Pygame wait for screen to update](https://stackoverflow.com/questions/60029598/pygame-wait-for-screen-to-update/60030315#60030315)
 - [I am having lag problems with this simple game I made in Pygame, Python 3. How can I fix this?](https://stackoverflow.com/questions/58263322/i-am-having-lag-problems-with-this-simple-game-i-made-in-pygame-python-3-how-c/58263682#58263682)
 - [Pygame running differently from different python interpreters](https://stackoverflow.com/questions/65274217/pygame-running-differently-from-different-python-interpreters/65274248#65274248)  
+- [How to have unlimited FPS and still control the FPS of your program in Pygame?](https://stackoverflow.com/questions/67977386/how-to-have-unlimited-fps-and-still-control-the-fps-of-your-program-in-pygame/67977432#67977432)  
 
 Use [`pygame.time.Clock`](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock.tick) to control the frames per second and thus the game speed.  
 
