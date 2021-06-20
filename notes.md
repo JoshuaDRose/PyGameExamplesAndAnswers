@@ -86,6 +86,7 @@
 
 next:
 
+[Typewriter Effect Pygame](https://stackoverflow.com/questions/41101662/typewriter-effect-pygame)  
 [Pygame water ripple effect](https://stackoverflow.com/questions/7648072/pygame-water-ripple-effect)  
 [Pygame water physics not working as intended](https://stackoverflow.com/questions/62499733/pygame-water-physics-not-working-as-intended)  
 
