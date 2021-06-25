@@ -12,6 +12,7 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 Related Stack Overflow questions:
 
 - [Python display text with font & color?](https://stackoverflow.com/questions/10077644/python-display-text-with-font-color/64487335#64487335)
+- [How to display text in pygame?](https://stackoverflow.com/questions/20842801/how-to-display-text-in-pygame)  
 - [How to scale the font size in pygame based on display resolution?](https://stackoverflow.com/questions/56855775/how-to-scale-the-font-size-in-pygame-based-on-display-resolution/56857032#56857032)
 - [I need to add text to my rectangles, how would I do this?](https://stackoverflow.com/questions/55511081/i-need-to-add-text-to-my-rectangles-how-would-i-do-this/55521100#55521100)
 - [How to display some text in pygame?](https://stackoverflow.com/questions/58695609/how-to-display-some-text-in-pygame/58695757#58695757)
