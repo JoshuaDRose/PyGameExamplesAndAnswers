@@ -77,6 +77,7 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/67711739/how-to-display-image-and-text-at-the-same-time-in-python-like-sanctuaryrpg/67712339#67712339"><img src="https://i.stack.imgur.com/VucC8.gif" height="100" title="ASCII text image"></a><!--
 --><a href="https://stackoverflow.com/questions/67766962/pygame-curve-movement-problem-how-to-fix/67777164#67777164"><img src="https://i.stack.imgur.com/sDD0g.gif" height="100" title="Gravitational force"></a><!--
 --><a href="https://stackoverflow.com/questions/67884084/how-to-add-a-white-surface-with-the-shape-of-my-original-image-in-pygame/67889758#67889758"><img src="https://i.stack.imgur.com/jnZNK.gif" height="100" title="Hightlight object"></a><!--
+--><a href="https://stackoverflow.com/questions/68128389/how-to-separately-change-the-opacity-of-a-text-on-a-button-pygame/68128949#68128949"><img src="https://i.stack.imgur.com/dW5OU.png" height="100" title="Text transparent background"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  
