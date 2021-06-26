@@ -336,10 +336,6 @@ Related Stack Overflow questions:
 [Pygame Lever Images Display On Key Click Problem](https://stackoverflow.com/questions/65908309/pygame-lever-images-display-on-key-click-problem/65908602#65908602)  
 ![Pygame Lever Images Display On Key Click Problem](https://i.stack.imgur.com/6Uq9o.gif)
 
-[Pygame sprites overlapping issue](https://stackoverflow.com/questions/66291255/pygame-sprites-overlapping-issue/66291672#66291672)  
-![Pygame sprites overlapping issue](https://i.stack.imgur.com/Su2mJ.gif)
-![Pygame sprites overlapping issue](https://i.stack.imgur.com/MytEF.gif)
-
 [Adding rects in list for displaying in 7-segment digits in pygame](https://stackoverflow.com/questions/66533451/adding-rects-in-list-for-displaying-in-7-segment-digits-in-pygame/66533802#66533802)  
 ![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/8JVdm.png)  
 ![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/hrDQr.png)  
