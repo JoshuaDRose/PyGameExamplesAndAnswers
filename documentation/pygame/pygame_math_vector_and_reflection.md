@@ -34,7 +34,7 @@ if v.x != 0 or v.y != 0:
 
 Related Stack Overflow questions:
 
-- [How to know the angle between two vectors??](https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-vectors/64563327#64563327)
+- [How to know the angle between two vectors?](https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-vectors/64563327#64563327)
 
 - [How do I find the coordinates of a point on a circle in PyGame?](https://stackoverflow.com/questions/67197763/how-do-i-find-the-coordinates-of-a-point-on-a-circle-in-pygame/67198226#67198226)  
   ![How do I find the coordinates of a point on a circle in PyGame?](https://i.stack.imgur.com/jaJRV.gif)

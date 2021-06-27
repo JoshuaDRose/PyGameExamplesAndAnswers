@@ -274,6 +274,8 @@ Related Stack Overflow questions:
 
 - [How do you load all images at a time in pygame?](https://stackoverflow.com/questions/67141356/how-do-you-load-all-images-at-a-time-in-pygame/67141422#67141422)
 
+  :scroll: **[Minimal example - Load all images from directory](../../examples/minimal_examples/pygame_minimal_surface_load_all_From_directory.py)**
+
 Get a list of all the files in the directory (see [os](https://docs.python.org/3/library/os.html)) and create a dictionary with the loaded files:
 
 ```py
