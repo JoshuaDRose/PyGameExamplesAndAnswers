@@ -173,7 +173,22 @@ Related Stack Overflow questions:
 
 ## Particles
 
+Related Stack Overflow questions:
+
 - [Projectile motion and gravity in pygame only sometimes working](https://stackoverflow.com/questions/55822116/projectile-motion-and-gravity-in-pygame-only-sometimes-working/55836374#55836374)  
   ![Projectile motion and gravity in pygame only sometimes working](https://i.stack.imgur.com/MxE2C.gif)
 
   :scroll: **[Minimal example - Particle explosion](../../examples/minimal_examples/pygame_minimal_move_particle_explosion.py)**
+
+## Physics
+
+Related Stack Overflow questions:
+
+- [Pygame sprites overlapping issue](https://stackoverflow.com/questions/66291255/pygame-sprites-overlapping-issue/66291672#66291672)  
+- ![Pygame sprites overlapping issue](https://i.stack.imgur.com/Su2mJ.gif)
+- ![Pygame sprites overlapping issue](https://i.stack.imgur.com/MytEF.gif)
+
+- [Pygame object instance speed increases](https://stackoverflow.com/questions/66943486/pygame-object-instance-speed-increases)  
+  [Python Pygame Making a ball push another ball](https://stackoverflow.com/questions/66721398/python-pygame-making-a-ball-push-another-ball)  
+
+  :scroll: **[Minimal example - Follow player](../../examples/minimal_examples/pygame_minimal_move_follow_6.py)**

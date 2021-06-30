@@ -12,6 +12,7 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 Related Stack Overflow questions:
 
 - [Python display text with font & color?](https://stackoverflow.com/questions/10077644/python-display-text-with-font-color/64487335#64487335)
+- [How to display text in pygame?](https://stackoverflow.com/questions/20842801/how-to-display-text-in-pygame)  
 - [How to scale the font size in pygame based on display resolution?](https://stackoverflow.com/questions/56855775/how-to-scale-the-font-size-in-pygame-based-on-display-resolution/56857032#56857032)
 - [I need to add text to my rectangles, how would I do this?](https://stackoverflow.com/questions/55511081/i-need-to-add-text-to-my-rectangles-how-would-i-do-this/55521100#55521100)
 - [How to display some text in pygame?](https://stackoverflow.com/questions/58695609/how-to-display-some-text-in-pygame/58695757#58695757)
@@ -287,7 +288,8 @@ Creating a font object is very time consuming because the font file has to be re
 
 Related Stack Overflow questions:
 
-- [Python - Pygame - rendering translucent text](https://stackoverflow.com/questions/20620109/how-to-render-transparent-text-with-alpha-channel-in-pygame/64552616#64552616)
+- [Python - Pygame - rendering translucent text](https://stackoverflow.com/questions/20620109/how-to-render-transparent-text-with-alpha-channel-in-pygame/64552616#64552616)  
+- [How to separately change the opacity of a text on a button pygame?](https://stackoverflow.com/questions/68128389/how-to-separately-change-the-opacity-of-a-text-on-a-button-pygame/68128949#68128949)  
 
 When using the [`pygame.font`](https://www.pygame.org/docs/ref/font.html#pygame.font) module, the alpha channel of the text color is not taken into account when rendering a text, but see [`pygame.font.Font.render`](https://www.pygame.org/docs/ref/font.html#pygame.font.SysFont):
 
@@ -337,6 +339,12 @@ ft_font.render_to(window, (x, y), 'test text', (255, 0, 0, 128))
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TransparentFreeTypeText](https://replit.com/@Rabbid76/PyGame-TransparentFreeTypeText#main.py)**
 
 ![Python - Pygame - rendering translucent text](https://i.stack.imgur.com/AqOrH.png)
+
+:scroll: **[minimal example - Render transparent text with transparent background](../../examples/minimal_examples/pygame_minimal_text_font_trasparent_background.py)**
+
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TextTransparentBackground](https://replit.com/@Rabbid76/PyGame-TextTransparentBackground#main.py)**
+
+![Python - Pygame - rendering text with transparent background](https://i.stack.imgur.com/dW5OU.png)
 
 ## Anti-Aliasing
 

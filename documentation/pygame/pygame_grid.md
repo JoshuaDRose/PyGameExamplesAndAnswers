@@ -88,3 +88,33 @@ Related Stack Overflow quest
 
 - [How to convert an image in pygame to a numpy array or to a number?](https://stackoverflow.com/questions/67238820/how-to-convert-an-image-in-pygame-to-a-numpy-array-or-to-a-number/67239880#67239880)  
 - [KeyError when trying to blit image on to screen from Numpy array in Pygame](https://stackoverflow.com/questions/67249974/keyerror-when-trying-to-blit-image-on-to-screen-from-numpy-array-in-pygame/67254177#67254177)
+
+```py
+import numpy
+
+board = [
+    ["bR", "bN", "bB", "bQ", "bK", "bB", "bN", "bR"],
+    ["bp", "bp", "bp", "bp", "bp", "bp", "bp", "bp"],
+    ["--", "--", "--", "--", "--", "--", "--", "--"],
+    ["--", "--", "--", "--", "--", "--", "--", "--"],
+    ["--", "--", "--", "--", "--", "--", "--", "--"],
+    ["--", "--", "--", "--", "--", "--", "--", "--"],
+    ["wp", "wp", "wp", "wp", "wp", "wp", "wp", "wp"],
+    ["wR", "wN", "wB", "wQ", "wK", "wB", "wN", "wR"]
+]
+
+values, indices = numpy.unique(board, return_inverse=True)
+indices = indices.reshape((8, 8))
+
+print(values, '\n')
+print(indices)
+
+lookup = {
+    "--": 0,
+    "wK": 1, "wQ": 2, "wR": 3, "wB": 4, "wN": 5, "wp": 6,
+    "bK": 7, "bQ": 8, "bR": 9, "bB": 10, "bN": 11, "bp": 12 
+}
+indices = numpy.array([[lookup[p] for p in row] for row in board])
+
+print(indices)
+```  

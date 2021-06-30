@@ -46,3 +46,5 @@ Related Stack Overflow questions:
 
 - [Pygame won't draw quads in the right order](https://stackoverflow.com/questions/67143657/pygame-wont-draw-quads-in-the-right-order/67146073#67146073)  
   ![Pygame won't draw quads in the right order](https://i.stack.imgur.com/pKxTT.gif)
+
+  :scroll: **[Minimal example - 3D Cube, gfxdraw module](../../examples/minimal_examples/pygame_minimal_3D_cube_gfxdraw.py)**

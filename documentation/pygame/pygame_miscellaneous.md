@@ -236,6 +236,7 @@ Related Stack Overflow questions:
 
 - [Local variable referenced before assignment?](https://stackoverflow.com/questions/18002794/local-variable-referenced-before-assignment)  
 - [Python pygame - bouncing ball (UnboundLocalError: local variable 'move_y' referenced before assignment)](https://stackoverflow.com/questions/65153237/python-pygame-bouncing-ball-unboundlocalerror-local-variable-move-y-refere/65154942#65154942)
+- [Using global variables in a function](https://stackoverflow.com/questions/423379/using-global-variables-in-a-function)  
 
 In Python, a variable declared outside of the function or in global scope is known as a global variable. This means that a global variable can be accessed inside or outside of the function.  
 A variable declared inside the function's body or in the local scope is known as a local variable.  
@@ -335,10 +336,6 @@ Related Stack Overflow questions:
 
 [Pygame Lever Images Display On Key Click Problem](https://stackoverflow.com/questions/65908309/pygame-lever-images-display-on-key-click-problem/65908602#65908602)  
 ![Pygame Lever Images Display On Key Click Problem](https://i.stack.imgur.com/6Uq9o.gif)
-
-[Pygame sprites overlapping issue](https://stackoverflow.com/questions/66291255/pygame-sprites-overlapping-issue/66291672#66291672)  
-![Pygame sprites overlapping issue](https://i.stack.imgur.com/Su2mJ.gif)
-![Pygame sprites overlapping issue](https://i.stack.imgur.com/MytEF.gif)
 
 [Adding rects in list for displaying in 7-segment digits in pygame](https://stackoverflow.com/questions/66533451/adding-rects-in-list-for-displaying-in-7-segment-digits-in-pygame/66533802#66533802)  
 ![Adding rects in list for displaying in 7-segment digits in pygame](https://i.stack.imgur.com/8JVdm.png)  
