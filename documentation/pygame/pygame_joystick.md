@@ -6,9 +6,12 @@
 
 Related Stack Overflow questions:
 
-- [how to make sprite move upwards and downwards with joystick in PyGame](https://stackoverflow.com/questions/54677539/how-to-make-sprite-move-upwards-and-downwards-with-joystick-in-pygame/54679667#54679667)
-- [How to get USB controller/gamepad to work with python](https://stackoverflow.com/questions/60309652/how-to-get-usb-controller-gamepad-to-work-with-python/60323121#60323121)
+- [how to make sprite move upwards and downwards with joystick in PyGame](https://stackoverflow.com/questions/54677539/how-to-make-sprite-move-upwards-and-downwards-with-joystick-in-pygame/54679667#54679667)  
+  ![how to make sprite move upwards and downwards with joystick in PyGame](https://i.stack.imgur.com/VXFfF.gif)
 
+- [problems with pygame controller support](https://stackoverflow.com/questions/68218005/problems-with-pygame-controller-support/68219654#68219654)  
+  ![problems with pygame controller support](https://i.stack.imgur.com/eZlPa.gif)
+  
 ```py
 joystick = None
 run  = True
@@ -27,3 +30,9 @@ while run:
             joystick.init()
             print("joystick initialized")
 ```
+
+## USB joystick
+
+Related Stack Overflow questions:
+
+- [How to get USB controller/gamepad to work with python](https://stackoverflow.com/questions/60309652/how-to-get-usb-controller-gamepad-to-work-with-python/60323121#60323121)

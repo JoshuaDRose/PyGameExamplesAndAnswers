@@ -447,3 +447,11 @@ def drawArcCv2(surf, color, center, radius, width, end_angle):
     circle_surface = pygame.image.frombuffer(circle_image.flatten(), (radius*2+4, radius*2+4), 'RGBA')
     surf.blit(circle_surface, circle_surface.get_rect(center = center))
 ```
+
+## Wireframe shape
+
+Related Stack Overflow questions:
+
+- [Expand wireframe 3d shape made in pygame](https://stackoverflow.com/questions/68204153/expand-wireframe-3d-shape-made-in-pygame/68204459#68204459)  
+  ![Expand wireframe 3d shape made in pygame](https://i.stack.imgur.com/GaaXb.png)
+
