@@ -138,7 +138,10 @@ Related Stack Overflow questions:
 
 - [How to save an image with the outline text using pygame?](https://stackoverflow.com/questions/66154735/how-to-save-an-image-with-the-outline-text-using-pygame/66157210#66157210)  
   ![How to save an image with the outline text using pygame?](https://i.stack.imgur.com/LTDG4.png)  
-  ![How to save an image with the outline text using pygame?](https://i.stack.imgur.com/sSd7Y.png)  
+  ![How to save an image with the outline text using pygame?](https://i.stack.imgur.com/sSd7Y.png) 
+
+- [How to add a blinking cursor in pygame?](https://stackoverflow.com/questions/68176808/how-to-add-a-blinking-cursor-in-pygame/68181209#68181209)  
+  ![How to add a blinking cursor in pygame?](https://i.stack.imgur.com/9OEc6.gif)  
 
 - [How to create a text input box with pygame?](https://stackoverflow.com/questions/46390231/how-to-create-a-text-input-box-with-pygame/64613666#64613666)  
   [How to make a string's content appears on screen as we type on keyboard?](https://stackoverflow.com/questions/60455692/how-to-make-a-strings-content-appears-on-screen-as-we-type-on-keyboard/60456556#60456556)  
