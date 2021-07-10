@@ -166,6 +166,7 @@ Related Stack Overflow questions:
 - [Python : What is the better way to make multiple loops in pygame?](https://stackoverflow.com/questions/57908287/python-what-is-the-better-way-to-make-multiple-loops-in-pygame)  
 - [How to add pause mode to Python program](https://stackoverflow.com/questions/56040906/how-to-add-pause-mode-to-python-program/56046554#56046554)  
 - [Making a pause screen](https://stackoverflow.com/questions/66765850/making-a-pause-screen/66766232#66766232)  
+- [Pygame how to enable and disable a function with the same key?](https://stackoverflow.com/questions/68257536/pygame-how-to-enable-and-disable-a-function-with-the-same-key/68258178#68258178)  
 
 ### Recursiveness
 
