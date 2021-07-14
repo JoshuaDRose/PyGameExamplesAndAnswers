@@ -116,6 +116,9 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Slide and bounce](../../examples/minimal_examples/pygame_minimal_move_slide_1.py)**
 
+- [Acceleration and Deceleration in pygame](https://stackoverflow.com/questions/68333521/acceleration-and-deceleration-in-pygame/68333687#68333687)  
+  ![Acceleration and Deceleration in pygame](https://i.stack.imgur.com/KcdXR.gif)
+
 - [Pygame game help: Easing/Acceleration](https://stackoverflow.com/questions/59629452/pygame-game-help-easing-acceleration/59629532#59629532)  
   ![Pygame game help: Easing/Acceleration](https://i.stack.imgur.com/uWHyo.gif)
 
