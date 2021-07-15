@@ -74,6 +74,9 @@ Related Stack Overflow questions:
 
 - [pygame.transform.scale does not work on the “game” surface](https://stackoverflow.com/questions/56407891/pygame-transform-scale-does-not-work-on-the-game-surface/56408482#56408482)
 
+- [Pygame cannot make image bigger over time](https://stackoverflow.com/questions/68395844/pygame-cannot-make-image-bigger-over-time/68395966#68395966)  
+  ![Pygame cannot make image bigger over time](https://i.stack.imgur.com/BhC52.gif)  
+
 Define a zoom factor and calculate the size of the of the zoom area. e.g. If the zoom factor is 2, the area that needs to be zoomed on the window is half the width and height of the window:
 
 ```py
