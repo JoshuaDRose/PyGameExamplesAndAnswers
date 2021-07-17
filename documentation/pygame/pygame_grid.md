@@ -55,8 +55,8 @@ Related Stack Overflow quest
 
 - [how can I edit a sudoku grid in pygame using mouse and keyboard detection?](https://stackoverflow.com/questions/62345206/how-can-i-edit-a-sudoku-grid-in-pygame-using-mouse-and-keyboard-detection/62345586#62345586)
 
-- [Colour chainging problem and non dupicates](https://stackoverflow.com/questions/63538350/colour-chainging-problem-and-non-dupicates/63538548#63538548)  
-  ![Colour chainging problem and non dupicates](https://i.stack.imgur.com/81Tvv.gif)
+- [How do you detect a click in a cell of a grid and change its color?](https://stackoverflow.com/questions/63538350/how-do-you-detect-a-click-in-a-cell-of-a-grid-and-change-its-color/63538548#63538548)  
+  ![How do you detect a click in a cell of a grid and change its color?](https://i.stack.imgur.com/81Tvv.gif)
 
 - [Is it possible to update a pygame drawing attribute when a event occurs?](https://stackoverflow.com/questions/61551790/is-it-possible-to-update-a-pygame-drawing-attribute-when-a-event-occurs/61555479#61555479)
   ![Is it possible to update a pygame drawing attribute when a event occurs?](https://i.stack.imgur.com/rchSC.gif)
