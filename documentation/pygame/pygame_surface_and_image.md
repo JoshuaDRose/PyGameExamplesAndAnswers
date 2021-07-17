@@ -65,7 +65,9 @@ Related Stack Overflow questions:
 - [A Python Programming Road Block Type Error: 'pygame.Surface' object is not callable How to Fix](https://stackoverflow.com/questions/50630244/a-python-programming-road-block-type-error-pygame-surface-object-is-not-calla/65493234#65493234)  
 - [pygame : Trying to use the “area” tag in Surface.blit()](https://stackoverflow.com/questions/66641379/pygame-trying-to-use-the-area-tag-in-surface-blit/66641661#66641661)
 
-## Subsurface
+## Subsurface and pixel array
+
+### Subsurface
 
 Related Stack Overflow questions:
 
@@ -101,6 +103,14 @@ cropped_subsurf = source_surf.subsurface(cropped_region)
 ```py
 traget.blit(cropped_subsurf, (posx, posy))
 ```
+
+### Pixel array
+
+Related Stack Overflow questions:
+
+- [Speed up double for loop PyGame draw](https://stackoverflow.com/questions/61856330/speed-up-double-for-loop-pygame-draw/61856399#61856399)  
+- [pixel image to tile map](https://stackoverflow.com/questions/29133065/pixel-image-to-tile-map/65966555#65966555)  
+- [Get RGB pixel data of a section of a screen as an array in pygame](https://stackoverflow.com/questions/68414745/get-rgb-pixel-data-of-a-section-of-a-screen-as-an-array-in-pygame/68414812#68414812)  
 
 ## Transparent surface and color key
 
@@ -644,13 +654,6 @@ Related Stack Overflow questions:
 
 - [How to output pygame.image.save to a variable instead of a file?](https://stackoverflow.com/questions/65405520/how-to-output-pygame-image-save-to-a-variable-instead-of-a-file/65405567#65405567)  
 - [Is there any way to convert the screen of a pygame gui into an image somehow?](https://stackoverflow.com/questions/60880169/is-there-any-way-to-convert-the-screen-of-a-pygame-gui-into-an-image-somehow/65543336#65543336)  
-
-## Pixel array
-
-Related Stack Overflow questions:
-
-- [Speed up double for loop PyGame draw](https://stackoverflow.com/questions/61856330/speed-up-double-for-loop-pygame-draw/61856399#61856399)  
-- [pixel image to tile map](https://stackoverflow.com/questions/29133065/pixel-image-to-tile-map/65966555#65966555)  
 
 ## Surface lock
 
