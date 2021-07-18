@@ -1,3 +1,6 @@
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="de_DE" data-type="horizontal" data-theme="dark" data-vanity="gernot-steinegger"><a class="LI-simple-link" href='https://at.linkedin.com/in/gernot-steinegger?trk=profile-badge'>Gernot Steinegger</a></div>
+
 [![StackOverflow](https://stackexchange.com/users/flair/7322082.png)](https://stackoverflow.com/users/5577765/rabbid76?tab=profile) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![reply.it](resource/logo/Repl_it_logo_80.png) reply.it](https://repl.it/repls/folder/PyGame%20Examples)
 
 "We learn more by looking for the answer to a question and not finding it than we do from learning the answer itself."  
