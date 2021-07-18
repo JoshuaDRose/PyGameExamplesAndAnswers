@@ -79,4 +79,4 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Making a scroll bar but its inconsistent](https://stackoverflow.com/questions/66369695/making-a-scroll-bar-but-its-inconsistent/66370052#66370052)
+- [Making a scrollbar but its inconsistent](https://stackoverflow.com/questions/66369695/making-a-scrollbar-but-its-inconsistent/66370052#66370052)
