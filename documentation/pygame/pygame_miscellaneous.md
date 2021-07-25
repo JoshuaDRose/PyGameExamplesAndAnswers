@@ -355,3 +355,5 @@ Related Stack Overflow questions:
 
 [Colours not printing - connect 4](https://stackoverflow.com/questions/66942419/colours-not-printing-connect-4/66943467#66943467)  
 ![Colours not printing - connect 4](https://i.stack.imgur.com/A5uFF.gif)
+
+[is there a faster way of checking if list[i] of pygame surface has alpha 0](https://stackoverflow.com/questions/68138764/is-there-a-faster-way-of-checking-if-listi-of-pygame-surface-has-alpha-0/68139807#68139807)

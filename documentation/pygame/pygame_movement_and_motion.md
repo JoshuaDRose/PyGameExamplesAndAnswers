@@ -174,6 +174,9 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Gravitational force](../../examples/minimal_examples/pygame_minimal_move_gravitational_force.py)**
 
+- [How to fix Type Error in Pygame: TypeError: unsupported operand type(s) for +=: 'int' and 'pygame.math.Vector2'](https://stackoverflow.com/questions/68377408/how-to-fix-type-error-in-pygame-typeerror-unsupported-operand-types-for/68380513#68380513)  
+  ![How to fix Type Error in Pygame: TypeError: unsupported operand type(s) for +=: 'int' and 'pygame.math.Vector2'](https://i.stack.imgur.com/sxyZw.gif)
+
 ## Particles
 
 Related Stack Overflow questions:
