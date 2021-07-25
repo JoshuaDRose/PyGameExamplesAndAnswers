@@ -48,6 +48,9 @@ Related Stack Overflow questions:
 - [Problem with Pygame movement acceleration, platformer game](https://stackoverflow.com/questions/59501126/problem-with-pygame-movement-acceleration-platformer-game/59501533#59501533)
 - [How to draw a moving circle in Pygame with a small angle at a low speed and blinking?](https://stackoverflow.com/questions/61528967/how-to-draw-a-moving-circle-in-pygame-with-a-small-angle-at-a-low-speed-and-blin/61529427#61529427)
 
+- [moving with a normalized vector in pygame inconsistent?](https://stackoverflow.com/questions/68486375/moving-with-a-normalized-vector-in-pygame-inconsistent/68486486#68486486)  
+  ![moving with a normalized vector in pygame inconsistent?](https://i.stack.imgur.com/oPdGS.gif)
+
 - [Ship moves up and left faster than down and right when rotating in pygame](https://stackoverflow.com/questions/62411259/ship-moves-up-and-left-faster-than-down-and-right-when-rotating-in-pygame/65347117#65347117)  
   ![Ship moves up and left faster than down and right when rotating in pygame](https://i.stack.imgur.com/6IPS1.gif)
 
