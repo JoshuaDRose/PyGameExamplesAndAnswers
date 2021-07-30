@@ -26,6 +26,9 @@ Related Stack Overflow questions:
 - [Need help creating buttons in pygame](https://stackoverflow.com/questions/57672389/need-help-creating-buttons-in-pygame/57678017#57678017)  
   ![Need help creating buttons in pygame](https://i.stack.imgur.com/BfXkE.gif)
 
+- [How can I make a button that goes to website in pygame?](https://stackoverflow.com/questions/68592269/how-can-i-make-a-button-that-goes-to-website-in-pygame/68592403#68592403)  
+  ![How can I make a button that goes to website in pygame?](https://i.stack.imgur.com/hNd0b.gif)  
+
 ## Radio button
 
 Related Stack Overflow questions:
