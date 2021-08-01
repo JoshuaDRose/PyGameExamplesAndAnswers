@@ -30,3 +30,6 @@ Related Stack Overflow questions:
   :scroll: **[Minimal example - Thick free line](../../examples/minimal_examples/pygame_minimal_paint_free_line_1.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-PaintFreeThickLine](https://replit.com/@Rabbid76/PyGame-PaintFreeThickLine#main.py)**
+
+- [Cells are skipped when I move the mouse quickly](https://stackoverflow.com/questions/68566210/cells-are-skipped-when-i-move-the-mouse-quickly/68566665#68566665)  
+  ![Cells are skipped when I move the mouse quickly](https://i.stack.imgur.com/3Em7F.gif)  
