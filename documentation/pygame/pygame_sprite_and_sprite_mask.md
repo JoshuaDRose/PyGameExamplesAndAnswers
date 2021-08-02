@@ -16,6 +16,16 @@ Related Stack Overflow questions:
 - [Created multiple instances of the same image using a loop, can I move each instance of the image independently?](https://stackoverflow.com/questions/56415073/created-multiple-instances-of-the-same-image-using-a-loop-can-i-move-each-insta/56415305#56415305)
 - [How can I deepcopy a pygame sprite group?](https://stackoverflow.com/questions/57500397/how-can-i-deepcopy-a-pygame-sprite-group)
 
+- [Making and using pygame sprites for donkey kong style game](https://stackoverflow.com/questions/68566126/making-and-using-pygame-sprites-for-donkey-kong-style-game/68600795#68600795)
+
+  :scroll: **[Minimal example - Minimal sprite image](../../examples/minimal_examples/pygame_minimal_sprite_image.py)**
+
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Sprite](https://replit.com/@Rabbid76/PyGame-Sprite#main.py)**
+
+- [Why We Have to Use self.rect and self.image to Determine Rect and Surf on Sprites?](https://stackoverflow.com/questions/68454667/why-we-have-to-use-self-rect-and-self-image-to-determine-rect-and-surf-on-sprite/68456266#68456266)
+
+  :scroll: **[Minimal example - Minimal sprite update](../../examples/minimal_examples/pygame_minimal_sprite_update.py)**
+
 [`pygame.sprite.Group.draw()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.draw) and [`pygame.sprite.Group.update()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.update) are methods which are provided by `pygame.sprite.Group`.
 
 The former delegates the to the `update` method of the contained [`pygame.sprite.Sprite`s](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) - you have to implement the method. See [`pygame.sprite.Group.update()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.update):
@@ -37,6 +47,7 @@ enemy = min([e for e in chased.sprites()],
 
 Related Stack Overflow questions:
 
+- [Why We Have to Use self.rect and self.image to Determine Rect and Surf on Sprites?](https://stackoverflow.com/questions/68454667/why-we-have-to-use-self-rect-and-self-image-to-determine-rect-and-surf-on-sprite/68456266#68456266)  
 - [Why do group lists in pygame have to have “update” functions, and not any other?](https://stackoverflow.com/questions/64835155/why-do-group-lists-in-pygame-have-to-have-update-functions-and-not-any-other/64835175#64835175)
 - [Why is my PyGame Sprite, in a Group, not drawn - AttributeError: 'Group' object has no attribute 'blitme'](https://stackoverflow.com/questions/64076676/why-is-my-pygame-sprite-in-a-group-not-drawn-attributeerror-group-object/64076741#64076741)
 - [Can I create and handle a pygame sprite not in a group the same way as if it's in a group?](https://stackoverflow.com/questions/63487180/can-i-create-and-handle-a-pygame-sprite-not-in-a-group-the-same-way-as-if-its-i/63487306#63487306)

@@ -71,6 +71,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How to Center Text in Pygame](https://stackoverflow.com/questions/23982907/pygame-how-to-center-text/64660744#64660744)
+- [How to center text inside a shape?](https://stackoverflow.com/questions/68446707/how-to-center-text-inside-a-shape/68446734#68446734)
 - [How to get text width in pygame?](https://stackoverflow.com/questions/65273980/how-to-get-text-width-in-pygame/65274103#65274103)  
 
 - [Pygame: Centering text system font text](https://stackoverflow.com/questions/65278123/pygame-centering-text-system-font-text/65278233#65278233)  

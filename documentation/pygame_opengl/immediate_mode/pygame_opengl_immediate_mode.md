@@ -101,6 +101,9 @@ The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a si
 [Align individual objects in pyOpenGL to create a bigger aggregated object](https://stackoverflow.com/questions/58590491/align-individual-objects-in-pyopengl-to-create-a-bigger-aggregated-object/58594997#58594997)  
 ![Align individual objects in pyOpenGL to create a bigger aggregated object](https://i.stack.imgur.com/vMqWn.gif)
 
+[How to draw a video frame from PyRealSense2 on a PyGame canvas?](https://stackoverflow.com/questions/64988479/how-to-draw-a-video-frame-from-pyrealsense2-on-a-pygame-canvas/64989545#64989545)  
+![How to draw a video frame from PyRealSense2 on a PyGame canvas?](https://i.stack.imgur.com/w2vqd.gif)
+
 Examples:
 
 [individual object transformation](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_individual_transformation.py)

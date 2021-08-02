@@ -58,6 +58,8 @@ Related Stack Overflow questions:
 
 - [Pygame masks Python](https://stackoverflow.com/questions/67846651/pygame-masks-python/67846703#67846703)  
 
+- [pygame: create mask form png with transparancy](https://stackoverflow.com/questions/68517375/pygame-create-mask-form-png-with-transparancy/68517405#68517405)  
+
 ## Selection and highlighting
 
 Related Stack Overflow questions:

@@ -17,6 +17,7 @@
             - [Recursiveness](#recursiveness)
             - [Questions about music and sound](#questions-about-music-and-sound)
         - [Questions about video](#questions-about-video)
+        - [Questions about camera capture](#questions-about-camera-capture)
             - [Questions about size, and resizing](#questions-about-size-and-resizing)
         - [Not answered questions](#not-answered-questions)
         - [Text](#text-1)
@@ -154,6 +155,10 @@ next:
 
 [Python Write MIDI file](https://stackoverflow.com/questions/64838592/python-write-midi-file)  
 [How to draw a video frame from PyRealSense2 on a PyGame canvas?](https://stackoverflow.com/questions/64988479/how-to-draw-a-video-frame-from-pyrealsense2-on-a-pygame-canvas/64989545#64989545)  
+
+### Questions about camera capture
+
+[Drawing a background image beind 3d model in opengl](https://stackoverflow.com/questions/68533162/drawing-a-background-image-beind-3d-model-in-opengl/68533213#68533213)
 
 #### Questions about size, and resizing
 

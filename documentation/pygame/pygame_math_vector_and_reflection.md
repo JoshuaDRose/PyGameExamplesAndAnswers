@@ -157,6 +157,9 @@ Related Stack Overflow questions:
 
 - [Circular Ping Pong Game](https://stackoverflow.com/questions/66983357/circular-ping-pong-game/66984542#66984542)
 
+- [noisy bouncing in pygame](https://stackoverflow.com/questions/68302165/noisy-bouncing-in-pygame)  
+  ![noisy bouncing in pygame](https://i.stack.imgur.com/Lcog9.gif)
+
 Calculate the [reflection](https://en.wikipedia.org/wiki/Reflection_(mathematics)) vector to the incident vector on the circular surface.  
 In the following formula `N` is the normal vector of the circle, `I` is the incident vector (the current direction vector of the bouncing ball) and `R` is the reflection vector (outgoing direction vector of the bouncing ball):
 

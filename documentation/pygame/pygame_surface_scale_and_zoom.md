@@ -19,6 +19,9 @@ Related Stack Overflow questions:
 - [Resize Image Content but Keep Image Dimensions](https://stackoverflow.com/questions/63648196/resize-image-content-but-keep-image-dimensions/63648597#63648597)
 - [How can you draw more detailed/smoother images in pygame?](https://stackoverflow.com/questions/65492782/how-can-you-draw-more-detailed-smoother-images-in-pygame/65492828#65492828)
 
+- [How to scale an image by window size?](https://stackoverflow.com/questions/68424287/how-to-scale-an-image-by-window-size/68424354#68424354)  
+  ![How to scale an image by window size?](https://i.stack.imgur.com/KIjG8.png)  
+
 [`pygame.transform.scale()`](https://www.pygame.org/docs/ref/surface.html) does not scale the input Surface itself. It creates a new surface and does a scaled "blit" to the new surface. The new surface is returned by the return value:
 
 `pygame.transform.scale()` does:
@@ -73,6 +76,9 @@ Related Stack Overflow questions:
   :scroll: **[Minimal example - Spin](../../examples/minimal_examples/pygame_minimal_scale_center.py)**
 
 - [pygame.transform.scale does not work on the “game” surface](https://stackoverflow.com/questions/56407891/pygame-transform-scale-does-not-work-on-the-game-surface/56408482#56408482)
+
+- [Pygame cannot make image bigger over time](https://stackoverflow.com/questions/68395844/pygame-cannot-make-image-bigger-over-time/68395966#68395966)  
+  ![Pygame cannot make image bigger over time](https://i.stack.imgur.com/BhC52.gif)  
 
 Define a zoom factor and calculate the size of the of the zoom area. e.g. If the zoom factor is 2, the area that needs to be zoomed on the window is half the width and height of the window:
 

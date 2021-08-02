@@ -146,6 +146,11 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Music fade](../../examples/minimal_examples/pygame_minimal_mixer_music_fade.py)**
 
+- [How can I change the name of audio stream in pygame mixer?](https://stackoverflow.com/questions/68589200/how-can-i-change-the-name-of-audio-stream-in-pygame-mixer/68589599#68589599)
+  ![How can I change the name of audio stream in pygame mixer?](https://i.stack.imgur.com/IjPm8.png)
+
+  :scroll: **[Minimal example - Music window](../../examples/minimal_examples/pygame_minimal_mixer_music_window.py)**
+
 - [Pygame background music not playing](https://stackoverflow.com/questions/56572662/pygame-background-music-not-playing/56573636#56573636)
 - [Why pygame.event.wait stops music play after 20 seconds or so](https://stackoverflow.com/questions/61389698/why-pygame-event-wait-stops-music-play-after-20-seconds-or-so/61390284#61390284)
 - [Loop over a list containing path to sound files](https://stackoverflow.com/questions/63488105/loop-over-a-list-containing-path-to-sound-files/63488275#63488275)

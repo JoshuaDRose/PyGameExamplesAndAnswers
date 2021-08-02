@@ -52,8 +52,8 @@ Related Stack Overflow questions:
 - [Image rotation while moving](https://stackoverflow.com/questions/57226587/image-rotation-while-moving/57227063#57227063)  
   ![Image rotation while moving](https://i.stack.imgur.com/XWNPt.gif)
 
-- [How do i get this spaceship to move towards the mouse cursor when I press the spacebar and point towards it at the same time](https://stackoverflow.com/questions/65442583/how-do-i-get-this-spaceship-to-move-towards-the-mouse-cursor-and-point-towards-i/65449778#65449778)  
-  ![How do i get this spaceship to move towards the mouse cursor when I press the spacebar and point towards it at the same time](https://i.stack.imgur.com/iN4Kw.gif)
+- [How do I move to the mouse pointer and point towards it at the same time?](https://stackoverflow.com/questions/65442583/how-do-i-move-to-the-mouse-pointer-and-point-towards-it-at-the-same-time/65449778#65449778)  
+  ![How do I move to the mouse pointer and point towards it at the same time?](https://i.stack.imgur.com/iN4Kw.gif)
 
 - [The car moves and changes direction when it hits the window edge](https://stackoverflow.com/questions/65001510/the-car-moves-and-changes-direction-when-it-hits-the-window-edge/65010442#65010442)  
   ![The car moves and changes direction when it hits the window edge](https://i.stack.imgur.com/7u7Gj.gif)
@@ -116,6 +116,9 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Slide and bounce](../../examples/minimal_examples/pygame_minimal_move_slide_1.py)**
 
+- [Acceleration and Deceleration in pygame](https://stackoverflow.com/questions/68333521/acceleration-and-deceleration-in-pygame/68333687#68333687)  
+  ![Acceleration and Deceleration in pygame](https://i.stack.imgur.com/KcdXR.gif)
+
 - [Pygame game help: Easing/Acceleration](https://stackoverflow.com/questions/59629452/pygame-game-help-easing-acceleration/59629532#59629532)  
   ![Pygame game help: Easing/Acceleration](https://i.stack.imgur.com/uWHyo.gif)
 
@@ -170,6 +173,9 @@ Related Stack Overflow questions:
   ![Pygame Curve Movement Problem How To Fix?](https://i.stack.imgur.com/sDD0g.gif)![Pygame Curve Movement Problem How To Fix?](https://i.stack.imgur.com/ZPXzi.gif)![Pygame Curve Movement Problem How To Fix?](https://i.stack.imgur.com/Ubji7.gif)  
 
   :scroll: **[Minimal example - Gravitational force](../../examples/minimal_examples/pygame_minimal_move_gravitational_force.py)**
+
+- [How to fix Type Error in Pygame: TypeError: unsupported operand type(s) for +=: 'int' and 'pygame.math.Vector2'](https://stackoverflow.com/questions/68377408/how-to-fix-type-error-in-pygame-typeerror-unsupported-operand-types-for/68380513#68380513)  
+  ![How to fix Type Error in Pygame: TypeError: unsupported operand type(s) for +=: 'int' and 'pygame.math.Vector2'](https://i.stack.imgur.com/sxyZw.gif)
 
 ## Particles
 

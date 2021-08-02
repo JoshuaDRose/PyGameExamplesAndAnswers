@@ -9,6 +9,9 @@ Related Stack Overflow questions:
 
 - [Issue with Collision Detection in Pygame for simple 2D Platformer](https://stackoverflow.com/questions/66127646/issue-with-collision-detection-in-pygame-for-simple-2d-platformer/66127881#66127881)
 
+- [pygame platformer collision causes weird spacing issue](https://stackoverflow.com/questions/68423726/pygame-platformer-collision-causes-weird-spacing-issue/68424155#68424155)  
+  ![pygame platformer collision causes weird spacing issue](https://i.stack.imgur.com/REXqX.gif)
+
 ## Scrolling - Center to player
 
 Related Stack Overflow questions:

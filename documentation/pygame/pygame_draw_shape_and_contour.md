@@ -50,8 +50,8 @@ pygame.draw.polygon(window, color, [(x1, y1), (x2, y2), (x3, y3)])
 
 Related Stack Overflow questions:
 
-- [Draw a transparent rectangle in pygame](https://stackoverflow.com/questions/6339057/draw-a-transparent-rectangle-in-pygame/64630102#64630102)  
-  ![Draw a transparent rectangle in pygame](https://i.stack.imgur.com/Zst87.png)
+- [Draw a transparent rectangles and polygons in pygame](https://stackoverflow.com/questions/6339057/draw-a-transparent-rectangles-and-polygons-in-pygame/64630102#64630102)  
+  ![Draw a transparent rectangles and polygons in pygame](https://i.stack.imgur.com/Zst87.png)
 
   :scroll: **[Minimal example - Draw transparent shapes](../../examples/minimal_examples/pygame_minimal_draw_transparent_shapes_1.py)**
 

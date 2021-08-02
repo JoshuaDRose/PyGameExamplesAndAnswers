@@ -22,7 +22,7 @@ Related Stack Overflow questions:
 
 You need to update the display.
 
-You are actually drawing on a [`Surface`](https://www.pygame.org/docs/ref/display.html#pygame.display.update) object. If you draw on the _Surface_ associated to the PyGame display, this is not immediately visible in the display. The changes become visibel, when the display is updated with either [`pygame.display.update()`](https://www.pygame.org/docs/ref/display.html#pygame.display.update) or [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygame.display.flip).
+You are actually drawing on a [`Surface`](https://www.pygame.org/docs/ref/display.html#pygame.display.update) object. If you draw on the _Surface_ associated to the PyGame display, this is not immediately visible in the display. The changes become visible, when the display is updated with either [`pygame.display.update()`](https://www.pygame.org/docs/ref/display.html#pygame.display.update) or [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygame.display.flip).
 
 See [`pygame.display.flip()`](https://www.pygame.org/docs/ref/display.html#pygame.display.flip):
 
@@ -159,6 +159,7 @@ Related Stack Overflow questions:
 - [Pygame Display Position](https://stackoverflow.com/questions/4135928/pygame-display-position)  
 - [How to move a no frame pygame windows when user click on it?](https://stackoverflow.com/questions/57674156/how-to-move-a-no-frame-pygame-windows-when-user-click-on-it/57681853#57681853)
 - [Make a pygame resizable window that can be snapped to the screen](https://stackoverflow.com/questions/62034222/make-a-pygame-resizable-window-that-can-be-snapped-to-the-screen/62035592#62035592)
+- [PyGame os.environ SDL_VIDEO_WINDOW_POS does not work](https://stackoverflow.com/questions/68324163/pygame-os-environ-sdl-video-window-pos-does-not-work/68325597#68325597)  
 
 [PyGame](https://www.pygame.org/news) is based on [Simple DirectMedia Layer (SDL)](https://www.libsdl.org/download-2.0.php). Hence you can set SDL environment variables.
 
