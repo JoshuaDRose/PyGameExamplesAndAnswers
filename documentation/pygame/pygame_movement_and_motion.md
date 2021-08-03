@@ -136,7 +136,7 @@ Related Stack Overflow questions:
 - [How to simulate Jumping in Pygame for this particular code](https://stackoverflow.com/questions/54595777/how-to-simulate-jumping-in-pygame-for-this-particular-code/54596624#54596624)  
   ![How to simulate Jumping in Pygame for this particular code](https://i.stack.imgur.com/XEAF8.gif)
 
-- [python, pygame - jumping too fast?](https://stackoverflow.com/questions/58474204/python-pygame-jumping-too-fast/58474280#58474280)  
+- **[python, pygame - jumping too fast?](https://stackoverflow.com/questions/58474204/python-pygame-jumping-too-fast/58474280#58474280)**  
   ![python, pygame - jumping too fast?](https://i.stack.imgur.com/gWHCT.gif)
 
 - [How to make a circular object jump using pygame?](https://stackoverflow.com/questions/62822322/how-to-make-a-circular-object-jump-using-pygame/62822601#62822601)  
@@ -154,7 +154,7 @@ Related Stack Overflow questions:
 - [chrome dino game jumping twice per click in pygame](https://stackoverflow.com/questions/66253320/chrome-dino-game-jumping-twice-per-click-in-pygame/66254270#66254270)  
   ![chrome dino game jumping twice per click in pygame](https://i.stack.imgur.com/039Eu.gif)
 
-- [Why can't I do a double jump/hop in Pygame?](https://stackoverflow.com/questions/67667103/why-cant-i-do-a-double-jump-hop-in-pygame/67667585#67667585)
+- **[Why can't I do a double jump/hop in Pygame?](https://stackoverflow.com/questions/67667103/why-cant-i-do-a-double-jump-hop-in-pygame/67667585#67667585)**
   ![Why can't I do a double jump/hop in Pygame?](https://i.stack.imgur.com/9ICi5.gif)  
 
 - [I've created a basic platformer in pygame with no animations. I have used event handling for right and left movement but i cant add a jump mechanic](https://stackoverflow.com/questions/67760767/ive-created-a-basic-platformer-in-pygame-with-no-animations-i-have-used-event/67761435#67761435)  
