@@ -19,6 +19,9 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Maze generator 2](../../examples/minimal_examples/pygame_minimal_maze_2.py)**
 
+- [Creating collisions between a Sprite and a list (that aren't sprites) in a Maze](https://stackoverflow.com/questions/68665022/creating-collisions-between-a-sprite-and-a-list-that-arent-sprites-in-a-maze/68668529#68668529)  
+  ![Creating collisions between a Sprite and a list (that aren't sprites) in a Maze](https://i.stack.imgur.com/5aYT2.gif)  
+
 - [Pygame Maze Game not creating levels correctly](https://stackoverflow.com/questions/59436266/pygame-maze-game-not-creating-levels-correctly/59436430#59436430)
 
 - [How do I move elements of a matrix in python?](https://stackoverflow.com/questions/65174955/how-do-i-move-elements-of-a-matrix-in-python/65178270#65178270)  
