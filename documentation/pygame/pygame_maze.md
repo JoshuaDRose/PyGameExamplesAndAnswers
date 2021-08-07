@@ -37,6 +37,8 @@ Related Stack Overflow questions:
 - [Creating collisions between a Sprite and a list (that aren't sprites) in a Maze](https://stackoverflow.com/questions/68665022/creating-collisions-between-a-sprite-and-a-list-that-arent-sprites-in-a-maze/68668529#68668529)  
   ![Creating collisions between a Sprite and a list (that aren't sprites) in a Maze](https://i.stack.imgur.com/5aYT2.gif)  
 
+- [How do I prevent the player from moving through the walls in a maze in pygame?](https://stackoverflow.com/questions/68691507/how-do-i-prevent-the-player-from-moving-through-the-walls-in-a-maze-in-pygame/68691536#68691536)
+
 I have a maze organized in a grid. Each cell of the grid stores the information about the walls to its right and bottom neighboring cell. The player is an object of a certain size whose bounding box is known. I want to move the player smoothly through the maze with the walls preventing them from going through.
 
 ![move player in maze](https://i.stack.imgur.com/2JBsh.png)
@@ -117,9 +119,11 @@ if keys[pygame.K_DOWN]:
         player_rect = new_rect
 ```
 
+![maze move - collision logic](https://i.stack.imgur.com/LG0Xm.gif)
+
 :scroll: **[Minimal example - Maze collision detection with logic](../../examples/minimal_examples/pygame_minimal_maze_collide_1.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TransparentShapes](https://replit.com/@Rabbid76/PyGame-Maze-CollisionLogic#main.py)**
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Maze-CollisionLogic](https://replit.com/@Rabbid76/PyGame-Maze-CollisionLogic#main.py)**
 
 Another solution is to use mask collision. Draw the maze of a transparent [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html):
 
@@ -166,4 +170,4 @@ if not maze_mask.overlap(player_mask, offset):
 
 :scroll: **[Minimal example - Maze collision detection with mask](../../examples/minimal_examples/pygame_minimal_maze_collide_2.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TransparentShapes](https://replit.com/@Rabbid76/PyGame-Maze-MaskCollision#main.py)**
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Maze-MaskCollision](https://replit.com/@Rabbid76/PyGame-Maze-MaskCollision#main.py)**

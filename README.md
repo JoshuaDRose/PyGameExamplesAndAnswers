@@ -80,6 +80,7 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/68128389/how-to-separately-change-the-opacity-of-a-text-on-a-button-pygame/68128949#68128949"><img src="https://i.stack.imgur.com/dW5OU.png" height="100" title="Text transparent background"></a><!--
 --><a href="https://stackoverflow.com/questions/66291255/pygame-sprites-overlapping-issue/66291672#66291672"><img src="https://i.stack.imgur.com/MytEF.gif" height="100" title="Follow"></a><!--
 --><a href="https://stackoverflow.com/questions/67143657/pygame-wont-draw-quads-in-the-right-order/67146073#67146073"><img src="https://i.stack.imgur.com/pKxTT.gif" height="100" title="3D Hexahedron"></a><!--
+--><a href="https://stackoverflow.com/questions/68691507/how-do-i-prevent-the-player-from-moving-through-the-walls-in-a-maze-in-pygame/68691536#68691536"><img src="https://i.stack.imgur.com/LG0Xm.gif" height="100" title="Maze - Collision detection"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  

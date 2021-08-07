@@ -1,3 +1,6 @@
+# How do I prevent the player from moving through the walls in a maze in pygame?
+# https://stackoverflow.com/questions/68691507/how-do-i-prevent-the-player-from-moving-through-the-walls-in-a-maze-in-pygame/68691508#68691508
+#
 # GitHub - PyGameExamplesAndAnswers - Maze
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_maze.md
 #
