@@ -169,3 +169,7 @@ Examples:
 :scroll: **[OpenGL immediate mode - Text with transparent background](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_pixel_text_transparent.py)**  
 
 Compare [`glWindowPos`](https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glWindowPos.xml) and [`glRasterPos`](https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glRasterPos.xml). While the coordinates of `glRasterPos` are transformed by the current modelview and projection matrices, `glWindowPos` directly updates the x and y coordinates of the current raster position.
+
+# Minimal examples
+
+[Texture - glDrawPixels](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_glDrawPixels.py)
