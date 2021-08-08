@@ -97,13 +97,6 @@ next:
 [I'm embedding a pygame window into Tkinter, how do I manipulate the pygame window?](https://stackoverflow.com/questions/55755305/im-embedding-a-pygame-window-into-tkinter-how-do-i-manipulate-the-pygame-windo)  
 [Do something every x (milli)seconds in pygame](https://stackoverflow.com/questions/18948981/do-something-every-x-milliseconds-in-pygame)  
 
-#### Joystick
-
-[Pygame Xbox One Controller](https://stackoverflow.com/questions/49887874/pygame-xbox-one-controller)  
-[Controller Support in PyGame](https://stackoverflow.com/questions/49987072/controller-support-in-pygame)  
-[Pygame: Analog trigger initial value is not the neutral trigger position](https://stackoverflow.com/questions/53267296/pygame-analog-trigger-initial-value-is-not-the-neutral-trigger-position)  
-[How to know if a joystick is XInput in pygame?](https://stackoverflow.com/questions/54494141/how-to-know-if-a-joystick-is-xinput-in-pygame)  
-
 #### Text
 
 [Text with a Drop-shadow](https://stackoverflow.com/users/5577765/rabbid76?tab=following)

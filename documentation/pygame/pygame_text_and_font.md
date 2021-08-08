@@ -292,7 +292,7 @@ Creating a font object is very time consuming because the font file has to be re
 
 Related Stack Overflow questions:
 
-- [Python - Pygame - rendering translucent text](https://stackoverflow.com/questions/20620109/how-to-render-transparent-text-with-alpha-channel-in-pygame/64552616#64552616)  
+- [How to render transparent text with alpha channel in PyGame?](https://stackoverflow.com/questions/20620109/how-to-render-transparent-text-with-alpha-channel-in-pygame/64552616#64552616)  
 - [How to separately change the opacity of a text on a button pygame?](https://stackoverflow.com/questions/68128389/how-to-separately-change-the-opacity-of-a-text-on-a-button-pygame/68128949#68128949)  
 
 When using the [`pygame.font`](https://www.pygame.org/docs/ref/font.html#pygame.font) module, the alpha channel of the text color is not taken into account when rendering a text, but see [`pygame.font.Font.render`](https://www.pygame.org/docs/ref/font.html#pygame.font.SysFont):

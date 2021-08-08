@@ -36,3 +36,14 @@ while run:
 Related Stack Overflow questions:
 
 - [How to get USB controller/gamepad to work with python](https://stackoverflow.com/questions/60309652/how-to-get-usb-controller-gamepad-to-work-with-python/60323121#60323121)
+
+## Xbox issues
+
+Related Stack Overflow questions:
+
+- [Pygame Xbox One Controller](https://stackoverflow.com/questions/49887874/pygame-xbox-one-controller)  
+- [Controller Support in PyGame](https://stackoverflow.com/questions/49987072/controller-support-in-pygame)  
+- [Pygame: Analog trigger initial value is not the neutral trigger position](https://stackoverflow.com/questions/53267296/pygame-analog-trigger-initial-value-is-not-the-neutral-trigger-position)  
+- [How to know if a joystick is XInput in pygame?](https://stackoverflow.com/questions/54494141/how-to-know-if-a-joystick-is-xinput-in-pygame)  
+
+:scroll: **[Joystick test tool`](../../tools/pygame/pygame_joystick_test.py)**
