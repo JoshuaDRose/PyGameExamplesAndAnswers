@@ -56,3 +56,12 @@ rgba = (color.r, color.g, color.b, color.a)
 - [Shifting the color value based on percentage from green to red using PyGame](https://stackoverflow.com/questions/65904437/shifting-the-color-value-based-on-percentage-from-green-to-red-using-pygame/65904561#65904561)  
   ![Shifting the color value based on percentage from green to red using PyGame](https://i.stack.imgur.com/Psxup.png)  
 Shifting the color value based on percentage from green to red using PyGame
+
+## Lerp
+
+Related Stack Overflow questions:
+
+- [How to fade from one colour to another in pygame?](https://stackoverflow.com/questions/51973441/how-to-fade-from-one-colour-to-another-in-pygame) 
+  ![How to fade from one colour to another in pygame?](https://i.stack.imgur.com/VEAII.gif)
+
+  :scroll: **[Minimal example - Lerp list of colors HSLA color](../../examples/minimal_examples/pygame_minimal_color_lerp.py)**

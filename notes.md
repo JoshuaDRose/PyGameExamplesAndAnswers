@@ -9,7 +9,6 @@
 - [Investigate answered questions](#investigate-answered-questions)
     - [Answers](#answers)
         - [Add Answers](#add-answers)
-            - [Joystick](#joystick)
             - [Text](#text)
             - [Postponed](#postponed)
             - [Draw](#draw)
@@ -91,8 +90,7 @@ next:
 [Pygame water ripple effect](https://stackoverflow.com/questions/7648072/pygame-water-ripple-effect)  
 [Pygame water physics not working as intended](https://stackoverflow.com/questions/62499733/pygame-water-physics-not-working-as-intended)  
 
-[Any way to speed up Python and Pygame?](https://stackoverflow.com/questions/6395923/any-way-to-speed-up-python-and-pygame)  
-[How to fade from one colour to another in pygame?](https://stackoverflow.com/questions/51973441/how-to-fade-from-one-colour-to-another-in-pygame)  
+[Any way to speed up Python and Pygame?](https://stackoverflow.com/questions/6395923/any-way-to-speed-up-python-and-pygame)   
 [Pygame - Return collision location](https://stackoverflow.com/questions/64760792/pygame-return-collision-location)  
 [I'm embedding a pygame window into Tkinter, how do I manipulate the pygame window?](https://stackoverflow.com/questions/55755305/im-embedding-a-pygame-window-into-tkinter-how-do-i-manipulate-the-pygame-windo)  
 [Do something every x (milli)seconds in pygame](https://stackoverflow.com/questions/18948981/do-something-every-x-milliseconds-in-pygame)  
@@ -262,7 +260,7 @@ Why is there no `pygame.Rect(0, 0, w, t).get_rect(center = (x, y))`
   [How to make an object fades color in pygame](https://stackoverflow.com/questions/61043017/how-to-make-an-object-fades-color-in-pygame/61043146#61043146)  
   [Pygame set_alpha not working with attempted background fading](https://stackoverflow.com/questions/66391461/pygame-set-alpha-not-working-with-attempted-background-fading/66391705#66391705)  
   
-- create example which projects sin and cosin (sin horizontally and cosin vertically)  
+- create example which projects sine and cosine (sin horizontally and cosin vertically)  
   [Math and Vector - Curve - Trigonometry](documentation/pygame/pygame_math_vector_and_reflection.md)
 
 - slider  
