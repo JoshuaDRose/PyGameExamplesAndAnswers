@@ -11,6 +11,9 @@ Robert C. Martin, Clean Architecture
 
 Related Stack Overflow questions:
 
+- [How to move a sprite according to an angle in Pygame](https://stackoverflow.com/questions/46697502/how-to-move-a-sprite-according-to-an-angle-in-pygame/68698440#68698440)  
+  ![How to move a sprite according to an angle in Pygame](https://i.stack.imgur.com/HBVPx.gif)
+
 - [How can you rotate the sprite and shoot the bullets towards the mouse position?](https://stackoverflow.com/questions/59126785/how-can-you-rotate-the-sprite-and-shoot-the-bullets-towards-the-mouse-position/59126918#59126918)  
   ![How can you rotate the sprite and shoot the bullets towards the mouse position?](https://i.stack.imgur.com/zGoZr.gif)
 
