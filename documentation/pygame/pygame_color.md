@@ -61,7 +61,22 @@ Shifting the color value based on percentage from green to red using PyGame
 
 Related Stack Overflow questions:
 
-- [How to fade from one colour to another in pygame?](https://stackoverflow.com/questions/51973441/how-to-fade-from-one-colour-to-another-in-pygame) 
+- [How to fade from one colour to another in pygame?](https://stackoverflow.com/questions/51973441/how-to-fade-from-one-colour-to-another-in-pygame/68702388#68702388)  
   ![How to fade from one colour to another in pygame?](https://i.stack.imgur.com/VEAII.gif)
 
   :scroll: **[Minimal example - Lerp list of colors HSLA color](../../examples/minimal_examples/pygame_minimal_color_lerp.py)**
+
+Pygame provides the [`pygame.Color`](https://www.pygame.org/docs/ref/color.html#pygame.Color) object. The object can construct a color from various arguments (e.g. RGBA color channels, hexadecimal numbers, strings, ...).  
+It also offers the handy method [`lerp`](https://www.pygame.org/docs/ref/color.html#pygame.Color.lerp), that can interpolate 2 colors: 
+
+> Returns a Color which is a linear interpolation between self and the given Color in RGBA space
+
+The [`pygame.Color`](https://www.pygame.org/docs/ref/color.html#pygame.Color.lerp) object and the [`lerp`](https://www.pygame.org/docs/ref/color.html#pygame.Color.lerp) method can be used to interpolate a color form a list of colors:
+
+```py
+def lerp_color(colors, value):
+    fract, index = math.modf(value)
+    color1 = pygame.Color(colors[int(index) % len(colors)])
+    color2 = pygame.Color(colors[int(index + 1) % len(colors)])
+    return color1.lerp(color2, fract)
+``` 

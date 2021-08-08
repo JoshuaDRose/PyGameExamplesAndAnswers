@@ -1,5 +1,5 @@
 # How to fade from one colour to another in pygame?
-# https://stackoverflow.com/questions/51973441/how-to-fade-from-one-colour-to-another-in-pygame
+# https://stackoverflow.com/questions/51973441/how-to-fade-from-one-colour-to-another-in-pygame/68702388#68702388
 # 
 # GitHub - PyGameExamplesAndAnswers - Color
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_color.md
