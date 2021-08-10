@@ -5,7 +5,7 @@
 # https://stackoverflow.com/questions/50312760/pygame-opengl-3d-cube-lag/50314047#50314047
 #
 # GitHub - PyGameExamplesAndAnswers - PyGame and OpenGL immediate mode (Legacy OpenGL) - Primitive and Mesh - Fixed attribute
-# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame_opengl/moderngl_library/pygame_opengl_immediate_mode.md
+# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame_opengl/immediate_mode/pygame_opengl_immediate_mode.md
 
 import pygame
 from OpenGL.GL import *

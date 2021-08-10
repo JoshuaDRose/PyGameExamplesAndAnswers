@@ -1,15 +1,16 @@
 # PyOpenGL
 # http://pyopengl.sourceforge.net/
 #
-# GL_LINES not showing up on top of cube?
-# https://stackoverflow.com/questions/56624147/gl-lines-not-showing-up-on-top-of-cube/56624975#56624975
+# Stackoverflow question: how to modify the view of the camera with pygame and openGL
+# https://stackoverflow.com/questions/47169618/how-to-modify-the-view-of-the-camera-with-pygame-and-opengl/47173089#47173089
 #
-# GitHub - PyGameExamplesAndAnswers - PyGame and OpenGL immediate mode (Legacy OpenGL) - Primitive and Mesh 
-# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame_opengl/immediate_mode/pygame_opengl_immediate_mode.md
+# GitHub - PyGameExamplesAndAnswers - PyGame and OpenGL immediate mode (Legacy OpenGL) - Camera - First person 
+# https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame_opengl/immediate_mode/pygame_opengl_immediate_mode.md#first-person
 
 import pygame
 from OpenGL.GL import *
 from OpenGL.GLU import *
+import numpy
 
 class Cube:
   
@@ -42,6 +43,8 @@ class Cube:
 
         glDisable( GL_POLYGON_OFFSET_FILL )
 
+def identity_matrix44(): return numpy.matrix(numpy.identity(4), copy=False, dtype='float32')
+
 def set_projection(w, h):
     glMatrixMode(GL_PROJECTION)
     glLoadIdentity()
@@ -54,7 +57,15 @@ clock = pygame.time.Clock()
 
 set_projection(*window.get_size())
 cube = Cube()
-angle_x, angle_y = 0, 0
+tx, ty, tz = 0, 0, 0
+rx, ry, rz = 0, 0, 0
+
+view_mat = identity_matrix44()
+glMatrixMode(GL_MODELVIEW)
+glLoadIdentity()
+glTranslatef(0, 0, -5)
+glGetFloatv(GL_MODELVIEW_MATRIX, view_mat)
+glLoadIdentity()
 
 run = True
 while run:
@@ -66,18 +77,25 @@ while run:
             glViewport(0, 0, event.w, event.h)
             set_projection(event.w, event.h)
 
-    glLoadIdentity()
-    glTranslatef(0, 0, -5)
-    glRotatef(angle_y, 0, 1, 0)
-    glRotatef(angle_x, 1, 0, 0)
-    angle_x += 1
-    angle_y += 0.4
+    keys = pygame.key.get_pressed()
+    tx = (keys[pygame.K_d] - keys[pygame.K_a]) * -0.1
+    tz = (keys[pygame.K_w] - keys[pygame.K_s]) * 0.1
+    ry = (keys[pygame.K_RIGHT] - keys[pygame.K_LEFT]) * 1.0
 
     glClearColor(0.5, 0.5, 0.5, 1)
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
-    cube.draw()    
 
+    glPushMatrix()
+    glLoadIdentity()
+    glTranslatef(tx, ty, tz)
+    glRotatef(ry, 0, 1, 0)
+    glMultMatrixf(view_mat)
+
+    glGetFloatv(GL_MODELVIEW_MATRIX, view_mat)
     
+    cube.draw()
+    glPopMatrix()    
+
     size = window.get_size()
     buffer = glReadPixels(0, 0, *size, GL_RGBA, GL_UNSIGNED_BYTE)
     pygame.display.flip()
@@ -85,6 +103,5 @@ while run:
     #screen_surf = pygame.image.fromstring(buffer, size, "RGBA")
     #pygame.image.save(screen_surf, "d:/temp/screenshot.jpg")
     
-
 pygame.quit()
 exit()

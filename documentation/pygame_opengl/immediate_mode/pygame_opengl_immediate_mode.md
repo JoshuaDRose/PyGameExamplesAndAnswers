@@ -122,26 +122,31 @@ Examples:
 
 ### First person
 
-[How create a camera on PyOpenGL that can do “perspective rotations” on mouse movements?](https://stackoverflow.com/questions/56609044/how-create-a-camera-on-pyopengl-that-can-do-perspective-rotations-on-mouse-mov)  
-![scene](https://i.stack.imgur.com/0cb9x.gif)
+- [Stackoverflow question: how to modify the view of the camera with pygame and openGL](https://stackoverflow.com/questions/47169618/how-to-modify-the-view-of-the-camera-with-pygame-and-opengl/47173089#47173089)
+  ![Stackoverflow question: how to modify the view of the camera with pygame and openGL](https://i.stack.imgur.com/jtVF8.png)  
 
-[How to rotate a certain object (Quad) in PyOpenGL?](https://stackoverflow.com/questions/56646279/how-to-rotate-a-certain-object-quad-in-pyopengl/56646504?noredirect=1#comment99864711_56646504)  
-[How to test if a 2d point in pygame screen is part of a 3d object in PyOpenGL?](https://stackoverflow.com/questions/56681932/how-to-test-if-a-2d-point-in-pygame-screen-is-part-of-a-3d-object-in-pyopengl/56700807?noredirect=1#comment99965769_56700807)  
-[How to do knock-backs in PyOpenGL with object facing?](https://stackoverflow.com/questions/56714854/how-to-do-knock-backs-in-pyopengl-with-object-facing)  
-![scene](https://i.stack.imgur.com/k0K8i.gif)
+  :scroll: **[OpenGL immediate mode - first person](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_firstperson.py)**
 
-[how to get vertical rotation in 3D space with OpenGL?](https://stackoverflow.com/questions/55638222/how-to-get-vertical-rotation-in-3d-space-with-opengl/55639392#55639392)  
-![scene](https://i.stack.imgur.com/BgUZK.gif)
+- [How create a camera on PyOpenGL that can do “perspective rotations” on mouse movements?](https://stackoverflow.com/questions/56609044/how-create-a-camera-on-pyopengl-that-can-do-perspective-rotations-on-mouse-mov)  
+  ![scene](https://i.stack.imgur.com/0cb9x.gif)
 
-[how to modify the view of the camera with pygame and openGL](https://stackoverflow.com/questions/47169618/how-to-modify-the-view-of-the-camera-with-pygame-and-opengl)
+- [How to rotate a certain object (Quad) in PyOpenGL?](https://stackoverflow.com/questions/56646279/how-to-rotate-a-certain-object-quad-in-pyopengl/56646504?noredirect=1#comment99864711_56646504)  
+  [How to test if a 2d point in pygame screen is part of a 3d object in PyOpenGL?](https://stackoverflow.com/questions/56681932/how-to-test-if-a-2d-point-in-pygame-screen-is-part-of-a-3d-object-in-pyopengl/56700807?noredirect=1#comment99965769_56700807)  
+  [How to do knock-backs in PyOpenGL with object facing?](https://stackoverflow.com/questions/56714854/how-to-do-knock-backs-in-pyopengl-with-object-facing)  
+  ![scene](https://i.stack.imgur.com/k0K8i.gif)
 
-[Cannot draw to the same position using gluSphere()?](https://stackoverflow.com/questions/56832809/cannot-draw-to-the-same-position-using-glusphere)  
+- [how to get vertical rotation in 3D space with OpenGL?](https://stackoverflow.com/questions/55638222/how-to-get-vertical-rotation-in-3d-space-with-opengl/55639392#55639392)  
+  ![scene](https://i.stack.imgur.com/BgUZK.gif)
 
-[Python OpenGL does not render every Triangle in a Quadrilateral](https://stackoverflow.com/questions/57598269/python-opengl-does-not-render-every-triangle-in-a-quadrilateral/57598464#57598464)  
+- [how to modify the view of the camera with pygame and openGL](https://stackoverflow.com/questions/47169618/how-to-modify-the-view-of-the-camera-with-pygame-and-opengl)
 
-[(PYGAME and LEGACY PYOPENGL) Problems with creating a UI and glRotatef()](https://stackoverflow.com/questions/57981147/pygame-and-legacy-pyopengl-problems-with-creating-a-ui-and-glrotatef)  
+- [Cannot draw to the same position using gluSphere()?](https://stackoverflow.com/questions/56832809/cannot-draw-to-the-same-position-using-glusphere)  
 
-[Using gluLookAt() causes the objects to spin](https://stackoverflow.com/questions/54316746/using-glulookat-causes-the-objects-to-spin/54371129#54371129)  
+- [Python OpenGL does not render every Triangle in a Quadrilateral](https://stackoverflow.com/questions/57598269/python-opengl-does-not-render-every-triangle-in-a-quadrilateral/57598464#57598464)  
+
+- [(PYGAME and LEGACY PYOPENGL) Problems with creating a UI and glRotatef()](https://stackoverflow.com/questions/57981147/pygame-and-legacy-pyopengl-problems-with-creating-a-ui-and-glrotatef)  
+
+- [Using gluLookAt() causes the objects to spin](https://stackoverflow.com/questions/54316746/using-glulookat-causes-the-objects-to-spin/54371129#54371129)  
 
 ## Light
 
