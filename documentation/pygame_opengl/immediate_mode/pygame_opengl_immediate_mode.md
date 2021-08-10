@@ -125,7 +125,8 @@ Examples:
 - [Stackoverflow question: how to modify the view of the camera with pygame and openGL](https://stackoverflow.com/questions/47169618/how-to-modify-the-view-of-the-camera-with-pygame-and-opengl/47173089#47173089)
   ![Stackoverflow question: how to modify the view of the camera with pygame and openGL](https://i.stack.imgur.com/jtVF8.png)  
 
-  :scroll: **[OpenGL immediate mode - first person](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_firstperson.py)**
+  :scroll: **[OpenGL immediate mode - first person 1](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_firstperson.py)**
+  :scroll: **[OpenGL immediate mode - first person 2](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_firstperson_2.py)**
 
 - [How create a camera on PyOpenGL that can do “perspective rotations” on mouse movements?](https://stackoverflow.com/questions/56609044/how-create-a-camera-on-pyopengl-that-can-do-perspective-rotations-on-mouse-mov)  
   ![scene](https://i.stack.imgur.com/0cb9x.gif)
