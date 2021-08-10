@@ -165,6 +165,13 @@ Examples:
 
 [How to test if a 2d point in pygame screen is part of a 3d object in PyOpenGL?](https://stackoverflow.com/questions/56681932/how-to-test-if-a-2d-point-in-pygame-screen-is-part-of-a-3d-object-in-pyopengl/56700807#56700807)
 
+### Hit detection
+
+- [How to find PyGame Window Coordinates of an OpenGL Vertice?](https://stackoverflow.com/questions/46801701/how-to-find-pygame-window-coordinates-of-an-opengl-vertice/46815050#46815050)
+
+  :scroll: **[OpenGL immediate mode - hit detection 1](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_hit_detection_1.py)**  
+  :scroll: **[OpenGL immediate mode - hit detection 2](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_hit_detection_2.py)**  
+
 # Text
 
 [pygame + opengl = display text](https://stackoverflow.com/questions/67608968/pygame-opengl-display-text/67639147#67639147)  
