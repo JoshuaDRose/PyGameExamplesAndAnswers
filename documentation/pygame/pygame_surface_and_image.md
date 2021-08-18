@@ -655,10 +655,11 @@ format = 'RGBA'
 
 ![Pygame and Numpy Animations](https://i.stack.imgur.com/PKT8H.gif)
 
-## Store Image
+## Store Image (Save image)
 
 Related Stack Overflow questions:
 
+- [Save created image to file system python and pygame](https://stackoverflow.com/questions/68804453/save-created-image-to-file-system-python-and-pygame/68805404#68805404)  
 - [How to output pygame.image.save to a variable instead of a file?](https://stackoverflow.com/questions/65405520/how-to-output-pygame-image-save-to-a-variable-instead-of-a-file/65405567#65405567)  
 - [Is there any way to convert the screen of a pygame gui into an image somehow?](https://stackoverflow.com/questions/60880169/is-there-any-way-to-convert-the-screen-of-a-pygame-gui-into-an-image-somehow/65543336#65543336)  
 
