@@ -39,6 +39,13 @@ self.rect = self.image.get_rect()
 self.rect.topleft = (self.x, self.y)
 ```
 
+## Surface relativity
+
+Related Stack Overflow questions:
+
+- [texts are not shown on pygame screen](https://stackoverflow.com/questions/68734429/texts-are-not-shown-on-pygame-screen/68736231#68736231)  
+  [texts are not shown on pygame screen](https://i.stack.imgur.com/Cn2YY.png)
+
 ## Surface format and performance
 
 Related Stack Overflow questions:

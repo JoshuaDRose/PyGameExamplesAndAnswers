@@ -21,6 +21,8 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Shapes](https://replit.com/@Rabbid76/PyGame-Shapes#main.py)**
 
+- [Is there a class in pygame to represent a non-AABB polygon?](https://stackoverflow.com/questions/68718593/is-there-a-class-in-pygame-to-represent-a-non-aabb-polygon/68718661#68718661)  
+
 With the module [pygame.draw](https://www.pygame.org/docs/ref/draw.html) shapes like rectangles, circles, polygons or liens can be drawn.
 
 [`pygame.draw.rect`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect) draws filled rectangular shapes or outlines. The arguments are the target _Surface_ (i.s. the display), the _color_, the _rectangle_ and the optional outline _width_. The _rectangle_ argument is a tuple with the 4 components (_x_, _y_, _width_, _height_), where (_x_, _y_) is the upper left point of the rectangle. Alternatively, the argument can be a [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) object:

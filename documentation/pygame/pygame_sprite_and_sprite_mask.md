@@ -47,6 +47,7 @@ enemy = min([e for e in chased.sprites()],
 
 Related Stack Overflow questions:
 
+- [What does pygame.sprite.Group() do](https://stackoverflow.com/questions/68765971/what-does-pygame-sprite-group-do/68767767#68767767)  
 - [Why We Have to Use self.rect and self.image to Determine Rect and Surf on Sprites?](https://stackoverflow.com/questions/68454667/why-we-have-to-use-self-rect-and-self-image-to-determine-rect-and-surf-on-sprite/68456266#68456266)  
 - [Why do group lists in pygame have to have “update” functions, and not any other?](https://stackoverflow.com/questions/64835155/why-do-group-lists-in-pygame-have-to-have-update-functions-and-not-any-other/64835175#64835175)
 - [Why is my PyGame Sprite, in a Group, not drawn - AttributeError: 'Group' object has no attribute 'blitme'](https://stackoverflow.com/questions/64076676/why-is-my-pygame-sprite-in-a-group-not-drawn-attributeerror-group-object/64076741#64076741)
