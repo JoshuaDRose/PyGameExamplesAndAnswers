@@ -113,7 +113,7 @@ The site is still under construction :construction:.
 
 [Surface and Image](documentation/pygame/pygame_surface_and_image.md)
 
-[Surface and numpy/cv2](documentation/pygame/pygame_surface_and_numpy_or_cv2)
+[Surface and numpy/cv2](documentation/pygame/pygame_surface_and_numpy_or_cv2.md)
 
 [Surface array, pixel array, buffer proxy](documentation/pygame/pygame_surfacearray_pixelarray_and_bufferproxy.md)
 
