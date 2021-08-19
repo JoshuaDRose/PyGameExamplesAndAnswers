@@ -10,7 +10,8 @@
 
 Related Stack Overflow questions:
 
-- [Get image array from display in pygame](https://stackoverflow.com/questions/64558238/get-image-array-from-display-in-pygame)
+- [Get image array from display in pygame](https://stackoverflow.com/questions/64558238/get-image-array-from-display-in-pygame)  
+- [Get RGB pixel data of a section of a screen as an array in pygame](https://stackoverflow.com/questions/68414745/get-rgb-pixel-data-of-a-section-of-a-screen-as-an-array-in-pygame/68414812#68414812)  
 
 Use `pygame.surfarray.pixels2d`, `pygame.surfarray.array2d`, `pygame.surfarray.pixels3d`, or `pygame.surfarray.array3d` to create a pixel array from a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object (see [`pygame.surfarray`](https://www.pygame.org/docs/ref/surfarray.html) module):
 
@@ -40,6 +41,8 @@ The `*2d` version generates a two-dimensional array, with each pixel represented
 Related Stack Overflow questions:
 
 - [Pygame: Draw single pixel](https://stackoverflow.com/questions/10354638/pygame-draw-single-pixel)
+- [Speed up double for loop PyGame draw](https://stackoverflow.com/questions/61856330/speed-up-double-for-loop-pygame-draw/61856399#61856399)  
+- [pixel image to tile map](https://stackoverflow.com/questions/29133065/pixel-image-to-tile-map/65966555#65966555)  
 
  Use a ["pygame.PixelArray"](https://www.pygame.org/docs/ref/pixelarray.html) object to enable direct pixel access to _Surface_ objects. A _PixelArray_ pixel item can be assigned directly. The pixel can be accessed by subscription. The PixelArray locks the _Surface_, You have to [`close()`](https://www.pygame.org/docs/ref/pixelarray.html#pygame.PixelArray.close) it when you have changed the pixel:
 

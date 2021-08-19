@@ -139,6 +139,9 @@ Related Stack Overflow questions:
 - **[python, pygame - jumping too fast?](https://stackoverflow.com/questions/58474204/python-pygame-jumping-too-fast/58474280#58474280)** 
   ![python, pygame - jumping too fast?](https://i.stack.imgur.com/gWHCT.gif)
 
+- [How to do a variable jump height based on how long key is held in Pygame](https://stackoverflow.com/questions/68839727/how-to-do-a-variable-jump-height-based-on-how-long-key-is-held-in-pygame/68843102#68843102)  
+  [How to do a variable jump height based on how long key is held in Pygame](https://i.stack.imgur.com/jhf3z.gif)
+
 - [How to simulate Jumping in Pygame for this particular code](https://stackoverflow.com/questions/54595777/how-to-simulate-jumping-in-pygame-for-this-particular-code/54596624#54596624)  
   ![How to simulate Jumping in Pygame for this particular code](https://i.stack.imgur.com/XEAF8.gif)
 

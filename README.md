@@ -113,6 +113,10 @@ The site is still under construction :construction:.
 
 [Surface and Image](documentation/pygame/pygame_surface_and_image.md)
 
+[Surface and numpy/cv2](documentation/pygame/pygame_surface_and_numpy_or_cv2)
+
+[Surface array, pixel array, buffer proxy](documentation/pygame/pygame_surfacearray_pixelarray_and_bufferproxy.md)
+
 [Text and font](documentation/pygame/pygame_text_and_font.md)
 
 [Draw shape and contour](documentation/pygame/pygame_draw_shape_and_contour.md)
@@ -150,8 +154,6 @@ The site is still under construction :construction:.
 ### Enhanced
 
 [UI elements](documentation/pygame/pygame_ui_elements.md)  
-
-[Surface array, pixel array, buffer proxy](documentation/pygame/pygame_surfacearray_pixelarray_and_bufferproxy.md)
 
 [Threading](documentation/pygame/pygame_threading.md)
 
