@@ -141,10 +141,11 @@ display_surf = pygame.display.set_mode(size, setmode)
 display_surf.blit(old_surface, (0,0))
 ```
 
-### Toggle fullscreen
+### Toggle fullscreen and maximize window
 
 - [pygame.display.toggle_fulscreen() not working](https://stackoverflow.com/questions/64495710/pygame-display-toggle-fulscreen-not-working/64495762#64495762)
 - [pygame fullscreen on second monitor](https://stackoverflow.com/questions/64495381/pygame-fullscreen-on-second-monitor)
+- [How to make a pygame window fullscreen without hiding the taskbar](https://stackoverflow.com/questions/68831902/how-to-make-a-pygame-window-fullscreen-without-hiding-the-taskbar)  
 
 See the documentation of [`pygame.display.toggle_fullscreen()`](https://www.pygame.org/docs/ref/display.html#pygame.display.toggle_fullscreen):
 
