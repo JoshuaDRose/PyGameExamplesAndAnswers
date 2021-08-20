@@ -80,6 +80,8 @@
 
 # Investigate answered questions
 
+[How to set alpha transparency property using pygame.draw.line?](https://stackoverflow.com/questions/68522726/how-to-set-alpha-transparency-property-using-pygame-draw-line/68524176#68524176)
+
 ## Answers
 
 ### Add Answers
