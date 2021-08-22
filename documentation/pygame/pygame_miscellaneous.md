@@ -43,6 +43,7 @@ Related Stack Overflow questions:
 
 - [Problems getting pygame to show anything but a blank screen on Macos](https://stackoverflow.com/questions/52718921/problems-getting-pygame-to-show-anything-but-a-blank-screen-on-macos)
 - [pygame installation issue in mac os](https://stackoverflow.com/questions/22974339/pygame-installation-issue-in-mac-os)
+- [Unable to import Pygame.mixer on an M1 Mac](https://stackoverflow.com/questions/68876896/unable-to-import-pygame-mixer-on-an-m1-mac)  
 - [Pygame 1.9.6 not loading in Python 3.8.1](https://stackoverflow.com/questions/59691131/pygame-1-9-6-not-loading-in-python-3-8-1)
 - [Pygame not showing anything in the window](https://stackoverflow.com/questions/53182886/pygame-not-showing-anything-in-the-window)
 - [Error when installing PyGame on Mac (Catalina) [duplicate]](https://stackoverflow.com/questions/60132717/error-when-installing-pygame-on-mac-catalina)

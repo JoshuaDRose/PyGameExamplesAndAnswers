@@ -60,6 +60,8 @@ Related Stack Overflow questions:
 
 - [pygame: create mask form png with transparancy](https://stackoverflow.com/questions/68517375/pygame-create-mask-form-png-with-transparancy/68517405#68517405)  
 
+- [How can I make my code more optimised by not drawing a rect on each pixel?](https://stackoverflow.com/questions/68835224/how-can-i-make-my-code-more-optimised-by-not-drawing-a-rect-on-each-pixel/68835795#68835795)  
+
 ## Selection and highlighting
 
 Related Stack Overflow questions:
