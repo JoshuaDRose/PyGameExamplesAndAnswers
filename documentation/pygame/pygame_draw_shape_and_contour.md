@@ -22,6 +22,7 @@ Related Stack Overflow questions:
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Shapes](https://replit.com/@Rabbid76/PyGame-Shapes#main.py)**
 
 - [Is there a class in pygame to represent a non-AABB polygon?](https://stackoverflow.com/questions/68718593/is-there-a-class-in-pygame-to-represent-a-non-aabb-polygon/68718661#68718661)  
+- [How to draw rectangle and circles in Pygame environment](https://stackoverflow.com/questions/68854226/how-to-draw-rectangle-and-circles-in-pygame-environment/68854284#68854284)  
 
 With the module [pygame.draw](https://www.pygame.org/docs/ref/draw.html) shapes like rectangles, circles, polygons or liens can be drawn.
 
