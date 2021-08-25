@@ -116,6 +116,12 @@ screen.blit(text, text_rect)
 
 ![python library pygame: centering text](https://i.stack.imgur.com/tWcUe.png)
 
+## Table
+
+Related Stack Overflow questions:v
+
+- [display sqlite database as a table in paygames](https://stackoverflow.com/questions/68881160/display-sqlite-database-as-a-table-in-paygames/68881263#68881263)
+
 ## Blinking text
 
 Related Stack Overflow questions:
