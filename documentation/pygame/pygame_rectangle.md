@@ -116,3 +116,9 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [I do not know how to end game when specific block is touched in pygame](https://stackoverflow.com/questions/61412616/i-do-not-know-how-to-end-game-when-specific-block-is-touched-in-pygame/61412877#61412877)
+
+## Rotated rectangle
+
+Related Stack Overflow questions:
+
+- [rotating a rectangle in pygame](https://stackoverflow.com/questions/68927683/rotating-a-rectangle-in-pygame/68927744#68927744)

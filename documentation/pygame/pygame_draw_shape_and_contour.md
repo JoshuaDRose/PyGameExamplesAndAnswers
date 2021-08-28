@@ -457,4 +457,3 @@ Related Stack Overflow questions:
 
 - [Expand wireframe 3d shape made in pygame](https://stackoverflow.com/questions/68204153/expand-wireframe-3d-shape-made-in-pygame/68204459#68204459)  
   ![Expand wireframe 3d shape made in pygame](https://i.stack.imgur.com/GaaXb.png)
-
