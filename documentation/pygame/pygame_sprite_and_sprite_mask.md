@@ -36,6 +36,10 @@ The later uses the `image` and `rect` attributes of the contained `pygame.sprite
 
 > Draws the contained Sprites to the Surface argument. This uses the `Sprite.image` attribute for the source surface, and `Sprite.rect`. [...]
 
+The _Sprites_ in the _Groups_ can be removed and thus destroyed by calling [`pygame.sprite.Sprite.kill`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite). When the object is no longer referenced, it is destroyed:
+
+> The Sprite is removed from all the Groups that contain it. This won't change anything about the state of the Sprite. It is possible to continue to use the Sprite after this method has been called, including adding it to Groups.
+
 If `chased` is a [`pygame.sprite.Group`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group) object, then you can get a list of [`pygame.sprite.Sprite`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) objects by the method [`sprites()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.sprites):
 
 ```py
@@ -47,7 +51,10 @@ enemy = min([e for e in chased.sprites()],
 
 Related Stack Overflow questions:
 
-- [What does pygame.sprite.Group() do](https://stackoverflow.com/questions/68765971/what-does-pygame-sprite-group-do/68767767#68767767)  
+- [What does pygame.sprite.Group() do](https://stackoverflow.com/questions/68765971/what-does-pygame-sprite-group-do/68767767#68767767) 
+
+  :scroll: **[Minimal example - Minimal sprite group](../../examples/minimal_examples/pygame_minimal_sprite_group.py)**
+
 - [Why We Have to Use self.rect and self.image to Determine Rect and Surf on Sprites?](https://stackoverflow.com/questions/68454667/why-we-have-to-use-self-rect-and-self-image-to-determine-rect-and-surf-on-sprite/68456266#68456266)  
 - [Why do group lists in pygame have to have “update” functions, and not any other?](https://stackoverflow.com/questions/64835155/why-do-group-lists-in-pygame-have-to-have-update-functions-and-not-any-other/64835175#64835175)
 - [Why is my PyGame Sprite, in a Group, not drawn - AttributeError: 'Group' object has no attribute 'blitme'](https://stackoverflow.com/questions/64076676/why-is-my-pygame-sprite-in-a-group-not-drawn-attributeerror-group-object/64076741#64076741)
