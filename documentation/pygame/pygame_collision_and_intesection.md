@@ -445,7 +445,7 @@ rect = surface.get_rect(topleft = (x, y))
 
 Note, a collision of a `Sprite` object and a [`Group`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group) or event 2 `Group`s can be found by [`pygame.sprite.spritecollide()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.spritecollide) respectively [`pygame.sprite.groupcollide()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.groupcollide).
 
-## Rectangle and diagonal slope:
+## Rectangle and diagonal slope (ramp):
 
 Related Stack Overflow questions:
 
