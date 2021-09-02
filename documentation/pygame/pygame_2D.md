@@ -46,6 +46,9 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Recursive circles](../../examples/minimal_examples/pygame_minimal_2D_recursive_circles.py)**
 
+- [Recursive Fractal Pygame - Not Displaying Shapes](https://stackoverflow.com/questions/30140671/recursive-fractal-pygame-not-displaying-shapes/69036894#69036894)  
+  ![Recursive Fractal Pygame - Not Displaying Shapes](https://i.stack.imgur.com/RxK8x.gif)  
+
 ## Lookup table
 
 Related Stack Overflow questions:

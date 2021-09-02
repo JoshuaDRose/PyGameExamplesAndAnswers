@@ -45,5 +45,6 @@ Related Stack Overflow questions:
 - [Controller Support in PyGame](https://stackoverflow.com/questions/49987072/controller-support-in-pygame)  
 - [Pygame: Analog trigger initial value is not the neutral trigger position](https://stackoverflow.com/questions/53267296/pygame-analog-trigger-initial-value-is-not-the-neutral-trigger-position)  
 - [How to know if a joystick is XInput in pygame?](https://stackoverflow.com/questions/54494141/how-to-know-if-a-joystick-is-xinput-in-pygame)  
+- [Is there a way to receive inputs from xbox controller triggers, in pygame?](https://stackoverflow.com/questions/59604049/is-there-a-way-to-receive-inputs-from-xbox-controller-triggers-in-pygame)  
 
 :scroll: **[Joystick test tool`](../../tools/pygame/pygame_joystick_test.py)**
