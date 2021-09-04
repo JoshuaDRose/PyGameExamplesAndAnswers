@@ -33,33 +33,38 @@ grid[15][10] = 1
 grid[15][11] = 1
 grid[15][12] = 1
 
+run_game_of_life = True
 run = True
 while run:
     clock.tick(10)  
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
-        if event == pygame.MOUSEBUTTONDOWN:
+        if event.type == pygame.KEYDOWN:
+            run_game_of_life = not run_game_of_life
+        if event.type == pygame.MOUSEBUTTONDOWN:
             posX, posY = pygame.mouse.get_pos()
             print(posX, posY)
             posX, posY = int(posX / tile_size), int(posY / tile_size)
             grid[posY][posX] = 1 - grid[posY][posX]
 
-    copy_of_grid = []
-    for row in grid:
-        copy_of_grid.append(row[:])
+    if run_game_of_life:
 
-    for y in range(rows):
-        for x in range(cols):
-            bl = [(-1, -1), (0, -1), (1, -1), (-1, 0), (1, 0), (-1, 1), (0, 1), (1, 1)]
-            neighbors = sum(copy_of_grid[(y + i) % rows][(x + j) % cols] for i, j in bl)
-            value = copy_of_grid[y][x]
-            if value == 1 and (neighbors == 2 or neighbors == 3):
-                grid[y][x] = 1
-            elif value == 0 and neighbors == 3:
-                grid[y][x] = 1
-            else:
-                grid[y][x] = 0
+        copy_of_grid = []
+        for row in grid:
+            copy_of_grid.append(row[:])
+
+        for y in range(rows):
+            for x in range(cols):
+                bl = [(-1, -1), (0, -1), (1, -1), (-1, 0), (1, 0), (-1, 1), (0, 1), (1, 1)]
+                neighbors = sum(copy_of_grid[(y + i) % rows][(x + j) % cols] for i, j in bl)
+                value = copy_of_grid[y][x]
+                if value == 1 and (neighbors == 2 or neighbors == 3):
+                    grid[y][x] = 1
+                elif value == 0 and neighbors == 3:
+                    grid[y][x] = 1
+                else:
+                    grid[y][x] = 0
 
     window.fill(0)
     for y in range(rows):
