@@ -235,6 +235,7 @@ See [Time, timer event and clock](pygame_time_and_timer_event.md)
 
 ### Event loop and handle events
 
+- [How does the for event in pygame.event.get() in python work?](https://stackoverflow.com/questions/68978872/how-does-the-for-event-in-pygame-event-get-in-python-work/69005258#69005258)  
 - [PyGame unresponsive display](https://stackoverflow.com/questions/63540062/pygame-unresponsive-display/63540113#63540113)  
 - [PyGame window not responding after a few seconds](https://stackoverflow.com/questions/20165492/pygame-window-not-responding-after-a-few-seconds/61409221#61409221)
 - [Why pygame.event.get() returns EventList?](https://stackoverflow.com/questions/61761718/why-pygame-event-get-returns-eventlist/61761995#61761995)
