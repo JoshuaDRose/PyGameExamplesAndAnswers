@@ -41,16 +41,14 @@ camera_surf = pygame.image.frombuffer(camera_image.tobytes(), camera_image.shape
 
 Related Stack Overflow questions:
 
-- [How to load and play a video in pygame](https://stackoverflow.com/questions/21356439/how-to-load-and-play-a-video-in-pygame)  
+- [How to load and play a video in pygame](https://stackoverflow.com/questions/21356439/how-to-load-and-play-a-video-in-pygame/69054207#69054207)  
 - [How to play video in Pygame currently?](https://stackoverflow.com/questions/62870381/how-to-play-video-in-pygame-currently)
+
+:scroll: **[Minimal example - Camera capture](../../examples/minimal_examples/pygame_minimal_video_play.py)**
 
 The [`pygame.movie`](http://man.hubwiz.com/docset/PyGame.docset/Contents/Resources/Documents/ref/movie.html) is deprecated and not longer supported.
 
 An alternative solution is to use the [OpenCV `VideoCapture`](https://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html). Install OpenCV for Python (_cv2_) (see [opencv-python](https://pypi.org/project/opencv-python/)).
-
-An alternative solution is to use the [OpenCV `VideoCapture`](https://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html). Install OpenCV for Python (_cv2_) (see [opencv-python](https://pypi.org/project/opencv-python/)).
-
-:scroll: **[Minimal example - Camera capture](../../examples/minimal_examples/pygame_minimal_video_camera.py)**
 
 Opens a camera for video capturing:
 
