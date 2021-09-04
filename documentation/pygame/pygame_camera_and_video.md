@@ -8,8 +8,8 @@
 
 Related Stack Overflow questions:
 
-- [python pygame.camera.init() NO vidcapture](https://stackoverflow.com/questions/16266244/python-pygame-camera-init-no-vidcapture)
-- [How to open camera with pygame in Windows?](https://stackoverflow.com/questions/29673348/how-to-open-camera-with-pygame-in-windows/29673710#29673710)
+- [python pygame.camera.init() NO vidcapture](https://stackoverflow.com/questions/16266244/python-pygame-camera-init-no-vidcapture/69053911#69053911)
+- [How to open camera with pygame in Windows?](https://stackoverflow.com/questions/29673348/how-to-open-camera-with-pygame-in-windows)
 
 :scroll: **[Minimal example - Camera capture](../../examples/minimal_examples/pygame_minimal_video_camera.py)**
 
@@ -31,7 +31,7 @@ Grabs a camera frame:
 success, camera_image = capture.read()
 ```
 
-Convert the camera frame to a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object with [`pygame.image.frombuffer`](https://www.pygame.org/docs/ref/image.html#pygame.image.frombuffer):
+Convert the camera frame to a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object using [`pygame.image.frombuffer`](https://www.pygame.org/docs/ref/image.html#pygame.image.frombuffer):
 
 ```py
 camera_surf = pygame.image.frombuffer(camera_image.tobytes(), camera_image.shape[1::-1], "BGR")

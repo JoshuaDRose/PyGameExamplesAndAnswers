@@ -23,7 +23,8 @@ while run:
         if event.type == pygame.QUIT:
             run = False
     
-    camera_surf = pygame.image.frombuffer(camera_image.tobytes(), camera_image.shape[1::-1], "BGR")
+    camera_surf = pygame.image.frombuffer(
+        camera_image.tobytes(), camera_image.shape[1::-1], "BGR")
     window.blit(camera_surf, (0, 0))
     pygame.display.flip()
 
