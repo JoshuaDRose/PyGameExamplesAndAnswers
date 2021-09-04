@@ -1,8 +1,8 @@
 # How to open camera with pygame in Windows?
-# https://stackoverflow.com/questions/29673348/how-to-open-camera-with-pygame-in-windows/29673710#29673710
+# https://stackoverflow.com/questions/29673348/how-to-open-camera-with-pygame-in-windows
 # 
 # python pygame.camera.init() NO vidcapture
-# https://stackoverflow.com/questions/21356439/how-to-load-and-play-a-video-in-pygame
+# https://stackoverflow.com/questions/16266244/python-pygame-camera-init-no-vidcapture/69053911#69053911
 # 
 # GitHub - PyGameExamplesAndAnswers - Camera and Video
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_camera_and_video.md
@@ -23,14 +23,14 @@ while run:
         if event.type == pygame.QUIT:
             run = False
     
-    camera_surf = pygame.image.frombuffer(
-        camera_image.tobytes(), camera_image.shape[1::-1], "BGR")
+    success, camera_image = capture.read()
+    if success:
+        camera_surf = pygame.image.frombuffer(
+            camera_image.tobytes(), camera_image.shape[1::-1], "BGR")
+    else:
+        run = False
     window.blit(camera_surf, (0, 0))
     pygame.display.flip()
-
-    success, camera_image = capture.read()
-    if not success:
-        run = False
 
 pygame.quit()
 exit()
