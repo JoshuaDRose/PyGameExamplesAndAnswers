@@ -80,6 +80,7 @@
 
 # Investigate answered questions
 
+[How to load and play a video in pygame](https://stackoverflow.com/questions/21356439/how-to-load-and-play-a-video-in-pygame)  
 [How to set alpha transparency property using pygame.draw.line?](https://stackoverflow.com/questions/68522726/how-to-set-alpha-transparency-property-using-pygame-draw-line/68524176#68524176)
 [How can I detect if the user has double-clicked in pygame?](https://stackoverflow.com/questions/9918808/how-can-i-detect-if-the-user-has-double-clicked-in-pygame)  
 
