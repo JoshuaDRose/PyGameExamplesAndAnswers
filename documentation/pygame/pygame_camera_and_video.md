@@ -19,6 +19,37 @@ The [`pygame.camera`](https://www.pygame.org/docs/ref/camera.html) is only suppo
 
 An alternative solution is to use the [OpenCV `VideoCapture`](https://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html). Install OpenCV for Python (_cv2_) (see [opencv-python](https://pypi.org/project/opencv-python/)).
 
+Opens a camera for video capturing:
+
+```py
+capture = cv2.VideoCapture(0)
+```
+
+Grabs a camera frame:
+
+```py
+success, camera_image = capture.read()
+```
+
+Convert the camera frame to a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object using [`pygame.image.frombuffer`](https://www.pygame.org/docs/ref/image.html#pygame.image.frombuffer):
+
+```py
+camera_surf = pygame.image.frombuffer(camera_image.tobytes(), camera_image.shape[1::-1], "BGR")
+```
+
+## Video
+
+Related Stack Overflow questions:
+
+- [How to load and play a video in pygame](https://stackoverflow.com/questions/21356439/how-to-load-and-play-a-video-in-pygame)  
+- [How to play video in Pygame currently?](https://stackoverflow.com/questions/62870381/how-to-play-video-in-pygame-currently)
+
+The [`pygame.movie`](http://man.hubwiz.com/docset/PyGame.docset/Contents/Resources/Documents/ref/movie.html) is deprecated and not longer supported.
+
+An alternative solution is to use the [OpenCV `VideoCapture`](https://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html). Install OpenCV for Python (_cv2_) (see [opencv-python](https://pypi.org/project/opencv-python/)).
+
+An alternative solution is to use the [OpenCV `VideoCapture`](https://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html). Install OpenCV for Python (_cv2_) (see [opencv-python](https://pypi.org/project/opencv-python/)).
+
 :scroll: **[Minimal example - Camera capture](../../examples/minimal_examples/pygame_minimal_video_camera.py)**
 
 Opens a camera for video capturing:
@@ -50,33 +81,4 @@ Convert the camera frame to a [`pygame.Surface`](https://www.pygame.org/docs/ref
 
 ```py
 video_surf = pygame.image.frombuffer(video_image.tobytes(), video_image.shape[1::-1], "BGR")
-```
-
-## Video
-
-Related Stack Overflow questions:
-
-- [How to load and play a video in pygame](https://stackoverflow.com/questions/21356439/how-to-load-and-play-a-video-in-pygame)  
-- [How to play video in Pygame currently?](https://stackoverflow.com/questions/62870381/how-to-play-video-in-pygame-currently)
-
-The [`pygame.movie`](http://man.hubwiz.com/docset/PyGame.docset/Contents/Resources/Documents/ref/movie.html) is deprecated and not longer supported.
-
-An alternative solution is to use the [OpenCV `VideoCapture`](https://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html). Install OpenCV for Python (_cv2_) (see [opencv-python](https://pypi.org/project/opencv-python/)).
-
-Opens a video file:
-
-```py
-capture = cv2.VideoCapture(0)
-```
-
-Grabs a camera frame:
-
-```py
-success, camera_image = capture.read()
-```
-
-Convert the camera frame to a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object using [`pygame.image.frombuffer`](https://www.pygame.org/docs/ref/image.html#pygame.image.frombuffer):
-
-```py
-camera_surf = pygame.image.frombuffer(camera_image.tobytes(), camera_image.shape[1::-1], "BGR")
 ```
