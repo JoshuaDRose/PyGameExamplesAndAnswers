@@ -100,7 +100,7 @@ next:
 
 #### Text
 
-[Text with a Drop-shadow](https://stackoverflow.com/users/5577765/rabbid76?tab=following)
+[Text with a Drop-shadow](https://stackoverflow.com/questions/52960057/pygame-text-with-a-drop-shadow)
 
 #### Postponed
 
