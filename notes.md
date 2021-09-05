@@ -13,7 +13,6 @@
             - [Postponed](#postponed)
             - [Draw](#draw)
             - [Collision and intersection](#collision-and-intersection)
-            - [Recursiveness](#recursiveness)
             - [Questions about music and sound](#questions-about-music-and-sound)
         - [Questions about video](#questions-about-video)
         - [Questions about camera capture](#questions-about-camera-capture)
@@ -117,22 +116,13 @@ next:
 #### Collision and intersection
 
 [Implementing collisions using the Separating axis theorem and Pygame](https://stackoverflow.com/questions/63495124/implementing-collisions-using-the-separating-axis-theorem-and-pygame)  
-[Intersection between bezier curve and a line segment](https://stackoverflow.com/questions/1813719/intersection-between-bezier-curve-and-a-line-segment)  
-[python ball physics simulation](https://stackoverflow.com/questions/14137475/python-ball-physics-simulation)  
 [Python Line-Circle collision](https://stackoverflow.com/questions/14276051/python-line-circle-collision)  
 [How to know if two ellipses are colliding - Pygame](https://stackoverflow.com/questions/65323156/how-to-know-if-two-ellipses-are-colliding-pygame)  
 [How create a simulation (pendulum, projectile motion) in pygame](https://stackoverflow.com/questions/59147116/how-create-a-simulation-pendulum-projectile-motion-in-pygame)  
 [How can you pre-calculate the balls trajectory and therefore its endpoint in the game Pong?](https://stackoverflow.com/questions/55976268/how-can-you-pre-calculate-the-balls-trajectory-and-therefore-its-endpoint-in-the)  
-[Pygame draw a surface within a circle](https://stackoverflow.com/questions/59620907/pygame-draw-a-surface-within-a-circle)  
-[Pygame - Collisions on the sides of a platform](https://stackoverflow.com/questions/65523511/pygame-collisions-on-the-sides-of-a-platform)  
-[Add sprite to the group that it doesn't collide with any sprites in the group](https://stackoverflow.com/questions/65538456/add-sprite-to-the-group-that-it-doesnt-collide-with-any-sprites-in-the-group)  
-[How to find the nearest point to the ray in numpy?](https://stackoverflow.com/questions/61500277/how-to-find-the-nearest-point-to-the-ray-in-numpy)  
-[Measure the closest distance - pygame](https://stackoverflow.com/questions/65966579/measure-the-closest-distance-pygame/65966658#65966658)  
 [Creating multiple interactive polygon buttons in Pygame](https://stackoverflow.com/questions/67909718/creating-multiple-interactive-polygon-buttons-in-pygame/67910119#67910119)  
-
-#### Recursiveness
-
-[clearing the screen with a key press in pygame](https://stackoverflow.com/questions/43194741/clearing-the-screen-with-a-key-press-in-pygame)
+[python ball physics simulation](https://stackoverflow.com/questions/14137475/python-ball-physics-simulation)  
+[Intersection between bezier curve and a line segment](https://stackoverflow.com/questions/1813719/intersection-between-bezier-curve-and-a-line-segment)  
 
 #### Questions about music and sound
 
@@ -148,7 +138,6 @@ next:
 ### Questions about video
 
 [Python Write MIDI file](https://stackoverflow.com/questions/64838592/python-write-midi-file)  
-[How to draw a video frame from PyRealSense2 on a PyGame canvas?](https://stackoverflow.com/questions/64988479/how-to-draw-a-video-frame-from-pyrealsense2-on-a-pygame-canvas/64989545#64989545)  
 
 ### Questions about camera capture
 
