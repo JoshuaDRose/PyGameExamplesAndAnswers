@@ -37,6 +37,13 @@ Related Stack Overflow questions:
 
 - [How to get USB controller/gamepad to work with python](https://stackoverflow.com/questions/60309652/how-to-get-usb-controller-gamepad-to-work-with-python/60323121#60323121)
 
+
+## Gamepad issues
+
+Related Stack Overflow questions:
+
+- [Getting the number of axes for Logitech G920](https://stackoverflow.com/questions/56569442/getting-the-number-of-axes-for-logitech-g920)
+
 ## Xbox issues
 
 Related Stack Overflow questions:

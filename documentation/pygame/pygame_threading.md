@@ -7,7 +7,8 @@
 Related Stack Overflow questions:
 
 - [Is it possible to make the keyboard module work with pygame and threading](https://stackoverflow.com/questions/59606826/is-it-possible-to-make-the-keyboard-module-work-with-pygame-and-threading/59609014#59609014)
-- [Why is this pygame program not working so when I hover over the computer screen it turns blue?](https://stackoverflow.com/questions/55271655/why-is-this-pygame-program-not-working-so-when-i-hover-over-the-computer-screen/55287336#55287336)
+- [Why is this pygame program not working so when I hover over the computer screen it turns blue?](https://stackoverflow.com/questions/55271655/why-is-this-pygame-program-not-working-so-when-i-hover-over-the-computer-screen/55287336#55287336)  
+- [Is there a form to draw the background with concurrent programming in Pygame?](https://stackoverflow.com/questions/69148652/is-there-a-form-to-draw-the-background-with-concurrent-programming-in-pygame/69148666#69148666)  
 
 ## Events
 
