@@ -25,6 +25,7 @@
         - [PyOpenGL](#pyopengl)
         - [Threading](#threading)
         - [Investigate](#investigate)
+            - [Transparent window](#transparent-window)
             - [URL](#url)
     - [Questions](#questions)
         - [Move and stay in window](#move-and-stay-in-window)
@@ -202,10 +203,15 @@ next:
 [How to make keyboard Input into unicode/japanese characters?](https://stackoverflow.com/questions/64543224/how-to-make-keyboard-input-into-unicode-japanese-characters)  
 [Update during resize in Pygame](https://stackoverflow.com/questions/64543449/update-during-resize-in-pygame)  
 [Pygame and win32api - blited image has outline when setting background as transparent with win32api](https://stackoverflow.com/questions/62135125/pygame-and-win32api-blited-image-has-outline-when-setting-background-as-transp)  
+[Pygame: How to deform a surface perspectively without OpenGL](https://stackoverflow.com/questions/13671424/pygame-how-to-deform-a-surface-perspectively-without-opengl)  
+[pygame, why it can't show gray scale picture](https://stackoverflow.com/questions/45895328/pygame-why-it-cant-show-gray-scale-picture) 
+
+#### Transparent window
+
 [Fully transparent windows in Pygame?](https://stackoverflow.com/questions/550001/fully-transparent-windows-in-pygame)  
 [Creating a transparent window/overlay with pyopengl](https://stackoverflow.com/questions/61003354/creating-a-transparent-window-overlay-with-pyopengl)  
-[Pygame: How to deform a surface perspectively without OpenGL](https://stackoverflow.com/questions/13671424/pygame-how-to-deform-a-surface-perspectively-without-opengl)  
-[pygame, why it can't show gray scale picture](https://stackoverflow.com/questions/45895328/pygame-why-it-cant-show-gray-scale-picture)  
+[pygame transparent window alpha?](https://stackoverflow.com/questions/68784745/pygame-transparent-window-alpha)  
+[How to make a pygame window transparent while still receiving and blocking mouse clicks?](https://stackoverflow.com/questions/69139791/how-to-make-a-pygame-window-transparent-while-still-receiving-and-blocking-mouse)  
 
 #### URL
 
