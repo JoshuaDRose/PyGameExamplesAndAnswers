@@ -71,6 +71,33 @@ rect.topleft = round(x), round(y)
 
 Related Stack Overflow questions:
 
+- [Setting up an invisible boundary for my sprite](https://stackoverflow.com/questions/69180916/setting-up-an-invisible-boundary-for-my-sprite)  
+  ![Setting up an invisible boundary for my sprite](https://i.stack.imgur.com/TQ1Ys.gif)  
+- [How do I get the size (width x height) of my pygame window](https://stackoverflow.com/questions/36653519/how-do-i-get-the-size-width-x-height-of-my-pygame-window) 
+  [How do I get the size (width x height) of my pygame window](https://i.stack.imgur.com/xMMCz.gif)
+
+If you only want to limit the player to a bounding rectangle, I recommend using [`pygame.Rect.clamp_ip`](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.clamp)
+
+> moves the rectangle inside another, in place
+
+Define the bounding respectively border rectangle. If the player is limited to the screen, you can get a rectangle that defines the border from the display _Surface_ with [`pygame.display.get_surface()`](https://www.pygame.org/docs/ref/display.html#pygame.display.get_surface) and [`pygame.Surface.get_rect`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.get_rect):
+
+```py
+border_rect = pygame.display.get_surface().get_rect()
+```
+
+Clamp the player [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) by `border_rect`:
+
+```py
+self.rect.clamp_ip(border_rect)
+```
+
+You can do this with 1 line of code:
+
+```py
+self.rect.clamp_ip(pygame.display.get_surface().get_rect())
+```
+
 - [Window border in pygame](https://stackoverflow.com/questions/64205777/window-border-in-pygame/64206877#64206877)
 
 Use a [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) object to limit the a circle to the bounds of the window. In the following `window` is the display _Surface_ :
@@ -88,8 +115,6 @@ Explanation:
 In the following, `min` and `max` are used to clamp the center of the circle in the area defined by the rectangle.
 
 :scroll: **[minimal example - Move object with keys limit it to the window borders](../../examples/minimal_examples/pygame_minimal_move_object_limit_window.py)**
-
-[How do I get the size (width x height) of my pygame window](https://i.stack.imgur.com/xMMCz.gif)
 
 ## Center of a rectangular area
 

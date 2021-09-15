@@ -148,6 +148,7 @@ Related Stack Overflow questions:
 - [how to drop a bomb in character position in a pygame game](https://stackoverflow.com/questions/62066092/how-to-drop-a-bomb-in-character-position-in-a-pygame-game/62067605#62067605)
 - [how to make rectangle “sprint”](https://stackoverflow.com/questions/64209885/how-to-make-rectangle-sprint/64209944#64209944)
 - [How to put a variable into pygame key detector?](https://stackoverflow.com/questions/64717181/how-to-put-a-variable-into-pygame-key-detector)
+- [How do I get the size (width x height) of my pygame window](https://stackoverflow.com/questions/36653519/how-do-i-get-the-size-width-x-height-of-my-pygame-window) 
 
 Use the keyboard events (`KEYDOWN`,` ​​KEYUP`) for actions like jumping or spawning a bullet.
 

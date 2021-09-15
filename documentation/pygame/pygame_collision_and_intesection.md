@@ -197,6 +197,8 @@ Some examples:
 
 Related Stack Overflow questions:
 
+- [Setting up an invisible boundary for my sprite](https://stackoverflow.com/questions/69180916/setting-up-an-invisible-boundary-for-my-sprite)  
+  ![Setting up an invisible boundary for my sprite](https://i.stack.imgur.com/TQ1Ys.gif)  
 - [Use vector2 in pygame. Collide with the window frame and restrict the ball to the rectangular area](https://stackoverflow.com/questions/60213103/use-vector2-in-pygame/60214064#60214064)  
   ![Use vector2 in pygame](https://i.stack.imgur.com/jbmJ1.gif)  
 - [How to make ball bounce off wall with Pygame?](https://stackoverflow.com/questions/59802794/how-to-make-ball-bounce-off-wall-with-pygame/59803018#59803018)  
@@ -205,7 +207,7 @@ Related Stack Overflow questions:
 - [I made a border in this pong game, but the paddles can cross it. How do I stop that?](https://stackoverflow.com/questions/63607681/i-made-a-border-in-this-pong-game-but-the-paddles-can-cross-it-how-do-i-stop-t/63609229#63609229)  
 - [How do you get pygame to give warning when player touches side of screen?](https://stackoverflow.com/questions/65279570/how-do-you-get-pygame-to-give-warning-when-player-touches-side-of-screen/65279636#65279636)  
 - [Colour Changing Bouncing Ball](https://stackoverflow.com/questions/60312365/colour-changing-bouncing-ball/60315375#60315375)  
-![Colour Changing Bouncing Ball](https://i.stack.imgur.com/Bz0cu.gif)   
+  ![Colour Changing Bouncing Ball](https://i.stack.imgur.com/Bz0cu.gif)  
 
 :scroll: **[Minimal example - Restrict object to frame](../../examples/minimal_examples/pygame_minimal_intersect_frame_clamp.py)**
 
