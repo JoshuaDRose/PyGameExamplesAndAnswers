@@ -667,7 +667,7 @@ Related Stack Overflow questions:
 - [Pygame: How to make two objects stop moving once they collide](https://stackoverflow.com/questions/62054942/pygame-how-to-make-two-objects-stop-moving-once-they-collide/62068800#62068800)
 
 - [Random systematic movement in pygame](https://stackoverflow.com/questions/65468240/random-systematic-movement-in-pygame/65468502#65468502)  
-  ![Random systematic movement in pygame](https://i.stack.imgur.com/Kyslz.gif)
+  ![Random systematic movement in pygame](https://i.stack.imgur.com/Ftsin.gif)
 
   :scroll: **[Minimal example - Make particles bounce off each other](../../examples/minimal_examples/pygame_minimal_intersect_circular_particles.py)**
 
