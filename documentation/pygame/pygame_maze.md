@@ -158,7 +158,7 @@ new_rect = player_rect.move(
     (keys[pygame.K_DOWN] - keys[pygame.K_UP]) * 3)
 ```
 
-Use [`pygame.mask.Mask.overlap`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask.overlap) to see if the masks are intersects (see [Pygame collision with masks is not working](https://stackoverflow.com/questions/57455811/pygame-collision-with-masks-is-not-working/57499484#57499484)). Skip the movement when the mask of the maze intersects the player's mask:
+Use [`pygame.mask.Mask.overlap`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask.overlap) to see if the masks are intersects (see [Pygame collision with masks](https://stackoverflow.com/questions/57455811/pygame-collision-with-masks/57499484#57499484)). Skip the movement when the mask of the maze intersects the player's mask:
 
 ```py
 offset = (new_rect.x - maze_pos[0]), (new_rect.y - maze_pos[1])

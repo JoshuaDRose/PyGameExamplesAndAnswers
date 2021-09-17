@@ -4,8 +4,8 @@
 # pygame.Surface object
 # https://www.pygame.org/docs/ref/surface.html
 #
-# PyGame collision with masks is not working
-# https://stackoverflow.com/questions/57455811/pygame-collision-with-masks-is-not-working/57499484#57499484
+# PyGame collision with masks
+# https://stackoverflow.com/questions/57455811/pygame-collision-with-masks/57499484#57499484
 #
 # Collision between masks in PyGame
 # https://stackoverflow.com/questions/55817422/collision-between-masks-in-pygame/55818093#55818093
