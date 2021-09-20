@@ -26,13 +26,13 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Minimal sprite update](../../examples/minimal_examples/pygame_minimal_sprite_update.py)**
 
-[`pygame.sprite.Group.draw()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.draw) and [`pygame.sprite.Group.update()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.update) are methods which are provided by `pygame.sprite.Group`.
+[[`pygame.sprite.Group.draw()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.draw) and [`pygame.sprite.Group.update()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.update) are methods which are provided by `pygame.sprite.Group`.
 
-The former delegates the to the `update` method of the contained [`pygame.sprite.Sprite`s](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) - you have to implement the method. See [`pygame.sprite.Group.update()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.update):
+The latter delegates to the `update` method of the contained [`pygame.sprite.Sprite`s](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) — you have to implement the method. See [`pygame.sprite.Group.update()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.update):
 
-> Calls the `update()` method on all Sprites in the Group [...]
+> Calls the `update()` method on all Sprites in the Group. [...]
 
-The later uses the `image` and `rect` attributes of the contained `pygame.sprite.Sprite`s to draw the objects - you have to ensure that the `pygame.sprite.Sprite`s have the required attributes. See [`pygame.sprite.Group.draw()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.draw):
+The former uses the `image` and `rect` attributes of the contained `pygame.sprite.Sprite`s to draw the objects — you have to ensure that the `pygame.sprite.Sprite`s have the required attributes. See [`pygame.sprite.Group.draw()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.draw):
 
 > Draws the contained Sprites to the Surface argument. This uses the `Sprite.image` attribute for the source surface, and `Sprite.rect`. [...]
 
