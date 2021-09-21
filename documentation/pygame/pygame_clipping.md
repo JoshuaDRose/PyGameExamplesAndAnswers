@@ -51,14 +51,13 @@ Related Stack Overflow questions:
 
 ## Clipping with masks
 
+![Clipping with masks](https://i.stack.imgur.com/RYXm0.png)
+
 :scroll: **[Minimal example - Clipping with masks](../../examples/minimal_examples/pygame_minimal_clip_mask.py)**
 
-Convert a [`pygame.mask.Mask`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask) to a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) with [`pygame.mask.Mask.to_surface`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask.to_surface). Blend the mask with the image with the [`pygame.Surface.blit`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.blit) and the _special flag_ `BLEND_RGB_MULT`:
+Convert a [`pygame.mask.Mask`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask) to a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) with [`pygame.mask.Mask.to_surface`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask.to_surface). Use `setsurface` to specify the source image and the `unsetcolor` argument to specify the transparent background:
 
 ```py
 def clip_surface(surf, mask):
-    clip_surf = mask.to_surface()
-    clip_surf.set_colorkey(0)
-    clip_surf.blit(surf, (0, 0), special_flags = pygame.BLEND_RGB_MULT)
-    return clip_surf
+    return mask.to_surface(setsurface = surf.convert_alpha(), unsetcolor = (0, 0, 0, 0))
 ```
