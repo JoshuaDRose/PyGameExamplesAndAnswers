@@ -48,3 +48,17 @@ Related Stack Overflow questions:
   ![Can I use an image on a moving object within Pygame as opposed to to a color?](https://i.stack.imgur.com/kIAeK.gif)  
 
   :scroll: **[Minimal example - Clip circular 5](../../examples/minimal_examples/pygame_minimal_clip_circular_5.py)**
+
+## Clipping with masks
+
+:scroll: **[Minimal example - Clipping with masks](../../examples/minimal_examples/pygame_minimal_clip_mask.py)**
+
+Convert a [`pygame.mask.Mask`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask) to a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) with [`pygame.mask.Mask.to_surface`](https://www.pygame.org/docs/ref/mask.html#pygame.mask.Mask.to_surface). Blend the mask with the image with the [`pygame.Surface.blit`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.blit) and the _special flag_ `BLEND_RGB_MULT`:
+
+```py
+def clip_surface(surf, mask):
+    clip_surf = mask.to_surface()
+    clip_surf.set_colorkey(0)
+    clip_surf.blit(surf, (0, 0), special_flags = pygame.BLEND_RGB_MULT)
+    return clip_surf
+```
