@@ -16,7 +16,7 @@ Related Stack Overflow questions:
 - [How to rotate an image around its center while its scale is getting larger(in Pygame)](https://stackoverflow.com/questions/54462645/how-to-rotate-an-image-around-its-center-while-its-scale-is-getting-largerin-py/54713639#54713639/54713639#54713639)  
   ![How to rotate an image around its center while its scale is getting larger(in Pygame)](https://i.stack.imgur.com/NghO9.gif)
 - [How to set the pivot point (center of rotation) for pygame.transform.rotate()?](https://stackoverflow.com/questions/15098900/how-to-set-the-pivot-point-center-of-rotation-for-pygame-transform-rotate/69312319#69312319)  
-  [How to set the pivot point (center of rotation) for pygame.transform.rotate()?](https://i.stack.imgur.com/fhxNf.gif)  
+  ![How to set the pivot point (center of rotation) for pygame.transform.rotate()?](https://i.stack.imgur.com/fhxNf.gif)  
 
 Short answer:
 
