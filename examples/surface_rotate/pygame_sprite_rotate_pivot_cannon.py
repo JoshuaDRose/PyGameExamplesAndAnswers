@@ -13,16 +13,18 @@
 # How to set the pivot point (center of rotation) for pygame.transform.rotate()?
 # https://stackoverflow.com/questions/15098900/how-to-set-the-pivot-point-center-of-rotation-for-pygame-transform-rotate/69312319#69312319
 #
+# How do I make image rotate with mouse python
+# https://stackoverflow.com/questions/65573379/how-do-i-make-image-rotate-with-mouse-python/65575874#65575874
+#
 # GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Circle and circle
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_surface_rotate.md
 #
 # GitHub - Sprite, Group and Sprite mask - Drag Sprite
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_sprite_and_sprite_mask.md
 #
-# https://replit.com/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivot
+# https://replit.com/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivotCannon
 
 import os
-import math
 import pygame
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../resource'))
 
@@ -38,29 +40,23 @@ class SpriteRotate(pygame.sprite.Sprite):
         self.angle = 0
 
     def update(self):
-        
-        # offset from pivot to center
         image_rect = self.original_image.get_rect(topleft = (self.origin[0] - self.pivot[0], self.origin[1]-self.pivot[1]))
         offset_center_to_pivot = pygame.math.Vector2(self.origin) - image_rect.center
-        
-        # roatated offset from pivot to center
         rotated_offset = offset_center_to_pivot.rotate(-self.angle)
-
-        # roatetd image center
         rotated_image_center = (self.origin[0] - rotated_offset.x, self.origin[1] - rotated_offset.y)
-
-        # get a rotated image
-        self.image  = pygame.transform.rotate(self.original_image, self.angle)
-        self.rect   = self.image.get_rect(center = rotated_image_center)
-        self.angle += 10
+        self.image = pygame.transform.rotate(self.original_image, self.angle)
+        self.rect = self.image.get_rect(center = rotated_image_center)
   
 pygame.init()
 size = (400,400)
 screen = pygame.display.set_mode(size)
 clock = pygame.time.Clock()
 
-boomerang = SpriteRotate('icon/Boomerang64.png', (200, 200), (48, 21))
-all_sprites = pygame.sprite.Group(boomerang)
+cannon = SpriteRotate('icon/cannon.png', (200, 200), (33.5, 120))
+cannon_mount = SpriteRotate('icon/cannon_mount.png', (200, 200), (43, 16))
+all_sprites = pygame.sprite.Group([cannon, cannon_mount])
+angle_range = [-90, 0]
+angle_step = -1
 
 frame = 0
 done = False
@@ -70,19 +66,15 @@ while not done:
         if event.type == pygame.QUIT:
             done = True
     
-    pos = (200 + math.cos(frame * 0.05)*100, 200 + math.sin(frame * 0.05)*50)
-    boomerang.origin = pos
     all_sprites.update()
-
-    screen.fill(0)
-    
+    screen.fill((64, 128, 255))
+    pygame.draw.rect(screen, (127, 127, 127), (0, 250, 400, 150))
     all_sprites.draw(screen)
-    #pygame.draw.line(screen, (0, 255, 0), (pos[0]-20, pos[1]), (pos[0]+20, pos[1]), 3)
-    #pygame.draw.line(screen, (0, 255, 0), (pos[0], pos[1]-20), (pos[0], pos[1]+20), 3)
-    #pygame.draw.circle(screen, (0, 255, 0), pos, 7, 0)
-
     pygame.display.flip()
     frame += 1
+    cannon.angle += angle_step
+    if not angle_range[0] < cannon.angle < angle_range[1]:
+        angle_step *= -1
     
 pygame.quit()
 exit()

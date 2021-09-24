@@ -15,7 +15,8 @@ Related Stack Overflow questions:
   ![How can you rotate an image around an off center pivot in PyGame](https://i.stack.imgur.com/BmG1u.gif)
 - [How to rotate an image around its center while its scale is getting larger(in Pygame)](https://stackoverflow.com/questions/54462645/how-to-rotate-an-image-around-its-center-while-its-scale-is-getting-largerin-py/54713639#54713639/54713639#54713639)  
   ![How to rotate an image around its center while its scale is getting larger(in Pygame)](https://i.stack.imgur.com/NghO9.gif)
-- [How to set the pivot point (center of rotation) for pygame.transform.rotate()?](https://stackoverflow.com/questions/15098900/how-to-set-the-pivot-point-center-of-rotation-for-pygame-transform-rotate/69312319#69312319)
+- [How to set the pivot point (center of rotation) for pygame.transform.rotate()?](https://stackoverflow.com/questions/15098900/how-to-set-the-pivot-point-center-of-rotation-for-pygame-transform-rotate/69312319#69312319)  
+  [How to set the pivot point (center of rotation) for pygame.transform.rotate()?](https://i.stack.imgur.com/fhxNf.gif)  
 
 Short answer:
 
@@ -242,4 +243,9 @@ The same algorithm can be used for a [Sprite](https://www.pygame.org/docs/ref/sp
 In that case the position (`self.pos`), pivot (`self.pivot`) and angle (`self.angle`) are instance attributes of the class.
 In the `update` method the `self.rect` and `self.image` attributes are computed. e.g:
 
-:scroll: **[Minimal example - Rotate Sprite around off center pivot](../../examples/surface_rotate/pygame_sprite_rotate_pivot_boomerang.py)**
+:scroll: **[Minimal example - Rotate Sprite around off center pivot (boomerang)](../../examples/surface_rotate/pygame_sprite_rotate_pivot_boomerang.py)**  
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivot](https://replit.com/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivot#main.py)**
+
+:scroll: **[Minimal example - Rotate Sprite around off center pivot (cannon)](../../examples/surface_rotate/pygame_sprite_rotate_pivot_cannon.py)**  
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivotCannon](https://replit.com/@Rabbid76/PyGame-RotateSpriteAroundOffCenterPivotCannon#main.py)**
+
