@@ -15,6 +15,7 @@ Related Stack Overflow questions:
   ![How can you rotate an image around an off center pivot in PyGame](https://i.stack.imgur.com/BmG1u.gif)
 - [How to rotate an image around its center while its scale is getting larger(in Pygame)](https://stackoverflow.com/questions/54462645/how-to-rotate-an-image-around-its-center-while-its-scale-is-getting-largerin-py/54713639#54713639/54713639#54713639)  
   ![How to rotate an image around its center while its scale is getting larger(in Pygame)](https://i.stack.imgur.com/NghO9.gif)
+- [How to set the pivot point (center of rotation) for pygame.transform.rotate()?](https://stackoverflow.com/questions/15098900/how-to-set-the-pivot-point-center-of-rotation-for-pygame-transform-rotate/69312319#69312319)
 
 Short answer:
 
@@ -132,26 +133,26 @@ screen.blit(rotated_image, origin)
 
 It is even possible to define a pivot on the original image. Compute the offset vector from the center of the image to the pivot and rotate the vector. A vector can be represented by [`pygame.math.Vector2`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2) and can be rotated with [`pygame.math.Vector2.rotate`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2.rotate). Notice that `pygame.math.Vector2.rotate` rotates in the opposite direction than `pygame.transform.rotate`. Therefore the angle has to be inverted:
 
-Compute the vector from the center of the image to the pivot:
+Compute the offset vector from the center of the image to the pivot on the image:
 
 ```py
-image_rect = image.get_rect(topleft = (pos[0] - originPos[0], pos[1]-originPos[1]))
-offset_center_to_pivot = pygame.math.Vector2(pos) - image_rect.center
+image_rect = image.get_rect(topleft = (origin[0] - pivot[0], origin[1]-pivot[1]))
+    offset_center_to_pivot = pygame.math.Vector2(origin) - image_rect.center
 ```
 
-Rotate the vector:
+Rotate the offset vector the same angle you want to rotate the image:
 
 ```py
 rotated_offset = offset_center_to_pivot.rotate(-angle)
 ```
 
-Calculate the center of the rotated image:
+Calculate the new center point of the rotated image by subtracting the rotated offset vector from the pivot point in the world:
 
 ```py
-rotated_image_center = (pos[0] - rotated_offset.x, pos[1] - rotated_offset.y)
+rotated_image_center = (origin[0] - rotated_offset.x, origin[1] - rotated_offset.y)
 ```
 
-Rotate and blit the image:
+Rotate the image and set the center point of the rectangle enclosing the rotated image. Finally blit the image :
 
 ```py
 rotated_image = pygame.transform.rotate(image, angle)
