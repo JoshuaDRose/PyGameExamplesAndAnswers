@@ -15,17 +15,17 @@ import math
 import pygame
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../resource'))
 
-def blitRotate(surf, image, pos, originPos, angle):
+def blitRotate(surf, image, pivot, origin, angle):
 
     # offset from pivot to center
-    image_rect = image.get_rect(topleft = (pos[0] - originPos[0], pos[1]-originPos[1]))
-    offset_center_to_pivot = pygame.math.Vector2(pos) - image_rect.center
+    image_rect = image.get_rect(topleft = (pivot[0] - origin[0], pivot[1]-origin[1]))
+    offset_center_to_pivot = pygame.math.Vector2(pivot) - image_rect.center
     
     # roatated offset from pivot to center
     rotated_offset = offset_center_to_pivot.rotate(-angle)
 
     # roatetd image center
-    rotated_image_center = (pos[0] - rotated_offset.x, pos[1] - rotated_offset.y)
+    rotated_image_center = (pivot[0] - rotated_offset.x, pivot[1] - rotated_offset.y)
 
     # get a rotated image
     rotated_image = pygame.transform.rotate(image, angle)
