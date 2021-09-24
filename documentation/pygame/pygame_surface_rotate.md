@@ -130,28 +130,34 @@ screen.blit(rotated_image, origin)
 
 :scroll: **[Minimal example - Rotate around (0, 0)](../../examples/surface_rotate/pygame_image_rotate_3__0_0.py)**
 
-It is even possible to define a pivot on the original image. The "translation" of the pivot in relation to the upper left of the image has to be calculated and the "blit" position of the image has to be displaced by the translation.
+It is even possible to define a pivot on the original image. Compute the offset vector from the center of the image to the pivot and rotate the vector. A vector can be represented by [`pygame.math.Vector2`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2) and can be rotated with [`pygame.math.Vector2.rotate`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2.rotate). Notice that `pygame.math.Vector2.rotate` rotates in the opposite direction than `pygame.transform.rotate`. Therefore the angle has to be inverted:
 
-Define a pivot e.g. in the center of the image:
+Compute the vector from the center of the image to the pivot:
 
 ```py
-pivot = pygame.math.Vector2(w/2, -h/2)
+image_rect = image.get_rect(topleft = (pos[0] - originPos[0], pos[1]-originPos[1]))
+offset_center_to_pivot = pygame.math.Vector2(pos) - image_rect.center
 ```
 
-Calculate the translation of the rotated pivot:
+Rotate the vector:
 
 ```py
-pivot_rotate = pivot.rotate(angle)
-pivot_move   = pivot_rotate - pivot
+rotated_offset = offset_center_to_pivot.rotate(-angle)
 ```
 
-Finally calculate the origin of the rotated image:
+Calculate the center of the rotated image:
 
 ```py
-origin = (pos[0] + min_box[0] - pivot_move[0], pos[1] - max_box[1] + pivot_move[1])
+rotated_image_center = (pos[0] - rotated_offset.x, pos[1] - rotated_offset.y)
+```
 
+Rotate and blit the image:
+
+```py
 rotated_image = pygame.transform.rotate(image, angle)
-screen.blit(rotated_image, origin)
+rotated_image_rect = rotated_image.get_rect(center = rotated_image_center)
+
+surf.blit(rotated_image, rotated_image_rect)
 ```
 
 In the following example program, the function `blitRotate(surf, image, pos, originPos, angle)` does all the above steps and "blit" a rotated image to a surface.  

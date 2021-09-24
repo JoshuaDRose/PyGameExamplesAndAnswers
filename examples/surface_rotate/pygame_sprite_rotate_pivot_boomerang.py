@@ -34,22 +34,19 @@ class SpriteRotate(pygame.sprite.Sprite):
 
     def update(self):
         
-        # calcaulate the axis aligned bounding box of the rotated image
-        w, h         = self.original_image.get_size()
-        sin_a, cos_a = math.sin(math.radians(self.angle)), math.cos(math.radians(self.angle)) 
-        min_x, min_y = min([0, sin_a*h, cos_a*w, sin_a*h + cos_a*w]), max([0, sin_a*w, -cos_a*h, sin_a*w - cos_a*h])
+        # offset from pivot to center
+        image_rect = self.original_image.get_rect(topleft = (self.pos[0] - self.pivot[0], self.pos[1]-self.pivot[1]))
+        offset_center_to_pivot = pygame.math.Vector2(pos) - image_rect.center
+        
+        # roatated offset from pivot to center
+        rotated_offset = offset_center_to_pivot.rotate(-self.angle)
 
-        # calculate the translation of the pivot 
-        pivot        = pygame.math.Vector2(self.pivot[0], -self.pivot[1])
-        pivot_rotate = pivot.rotate(self.angle)
-        pivot_move   = pivot_rotate - pivot
-
-        # calculate the upper left origin of the rotated image
-        origin = (self.pos[0] - self.pivot[0] + min_x - pivot_move[0], self.pos[1] - self.pivot[1] - min_y + pivot_move[1])
+        # roatetd image center
+        rotated_image_center = (pos[0] - rotated_offset.x, pos[1] - rotated_offset.y)
 
         # get a rotated image
         self.image  = pygame.transform.rotate(self.original_image, self.angle)
-        self.rect   = self.image.get_rect(topleft = (round(origin[0]), round(origin[1])))
+        self.rect   = self.image.get_rect(center = rotated_image_center)
         self.angle += 10
   
 pygame.init()

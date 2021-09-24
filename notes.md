@@ -6,6 +6,7 @@
 
 - [Code snippets at repl.it](#code-snippets-at-replit)
     - [Template](#template)
+- [Mark duplicate](#mark-duplicate)
 - [Investigate answered questions](#investigate-answered-questions)
     - [Answers](#answers)
         - [Add Answers](#add-answers)
@@ -77,6 +78,10 @@
 
   [1]: https://i.stack.imgur.com/5jD0C.png
 ```
+
+# Mark duplicate 
+
+[How to set the pivot point (center of rotation) for pygame.transform.rotate()?](https://stackoverflow.com/questions/15098900/how-to-set-the-pivot-point-center-of-rotation-for-pygame-transform-rotate)
 
 # Investigate answered questions
 
