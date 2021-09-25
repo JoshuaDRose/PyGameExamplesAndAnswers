@@ -51,6 +51,10 @@ Related Stack Overflow questions:
 
 ## Clipping with masks
 
+Related Stack Overflow questions:
+
+- [How to free transform image in pygame?](https://stackoverflow.com/questions/69271298/how-to-free-transform-image-in-pygame/69272398#69272398)
+
 ![Clipping with masks](https://i.stack.imgur.com/RYXm0.png)
 
 :scroll: **[Minimal example - Clipping with masks](../../examples/minimal_examples/pygame_minimal_clip_mask.py)**
