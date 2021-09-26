@@ -99,6 +99,8 @@ enemy = min([e for e in chased.sprites()], key=lambda e: pow(e.x-entity.x, 2) + 
 
 Related Stack Overflow questions:
 
+- [How do you program collision in classes?](https://stackoverflow.com/questions/69331228/how-do-you-program-collision-in-classes/69332148#69332148)
+  ![How do you program collision in classes?](https://i.stack.imgur.com/7eoyB.gif)
 - [Collisions still aren't getting detected in pygame](https://stackoverflow.com/questions/63465025/collisions-still-arent-getting-detected-in-pygame/63465289#63465289)
 - [How do you assign a “rect” attribute to a pygame.sprite.rect rectangle in Pygame?](https://stackoverflow.com/questions/61370439/how-do-you-assign-a-rect-attribute-to-a-pygame-sprite-rect-rectangle-in-pygame/61371148#61371148)
 - [pygame-'pygame.Rect' object has no attribute 'rect'](https://stackoverflow.com/questions/62325191/pygame-pygame-rect-object-has-no-attribute-rect/62325482#62325482)
@@ -106,6 +108,8 @@ Related Stack Overflow questions:
   ![Collisions still aren't getting detected in pygame](https://i.stack.imgur.com/OkZC7.gif)
 
 :scroll: **[Minimal example - Minimal sprite collide](../../examples/minimal_examples/pygame_minimal_sprite_collide.py)**
+
+:scroll: **[Minimal example - Minimal sprite collide (class)](../../examples/minimal_examples/pygame_minimal_intersect_spritecollide_class.py)**
 
 ### Sprite collide with Sprite
 
