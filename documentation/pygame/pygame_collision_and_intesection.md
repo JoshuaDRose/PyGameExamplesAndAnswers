@@ -546,8 +546,12 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-IntersectAndCutLines](https://replit.com/@Rabbid76/PyGame-IntersectAndCutLines#main.py)**
 
+- [I'm having a problem with determining the intersection of two lines in this python code](https://stackoverflow.com/questions/69353309/im-having-a-problem-with-determining-the-intersection-of-two-lines-in-this-pyth/69357134#69357134)  
+  ![I'm having a problem with determining the intersection of two lines in this python code](https://i.stack.imgur.com/UnS8P.gif)
+
 - [fiding every point of intersection of multiple lines using pygame in python for creation of game board](https://stackoverflow.com/questions/63521847/fiding-every-point-of-intersection-of-multiple-lines-using-pygame-in-python-for/63523520#63523520)  
   ![fiding every point of intersection of multiple lines using pygame in python for creation of game board](https://i.stack.imgur.com/6Do1b.png)
+
 - [Line-to-line intersect with pygame's inverted y-axis](https://stackoverflow.com/questions/56048621/line-to-line-intersect-with-pygames-inverted-y-axis/56062849#56062849)
 
 - [Make cursor unable to move through sprite pygame](https://stackoverflow.com/questions/54509869/make-cursor-unable-to-move-through-sprite-pygame/54511823#54511823)  
