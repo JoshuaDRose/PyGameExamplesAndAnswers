@@ -198,6 +198,9 @@ Related Stack Overflow questions:
 
 - [Pygame sprite disappearing with layeredUpdates at a certain Y coordinate](https://stackoverflow.com/questions/61562822/pygame-sprite-disappearing-with-layeredupdates-at-a-certain-y-coordinate/61607539#61607539)
 
+- [pygame.sprite.LayeredUpdates.move_to_front() does not work](https://stackoverflow.com/questions/69365433/pygame-sprite-layeredupdates-move-to-front-does-not-work/69365563#69365563)
+  ![pygame.sprite.LayeredUpdates.move_to_front() does not work](https://i.stack.imgur.com/18mlv.gif)
+
 ## Animation, timing and Sprite sheet
 
 Related Stack Overflow questions:
