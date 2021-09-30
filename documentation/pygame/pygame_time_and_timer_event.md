@@ -116,6 +116,8 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ShootBulletSustainedFire](https://replit.com/@Rabbid76/PyGame-ShootBulletSustainedFire#main.py)**
 
+- [Python Pygame Tetris, problems with handling of keypresses. implement delayed auto shift. how long a key has to be pressed before moving](https://stackoverflow.com/questions/69344528/python-pygame-tetris-problems-with-handling-of-keypresses-implement-delayed-au/69344706#69344706)  
+
 If you want to implement some kind of rapid fire, then the things get more tricky. If you would use the state of `pygame.key.get_pressed()` then you would spawn one bullet in every frame. That is far too fast. You have to implement some timeout.  
 When a bullet is fired, the get the current time by [`pygame.time.get_ticks()`](https://www.pygame.org/docs/ref/time.html). Define a number of milliseconds for the delay between to bullets. Add the delta to the time and state the time in a variable (`next_bullet_threshold`). Skip bullets, as long the time is not exceeded:
 
