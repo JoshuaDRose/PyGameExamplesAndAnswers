@@ -136,7 +136,7 @@ Related Stack Overflow questions:
 - **[How can I do a double jump in pygame?](https://stackoverflow.com/questions/67667103/how-can-i-do-a-double-jump-in-pygame/67667585#67667585)**
   ![How can I do a double jump in pygame?](https://i.stack.imgur.com/9ICi5.gif)  
 
-- **[python, pygame - jumping too fast?](https://stackoverflow.com/questions/58474204/python-pygame-jumping-too-fast/58474280#58474280)** 
+- **[python, pygame - jumping too fast?](https://stackoverflow.com/questions/58474204/python-pygame-jumping-too-fast/58474280#58474280)**  
   ![python, pygame - jumping too fast?](https://i.stack.imgur.com/gWHCT.gif)
 
 - [How to do a variable jump height based on how long key is held in Pygame](https://stackoverflow.com/questions/68839727/how-to-do-a-variable-jump-height-based-on-how-long-key-is-held-in-pygame/68843102#68843102)  
