@@ -61,6 +61,9 @@ Shifting the color value based on percentage from green to red using PyGame
 
 Related Stack Overflow questions:
 
+- [Blending two pygame.Color objects together](https://stackoverflow.com/questions/69426379/blending-two-pygame-color-objects-together/69426709#69426709)  
+  ![Blending two pygame.Color objects together](https://i.stack.imgur.com/ZhU7U.png)
+
 - [How to fade from one colour to another in pygame?](https://stackoverflow.com/questions/51973441/how-to-fade-from-one-colour-to-another-in-pygame/68702388#68702388)  
   ![How to fade from one colour to another in pygame?](https://i.stack.imgur.com/VEAII.gif)
 
