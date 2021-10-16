@@ -172,3 +172,11 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [How can i calculate the mouse speed with Pygame?](https://stackoverflow.com/questions/66662219/how-can-i-calculate-the-mouse-speed-with-pygame/66662396#66662396)
+
+### Touch input
+
+Related Stack Overflow questions:
+
+- [No more than one button works at a time in pygame, how to fix this?](https://stackoverflow.com/questions/69593109/no-more-than-one-button-works-at-a-time-in-pygame-how-to-fix-this/69593913#69593913)
+
+:scroll: **[Minimal example - Touch event](../../examples/minimal_examples/pygame_minimal_touch_event_1.py)**
