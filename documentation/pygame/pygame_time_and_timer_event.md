@@ -186,6 +186,9 @@ while len(explosionList) > 0:
 
 Related Stack Overflow questions:
 
+- [pygame tetris fever_mode adding timer](https://stackoverflow.com/questions/69590294/pygame-tetris-fever-mode-adding-timer/69590304#69590304)  
+  ![pygame tetris fever_mode adding timer](https://i.stack.imgur.com/00weE.gif)
+
 - **[Spawning multiple instances of the same object concurrently in python](https://stackoverflow.com/questions/62112754/spawning-multiple-instances-of-the-same-object-concurrently-in-python/62112894#62112894)**  
   ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/cVQze.gif)
 
