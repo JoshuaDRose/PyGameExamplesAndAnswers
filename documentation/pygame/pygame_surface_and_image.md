@@ -10,6 +10,8 @@ Richard P. Feynman
 Related Stack Overflow questions:
 
 - [What is a good way to draw images using pygame?](https://stackoverflow.com/questions/8873219/what-is-a-good-way-to-draw-images-using-pygame/64630591#64630591)  
+- **[Replace a rectangle with an Image in Pygame](https://stackoverflow.com/questions/69634473/replace-a-rectangle-with-an-image-in-pygame/69634652#69634652)**  
+  ![Replace a rectangle with an Image in Pygame](https://i.stack.imgur.com/dWhMB.gif)
 - [What is the difference between pygame.draw.rect and screen_surface.blit()?](https://stackoverflow.com/questions/65964467/what-is-the-difference-between-pygame-draw-rect-and-screen-surface-blit/65965806#65965806)  
 - [What is the difference between pygame sprite and surface?](https://stackoverflow.com/questions/66665946/what-is-the-difference-between-pygame-sprite-and-surface/66667420#66667420)  
 
