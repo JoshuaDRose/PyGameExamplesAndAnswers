@@ -127,6 +127,9 @@ Related Stack Overflow questions:
 - [Track Mouse Movement while confined](https://stackoverflow.com/questions/64491342/track-mouse-movement-while-confined/65378782#65378782)  
   ![Track Mouse Movement while confined](https://i.stack.imgur.com/uaesh.gif)
 
+- [Teach enemy that the way thru screen border is shorter than going all over the screen](https://stackoverflow.com/questions/69674788/teach-enemy-that-the-way-thru-screen-border-is-shorter-than-going-all-over-the-s)  
+  ![Teach enemy that the way thru screen border is shorter than going all over the screen](https://i.stack.imgur.com/czBUc.gif)
+
 For a more sophisticated solution, you've to compute the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) form the point to the target.   Use [`pygame.math.Vector2`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2) for the computation.
 
 Compute the distance from between the follower and the sprite and the unit direction vector from (`follower_x`, `follower_y`) to (`mainsprite_x`, `mainsprite_y`). The [Unit Vector](https://en.wikipedia.org/wiki/Unit_vector) can be computed by dividing the direction vector by the distance or by normalizing ([`normalize()`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2.normalize)) the direction vector:
