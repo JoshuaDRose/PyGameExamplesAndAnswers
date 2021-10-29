@@ -64,10 +64,12 @@ Related Stack Overflow questions:
 - [Blending two pygame.Color objects together](https://stackoverflow.com/questions/69426379/blending-two-pygame-color-objects-together/69426709#69426709)  
   ![Blending two pygame.Color objects together](https://i.stack.imgur.com/ZhU7U.png)
 
+  :scroll: **[Minimal example - Lerp two colors](../../examples/minimal_examples/pygame_minimal_color_lerp_1.py)**
+
 - [How to fade from one colour to another in pygame?](https://stackoverflow.com/questions/51973441/how-to-fade-from-one-colour-to-another-in-pygame/68702388#68702388)  
   ![How to fade from one colour to another in pygame?](https://i.stack.imgur.com/VEAII.gif)
 
-  :scroll: **[Minimal example - Lerp list of colors HSLA color](../../examples/minimal_examples/pygame_minimal_color_lerp.py)**
+  :scroll: **[Minimal example - Lerp list of colors](../../examples/minimal_examples/pygame_minimal_color_lerp_2.py)**
 
 Pygame provides the [`pygame.Color`](https://www.pygame.org/docs/ref/color.html#pygame.Color) object. The object can construct a color from various arguments (e.g. RGBA color channels, hexadecimal numbers, strings, ...).  
 It also offers the handy method [`lerp`](https://www.pygame.org/docs/ref/color.html#pygame.Color.lerp), that can interpolate 2 colors: 

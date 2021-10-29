@@ -72,8 +72,11 @@ rect.topleft = round(x), round(y)
 
 Related Stack Overflow questions:
 
-- [Setting up an invisible boundary for my sprite](https://stackoverflow.com/questions/69180916/setting-up-an-invisible-boundary-for-my-sprite)  
+- [Setting up an invisible boundary for my sprite](https://stackoverflow.com/questions/69180916/setting-up-an-invisible-boundary-for-my-sprite/69181366#69181366)  
   ![Setting up an invisible boundary for my sprite](https://i.stack.imgur.com/TQ1Ys.gif)  
+
+  :scroll: **[Minimal example - Restrict rectangle to frame](../../examples/minimal_examples/pygame_minimal_intersect_frame_clamp_1.py)**
+
 - [How do I get the size (width x height) of my pygame window](https://stackoverflow.com/questions/36653519/how-do-i-get-the-size-width-x-height-of-my-pygame-window) 
   [How do I get the size (width x height) of my pygame window](https://i.stack.imgur.com/xMMCz.gif)
 
