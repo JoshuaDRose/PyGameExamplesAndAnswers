@@ -133,7 +133,7 @@ Related Stack Overflow questions:
 
 - [How to make a character jump in Pygame?](https://stackoverflow.com/questions/65873880/how-to-make-a-character-jump-in-pygame/65874132#65874132)  
 
-- **[How can I do a double jump in pygame?](https://stackoverflow.com/questions/67667103/how-can-i-do-a-double-jump-in-pygame/67667585#67667585)**
+- **[How can I do a double jump in pygame?](https://stackoverflow.com/questions/67667103/how-can-i-do-a-double-jump-in-pygame/67667585#67667585)**  
   ![How can I do a double jump in pygame?](https://i.stack.imgur.com/9ICi5.gif)  
 
 - **[python, pygame - jumping too fast?](https://stackoverflow.com/questions/58474204/python-pygame-jumping-too-fast/58474280#58474280)**  

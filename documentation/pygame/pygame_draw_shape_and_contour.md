@@ -453,6 +453,13 @@ def drawArcCv2(surf, color, center, radius, width, end_angle):
     surf.blit(circle_surface, circle_surface.get_rect(center = center))
 ```
 
+## Bezier
+
+Related Stack Overflow questions:
+
+- [Trying to make a Bezier Curve on PyGame library](https://stackoverflow.com/questions/69804595/trying-to-make-a-bezier-curve-on-pygame-library/69816648#69816648)  
+  ![Trying to make a Bezier Curve on PyGame library](https://i.stack.imgur.com/1GYKJ.gif)
+
 ## Wireframe shape
 
 Related Stack Overflow questions:
