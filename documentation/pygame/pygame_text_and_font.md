@@ -381,3 +381,11 @@ Related Stack Overflow questions:
   :scroll: **[minimal example - Render ASCII text image](../../examples/minimal_examples/pygame_minimal_text_ascii_image.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-AsciiTextImage](https://replit.com/@Rabbid76/PyGame-AsciiTextIamge#main.py)**
+
+## Typewriter
+
+Related Stack Overflow questions:
+
+- [Pygame Rendering Text 1 by 1 Causes Lag In Game How Do I Fix This?](https://stackoverflow.com/questions/67273848/pygame-rendering-text-1-by-1-causes-lag-in-game-how-do-i-fix-this/67273892#67273892)  
+
+  :scroll: **[minimal example - Typewriter](../../examples/minimal_examples/pygame_minimal_text_typewriter.py)**
