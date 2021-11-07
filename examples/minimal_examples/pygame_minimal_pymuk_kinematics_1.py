@@ -25,7 +25,7 @@ space = pymunk.Space()
 space.gravity = (0, -65)
 
 pts = [(-27, -238.5), (27,-238.5), (27,238.5), (-27,238.5)]
-body_type=pymunk.Body(body_type=pymunk.Body.KINEMATIC)  
+body_type = pymunk.Body(body_type = pymunk.Body.KINEMATIC)  
 body_type.position = window.get_rect().center
 space.add(body_type)
 for i in range(4):
