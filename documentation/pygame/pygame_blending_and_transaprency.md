@@ -20,7 +20,10 @@ Related Stack Overflow questions:
 
 - [How can I remove the black of some of the tile textures](https://stackoverflow.com/questions/54428774/how-can-i-remove-the-black-of-some-of-the-tile-textures/54429784#54429784)  
 
-- [Pygame : How to get the Difference blending mode?](https://stackoverflow.com/questions/67737854/pygame-how-to-get-the-difference-blending-mode/67737939#67737939)  
+- [How to get the Difference blending mode?](https://stackoverflow.com/questions/67737854/how-to-get-the-difference-blending-mode/67737939#67737939)  
+  ![How to get the Difference blending mode?](https://i.stack.imgur.com/KH59V.png)
+
+  :scroll: **[Minimal example - Difference blend mode](../../examples/minimal_examples/pygame_minimal_blend_surface_difference_mode.py)**
 
 The blending mode can be changed by setting the optional _special_flags_ argument of [`pygame.Surface.blit`](https://www.pygame.org/docs/ref/surface.html#pygame.Surface.blit):
 
