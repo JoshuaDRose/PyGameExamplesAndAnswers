@@ -198,6 +198,11 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerSpawnObjects](https://replit.com/@Rabbid76/PyGame-TimerSpawnObjects#main.py)**
 
+- [How do I make the image repeat - for example 10x in a row - in Pygame](https://stackoverflow.com/questions/69884697/how-do-i-make-the-image-repeat-for-example-10x-in-a-row-in-pygame/69884946#69884946)
+  ![How do I make the image repeat - for example 10x in a row - in Pygame](https://i.stack.imgur.com/2kbR7.gif)
+
+  :scroll: **[Minimal example - Spawn sprites](../../examples/minimal_examples/pygame_minimal_sprite_spawn.py)**
+
 - [How to make instances spawn automatically around the player?](https://stackoverflow.com/questions/54717938/how-to-make-instances-spawn-automatically-around-the-player/54723594#54723594)  
   ![How to make instances spawn automatically around the player?](https://i.stack.imgur.com/RIskl.gif)
   ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/1X0kk.gif)
