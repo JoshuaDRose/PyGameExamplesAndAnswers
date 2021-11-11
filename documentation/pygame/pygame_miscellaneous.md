@@ -165,11 +165,12 @@ imgPath = os.path.join(sourceFileDir, 'test_bg.jpg')
 surface = pygame.image.load(imgPath)
 ```
 
-## Host online
+## Host online (Browser, Web, Html)
 
 Related Stack Overflow questions:
 
-- [Tool to host online Python/Pygame experiment](https://stackoverflow.com/questions/62267800/tool-to-host-online-python-pygame-experiment/65530696#65530696)
+- [Tool to host online Python/Pygame experiment](https://stackoverflow.com/questions/62267800/tool-to-host-online-python-pygame-experiment/65530696#65530696)  
+- [is it possible to run pygame or pyglet in a browser?](https://stackoverflow.com/questions/62267800/tool-to-host-online-python-pygame-experiment/65530696#65530696)
 
 ## Debug
 
