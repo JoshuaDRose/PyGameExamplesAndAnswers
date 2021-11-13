@@ -4,6 +4,9 @@
 
 # Surface array, pixel array, buffer proxy
 
+- [Surface alpha lost when converting pygame to cv2 to pygame](https://stackoverflow.com/questions/69888520/surface-alpha-lost-when-converting-pygame-to-cv2-to-pygame/69888915#69888915)  
+  ![Surface alpha lost when converting pygame to cv2 to pygame](https://i.stack.imgur.com/TDMno.png)
+
 ## Surface array
 
 [`pygame.surfarray`](https://www.pygame.org/docs/ref/surfarray.html) module
