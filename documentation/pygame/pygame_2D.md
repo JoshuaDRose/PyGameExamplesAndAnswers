@@ -80,9 +80,16 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Recaman's sequence](../../examples/minimal_examples/pygame_minimal_2D_racamans_sequence.py)**
 
-## Glow, bloom, neon
+## Glow, bloom, neon, cv2
 
 Related Stack Overflow questions:
 
 - [Neon effect in pygame?](https://stackoverflow.com/questions/67933919/neon-effect-in-pygame/67934335#67934335)  
   ![Neon effect in pygame?](https://i.stack.imgur.com/RN95m.png)
+
+- [Surface alpha lost when converting pygame to cv2 to pygame](https://stackoverflow.com/questions/69888520/surface-alpha-lost-when-converting-pygame-to-cv2-to-pygame/69888915#69888915)  
+  ![Surface alpha lost when converting pygame to cv2 to pygame](https://i.stack.imgur.com/TDMno.png)  
+- [Dark borders in cv2.blur](https://stackoverflow.com/questions/69977901/dark-borders-in-cv2-blur/69981313#69981313)  
+  ![Dark borders in cv2.blur](https://i.stack.imgur.com/u84RH.png)
+
+  :scroll: **[Minimal example - Bloom](../../examples/minimal_examples/pygame_minimal_2D_bloom.py)**
