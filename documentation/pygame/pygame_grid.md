@@ -68,6 +68,13 @@ Related Stack Overflow quest
 - [Pygame: tweening error in movement in tile based game](https://stackoverflow.com/questions/63478615/pygame-tweening-error-in-movement-in-tile-based-game/65338538#65338538)  
   ![Pygame: tweening error in movement in tile based game](https://i.stack.imgur.com/Gapfj.gif)
 
+## Drag in grid
+
+Related Stack Overflow quest
+
+- [Drawing square colour stored in a list of tuples?](https://stackoverflow.com/questions/69828786/drawing-square-colour-stored-in-a-list-of-tuples/69828913?noredirect=1)  
+  ![Drawing square colour stored in a list of tuples?](https://i.stack.imgur.com/e7ecp.gif)
+
 ## Chess board, checker texture
 
 Related Stack Overflow quest

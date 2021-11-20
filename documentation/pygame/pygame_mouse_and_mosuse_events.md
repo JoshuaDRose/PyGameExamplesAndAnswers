@@ -141,6 +141,8 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
+- [Drag multiple sprites with different “update ()” methods from the same Sprite class in Pygame](https://stackoverflow.com/questions/64419223/drag-multiple-sprites-with-different-update-methods-from-the-same-sprite-cl/64456959#64456959)  
+  ![Drag multiple sprites with different “update ()” methods from the same Sprite class in Pygame](https://i.stack.imgur.com/BaFzb.gif)
 - [How can I drag more than 2 images in PyGame?](https://stackoverflow.com/questions/64592440/how-can-i-drag-more-than-2-images-in-pygame/64592600#64592600)  
   ![How can I drag more than 2 images in PyGame?](https://i.stack.imgur.com/Cmxd9.gif)
 - [How to drag multiple images in PyGame?](https://stackoverflow.com/questions/64504480/how-to-drag-multiple-images-in-pygame/64504767#64504767)  
