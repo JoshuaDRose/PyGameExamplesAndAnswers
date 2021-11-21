@@ -272,7 +272,7 @@ Related Stack Overflow questions:
 - [I am wondering why it says the distance has to be less than 27? Why less than 27? Where is 27 coming from?](https://stackoverflow.com/questions/62523256/i-am-wondering-why-it-says-the-distance-has-to-be-less-than-27-why-less-than-27/62527566#62527566)  
 - [Why is the math of my stacking game not working?](https://stackoverflow.com/questions/64598428/why-is-the-math-of-my-stacking-game-not-working/64598693#64598693)  
 
-## Delete, remove Object
+## Delete, remove, replace Object
 
 Tag: delete object, remove object, erase object, delete image, remove image, erase image
 

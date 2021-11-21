@@ -364,6 +364,15 @@ points = [(10, 100), (20, 200), (30, 100)]
 draw_colorful_line(screen, colors, True, points)
 ```
 
+### Line with round corners
+
+Related Stack Overflow questions:
+
+- [draw lines with round edges in pygame](https://stackoverflow.com/questions/70051590/draw-lines-with-round-edges-in-pygame/70053349#70053349)  
+  ![draw lines with round edges in pygame](https://i.stack.imgur.com/XXp5w.png)
+
+  :scroll: **[Minimal example - Line with round corners](../../examples/minimal_examples/pygame_minimal_draw_line_round_corners.py)**
+
 ### Dashed line
 
 Related Stack Overflow questions:
