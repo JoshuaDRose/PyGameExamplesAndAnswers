@@ -14,6 +14,8 @@ Related Stack Overflow questions:
   ![Replace a rectangle with an Image in Pygame](https://i.stack.imgur.com/dWhMB.gif)
 - [What is the difference between pygame.draw.rect and screen_surface.blit()?](https://stackoverflow.com/questions/65964467/what-is-the-difference-between-pygame-draw-rect-and-screen-surface-blit/65965806#65965806)  
 - [What is the difference between pygame sprite and surface?](https://stackoverflow.com/questions/66665946/what-is-the-difference-between-pygame-sprite-and-surface/66667420#66667420)  
+- [Get the average Color of a Surface ignoring transparent pixels](https://stackoverflow.com/questions/69876220/get-the-average-color-of-a-surface-ignoring-transparent-pixels/70056421#70056421)  
+  ![Get the average Color of a Surface ignoring transparent pixels](https://i.stack.imgur.com/mWM9e.png)
 
 ## Surface rectangle
 
