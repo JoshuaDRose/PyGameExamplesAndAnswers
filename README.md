@@ -191,6 +191,8 @@ The site is still under construction :construction:.
 
 [Miscellaneous](documentation/pygame/pygame_miscellaneous.md)
 
+[Code snippets](documentation/pygame/pygame_code_snippets.md)
+
 ## Libraries
 
 [PyGame and PyMuk](documentation/pygame/pygame_and_pymuk.md)

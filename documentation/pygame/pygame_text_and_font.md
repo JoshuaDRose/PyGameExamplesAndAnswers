@@ -133,8 +133,8 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Make a rect object scrollable](https://stackoverflow.com/questions/67288788/make-a-rect-object-scrollable/67289087?noredirect=1)  
-  ![Make a rect object scrollable](https://i.stack.imgur.com/Dezqy.png)
+- [Padding for text using pygame SysFont](https://stackoverflow.com/questions/70127121/padding-for-text-using-pygame-sysfont/70127411#70127411)  
+  ![Padding for text using pygame SysFont](https://i.stack.imgur.com/iflrG.png)  
 
 - [How to add a text speech in Pygame](https://stackoverflow.com/questions/60997970/how-to-add-a-text-speech-in-pygame/60998091#60998091)  
   ![How to add a text speech in Pygame](https://i.stack.imgur.com/9Ymts.gif)
@@ -390,3 +390,13 @@ Related Stack Overflow questions:
 - [Pygame Rendering Text 1 by 1 Causes Lag In Game How Do I Fix This?](https://stackoverflow.com/questions/67273848/pygame-rendering-text-1-by-1-causes-lag-in-game-how-do-i-fix-this/67273892#67273892)  
 
   :scroll: **[minimal example - Typewriter](../../examples/minimal_examples/pygame_minimal_text_typewriter.py)**
+
+## Scroll Text
+
+Related Stack Overflow questions:
+
+- [Pygame when adding new text it appears on bottom and rest of text goes up](https://stackoverflow.com/questions/70102350/pygame-when-adding-new-text-it-appears-on-bottom-and-rest-of-text-goes-up/70128422#70128422)  
+  ![Pygame when adding new text it appears on bottom and rest of text goes up](https://i.stack.imgur.com/Rl00d.gif)
+
+- [Make a rect object scrollable](https://stackoverflow.com/questions/67288788/make-a-rect-object-scrollable/67289087?noredirect=1)  
+  ![Make a rect object scrollable](https://i.stack.imgur.com/Dezqy.png)
