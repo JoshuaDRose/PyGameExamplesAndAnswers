@@ -201,3 +201,8 @@ Related Stack Overflow questions:
   [Python Pygame Making a ball push another ball](https://stackoverflow.com/questions/66721398/python-pygame-making-a-ball-push-another-ball)  
 
   :scroll: **[Minimal example - Follow player](../../examples/minimal_examples/pygame_minimal_move_follow_6.py)**
+
+## Animation
+
+- [Trouble with explosion animation Pygame](https://stackoverflow.com/questions/70128800/trouble-with-explosion-animation-pygame/70129027#70129027)
+  ![Trouble with explosion animation Pygame](https://i.stack.imgur.com/TiceX.gif)
