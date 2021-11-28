@@ -23,3 +23,6 @@ Related Stack Overflow questions:
 
 - [using colliderect in an array of random coordinates](https://stackoverflow.com/questions/67651237/using-colliderect-in-an-array-of-random-coordinates/67651329#67651329)  
   ![using colliderect in an array of random coordinates](https://i.stack.imgur.com/rrAly.gif)
+
+- [What cubic function can I use to get a random distribution biased towards the middle](https://stackoverflow.com/questions/70142346/what-cubic-function-can-i-use-to-get-a-random-distribution-biased-towards-the-mi/70142460#70142460)  
+  ![What cubic function can I use to get a random distribution biased towards the middle](https://i.stack.imgur.com/E2Gew.png)  

@@ -262,12 +262,14 @@ Related Stack Overflow questions:
 
 - [How would I keep track of the users clicks on the chessboard?](https://stackoverflow.com/questions/63584252/how-would-i-keep-track-of-the-users-clicks-on-the-chessboard/63584453#63584453)
 
-## Point an line
+## Point and line
 
 Related Stack Overflow questions:
 
 - [Line is detected as diagonal of rectangle while using collidepoint function in pygame](https://stackoverflow.com/questions/67372361/line-is-detected-as-diagonal-of-rectangle-while-using-collidepoint-function-in-p/67372647#67372647)  
   [Line is detected as diagonal of rectangle while using collidepoint function in pygame](https://i.stack.imgur.com/ZC3Vr.gif)
+
+:scroll: **[Minimal example - Is point on line](../../examples/minimal_examples/pygame_minimal_intersect_point_line.py)**
 
 computes the shortest distance of a point to a line:
 

@@ -86,6 +86,7 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/63521847/fiding-every-point-of-intersection-of-multiple-lines-using-pygame-in-python-for/63523520#63523520"><img src="https://i.stack.imgur.com/UnS8P.gif" height="100" title="Intersect lines segments"></a><!--
 --><a href="https://stackoverflow.com/questions/69888520/surface-alpha-lost-when-converting-pygame-to-cv2-to-pygame/69888915#69888915"><img src="https://i.stack.imgur.com/TDMno.png" height="100" title="Bloom"></a><!--
 --><a href="https://stackoverflow.com/questions/70051590/draw-lines-with-round-edges-in-pygame/70053349#70053349"><img src="https://i.stack.imgur.com/XXp5w.png" height="100" title="Line with round corners"></a><!--
+--><a href="https://stackoverflow.com/questions/70102350/pygame-when-adding-new-text-it-appears-on-bottom-and-rest-of-text-goes-up/70128422#70128422"><img src="https://i.stack.imgur.com/Rl00d.gif" height="100" title="Scroll Text"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  

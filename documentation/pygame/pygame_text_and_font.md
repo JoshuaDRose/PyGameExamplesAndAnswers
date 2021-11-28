@@ -398,5 +398,7 @@ Related Stack Overflow questions:
 - [Pygame when adding new text it appears on bottom and rest of text goes up](https://stackoverflow.com/questions/70102350/pygame-when-adding-new-text-it-appears-on-bottom-and-rest-of-text-goes-up/70128422#70128422)  
   ![Pygame when adding new text it appears on bottom and rest of text goes up](https://i.stack.imgur.com/Rl00d.gif)
 
+  :scroll: **[Minimal example - Text scroll](../../examples/minimal_examples/pygame_minimal_text_scroll.py)**
+
 - [Make a rect object scrollable](https://stackoverflow.com/questions/67288788/make-a-rect-object-scrollable/67289087?noredirect=1)  
   ![Make a rect object scrollable](https://i.stack.imgur.com/Dezqy.png)

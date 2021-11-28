@@ -1,7 +1,7 @@
 # Only some points inside of triangle are considered 'inside' the triangle
 # https://stackoverflow.com/questions/59289954/only-some-points-inside-of-triangle-are-considered-inside-the-triangle
 #
-# GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Circle and circle
+# GitHub - PyGameExamplesAndAnswers - Collision and Intersection - Point in triangle 
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_collision_and_intesection.md
 
 import pygame
