@@ -355,76 +355,15 @@ def pilImageToSurface(pilImage):
 
 [Scalable  Vector Graphics (SVG)](https://de.wikipedia.org/wiki/Scalable_Vector_Graphics)
 
-Related Stack Overflow questions:
-
-- [SVG rendering in a PyGame application](https://stackoverflow.com/questions/120584/svg-rendering-in-a-pygame-application/64598021#64598021)  
-  ![SVG rendering in a PyGame application](https://i.stack.imgur.com/LOMwY.png)  
-- [Display SVG (as string) on Python Pygame](https://stackoverflow.com/questions/65649933/display-svg-as-string-on-python-pygame/65651155#65651155)  
-- [How can you draw more detailed/smoother images in pygame?](https://stackoverflow.com/questions/65492782/how-can-you-draw-more-detailed-smoother-images-in-pygame/65492828#65492828)  
-
-A very simple solution is to use [CairoSVG](https://cairosvg.org/). With the function `cairosvg.svg2png`, an [Vector Graphics (SVG)](https://de.wikipedia.org/wiki/Scalable_Vector_Graphics) files can be directly converted to an [Portable Network Graphics (PNG)] file
-
-Install [CairoSVG](https://pypi.org/project/CairoSVG/).
-
-```lang-none
-pip install CairoSVG
-```
-
-Write a function that converts a SVF file to a PNG ([`ByteIO`](https://docs.python.org/3/library/io.html)) and creates a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object may look as follows:
+**Since 2.0.2, SDL Image supports SVG ([Scalable Vector Graphics](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)) files (see [SDL_image 2.0](https://www.libsdl.org/projects/SDL_image)). Therefore, with pygame version 2.0.1, SVG files can be loaded into a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object with  [`pygame.image.load()`](http://www.pygame.org/docs/ref/image.html)**:
 
 ```py
-import cairosvg
-import io
-
-def load_svg(filename):
-    new_bites = cairosvg.svg2png(url = filename)
-    byte_io = io.BytesIO(new_bites)
-    return pygame.image.load(byte_io)
+surface = pygame.image.load('my.svg')
 ```
 
-:scroll: **[Minimal example - Load Scalable Vector Graphics (SVG) to PyGame _Surface_ (cairosvg)](../../examples/minimal_examples/pygame_minimal_surface_load_svg_3.py)**
+Before Pygame 2, you had to implement [Scalable Vector Graphics](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) loading with other libraries. Below are some ideas on how to do this.
 
-An alternative is to use _svglib_. However, there seems to be a problem with transparent backgrounds. There is an issue about this topic [How to make the png background transparent? #171](https://github.com/deeplook/svglib/issues/171).  
-
-Install [svglib](https://pypi.org/project/svglib/).
-
-```lang-none
-pip install svglib
-```
-
-A function that parses and rasterizes an SVG file and creates a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object may look as follows:
-
-```py
-def load_svg(filename):
-    drawing = svg2rlg(filename)
-    str = drawing.asString("png")
-    byte_io = io.BytesIO(str)
-    return pygame.image.load(byte_io)
-```
-
-:scroll: **[Minimal example - Load Scalable Vector Graphics (SVG) to PyGame _Surface_ (svglib)](../../examples/minimal_examples/pygame_minimal_surface_load_svg_2.py)**
-
-Anther simple solution is to use _pynanosvg_. The downside of this solution is that _nanosvg_ is no longer actively supported and does not work with Python 3.9. [pynanosvg](https://github.com/ethanhs/pynanosvg) can be used to load and rasterize [Vector Graphics (SVG)](https://de.wikipedia.org/wiki/Scalable_Vector_Graphics) files. Install [Cython](https://cython.org/) and [pynanosvg](https://github.com/ethanhs/pynanosvg):
-
-```lang-none
-pip install Cython
-pip install pynanosvg
-```
-
-The SVG file can be read, rasterized and loaded into a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object with the following function:
-
-```py
-def load_svg(filename, scale=None, size=None, clip_from=None, fit_to=None, foramt='RGBA'):
-    svg = Parser.parse_file(filename)
-    scale = min((fit_to[0] / svg.width, fit_to[1] / svg.height)
-                if fit_to else ([scale if scale else 1] * 2))
-    width, height = size if size else (svg.width, svg.height)
-    surf_size = round(width * scale), round(height * scale)
-    buffer = Rasterizer().rasterize(svg, *surf_size, scale, *(clip_from if clip_from else 0, 0))
-    return  pygame.image.frombuffer(buffer, surf_size, foramt)
-```
-
-:scroll: **[Minimal example - Load Scalable Vector Graphics (SVG) to PyGame _Surface_ (pynanosvg)](../../examples/minimal_examples/pygame_minimal_surface_load_svg_1.py)**
+See [Surface and image, load SVG](pygame_surface_and_image_svg.md)
 
 ### Load Sprite Sheet
 
