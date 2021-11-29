@@ -51,7 +51,7 @@ pygame_surface = load_and_scale_svg('my.svg', 0.5)
 
 :scroll: **[Minimal example - Load and scale Scalable Vector Graphics (SVG) file in PyGame](../../examples/minimal_examples/pygame_minimal_surface_load_svg_3.py)**
 
-## Legacy SFG loading
+## Legacy SVG loading
 
 Before Pygame 2, you had to implement [Scalable Vector Graphics](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) loading with other libraries. Below are some ideas on how to do this.
 
