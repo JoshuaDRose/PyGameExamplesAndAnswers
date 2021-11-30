@@ -230,6 +230,8 @@ Related Stack Overflow questions:
 - [Rotate pygame screen](https://stackoverflow.com/questions/69394255/rotate-pygame-screen/69394709#69394709)  
   ![Rotate pygame screen](https://i.stack.imgur.com/d4WcW.png)
 
+:scroll: **[Minimal example - Rotate screen](../../examples/minimal_examples/pygame_minimal_display_rotate_screen.py)**
+
 - [How do I change the Pygame coordinate system so that the center of the window is (0,0)?](https://stackoverflow.com/questions/61514113/how-do-i-change-the-pygame-coordinate-system-so-that-the-center-of-the-window-is/61516769#61516769)
 - [pushMatrix, popMatrix, translate, and rotate in pygame?](https://stackoverflow.com/questions/63078272/pushmatrix-popmatrix-translate-and-rotate-in-pygame/63078556#63078556)  
 - [Polygons on created surfaces](https://stackoverflow.com/questions/56639370/polygons-on-created-surfaces/65456150#65456150)  
@@ -268,6 +270,8 @@ Related Stack Overflow questions:
 
 - [How to move the player across a one background image?](https://stackoverflow.com/questions/67736156/how-to-move-the-player-across-a-one-background-image/67741682#67741682)  
   ![How to move the player across a one background image?](https://i.stack.imgur.com/Mb09D.gif)
+
+  :scroll: **[Minimal example - Scroll background with player](../../examples/minimal_examples/pygame_minimal_display_scroll_background_3.py)**
 
 - [How to continuously move an image smoothly in Pygame?](https://stackoverflow.com/questions/67944873/how-to-continuously-move-an-image-smoothly-in-pygame/67946424#67946424)  
   ![How to continuously move an image smoothly in Pygame?](https://i.stack.imgur.com/7Rexy.gif)
