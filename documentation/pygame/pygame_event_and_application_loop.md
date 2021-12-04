@@ -160,8 +160,11 @@ Related Stack Overflow questions:
 
 ### Game state
 
+Tag: "gamestate", "state of game"
+
 Related Stack Overflow questions:
 
+- [Pygame level/menu states](https://stackoverflow.com/questions/14700889/pygame-level-menu-states)
 - [Python/Pygame adding a title screen with a button](https://stackoverflow.com/questions/65845689/python-pygame-adding-a-title-screen-with-a-button/65845819#65845819)  
 - [Python : What is the better way to make multiple loops in pygame?](https://stackoverflow.com/questions/57908287/python-what-is-the-better-way-to-make-multiple-loops-in-pygame)  
 - [How to add pause mode to Python program](https://stackoverflow.com/questions/56040906/how-to-add-pause-mode-to-python-program/56046554#56046554)  
@@ -173,7 +176,6 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Reset and restart pygame program doesn't work](https://stackoverflow.com/questions/64715107/reset-and-restart-pygame-program-doesnt-work/64715310#64715310)
-- [Pygame level/menu states](https://stackoverflow.com/questions/14700889/pygame-level-menu-states)
 
 You've overcomplicated the system. What you are actually doing is recursively instantiating a new `Gui` object and new application loop into an existing `Gui` object and application loop.
 If `GameState` is implemented correctly, it should be sufficient to create a new `GameState` object and continue the existing application loop instead of recursively creating a new `Gui` instance:
