@@ -86,6 +86,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
+- [Bundling data files with PyInstaller (--onefile)](https://stackoverflow.com/questions/7674790/bundling-data-files-with-pyinstaller-onefile)
 - [PyInstaller, spec file, ImportError: No module named 'blah'](https://stackoverflow.com/questions/7436132/pyinstaller-spec-file-importerror-no-module-named-blah)
 - [Pyinstaller Unable to access Data Folder](https://stackoverflow.com/questions/63175001/pyinstaller-unable-to-access-data-folder/63182146#63182146)
 - [Python - pygame error when executing exe file](https://stackoverflow.com/questions/62936621/python-pygame-error-when-executing-exe-file/62944866#62944866)

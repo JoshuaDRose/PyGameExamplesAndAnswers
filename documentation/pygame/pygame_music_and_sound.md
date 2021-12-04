@@ -7,6 +7,11 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 
 # Music and sound
 
+Related Stack Overflow questions:
+
+- **[how to play wav file in python?](https://stackoverflow.com/questions/17657103/how-to-play-wav-file-in-python)**
+- **[How can I play an mp3 with pygame?](https://stackoverflow.com/questions/7746263/how-can-i-play-an-mp3-with-pygame/64521533#64521533)**
+
 [PyGame](https://www.pygame.org/news) has 2 different modules for playing sound and music, the [pygame.mixer](https://www.pygame.org/docs/ref/mixer.html) module and the [pygame.mixer.music](https://www.pygame.org/docs/ref/music.html) module. This module contains classes for loading Sound objects and controlling playback. The difference is explained in the documentation:
 
 > The difference between the music playback and regular Sound playback is that the music is streamed, and never actually loaded all at once. The mixer system only supports a single music stream at once.
