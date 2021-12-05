@@ -387,9 +387,9 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Typewriter Effect Pygame](https://stackoverflow.com/questions/41101662/typewriter-effect-pygame)  
+- **[Typewriter Effect Pygame](https://stackoverflow.com/questions/41101662/typewriter-effect-pygame)**  
 - [Pygame Rendering Text 1 by 1 Causes Lag In Game How Do I Fix This?](https://stackoverflow.com/questions/67273848/pygame-rendering-text-1-by-1-causes-lag-in-game-how-do-i-fix-this/67273892#67273892)  
-  ![Pygame Rendering Text 1 by 1 Causes Lag In Game How Do I Fix This?](https://i.stack.imgur.com/UenHN.gif)
+  ![Typewriter Effect Pygame](https://i.stack.imgur.com/UenHN.gif)
 
   :scroll: **[minimal example - Typewriter](../../examples/minimal_examples/pygame_minimal_text_typewriter.py)**
 
