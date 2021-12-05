@@ -33,3 +33,5 @@ Related Stack Overflow questions:
 
 - [Cells are skipped when I move the mouse quickly](https://stackoverflow.com/questions/68566210/cells-are-skipped-when-i-move-the-mouse-quickly/68566665#68566665)  
   ![Cells are skipped when I move the mouse quickly](https://i.stack.imgur.com/3Em7F.gif)  
+
+  :scroll: **[Minimal example - Free line cells](../../examples/minimal_examples/pygame_minimal_paint_free_line_2.py)**

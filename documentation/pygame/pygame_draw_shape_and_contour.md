@@ -152,6 +152,7 @@ Related Stack Overflow questions:
 - [Why did drawing a PyGame rectangle with very thick borders draw a plus shape instead?](https://stackoverflow.com/questions/65890797/why-did-drawing-a-pygame-rectangle-with-very-thick-borders-draw-a-plus-shape-ins/65890887#65890887)  
 - [What is the difference between pygame.draw.rect and screen_surface.blit()?](https://stackoverflow.com/questions/65964467/what-is-the-difference-between-pygame-draw-rect-and-screen-surface-blit/65965806#65965806)  
 - [Handling rectangle with negative width and height in pygame](https://stackoverflow.com/questions/66316513/handling-rectangle-with-negative-width-and-height-in-pygame/66316783#66316783)  
+- [rotating a rectangle in pygame](https://stackoverflow.com/questions/68927683/rotating-a-rectangle-in-pygame/68927744#68927744)
 
 Use [`pygame.draw.rect()`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect) to draw a rectangle. The 3rd argument of [`pygame.draw.rect`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect) has to be a tuple with 4 elements:
 
@@ -249,11 +250,15 @@ def draw_rect_angle(surf, rect, pivot, angle, width=0):
     pygame.draw.polygon(surf, (255, 255, 0), pts, width)
 ```
 
-:scroll: **[Minimal example - draw rotated rectangle](../../examples/minimal_examples/pygame_minimal_draw_rectangle_rotated.py)**
+:scroll: **[Minimal example - draw rotated rectangle](../../examples/minimal_examples/pygame_minimal_draw_rectangle_rotated_1.py)**
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-DrawPixel-1](https://replit.com/@Rabbid76/PyGame-RotatedRectangle#main.py)**
 
-![Getting rotated rect of rotated image in Pygame](https://i.stack.imgur.com/GsQwQ.png)
+![Getting rotated rect of rotated image in Pygame](https://i.stack.imgur.com/GsQwQ.png)  
+
+:scroll: **[Minimal example - rotate rectangle](../../examples/minimal_examples/pygame_minimal_draw_rectangle_rotated_2.py)**
+
+![rotating a rectangle in pygame](https://i.stack.imgur.com/Vxo3P.gif)
 
 ## Draw circle
 
