@@ -58,6 +58,8 @@ Related Stack Overflow questions:
 - [Recursive Fractal Pygame - Not Displaying Shapes](https://stackoverflow.com/questions/30140671/recursive-fractal-pygame-not-displaying-shapes/69036894#69036894)  
   ![Recursive Fractal Pygame - Not Displaying Shapes](https://i.stack.imgur.com/RxK8x.gif)  
 
+  :scroll: **[Minimal example - Fractal Sierpinski Carpet](../../examples/minimal_examples/pygame_minimal_2D_fractal_sierpinski_carpet.py)**
+
 ## Lookup table
 
 Related Stack Overflow questions:

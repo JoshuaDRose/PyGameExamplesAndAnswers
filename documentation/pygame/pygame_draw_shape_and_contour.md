@@ -348,8 +348,10 @@ Related Stack Overflow questions:
   ![How to use different colors for each line in pygame.draw.lines](https://i.stack.imgur.com/7zWbo.png)
 - [Generating and drawing sin wave using pygame](https://stackoverflow.com/questions/67874803/generating-and-drawing-sin-wave-using-pygame/67875045#67875045)  
   ![Generating and drawing sin wave using pygame](https://i.stack.imgur.com/E5yaq.png)
-- [How to translate and rotate the coordinate axis about a point in pygame screen?](https://stackoverflow.com/questions/69062454/how-to-translate-and-rotate-the-coordinate-axis-about-a-point-in-pygame-screen)  
+- [How to translate and rotate the coordinate axis about a point in pygame screen?](https://stackoverflow.com/questions/68835224/how-can-i-make-my-code-more-optimised-by-not-drawing-a-rect-on-each-pixel/68835795#68835795)  
   ![How to translate and rotate the coordinate axis about a point in pygame screen?](https://i.stack.imgur.com/PqfHO.png)  
+
+  :scroll: **[Minimal example - Draw a line slowly](../../examples/minimal_examples/pygame_minimal_draw_polygon_1.py)**
 
 If you want to draw a polygon line with different colors for each segment, you need to draw each line segment separately. Write a function that uses a list of points and colors to draw the line:
 
