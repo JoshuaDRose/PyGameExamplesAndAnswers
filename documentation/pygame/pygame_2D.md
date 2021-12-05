@@ -32,6 +32,15 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-BarnsleysFern](https://replit.com/@Rabbid76/PyGame-BarnsleysFern#main.py)**
 
+## String
+
+Related Stack Overflow questions:
+
+- [Simple physics string](https://stackoverflow.com/questions/41862541/simple-physics-string/67749043#67749043)  
+  ![Simple physics string](https://i.stack.imgur.com/gNlG0.gif)
+
+  :scroll: **[Minimal example - String animation](../../examples/minimal_examples/pygame_minimal_2D_string_animation.py)**
+
 ## Fractal
 
 Related Stack Overflow questions:

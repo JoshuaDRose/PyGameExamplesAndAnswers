@@ -52,6 +52,8 @@ Related Stack Overflow questions:
 - [moving with a normalized vector in pygame inconsistent?](https://stackoverflow.com/questions/68486375/moving-with-a-normalized-vector-in-pygame-inconsistent/68486486#68486486)  
   ![moving with a normalized vector in pygame inconsistent?](https://i.stack.imgur.com/oPdGS.gif)
 
+  :scroll: **[Minimal example - Move rectangle diagonal](../../examples/minimal_examples/pygame_minimal_move_diagonal.py)**
+
 - [Ship moves up and left faster than down and right when rotating in pygame](https://stackoverflow.com/questions/62411259/ship-moves-up-and-left-faster-than-down-and-right-when-rotating-in-pygame/65347117#65347117)  
   ![Ship moves up and left faster than down and right when rotating in pygame](https://i.stack.imgur.com/6IPS1.gif)
 
