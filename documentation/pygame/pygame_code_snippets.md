@@ -47,3 +47,20 @@ ts, w, h, c1, c2 = 50, *background.get_size(), (128, 128, 128), (64, 64, 64)
 tiles = [((x*ts, y*ts, ts, ts), c1 if (x+y) % 2 == 0 else c2) for x in range((w+ts-1)//ts) for y in range((h+ts-1)//ts)]
 [pygame.draw.rect(background, color, rect) for rect, color in tiles]
 ```
+
+## Move
+
+```py
+keys = pygame.key.get_pressed()
+rect.x += (keys[pygame.K_RIGHT] - keys[pygame.K_LEFT]) * vel
+rect.y += (keys[pygame.K_DOWN] - keys[pygame.K_UP]) * vel
+```
+
+```py
+rect.centerx = rect.centerx % window.get_width()
+rect.centery = rect.centery % window.get_height()
+```
+
+```py
+rect.clamp_ip(window.get_rect())
+```

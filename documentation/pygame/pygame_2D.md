@@ -91,6 +91,12 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Recaman's sequence](../../examples/minimal_examples/pygame_minimal_2D_racamans_sequence.py)**
 
+## Hypotrochoid
+
+![Minimal example - Hypotrochoid](../../screenshot/hypotrochoid.png)
+
+:scroll: **[Minimal example - Hypotrochoid](../../examples/minimal_examples/pygame_minimal_2D_hypotrochoid.py)**
+
 ## Glow, bloom, neon, cv2
 
 Related Stack Overflow questions:
