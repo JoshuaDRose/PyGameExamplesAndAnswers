@@ -1,6 +1,9 @@
 # pygame.font module
 # https://www.pygame.org/docs/ref/font.html
 #
+# Typewriter Effect Pygame
+# https://stackoverflow.com/questions/41101662/typewriter-effect-pygame/70235527#70235527 
+#
 # Pygame Rendering Text 1 by 1 Causes Lag In Game How Do I Fix This?
 # https://stackoverflow.com/questions/67273848/pygame-rendering-text-1-by-1-causes-lag-in-game-how-do-i-fix-this/67273892#67273892
 #
