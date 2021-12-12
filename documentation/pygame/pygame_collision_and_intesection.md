@@ -554,6 +554,8 @@ Related Stack Overflow questions:
 - [I'm having a problem with determining the intersection of two lines in this python code](https://stackoverflow.com/questions/69353309/im-having-a-problem-with-determining-the-intersection-of-two-lines-in-this-pyth/69357134#69357134)  
   ![I'm having a problem with determining the intersection of two lines in this python code](https://i.stack.imgur.com/UnS8P.gif)
 
+  :scroll: **[Minimal example - Calculate intersection of lines](../../examples/minimal_examples/pygame_minimal_intersect_line_line_3.py)**
+
 - [fiding every point of intersection of multiple lines using pygame in python for creation of game board](https://stackoverflow.com/questions/63521847/fiding-every-point-of-intersection-of-multiple-lines-using-pygame-in-python-for/63523520#63523520)  
   ![fiding every point of intersection of multiple lines using pygame in python for creation of game board](https://i.stack.imgur.com/6Do1b.png)
 
