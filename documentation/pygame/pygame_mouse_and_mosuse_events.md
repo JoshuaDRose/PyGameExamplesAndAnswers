@@ -162,6 +162,11 @@ Related Stack Overflow questions:
 
 **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-MouseDragSimple](https://replit.com/@Rabbid76/PyGame-MouseDragSimple#main.py)**
 
+- [Drawing square colour stored in a list of tuples?](https://stackoverflow.com/questions/69828786/drawing-square-colour-stored-in-a-list-of-tuples/69828913#69828913)  
+  ![Drawing square colour stored in a list of tuples?](https://i.stack.imgur.com/e7ecp.gif)
+
+   :scroll: **[Minimal example - Drag pieces](../../examples/minimal_examples/pygame_minimal_mouse_drag_pieces.py)**
+
 ### Mouse drag and rotate
 
 Related Stack Overflow questions:

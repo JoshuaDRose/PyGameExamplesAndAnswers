@@ -72,8 +72,10 @@ Related Stack Overflow quest
 
 Related Stack Overflow quest
 
-- [Drawing square colour stored in a list of tuples?](https://stackoverflow.com/questions/69828786/drawing-square-colour-stored-in-a-list-of-tuples/69828913?noredirect=1)  
+- [Drawing square colour stored in a list of tuples?](https://stackoverflow.com/questions/69828786/drawing-square-colour-stored-in-a-list-of-tuples/69828913#69828913)  
   ![Drawing square colour stored in a list of tuples?](https://i.stack.imgur.com/e7ecp.gif)
+
+   :scroll: **[Minimal example - Drag pieces](../../examples/minimal_examples/pygame_minimal_mouse_drag_pieces.py)**
 
 ## Chess board, checker texture
 
@@ -84,7 +86,7 @@ Related Stack Overflow quest
 - [How to use a dictionary of images with sprite?](https://stackoverflow.com/questions/66467383/how-to-use-a-dictionary-of-images-with-sprite/66514748#66514748)  
   ![How to use a dictionary of images with sprite?](https://i.stack.imgur.com/i0a0N.gif)
 
-  :scroll: **[Minimal example - Drag chess pieces](../../examples/minimal_examples/pygame_minimal_chess_drag.py)**
+  :scroll: **[Minimal example - Drag chess pieces](../../examples/minimal_examples/pygame_minimal_mouse_drag_chess.py)**
 
 - [python pygame mouse events not working and not raising errors](https://stackoverflow.com/questions/67437709/python-pygame-mouse-events-not-working-and-not-raising-errors/67449984#67449984)  
   ![python pygame mouse events not working and not raising errors](https://i.stack.imgur.com/cYnIY.gif)
@@ -124,4 +126,4 @@ lookup = {
 indices = numpy.array([[lookup[p] for p in row] for row in board])
 
 print(indices)
-```  
+```

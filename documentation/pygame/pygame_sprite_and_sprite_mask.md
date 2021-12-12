@@ -399,7 +399,7 @@ Related Stack Overflow questions:
 - [How to use a dictionary of images with sprite?](https://stackoverflow.com/questions/66467383/how-to-use-a-dictionary-of-images-with-sprite/66514748#66514748)  
   ![How to use a dictionary of images with sprite?](https://i.stack.imgur.com/i0a0N.gif)
 
-  :scroll: **[Minimal example - Drag chess pieces](../../examples/minimal_examples/pygame_minimal_chess_drag.py)**
+  :scroll: **[Minimal example - Drag chess pieces](../../examples/minimal_examples/pygame_minimal_mouse_drag_chess.py)**
 
 ## Circular sprite
 
