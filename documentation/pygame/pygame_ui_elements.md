@@ -83,3 +83,12 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Making a scrollbar but its inconsistent](https://stackoverflow.com/questions/66369695/making-a-scrollbar-but-its-inconsistent/66370052#66370052)
+
+# Tool tip
+
+Related Stack Overflow questions:v
+
+- [How do i make a text box pop up when i hover over a button in pygame](https://stackoverflow.com/questions/69833827/how-do-i-make-a-text-box-pop-up-when-i-hover-over-a-button-in-pygame/69961155#69961155)  
+  ![How do i make a text box pop up when i hover over a button in pygame](https://i.stack.imgur.com/Ojmgk.gif)
+
+  :scroll: **[minimal exame_minample - Detect Sprite on hover 2_2](../../examples/minimal_examples/pygame_minimal_ui_tooltip.py)**

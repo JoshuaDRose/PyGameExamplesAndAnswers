@@ -350,10 +350,7 @@ Related Stack Overflow questions:
 - [How can I add an image or icon to a button rectangle in Pygame?](https://stackoverflow.com/questions/64990710/how-can-i-add-an-image-or-icon-to-a-button-rectangle-in-pygame/64990819#64990819)  
   ![How can I add an image or icon to a button rectangle in Pygame?](https://i.stack.imgur.com/UEIde.gif)
 
-  :scroll: **[minimal example - Detect Sprite on hover 2_2](../../examples/minimal_examples/pygame_minimal_sprite_mouse_hover.py)**
-
-- [How do i make a text box pop up when i hover over a button in pygame](https://stackoverflow.com/questions/69833827/how-do-i-make-a-text-box-pop-up-when-i-hover-over-a-button-in-pygame/69961155#69961155)  
-  ![How do i make a text box pop up when i hover over a button in pygame](https://i.stack.imgur.com/Ojmgk.gif)
+  :scroll: **[minimal exame_minample - Detect Sprite on hover 2_2](../../examples/minimal_examples/pygimal_sprite_mouse_hover.py)**
 
 Detect  evaluate the mouse states in the `Update` method of the [`pygame.sprite.Sprite`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) object:
 
