@@ -13,16 +13,15 @@
 # GitHub - Sprite, Group and Sprite mask - Click Sprite
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_sprite_and_sprite_mask.md
 
-import pygame
 import os
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../resource'))
+
+import pygame
 
 class SpriteObject(pygame.sprite.Sprite):
     def __init__(self, x, y, filename):
         super().__init__() 
-        img = pygame.image.load(filename).convert_alpha()
-        self.original_image = pygame.Surface((70, 70))
-        self.original_image.blit(img, img.get_rect(center = self.original_image.fill((127, 127, 127)).center))
+        self.original_image = pygame.image.load(filename).convert_alpha()
         self.hover_image = self.original_image.copy()
         pygame.draw.rect(self.hover_image, (255, 255, 0), self.hover_image.get_rect(), 6)
         self.image = self.original_image 
