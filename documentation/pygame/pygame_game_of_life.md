@@ -21,6 +21,9 @@ Related Stack Overflow questions:
 
 - [Pygame is running game of life very slowly](https://stackoverflow.com/questions/69056318/pygame-is-running-game-of-life-very-slowly/69056448#69056448)  
 
+- [Game of life, adding endless field](https://stackoverflow.com/questions/70324550/game-of-life-adding-endless-field/70325007#70325007)  
+  ![Game of life, adding endless field](https://i.stack.imgur.com/rvEZN.gif)
+
 :scroll: **[Minimal example - Game of life](../../examples/minimal_examples/pygame_minimal_game_of_life.py)**
 
 :scroll: **[Minimal example - Game of life - NumPy](../../examples/minimal_examples/pygame_minimal_game_of_life_numpy.py)**
