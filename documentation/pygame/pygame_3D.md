@@ -48,3 +48,7 @@ Related Stack Overflow questions:
   ![Pygame won't draw quads in the right order](https://i.stack.imgur.com/pKxTT.gif)
 
   :scroll: **[Minimal example - 3D Cube, gfxdraw module](../../examples/minimal_examples/pygame_minimal_3D_cube_gfxdraw.py)**
+
+- [Why is there distortion when the cube is on the edge of the screen?](https://stackoverflow.com/questions/69731067/why-is-there-distortion-when-the-cube-is-on-the-edge-of-the-screen/70415341#70415341)  
+  
+  :scroll: **[Minimal example - 3D Cube, perspective](../../examples/minimal_examples/pygame_minimal_3D_perspective_1.py)**
