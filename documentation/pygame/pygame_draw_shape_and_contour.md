@@ -476,6 +476,8 @@ Related Stack Overflow questions:
 - [Trying to make a Bezier Curve on PyGame library](https://stackoverflow.com/questions/69804595/trying-to-make-a-bezier-curve-on-pygame-library/69816648#69816648)  
   ![Trying to make a Bezier Curve on PyGame library](https://i.stack.imgur.com/1GYKJ.gif)
 
+  :scroll: **[Minimal example - Draw bezier](../../examples/minimal_examples/pygame_minimal_draw_bezier_1.py)**
+
 ## Wireframe shape
 
 Related Stack Overflow questions:
