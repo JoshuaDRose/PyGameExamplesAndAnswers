@@ -7,6 +7,12 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 
 # Text and font
 
+## Bugs
+
+Related Stack Overflow questions:
+
+- [Blitting text with pygame2.1 not working correctly](https://stackoverflow.com/questions/70445036/blitting-text-with-pygame2-1-not-working-correctly/70447991#70447991)  
+
 ## Font
 
 Related Stack Overflow questions:

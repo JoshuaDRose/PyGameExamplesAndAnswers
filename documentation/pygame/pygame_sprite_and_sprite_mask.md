@@ -137,6 +137,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
+- [How to verify collision between two sprites in the same pygame.sprite.Group()?](https://stackoverflow.com/questions/70440940/how-to-verify-collision-between-two-sprites-in-the-same-pygame-sprite-group/70440991#70440991)  
 - [Permanently delete sprite from memory Pygame](https://stackoverflow.com/questions/67313034/permanently-delete-sprite-from-memory-pygame/67313844#67313844)  
 - [pygame.sprite.groupcollide() does not work when trying to implement collision in pygame](https://stackoverflow.com/questions/63997798/pygame-sprite-groupcollide-does-not-work-when-trying-to-implement-collision-in/63998275#63998275)  
 - [How to use groupcollide?](https://stackoverflow.com/questions/67890545/how-to-use-groupcollide/67890672#67890672)  

@@ -79,6 +79,15 @@ Related Stack Overflow questions:
 
 - [pygame: mask non-image type surfaces](https://stackoverflow.com/questions/65455888/pygame-mask-non-image-type-surfaces/65455939#65455939)
 
+## Mask overlapping area
+
+Related Stack Overflow questions:
+
+- [How can I visualize the overlapping area of 2 masks in pygame?](https://stackoverflow.com/questions/70485132/how-can-i-visualize-the-overlapping-area-of-2-masks-in-pygame/70485262#70485262)  
+  ![How can I visualize the overlapping area of 2 masks in pygame?](https://i.stack.imgur.com/N6DZ4.gif)  
+
+  :scroll: **[Minimal example - Visualize overlapping area](../../examples/minimal_examples/pygame_minimal_mask_visualize_overlapping_area.py)**
+
 ## Mask bounding area rectangle
 
 Related Stack Overflow questions:
