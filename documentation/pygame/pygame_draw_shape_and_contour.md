@@ -353,6 +353,9 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Draw a line slowly](../../examples/minimal_examples/pygame_minimal_draw_polygon_1.py)**
 
+- [Drawing polygons in pygame using list](https://stackoverflow.com/questions/70482667/drawing-polygons-in-pygame-using-list/70482709#70482709)  
+  ![Drawing polygons in pygame using list](https://i.stack.imgur.com/NKCI5.png)  
+
 If you want to draw a polygon line with different colors for each segment, you need to draw each line segment separately. Write a function that uses a list of points and colors to draw the line:
 
 ```py
