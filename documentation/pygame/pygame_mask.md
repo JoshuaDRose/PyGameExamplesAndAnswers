@@ -7,7 +7,15 @@ Robert C. Martin, Clean Architecture
 
 # Mask
 
-## Surface mask
+## Create mask from Surface
+
+Related Stack Overflow questions:
+
+- [pygame: create mask form png with transparancy](https://stackoverflow.com/questions/68517375/pygame-create-mask-form-png-with-transparancy/68517405#68517405)  
+
+- [How can I make my code more optimised by not drawing a rect on each pixel?](https://stackoverflow.com/questions/68835224/how-can-i-make-my-code-more-optimised-by-not-drawing-a-rect-on-each-pixel/68835795#68835795)  
+
+## Mask collision
 
 Related Stack Overflow questions:
 
@@ -37,8 +45,6 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-PyGame-SurfaceLineMaskIntersect-2](https://replit.com/@Rabbid76/PyGame-SurfaceLineMaskIntersect-2#main.py)**
 
-- [How can I rotate my hit box with my rotating and moving car in PyGame?](https://stackoverflow.com/questions/62974678/how-can-i-rotate-my-hitbox-with-my-rotating-and-moving-car-in-pygame/62976825#62976825)
-
 - [How can I rotate my hitbox with my rotating and moving car in pygame?](https://stackoverflow.com/questions/62974678/how-can-i-rotate-my-hitbox-with-my-rotating-and-moving-car-in-pygame/62976825#62976825)
 
 - [python pygame mask collision](https://stackoverflow.com/questions/59595874/python-pygame-mask-collision/59598297#59598297)  
@@ -58,9 +64,19 @@ Related Stack Overflow questions:
 
 - [Pygame masks Python](https://stackoverflow.com/questions/67846651/pygame-masks-python/67846703#67846703)  
 
-- [pygame: create mask form png with transparancy](https://stackoverflow.com/questions/68517375/pygame-create-mask-form-png-with-transparancy/68517405#68517405)  
+- [wondering about pixel perfect mousepointer collision in the case of a button](https://stackoverflow.com/questions/70338690/pygame-wondering-about-pixel-perfect-mousepointer-collision-in-the-case-of-a-b/70338984#70338984)  
+  ![wondering about pixel perfect mousepointer collision in the case of a button](https://i.stack.imgur.com/ZymGp.gif)
 
-- [How can I make my code more optimised by not drawing a rect on each pixel?](https://stackoverflow.com/questions/68835224/how-can-i-make-my-code-more-optimised-by-not-drawing-a-rect-on-each-pixel/68835795#68835795)  
+  scroll: **[Minimal example - Mask collide point](../../examples/minimal_examples/pygame_minimal_mask_intersect_point.py)**
+
+## Mask count pixel
+
+Related Stack Overflow questions:
+
+- [Get the average Color of a Surface ignoring transparent pixels](https://stackoverflow.com/questions/69876220/get-the-average-color-of-a-surface-ignoring-transparent-pixels/70056421#70056421)  
+  ![Get the average Color of a Surface ignoring transparent pixels](https://i.stack.imgur.com/mWM9e.png)
+
+  :scroll: **[Minimal example - Load image](../../examples/minimal_examples/pygame_minimal_mask_count_pixel_1.py)**
 
 ## Selection and highlighting
 

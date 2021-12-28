@@ -82,6 +82,23 @@ sprite_list = sprite_group.sprites()
 sprite_1 = sprite_list[0]
 ```
 
+### Layers and layered Group
+
+Related Stack Overflow questions:
+
+- [Pygame sprite disappearing with layeredUpdates at a certain Y coordinate](https://stackoverflow.com/questions/61562822/pygame-sprite-disappearing-with-layeredupdates-at-a-certain-y-coordinate/61607539#61607539)
+
+- [pygame.sprite.LayeredUpdates.move_to_front() does not work](https://stackoverflow.com/questions/69365433/pygame-sprite-layeredupdates-move-to-front-does-not-work/69365563#69365563)
+  ![pygame.sprite.LayeredUpdates.move_to_front() does not work](https://i.stack.imgur.com/18mlv.gif)
+
+## Render update Group
+
+Related Stack Overflow questions:
+
+- [Background image change glitches](https://stackoverflow.com/questions/70271511/background-image-change-glitches/70281354#70281354)
+
+  :scroll: **[Minimal example - Minimal sprite group - render update](../../examples/minimal_examples/pygame_minimal_sprite_group_render_update_1.py)**
+
 ## Destroy (kill) Sprite objects
 
 - [end the pygame when player mises the target more than three times](https://stackoverflow.com/questions/59985408/end-the-pygame-when-player-mises-the-target-more-than-three-times/59992840#59992840)
@@ -192,15 +209,6 @@ Related Stack Overflow questions:
   :scroll: **[Minimal example - Chang the color of an area of a Sprite](../../examples/minimal_examples/pygame_minimal_blend_surface_tint_grayscale_1.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ChangeColorOfSpriteArea](https://replit.com/@Rabbid76/PyGame-ChangeColorOfSpriteArea#main.py)**
-
-## Layers
-
-Related Stack Overflow questions:
-
-- [Pygame sprite disappearing with layeredUpdates at a certain Y coordinate](https://stackoverflow.com/questions/61562822/pygame-sprite-disappearing-with-layeredupdates-at-a-certain-y-coordinate/61607539#61607539)
-
-- [pygame.sprite.LayeredUpdates.move_to_front() does not work](https://stackoverflow.com/questions/69365433/pygame-sprite-layeredupdates-move-to-front-does-not-work/69365563#69365563)
-  ![pygame.sprite.LayeredUpdates.move_to_front() does not work](https://i.stack.imgur.com/18mlv.gif)
 
 ## Animation, timing and Sprite sheet
 

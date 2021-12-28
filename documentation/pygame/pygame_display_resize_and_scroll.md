@@ -157,8 +157,11 @@ A workaround is presented on the Pygame Wiki [`toggle_fullscreen`](https://www.p
 
 Related Stack Overflow questions:
 
-- [Pygame Display Position](https://stackoverflow.com/questions/4135928/pygame-display-position)  
 - [How to move a no frame pygame windows when user click on it?](https://stackoverflow.com/questions/57674156/how-to-move-a-no-frame-pygame-windows-when-user-click-on-it/57681853#57681853)
+
+  :scroll: **[Minimal example - Display zoom](../../examples/minimal_examples/pygame_minimal_display_move_no_frame_window_1.py)**
+
+- [Pygame Display Position](https://stackoverflow.com/questions/4135928/pygame-display-position)  
 - [Make a pygame resizable window that can be snapped to the screen](https://stackoverflow.com/questions/62034222/make-a-pygame-resizable-window-that-can-be-snapped-to-the-screen/62035592#62035592)
 - [PyGame os.environ SDL_VIDEO_WINDOW_POS does not work](https://stackoverflow.com/questions/68324163/pygame-os-environ-sdl-video-window-pos-does-not-work/68325597#68325597)  
 
