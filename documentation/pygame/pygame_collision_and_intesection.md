@@ -457,6 +457,9 @@ Note, a collision of a `Sprite` object and a [`Group`](https://www.pygame.org/do
 Related Stack Overflow questions:
 
 - [How can i collide with a 45 degree slope?](https://stackoverflow.com/questions/66153261/how-can-i-collide-with-a-45-degree-slope/66158012#66158012)
+  ![How can i collide with a 45 degree slope?](https://i.stack.imgur.com/gfPYW.gifv)
+- [when the rectangle descends the ramp, the rectangle shakes](https://stackoverflow.com/questions/70521047/when-the-rectangle-descends-the-ramp-the-rectangle-shakes/70521216#70521216)  
+  ![when the rectangle descends the ramp, the rectangle shakes](https://i.stack.imgur.com/B5znW.gif)
 
 ## Rectangle and circle
 
