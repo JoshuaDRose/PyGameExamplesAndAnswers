@@ -20,6 +20,9 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - **[Why is my collision test always returning 'true' and why is the position of the rectangle of the image always wrong (0, 0)?](https://stackoverflow.com/questions/57730329/pygame-collide-rect-function-always-returning-true/57730378#57730378)**
+
+- **[I need the center x and y position of the pygame window](https://stackoverflow.com/questions/70530062/i-need-the-center-x-and-y-position-of-the-pygame-window/70530198#70530198)**
+
 - [Is there a way to place number on the center of the screen in pygame?](https://stackoverflow.com/questions/62728473/is-there-a-way-to-place-number-on-the-center-of-the-screen-in-pygame/62728692#62728692)
 - [How to Center Text in Pygame](https://stackoverflow.com/questions/23982907/pygame-how-to-center-text/64660744#64660744)
 
@@ -52,6 +55,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
+- [Runtime question - loading and bliting images](https://stackoverflow.com/questions/70530804/runtime-question-loading-and-bliting-images/70530926#70530926)  
 - [Lag when win.blit() background pygame](https://stackoverflow.com/questions/59312019/lag-when-win-blit-background-pygame/59318946#59318946)
 - [Why does my game made with Pygame suddenly lag for a few seconds?](https://stackoverflow.com/questions/60222282/why-does-my-game-made-with-pygame-suddenly-lag-for-a-few-seconds/60222744#60222744)
 - [How Can I Improve My Terrain Generator Performance I Get 40 FPS](https://stackoverflow.com/questions/66509002/how-can-i-improve-my-terrain-generator-performance-i-get-40-fps/66510253#66510253)
