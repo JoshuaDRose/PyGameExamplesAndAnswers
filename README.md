@@ -200,7 +200,7 @@ The site is still under construction :construction:.
 
 ## Libraries
 
-[PyGame and PyMuk](documentation/pygame/pygame_and_pymuk.md)
+[PyGame and PyMunk](documentation/pygame/pygame_and_pymunk.md)
 
 [Libraries based on PyGame](documentation/pygame/pygame_dependent_libraries.md)
 
