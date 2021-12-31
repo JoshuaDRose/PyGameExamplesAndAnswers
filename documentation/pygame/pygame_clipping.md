@@ -26,14 +26,14 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ClipCircularRegion-1](https://replit.com/@Rabbid76/PyGame-ClipCircularRegion-1#main.py)**
 
-- [How to fill only certain circular parts of the window in PyGame?](https://stackoverflow.com/questions/61657481/how-to-fill-only-certain-circular-parts-of-the-window-in-pygame/61658124#61658124/61658124#61658124)  
-  ![How to fill only certain circular parts of the window in PyGame?](https://i.stack.imgur.com/pbiAC.gif)
+- [How do I focus light or how do I only draw certain circular parts of the window in pygame?](https://stackoverflow.com/questions/61657481/how-do-i-focus-light-or-how-do-i-only-draw-certain-circular-parts-of-the-window/61658124#61658124)  
+  ![How do I focus light or how do I only draw certain circular parts of the window in pygame?](https://i.stack.imgur.com/pbiAC.gif)
   
   :scroll: **[Minimal example - Clip circular 2](../../examples/minimal_examples/pygame_minimal_clip_circular_2.py)**
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-ClipCircularRegion-2](https://replit.com/@Rabbid76/PyGame-ClipCircularRegion-2#main.py)**
 
-  ![How to fill only certain circular parts of the window in PyGame?](https://i.stack.imgur.com/Pt2IY.gif)
+  ![How do I focus light or how do I only draw certain circular parts of the window in pygame?](https://i.stack.imgur.com/Pt2IY.gif)
 
   :scroll: **[Minimal example - Clip circular 3](../../examples/minimal_examples/pygame_minimal_clip_circular_3.py)**
 
