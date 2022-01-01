@@ -38,6 +38,9 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-PyGame-SurfaceLineMaskIntersect-1](https://replit.com/@Rabbid76/PyGame-SurfaceLineMaskIntersect-1#main.py)**
 
+- [How to do a collision detection between line and rectangle in pygame?](https://stackoverflow.com/questions/70497288/how-to-do-a-collision-detection-between-line-and-rectangle-in-pygame/70498845#70498845)  
+  ![How to do a collision detection between line and rectangle in pygame?](https://i.stack.imgur.com/rmHWd.gif)
+
 - **[Overlap between mask and fired beams in PyGame [AI car model vision]](https://stackoverflow.com/questions/62008457/overlap-between-mask-and-fired-beams-in-pygame-ai-car-model-vision/62082726#62082726)**  
   ![Overlap between mask and fired beams in PyGame](https://i.stack.imgur.com/YyFbN.gif)  
 

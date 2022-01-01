@@ -646,6 +646,9 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CollisionPolygonRectangle](https://replit.com/@Rabbid76/PyGame-CollisionPolygonRectangle#main.py)**
 
+- [How to give a warning when a moving object deviates from a path by a specific margin?](https://stackoverflow.com/questions/70490538/how-to-give-a-warning-when-a-moving-object-deviates-from-a-path-by-a-specific-ma/70493378#70493378)  
+  ![How to give a warning when a moving object deviates from a path by a specific margin?](https://i.stack.imgur.com/IJrsK.gif)
+
 ## Circle and polygon
 
 Related Stack Overflow questions:
