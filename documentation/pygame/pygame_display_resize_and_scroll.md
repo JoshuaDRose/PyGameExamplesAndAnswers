@@ -322,3 +322,9 @@ screen.blit(bg, (x_part2, 0))
 Related Stack Overflow questions:
 
 - [Is there a way to make the message box show up in front of a PyGame Window?](https://stackoverflow.com/questions/60990283/is-there-a-way-to-make-the-message-box-show-up-in-front-of-a-pygame-window/60993478#60993478)
+
+## Multiple Windows
+
+Related Stack Overflow questions:
+
+- [Pygame with Multiple Windows](https://stackoverflow.com/questions/29811814/pygame-with-multiple-windowsv)
