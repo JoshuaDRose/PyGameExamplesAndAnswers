@@ -134,21 +134,19 @@ Related Stack Overflow questions:
 - [Error - pygame.error: Couldn't open backround.png. Fix?](https://stackoverflow.com/questions/57836528/error-pygame-error-couldnt-open-backround-png-fix/57836574#57836574)
 - [I've got an error when trying to create sound using pygame](https://stackoverflow.com/questions/55784793/ive-got-an-error-when-trying-to-create-sound-using-pygame/55784882#55784882)
 
-The image file path has to be relative to the current working directory. The working directory is possibly different to the directory of the python file.
+The resource (image, font, sound, etc.) file path has to be relative to the current working directory. The working directory is possibly different to the directory of the python file.  
+It is not enough to put the files in the same directory or sub directory. You also need to set the working directory. Alternatively, you can create an absolute file path.
 
-The name and path of the file can be get by [`__file__`](https://docs.python.org/3/reference/import.html#import-related-module-attributes). The current working directory can be get by [`os.getcwd()`](https://docs.python.org/3/library/os.html) and can be changed by [`os.chdir(path)`](https://docs.python.org/3/library/os.html).
-
-One solution is to change the working directory:
+The name and path of the file can be get by [`__file__`](https://docs.python.org/3/reference/import.html#import-related-module-attributes). The current working directory can be get by [`os.getcwd()`](https://docs.python.org/3/library/os.html) and can be changed by [`os.chdir(path)`](https://docs.python.org/3/library/os.html):
 
 ```py
 import os
 
-sourceFileDir = os.path.dirname(os.path.abspath(__file__))
-os.chdir(sourceFileDir)
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 ```
 
 An alternative solution is to find the absolute path.
-If the image is relative to the folder of the python file (or even in the same folder), then you can get the directory of the file and join ([`os.path.join()`](https://docs.python.org/3/library/os.path.html)) the image filename. e.g.:
+If the file is in an subfolder of the python file (or even in the same folder), then you can get the directory of the file and join ([`os.path.join()`](https://docs.python.org/3/library/os.path.html)) the relative filepath. e.g.:
 
 ```py
 import pygame
@@ -160,12 +158,31 @@ sourceFileDir = os.path.dirname(os.path.abspath(__file__))
 # [...]
 
 # join the filepath and the filename
-imgPath = os.path.join(sourceFileDir, 'test_bg.jpg')
-# imgPath = os.path.join(sourceFileDir, '_pycache_/test_bg.jpg')
+filePath = os.path.join(sourceFileDir, 'test_bg.jpg')
+# filePath = os.path.join(sourceFileDir, '_pycache_/test_bg.jpg')
 
-surface = pygame.image.load(imgPath)
+surface = pygame.image.load(filePath)
 ```
 
+The same can be achieved with the [`pathlib`](https://docs.python.org/3/library/pathlib.html) module.
+Change the working directory
+
+```py
+import os, pathlib
+
+os.chdir(pathlib.Path(__file__).resolve().parent)
+```
+
+or create an absolute filepath:
+
+```py
+import pathlib
+
+# [...]
+
+filePath = pathlib.Path(__file__).resolve().parent / 'test_bg.jpg'
+surface = pygame.image.load(filePath)
+```
 ## Host online (Browser, Web, Html)
 
 Related Stack Overflow questions:
