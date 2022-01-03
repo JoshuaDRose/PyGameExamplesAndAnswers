@@ -12,6 +12,7 @@ Related Stack Overflow questions:
 
 - [Get image array from display in pygame](https://stackoverflow.com/questions/64558238/get-image-array-from-display-in-pygame)  
 - [Get RGB pixel data of a section of a screen as an array in pygame](https://stackoverflow.com/questions/68414745/get-rgb-pixel-data-of-a-section-of-a-screen-as-an-array-in-pygame/68414812#68414812)  
+- [pygame.surfarray.pixels3d doesn’t give correct pixel values with a text surface](https://stackoverflow.com/questions/70565956/pygame-surfarray-pixels3d-doesn-t-give-correct-pixel-values-with-a-text-surface/70566155#70566155)
 
 Use `pygame.surfarray.pixels2d`, `pygame.surfarray.array2d`, `pygame.surfarray.pixels3d`, or `pygame.surfarray.array3d` to create a pixel array from a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object (see [`pygame.surfarray`](https://www.pygame.org/docs/ref/surfarray.html) module):
 
