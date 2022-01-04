@@ -45,6 +45,7 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - [Pygame doesn't let me use float for rect.move, but I need it](https://stackoverflow.com/questions/63468413/pygame-doesnt-let-me-use-float-for-rect-move-but-i-need-it/63468637#63468637)
+- [Problems with moving an enemy towards a character in pygame](https://stackoverflow.com/questions/70549998/problems-with-moving-an-enemy-towards-a-character-in-pygame/70550038#70550038)
 - [PyGame move one unit in degrees](https://stackoverflow.com/questions/69312639/pygame-move-one-unit-in-degrees/69312664#69312664)  
 - [Problem with Pygame movement acceleration, platformer game](https://stackoverflow.com/questions/59501126/problem-with-pygame-movement-acceleration-platformer-game/59501533#59501533)
 - [How to draw a moving circle in Pygame with a small angle at a low speed and blinking?](https://stackoverflow.com/questions/61528967/how-to-draw-a-moving-circle-in-pygame-with-a-small-angle-at-a-low-speed-and-blin/61529427#61529427)
