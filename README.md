@@ -144,6 +144,8 @@ The site is still under construction :construction:.
 
 [Motion and movement](documentation/pygame/pygame_movement_and_motion.md)
 
+[Jump](documentation/pygame/pygame_jump.md)
+
 ### Interaction between objects
 
 [Math and Vector](documentation/pygame/pygame_math_vector_and_reflection.md)

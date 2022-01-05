@@ -127,41 +127,9 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Slide and bounce](../../examples/minimal_examples/pygame_minimal_move_slide_and_bounce.py)**
 
-## jump
+## Jump
 
-Related Stack Overflow questions:
-
-- [How to make a character jump in Pygame?](https://stackoverflow.com/questions/65873880/how-to-make-a-character-jump-in-pygame/65874132#65874132)  
-
-- **[How can I do a double jump in pygame?](https://stackoverflow.com/questions/67667103/how-can-i-do-a-double-jump-in-pygame/67667585#67667585)**  
-  ![How can I do a double jump in pygame?](https://i.stack.imgur.com/9ICi5.gif)  
-
-- **[python, pygame - jumping too fast?](https://stackoverflow.com/questions/58474204/python-pygame-jumping-too-fast/58474280#58474280)**  
-  ![python, pygame - jumping too fast?](https://i.stack.imgur.com/gWHCT.gif)
-
-- [How to do a variable jump height based on how long key is held in Pygame](https://stackoverflow.com/questions/68839727/how-to-do-a-variable-jump-height-based-on-how-long-key-is-held-in-pygame/68843102#68843102)  
-  [How to do a variable jump height based on how long key is held in Pygame](https://i.stack.imgur.com/jhf3z.gif)
-
-- [How to simulate Jumping in Pygame for this particular code](https://stackoverflow.com/questions/54595777/how-to-simulate-jumping-in-pygame-for-this-particular-code/54596624#54596624)  
-  ![How to simulate Jumping in Pygame for this particular code](https://i.stack.imgur.com/XEAF8.gif)
-
-- [How to make a circular object jump using pygame?](https://stackoverflow.com/questions/62822322/how-to-make-a-circular-object-jump-using-pygame/62822601#62822601)  
-  ![How to make a circular object jump using pygame?](https://i.stack.imgur.com/6BPnL.gif)
-
-- [Pygame sprite not moving while jumping](https://stackoverflow.com/questions/65583721/pygame-sprite-not-moving-while-jumping/65583922#65583922)  
-  ![Pygame sprite not moving while jumping](https://i.stack.imgur.com/8uR7T.gif)  
-
-- [How Can I Improve This Jump?](https://stackoverflow.com/questions/65729359/how-can-i-improve-this-jump/65737915#65737915)  
-  ![How Can I Improve This Jump?](https://i.stack.imgur.com/dutyN.gif)  
-
-- [How To Make Object Jump Forward In Pygame?](https://stackoverflow.com/questions/66051418/how-to-make-object-jump-forward-in-pygame/66051478#66051478)  
-  ![How To Make Object Jump Forward In Pygame?](https://i.stack.imgur.com/CVpPC.gif)
-
-- [chrome dino game jumping twice per click in pygame](https://stackoverflow.com/questions/66253320/chrome-dino-game-jumping-twice-per-click-in-pygame/66254270#66254270)  
-  ![chrome dino game jumping twice per click in pygame](https://i.stack.imgur.com/039Eu.gif)
-
-- [I've created a basic platformer in pygame with no animations. I have used event handling for right and left movement but i cant add a jump mechanic](https://stackoverflow.com/questions/67760767/ive-created-a-basic-platformer-in-pygame-with-no-animations-i-have-used-event/67761435#67761435)  
-  ![I've created a basic platformer in pygame with no animations. I have used event handling for right and left movement but i cant add a jump mechanic](https://i.stack.imgur.com/ENVkS.gif)
+See [Jump](pygame_jump.md)
 
 ## Gravity
 
