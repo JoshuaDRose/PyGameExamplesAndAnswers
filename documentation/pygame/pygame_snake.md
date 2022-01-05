@@ -114,6 +114,13 @@ def create_body(track, no_pearls, distance):
 
 ![4](https://i.stack.imgur.com/Q6zUm.gif)
 
+## Change direction
+
+Related Stack Overflow questions:
+
+- [How to disbale certain key when another key is pressed in pygame](https://stackoverflow.com/questions/70591779/how-to-disbale-certain-key-when-another-key-is-pressed-in-pygame/70592433#70592433)
+- [how to control snake with only two keys i.e left and right](https://stackoverflow.com/questions/61862293/how-to-control-snake-with-only-two-keys-i-e-left-and-right/61863664#61863664)
+
 ## Snake collision
 
 Related Stack Overflow questions:

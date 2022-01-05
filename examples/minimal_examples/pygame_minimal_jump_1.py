@@ -1,5 +1,8 @@
 # pygame.key module
 # https://www.pygame.org/docs/ref/key.html
+#
+# How to make a character jump in Pygame?
+# https://stackoverflow.com/questions/70591591/how-to-make-a-character-jump-in-pygame/70591592#70591592
 # 
 # Jump is triggered twice per click in Pygame
 # https://stackoverflow.com/questions/66253320/jump-is-triggered-twice-per-click-in-pygame/66254270#66254270

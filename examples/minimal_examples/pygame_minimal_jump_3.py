@@ -4,13 +4,13 @@
 # How to make a character jump in Pygame?
 # https://stackoverflow.com/questions/70591591/how-to-make-a-character-jump-in-pygame/70591592#70591592
 # 
-# How can I do a double jump in pygame?
-# https://stackoverflow.com/questions/67667103/how-can-i-do-a-double-jump-in-pygame/67667585#67667585
+# How to make a circular object jump using pygame?
+# https://stackoverflow.com/questions/62822322/how-to-make-a-circular-object-jump-using-pygame/62822601#62822601
 # 
 # GitHub - PyGameExamplesAndAnswers - Jump
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_jump.md
 #
-# https://replit.com/@Rabbid76/Pygame-JumpAcceleration#main.py
+# https://replit.com/@Rabbid76/PyGame-JumpFloat#main.py
 
 import pygame
 
@@ -27,29 +27,31 @@ all_sprites = pygame.sprite.Group([player])
 y, vel_y = player.rect.bottom, 0
 vel = 5
 ground_y = 250
-acceleration = 10
-gravity = 0.5
+jump_height = 12
+jump = False
 
 run = True
 while run:
     clock.tick(100)
-    acc_y = gravity
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
         if event.type == pygame.KEYDOWN: 
-            if vel_y == 0 and event.key == pygame.K_SPACE:
-                acc_y = -acceleration
+            if not jump and event.key == pygame.K_SPACE:
+                jump = True
+                vel_y = jump_height
 
     keys = pygame.key.get_pressed()    
     player.rect.centerx = (player.rect.centerx + (keys[pygame.K_RIGHT] - keys[pygame.K_LEFT]) * vel) % 300
     
-    vel_y += acc_y
-    y += vel_y
-    if y > ground_y:
-        y = ground_y
-        vel_y = 0
-        acc_y = 0
+    if jump:
+        if vel_y >= -jump_height:
+            m = -1 if vel_y < 0 else 1
+            f = 0.2 * m * (vel_y**2)
+            vel_y -= 1
+            y -= f
+        else:
+            jump = False
     player.rect.bottom = round(y)
 
     window.fill((0, 0, 64))
