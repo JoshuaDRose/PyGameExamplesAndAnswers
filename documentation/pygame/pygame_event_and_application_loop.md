@@ -9,6 +9,12 @@ Robert C. Martin, Clean Architecture
 
 See also [Python PyGame Introduction](https://www.pygame.org/docs/tut/PygameIntro.html)
 
+## Post event
+
+Related Stack Overflow questions:
+
+- [How to write a unittest for script using pygame, and members like pygame.MOUSEBUTTONDOWN?](https://stackoverflow.com/questions/55903344/how-to-write-a-unittest-for-script-using-pygame-and-members-like-pygame-mousebu/70600477#70600477)
+
 ## Application loop
 
 Related Stack Overflow questions:
@@ -144,7 +150,7 @@ while run:
 
 pygame.quit()
 exit()
-``` 
+```
 
 ### Delay, wait and sleep
 
