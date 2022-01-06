@@ -11,8 +11,8 @@ Richard P. Feynman
 
 Related Stack Overflow questions:
 
-- [SVG rendering in a PyGame application](https://stackoverflow.com/questions/120584/svg-rendering-in-a-pygame-application/64598021#64598021)  
-  ![SVG rendering in a PyGame application](https://i.stack.imgur.com/LOMwY.png)  
+- [SVG rendering in a PyGame application. Prior to Pygame 2.0, Pygame did not support SVG. Then how did you load it?](https://stackoverflow.com/questions/120584/svg-rendering-in-a-pygame-application-prior-to-pygame-2-0-pygame-did-not-suppo/64598021#64598021)  
+  ![SVG rendering in a PyGame application. Prior to Pygame 2.0, Pygame did not support SVG. Then how did you load it?](https://i.stack.imgur.com/LOMwY.png)  
 - [Display SVG (as string) on Python Pygame](https://stackoverflow.com/questions/65649933/display-svg-as-string-on-python-pygame/65651155#65651155)  
 - [How can you draw more detailed/smoother images in pygame?](https://stackoverflow.com/questions/65492782/how-can-you-draw-more-detailed-smoother-images-in-pygame/65492828#65492828)  
 - [Upscale an SVG image in python without losing its quality](https://stackoverflow.com/questions/69508937/upscale-an-svg-image-in-python-without-losing-its-quality/69509545#69509545)  

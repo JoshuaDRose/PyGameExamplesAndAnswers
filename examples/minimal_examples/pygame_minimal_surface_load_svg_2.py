@@ -1,8 +1,8 @@
 # pygame.Surface object
 # https://www.pygame.org/docs/ref/surface.html
 #
-# SVG rendering in a PyGame application
-# https://stackoverflow.com/questions/120584/svg-rendering-in-a-pygame-application/64598021#64598021
+# SVG rendering in a PyGame application. Prior to Pygame 2.0, Pygame did not support SVG. Then how did you load it?
+# https://stackoverflow.com/questions/120584/svg-rendering-in-a-pygame-application-prior-to-pygame-2-0-pygame-did-not-suppo/64598021#64598021
 #
 # Display SVG (as string) on Python Pygame
 # https://stackoverflow.com/questions/65649933/display-svg-as-string-on-python-pygame/65651155#65651155  
@@ -24,6 +24,7 @@ clock = pygame.time.Clock()
 #    svg_string = f.read()
 
 svg_string = '<svg height="100" width="500"><ellipse cx="240" cy="50" rx="220" ry="30" style="fill:yellow" /><ellipse cx="220" cy="50" rx="190" ry="20" style="fill:white" /></svg>'
+svg_string = '<svg height="200" width="200"><ellipse cx="100" cy="100" rx="100" ry="100" style="fill:yellow"/></svg>'
 pygame_surface = pygame.image.load(io.BytesIO(svg_string.encode()))
 
 run = True

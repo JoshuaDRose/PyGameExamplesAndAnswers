@@ -9,8 +9,8 @@
 # pygame.Surface object
 # https://www.pygame.org/docs/ref/surface.html
 #
-# SVG rendering in a PyGame application
-# https://stackoverflow.com/questions/120584/svg-rendering-in-a-pygame-application
+# SVG rendering in a PyGame application. Prior to Pygame 2.0, Pygame did not support SVG. Then how did you load it?
+# https://stackoverflow.com/questions/120584/svg-rendering-in-a-pygame-application-prior-to-pygame-2-0-pygame-did-not-suppo/64598021#64598021
 #
 # GitHub - PyGameExamplesAndAnswers - Surface and image - Surface and image, load SVG
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_surface_and_image_svg.md
