@@ -26,6 +26,7 @@ clock = pygame.time.Clock()
 svg_string = '<svg height="100" width="500"><ellipse cx="240" cy="50" rx="220" ry="30" style="fill:yellow" /><ellipse cx="220" cy="50" rx="190" ry="20" style="fill:white" /></svg>'
 svg_string = '<svg height="200" width="200"><ellipse cx="100" cy="100" rx="100" ry="100" style="fill:yellow"/></svg>'
 pygame_surface = pygame.image.load(io.BytesIO(svg_string.encode()))
+#pygame_surface = pygame.image.load(io.BytesIO(svg_string.encode(encoding="utf-8")))
 
 run = True
 while run:

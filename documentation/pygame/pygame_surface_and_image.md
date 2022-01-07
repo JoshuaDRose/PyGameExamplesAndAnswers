@@ -20,6 +20,8 @@ Related Stack Overflow questions:
 Related Stack Overflow questions:
 
 - **[Why is my collision test always returning 'true' and why is the position of the rectangle of the image always wrong (0, 0)?](https://stackoverflow.com/questions/57730329/pygame-collide-rect-function-always-returning-true/57730378#57730378)**
+  
+- [Pygame Surface Positioning](https://stackoverflow.com/questions/61155292/pygame-surface-positioning/61155335#61155335)
 
 - **[I need the center x and y position of the pygame window](https://stackoverflow.com/questions/70530062/i-need-the-center-x-and-y-position-of-the-pygame-window/70530198#70530198)**
 
