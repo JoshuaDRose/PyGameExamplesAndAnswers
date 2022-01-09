@@ -422,6 +422,7 @@ It's easy to see that the two rectangles can be swapped and the result will be t
 
 Related Stack Overflow questions:
 
+- [How to detect collision between a list of Rect and another list of Rects - pygame](https://stackoverflow.com/questions/70641460/how-to-detect-collision-between-a-list-of-rect-and-another-list-of-rects-pygam/70641524#70641524)  
 - [rect collision with list of rects](https://stackoverflow.com/questions/61007064/rect-collision-with-list-of-rects/61007391#61007391)
 - [Use collidelist in class](https://stackoverflow.com/questions/63705475/use-collidelist-in-class/63705792#63705792)
 
