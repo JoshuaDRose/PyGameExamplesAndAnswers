@@ -115,7 +115,7 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
-- [Embedding a Pygame window into a Tkinter or WxPython frame](https://stackoverflow.com/questions/23319059/embedding-a-pygame-window-into-a-tkinter-or-wxpython-frame)w
+- [Embedding a Pygame window into a Tkinter or WxPython frame](https://stackoverflow.com/questions/23319059/embedding-a-pygame-window-into-a-tkinter-or-wxpython-frame)
 - [I'm embedding a pygame window into Tkinter, how do I manipulate the pygame window?](https://stackoverflow.com/questions/55755305/im-embedding-a-pygame-window-into-tkinter-how-do-i-manipulate-the-pygame-windo)  
 - [Draw a circle in Pygame using Tkinter](https://stackoverflow.com/questions/13545911/draw-a-circle-in-pygame-using-tkinter)
 - [Tkinter understanding mainloop](https://stackoverflow.com/questions/29158220/tkinter-understanding-mainloop)
