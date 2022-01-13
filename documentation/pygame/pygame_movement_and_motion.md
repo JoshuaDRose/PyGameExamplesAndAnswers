@@ -62,7 +62,7 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CarMovement](https://replit.com/@Rabbid76/PyGame-CarMovementReflect#main.py)**
 
-- [How do I gently change the direction of movement when moving forward?](https://stackoverflow.com/questions/70541096/how-do-i-gently-change-the-direction-of-movement-when-moving-forward/70541236#70541236)
+- [How do I gently change the direction of movement when moving forward?](https://stackoverflow.com/questions/70541096/how-do-i-gently-change-the-direction-of-movement-when-moving-forward/70541236#70541236)  
   ![How do I gently change the direction of movement when moving forward?](https://i.stack.imgur.com/1tE2u.gif)  
 
 - [Rotation of a sprite on a circle](https://stackoverflow.com/questions/26517579/rotation-of-a-sprite-on-a-circle/65332120#65332120)  
