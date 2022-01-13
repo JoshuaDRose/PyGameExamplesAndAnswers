@@ -305,19 +305,15 @@ while run:
 
 ## Timer event
 
-In pygame exists a timer event. Use [`pygame.time.set_timer()`](https://www.pygame.org/docs/ref/time.html#pygame.time.set_timer) to repeatedly create a [`USEREVENT`](https://www.pygame.org/docs/ref/event.html) in the event queue. The time has to be set in milliseconds. e.g.:
-
-```py
-timer_interval = 500 # 0.5 seconds
-timer_event = pygame.USEREVENT + 1
-pygame.time.set_timer(timer_event , timer_interval)
-```
-
-Note, in pygame customer events can be defined. Each event needs a unique id. The ids for the user events have to be between `pygame.USEREVENT` (24) and `pygame.NUMEVENTS` (32). In this case `pygame.USEREVENT+1` is the event id for the timer event.  
-
+In pygame exists a timer event. Use [`pygame.time.set_timer()`](https://www.pygame.org/docs/ref/time.html#pygame.time.set_timer) to repeatedly create a [`USEREVENT`](https://www.pygame.org/docs/ref/event.html) in the event queue. The time has to be set in milliseconds.  
+For a timer event you need to define a unique user events id. The ids for the user events have to be between `pygame.USEREVENT` (24) and `pygame.NUMEVENTS` (32). In this case `pygame.USEREVENT+1` is the event id for the timer event.
 Receive the event in the event loop:
 
 ```py
+timer_interval = 500 # 0.5 seconds
+timer_event_id = pygame.USEREVENT + 1
+pygame.time.set_timer(timer_event_id, timer_interval)
+
 running = True
 while running:
 
@@ -325,7 +321,7 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-         elif event.type == timer_event:
+         elif event.type == timer_event_id:
              # [...]
 ```
 
