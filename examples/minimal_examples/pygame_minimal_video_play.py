@@ -13,6 +13,7 @@ import cv2
 #video = cv2.VideoCapture(r"C:\data\Google Drive\video\20200806_101707.mp4")
 video = cv2.VideoCapture(r"C:\data\Video\Zeichentrick\Rabbids\Rabbids.Invasion.S01E01.Omelet.Party.-.Rabbid.Mollusk.-.Rabbid.Are.You.There.WEBRip.x264.AAC.mp4")
 #video = cv2.VideoCapture("video.mp4")
+#video = cv2.VideoCapture("c:/temp/sample-mp4-file.mp4")
 success, video_image = video.read()
 fps = video.get(cv2.CAP_PROP_FPS)
 
