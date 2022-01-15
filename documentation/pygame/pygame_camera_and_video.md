@@ -44,11 +44,25 @@ Related Stack Overflow questions:
 - [How to load and play a video in pygame](https://stackoverflow.com/questions/21356439/how-to-load-and-play-a-video-in-pygame/69054207#69054207)  
 - [How to play video in Pygame currently?](https://stackoverflow.com/questions/62870381/how-to-play-video-in-pygame-currently)
 
-:scroll: **[Minimal example - Camera capture](../../examples/minimal_examples/pygame_minimal_video_play.py)**
+:scroll: **[Minimal example - Play video with MoviePy](../../examples/minimal_examples/pygame_minimal_video_play.py)**
+
+:scroll: **[Minimal example - Play video](../../examples/minimal_examples/pygame_minimal_video_play.py)**
 
 The [`pygame.movie`](http://man.hubwiz.com/docset/PyGame.docset/Contents/Resources/Documents/ref/movie.html) is deprecated and not longer supported.
 
-An alternative solution is to use the [OpenCV `VideoCapture`](https://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html). Install OpenCV for Python (_cv2_) (see [opencv-python](https://pypi.org/project/opencv-python/)).
+If you only want to show the video you can use [MoviePy](https://zulko.github.io/moviepy/):
+
+```py
+import pygame
+from moviepy.editor import *
+
+pygame.init()
+video = VideoFileClip("video.mp4")
+video.preview()
+pygame.quit()
+```
+
+An alternative solution is to use the [OpenCV `VideoCapture`](https://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html). Install OpenCV for Python (_cv2_) (see [opencv-python](https://pypi.org/project/opencv-python/)). However, it should be mentioned that `cv2.VideoCapture` does not provide a way to read the audio from the video file. **This is only a solution to view the video but no audio is played.**
 
 Opens a camera for video capturing:
 
