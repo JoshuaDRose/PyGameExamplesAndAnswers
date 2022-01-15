@@ -14,7 +14,6 @@ import pygame
 import moviepy.editor
 
 pygame.init()
-
 video = moviepy.editor.VideoFileClip("video/sample-mp4-file.mp4")
 #video = moviepy.editor.VideoFileClip(r"C:\data\Google Drive\video\20200806_101707.mp4")
 #video = moviepy.editor.VideoFileClip(r"C:\data\Video\Zeichentrick\Rabbids\Rabbids.Invasion.S01E01.Omelet.Party.-.Rabbid.Mollusk.-.Rabbid.Are.You.There.WEBRip.x264.AAC.mp4")

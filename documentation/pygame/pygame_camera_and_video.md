@@ -50,7 +50,7 @@ Related Stack Overflow questions:
 
 The [`pygame.movie`](http://man.hubwiz.com/docset/PyGame.docset/Contents/Resources/Documents/ref/movie.html) is deprecated and not longer supported.
 
-If you only want to show the video you can use [MoviePy](https://zulko.github.io/moviepy/):
+If you only want to show the video you can use [MoviePy](https://zulko.github.io/moviepy/) (see also [How to be efficient with MoviePy](https://stackoverflow.com/questions/21356439/how-to-load-and-play-a-video-in-pygame/69054207#69054207)):
 
 ```py
 import pygame

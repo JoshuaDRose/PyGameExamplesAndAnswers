@@ -1,8 +1,8 @@
+# How to be efficient with MoviePy
+# https://stackoverflow.com/questions/21356439/how-to-load-and-play-a-video-in-pygame/69054207#69054207 
+#
 # How to load and play a video in pygame
 # https://stackoverflow.com/questions/21356439/how-to-load-and-play-a-video-in-pygame/69054207#69054207
-# 
-# How to play video in Pygame currently?
-# https://stackoverflow.com/questions/62870381/how-to-play-video-in-pygame-currently
 # 
 # GitHub - PyGameExamplesAndAnswers - Camera and Video
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_camera_and_video.md
