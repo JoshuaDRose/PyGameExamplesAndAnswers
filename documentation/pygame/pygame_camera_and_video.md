@@ -54,10 +54,10 @@ If you only want to show the video you can use [MoviePy](https://zulko.github.io
 
 ```py
 import pygame
-from moviepy.editor import *
+import moviepy.editor
 
 pygame.init()
-video = VideoFileClip("video.mp4")
+video = moviepy.editor.VideoFileClip("video.mp4")
 video.preview()
 pygame.quit()
 ```
