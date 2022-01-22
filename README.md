@@ -97,6 +97,12 @@ It does not contain an application, just a collection of examples. Initially I j
 This page provides links to the relevant Stack Overflow questions and live examples on [repl.it](https://repl.it/). The examples are roughly divided into topics. My first language isn't English, but I did my best. I struggle with English grammar, which is the bill of my laziness at school.  
 The site is still under construction :construction:.
 
+## Testimonial
+
+:scroll: **[Sprite animation](examples/testimonial/creature_animation.py)**
+
+[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CreatureAnimation](https://replit.com/@Rabbid76/Pygame-CreatureAnimation#main.py)**
+
 ### Application, control flow and events
 
 [Event and application loop](documentation/pygame/pygame_event_and_application_loop.md)
@@ -223,3 +229,4 @@ See [PyGame Ray Tracing](https://github.com/Rabbid76/PyGameRayTracing) repositor
 [Github - pygame](https://github.com/pygame/)  
 [Github - pygame/pygame](https://github.com/pygame/pygame)  
 [GitHub - CTPUG/pygame_cffi](https://github.com/CTPUG/pygame_cffi)  
+
