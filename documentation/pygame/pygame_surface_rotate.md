@@ -18,7 +18,8 @@ Related Stack Overflow questions:
 - [How to set the pivot point (center of rotation) for pygame.transform.rotate()?](https://stackoverflow.com/questions/15098900/how-to-set-the-pivot-point-center-of-rotation-for-pygame-transform-rotate/69312319#69312319)  
   ![How to set the pivot point (center of rotation) for pygame.transform.rotate()?](https://i.stack.imgur.com/fhxNf.gif)  
 - [Rotating and scaling an image around a pivot, while scaling width and height separately in Pygame](https://stackoverflow.com/questions/70819750/rotating-and-scaling-an-image-around-a-pivot-while-scaling-width-and-height-sep/70820034#70820034)  
-  ![Rotating and scaling an image around a pivot, while scaling width and height separately in Pygame](https://i.stack.imgur.com/KMZqD.gif)  
+  ![Rotating and scaling an image around a pivot, while scaling width and height separately in Pygame](https://i.stack.imgur.com/KMZqD.gif)
+  ![Rotating and scaling an image around a pivot, while scaling width and height separately in Pygame](https://i.stack.imgur.com/QcX0r.gif)  
 
 Short answer:
 
