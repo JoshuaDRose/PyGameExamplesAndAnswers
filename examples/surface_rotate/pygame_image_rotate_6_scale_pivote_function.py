@@ -17,7 +17,7 @@ import os
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../resource'))
 
 pygame.init()
-screen = pygame.display.set_mode((500, 500))
+screen = pygame.display.set_mode((400, 400))
 clock = pygame.time.Clock()
 
 def blitRotate(surf, original_image, origin, pivot, angle, scale):
@@ -58,8 +58,8 @@ while not done:
     blitRotate(screen, image, pos, (w/4, h/2), angle, zoom)
     if start:
         angle += 1
-        zoom += 0.01
-        if zoom > 5:
+        zoom += 0.005
+        if zoom > 3:
             zoom = 1
 
     pygame.draw.line(screen, (0, 255, 0), (pos[0]-20, pos[1]), (pos[0]+20, pos[1]), 3)

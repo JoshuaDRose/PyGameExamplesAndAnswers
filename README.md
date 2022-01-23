@@ -99,6 +99,8 @@ The site is still under construction :construction:.
 
 ## Testimonial
 
+![testimonial creature animation](screenshot/creature_animation.png)
+
 :scroll: **[Sprite animation](examples/testimonial/creature_animation.py)**
 
 [![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CreatureAnimation](https://replit.com/@Rabbid76/Pygame-CreatureAnimation#main.py)**
