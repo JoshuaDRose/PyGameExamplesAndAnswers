@@ -261,13 +261,31 @@ offset_center_to_pivot = (pygame.math.Vector2(origin) - image_rect.center) * sca
 The final function that rotates an image around a pivot point, zooms and `blit`s the image might look like this:
 
 ```py
-def blitRotate(surf, original_image, origin, pivot, angle, scale):
+def blitRotateZoom(surf, original_image, origin, pivot, angle, scale):
 
     image_rect = original_image.get_rect(topleft = (origin[0] - pivot[0], origin[1]-pivot[1]))
     offset_center_to_pivot = (pygame.math.Vector2(origin) - image_rect.center) * scale
     rotated_offset = offset_center_to_pivot.rotate(-angle)
     rotated_image_center = (origin[0] - rotated_offset.x, origin[1] - rotated_offset.y)
     rotozoom_image = pygame.transform.rotozoom(original_image, angle, scale)
+    rect = rotozoom_image.get_rect(center = rotated_image_center)
+
+    surf.blit(rotozoom_image, rect)
+```
+
+The scaling factor can also be specified separately for the x and y axis:
+
+```py
+def blitRotateZoomXY(surf, original_image, origin, pivot, angle, scale_x, scale_y):
+
+    image_rect = original_image.get_rect(topleft = (origin[0] - pivot[0], origin[1]-pivot[1]))
+    offset_center_to_pivot = pygame.math.Vector2(origin) - image_rect.center
+    offset_center_to_pivot.x *= scale_x
+    offset_center_to_pivot.y *= scale_y
+    rotated_offset = offset_center_to_pivot.rotate(-angle)
+    rotated_image_center = (origin[0] - rotated_offset.x, origin[1] - rotated_offset.y)
+    scaled_image = pygame.transform.smoothscale(original_image, (image_rect.width * scale_x, image_rect.height * scale_y))
+    rotozoom_image = pygame.transform.rotate(scaled_image, angle)
     rect = rotozoom_image.get_rect(center = rotated_image_center)
 
     surf.blit(rotozoom_image, rect)

@@ -20,13 +20,28 @@ pygame.init()
 screen = pygame.display.set_mode((400, 400))
 clock = pygame.time.Clock()
 
-def blitRotate(surf, original_image, origin, pivot, angle, scale):
+def blitRotateZoom(surf, original_image, origin, pivot, angle, scale):
 
     image_rect = original_image.get_rect(topleft = (origin[0] - pivot[0], origin[1]-pivot[1]))
     offset_center_to_pivot = (pygame.math.Vector2(origin) - image_rect.center) * scale
     rotated_offset = offset_center_to_pivot.rotate(-angle)
     rotated_image_center = (origin[0] - rotated_offset.x, origin[1] - rotated_offset.y)
     rotozoom_image = pygame.transform.rotozoom(original_image, angle, scale)
+    rect = rotozoom_image.get_rect(center = rotated_image_center)
+
+    surf.blit(rotozoom_image, rect)
+    pygame.draw.rect (surf, (255, 0, 0), rect, 2)
+
+def blitRotateZoomXY(surf, original_image, origin, pivot, angle, scale_x, scale_y):
+
+    image_rect = original_image.get_rect(topleft = (origin[0] - pivot[0], origin[1]-pivot[1]))
+    offset_center_to_pivot = pygame.math.Vector2(origin) - image_rect.center
+    offset_center_to_pivot.x *= scale_x
+    offset_center_to_pivot.y *= scale_y
+    rotated_offset = offset_center_to_pivot.rotate(-angle)
+    rotated_image_center = (origin[0] - rotated_offset.x, origin[1] - rotated_offset.y)
+    scaled_image = pygame.transform.smoothscale(original_image, (image_rect.width * scale_x, image_rect.height * scale_y))
+    rotozoom_image = pygame.transform.rotate(scaled_image, angle)
     rect = rotozoom_image.get_rect(center = rotated_image_center)
 
     surf.blit(rotozoom_image, rect)
@@ -55,7 +70,8 @@ while not done:
     pos = (screen.get_width()/2, screen.get_height()/2)
     
     screen.fill(0)
-    blitRotate(screen, image, pos, (w/4, h/2), angle, zoom)
+    blitRotateZoom(screen, image, pos, (w/4, h/2), angle, zoom)
+    #blitRotateZoomXY(screen, image, pos, (w/4, h/2), angle, zoom, zoom*2)
     if start:
         angle += 1
         zoom += 0.005
