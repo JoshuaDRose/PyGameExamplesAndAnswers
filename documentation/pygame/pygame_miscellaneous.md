@@ -175,7 +175,7 @@ Related Stack Overflow questions:
 The resource (image, font, sound, etc.) file path has to be relative to the current working directory. The working directory is possibly different to the directory of the python file.  
 It is not enough to put the files in the same directory or sub directory. You also need to set the working directory. Alternatively, you can create an absolute file path.
 
-The name and path of the file can be get by [`__file__`](https://docs.python.org/3/reference/import.html#import-related-module-attributes). The current working directory can be get by [`os.getcwd()`](https://docs.python.org/3/library/os.html) and can be changed by [`os.chdir(path)`](https://docs.python.org/3/library/os.html):
+The name and path of the file can be retrieved with [`__file__`](https://docs.python.org/3/reference/import.html#import-related-module-attributes). The current working directory can be get by [`os.getcwd()`](https://docs.python.org/3/library/os.html) and can be changed with [`os.chdir(path)`](https://docs.python.org/3/library/os.html):
 
 ```py
 import os
