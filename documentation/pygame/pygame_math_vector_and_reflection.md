@@ -51,7 +51,7 @@ def angle_of_vector(x, y):
     return math.degrees(math.atan2(-y, x))
 
 def angle_of_line(x1, y1, x2, y2):
-    return math.degrees(math.atan2(-y1-y2, x2-x1))
+    return math.degrees(math.atan2(-(y1-y2), x2-x1))
 ```
 
 This can be simplified by using the [`angle_to`](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2.angle_to) method of the `pygame.math.Vector2` object. This method computes the angle between 2 vectors in the PyGame coordinate system in degrees. Therefore it is not necessary to reverse the y-axis and convert from radians to degrees. Just calculate the angle between the vector and _(1, 0)_:
