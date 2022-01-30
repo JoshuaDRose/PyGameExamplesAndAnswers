@@ -252,7 +252,7 @@ def draw_rect_angle(surf, rect, pivot, angle, width=0):
 
 :scroll: **[Minimal example - draw rotated rectangle](../../examples/minimal_examples/pygame_minimal_draw_rectangle_rotated_1.py)**
 
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-DrawPixel-1](https://replit.com/@Rabbid76/PyGame-RotatedRectangle#main.py)**
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotatedRectangle](https://replit.com/@Rabbid76/PyGame-RotatedRectangle#main.py)**
 
 ![Getting rotated rect of rotated image in Pygame](https://i.stack.imgur.com/GsQwQ.png)  
 
