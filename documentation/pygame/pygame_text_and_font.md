@@ -72,6 +72,125 @@ Related Stack Overflow questions:
 
 ![Displaying unicode symbols using pygame](https://i.stack.imgur.com/tZ2EM.png)
 
+:scroll: **[Minimal example - Unicode](../../examples/minimal_examples/pygame_minimal_text_emoji.py)**
+
+I want to use Pygame's [freetype](https://www.pygame.org/docs/ref/freetype.html) module to load a colorful emoji via its unicode. Unfortunately I only get a monochrome image with the outline of the emoji:
+
+![][https://i.stack.imgur.com/uXJzF.png]
+
+Minimal, Reproducible Example:
+
+```py
+import pygame
+import pygame.freetype
+
+pygame.init()
+window = pygame.display.set_mode((200, 200))
+
+seguisy80 = pygame.freetype.SysFont("segoeuisymbol", 100)
+emoji, rect = seguisy80.render('😃', "black")
+rect.center = window.get_rect().center
+
+run = True
+while run:  
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            run = False
+
+    window.fill("lightgray")
+    window.blit(emoji, rect)
+    pygame.display.flip()
+
+pygame.quit()
+```
+
+How can I modify this code to get a full RGBA color image of an emoji?
+
+Unfortunately, colored font loading is not natively supported in Pygame. However, there is a workaround.
+First you need a colored emoji font. For example, you can download one here: [Apple Color Emoji for Linux](https://github.com/samuelngs/apple-emoji-linux#installing-prebuilt-applecoloremoji-font).
+
+Load this font using [https://freetype.org/](https://freetype-py.readthedocs.io/en/latest/). Install [`freetype-py`](https://pypi.org/project/freetype-py/):
+
+```py
+pip3 install freetype-py 
+```
+
+For Windows users, it should be mentioned that the installed package does not support the font and results in an "unimplemented feature" exception.
+Download the package from [Unofficial Windows Binaries for Python Extension Packages](https://www.lfd.uci.edu/~gohlke/pythonlibs/#freetypepy) and install it. e.g.:
+
+```py
+pip3 install freetype_py-2.2.0-cp310-cp310-win_amd64.whl
+```
+
+Now you're prepared and can load an emoji from the font.Emojis and their Unicode can be found here: [Emoticons (Unicode block)](https://en.wikipedia.org/wiki/Emoticons_(Unicode_block)).
+Copy the emoji or use the unicode and load the glyph:
+
+```py
+import freetype
+
+face = freetype.Face("AppleColorEmoji.ttf")
+face.set_char_size(int(face.available_sizes[-1].size)) 
+    
+face.load_char('😀', freetype.FT_LOAD_COLOR) # or face.load_char('\U0001F603', freetype.FT_LOAD_COLOR)
+```
+
+The loaded glyph now needs to be turned into a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html). To do this, use [NumPy](https://numpy.org/).
+How this works in detail is explained in the answer to the question: [How do I convert an OpenCV (cv2) image (BGR and BGRA) to a pygame.Surface object](https://stackoverflow.com/questions/64183409/how-do-i-convert-an-opencv-cv2-image-bgr-and-bgra-to-a-pygame-surface-object/64183410#64183410).
+
+```py
+import numpy as np
+
+ft_bitmap = face.glyph.bitmap
+bitmap = np.array(ft_bitmap.buffer, dtype=np.uint8).reshape((ft_bitmap.rows, ft_bitmap.width, 4))
+bitmap[:, :, [0, 2]] = bitmap[:, :, [2, 0]]
+emoji = pygame.image.frombuffer(bitmap.flatten(), (ft_bitmap.width, ft_bitmap.rows), 'RGBA')
+```
+
+See also [Text and font - Unicode](https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_text_and_font.md#unicode)
+
+---
+
+Minimal example:
+
+![][https://i.stack.imgur.com/0lMMh.png]
+
+```py
+import pygame
+import freetype
+import numpy as np
+
+class Emojis:
+    def __init__(self):
+        self. face = freetype.Face("AppleColorEmoji.ttf")
+        self.face.set_char_size(int(self.face.available_sizes[-1].size)) 
+    def create_surface(self, unicode):
+        self.face.load_char(unicode, freetype.FT_LOAD_COLOR)
+        ft_bitmap = self.face.glyph.bitmap
+        bitmap = np.array(ft_bitmap.buffer, dtype=np.uint8).reshape((ft_bitmap.rows, ft_bitmap.width, 4))
+        bitmap[:, :, [0, 2]] = bitmap[:, :, [2, 0]]
+        return pygame.image.frombuffer(bitmap.flatten(), (ft_bitmap.width, ft_bitmap.rows), 'RGBA')
+
+pygame.init()
+window = pygame.display.set_mode((200, 200))
+emojis = Emojis()
+
+emoji = emojis.create_surface('😃')
+#emoji = emojis.create_surface('\U0001F603')
+rect = emoji.get_rect(center = window.get_rect().center)
+
+run = True
+while run:  
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            run = False
+
+    window.fill("lightgray")
+    window.blit(emoji, rect)
+    pygame.display.flip()
+
+pygame.quit()
+```
+
 ## Align text and text size
 
 Related Stack Overflow questions:
