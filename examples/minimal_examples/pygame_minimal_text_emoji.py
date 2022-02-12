@@ -26,20 +26,17 @@ import numpy as np
 import pygame
 import pygame.freetype
 
-def create_monochrom_emoji_1():
-    seguisy80 = pygame.freetype.SysFont("segoeuisymbol", 100)
-    unicode_text = "😀"
-    text_surface,_ = seguisy80.render(unicode_text, "black")   
-    return text_surface
+class EmojisMonochrom:
+    def __init__(self):
+        self. face = freetype.Face(r"C:/Windows/Fonts/seguiemj.ttf")
+        self.face.set_char_size(64*64)  
 
-def create_monochrom_emoji_2():
-    face = freetype.Face(r"C:/Windows/Fonts/seguiemj.ttf")
-    face.set_char_size(64*64) 
-    face.load_char('😀')
-    ft_bitmap = face.glyph.bitmap
-    bitmap_array = np.array(ft_bitmap.buffer, dtype=np.uint8).reshape((ft_bitmap.rows, ft_bitmap.width))
-    bitmap_array = np.repeat(bitmap_array.reshape(ft_bitmap.rows, ft_bitmap.width, 1), 4, axis = 2)
-    return pygame.image.frombuffer(bitmap_array.flatten(), (ft_bitmap.width, ft_bitmap.rows), 'RGBA') 
+    def create_surface(self, unicode):
+        self.face.load_char(unicode)
+        ft_bitmap = self.face.glyph.bitmap
+        bitmap_array = np.array(ft_bitmap.buffer, dtype=np.uint8).reshape((ft_bitmap.rows, ft_bitmap.width))
+        bitmap_array = np.repeat(bitmap_array.reshape(ft_bitmap.rows, ft_bitmap.width, 1), 4, axis = 2)
+        return pygame.image.frombuffer(bitmap_array.flatten(), (ft_bitmap.width, ft_bitmap.rows), 'RGBA') 
 
 class Emojis:
     def __init__(self):
@@ -55,10 +52,12 @@ class Emojis:
 
 pygame.init()
 window = pygame.display.set_mode((500, 300))
+seguisy80 = pygame.freetype.SysFont("segoeuisymbol", 128)
+emojis_monochrom = EmojisMonochrom()
 emojis = Emojis()
 
-monochrom_emoji_1 = create_monochrom_emoji_1()
-monochrom_emoji_2 = create_monochrom_emoji_2()
+monochrom_emoji_1, _ =  seguisy80.render('😃', "black")   
+monochrom_emoji_2 = emojis_monochrom.create_surface('😃')
 color_emoji = emojis.create_surface('😃')
 #color_emoji = emojis.create_surface('\U0001F603')
 

@@ -64,21 +64,20 @@ my_ft_font.render_to(screen, (10, 10), "Hello world!", (255, 0, 0))
 Related Stack Overflow questions:
 
 - [Displaying unicode symbols using pygame](https://stackoverflow.com/questions/63398332/displaying-unicode-symbols-using-pygame/63398488#63398488)  
-  ![Displaying unicode symbols using pygame](https://i.stack.imgur.com/tZ2EM.png)
 - [how to make PNG canvas see-through in pygame when blitting image](https://stackoverflow.com/questions/64358747/how-to-make-png-canvas-see-through-in-pygame-when-blitting-image/64360467#64360467)  
   ![how to make PNG canvas see-through in pygame when blitting image](https://i.stack.imgur.com/fBEEV.png)
 
-:scroll: **[Minimal example - Unicode](../../examples/minimal_examples/pygame_minimal_text_unicode.py)**
+  :scroll: **[Minimal example - Unicode](../../examples/minimal_examples/pygame_minimal_text_unicode.py)**
 
-![Displaying unicode symbols using pygame](https://i.stack.imgur.com/tZ2EM.png)
+  ![Displaying unicode symbols using pygame](https://i.stack.imgur.com/tZ2EM.png)
 
-:scroll: **[Minimal example - Unicode](../../examples/minimal_examples/pygame_minimal_text_emoji.py)**
+- [How to load colorful emojis in pygame?](https://stackoverflow.com/questions/71092136/how-to-load-colorful-emojis-in-pygame/71092137#71092137)  
+
+  :scroll: **[Minimal example - Unicode](../../examples/minimal_examples/pygame_minimal_text_emoji.py)**
 
 I want to use Pygame's [freetype](https://www.pygame.org/docs/ref/freetype.html) module to load a colorful emoji via its unicode. Unfortunately I only get a monochrome image with the outline of the emoji:
 
-![][https://i.stack.imgur.com/uXJzF.png]
-
-Minimal, Reproducible Example:
+![How to load colorful emojis in pygame?](https://i.stack.imgur.com/uXJzF.png)
 
 ```py
 import pygame
@@ -146,13 +145,7 @@ bitmap[:, :, [0, 2]] = bitmap[:, :, [2, 0]]
 emoji = pygame.image.frombuffer(bitmap.flatten(), (ft_bitmap.width, ft_bitmap.rows), 'RGBA')
 ```
 
-See also [Text and font - Unicode](https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_text_and_font.md#unicode)
-
----
-
-Minimal example:
-
-![][https://i.stack.imgur.com/0lMMh.png]
+![How to load colorful emojis in pygame?](https://i.stack.imgur.com/0lMMh.png)
 
 ```py
 import pygame
