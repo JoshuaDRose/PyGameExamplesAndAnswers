@@ -63,7 +63,10 @@ Related Stack Overflow questions:
 - [How can I set conditions for an inputting textbox module on pygame?](https://stackoverflow.com/questions/65586543/how-can-i-set-conditions-for-an-inputting-textbox-module-on-pygame/65597101#65597101)  
 
 - [How to add a blinking cursor in pygame?](https://stackoverflow.com/questions/68176808/how-to-add-a-blinking-cursor-in-pygame/68181209#68181209)  
-  ![How to add a blinking cursor in pygame?](https://i.stack.imgur.com/9OEc6.gif) 
+  ![How to add a blinking cursor in pygame?](https://i.stack.imgur.com/9OEc6.gif)  
+
+- [Paragraph input in pygame](https://stackoverflow.com/questions/71021541/paragraph-input-in-pygame/71022505#71022505)  
+  ![Paragraph input in pygame](https://i.stack.imgur.com/ucFXl.gif)
 
 ## Progress bar and health bar
 

@@ -7,6 +7,16 @@ Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 
 # Time, timer event and clock
 
+Related Stack Overflow questions:
+
+- [Is there a way to have different tick rates for differents parts of my code in pygame?](https://stackoverflow.com/questions/71088920/is-there-a-way-to-have-different-tick-rates-for-differents-parts-of-my-code-in-p/71089817#71089817)
+
+If you want to control something over time in Pygame you have two options:
+
+1. Use [`pygame.time.get_ticks()`](https://www.pygame.org/docs/ref/time.html#pygame.time.get_ticks) to measure time and and implement logic that controls the object depending on the time.
+
+2. Use the timer event. Use [`pygame.time.set_timer()`](https://www.pygame.org/docs/ref/time.html#pygame.time.set_timer) to repeatedly create a [`USEREVENT`](https://www.pygame.org/docs/ref/event.html) in the event queue. Change object states when the event occurs.
+
 ## Wait for a period of time
 
 Related Stack Overflow questions:
@@ -156,6 +166,9 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Spawn text on click](../../examples/minimal_examples/pygame_minimal_timer_for_a_period_of_time_random_text.py)**
 
+- [Pygame "pop up" text](https://stackoverflow.com/questions/70996802/pygame-pop-up-text/70996856#70996856)  
+- ![Pygame "pop up" text](https://i.stack.imgur.com/TIyPv.gif)  
+
 - [how to handle time for different components in pygame](https://stackoverflow.com/questions/62151703/how-to-handle-time-for-different-components-in-pygame)
 - [How to make image stay on screen in pygame?](https://stackoverflow.com/questions/63718110/how-to-make-image-stay-on-screen-in-pygame/63726447#63726447)
 - [Time Delay and keeping track of the of # of click](https://stackoverflow.com/questions/65047229/time-delay-and-keeping-track-of-the-of-of-click/65047717#65047717)  
@@ -198,7 +211,7 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TimerSpawnObjects](https://replit.com/@Rabbid76/PyGame-TimerSpawnObjects#main.py)**
 
-- [How do I make the image repeat - for example 10x in a row - in Pygame](https://stackoverflow.com/questions/69884697/how-do-i-make-the-image-repeat-for-example-10x-in-a-row-in-pygame/69884946#69884946)
+- [How do I make the image repeat - for example 10x in a row - in Pygame](https://stackoverflow.com/questions/69884697/how-do-i-make-the-image-repeat-for-example-10x-in-a-row-in-pygame/69884946#69884946)  
   ![How do I make the image repeat - for example 10x in a row - in Pygame](https://i.stack.imgur.com/2kbR7.gif)
 
   :scroll: **[Minimal example - Spawn sprites](../../examples/minimal_examples/pygame_minimal_sprite_spawn.py)**

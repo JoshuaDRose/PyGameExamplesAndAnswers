@@ -143,15 +143,25 @@ Related Stack Overflow questions:
 
 - [How can I draw a rectangular outline (not filled) with PyGame?](https://stackoverflow.com/questions/60854803/how-can-i-draw-a-hollow-rectangle-using-pygame/60855000#60855000)  
   ![How can I draw a rectangular outline (not filled) with PyGame?](https://i.stack.imgur.com/w6jSR.png)![How can I draw a rectangular outline (not filled) with PyGame?](https://i.stack.imgur.com/lXNmw.png)  
+
 - [How to Make a Border in Pygame](https://stackoverflow.com/questions/63095839/how-to-make-a-border-in-pygame/63099536#63099536)  
   ![How to Make a Border in Pygame](https://i.stack.imgur.com/2ReKu.png)![How to Make a Border in Pygame](https://i.stack.imgur.com/s0Lji.png)
+
 - [Setting a pygame surface to have rounded corners](https://stackoverflow.com/questions/63700231/setting-a-pygame-surface-to-have-rounded-corners/63701005#63701005)  
   ![scene](https://i.stack.imgur.com/pDdn2.png)  
+
+- [Is there a way to have different tick rates for differents parts of my code in pygame?](https://stackoverflow.com/questions/71088920/is-there-a-way-to-have-different-tick-rates-for-differents-parts-of-my-code-in-p/71089817#71089817)  
+- ![Is there a way to have different tick rates for differents parts of my code in pygame?](https://i.stack.imgur.com/j301o.gif)
+
 - [Getting rotated rect of rotated image in Pygame](https://stackoverflow.com/questions/66984521/getting-rotated-rect-of-rotated-image-in-pygame/66984713#66984713)  
   ![Getting rotated rect of rotated image in Pygame](https://i.stack.imgur.com/GsQwQ.png)
+
 - [Why did drawing a PyGame rectangle with very thick borders draw a plus shape instead?](https://stackoverflow.com/questions/65890797/why-did-drawing-a-pygame-rectangle-with-very-thick-borders-draw-a-plus-shape-ins/65890887#65890887)  
+
 - [What is the difference between pygame.draw.rect and screen_surface.blit()?](https://stackoverflow.com/questions/65964467/what-is-the-difference-between-pygame-draw-rect-and-screen-surface-blit/65965806#65965806)  
+
 - [Handling rectangle with negative width and height in pygame](https://stackoverflow.com/questions/66316513/handling-rectangle-with-negative-width-and-height-in-pygame/66316783#66316783)  
+
 - [rotating a rectangle in pygame](https://stackoverflow.com/questions/68927683/rotating-a-rectangle-in-pygame/68927744#68927744)
 
 Use [`pygame.draw.rect()`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect) to draw a rectangle. The 3rd argument of [`pygame.draw.rect`](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect) has to be a tuple with 4 elements:

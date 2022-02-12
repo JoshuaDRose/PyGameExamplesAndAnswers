@@ -15,7 +15,10 @@ Related Stack Overflow questions:
   ![1](https://i.stack.imgur.com/z9D7B.png)![2](https://i.stack.imgur.com/ZpKnj.gif)  
   ![3](https://i.stack.imgur.com/o1sqa.png)![4](https://i.stack.imgur.com/Q6zUm.gif)
 
-- [Snake segments that “flow” rather than “snap” to the snake's head position](https://stackoverflow.com/questions/54273041/python-snake-segments-that-flow-rather-than-snap-to-the-snakes-head-positi/54276792#54276792)
+- [Python Snake Game snake does not follow](https://stackoverflow.com/questions/71054349/python-snake-game-snake-does-not-follow/71055045#71055045)  
+  ![Python Snake Game snake does not follow](https://i.stack.imgur.com/2WVYH.gif)  
+
+- [Snake segments that “flow” rather than “snap” to the snake's head position](https://stackoverflow.com/questions/54273041/python-snake-segments-that-flow-rather-than-snap-to-the-snakes-head-positi/54276792#54276792)  
   ![Snake segments that “flow” rather than “snap” to the snake's head position](https://i.stack.imgur.com/m4kJK.gif)
 
 - [pygame.Rect.move_ip() not updating rect attribute](https://stackoverflow.com/questions/55036397/pygame-rect-move-ip-not-updating-rect-attribute/55046457#55046457)  

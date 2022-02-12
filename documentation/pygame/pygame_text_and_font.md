@@ -164,7 +164,10 @@ Related Stack Overflow questions:
   ![How to create a text input box with pygame?](https://i.stack.imgur.com/FNJeM.gif)
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-TextInput](https://replit.com/@Rabbid76/PyGame-TextInput#main.py)**
-  
+
+- [Paragraph input in pygame](https://stackoverflow.com/questions/71021541/paragraph-input-in-pygame/71022505#71022505)  
+  ![Paragraph input in pygame](https://i.stack.imgur.com/ucFXl.gif)
+
 - [Rendering text with multiple lines in pygame](https://stackoverflow.com/questions/42014195/rendering-text-with-multiple-lines-in-pygame/64598520#64598520)  
   [Python/Pygame make text in Pygame wrap when in leaves the window](https://stackoverflow.com/questions/64273966/python-pygame-make-text-in-pygame-wrap-when-in-leaves-the-window)  
   ![text](https://i.stack.imgur.com/Zx2mI.png)![text](https://i.stack.imgur.com/FUqLc.png)
