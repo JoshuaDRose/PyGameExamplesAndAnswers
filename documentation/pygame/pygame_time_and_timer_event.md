@@ -398,6 +398,13 @@ while run:
 
 The timer event can be stopped by passing 0 to the _time_ argument of `pygame.time.set_timer`.
 
+## Display time
+
+Related Stack Overflow questions:
+
+- [How to create a visual timer?](https://stackoverflow.com/questions/71134979/how-to-create-a-visual-timer/71165600#71165600)  
+  ![How to create a visual timer?](https://i.stack.imgur.com/kE4zf.gif)
+
 ## Clock and frames per second
 
 Related Stack Overflow questions:

@@ -72,6 +72,8 @@ Related Stack Overflow questions:
 
   scroll: **[Minimal example - Mask collide point](../../examples/minimal_examples/pygame_minimal_mask_intersect_point.py)**
 
+- [How do I check if a mask fully contains another mask in Pygame?](https://stackoverflow.com/questions/71155740/how-do-i-check-if-a-mask-fully-contains-another-mask-in-pygame/71162805#71162805)  
+
 ## Mask count pixel
 
 Related Stack Overflow questions:
