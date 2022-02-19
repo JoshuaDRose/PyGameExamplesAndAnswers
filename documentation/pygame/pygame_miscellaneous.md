@@ -225,7 +225,6 @@ surface = pygame.image.load(filePath)
 
 Related Stack Overflow questions:
 
-- [Tool to host online Python/Pygame experiment](https://stackoverflow.com/questions/62267800/tool-to-host-online-python-pygame-experiment/65530696#65530696)  
 - [is it possible to run pygame or pyglet in a browser?](https://stackoverflow.com/questions/8452927/is-it-possible-to-run-pygame-or-pyglet-in-a-browser)
 
 ## Debug
