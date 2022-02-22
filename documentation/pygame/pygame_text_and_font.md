@@ -514,6 +514,8 @@ Related Stack Overflow questions:
 
   :scroll: **[minimal example - Typewriter](../../examples/minimal_examples/pygame_minimal_text_typewriter.py)**
 
+    **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-Typewriter](https://replit.com/@Rabbid76/PyGame-Typewriter#main.py)**
+
 ## Scroll Text
 
 Related Stack Overflow questions:

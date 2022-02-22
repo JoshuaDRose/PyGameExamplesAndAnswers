@@ -9,6 +9,8 @@
 #
 # GitHub - PyGameExamplesAndAnswers - Text and font - Text
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame/pygame_text_and_font.md
+#
+# https://replit.com/@Rabbid76/PyGame-Typewriter#main.py
 
 import pygame
 
