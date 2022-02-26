@@ -369,6 +369,12 @@ Before Pygame 2, you had to implement [Scalable Vector Graphics](https://en.wiki
 
 See [Surface and image, load SVG](pygame_surface_and_image_svg.md)
 
+### Animate Sprite
+
+Related Stack Overflow questions:
+
+- [how to create an illusion of animations in pygame](https://stackoverflow.com/questions/71229981/how-to-create-an-illusion-of-animations-in-pygame/71232110#71232110)
+
 ### Load Sprite Sheet
 
 [Spritesheet](https://www.pygame.org/wiki/Spritesheet).
