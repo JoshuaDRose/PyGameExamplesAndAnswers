@@ -150,7 +150,7 @@ Related Stack Overflow questions:
 - [Setting a pygame surface to have rounded corners](https://stackoverflow.com/questions/63700231/setting-a-pygame-surface-to-have-rounded-corners/63701005#63701005)  
   ![scene](https://i.stack.imgur.com/pDdn2.png)  
 
-- [Is there a way to have different tick rates for differents parts of my code in pygame?](https://stackoverflow.com/questions/71088920/is-there-a-way-to-have-different-tick-rates-for-differents-parts-of-my-code-in-p/71089817#71089817)  
+- [Is there a way to turn a rectangle into a circle in pygame?](https://stackoverflow.com/questions/71058033/is-there-a-way-to-turn-a-rectangle-into-a-circle-in-pygame/71060513#71060513)  
 - ![Is there a way to have different tick rates for differents parts of my code in pygame?](https://i.stack.imgur.com/j301o.gif)
 
 - [Getting rotated rect of rotated image in Pygame](https://stackoverflow.com/questions/66984521/getting-rotated-rect-of-rotated-image-in-pygame/66984713#66984713)  

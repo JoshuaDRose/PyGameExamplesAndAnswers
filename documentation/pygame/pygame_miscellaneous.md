@@ -412,3 +412,9 @@ Related Stack Overflow questions:
 
 [Colours not printing - connect 4](https://stackoverflow.com/questions/66942419/colours-not-printing-connect-4/66943467#66943467)  
 ![Colours not printing - connect 4](https://i.stack.imgur.com/A5uFF.gif)
+
+[My parabola is working fine alone, but it's wrong in Pygame](https://stackoverflow.com/questions/70684923/my-parabola-is-working-fine-alone-but-its-wrong-in-pygame)  
+![My parabola is working fine alone, but it's wrong in Pygame](https://i.stack.imgur.com/KQWcb.jpg)  
+
+[How to correctly update the grid in falling sand simulation?](https://stackoverflow.com/questions/71257560/how-to-correctly-update-the-grid-in-falling-sand-simulation/71257698#71257698)  
+![How to correctly update the grid in falling sand simulation?](https://i.stack.imgur.com/b3GRi.gif)  

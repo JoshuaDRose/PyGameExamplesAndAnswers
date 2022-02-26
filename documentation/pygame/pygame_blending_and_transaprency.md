@@ -103,6 +103,9 @@ remove "duplicate"
 
 - [How to tint a png image with an alpha channel?](https://stackoverflow.com/questions/54633756/how-to-tint-a-png-image-with-an-alpha-channel/54635608#54635608)  
 
+- [How to fill shape white](https://stackoverflow.com/questions/71276881/how-to-fill-shape-white/71276921#71276921)  
+  ![How to fill shape white](https://i.stack.imgur.com/TWG3R.png)
+
 #### Change the color of a surface area (mask)
 
 Related Stack Overflow questions:
