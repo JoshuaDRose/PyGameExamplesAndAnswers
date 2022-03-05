@@ -491,6 +491,11 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Draw bezier](../../examples/minimal_examples/pygame_minimal_draw_bezier_1.py)**
 
+- [How Can I Make a Thicker Bezier in Pygame?](https://stackoverflow.com/questions/71365567/how-can-i-make-a-thicker-bezier-in-pygame/71365892#71365892)  
+  ![How Can I Make a Thicker Bezier in Pygame?](https://i.stack.imgur.com/gBXdX.png)
+
+  :scroll: **[Minimal example - Draw bezier](../../examples/minimal_examples/pygame_minimal_draw_bezier_2.py)**
+
 ## Wireframe shape
 
 Related Stack Overflow questions:
