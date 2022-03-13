@@ -175,7 +175,7 @@ Related Stack Overflow questions:
 
 ## Animation
 
-- [Trouble with explosion animation Pygame](https://stackoverflow.com/questions/70128800/trouble-with-explosion-animation-pygame/70129027#70129027)
+- [Trouble with explosion animation Pygame](https://stackoverflow.com/questions/70128800/trouble-with-explosion-animation-pygame/70129027#70129027)  
   ![Trouble with explosion animation Pygame](https://i.stack.imgur.com/TiceX.gif)
 
   :scroll: **[Minimal example - Timed animation](../../examples/minimal_examples/pygame_minimal_timer_animation_1.py)**
