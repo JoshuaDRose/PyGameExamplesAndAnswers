@@ -16,13 +16,6 @@ import os
 import pygame
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../resource'))
 
-def getMaskRect(surf, top = 0, left = 0):
-    surf_mask = pygame.mask.from_surface(surf)
-    rect_list = surf_mask.get_bounding_rects()
-    surf_mask_rect = rect_list[0].unionall(rect_list)
-    surf_mask_rect.move_ip(top, left)
-    return surf_mask_rect
-
 pygame.init()
 window = pygame.display.set_mode((400, 400))
 clock = pygame.time.Clock()
@@ -43,12 +36,13 @@ while run:
 
     pos = window.get_rect().center
     my_image_rect = my_image.get_rect(center = pos)
-    my_image_mask_rect = getMaskRect(my_image, *my_image_rect.topleft)
-
+    bounding_rect = my_image.get_bounding_rect()
+    bounding_rect.move_ip(my_image_rect.topleft)
+    
     window.fill((255, 255, 255))
     window.blit(my_image, my_image_rect)
     pygame.draw.rect(window, (0, 0, 0), my_image_rect, 3)
-    pygame.draw.rect(window, (255, 0, 0), my_image_mask_rect, 3)
+    pygame.draw.rect(window, (255, 0, 0), bounding_rect, 3)
     pygame.display.flip()
 
 pygame.quit()

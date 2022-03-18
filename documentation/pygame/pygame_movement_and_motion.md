@@ -90,7 +90,12 @@ Related Stack Overflow questions:
 - [How to make a circle move diagonally from corner to corner in pygame](https://stackoverflow.com/questions/65814020/how-to-make-a-circle-move-diagonally-from-corner-to-corner-in-pygame/65814431#65814431)  
   ![How to make a circle move diagonally from corner to corner in pygame](https://i.stack.imgur.com/XgYd0.gif)
 
+- [How to move the object in squared path repeatedly?](https://stackoverflow.com/questions/71340195/how-to-move-the-object-in-squared-path-repeatedly/71340468#71340468)
+  ![How to move the object in squared path repeatedly?](https://i.stack.imgur.com/b5gYS.gif)
+
 - [Pygame Enemys Wont Move Down - Tower Defense Game](https://stackoverflow.com/questions/63734280/pygame-enemys-wont-move-down-tower-defense-game)
+
+:scroll: **[Minimal example - Move along path](../../examples/minimal_examples/pygame_minimal_move_along_path.py)**
 
 ### Move in grid
 

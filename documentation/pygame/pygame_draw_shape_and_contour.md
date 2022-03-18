@@ -151,7 +151,9 @@ Related Stack Overflow questions:
   ![scene](https://i.stack.imgur.com/pDdn2.png)  
 
 - [Is there a way to turn a rectangle into a circle in pygame?](https://stackoverflow.com/questions/71058033/is-there-a-way-to-turn-a-rectangle-into-a-circle-in-pygame/71060513#71060513)  
-- ![Is there a way to have different tick rates for differents parts of my code in pygame?](https://i.stack.imgur.com/j301o.gif)
+  ![Is there a way to have different tick rates for differents parts of my code in pygame?](https://i.stack.imgur.com/j301o.gif)
+
+  :scroll: **[Minimal example - draw a rectangle with rounded corners](../../examples/minimal_examples/pygame_minimal_draw_rectangle_round_corners_2.py)**
 
 - [Getting rotated rect of rotated image in Pygame](https://stackoverflow.com/questions/66984521/getting-rotated-rect-of-rotated-image-in-pygame/66984713#66984713)  
   ![Getting rotated rect of rotated image in Pygame](https://i.stack.imgur.com/GsQwQ.png)
