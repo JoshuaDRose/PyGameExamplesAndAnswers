@@ -174,6 +174,11 @@ Related Stack Overflow questions:
 
 Related Stack Overflow questions:
 
+- **[Can't figure out how to check mask collision between two sprites](https://stackoverflow.com/questions/71535185/cant-figure-out-how-to-check-mask-collision-between-two-sprites/71536155#71536155)**  
+  ![Can't figure out how to check mask collision between two sprites](https://i.stack.imgur.com/Z2vmv.gif)
+
+  :scroll: **[Minimal example - Find the mask intersection of sprites](../../examples/minimal_examples/pygame_minimal_sprite_mask_intersect_2.py)**
+
 - **[How can I made a collision mask?](https://stackoverflow.com/questions/56043600/how-can-i-made-a-collision-mask/56045037#56045037)**
 - **[Pygame mask collision](https://stackoverflow.com/questions/60077813/pygame-mask-collision/60078039#60078039)**  
   [![Pygame mask collision](https://i.stack.imgur.com/fiLMi.gif)](https://stackoverflow.com/questions/60077813/pygame-mask-collision/60078039#60078039)
