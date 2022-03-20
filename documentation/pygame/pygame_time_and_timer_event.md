@@ -17,6 +17,12 @@ If you want to control something over time in Pygame you have two options:
 
 2. Use the timer event. Use [`pygame.time.set_timer()`](https://www.pygame.org/docs/ref/time.html#pygame.time.set_timer) to repeatedly create a [`USEREVENT`](https://www.pygame.org/docs/ref/event.html) in the event queue. Change object states when the event occurs.
 
+![time example](https://i.stack.imgur.com/Gy9E4.gif)
+
+:scroll: **[Minimal example - `get_ticks`](../../examples/minimal_examples/pygame_minimal_timer_get_ticks_1.py)**
+
+:scroll: **[Minimal example - timer event](../../examples/minimal_examples/pygame_minimal_timer_event_1.py)**
+
 ## Wait for a period of time
 
 Related Stack Overflow questions:
@@ -97,8 +103,8 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-        if image_time > 0 and current_time >= image_time:
-            image_time = current_time + 1000 # 1000 milliseconds == 3 seconds
+    if image_time > 0 and current_time >= image_time:
+        image_time = current_time + 1000 # 1000 milliseconds == 3 seconds
 
     # [...]
 
