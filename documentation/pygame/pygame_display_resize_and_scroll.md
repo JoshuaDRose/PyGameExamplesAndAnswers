@@ -19,6 +19,7 @@ Related Stack Overflow questions:
 - [Why is the PyGame animation is flickering](https://stackoverflow.com/questions/62120723/why-is-the-pygame-animation-is-flickering/62120776#62120776)  
 - [How do I draw a line without updating the whole screen in pygame?](https://stackoverflow.com/questions/64620388/how-do-i-draw-a-line-without-updating-the-whole-screen-in-pygame/64620675?noredirect=1#comment114264702_64620675)  
 - [How can I make the ball move instead of stretch in pygame?](https://stackoverflow.com/questions/65494890/how-can-i-make-the-ball-move-instead-of-stretch-in-pygame/65494925#65494925)  
+- [pygame - surface from part of another surface](https://stackoverflow.com/questions/71538869/pygame-surface-from-part-of-another-surface/71538929#71538929)  
 
 You need to update the display.
 
