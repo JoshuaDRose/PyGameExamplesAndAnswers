@@ -300,4 +300,4 @@ def blitRotateZoomXY(surf, original_image, origin, pivot, angle, scale_x, scale_
 ![Rotating and scaling an image around a pivot, while scaling width and height separately in Pygame](https://i.stack.imgur.com/QcX0r.gif)  
 
 :scroll: **[Minimal example - Rotate Sprite around pivot and zoom - cannon](../../examples/surface_rotate/pygame_image_rotate_6_scale_pivote_function_2.py)**  
-**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateZoomPivot-1](https://replit.com/@Rabbid76/PyGame-RotateZoomPivot-1#main.py)**
+**[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-RotateZoomPivot-Example](https://replit.com/@Rabbid76/PyGame-RotateZoomPivot-Example#main.py)**
