@@ -193,7 +193,7 @@ Some examples:
   exit()
   ```
 
-## Collide with frame, window border and restrict to rectangle
+## Collide with frame, window border (boundaries) and restrict to rectangle
 
 Related Stack Overflow questions:
 

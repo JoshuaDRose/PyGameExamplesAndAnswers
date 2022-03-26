@@ -53,6 +53,8 @@ Related Stack Overflow questions:
 
   :scroll: **[OpenGL immediate mode - Draw a cube with outline using fixed function attributes (VAO)](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_fixed_attribute_cube_vao.py)**
 
+  **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-opengl-cube-wireframe](https://replit.com/@Rabbid76/pygame-opengl-cube-wireframe#main.py)**
+
 ## Draw lines and polygons
 
 - [Draw variable number of lines - PyOpenGL](https://stackoverflow.com/questions/64079973/draw-variable-number-of-lines-pyopengl/64080275#64080275)  
@@ -66,6 +68,8 @@ The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a si
 
 [PyOpenGL how do I import an obj file?](https://stackoverflow.com/questions/59923419/pyopengl-how-do-i-import-an-obj-file/59926122#59926122)  
 ![scene](https://i.stack.imgur.com/Jvb2x.png)
+
+  :scroll: **[OpenGL immediate mode - Import obj (wavefront)](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_obj.py)**
 
 [Is there a way to change the location and size of an imported .obj file in Pygame?](https://stackoverflow.com/questions/59609837/is-there-a-way-to-change-the-location-and-size-of-an-imported-obj-file-in-pygam/59610853#59610853)
 
