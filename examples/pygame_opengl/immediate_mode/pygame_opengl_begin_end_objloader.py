@@ -1,4 +1,8 @@
-# https://github.com/yarolig/OBJFileLoader/blob/master/OBJFileLoader/objloader.py
+# GitHub - OBJFileLoader
+# https://github.com/yarolig/OBJFileLoader#objfileloader
+#
+# Basic OBJ file viewer. needs objloader from:
+# http://www.pygame.org/wiki/OBJFileLoader
 
 import os
 import pygame
@@ -47,6 +51,7 @@ class OBJ:
         self.normals = []
         self.texcoords = []
         self.faces = []
+        self.mtl = None
         self.gl_list = 0
         dirname = os.path.dirname(filename)
 
@@ -90,6 +95,10 @@ class OBJ:
         if self.generate_on_init:
             self.generate()
 
+    def box(self):
+        lx, ly, lz = zip(*self.vertices)
+        return ((min(lx), min(ly), min(lz)), (max(lx), max(ly), max(lz)))
+
     def generate(self):
         self.gl_list = glGenLists(1)
         glNewList(self.gl_list, GL_COMPILE)
@@ -97,17 +106,12 @@ class OBJ:
         glFrontFace(GL_CCW)
         for face in self.faces:
             vertices, normals, texture_coords, material = face
-
-            """
-            mtl = self.mtl[material]
-            if 'texture_Kd' in mtl:
-                # use diffuse texmap
-                glBindTexture(GL_TEXTURE_2D, mtl['texture_Kd'])
-            else:
-                # just use diffuse colour
-                glColor(*mtl['Kd'])
-            """
-
+            if self.mtl:
+                mtl = self.mtl[material]
+                if 'texture_Kd' in mtl:
+                    glBindTexture(GL_TEXTURE_2D, mtl['texture_Kd'])
+                else:
+                    glColor(*mtl['Kd'])
             glBegin(GL_POLYGON)
             for i in range(len(vertices)):
                 if normals[i] > 0:
