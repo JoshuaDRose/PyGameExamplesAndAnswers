@@ -2,8 +2,6 @@
 
 ---
 
-:construction: **under construction**
-
 # PyGame and OpenGL 4
 
 ## Vertex buffer and vertex attributes

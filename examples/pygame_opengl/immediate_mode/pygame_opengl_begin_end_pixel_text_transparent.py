@@ -6,9 +6,10 @@
 #
 # GitHub - PyGameExamplesAndAnswers - PyGame and OpenGL immediate mode (Legacy OpenGL) - Primitive and Mesh 
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame_opengl/immediate_mode/pygame_opengl_immediate_mode.md
+#
+# https://replit.com/@Rabbid76/pygame-opengl-text#main.py
 
 import pygame
-from pygame.locals import *
 from OpenGL.GL import *
 from OpenGL.GLU import *
 
@@ -34,7 +35,7 @@ pygame.init()
 clock = pygame.time.Clock()
 
 display = (400, 300)
-pygame.display.set_mode(display, DOUBLEBUF | OPENGL)
+pygame.display.set_mode(display, pygame.DOUBLEBUF | pygame.OPENGL)
 font = pygame.font.SysFont('arial', 64)
 
 glEnable(GL_BLEND)

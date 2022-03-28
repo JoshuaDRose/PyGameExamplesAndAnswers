@@ -2,8 +2,6 @@
 
 ---
 
-:construction: **under construction**
-
 # PyGame and ModernGL library
 
 [ModernGL - GuitHub](https://github.com/moderngl/moderngl)  
