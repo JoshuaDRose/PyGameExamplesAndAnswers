@@ -176,7 +176,7 @@ Examples:
   :scroll: **[OpenGL immediate mode - hit detection 1](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_hit_detection_1.py)**  
   :scroll: **[OpenGL immediate mode - hit detection 2](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_hit_detection_2.py)**  
 
-# Text
+## Text
 
 - [pygame + opengl = display text](https://stackoverflow.com/questions/67608968/pygame-opengl-display-text/67639147#67639147)  
   ![pygame + opengl = display text](https://i.stack.imgur.com/fEc07.gif)  
@@ -188,6 +188,34 @@ Examples:
 
 Compare [`glWindowPos`](https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glWindowPos.xml) and [`glRasterPos`](https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glRasterPos.xml). While the coordinates of `glRasterPos` are transformed by the current modelview and projection matrices, `glWindowPos` directly updates the x and y coordinates of the current raster position.
 
-# Minimal examples
+## Texture
 
-[Texture - glDrawPixels](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_glDrawPixels.py)
+- [My pygame/pyopengl code seems to apply a texture to every surface](https://stackoverflow.com/questions/68902541/my-pygame-pyopengl-code-seems-to-apply-a-texture-to-every-surface/68902623#68902623)
+
+[Texture - glDrawPixels](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_glDrawPixels.py)  
+[Texture - Surface to texture](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_surface_to_texture.py)
+
+## Shader
+
+- [Vertex/fragment shaders for a OpenGL firsrt-person shooter view?](https://stackoverflow.com/questions/59896103/vertex-fragment-shaders-for-a-opengl-firsrt-person-shooter-view/59898241#59898241)
+
+If you use a shader program, then the matrix transformations have to be done in the vertex shader.
+The [Legacy OpenGL](https://www.khronos.org/opengl/wiki/Legacy_OpenGL) matrix stack is deprecated. If you use a shader program and the legacy matrices, then you have
+to step back to a [OpenGL Shading Language 1.20](https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.1.20.pdf) (`#version 120`) shader.  
+In this version the  built in uniforms like `gl_ModelViewProjectionMatrix` can be used. See [Lighthouse3d.com - Hello World in GLSL](https://www.lighthouse3d.com/tutorials/glsl-12-tutorial/hello-world-in-glsl/).
+
+e.g.:
+
+```glsl
+# version 120
+attribute vec3 a_position;
+attribute vec3 a_color;
+
+varying vec3 v_color;
+
+void main()
+{
+    gl_Position = gl_ModelViewProjectionMatrix * vec4(a_position, 1.0);
+    v_color = a_color;
+}
+```

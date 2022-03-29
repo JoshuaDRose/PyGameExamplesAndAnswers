@@ -81,8 +81,7 @@ pygame.image.save(screen , "screenshot.jpg")
 
 ---
 
-However, this doesn't work for `pygame.OPENGL` Surfaces. You must read the framebuffer with [`glReadPixels`](http://pyopengl.sourceforge.net/documentation/manual-3.0/glReadPixels.html) before the display is updated (before `pygame.display.flip()` or `pygame.display.update()`). Use [`pygame.image.fromstring()`](https://www.pygame.org/docs/ref/image.html#pygame.image.fromstring) to create new _Surfaces_ from the buffer. Finally, save the _
-Surface_ to a file:
+However, this doesn't work for `pygame.OPENGL` Surfaces. You must read the framebuffer with [`glReadPixels`](http://pyopengl.sourceforge.net/documentation/manual-3.0/glReadPixels.html) before the display is updated (before `pygame.display.flip()` or `pygame.display.update()`). Use [`pygame.image.fromstring()`](https://www.pygame.org/docs/ref/image.html#pygame.image.fromstring) to create new _Surfaces_ from the buffer. Finally, save the _Surface_ to a file:
 
 ```py
 screen = pygame.display.set_mode((w, h), pygame.DOUBLEBUF | pygame.OPENGL)
