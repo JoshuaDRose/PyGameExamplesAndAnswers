@@ -80,16 +80,21 @@ The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a si
 
 ## Scale, Rotate, Translate
 
-[OpenGL python and pygame translation after rotation not working for mouselook and movement](https://stackoverflow.com/questions/60244843/opengl-python-and-pygame-translation-after-rotation-not-working-for-mouselook-an)  
-![scene](https://i.stack.imgur.com/cCV23.gif)
-
-[Moving only one cube out of 2 in Python with PyOpenGL](https://stackoverflow.com/questions/60901079/moving-only-one-cube-out-of-2-in-python-with-pyopengl)  
-
 [PyOpenGl Pygame window freezes when run](https://stackoverflow.com/questions/54683378/pyopengl-pygame-window-freezes-when-run/54696233#54696233)  
 [Drawing a cube with Pygame and OpenGL in Python environment](https://stackoverflow.com/questions/66623528/drawing-a-cube-with-pygame-and-opengl-in-python-environment/66623589#66623589)  
 ![PyOpenGl Pygame window freezes when run](https://i.stack.imgur.com/jUWiH.gif)
 
 :scroll: **[OpenGL immediate mode - Draw a wireframe cube](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_wireframe.py)**
+
+[how to drag camera with the mouse like in blender](https://stackoverflow.com/questions/70398671/how-to-drag-camera-with-the-mouse-like-in-blender/70398950#70398950)  
+![how to drag camera with the mouse like in blender](https://i.stack.imgur.com/dzCLn.gif)
+
+:scroll: **[OpenGL immediate mode - rotate around local](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_rotate_1.py)**
+
+[OpenGL python and pygame translation after rotation not working for mouselook and movement](https://stackoverflow.com/questions/60244843/opengl-python-and-pygame-translation-after-rotation-not-working-for-mouselook-an)  
+![scene](https://i.stack.imgur.com/cCV23.gif)
+
+[Moving only one cube out of 2 in Python with PyOpenGL](https://stackoverflow.com/questions/60901079/moving-only-one-cube-out-of-2-in-python-with-pyopengl)  
 
 [PyOpenGL: move two objects separately?](https://stackoverflow.com/questions/61679379/pyopengl-move-two-objects-separately/61682813#61682813)
 

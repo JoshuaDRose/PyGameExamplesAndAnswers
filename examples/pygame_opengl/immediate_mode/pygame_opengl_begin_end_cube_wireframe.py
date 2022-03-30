@@ -11,7 +11,6 @@
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame_opengl/immediate_mode/pygame_opengl_immediate_mode.md
 
 import pygame
-from pygame.locals import *
 from OpenGL.GL import *
 from OpenGL.GLU import *
 
@@ -19,34 +18,34 @@ verticies = ((1, -1, -1), (1, 1, -1), (-1, 1, -1), (-1, -1, -1),
              (1, -1, 1), (1, 1, 1), (-1, -1, 1), (-1, 1, 1))
 edges = ((0,1), (0,3), (0,4), (2,1),(2,3), (2,7), (6,3), (6,4),(6,7), (5,1), (5,4), (5,7))
 
-def Cube():
-    global edges
+def cube():
     glBegin(GL_LINES)
     for edge in edges:
         for vertex in edge:
             glVertex3fv(verticies[vertex])
     glEnd()
 
-def main():
-    pygame.init()
-    clock = pygame.time.Clock()
+pygame.init()
+size = (400, 300)
+pygame.display.set_mode(size, pygame.DOUBLEBUF | pygame.OPENGL)
+clock = pygame.time.Clock()
 
-    display = (400, 300)
-    pygame.display.set_mode(display, DOUBLEBUF | OPENGL)
-    gluPerspective(45, (display[0]/display[1]), 0.1, 50.0)
-    glTranslatef(0.0, 0.0, -5)
-    run = True
-    while run:
-        clock.tick(100)
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                run = False
+glMatrixMode(GL_PROJECTION)
+gluPerspective(45, size[0] / size[1], 0.1, 10.0)
+glMatrixMode(GL_MODELVIEW)  
+glTranslatef(0.0, 0.0, -5)
 
-        glRotatef(1, 3, 1, 1)
-        glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
-        Cube()
-        pygame.display.flip()
-    pygame.quit()
+run = True
+while run:
+    clock.tick(100)
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            run = False
 
-main()
+    glRotatef(1, 3, 1, 1)
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
+    cube()
+    pygame.display.flip()
+
+pygame.quit()
 exit()
