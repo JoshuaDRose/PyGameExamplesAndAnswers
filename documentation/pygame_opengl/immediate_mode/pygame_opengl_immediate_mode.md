@@ -24,21 +24,23 @@ Related Stack Overflow questions:
 
  :scroll: **[OpenGL immediate mode - Draw points around a spherical shape](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_sphere_points.py)**
 
-[Converting pygame 2d water ripple to pyOpenGL](https://stackoverflow.com/questions/63732713/converting-pygame-2d-water-ripple-to-pyopengl/63744177#63744177)  
-![scene](https://i.stack.imgur.com/sf0o4.gif)
+- [Converting pygame 2d water ripple to pyOpenGL](https://stackoverflow.com/questions/63732713/converting-pygame-2d-water-ripple-to-pyopengl/63744177#63744177)  
+  ![scene](https://i.stack.imgur.com/sf0o4.gif)
 
-[pygame pyopengl texture a changing polygon with many sides](https://stackoverflow.com/questions/63745181/pygame-pyopengl-texture-a-changing-polygon-with-many-sides/63746178#63746178)  
-![scene](https://i.stack.imgur.com/RUDto.gif)
+- [pygame pyopengl texture a changing polygon with many sides](https://stackoverflow.com/questions/63745181/pygame-pyopengl-texture-a-changing-polygon-with-many-sides/63746178#63746178)  
+  ![scene](https://i.stack.imgur.com/RUDto.gif)
 
-[X Error of failed request: BadValue (integer parameter out of range for operation), PyOpenGL](https://stackoverflow.com/questions/48350671/x-error-of-failed-request-badvalue-integer-parameter-out-of-range-for-operatio/48353815#48353815)  
-![cube outline](https://i.stack.imgur.com/plgw5.png)
+- [X Error of failed request: BadValue (integer parameter out of range for operation), PyOpenGL](https://stackoverflow.com/questions/48350671/x-error-of-failed-request-badvalue-integer-parameter-out-of-range-for-operatio/48353815#48353815)  
+  ![cube outline](https://i.stack.imgur.com/plgw5.png)
 
-:scroll: **[OpenGL immediate mode - Draw a simple triangle](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_triangle.py)**
+  :scroll: **[OpenGL immediate mode - Draw a simple triangle](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_triangle.py)**
 
-:scroll: **[OpenGL immediate mode - Draw simple triangles with polygon depth offset](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_triangle_polygonoffset.py)**
+  :scroll: **[OpenGL immediate mode - Draw simple triangles with polygon depth offset](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_triangle_polygonoffset.py)**
 
-[How do I add an image as texture of my 3D cube in pyopengl](https://stackoverflow.com/questions/67367424/how-do-i-add-an-image-as-texture-of-my-3d-cube-in-pyopengl/67367851#67367851)  
-![How do I add an image as texture of my 3D cube in pyopengl](https://i.stack.imgur.com/kGBr8.gif)
+- [How do I add an image as texture of my 3D cube in pyopengl](https://stackoverflow.com/questions/67367424/how-do-i-add-an-image-as-texture-of-my-3d-cube-in-pyopengl/67367851#67367851)  
+  ![How do I add an image as texture of my 3D cube in pyopengl](https://i.stack.imgur.com/kGBr8.gif)
+
+  :scroll: **[OpenGL immediate mode - Draw a cube with texture](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_texture.py)**
 
 ### Fixed attribute
 

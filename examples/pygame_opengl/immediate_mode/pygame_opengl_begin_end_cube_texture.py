@@ -1,14 +1,14 @@
 # PyOpenGL
 # http://pyopengl.sourceforge.net/
 #
-# GL_LINES not showing up on top of cube?
-# https://stackoverflow.com/questions/56624147/gl-lines-not-showing-up-on-top-of-cube/56624975#56624975
+# How do I add an image as texture of my 3D cube in pyopengl
+# https://stackoverflow.com/questions/67367424/how-do-i-add-an-image-as-texture-of-my-3d-cube-in-pyopengl/67367851#67367851 
 #
 # GitHub - PyGameExamplesAndAnswers - PyGame and OpenGL immediate mode (Legacy OpenGL) - Primitive and Mesh 
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame_opengl/immediate_mode/pygame_opengl_immediate_mode.md
-#
-# https://replit.com/@Rabbid76/pygame-opengl-cube-wireframe#main.py
 
+import os
+os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../../resource'))
 import pygame
 from OpenGL.GL import *
 from OpenGL.GLU import *
@@ -17,28 +17,17 @@ class Cube:
   
     def __init__(self):
         self.v = [(-1,-1,-1), ( 1,-1,-1), ( 1, 1,-1), (-1, 1,-1), (-1,-1, 1), ( 1,-1, 1), ( 1, 1, 1), (-1, 1, 1)]
-        self.edges = [(0,1), (1,2), (2,3), (3,0), (4,5), (5,6), (6,7), (7,4), (0,4), (1,5), (2,6), (3,7)]
+        self.nv = [(0,0,-1), (0,0,1), (-1,0,0), (1,0,0), (0,-1,0), (0,1,0)]
+        self.uv = [(0, 0), (0, 1), (1, 1), (1, 0)]
         self.surfaces = [(0,1,2,3), (5,4,7,6), (4,0,3,7),(1,5,6,2), (4,5,1,0), (3,2,6,7)]
-        self.colors = [(1,0,0), (0,1,0), (0,0,1), (1,1,0), (1,0,1), (1,0.5,0)]
 
     def draw(self):
         glEnable(GL_DEPTH_TEST)
-
-        glLineWidth(5)
-        glColor3fv((0, 0, 0))
-        glBegin(GL_LINES)
-        for e in self.edges:
-            glVertex3fv(self.v[e[0]])
-            glVertex3fv(self.v[e[1]])
-        glEnd()
-
-        glEnable( GL_POLYGON_OFFSET_FILL )
-        glPolygonOffset( 1.0, 1.0 )
-
         glBegin(GL_QUADS)
         for i, quad in enumerate(self.surfaces):
-            glColor3fv(self.colors[i])
-            for iv in quad:
+            glNormal3fv(self.nv[i])
+            for ti, iv in enumerate(quad):
+                glTexCoord2fv(self.uv[ti])
                 glVertex3fv(self.v[iv])
         glEnd()
 
@@ -58,6 +47,16 @@ set_projection(*window.get_size())
 cube = Cube()
 angle_x, angle_y = 0, 0
 
+image = pygame.image.load('texture/ObjectSheet.png')
+datas = pygame.image.tostring(image, 'RGBA')
+texID = glGenTextures(1)
+glBindTexture(GL_TEXTURE_2D, texID)
+glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image.get_width(), image.get_height(), 0, GL_RGBA, GL_UNSIGNED_BYTE, datas)
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR)
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR)
+
+glEnable(GL_TEXTURE_2D)
+
 run = True
 while run:
     clock.tick(60)
@@ -75,11 +74,10 @@ while run:
     angle_x += 1
     angle_y += 0.4
 
-    glClearColor(0.5, 0.5, 0.5, 1)
+    glClearColor(0.25, 0.25, 0.25, 1)
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
     cube.draw()    
 
-    
     size = window.get_size()
     buffer = glReadPixels(0, 0, *size, GL_RGBA, GL_UNSIGNED_BYTE)
     pygame.display.flip()
