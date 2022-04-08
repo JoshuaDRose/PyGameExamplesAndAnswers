@@ -1,8 +1,8 @@
 # PyOpenGL
 # http://pyopengl.sourceforge.net/
 #
-# GL_LINES not showing up on top of cube?
-# https://stackoverflow.com/questions/56624147/gl-lines-not-showing-up-on-top-of-cube/56624975#56624975
+# OpenGl incomplete formation of the 3d cuboid when i use Gl_lines
+# https://stackoverflow.com/questions/71795484/opengl-incomplete-formation-of-the-3d-cuboid-when-i-use-gl-lines
 #
 # GitHub - PyGameExamplesAndAnswers - PyGame and OpenGL immediate mode (Legacy OpenGL) - Primitive and Mesh 
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame_opengl/immediate_mode/pygame_opengl_immediate_mode.md
@@ -17,7 +17,6 @@ class Cube:
   
     def __init__(self):
         self.v = [(-1,-1,-1), ( 1,-1,-1), ( 1, 1,-1), (-1, 1,-1), (-1,-1, 1), ( 1,-1, 1), ( 1, 1, 1), (-1, 1, 1)]
-        self.edges = [(0,1), (1,2), (2,3), (3,0), (4,5), (5,6), (6,7), (7,4), (0,4), (1,5), (2,6), (3,7)]
         self.surfaces = [(0,1,2,3), (5,4,7,6), (4,0,3,7),(1,5,6,2), (4,5,1,0), (3,2,6,7)]
         self.colors = [(1,0,0), (0,1,0), (0,0,1), (1,1,0), (1,0,1), (1,0.5,0)]
 
@@ -25,15 +24,7 @@ class Cube:
         glEnable(GL_DEPTH_TEST)
 
         glLineWidth(5)
-        glColor3fv((0, 0, 0))
-        glBegin(GL_LINES)
-        for e in self.edges:
-            glVertex3fv(self.v[e[0]])
-            glVertex3fv(self.v[e[1]])
-        glEnd()
-
-        glEnable(GL_POLYGON_OFFSET_FILL)
-        glPolygonOffset( 1.0, 1.0 )
+        glPolygonMode(GL_FRONT_AND_BACK, GL_LINE)
 
         glBegin(GL_QUADS)
         for i, quad in enumerate(self.surfaces):

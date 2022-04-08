@@ -17,7 +17,8 @@ Related Stack Overflow questions:
 - [GL_LINES not showing up on top of cube?](https://stackoverflow.com/questions/56624147/gl-lines-not-showing-up-on-top-of-cube/56624975#56624975)  
   ![scene](https://i.stack.imgur.com/Go9Ym.gif)
 
-  :scroll: **[OpenGL immediate mode - Draw a cube with an outline](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_outline.py)**
+  :scroll: **[OpenGL immediate mode - Draw a cube with a glBegin/glEnd sequnce and an outline](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_outline.py)**  
+  :scroll: **[OpenGL immediate mode - Draw a cube with a glBegin/glEnd sequnce and an outline (polygon mode)](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_outline_2.py)**  
 
 - [Drawing points on a surface of a sphere](https://stackoverflow.com/questions/50307431/drawing-points-on-a-surface-of-a-sphere/50307674#50307674)  
  ![scene](https://i.stack.imgur.com/PXKRd.png)
