@@ -4,6 +4,9 @@
 # Moving only one cube out of 2 in Python with PyOpenGL
 # https://stackoverflow.com/questions/60901079/moving-only-one-cube-out-of-2-in-python-with-pyopengl/60902116#60902116
 #
+# PyOpenGL: move two objects separately?
+# https://stackoverflow.com/questions/61679379/pyopengl-move-two-objects-separately/61682813#61682813
+#
 # GitHub - PyGameExamplesAndAnswers - PyGame and OpenGL immediate mode (Legacy OpenGL) - Primitive and Mesh 
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame_opengl/immediate_mode/pygame_opengl_immediate_mode.md
 

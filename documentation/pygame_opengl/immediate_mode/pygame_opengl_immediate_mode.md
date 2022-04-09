@@ -98,10 +98,9 @@ The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a si
   ![scene](https://i.stack.imgur.com/cCV23.gif)
 
 - [Moving only one cube out of 2 in Python with PyOpenGL](https://stackoverflow.com/questions/60901079/moving-only-one-cube-out-of-2-in-python-with-pyopengl)  
+- [PyOpenGL: move two objects separately?](https://stackoverflow.com/questions/61679379/pyopengl-move-two-objects-separately/61682813#61682813)
 
   :scroll: **[OpenGL immediate mode - move objects individually](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_matrix_move_objects_individually_1.py)**
-
-- [PyOpenGL: move two objects separately?](https://stackoverflow.com/questions/61679379/pyopengl-move-two-objects-separately/61682813#61682813)
 
 - [Python OpenGL not working properly when trying to color 3D objects](https://stackoverflow.com/questions/64081660/python-open-gl-not-working-properly-when-trying-to-color-3d-objects/64086720#64086720)
 
