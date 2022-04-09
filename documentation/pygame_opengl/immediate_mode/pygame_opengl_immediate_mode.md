@@ -165,11 +165,13 @@ Examples:
 [Basic OpenGL Lighting](https://www.sjbaker.org/steve/omniv/opengl_lighting.html)  
 [Per Fragment Lighting](https://www.opengl.org/sdk/docs/tutorials/ClockworkCoders/lighting.php) 
 
-[How to correctly add a light to make object get a better view with pygame and pyopengl](https://stackoverflow.com/questions/56514791/how-to-correctly-add-a-light-to-make-object-get-a-better-view-with-pygame-and-py)  
-![scene](https://i.stack.imgur.com/svZ9q.gif)
+- [How to correctly add a light to make object get a better view with pygame and pyopengl](https://stackoverflow.com/questions/56514791/how-to-correctly-add-a-light-to-make-object-get-a-better-view-with-pygame-and-py)  
+  ![scene](https://i.stack.imgur.com/svZ9q.gif)
 
-[How to make specular lighting on python to implement the Phong lighting?](https://stackoverflow.com/questions/67544996/how-to-make-specular-lighting-on-python-to-implement-the-phong-lighting/67545182#67545182)  
-![scene](https://i.stack.imgur.com/x4yEs.gif)
+  :scroll: **[OpenGL immediate mode - light model](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_light.py)**  
+
+- [How to make specular lighting on python to implement the Phong lighting?](https://stackoverflow.com/questions/67544996/how-to-make-specular-lighting-on-python-to-implement-the-phong-lighting/67545182#67545182)  
+  ![scene](https://i.stack.imgur.com/x4yEs.gif)
 
 ## Mouse position and Unproject
 

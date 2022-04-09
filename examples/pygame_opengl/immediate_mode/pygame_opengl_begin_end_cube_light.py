@@ -1,8 +1,8 @@
 # PyOpenGL
 # http://pyopengl.sourceforge.net/
 #
-# GL_LINES not showing up on top of cube?
-# https://stackoverflow.com/questions/56624147/gl-lines-not-showing-up-on-top-of-cube/56624975#56624975
+# How to correctly add a light to make object get a better view with pygame and pyopengl
+# https://stackoverflow.com/questions/56514791/how-to-correctly-add-a-light-to-make-object-get-a-better-view-with-pygame-and-py/56514975#56514975
 #
 # GitHub - PyGameExamplesAndAnswers - PyGame and OpenGL immediate mode (Legacy OpenGL) - Primitive and Mesh 
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame_opengl/immediate_mode/pygame_opengl_immediate_mode.md
@@ -12,35 +12,21 @@ from OpenGL.GL import *
 from OpenGL.GLU import *
 
 class Cube:
-  
     def __init__(self):
         self.v = [(-1,-1,-1), ( 1,-1,-1), ( 1, 1,-1), (-1, 1,-1), (-1,-1, 1), ( 1,-1, 1), ( 1, 1, 1), (-1, 1, 1)]
         self.edges = [(0,1), (1,2), (2,3), (3,0), (4,5), (5,6), (6,7), (7,4), (0,4), (1,5), (2,6), (3,7)]
         self.surfaces = [(0,1,2,3), (5,4,7,6), (4,0,3,7),(1,5,6,2), (4,5,1,0), (3,2,6,7)]
         self.colors = [(1,0,0), (0,1,0), (0,0,1), (1,1,0), (1,0,1), (1,0.5,0)]
+        self.normals = [(0,0,-1), (0,0,1), (-1,0,0), (1,0,0), (0,-1,0), (0,1,0)]
 
     def draw(self):
-        glEnable(GL_DEPTH_TEST)
-
-        glLineWidth(5)
-        glColor3fv((0, 0, 0))
-        glBegin(GL_LINES)
-        for e in self.edges:
-            glVertex3fv(self.v[e[0]])
-            glVertex3fv(self.v[e[1]])
-        glEnd()
-
-        glEnable(GL_POLYGON_OFFSET_FILL)
-        glPolygonOffset( 1.0, 1.0 )
-
         glBegin(GL_QUADS)
         for i, quad in enumerate(self.surfaces):
             glColor3fv(self.colors[i])
+            glNormal3fv(self.normals[i])
             for iv in quad:
                 glVertex3fv(self.v[iv])
         glEnd()
-
-        glDisable(GL_POLYGON_OFFSET_FILL)
 
 def set_projection(w, h):
     glMatrixMode(GL_PROJECTION)
@@ -62,6 +48,18 @@ set_projection(*window.get_size())
 cube = Cube()
 angle_x, angle_y = 0, 0
 
+glLoadIdentity()
+glTranslatef(0, 0, -5)
+
+glEnable(GL_DEPTH_TEST)
+glEnable(GL_LIGHTING)
+glEnable(GL_LIGHT0)
+glEnable(GL_COLOR_MATERIAL)
+glColorMaterial(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE)
+glLightfv(GL_LIGHT0, GL_AMBIENT, (0, 0, 0, 1))
+glLightfv(GL_LIGHT0, GL_DIFFUSE, (1, 1, 1, 1))
+glLight(GL_LIGHT0, GL_POSITION,  (2, 2, 2, 1)) # point light from the left, top, front
+
 run = True
 while run:
     clock.tick(60)
@@ -75,16 +73,31 @@ while run:
         elif event.type == pygame.KEYDOWN:
             take_screenshot = True
 
-    glLoadIdentity()
-    glTranslatef(0, 0, -5)
+
+    glClearColor(0.1, 0.2, 0.15, 1)
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
+
+    glShadeModel(GL_FLAT)
+    glPushMatrix()
+    glTranslate(-1, 0, 0)
     glRotatef(angle_y, 0, 1, 0)
     glRotatef(angle_x, 1, 0, 0)
+    glScalef(0.5, 0.5, 0.5)
+    cube.draw()   
+    glPopMatrix()
+
+    glShadeModel(GL_SMOOTH)
+    glPushMatrix()
+    glTranslate(1, 0, 0)
+    glRotatef(angle_y, 0, 1, 0)
+    glRotatef(angle_x, 1, 0, 0)
+    glScalef(0.5, 0.5, 0.5)
+    cube.draw()   
+    glPopMatrix()
+
     angle_x += 1
     angle_y += 0.4
 
-    glClearColor(0.5, 0.5, 0.5, 1)
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
-    cube.draw()   
     if take_screenshot: 
         screenshot(window, "cube.png")
     pygame.display.flip()
