@@ -43,6 +43,9 @@ Related Stack Overflow questions:
 
   :scroll: **[OpenGL immediate mode - Draw a cube with texture](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_texture.py)**
 
+Examples:
+
+:scroll: **[OpenGL immediate mode - Draw GLU object](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_glu_objects.py)**
 ### Fixed attribute
 
 Related Stack Overflow questions:
