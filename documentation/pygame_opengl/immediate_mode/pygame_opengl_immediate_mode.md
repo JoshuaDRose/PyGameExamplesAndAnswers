@@ -136,11 +136,13 @@ Examples:
 - [Stackoverflow question: how to modify the view of the camera with pygame and openGL](https://stackoverflow.com/questions/47169618/how-to-modify-the-view-of-the-camera-with-pygame-and-opengl/47173089#47173089)
   ![Stackoverflow question: how to modify the view of the camera with pygame and openGL](https://i.stack.imgur.com/jtVF8.png)  
 
-  :scroll: **[OpenGL immediate mode - first person 1](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_firstperson.py)**
+  :scroll: **[OpenGL immediate mode - first person 1](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_firstperson.py)**  
   :scroll: **[OpenGL immediate mode - first person 2](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_firstperson_2.py)**
 
-- [How create a camera on PyOpenGL that can do “perspective rotations” on mouse movements?](https://stackoverflow.com/questions/56609044/how-create-a-camera-on-pyopengl-that-can-do-perspective-rotations-on-mouse-mov)  
+- [How create a camera on PyOpenGL that can do “perspective rotations” on mouse movements?](https://stackoverflow.com/questions/56609044/how-create-a-camera-on-pyopengl-that-can-do-perspective-rotations-on-mouse-mov/56609894#56609894)  
   ![scene](https://i.stack.imgur.com/0cb9x.gif)
+
+  :scroll: **[OpenGL immediate mode - first person 3](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_firstperson_3.py)**
 
 - [How to rotate a certain object (Quad) in PyOpenGL?](https://stackoverflow.com/questions/56646279/how-to-rotate-a-certain-object-quad-in-pyopengl/56646504?noredirect=1#comment99864711_56646504)  
   [How to test if a 2d point in pygame screen is part of a 3d object in PyOpenGL?](https://stackoverflow.com/questions/56681932/how-to-test-if-a-2d-point-in-pygame-screen-is-part-of-a-3d-object-in-pyopengl/56700807?noredirect=1#comment99965769_56700807)  
