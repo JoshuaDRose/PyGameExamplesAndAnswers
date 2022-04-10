@@ -58,7 +58,7 @@ glEnable(GL_COLOR_MATERIAL)
 glColorMaterial(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE)
 glLightfv(GL_LIGHT0, GL_AMBIENT, (0, 0, 0, 1))
 glLightfv(GL_LIGHT0, GL_DIFFUSE, (1, 1, 1, 1))
-glLight(GL_LIGHT0, GL_POSITION,  (2, 2, 2, 1)) # point light from the left, top, front
+glLight(GL_LIGHT0, GL_POSITION,  (2, 2, 2, 1))
 
 run = True
 while run:
