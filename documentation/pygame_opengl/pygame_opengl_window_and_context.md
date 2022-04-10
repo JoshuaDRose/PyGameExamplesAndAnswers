@@ -96,6 +96,9 @@ screen_surf = pygame.image.fromstring(buffer, size, "RGBA")
 pygame.image.save(screen_surf, "screenshot.jpg")
 ```
 
+:scroll: **[OpenGL immediate mode - screenshot, glReadPixels](../../examples/pygame_opengl/immediate_mode/pygame_opengl_screenshot_glReadPixels.py)**  
+:scroll: **[OpenGL immediate mode - store color buffer, glGetTexImage](../../examples/pygame_opengl/immediate_mode/pygame_opengl_store_colorbuffer_glGetTexImage.py)**  
+
 ## Mixed drawing
 
 Related Stack Overflow questions:
