@@ -4,6 +4,9 @@
 # How do I add an image as texture of my 3D cube in pyopengl
 # https://stackoverflow.com/questions/67367424/how-do-i-add-an-image-as-texture-of-my-3d-cube-in-pyopengl/67367851#67367851 
 #
+# I've been trying to texture this cube, it is textured with the image but not in the right way
+# https://stackoverflow.com/questions/57540156/ive-been-trying-to-texture-this-cube-it-is-textured-with-the-image-but-not-in/57542230#57542230
+#
 # GitHub - PyGameExamplesAndAnswers - PyGame and OpenGL immediate mode (Legacy OpenGL) - Primitive and Mesh 
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame_opengl/immediate_mode/pygame_opengl_immediate_mode.md
 

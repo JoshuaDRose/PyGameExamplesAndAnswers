@@ -31,6 +31,8 @@ Related Stack Overflow questions:
 - [pygame pyopengl texture a changing polygon with many sides](https://stackoverflow.com/questions/63745181/pygame-pyopengl-texture-a-changing-polygon-with-many-sides/63746178#63746178)  
   ![scene](https://i.stack.imgur.com/RUDto.gif)
 
+:scroll: **[OpenGL immediate mode - 2D water particles](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_texture.py)**
+
 - [X Error of failed request: BadValue (integer parameter out of range for operation), PyOpenGL](https://stackoverflow.com/questions/48350671/x-error-of-failed-request-badvalue-integer-parameter-out-of-range-for-operatio/48353815#48353815)  
   ![cube outline](https://i.stack.imgur.com/plgw5.png)
 
@@ -162,7 +164,7 @@ Examples:
 
 - [Python OpenGL does not render every Triangle in a Quadrilateral](https://stackoverflow.com/questions/57598269/python-opengl-does-not-render-every-triangle-in-a-quadrilateral/57598464#57598464)  
 
-- [(PYGAME and LEGACY PYOPENGL) Problems with creating a UI and glRotatef()](https://stackoverflow.com/questions/57981147/pygame-and-legacy-pyopengl-problems-with-creating-a-ui-and-glrotatef)  
+- [Problems with creating a UI and glRotatef()](https://stackoverflow.com/questions/57981147/pygame-and-legacy-pyopengl-problems-with-creating-a-ui-and-glrotatef)  
 
 - [Using gluLookAt() causes the objects to spin](https://stackoverflow.com/questions/54316746/using-glulookat-causes-the-objects-to-spin/54371129#54371129)  
 
@@ -207,6 +209,7 @@ Compare [`glWindowPos`](https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/x
 
 ## Texture
 
+- [PyOpenGL texture isn't displaying correctly](https://stackoverflow.com/questions/68468091/pyopengl-texture-isnt-displaying-correctly)  
 - [My pygame/pyopengl code seems to apply a texture to every surface](https://stackoverflow.com/questions/68902541/my-pygame-pyopengl-code-seems-to-apply-a-texture-to-every-surface/68902623#68902623)
 
 [Texture - glDrawPixels](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_glDrawPixels.py)  
