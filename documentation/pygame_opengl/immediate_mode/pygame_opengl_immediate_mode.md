@@ -44,6 +44,7 @@ Related Stack Overflow questions:
   ![How do I add an image as texture of my 3D cube in pyopengl](https://i.stack.imgur.com/kGBr8.gif)
 
   :scroll: **[OpenGL immediate mode - Draw a cube with texture](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_texture.py)**
+  :scroll: **[OpenGL immediate mode - Draw a cube with texture](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_light_texture.py)**
 
 Examples:
 
@@ -180,8 +181,8 @@ Examples:
 - [How to correctly add a light to make object get a better view with pygame and pyopengl](https://stackoverflow.com/questions/56514791/how-to-correctly-add-a-light-to-make-object-get-a-better-view-with-pygame-and-py)  
   ![scene](https://i.stack.imgur.com/svZ9q.gif)
 
-  :scroll: **[OpenGL immediate mode - light model](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_light_1.py)**  
-  :scroll: **[OpenGL immediate mode - light model, depth range issue](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_light_2_depth_range_issue.py)**  
+  :scroll: **[OpenGL immediate mode - light model](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_light.py)**  
+  :scroll: **[OpenGL immediate mode - light model, depth range issue](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_light_depth_range_issue.py)**  
 
 - [How to make specular lighting on python to implement the Phong lighting?](https://stackoverflow.com/questions/67544996/how-to-make-specular-lighting-on-python-to-implement-the-phong-lighting/67545182#67545182)  
   ![scene](https://i.stack.imgur.com/x4yEs.gif)
