@@ -66,6 +66,7 @@ However, it is possible to create an initially hidden window with the [GLFW](htt
 Related Stack Overflow questions:
 
 - [How to save pygame scene as jpeg?](https://stackoverflow.com/questions/66209365/how-to-save-pygame-scene-as-jpeg/66209486#66209486)  
+- [Screenshots in OpenGL using python](https://stackoverflow.com/questions/71661677/screenshots-in-opengl-using-python/71663843#)
 
 You can save a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object, object as the _Surface_ associated with the screen with [`pygame.image.save()`](https://www.pygame.org/docs/ref/image.html#pygame.image.save):
 

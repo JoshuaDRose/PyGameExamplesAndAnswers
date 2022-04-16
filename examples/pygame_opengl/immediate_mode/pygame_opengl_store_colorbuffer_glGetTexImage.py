@@ -4,6 +4,9 @@
 # How to save pygame scene as jpeg?
 # https://stackoverflow.com/questions/66209365/how-to-save-pygame-scene-as-jpeg/66209486#66209486
 #
+# Screenshots in OpenGL using python
+# https://stackoverflow.com/questions/71661677/screenshots-in-opengl-using-python/71663843#71663843
+#
 # GitHub - PyGameExamplesAndAnswers - PyGame window and OpenGL context - Save rendering (Screenshot)
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame_opengl/immediate_mode/pygame_opengl_window_and_context.md
 
