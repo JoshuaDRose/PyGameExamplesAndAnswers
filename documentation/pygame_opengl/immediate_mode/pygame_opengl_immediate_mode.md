@@ -125,9 +125,6 @@ The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a si
 - [Align individual objects in pyOpenGL to create a bigger aggregated object](https://stackoverflow.com/questions/58590491/align-individual-objects-in-pyopengl-to-create-a-bigger-aggregated-object/58594997#58594997)  
   ![Align individual objects in pyOpenGL to create a bigger aggregated object](https://i.stack.imgur.com/vMqWn.gif)  
 
-- [Draw a background video behind a 3D model in OpenGL](https://stackoverflow.com/questions/68533162/draw-a-background-video-behind-a-3d-model-in-opengl/68533213#68533213)  
-  ![Draw a background video behind a 3D model in OpenGL](https://i.stack.imgur.com/w2vqd.gif)
-
 Examples:
 
 [individual object transformation](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_individual_transformation.py)
@@ -217,12 +214,12 @@ Compare [`glWindowPos`](https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/x
 ## Texture
 
 - [PyOpenGL texture isn't displaying correctly](https://stackoverflow.com/questions/68468091/pyopengl-texture-isnt-displaying-correctly/68489022#68489022)  
-- [My pygame/pyopengl code seems to apply a texture to every surface](https://stackoverflow.com/questions/68902541/my-pygame-pyopengl-code-seems-to-apply-a-texture-to-every-surface/68902623#68902623)
+- [My pygame/pyopengl code seems to apply a texture to every surface](https://stackoverflow.com/questions/68902541/my-pygame-pyopengl-code-seems-to-apply-a-texture-to-every-surface/68902623#68902623)  
+  ![texture](https://i.stack.imgur.com/Ev2Aj.png)
 
-[Texture - glDrawPixels](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_glDrawPixels.py)  
-[Texture - Surface to texture](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_surface_to_texture.py)
-
-:scroll: **[OpenGL immediate mode - Draw a quad with texture](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_quad_texture.py)**
+  :scroll: **[Texture - glDrawPixels](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_glDrawPixels.py)**  
+  :scroll: **[Texture - Surface to texture](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_surface_to_texture.py)**
+  :scroll: **[OpenGL immediate mode - Draw a quad with texture](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_quad_texture.py)**
 
 ## Shader
 
@@ -250,3 +247,10 @@ void main()
     v_color = a_color;
 }
 ```
+
+## Video and Camera
+
+- [Draw a background video behind a 3D model in OpenGL](https://stackoverflow.com/questions/68533162/draw-a-background-video-behind-a-3d-model-in-opengl/68533213#68533213)  
+  ![Draw a background video behind a 3D model in OpenGL](https://i.stack.imgur.com/w2vqd.gif)
+
+  :scroll: **[OpenGL immediate mode - Draw a quad with texture](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_camera_background.py)**
