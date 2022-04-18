@@ -1,8 +1,8 @@
 # PyOpenGL
 # http://pyopengl.sourceforge.net/
 #
-# How to rotate a cube using mouse in pyopengl
-# https://stackoverflow.com/questions/59823131/how-to-rotate-a-cube-using-mouse-in-pyopengl/59823600#59823600
+# how to drag camera with the mouse like in blender
+# https://stackoverflow.com/questions/70398671/how-to-drag-camera-with-the-mouse-like-in-blender/70398950#70398950
 #
 # GitHub - PyGameExamplesAndAnswers - PyGame and OpenGL immediate mode (Legacy OpenGL) - Scale, Rotate, Translate
 # https://github.com/Rabbid76/PyGameExamplesAndAnswers/blob/master/documentation/pygame_opengl/immediate_mode/pygame_opengl_immediate_mode.md
@@ -11,7 +11,6 @@ import pygame
 from OpenGL.GL import *
 from OpenGL.GLU import *
 from OpenGL.GLUT import *
-import math
 
 class Cube:
     def __init__(self):
@@ -24,7 +23,10 @@ class Cube:
         glBegin(GL_LINES)
         for e in self.edges:
             glVertex3fv(self.v[e[0]])
-            glVertex3fv(self.v[e[1]])   
+            glVertex3fv(self.v[e[1]])
+        glColor3f(1, 0, 0)    
+        glVertex3f(0, -2, 0)  
+        glVertex3f(0, 2, 0)    
         glEnd()
 
 pygame.init()
@@ -35,35 +37,36 @@ clock = pygame.time.Clock()
 glMatrixMode(GL_PROJECTION)
 gluPerspective(45, size[0] / size[1], 0.1, 50.0)
 glMatrixMode(GL_MODELVIEW)  
-model_matrix = glGetFloatv(GL_MODELVIEW_MATRIX)
-glEnable(GL_DEPTH_TEST)
 
 cube = Cube()
+rot_x, rot_y, transalte_z = 0, 0, -6
 
 run = True
 while run:
     mouse_buttons = pygame.mouse.get_pressed()
-    rotate = (0, 0, 0, 0)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
         elif event.type == pygame.MOUSEMOTION:
             if  mouse_buttons[0]:
-                rotate = math.hypot(event.rel[0], event.rel[1]), event.rel[1], event.rel[0], 0
-        
-    glPushMatrix()
-    glLoadIdentity()
-    glRotatef(*rotate)
-    glMultMatrixf(model_matrix)
-    model_matrix = glGetFloatv(GL_MODELVIEW_MATRIX)
-    glPopMatrix()
-
-    glLoadIdentity()
-    glTranslatef(0, 0, -6)
-    glMultMatrixf(model_matrix)
+                rot_x += event.rel[1]
+                rot_y += event.rel[0]
+        elif event.type == pygame.MOUSEBUTTONDOWN:
+            if event.button == 4:
+                transalte_z = min(-2.5, transalte_z + 0.2)
+            if event.button == 5:
+                transalte_z = max(-20, transalte_z - 0.2)
             
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
+
+    glEnable(GL_DEPTH_TEST)
+    glPushMatrix()
+    glTranslatef(0, 0, transalte_z)
+    glRotatef(rot_x, 1, 0, 0)    
+    glRotatef(rot_y, 0, 1, 0)    
     cube.draw()
+    glPopMatrix()
+    
     pygame.display.flip()
     clock.tick(100)
 

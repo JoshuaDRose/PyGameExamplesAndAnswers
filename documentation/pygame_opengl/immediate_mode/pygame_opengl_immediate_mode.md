@@ -95,10 +95,15 @@ The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a si
 
   :scroll: **[OpenGL immediate mode - Draw a wireframe cube](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_begin_end_cube_wireframe.py)**
 
+- [How to rotate a cube using mouse in pyopengl](https://stackoverflow.com/questions/59823131/how-to-rotate-a-cube-using-mouse-in-pyopengl/59823600#59823600)  
+  ![How to rotate a cube using mouse in pyopengl](https://i.stack.imgur.com/zwhCC.gif)
+
+  :scroll: **[OpenGL immediate mode - rotate ](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_matrix_cube_rotate_1.py)**
+
 - [how to drag camera with the mouse like in blender](https://stackoverflow.com/questions/70398671/how-to-drag-camera-with-the-mouse-like-in-blender/70398950#70398950)  
   ![how to drag camera with the mouse like in blender](https://i.stack.imgur.com/dzCLn.gif)  
 
-  :scroll: **[OpenGL immediate mode - rotate around local](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_matrix_cube_rotate_1.py)**
+  :scroll: **[OpenGL immediate mode - rotate around local](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_matrix_cube_rotate_2.py)**
 
 - [Move around cube using WASD in Pygame?](https://stackoverflow.com/questions/64881896/move-around-cube-using-wasd-in-pygame/64882112#64882112)  
   ![Move around cube using WASD in Pygame?](https://i.stack.imgur.com/MSI1c.gif)
@@ -116,9 +121,6 @@ The [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) file format is a si
   :scroll: **[OpenGL immediate mode - move objects individually](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_matrix_move_objects_individually_1.py)**
 
 - [Python OpenGL not working properly when trying to color 3D objects](https://stackoverflow.com/questions/64081660/python-open-gl-not-working-properly-when-trying-to-color-3d-objects/64086720#64086720)
-
-- [How to rotate a cube using mouse in pyopengl](https://stackoverflow.com/questions/59823131/how-to-rotate-a-cube-using-mouse-in-pyopengl/59823600#59823600)  
-  ![How to rotate a cube using mouse in pyopengl](https://i.stack.imgur.com/zwhCC.gif)
 
 - [Align individual objects in pyOpenGL to create a bigger aggregated object](https://stackoverflow.com/questions/58590491/align-individual-objects-in-pyopengl-to-create-a-bigger-aggregated-object/58594997#58594997)  
   ![Align individual objects in pyOpenGL to create a bigger aggregated object](https://i.stack.imgur.com/vMqWn.gif)  
