@@ -186,6 +186,8 @@ Examples:
 - [How to make specular lighting on python to implement the Phong lighting?](https://stackoverflow.com/questions/67544996/how-to-make-specular-lighting-on-python-to-implement-the-phong-lighting/67545182#67545182)  
   ![scene](https://i.stack.imgur.com/x4yEs.gif)
 
+  :scroll: **[OpenGL immediate mode - Phong shading light model](../../../examples/pygame_opengl/immediate_mode/pygame_opengl_light_specular.py)**  
+
 ## Mouse position and Unproject
 
 [How to find PyGame Window Coordinates of an OpenGL Vertice?](https://stackoverflow.com/questions/46801701/how-to-find-pygame-window-coordinates-of-an-opengl-vertice)  
