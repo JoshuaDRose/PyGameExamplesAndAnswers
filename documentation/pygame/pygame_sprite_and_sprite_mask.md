@@ -26,6 +26,8 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Minimal sprite update](../../examples/minimal_examples/pygame_minimal_sprite_update.py)**
 
+A [`pygame.sprite.Sprite`](http://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) encapsulates an [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object and an [`pygame.Rect`](https://www.pygame.org/docs/ref/rect.html) object. It should have and an `image` and a `rect` attribute. `image` stores the sprite and `rect` stores the position and size of the sprite.
+
 [`pygame.sprite.Group.draw()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.draw) and [`pygame.sprite.Group.update()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.update) are methods which are provided by `pygame.sprite.Group`.
 
 The latter delegates to the `update` method of the contained [`pygame.sprite.Sprite`s](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Sprite) — you have to implement the method. See [`pygame.sprite.Group.update()`](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group.update):
