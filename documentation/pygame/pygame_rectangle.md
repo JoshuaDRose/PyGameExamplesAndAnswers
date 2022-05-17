@@ -136,6 +136,7 @@ Related Stack Overflow questions:
 
 - [pygame define different position order make the different result](https://stackoverflow.com/questions/59810922/pygame-define-different-position-order-make-the-different-result/59810986#59810986)
 - [Circle won't draw in pygame](https://stackoverflow.com/questions/64595078/circle-wont-draw-in-pygame/64595264#64595264)
+- [The draw polygon function in pygame doesn't draw the correct amount of vertices](https://stackoverflow.com/questions/72265149/the-draw-polygon-function-in-pygame-doesnt-draw-the-correct-amount-of-vertices/72265263#72265263)
 
 ## List of rectangles
 

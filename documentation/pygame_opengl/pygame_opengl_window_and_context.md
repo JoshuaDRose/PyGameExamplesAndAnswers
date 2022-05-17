@@ -67,6 +67,7 @@ Related Stack Overflow questions:
 
 - [How to save pygame scene as jpeg?](https://stackoverflow.com/questions/66209365/how-to-save-pygame-scene-as-jpeg/66209486#66209486)  
 - [Screenshots in OpenGL using python](https://stackoverflow.com/questions/71661677/screenshots-in-opengl-using-python/71663843#)
+- [How can I draw a list to the screen in pygame?](https://stackoverflow.com/questions/72265793/how-can-i-draw-a-list-to-the-screen-in-pygame/72268437#72268437)
 
 You can save a [`pygame.Surface`](https://www.pygame.org/docs/ref/surface.html) object, object as the _Surface_ associated with the screen with [`pygame.image.save()`](https://www.pygame.org/docs/ref/image.html#pygame.image.save):
 
@@ -95,6 +96,13 @@ pygame.display.flip()
 
 screen_surf = pygame.image.fromstring(buffer, size, "RGBA")
 pygame.image.save(screen_surf, "screenshot.jpg")
+```
+
+If the data is in a texture (e.g. stored in a compute shader) you can read it with [`glGetTexImage`](https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetTexImage.xhtml):
+
+```py
+image_buffer = glGetTexImage(GL_TEXTURE_2D, 0, GL_RGBA, GL_UNSIGNED_BYTE)
+image_surf = pygame.image.fromstring(image_buffer, (width, height), "RGBA")
 ```
 
 :scroll: **[OpenGL immediate mode - screenshot, glReadPixels](../../examples/pygame_opengl/immediate_mode/pygame_opengl_screenshot_glReadPixels.py)**  
