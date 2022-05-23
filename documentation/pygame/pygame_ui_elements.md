@@ -29,6 +29,9 @@ Related Stack Overflow questions:
 - [How can I make a button that goes to website in pygame?](https://stackoverflow.com/questions/68592269/how-can-i-make-a-button-that-goes-to-website-in-pygame/68592403#68592403)  
   ![How can I make a button that goes to website in pygame?](https://i.stack.imgur.com/hNd0b.gif)  
 
+- [How to create button with transparent background and shadow in pygame?](https://stackoverflow.com/questions/72352081/how-to-create-button-with-transparent-background-and-shadow-in-pygame/72352967#72352967)  
+  ![How to create button with transparent background and shadow in pygame?](https://i.stack.imgur.com/iXTLQ.gif)  
+
 ## Radio button
 
 Related Stack Overflow questions:
