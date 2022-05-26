@@ -46,8 +46,8 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-CarMovement](https://replit.com/@Rabbid76/PyGame-CarMovement#main.py)**
 
-- [PYGAME - Move Character with Vector](https://stackoverflow.com/questions/65688244/pygame-move-character-with-vector/65688573#65688573)  
-  ![PYGAME - Move Character with Vector](https://i.stack.imgur.com/R83IT.gif)  
+- [Move Character with Vector](https://stackoverflow.com/questions/65688244/move-character-with-vector/65688573#65688573)  
+  ![Move Character with Vector](https://i.stack.imgur.com/R83IT.gif)  
 
 - [Image rotation while moving](https://stackoverflow.com/questions/57226587/image-rotation-while-moving/57227063#57227063)  
   ![Image rotation while moving](https://i.stack.imgur.com/XWNPt.gif)
@@ -90,7 +90,7 @@ Related Stack Overflow questions:
 - [How to make a circle move diagonally from corner to corner in pygame](https://stackoverflow.com/questions/65814020/how-to-make-a-circle-move-diagonally-from-corner-to-corner-in-pygame/65814431#65814431)  
   ![How to make a circle move diagonally from corner to corner in pygame](https://i.stack.imgur.com/XgYd0.gif)
 
-- [How to move the object in squared path repeatedly?](https://stackoverflow.com/questions/71340195/how-to-move-the-object-in-squared-path-repeatedly/71340468#71340468)
+- [How to move the object in squared path repeatedly?](https://stackoverflow.com/questions/71340195/how-to-move-the-object-in-squared-path-repeatedly/71340468#71340468)  
   ![How to move the object in squared path repeatedly?](https://i.stack.imgur.com/b5gYS.gif)
 
 - [Pygame Enemys Wont Move Down - Tower Defense Game](https://stackoverflow.com/questions/63734280/pygame-enemys-wont-move-down-tower-defense-game)
