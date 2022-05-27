@@ -64,12 +64,12 @@ Related Stack Overflow questions:
   ![How to make transparent pygame.draw.circle](https://i.stack.imgur.com/nOoJj.png)
 - [python pygame set color transparency](https://stackoverflow.com/questions/59613548/python-pygame-set-color-transparency/59613903#59613903)  
   ![python pygame set color transparency](https://i.stack.imgur.com/VLpmO.png)
-- [Pygame : smooth picture aparition](https://stackoverflow.com/questions/54593653/pygame-smooth-picture-aparition/54594196#54594196)  
-  ![Pygame : smooth picture aparition](https://i.stack.imgur.com/2mkKD.gif)
+- [How to fade in a text or an image with PyGame](https://stackoverflow.com/questions/54593653/how-to-fade-in-a-text-or-an-image-with-pygame/54594196#54594196)  
+  ![How to fade in a text or an image with PyGame](https://i.stack.imgur.com/2mkKD.gif)
 
 :scroll: **[Minimal example - Blend text](../../examples/minimal_examples/pygame_minimal_blend_text.py)**
 
-![Pygame : smooth picture aparition](https://i.stack.imgur.com/2mkKD.gif)
+![How to fade in a text or an image with PyGame](https://i.stack.imgur.com/2mkKD.gif)
 
 ### Change color of an image
 
