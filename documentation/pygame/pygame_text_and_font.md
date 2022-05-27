@@ -59,6 +59,20 @@ my_ft_font = pygame.freetype.SysFont('Times New Roman', 50)
 my_ft_font.render_to(screen, (10, 10), "Hello world!", (255, 0, 0))
 ```
 
+## Bold
+
+Related Stack Overflow questions:
+
+- [Make a Single Word Within a String Bold](https://stackoverflow.com/questions/72409725/make-a-single-word-within-a-string-bold/72409816#72409816)
+- [Make a Single Word Within a String Bold](https://i.stack.imgur.com/Gs2ok.png)
+
+  :scroll: **[Minimal example - Bold text](../../examples/minimal_examples/pygame_minimal_text_bold.py)**  
+  :scroll: **[Minimal example - Bold text freetype](../../examples/minimal_examples/pygame_minimal_text_bold_2.py)**
+
+To draw a"bold" text the "bold" version of the font must be used. "bold" isn't a flag or attribute, it's just a different font.
+Use [`pygame.font.match_font()`](https://www.pygame.org/docs/ref/font.html) to find the path to a specific font file.  
+With the [`pygame.freetype`](https://www.pygame.org/docs/ref/freetype.html#pygame.freetype.Font) modle the text can be rendered with different styles like `STYLE_DEFAULT` and `STYLE_STRONG`. However, the text can only be rendered with one style at a time. 
+
 ### Unicode
 
 Related Stack Overflow questions:
