@@ -29,8 +29,6 @@ while run:
         if event.type == pygame.QUIT:
             run = False 
 
-    window_center = window.get_rect().center
-
     window.fill(0)
     window.blit(text1, (50, 75))
     window.blit(text2, (50 + text1.get_width(), 75))

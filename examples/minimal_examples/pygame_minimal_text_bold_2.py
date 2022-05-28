@@ -17,8 +17,10 @@ window = pygame.display.set_mode((400, 200))
 clock = pygame.time.Clock()
 
 ft_font = pygame.freetype.SysFont('Courier', 50)
-text1, rect1 = ft_font.render("Some ", fgcolor = (255, 255, 255), style = pygame.freetype.STYLE_DEFAULT)
-text2, rect2 = ft_font.render("Text ", fgcolor = (255, 255, 255), style = pygame.freetype.STYLE_STRONG)
+text1, rect1 = ft_font.render("Some ",
+    fgcolor = (255, 255, 255), style = pygame.freetype.STYLE_DEFAULT)
+text2, rect2 = ft_font.render("Text", 
+    fgcolor = (255, 255, 255), style = pygame.freetype.STYLE_STRONG)
 
 run = True
 while run:
