@@ -76,12 +76,12 @@ background_surf = pygame.Surface(displ_surf.get_size())
 background_surf.fill((64, 64, 64))
 background_surf.set_alpha(10)
 
-
+center = displ_surf.get_rect().center
 creatures = pygame.sprite.Group([
-    Creature(create_smiley(), HypotrochoidAnimation(0, (200, 200)), HueColorAnimation(0)),
-    Creature(create_smiley(), HypotrochoidAnimation(360*3/4, (200, 200)), HueColorAnimation(120)),
-    Creature(create_smiley(), HypotrochoidAnimation(360*3/4*2, (200, 200)), HueColorAnimation(240)),
-    Creature(create_ghost(), HypotrochoidAnimation(360*3/4*3, (200, 200)), 0)
+    Creature(create_smiley(), HypotrochoidAnimation(0, center), HueColorAnimation(0)),
+    Creature(create_smiley(), HypotrochoidAnimation(360*3/4, center), HueColorAnimation(120)),
+    Creature(create_smiley(), HypotrochoidAnimation(360*3/4*2, center), HueColorAnimation(240)),
+    Creature(create_ghost(), HypotrochoidAnimation(360*3/4*3, center), 0)
 ])
 frame = 0
 
@@ -92,6 +92,8 @@ while run:
     for event in event_list:
         if event.type == pygame.QUIT:
             run = False
+        if event.type == pygame.KEYDOWN:
+            pygame.image.save(displ_surf, 'creature_animation.png')
 
     creatures.update()
 
