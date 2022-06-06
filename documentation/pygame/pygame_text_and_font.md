@@ -59,6 +59,25 @@ my_ft_font = pygame.freetype.SysFont('Times New Roman', 50)
 my_ft_font.render_to(screen, (10, 10), "Hello world!", (255, 0, 0))
 ```
 
+## Find font
+
+Related Stack Overflow questions:
+
+- [I can't use the available fonts in pygame](https://stackoverflow.com/questions/72514320/i-cant-use-the-available-fonts-in-pygame/72514363#72514363)
+
+Use [`pygame.font.SysFont`](https://www.pygame.org/docs/ref/font.html#pygame.font.SysFont) instead of [`pygame.font.Font`](https://www.pygame.org/docs/ref/font.html#pygame.font.Font):
+
+```py
+font = pygame.font.SysFont('comicsansms', size)
+```
+
+Or use [`pygame.font.match_font()`](https://www.pygame.org/docs/ref/font.html) to find the path to a specific font file:
+
+```py
+comicsansms_file = pygame.font.match_font('comicsansms')
+font = pygame.font.Font(comicsansms_file, size)
+```
+
 ## Bold
 
 Related Stack Overflow questions:
