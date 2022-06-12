@@ -234,16 +234,16 @@ In the following example program, the function `blitRotate(surf, image, pos, ori
 
 - `surf` is the target Surface
 - `image` is the Surface which has to be rotated and `blit`
-- `pos` is the position of the pivot on the target Surface `surf` (relative to the top left of `surf`)
-- `originPos` is position of the pivot on the `image` Surface (relative to the top left of `image`)
+- `origin` is the position of the pivot on the target Surface `surf` (relative to the top left of `surf`)
+- `pivot` is position of the pivot on the `image` Surface (relative to the top left of `image`)
 - `angle` is the angle of rotation in degrees
 
 ```py
-def blitRotate(surf, image, pos, originPos, angle):
-    image_rect = image.get_rect(topleft = (pos[0] - originPos[0], pos[1]-originPos[1]))
+def blitRotate(surf, image, origin, pivot, angle):
+    image_rect = image.get_rect(topleft = (origin[0] - pivot[0], origin[1]-pivot[1]))
     offset_center_to_pivot = pygame.math.Vector2(pos) - image_rect.center
     rotated_offset = offset_center_to_pivot.rotate(-angle)
-    rotated_image_center = (pos[0] - rotated_offset.x, pos[1] - rotated_offset.y)
+    rotated_image_center = (origin[0] - rotated_offset.x, origin[1] - rotated_offset.y)
     rotated_image = pygame.transform.rotate(image, angle)
     rotated_image_rect = rotated_image.get_rect(center = rotated_image_center)
     surf.blit(rotated_image, rotated_image_rect)
