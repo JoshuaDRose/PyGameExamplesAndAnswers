@@ -32,6 +32,11 @@ Related Stack Overflow questions:
 
   **[![](https://i.stack.imgur.com/5jD0C.png) repl.it/@Rabbid76/PyGame-BarnsleysFern](https://replit.com/@Rabbid76/PyGame-BarnsleysFern#main.py)**
 
+- [Create trails of particles for the bullets](https://stackoverflow.com/questions/72643317/create-trails-of-paticles-for-the-bullets/72644068#72644068)  
+  ![Create trails of particles for the bullets](https://i.stack.imgur.com/BOiNf.gif)
+
+  :scroll: **[Minimal example - Rocket particles](../../examples/minimal_examples/pygame_minimal_2D_rocket_particles.py)**
+
 ## String
 
 Related Stack Overflow questions:

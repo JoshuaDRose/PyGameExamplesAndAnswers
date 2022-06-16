@@ -91,6 +91,7 @@ Lloyd Alexander, The Book of Three
 --><a href="https://stackoverflow.com/questions/70102350/pygame-when-adding-new-text-it-appears-on-bottom-and-rest-of-text-goes-up/70128422#70128422"><img src="https://i.stack.imgur.com/Rl00d.gif" height="100" title="Scroll Text"></a><!--
 --><a href="https://stackoverflow.com/questions/41862541/simple-physics-string/67749043#67749043"><img src="https://i.stack.imgur.com/gNlG0.gif" height="100" title="String animation"></a><!--
 --><a href="https://stackoverflow.com/questions/70591591/how-to-make-a-character-jump-in-pygame/70591592#70591592"><img src="https://i.stack.imgur.com/6NReI.gif" height="100" title="Jump"></a><!--
+--><a href="https://stackoverflow.com/questions/72643317/create-trails-of-paticles-for-the-bullets/72644068#72644068"><img src="https://i.stack.imgur.com/BOiNf.gif" height="100" title="Particles"></a><!--
 --></div>
 
 This repository is an excerpt and explanations of answers to [PyGame](https://www.pygame.org/news) questions published on [Stack Overflow](https://stackoverflow.com/questions/tagged/pygame) and answered by the author of this repository.  
