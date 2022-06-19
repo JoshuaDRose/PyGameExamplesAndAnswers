@@ -52,9 +52,21 @@ angle_x, angle_y = 0, 0
 
 image = pygame.image.load('texture/ObjectSheet.png')
 datas = pygame.image.tostring(image, 'RGBA')
+
+#texID = glGenTextures(1)
+#glBindTexture(GL_TEXTURE_2D, texID)
+#glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image.get_width(), image.get_height(), 0, GL_RGBA, GL_UNSIGNED_BYTE, datas)
+
+#texID = glGenTextures(1)
+#glBindTexture(GL_TEXTURE_2D, texID)
+#glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image.get_width(), image.get_height(), 0, GL_RGBA, GL_UNSIGNED_BYTE, None)
+#glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, image.get_width(), image.get_height(), GL_RGBA, GL_UNSIGNED_BYTE, datas)
+
 texID = glGenTextures(1)
 glBindTexture(GL_TEXTURE_2D, texID)
-glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image.get_width(), image.get_height(), 0, GL_RGBA, GL_UNSIGNED_BYTE, datas)
+glTexStorage2D(GL_TEXTURE_2D, 1, GL_RGBA8, image.get_width(), image.get_height())
+glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, image.get_width(), image.get_height(), GL_RGBA, GL_UNSIGNED_BYTE, datas)
+
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR)
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR)
 
