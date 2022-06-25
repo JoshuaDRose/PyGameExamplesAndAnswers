@@ -89,6 +89,49 @@ def cv2ImageToSurface(cv2Image):
 Related Stack Overflow questions:
 
 - [Read pygame window with open cv](https://stackoverflow.com/questions/68841168/read-pygame-window-with-open-cv/68842883#68842883)
+- [Pygame surface to opencv image object (not file saving)](https://stackoverflow.com/questions/72756330/pygame-surface-to-opencv-image-object-not-file-saving/72756521#72756521)  
+  ![Pygame surface to opencv image object (not file saving](https://i.stack.imgur.com/NItjk.png)
+
+:scroll: **[Minimal example - cv2 image From PyGame _Surface_](../../examples/minimal_examples/pygame_minimal_surface_to_cv2.py)**
+
+
+Actually, a _cv2_ image is just a three-dimensional _numpy_ array. the 1st dimension is the height, the 2nd the width and the 3rd the number of channels in the order blue, green, red.  
+Use [`pygame.surfarray.pixels3d`](https://www.pygame.org/docs/ref/surfarray.html#pygame.surfarray.pixels3d) to reference pixels into a 3d array:
+
+```py
+img_array = numpy.array(pygame.surfarray.pixels3d(selected_area))
+```
+
+Unfortunately, the pixels are stored in row mayor order. The color channels are in the order red, green, blue. So you need to reformat this array. [`transpose`](https://numpy.org/doc/stable/reference/generated/numpy.transpose.html) the array:
+
+```py
+image_object = numpy.transpose(img_array, (1, 0, 2))
+```
+
+Finally swap the red and blue color channel with either
+
+```py
+image_object[:, :, [0, 2]] = image_object[:, :, [2, 0]]
+```
+
+or
+
+```py
+image_object = cv2.cvtColor(image_object, cv2.COLOR_RGB2BGR)
+```
+
+Convert function:
+
+```py
+def pygameSurfaceToCv2Image(mysurface, x, y, w, h):
+    selected_area =  mysurface.subsurface((x, y, w, h))
+    img_array = numpy.array(pygame.surfarray.pixels3d(selected_area))
+    image_object = numpy.transpose(img_array, (1, 0, 2))
+    #image_object[:, :, [0, 2]] = image_object[:, :, [2, 0]]
+    image_object = cv2.cvtColor(image_object, cv2.COLOR_RGB2BGR)
+    return image_object
+```
+
 
 ### Load frames from NumPy array
 
