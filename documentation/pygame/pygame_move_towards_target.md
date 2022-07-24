@@ -25,7 +25,7 @@ Related Stack Overflow questions:
   :scroll: **[Minimal example - Rotate player and shoot bullet towards faced direction 2](../../examples/minimal_examples/pygame_minimal_rotate_to_target_fire_bullet_2.py)**
 
 - [How do you point the barrel towards mouse in pygame?](https://stackoverflow.com/questions/70283340/how-do-you-point-the-barrel-towards-mouse-in-pygame/70318324#70318324)
-- [How do you point the barrel towards mouse in pygame?](https://i.stack.imgur.com/dmBVe.gif)
+  ![How do you point the barrel towards mouse in pygame?](https://i.stack.imgur.com/dmBVe.gif)
 
 - [Moving forward after angle change. Pygame](https://stackoverflow.com/questions/61106297/moving-forward-after-angle-change-pygame/61106823#61106823)  
   ![Moving forward after angle change. Pygame](https://i.stack.imgur.com/A7RFW.gif)

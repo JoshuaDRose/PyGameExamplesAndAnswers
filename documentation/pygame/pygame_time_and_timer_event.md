@@ -226,7 +226,7 @@ Related Stack Overflow questions:
 - [How to make instances spawn automatically around the player?](https://stackoverflow.com/questions/54717938/how-to-make-instances-spawn-automatically-around-the-player/54723594#54723594)  
   ![How to make instances spawn automatically around the player?](https://i.stack.imgur.com/RIskl.gif)
   ![Spawning multiple instances of the same object concurrently in python](https://i.stack.imgur.com/1X0kk.gif)
-- [How to run multiple while loops at a time in Python](https://stackoverflow.com/questions/65263318/how-to-run-multiple-while-loops-at-a-time-in-python)  
+- [How to run multiple while loops at a time in Pygame](https://stackoverflow.com/questions/65263318/how-to-run-multiple-while-loops-at-a-time-in-pygame/65263396#65263396)  
 - [Issues with pygame.time.get_ticks()](https://stackoverflow.com/questions/65529525/issues-with-pygame-time-get-ticks/65529554#65529554)  
 
 It does not work that way. `time.sleep`, [`pygame.time.wait()`](https://www.pygame.org/docs/ref/time.html#pygame.time.wait) or [`pygame.time.delay`](https://www.pygame.org/docs/ref/time.html#pygame.time.delay) is not the right way to control time and gameplay within an application loop. The game does not respond while you wait. The application loop runs continuously. You have to measure the time in the loop and spawn the objects according to the elapsed time. Add the newly created objects to a list. Redraw all of the objects and the entire scene in each frame.
