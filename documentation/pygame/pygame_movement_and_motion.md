@@ -35,6 +35,11 @@ Related Stack Overflow questions:
 
   :scroll: **[Minimal example - Change direction smoothly](../../examples/minimal_examples/pygame_minimal_move_change_direction_smoothly.py)**
 
+- [moving with a normalized vector in pygame inconsistent?](https://stackoverflow.com/questions/68486375/moving-with-a-normalized-vector-in-pygame-inconsistent/68486486#68486486)  
+  ![moving with a normalized vector in pygame inconsistent?](https://i.stack.imgur.com/oPdGS.gif)
+
+  :scroll: **[Minimal example - Move rectangle diagonal](../../examples/minimal_examples/pygame_minimal_move_diagonal.py)**
+
 ## Move and rotate
 
 Related Stack Overflow questions:
